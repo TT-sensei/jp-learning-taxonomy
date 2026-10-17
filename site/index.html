@@ -15,18 +15,30 @@
     <p>学ぶことを、点ではなく、つながりで見る。</p>
   </header>
   <main>
-    <section class="controls" aria-label="学習項目の検索">
-      <label for="query">学習項目を探す</label>
-      <input id="query" type="search" placeholder="例：位取り、乗法">
+    <section class="controls" aria-label="学習項目の検索と絞り込み">
+      <label for="query">キーワード</label>
+      <input id="query" type="search" placeholder="例：分数、面積、グラフ">
       <label for="subject">教科</label>
       <select id="subject"><option value="">すべて</option></select>
+      <label for="grade">学年</label>
+      <select id="grade">
+        <option value="">全学年</option>
+        <option value="1">1年</option><option value="2">2年</option>
+        <option value="3">3年</option><option value="4">4年</option>
+        <option value="5">5年</option><option value="6">6年</option>
+      </select>
+      <label for="domain">領域</label>
+      <select id="domain"><option value="">すべての領域</option></select>
       <p id="count" class="muted" aria-live="polite">読み込み中…</p>
+      <p class="hint">項目や学習のつながりは試作段階です。公式の学習指導要領コードとの照合は未完了です。</p>
     </section>
     <section id="items" class="items" aria-label="学習項目一覧"></section>
     <aside id="detail" class="detail" aria-live="polite">
       <p class="muted">項目を選ぶと、説明と関連する学習項目がここに表示されます。</p>
     </aside>
   </main>
-  <footer><p>試作段階 · 内容・関係はレビュー前です。<a href="../README.md">プロジェクトについて</a></p></footer>
+  <footer>
+    <p>試作段階 · 内容・関係はレビュー前です。<a href="../README.md">プロジェクトについて</a> · <a href="../data/topics.json">JSONデータ</a></p>
+  </footer>
 </body>
 </html>
