@@ -430,15 +430,15 @@
       "resourceIds": [],
       "reviewStatus": "needs-review",
       "gradePlacement": {
-        "status": "candidate",
+        "status": "reviewed",
         "candidateFirstIntroductionGrade": 2,
         "candidateContinuingGrades": [
           3,
-          4,
-          5
+          4
         ],
-        "basis": "current-draft-grades",
-        "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
+        "basis": "mext-commentary-initial-review",
+        "note": "第2学年で乗法の交換法則を扱い、第3学年以降は計算方法や性質を用いた工夫へ発展する。第4学年までの継続は概念の活用を含むプロジェクト上の整理で、公式な同一単元の再配当を意味しない。",
+        "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       }
     },
     {
@@ -539,13 +539,14 @@
       "resourceIds": [],
       "reviewStatus": "needs-review",
       "gradePlacement": {
-        "status": "candidate",
+        "status": "reviewed",
         "candidateFirstIntroductionGrade": 3,
         "candidateContinuingGrades": [
           4
         ],
-        "basis": "current-draft-grades",
-        "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
+        "basis": "mext-commentary-initial-review",
+        "note": "第3学年で2位数や3位数に1位数をかける計算、第4学年で2位数・3位数に2位数をかける計算などへ発展する。桁数の異なる内容をまとめた項目なので、必要に応じて学年別・計算型別に分割する。",
+        "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       }
     },
     {
@@ -572,13 +573,14 @@
       "resourceIds": [],
       "reviewStatus": "needs-review",
       "gradePlacement": {
-        "status": "candidate",
+        "status": "reviewed",
         "candidateFirstIntroductionGrade": 3,
         "candidateContinuingGrades": [
           4
         ],
-        "basis": "current-draft-grades",
-        "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
+        "basis": "mext-commentary-initial-review",
+        "note": "第3学年で等分除・包含除の意味を扱い、第4学年で除数が1位数・2位数の場合の計算へ発展する。意味理解と筆算技能は分けて扱えるため、今後の項目粒度レビュー対象。",
+        "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       }
     },
     {
@@ -606,11 +608,12 @@
       "resourceIds": [],
       "reviewStatus": "needs-review",
       "gradePlacement": {
-        "status": "candidate",
+        "status": "reviewed",
         "candidateFirstIntroductionGrade": 3,
         "candidateContinuingGrades": [],
-        "basis": "current-draft-grades",
-        "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
+        "basis": "mext-commentary-initial-review",
+        "note": "第3学年の除法の内容に、あまりの意味とあまりのある除法が含まれる。場面に応じたあまりの処理は学習上重要だが、独立した公式コードの有無はコード表照合で別途確認する。",
+        "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       }
     },
     {
@@ -745,14 +748,12 @@
       "resourceIds": [],
       "reviewStatus": "needs-review",
       "gradePlacement": {
-        "status": "candidate",
+        "status": "reviewed",
         "candidateFirstIntroductionGrade": 4,
-        "candidateContinuingGrades": [
-          5,
-          6
-        ],
-        "basis": "current-draft-grades",
-        "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
+        "candidateContinuingGrades": [],
+        "basis": "mext-commentary-initial-review",
+        "note": "第4学年で小数の加法・減法を扱うことを確認。第5・6学年での活用はあり得るが、同じ内容の公式な継続配当として確認できないため継続学年は空配列とする。",
+        "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       }
     },
     {
@@ -779,13 +780,12 @@
       "resourceIds": [],
       "reviewStatus": "needs-review",
       "gradePlacement": {
-        "status": "candidate",
+        "status": "reviewed",
         "candidateFirstIntroductionGrade": 4,
-        "candidateContinuingGrades": [
-          5
-        ],
-        "basis": "current-draft-grades",
-        "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
+        "candidateContinuingGrades": [],
+        "basis": "mext-commentary-initial-review",
+        "note": "第4学年で同分母分数の加法・減法を扱う。第5学年では分数×整数・分数÷整数など別の計算へ進むため、同分母分数の加減そのものの継続配当とは区別する。",
+        "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       }
     },
     {
@@ -813,14 +813,12 @@
       "resourceIds": [],
       "reviewStatus": "needs-review",
       "gradePlacement": {
-        "status": "candidate",
+        "status": "reviewed",
         "candidateFirstIntroductionGrade": 4,
-        "candidateContinuingGrades": [
-          5,
-          6
-        ],
-        "basis": "current-draft-grades",
-        "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
+        "candidateContinuingGrades": [],
+        "basis": "mext-commentary-initial-review",
+        "note": "第4学年で四則混合や（ ）を用いた式を扱う。第5学年以降の複雑な式の利用とは区別し、式の意味・括弧・計算順序を一項目にまとめる現在の粒度は再検討候補。",
+        "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       }
     },
     {
@@ -879,13 +877,12 @@
       "resourceIds": [],
       "reviewStatus": "needs-review",
       "gradePlacement": {
-        "status": "candidate",
+        "status": "reviewed",
         "candidateFirstIntroductionGrade": 5,
-        "candidateContinuingGrades": [
-          6
-        ],
-        "basis": "current-draft-grades",
-        "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
+        "candidateContinuingGrades": [],
+        "basis": "mext-commentary-initial-review",
+        "note": "第5学年で乗数・除数が小数の場合の乗法・除法の意味と計算を扱う。第6学年での活用はあり得るが、同一内容の公式な継続配当とは確認できないため継続学年は空配列とする。",
+        "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       }
     },
     {
@@ -912,13 +909,12 @@
       "resourceIds": [],
       "reviewStatus": "needs-review",
       "gradePlacement": {
-        "status": "candidate",
+        "status": "reviewed",
         "candidateFirstIntroductionGrade": 5,
-        "candidateContinuingGrades": [
-          6
-        ],
-        "basis": "current-draft-grades",
-        "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
+        "candidateContinuingGrades": [],
+        "basis": "mext-commentary-initial-review",
+        "note": "第5学年で異分母分数の加法・減法を扱う。通分と計算技能は関連するが、分数の大きさ・等しい分数とは項目を分けて追跡する。",
+        "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       }
     },
     {
@@ -946,14 +942,12 @@
       "resourceIds": [],
       "reviewStatus": "needs-review",
       "gradePlacement": {
-        "status": "candidate",
+        "status": "reviewed",
         "candidateFirstIntroductionGrade": 4,
-        "candidateContinuingGrades": [
-          5,
-          6
-        ],
-        "basis": "current-draft-grades",
-        "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
+        "candidateContinuingGrades": [],
+        "basis": "mext-commentary-initial-review",
+        "note": "第4学年で概数、四捨五入、目的に応じた見積もりを扱うことを確認。見積もりの活用は他学年でも行うが、継続学年として一律に配当しない。概数と計算の見積もりは必要なら分割する。",
+        "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       }
     },
     {
@@ -1011,13 +1005,14 @@
       "resourceIds": [],
       "reviewStatus": "needs-review",
       "gradePlacement": {
-        "status": "candidate",
+        "status": "reviewed",
         "candidateFirstIntroductionGrade": 5,
         "candidateContinuingGrades": [
           6
         ],
-        "basis": "current-draft-grades",
-        "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
+        "basis": "mext-commentary-initial-review",
+        "note": "整数・小数・分数を組み合わせた計算活用は、学習指導要領の単一の独立項目名として対応づけにくい横断的なプロジェクト項目。公式コードに直接対応するものとして扱わず、今後は具体的な計算型・活用場面に分割するか、横断的な学習項目へ移す必要がある。",
+        "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       }
     },
     {
@@ -2594,16 +2589,16 @@
       "resourceIds": [],
       "reviewStatus": "needs-review",
       "gradePlacement": {
-        "status": "candidate",
+        "status": "reviewed",
         "candidateFirstIntroductionGrade": 2,
         "candidateContinuingGrades": [
           3,
           4,
-          5,
-          6
+          5
         ],
-        "basis": "current-draft-grades",
-        "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
+        "basis": "mext-commentary-initial-review",
+        "note": "第2学年で□を用いた式や数量関係を扱い、その後は数量関係を式で表す内容へ発展する。全学年を一つの継続項目とするのは広すぎるため、学年ごとの式表現・未知数の求め方へ分割する候補。第6学年の文字式は別項目として維持する。",
+        "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       }
     },
     {
@@ -2632,15 +2627,16 @@
       "resourceIds": [],
       "reviewStatus": "needs-review",
       "gradePlacement": {
-        "status": "candidate",
+        "status": "reviewed",
         "candidateFirstIntroductionGrade": 3,
         "candidateContinuingGrades": [
           4,
           5,
           6
         ],
-        "basis": "current-draft-grades",
-        "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
+        "basis": "mext-commentary-initial-review",
+        "note": "第3学年で小数と分数の初歩的な関係、第4学年で分数の表し方や小数との関係を広げる。数の範囲や表現が学年ごとに異なるため、整数・小数・分数の相互関係を一括せず、学年・関係の種類ごとに分割する候補。",
+        "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       }
     },
     {
@@ -2669,15 +2665,17 @@
       "resourceIds": [],
       "reviewStatus": "needs-review",
       "gradePlacement": {
-        "status": "candidate",
-        "candidateFirstIntroductionGrade": 3,
+        "status": "reviewed",
+        "candidateFirstIntroductionGrade": 2,
         "candidateContinuingGrades": [
+          3,
           4,
           5,
           6
         ],
-        "basis": "current-draft-grades",
-        "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
+        "basis": "mext-commentary-initial-review",
+        "note": "第2学年で加法の交換法則・結合法則、第3学年以降で加法・乗法の性質や計算の工夫を発展させる。交換・結合・分配法則をまとめた項目は学年別・性質別に分割する候補であり、各法則が全学年で新規に扱われることを意味しない。",
+        "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       }
     },
     {
