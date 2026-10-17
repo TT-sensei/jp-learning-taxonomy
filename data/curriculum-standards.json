@@ -1,0 +1,25 @@
+{
+  "schemaVersion": "0.1.0",
+  "sources": [
+    {
+      "id": "mext-elementary-curriculum",
+      "title": "小学校学習指導要領・解説",
+      "publisher": "文部科学省",
+      "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1384661.htm",
+      "sourceType": "official-reference",
+      "versionNote": "対象の告示年・版・該当箇所は、各項目を公開レビューする際に確認して追記する。",
+      "reuseNote": "原文・図表等の転載は避け、個別の利用条件を確認する。",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "mext-curriculum-codes",
+      "title": "学習指導要領コード関連情報",
+      "publisher": "文部科学省",
+      "url": "https://www.mext.go.jp/a_menu/other/data_00002.htm",
+      "sourceType": "official-reference",
+      "versionNote": "採用するコード体系の版と配布ファイルを確認してから登録する。",
+      "reuseNote": "配布データの利用条件と改変・再配布条件を確認する。",
+      "reviewStatus": "needs-review"
+    }
+  ]
+}
