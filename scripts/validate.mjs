@@ -109,7 +109,8 @@ for (const topic of topics) byDomain[topic.domain] = (byDomain[topic.domain] ?? 
 report.push(`学習項目: ${topics.length}`);
 report.push(`関係: ${dependencies.length}`);
 report.push(`出典: ${sources.length}`);
-report.push(`領域参照: ${standards.length}`);\nreport.push(`表現モデル: ${representationModels.length}`);
+report.push(`領域参照: ${standards.length}`);
+report.push(`表現モデル: ${representationModels.length}`);
 report.push(`教科・領域別: ${JSON.stringify(byDomain)}`);
 if (errors.length) {
   console.error("検証エラー:");
