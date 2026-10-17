@@ -655,6 +655,20 @@
       "matchStatus": "not-checked",
       "matchType": "unconfirmed",
       "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.angle-sums-in-polygons",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.changing-quantities-patterns",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
     }
   ]
 }
