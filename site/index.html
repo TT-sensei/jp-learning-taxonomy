@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="小学校の学習内容と、そのつながりを探すための試作学習マップ。">
+  <title>JP Learning Taxonomy | 学習マップ</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <header class="top">
+    <p class="eyebrow">OPEN LEARNING DATA · PROTOTYPE</p>
+    <h1>学習マップ</h1>
+    <p>学ぶことを、点ではなく、つながりで見る。</p>
+  </header>
+  <main>
+    <section class="controls" aria-label="学習項目の検索">
+      <label for="query">学習項目を探す</label>
+      <input id="query" type="search" placeholder="例：位取り、乗法">
+      <label for="subject">教科</label>
+      <select id="subject"><option value="">すべて</option></select>
+      <p id="count" class="muted" aria-live="polite">読み込み中…</p>
+    </section>
+    <section id="items" class="items" aria-label="学習項目一覧"></section>
+    <aside id="detail" class="detail" aria-live="polite">
+      <p class="muted">項目を選ぶと、説明と関連する学習項目がここに表示されます。</p>
+    </aside>
+  </main>
+  <footer><p>試作段階 · 内容・関係はレビュー前です。<a href="../README.md">プロジェクトについて</a></p></footer>
+</body>
+</html>
