@@ -1,0 +1,632 @@
+{
+  "schemaVersion": "1.0.0",
+  "status": "mapping-in-progress",
+  "sourceId": "mext-elementary-curriculum-code-table-82v12",
+  "officialVersion": "82V12",
+  "description": "プロジェクト独自の学習項目と文部科学省の学習指導要領コードを対応付けるための表。公式コードを実データと照合するまでは未確認のコードを推測で記入しない。",
+  "mappings": [
+    {
+      "topicId": "jp.elem.math.number-counting",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.compose-decompose-to-10",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.compare-order-numbers",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.addition-meaning",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.addition-within-20",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.subtraction-meaning",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.subtraction-within-20",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.number-sentences",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.numbers-to-10000",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.multidigit-add-subtract",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.multiplication-meaning",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.multiplication-tables",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.multiplication-properties",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.unit-fractions",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.numbers-and-place-value",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.multidigit-multiplication",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.division-meaning",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.division-remainders",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.decimals-tenths",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.fractions-compare",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.decimal-place-value",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.decimal-add-subtract",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.fractions-same-denominator",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.expressions-parentheses",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.factors-multiples",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.decimal-multiply-divide",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.fractions-unlike-denominators",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.rounding-estimation",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.fraction-multiply-divide",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.mixed-calculations",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.familiar-shapes",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.compose-decompose-shapes",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.triangles-quadrilaterals",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.boxes-and-faces",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.angles",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.triangles-circles-spheres",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.perpendicular-parallel",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.quadrilateral-properties",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.area-rectangle-square",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.regular-polygons-circumference",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.area-triangle-parallelogram-trapezoid",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.volume-cuboid",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.area-circle",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.symmetry",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.enlargement-reduction",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.volume-prisms-cylinders",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.direct-measurement",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.time-reading",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.length-units-cm-mm-m",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.capacity-units",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.elapsed-time",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.distance-kilometer",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.mass-units",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.area-units",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.measurement-choice",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.unit-quantity",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.speed",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.percentage",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.ratio",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.proportionality",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.inverse-proportionality",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.scale-and-ratio",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.classify-count-pictograph",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.tables-simple-graphs",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.bar-graphs",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.line-graphs",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.tables-multiple-viewpoints",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.average",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.percentage-graphs",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.statistical-viewpoints",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.data-based-reasoning",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.understand-problem-structure",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.represent-with-diagrams-tables",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.explain-reasoning",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.find-patterns",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.estimate-and-check",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.math-in-daily-life",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.unknown-number-equations",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.decimal-fraction-connections",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.calculation-properties",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.angle-measurement",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.geometric-construction",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.solids-nets",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.volume-units",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.meaning-of-proportion",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.meaning-of-ratio",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.data-frequency-tables",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.data-statistical-investigation",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.unit-conversion-length-area-volume",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    }
+  ]
+}
