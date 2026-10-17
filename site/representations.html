@@ -4,15 +4,15 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>算数の表現モデルマップ | JP Learning Taxonomy</title>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="./style.css">
 <style>
-.model-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem;margin-top:1rem}.model-card{background:var(--panel,#fff);border:1px solid var(--line,#ddd);border-radius:14px;padding:1rem}.model-card h2{font-size:1.1rem;margin:.2rem 0 .6rem}.model-card p{line-height:1.65}.model-card ul{padding-left:1.2rem}.model-card li{margin:.35rem 0}.model-card a{color:inherit}.model-meta{font-size:.85rem;color:var(--muted,#666)}
+main{display:block;max-width:1200px}.panel{background:#fff;border:1px solid #dce3e8;border-radius:14px;padding:16px}.panel label{display:block;font-weight:650;margin-bottom:6px}.model-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem;margin-top:1rem}.model-card{background:var(--panel,#fff);border:1px solid var(--line,#ddd);border-radius:14px;padding:1rem}.model-card h2{font-size:1.1rem;margin:.2rem 0 .6rem}.model-card p{line-height:1.65}.model-card ul{padding-left:1.2rem}.model-card li{margin:.35rem 0}.model-card a{color:inherit}.model-meta{font-size:.85rem;color:var(--muted,#666)}
 </style>
 </head>
 <body>
-<main class="shell">
-<header class="site-header"><p class="eyebrow">JP LEARNING TAXONOMY</p><h1>算数の表現モデルマップ</h1><p>学年を越えて、数量や図形をどんな表現で捉え、別の表現につなげていくかを見渡すための試作です。</p><p><a href="index.html">← 学習項目マップへ戻る</a></p></header>
-<section class="panel"><label for="grade-filter">学年で絞り込む</label> <select id="grade-filter"><option value="0">全学年</option><option value="1">1年</option><option value="2">2年</option><option value="3">3年</option><option value="4">4年</option><option value="5">5年</option><option value="6">6年</option></select><p id="summary" class="muted">データを読み込んでいます。</p><div id="models" class="model-grid"></div></section>
+<main>
+<header class="top"><p class="eyebrow">JP LEARNING TAXONOMY</p><h1>算数の表現モデルマップ</h1><p>学年を越えて、数量や図形をどんな表現で捉え、別の表現につなげていくかを見渡すための試作です。</p><p><a href="./index.html">← 学習項目マップへ戻る</a></p></header>
+<section class="panel controls"><label for="grade-filter">学年で絞り込む</label> <select id="grade-filter"><option value="0">全学年</option><option value="1">1年</option><option value="2">2年</option><option value="3">3年</option><option value="4">4年</option><option value="5">5年</option><option value="6">6年</option></select><p id="summary" class="muted">データを読み込んでいます。</p><div id="models" class="model-grid"></div></section>
 <footer class="muted"><p>表現モデルと学習項目の対応はプロジェクト独自の草案です。出版社の図版を転載したものではありません。</p></footer>
 </main>
 <script src="representations.js" defer></script>
