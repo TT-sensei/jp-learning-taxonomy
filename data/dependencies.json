@@ -1,0 +1,23 @@
+{
+  "schemaVersion": "0.1.0",
+  "dependencies": [
+    {
+      "id": "dep-math-001",
+      "from": "jp.elem.math.number.place-value",
+      "to": "jp.elem.math.addition-subtraction",
+      "type": "recommended-prerequisite",
+      "rationale": "位取りの理解は、複数の位にまたがる整数の計算を考える助けになる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "dep-math-002",
+      "from": "jp.elem.math.addition-subtraction",
+      "to": "jp.elem.math.multiplication",
+      "type": "related-learning",
+      "rationale": "加法のまとまりとして乗法を捉える際に関連する。学習順序を一律に固定するものではない。",
+      "evidenceType": "editorial",
+      "reviewStatus": "draft"
+    }
+  ]
+}
