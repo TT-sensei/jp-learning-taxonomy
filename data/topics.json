@@ -2291,6 +2291,60 @@
       "prerequisiteIds": [],
       "resourceIds": [],
       "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.angle-sums-in-polygons",
+      "subject": "算数",
+      "domain": "B 図形",
+      "name": "三角形や四角形の角の性質",
+      "description": "三角形や四角形の角の大きさの和に着目し、図形の性質を考える。",
+      "grades": [
+        5
+      ],
+      "topicType": "concept",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "角の測定技能とは区別して、図形の角の性質を整理した項目案。公式コードとの対応は未照合。"
+        },
+        {
+          "sourceId": "tokyo-shoseki-grade5-units-2026",
+          "note": "東京書籍の小学5年単元一覧に「図形の角」が掲載されていることを確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-B"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.changing-quantities-patterns",
+      "subject": "算数",
+      "domain": "C 変化と関係（第4〜6学年を中心とする）",
+      "name": "二つの数量の変わり方",
+      "description": "二つの数量の変化を表などに整理し、対応や変化のきまりを見つけて説明する。",
+      "grades": [
+        5
+      ],
+      "topicType": "inquiry",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "比例関係の学習と区別して、二つの数量の変わり方を調べる活動を整理した項目案。公式コードとの対応は未照合。"
+        },
+        {
+          "sourceId": "tokyo-shoseki-grade5-units-2026",
+          "note": "東京書籍の小学5年単元一覧に「変わり方調べ」が掲載されていることを確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-C-change"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
     }
   ]
 }
