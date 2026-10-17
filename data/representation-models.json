@@ -116,7 +116,8 @@
         "jp.elem.math.proportionality",
         "jp.elem.math.inverse-proportionality",
         "jp.elem.math.data-frequency-tables",
-        "jp.elem.math.data-statistical-investigation"
+        "jp.elem.math.data-statistical-investigation",
+        "jp.elem.math.changing-quantities-patterns"
       ],
       "reviewStatus": "needs-review"
     },
@@ -174,7 +175,8 @@
       "topicIds": [
         "jp.elem.math.boxes-and-faces",
         "jp.elem.math.solids-nets",
-        "jp.elem.math.geometric-construction"
+        "jp.elem.math.geometric-construction",
+        "jp.elem.math.angle-sums-in-polygons"
       ],
       "reviewStatus": "needs-review"
     },
