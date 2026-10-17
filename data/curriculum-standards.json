@@ -21,6 +21,16 @@
       "versionNote": "文部科学省の教育データ標準ページで示される小学校学習指導要領コードの版。個々の算数項目へのコード対応は未確認。",
       "reuseNote": "コード表とデータの利用条件を確認し、対応コードを登録する際に出典・版を明示する。",
       "reviewStatus": "needs-review"
+    },
+    {
+      "id": "mext-elementary-curriculum-code-table-82v12",
+      "title": "小学校学習指導要領コード表（平成29年告示）82V12",
+      "publisher": "文部科学省",
+      "url": "https://www.mext.go.jp/a_menu/other/data_00001.htm",
+      "version": "82V12",
+      "publishedDate": "2022-03-14",
+      "sourceType": "official-code-table",
+      "usageNote": "公式コードの照合元。コード表のデータを確認してから各学習項目との対応を登録する。現時点で個別コードの照合は未完了。"
     }
   ],
   "standards": [
