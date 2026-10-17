@@ -306,11 +306,31 @@
         3,
         4
       ],
-      "reviewStatus": "needs-item-level-check",
+      "reviewStatus": "reviewed",
       "evidenceSourceIds": [
         "mext-elementary-math-guideline-2017"
       ],
-      "reviewerNote": "領域・学年別内容の確認対象として抽出。現時点では個別の初出・継続学年を確定していない。"
+      "reviewerNote": "文部科学省解説の学年別記述を確認。第2学年では2位数と簡単な3位数、第3学年では3位数・4位数の加法及び減法が扱われることを確認。第4学年は既習計算の活用も含む候補範囲だが、2〜4桁という項目名はプロジェクト独自のまとめであり、学年別の単元名ではない。",
+      "reviewedCandidateFirstIntroductionGrade": 2,
+      "reviewedCandidateContinuingGrades": [
+        3,
+        4
+      ],
+      "officialEvidence": {
+        "sourceId": "mext-elementary-math-guideline-2017",
+        "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf",
+        "pdfPageIndexLabels": [
+          "P110",
+          "P146",
+          "P181"
+        ],
+        "printedPages": [
+          105,
+          141,
+          176
+        ],
+        "note": "第2学年では2位数と簡単な3位数、第3学年では3位数・4位数の加法及び減法が扱われることを確認。第4学年は既習計算の活用も含む候補範囲だが、2〜4桁という項目名はプロジェクト独自のまとめであり、学年別の単元名ではない。"
+      }
     },
     {
       "topicId": "jp.elem.math.multiplication-meaning",
@@ -383,11 +403,31 @@
         3,
         4
       ],
-      "reviewStatus": "needs-item-level-check",
+      "reviewStatus": "reviewed",
       "evidenceSourceIds": [
         "mext-elementary-math-guideline-2017"
       ],
-      "reviewerNote": "領域・学年別内容の確認対象として抽出。現時点では個別の初出・継続学年を確定していない。"
+      "reviewerNote": "文部科学省解説の学年別記述を確認。第2学年で簡単な分数を扱い、第3学年で簡単な分数の大きさの比較や加法・減法、第4学年で真分数・仮分数・帯分数とその大小を扱うことを確認。単位分数に焦点を当てた名称はプロジェクト独自の細分化。",
+      "reviewedCandidateFirstIntroductionGrade": 2,
+      "reviewedCandidateContinuingGrades": [
+        3,
+        4
+      ],
+      "officialEvidence": {
+        "sourceId": "mext-elementary-math-guideline-2017",
+        "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf",
+        "pdfPageIndexLabels": [
+          "P110",
+          "P137",
+          "P181"
+        ],
+        "printedPages": [
+          105,
+          132,
+          176
+        ],
+        "note": "第2学年で簡単な分数を扱い、第3学年で簡単な分数の大きさの比較や加法・減法、第4学年で真分数・仮分数・帯分数とその大小を扱うことを確認。単位分数に焦点を当てた名称はプロジェクト独自の細分化。"
+      }
     },
     {
       "topicId": "jp.elem.math.numbers-and-place-value",
@@ -418,11 +458,26 @@
       ],
       "currentCandidateFirstIntroductionGrade": 3,
       "currentCandidateContinuingGrades": [],
-      "reviewStatus": "needs-item-level-check",
+      "reviewStatus": "reviewed",
       "evidenceSourceIds": [
         "mext-elementary-math-guideline-2017"
       ],
-      "reviewerNote": "領域・学年別内容の確認対象として抽出。現時点では個別の初出・継続学年を確定していない。"
+      "reviewerNote": "文部科学省解説の学年別記述を確認。第3学年の内容概観で小数（1/10の位）とその加法・減法が明示されることを確認。後学年の小数計算や位取りは別項目として扱う。",
+      "reviewedCandidateFirstIntroductionGrade": 3,
+      "reviewedCandidateContinuingGrades": [],
+      "officialEvidence": {
+        "sourceId": "mext-elementary-math-guideline-2017",
+        "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf",
+        "pdfPageIndexLabels": [
+          "P137",
+          "P138"
+        ],
+        "printedPages": [
+          132,
+          133
+        ],
+        "note": "第3学年の内容概観で小数（1/10の位）とその加法・減法が明示されることを確認。後学年の小数計算や位取りは別項目として扱う。"
+      }
     },
     {
       "topicId": "jp.elem.math.fractions-compare",
@@ -489,11 +544,26 @@
       ],
       "currentCandidateFirstIntroductionGrade": 6,
       "currentCandidateContinuingGrades": [],
-      "reviewStatus": "needs-item-level-check",
+      "reviewStatus": "reviewed",
       "evidenceSourceIds": [
         "mext-elementary-math-guideline-2017"
       ],
-      "reviewerNote": "領域・学年別内容の確認対象として抽出。現時点では個別の初出・継続学年を確定していない。"
+      "reviewerNote": "文部科学省解説の学年別記述を確認。第6学年の内容概観で分数による乗法・除法の適用範囲の拡張と計算が明示されることを確認。第5学年の分数×整数・分数÷整数は前段階として区別する。",
+      "reviewedCandidateFirstIntroductionGrade": 6,
+      "reviewedCandidateContinuingGrades": [],
+      "officialEvidence": {
+        "sourceId": "mext-elementary-math-guideline-2017",
+        "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf",
+        "pdfPageIndexLabels": [
+          "P294",
+          "P295"
+        ],
+        "printedPages": [
+          289,
+          290
+        ],
+        "note": "第6学年の内容概観で分数による乗法・除法の適用範囲の拡張と計算が明示されることを確認。第5学年の分数×整数・分数÷整数は前段階として区別する。"
+      }
     },
     {
       "topicId": "jp.elem.math.letter-expressions",
@@ -503,11 +573,26 @@
       ],
       "currentCandidateFirstIntroductionGrade": 6,
       "currentCandidateContinuingGrades": [],
-      "reviewStatus": "needs-item-level-check",
+      "reviewStatus": "reviewed",
       "evidenceSourceIds": [
         "mext-elementary-math-guideline-2017"
       ],
-      "reviewerNote": "領域・学年別内容の確認対象として抽出。現時点では個別の初出・継続学年を確定していない。"
+      "reviewerNote": "文部科学省解説の学年別記述を確認。第6学年A(2)で、□や△などに代えてa、xなどの文字を用いて数量関係を式に表し、文字に数を当てはめて調べることが明示される。第5学年までの□・△や言葉の式は準備段階として区別する。",
+      "reviewedCandidateFirstIntroductionGrade": 6,
+      "reviewedCandidateContinuingGrades": [],
+      "officialEvidence": {
+        "sourceId": "mext-elementary-math-guideline-2017",
+        "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf",
+        "pdfPageIndexLabels": [
+          "P294",
+          "P295"
+        ],
+        "printedPages": [
+          289,
+          290
+        ],
+        "note": "第6学年A(2)で、□や△などに代えてa、xなどの文字を用いて数量関係を式に表し、文字に数を当てはめて調べることが明示される。第5学年までの□・△や言葉の式は準備段階として区別する。"
+      }
     }
   ]
 }
