@@ -8,6 +8,8 @@ const dependenciesData = readJson("data/dependencies.json");
 const standardsData = readJson("data/curriculum-standards.json");
 const resourcesData = readJson("data/resources.json");
 const representationData = readJson("data/representation-models.json");
+const manifestData = readJson("data/manifest.json");
+const codeMappingData = readJson("data/curriculum-code-mapping.json");
 const errors = [];
 const report = [];
 const uniqueMap = (items, key, label) => {
@@ -26,6 +28,7 @@ const standards = standardsData.standards ?? [];
 const sources = standardsData.sources ?? [];
 const resources = resourcesData.resources ?? [];
 const representationModels = representationData.models ?? [];
+const codeMappings = codeMappingData.mappings ?? [];
 const topicById = uniqueMap(topics, "id", "topic ID");
 const edgeById = uniqueMap(dependencies, "id", "dependency ID");
 const standardById = uniqueMap(standards, "id", "standard ID");
@@ -67,6 +70,7 @@ for (const standard of standards) {
 for (const source of sources) {
   if (!source.title || !source.publisher || !source.url) errors.push(`${source.id}: 出典の必須情報が不足しています。`);
 }
+const representedTopicIds = new Set(representationModels.flatMap(model => model.topicIds ?? []));
 for (const model of representationModels) {
   if (!model.name || !model.purpose) errors.push(`${model.id}: 表現モデルの name / purpose が不足しています。`);
   for (const topicId of model.topicIds ?? []) {
@@ -111,6 +115,16 @@ report.push(`関係: ${dependencies.length}`);
 report.push(`出典: ${sources.length}`);
 report.push(`領域参照: ${standards.length}`);
 report.push(`表現モデル: ${representationModels.length}`);
+report.push(`表現モデルに関連づけられた学習項目: ${representedTopicIds.size}/${topics.length}`);
+report.push(`公式コード未照合の項目: ${codeMappings.filter(item => item.matchStatus === "not-checked").length}/${topics.length}`);
+if (manifestData.counts?.topics !== topics.length) errors.push("manifest.json の topics 件数が topics.json と一致しません。");
+if (manifestData.counts?.dependencies !== dependencies.length) errors.push("manifest.json の dependencies 件数が dependencies.json と一致しません。");
+if (manifestData.counts?.representationModels !== representationModels.length) errors.push("manifest.json の representationModels 件数が実データと一致しません。");
+if (codeMappings.length !== topics.length) errors.push("curriculum-code-mapping.json の対応枠数が topics.json の項目数と一致しません。");
+for (const item of codeMappings) {
+  if (!topicById.has(item.topicId)) errors.push(`コード対応表に未登録の topic ID ${item.topicId}`);
+  if (!["not-checked","candidate","verified","no-direct-match"].includes(item.matchStatus)) errors.push(`${item.topicId}: 未定義の matchStatus ${item.matchStatus}`);
+}
 report.push(`教科・領域別: ${JSON.stringify(byDomain)}`);
 if (errors.length) {
   console.error("検証エラー:");
