@@ -50,6 +50,20 @@ for (const topic of topics) {
   if (!Array.isArray(topic.grades) || topic.grades.length === 0 || topic.grades.some(g => !Number.isInteger(g) || g < 1 || g > 6)) {
     errors.push(`${topic.id}: grades は1〜6の整数の配列にしてください。`);
   }
+  const placement = topic.gradePlacement;
+  if (!placement || !["candidate","reviewed","verified"].includes(placement.status)) {
+    errors.push(`${topic.id}: gradePlacement.status が未定義または不足しています。`);
+  } else {
+    if (!Number.isInteger(placement.candidateFirstIntroductionGrade) || placement.candidateFirstIntroductionGrade < 1 || placement.candidateFirstIntroductionGrade > 6) {
+      errors.push(`${topic.id}: candidateFirstIntroductionGrade は1〜6の整数にしてください。`);
+    }
+    if (!Array.isArray(placement.candidateContinuingGrades) || placement.candidateContinuingGrades.some(g => !Number.isInteger(g) || g < 1 || g > 6)) {
+      errors.push(`${topic.id}: candidateContinuingGrades は1〜6の整数の配列にしてください。`);
+    }
+    if (placement.status === "candidate" && placement.basis !== "current-draft-grades") {
+      errors.push(`${topic.id}: candidate の根拠情報が不足しています。`);
+    }
+  }
   for (const standardId of topic.curriculumStandards ?? []) {
     if (!standardById.has(standardId)) errors.push(`${topic.id}: 未登録の standard ID ${standardId}`);
   }
@@ -118,6 +132,7 @@ report.push(`領域参照: ${standards.length}`);
 report.push(`表現モデル: ${representationModels.length}`);
 report.push(`表現モデルに関連づけられた学習項目: ${representedTopicIds.size}/${topics.length}`);
 report.push(`公式コード未照合の項目: ${codeMappings.filter(item => item.matchStatus === "not-checked").length}/${topics.length}`);
+report.push(`学年配当が候補状態の項目: ${topics.filter(topic => topic.gradePlacement?.status === "candidate").length}/${topics.length}`);
 if (manifestData.counts?.topics !== topics.length) errors.push("manifest.json の topics 件数が topics.json と一致しません。");
 if (manifestData.counts?.dependencies !== dependencies.length) errors.push("manifest.json の dependencies 件数が dependencies.json と一致しません。");
 if (manifestData.counts?.representationModels !== representationModels.length) errors.push("manifest.json の representationModels 件数が実データと一致しません。");
