@@ -51,6 +51,16 @@
       "versionNote": "「領域別系統表」「図解系統表」「線分図・数直線の系統」などを参照する。対象年度を明示して扱う。",
       "reuseNote": "出版社の文章・図版を転載せず、単元配列を全国共通の唯一の順序とみなさない。",
       "reviewStatus": "needs-review"
+    },
+    {
+      "id": "tokyo-shoseki-mathconnect-proportion-inverse-2024",
+      "title": "小学6年「比例と反比例」の授業資料",
+      "publisher": "東京書籍",
+      "url": "https://mathconnect.tokyo-shoseki.co.jp/hitokufu/20241111-04/",
+      "sourceType": "publisher-teaching-reference",
+      "publishedDate": "2024-11-11",
+      "usageNote": "比例の学習をもとに反比例を調べる学習展開を確認する補助資料。公式コードの代替ではない。",
+      "reviewStatus": "content-checked"
     }
   ],
   "standards": [
