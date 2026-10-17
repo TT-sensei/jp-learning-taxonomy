@@ -1,23 +1,419 @@
 {
-  "schemaVersion": "0.1.0",
+  "schemaVersion": "0.2.0",
   "dependencies": [
     {
-      "id": "dep-math-001",
-      "from": "jp.elem.math.number.place-value",
-      "to": "jp.elem.math.addition-subtraction",
-      "type": "recommended-prerequisite",
-      "rationale": "位取りの理解は、複数の位にまたがる整数の計算を考える助けになる。",
+      "id": "math-edge-001",
+      "from": "jp.elem.math.number-counting",
+      "to": "jp.elem.math.compose-decompose-to-10",
+      "type": "prerequisite",
+      "rationale": "数を数えることを、数の構成を捉える活動へつなぐ。",
       "evidenceType": "editorial",
-      "reviewStatus": "draft"
+      "reviewStatus": "needs-review"
     },
     {
-      "id": "dep-math-002",
-      "from": "jp.elem.math.addition-subtraction",
-      "to": "jp.elem.math.multiplication",
-      "type": "related-learning",
-      "rationale": "加法のまとまりとして乗法を捉える際に関連する。学習順序を一律に固定するものではない。",
+      "id": "math-edge-002",
+      "from": "jp.elem.math.compose-decompose-to-10",
+      "to": "jp.elem.math.addition-within-20",
+      "type": "recommended-prerequisite",
+      "rationale": "数の合成・分解は、繰り上がりのある加法を考える手がかりになる。",
       "evidenceType": "editorial",
-      "reviewStatus": "draft"
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-003",
+      "from": "jp.elem.math.compose-decompose-to-10",
+      "to": "jp.elem.math.subtraction-within-20",
+      "type": "recommended-prerequisite",
+      "rationale": "数の合成・分解は、繰り下がりのある減法を考える手がかりになる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-004",
+      "from": "jp.elem.math.addition-meaning",
+      "to": "jp.elem.math.addition-within-20",
+      "type": "prerequisite",
+      "rationale": "加法の意味を理解してから計算方法を確かめる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-005",
+      "from": "jp.elem.math.subtraction-meaning",
+      "to": "jp.elem.math.subtraction-within-20",
+      "type": "prerequisite",
+      "rationale": "減法の意味を理解してから計算方法を確かめる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-006",
+      "from": "jp.elem.math.numbers-to-10000",
+      "to": "jp.elem.math.multidigit-add-subtract",
+      "type": "recommended-prerequisite",
+      "rationale": "位取りの理解が筆算の位をそろえる見方を支える。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-007",
+      "from": "jp.elem.math.multiplication-meaning",
+      "to": "jp.elem.math.multiplication-tables",
+      "type": "prerequisite",
+      "rationale": "乗法の意味を捉えることが九九の構成につながる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-008",
+      "from": "jp.elem.math.multiplication-tables",
+      "to": "jp.elem.math.multiplication-properties",
+      "type": "related-learning",
+      "rationale": "九九の構成と交換・分配的な見方を相互に活用できる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-009",
+      "from": "jp.elem.math.multiplication-tables",
+      "to": "jp.elem.math.multidigit-multiplication",
+      "type": "recommended-prerequisite",
+      "rationale": "九九を使えることが多桁の乗法の計算を支える。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-010",
+      "from": "jp.elem.math.multiplication-meaning",
+      "to": "jp.elem.math.division-meaning",
+      "type": "related-learning",
+      "rationale": "乗法と除法の場面を比べることで、互いの関係を捉える。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-011",
+      "from": "jp.elem.math.division-meaning",
+      "to": "jp.elem.math.division-remainders",
+      "type": "prerequisite",
+      "rationale": "除法の意味を踏まえて、あまりがある場合の解釈へ進む。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-012",
+      "from": "jp.elem.math.multiplication-tables",
+      "to": "jp.elem.math.division-meaning",
+      "type": "recommended-prerequisite",
+      "rationale": "九九の関係は、除法の商を考える手がかりになる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-013",
+      "from": "jp.elem.math.unit-fractions",
+      "to": "jp.elem.math.fractions-compare",
+      "type": "recommended-prerequisite",
+      "rationale": "分数の意味が分数の大きさを比較する土台になる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-014",
+      "from": "jp.elem.math.decimals-tenths",
+      "to": "jp.elem.math.decimal-place-value",
+      "type": "recommended-prerequisite",
+      "rationale": "小数の単位の見方を、小数の位取りへ広げる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-015",
+      "from": "jp.elem.math.decimal-place-value",
+      "to": "jp.elem.math.decimal-add-subtract",
+      "type": "prerequisite",
+      "rationale": "小数の位取りを理解してから小数の加法・減法を考える。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-016",
+      "from": "jp.elem.math.multidigit-multiplication",
+      "to": "jp.elem.math.expressions-parentheses",
+      "type": "related-learning",
+      "rationale": "計算の性質を式の構造として見直す際に関連する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-017",
+      "from": "jp.elem.math.fractions-compare",
+      "to": "jp.elem.math.fractions-same-denominator",
+      "type": "recommended-prerequisite",
+      "rationale": "分数の大きさと単位分数の見方が分数計算を支える。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-018",
+      "from": "jp.elem.math.fractions-same-denominator",
+      "to": "jp.elem.math.fractions-unlike-denominators",
+      "type": "recommended-prerequisite",
+      "rationale": "分母をそろえる必要性を理解するため、同分母分数の計算を活用する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-019",
+      "from": "jp.elem.math.numbers-and-place-value",
+      "to": "jp.elem.math.rounding-estimation",
+      "type": "recommended-prerequisite",
+      "rationale": "位の単位を使って、目的に応じた概数を考える。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-020",
+      "from": "jp.elem.math.multiplication-properties",
+      "to": "jp.elem.math.factors-multiples",
+      "type": "related-learning",
+      "rationale": "整数のまとまりや積に着目する見方が共通する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-021",
+      "from": "jp.elem.math.decimal-add-subtract",
+      "to": "jp.elem.math.decimal-multiply-divide",
+      "type": "recommended-prerequisite",
+      "rationale": "小数の位取りと計算の考えを乗法・除法へ広げる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-022",
+      "from": "jp.elem.math.fractions-unlike-denominators",
+      "to": "jp.elem.math.fraction-multiply-divide",
+      "type": "related-learning",
+      "rationale": "分数の大きさと単位分数の見方を、乗法・除法にも活用する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-023",
+      "from": "jp.elem.math.area-rectangle-square",
+      "to": "jp.elem.math.area-triangle-parallelogram-trapezoid",
+      "type": "recommended-prerequisite",
+      "rationale": "既習の長方形・正方形の面積に帰着して、他の図形の面積を考える。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-024",
+      "from": "jp.elem.math.volume-cuboid",
+      "to": "jp.elem.math.volume-prisms-cylinders",
+      "type": "recommended-prerequisite",
+      "rationale": "直方体の体積で捉えた底面と高さの関係を立体へ広げる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-025",
+      "from": "jp.elem.math.regular-polygons-circumference",
+      "to": "jp.elem.math.area-circle",
+      "type": "related-learning",
+      "rationale": "円の特徴と半径に着目する見方が円の計量でも生かされる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-026",
+      "from": "jp.elem.math.perpendicular-parallel",
+      "to": "jp.elem.math.quadrilateral-properties",
+      "type": "recommended-prerequisite",
+      "rationale": "直線の関係を使って四角形の特徴を分類する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-027",
+      "from": "jp.elem.math.length-units-cm-mm-m",
+      "to": "jp.elem.math.distance-kilometer",
+      "type": "related-learning",
+      "rationale": "既習の長さの単位と距離の単位を関連づける。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-028",
+      "from": "jp.elem.math.time-reading",
+      "to": "jp.elem.math.elapsed-time",
+      "type": "recommended-prerequisite",
+      "rationale": "時刻を読めることが経過時間を考える手がかりになる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-029",
+      "from": "jp.elem.math.direct-measurement",
+      "to": "jp.elem.math.length-units-cm-mm-m",
+      "type": "recommended-prerequisite",
+      "rationale": "直接比較から共通の単位を使った測定へ進む。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-030",
+      "from": "jp.elem.math.mass-units",
+      "to": "jp.elem.math.measurement-choice",
+      "type": "related-learning",
+      "rationale": "測定対象に応じた単位選択を考える事例になる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-031",
+      "from": "jp.elem.math.unit-quantity",
+      "to": "jp.elem.math.speed",
+      "type": "related-learning",
+      "rationale": "1単位当たりの大きさという見方を速さに適用する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-032",
+      "from": "jp.elem.math.percentage",
+      "to": "jp.elem.math.ratio",
+      "type": "related-learning",
+      "rationale": "割合を基準量と比較量の関係として捉える見方を比へつなげる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-033",
+      "from": "jp.elem.math.ratio",
+      "to": "jp.elem.math.proportionality",
+      "type": "related-learning",
+      "rationale": "2つの数量の関係を比や表で捉える見方が比例の理解に生きる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-034",
+      "from": "jp.elem.math.proportionality",
+      "to": "jp.elem.math.inverse-proportionality",
+      "type": "related-learning",
+      "rationale": "比例と反比例の変化の特徴を比較して捉える。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-035",
+      "from": "jp.elem.math.area-triangle-parallelogram-trapezoid",
+      "to": "jp.elem.math.measurement-choice",
+      "type": "application",
+      "rationale": "面積の計算で、単位や既知の量を目的に応じて選ぶ。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-036",
+      "from": "jp.elem.math.classify-count-pictograph",
+      "to": "jp.elem.math.tables-simple-graphs",
+      "type": "recommended-prerequisite",
+      "rationale": "分類・集計の考えを表やグラフの読み書きへ広げる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-037",
+      "from": "jp.elem.math.tables-simple-graphs",
+      "to": "jp.elem.math.bar-graphs",
+      "type": "recommended-prerequisite",
+      "rationale": "表に整理したデータを棒グラフで表現する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-038",
+      "from": "jp.elem.math.bar-graphs",
+      "to": "jp.elem.math.line-graphs",
+      "type": "related-learning",
+      "rationale": "項目の比較から、時間に沿った変化の表示へ見方を広げる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-039",
+      "from": "jp.elem.math.line-graphs",
+      "to": "jp.elem.math.statistical-viewpoints",
+      "type": "related-learning",
+      "rationale": "グラフの変化の読み取りを多面的なデータ分析へつなげる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-040",
+      "from": "jp.elem.math.average",
+      "to": "jp.elem.math.statistical-viewpoints",
+      "type": "recommended-prerequisite",
+      "rationale": "平均を含む複数の見方を比較してデータの特徴を捉える。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-041",
+      "from": "jp.elem.math.percentage",
+      "to": "jp.elem.math.percentage-graphs",
+      "type": "recommended-prerequisite",
+      "rationale": "割合の意味を理解して、割合を示すグラフを読む。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-042",
+      "from": "jp.elem.math.represent-with-diagrams-tables",
+      "to": "jp.elem.math.data-based-reasoning",
+      "type": "related-learning",
+      "rationale": "データを表現し、読み取った根拠を説明する活動で関連する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-043",
+      "from": "jp.elem.math.understand-problem-structure",
+      "to": "jp.elem.math.represent-with-diagrams-tables",
+      "type": "related-learning",
+      "rationale": "問題場面を捉えた後、関係を図・表・式で表現する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-044",
+      "from": "jp.elem.math.represent-with-diagrams-tables",
+      "to": "jp.elem.math.explain-reasoning",
+      "type": "related-learning",
+      "rationale": "表現した図や式を用いて考え方を説明する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-045",
+      "from": "jp.elem.math.estimate-and-check",
+      "to": "jp.elem.math.math-in-daily-life",
+      "type": "application",
+      "rationale": "日常の問題で見積もりを用い、結果を場面に戻して確認する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-046",
+      "from": "jp.elem.math.find-patterns",
+      "to": "jp.elem.math.multiplication-properties",
+      "type": "related-learning",
+      "rationale": "数や計算のきまりを見つける活動が計算の性質の理解に関連する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
     }
   ]
 }
