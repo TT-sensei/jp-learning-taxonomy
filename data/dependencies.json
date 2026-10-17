@@ -585,6 +585,24 @@
       "rationale": "立体の体積の求め方を、身の回りの立体のおよその体積の見積もりに活用する。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-066",
+      "from": "jp.elem.math.angles",
+      "to": "jp.elem.math.angle-sums-in-polygons",
+      "type": "related-learning",
+      "rationale": "角の大きさを測る見方を、三角形や四角形の角の性質を考える学習につなげる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-067",
+      "from": "jp.elem.math.changing-quantities-patterns",
+      "to": "jp.elem.math.meaning-of-proportion",
+      "type": "related-learning",
+      "rationale": "二つの数量の変わり方を調べる経験を、比例関係を表・式・グラフで捉える学習につなげる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
     }
   ]
 }
