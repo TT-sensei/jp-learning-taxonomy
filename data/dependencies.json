@@ -549,6 +549,42 @@
       "rationale": "体積単位の関係を他の量の単位と関連づける。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-062",
+      "from": "jp.elem.math.number-sentences",
+      "to": "jp.elem.math.letter-expressions",
+      "type": "related-learning",
+      "rationale": "式の表現と等号の理解を踏まえ、文字を用いて数量関係を表す学習へつなげる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-063",
+      "from": "jp.elem.math.congruent-figures",
+      "to": "jp.elem.math.enlargement-reduction",
+      "type": "related-learning",
+      "rationale": "合同な図形と拡大図・縮図を比べ、形と大きさの関係を捉える。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-064",
+      "from": "jp.elem.math.area-circle",
+      "to": "jp.elem.math.approximate-area-volume",
+      "type": "related-learning",
+      "rationale": "既習の面積の求め方を、身の回りの形のおよその面積の見積もりに活用する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-065",
+      "from": "jp.elem.math.volume-prisms-cylinders",
+      "to": "jp.elem.math.approximate-area-volume",
+      "type": "related-learning",
+      "rationale": "立体の体積の求め方を、身の回りの立体のおよその体積の見積もりに活用する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
     }
   ]
 }
