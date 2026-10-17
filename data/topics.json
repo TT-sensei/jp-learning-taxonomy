@@ -1411,6 +1411,10 @@
         {
           "sourceId": "mext-elementary-math-guideline-2017",
           "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        },
+        {
+          "sourceId": "tokyo-shoseki-mathconnect-ratio-tape-diagram-2024",
+          "note": "東京書籍の小学6年「比の利用」資料で、線分図を用いて数量と比の関係を捉える例を確認。"
         }
       ],
       "curriculumStandards": [
@@ -1434,6 +1438,10 @@
         {
           "sourceId": "mext-elementary-math-guideline-2017",
           "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        },
+        {
+          "sourceId": "tokyo-shoseki-mathconnect-proportion-inverse-2024",
+          "note": "東京書籍の小学6年「比例と反比例」資料を参照。比例の活用・表現の扱いを照合するための補助資料。公式コードの確認は別途必要。"
         }
       ],
       "curriculumStandards": [
@@ -1457,6 +1465,10 @@
         {
           "sourceId": "mext-elementary-math-guideline-2017",
           "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        },
+        {
+          "sourceId": "tokyo-shoseki-mathconnect-proportion-inverse-2024",
+          "note": "東京書籍の小学6年「比例と反比例」資料で、比例を踏まえて反比例を調べる学習展開を確認。公式コードの代替ではない。"
         }
       ],
       "curriculumStandards": [
@@ -2084,6 +2096,10 @@
         {
           "sourceId": "mext-elementary-math-guideline-2017",
           "note": "比の学習を細分化するための項目案。公式コードとの対応は未確認。"
+        },
+        {
+          "sourceId": "tokyo-shoseki-mathconnect-ratio-tape-diagram-2024",
+          "note": "東京書籍の小学6年「比の利用」資料で、線分図を用いた数量と比の関係の表現例を確認。比の値・等しい比の公式な学年配当は別途照合する。"
         }
       ],
       "curriculumStandards": [
