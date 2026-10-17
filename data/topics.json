@@ -1870,6 +1870,303 @@
       "prerequisiteIds": [],
       "resourceIds": [],
       "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.unknown-number-equations",
+      "subject": "算数",
+      "domain": "A 数と計算",
+      "name": "□や文字を使った式と未知数",
+      "description": "分からない数を□などで表し、数量の関係を式に表して求める。",
+      "grades": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicType": "expression",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "数量の関係を式で表す学習を踏まえたプロジェクト独自の項目案。学年配当と公式コードは未照合。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-A"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.decimal-fraction-connections",
+      "subject": "算数",
+      "domain": "A 数と計算",
+      "name": "小数・分数・整数の相互関係",
+      "description": "数直線や図を用いて、小数・分数・整数を同じ数の表し方として関連づける。",
+      "grades": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicType": "concept",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "数の表し方の関連を整理するための項目案。扱う学年・範囲は要確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-A"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.calculation-properties",
+      "subject": "算数",
+      "domain": "A 数と計算",
+      "name": "計算のきまりと計算方法の工夫",
+      "description": "交換法則・結合法則・分配法則などに着目し、計算の仕方を説明したり簡単にしたりする。",
+      "grades": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicType": "concept",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "計算の性質を活用する学習をまとめた項目案。公式コードと細かな学年配当は未照合。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-A"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.angle-measurement",
+      "subject": "算数",
+      "domain": "B 図形",
+      "name": "分度器を使った角の測定と作図",
+      "description": "角の大きさを測ったり、指定された大きさの角をかいたりする。",
+      "grades": [
+        4
+      ],
+      "topicType": "skill",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "角の測定・作図を分けて把握するための項目案。公式コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-B"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.geometric-construction",
+      "subject": "算数",
+      "domain": "B 図形",
+      "name": "垂直・平行な直線や図形のかき方",
+      "description": "定規や三角定規などを用いて、垂直・平行な直線や基本的な図形をかく。",
+      "grades": [
+        4,
+        5
+      ],
+      "topicType": "skill",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "図形の性質と作図技能をつなぐ項目案。用具・学年配当は要確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-B"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.solids-nets",
+      "subject": "算数",
+      "domain": "B 図形",
+      "name": "立体の見取図・展開図",
+      "description": "立方体や直方体などを見取図や展開図で表し、面・辺のつながりを捉える。",
+      "grades": [
+        4,
+        5,
+        6
+      ],
+      "topicType": "expression",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "立体の表現を整理する項目案。学年ごとの扱いと公式コードは未照合。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-B"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.volume-units",
+      "subject": "算数",
+      "domain": "B 図形",
+      "name": "体積の単位と単位換算",
+      "description": "体積を表す単位を理解し、立方体・直方体の体積と単位の関係を捉える。",
+      "grades": [
+        5,
+        6
+      ],
+      "topicType": "concept",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "体積の量感と単位を独立して確認する項目案。単位の範囲は要確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-B"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.meaning-of-proportion",
+      "subject": "算数",
+      "domain": "C 変化と関係（第4〜6学年を中心とする）",
+      "name": "比例の関係を表・式・グラフで表す",
+      "description": "二つの数量の対応を表や式、グラフで表し、比例の特徴を読み取る。",
+      "grades": [
+        5,
+        6
+      ],
+      "topicType": "expression",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "比例を複数の表現で捉える項目案。学年配当・コードは要確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-C-change"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.meaning-of-ratio",
+      "subject": "算数",
+      "domain": "C 変化と関係（第4〜6学年を中心とする）",
+      "name": "比の値と等しい比",
+      "description": "比の値を用いて、等しい比や比の関係を捉える。",
+      "grades": [
+        6
+      ],
+      "topicType": "concept",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "比の学習を細分化するための項目案。公式コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-C-change"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.data-frequency-tables",
+      "subject": "算数",
+      "domain": "D データの活用",
+      "name": "度数分布表などによるデータの整理",
+      "description": "データを区間や観点ごとに整理し、分布の様子や特徴を読み取る。",
+      "grades": [
+        5,
+        6
+      ],
+      "topicType": "practice",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "データの分布を捉える学習の候補。正式な学年配当・用語は要確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-D"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.data-statistical-investigation",
+      "subject": "算数",
+      "domain": "D データの活用",
+      "name": "目的を決めてデータを集め、結論を検討する",
+      "description": "問いに応じてデータを集め、整理・分析し、結論がデータに支えられているか考える。",
+      "grades": [
+        4,
+        5,
+        6
+      ],
+      "topicType": "inquiry",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "統計的な問題解決の流れをまとめる項目案。学年別の扱いは要確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-D"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.unit-conversion-length-area-volume",
+      "subject": "算数",
+      "domain": "横断的な数学的活動（プロジェクト独自の分類）",
+      "name": "単位の関係と換算",
+      "description": "長さ・面積・体積などの単位の仕組みを捉え、目的に応じて単位を換算する。",
+      "grades": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicType": "application",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "量の単位の関係を横断的に整理する項目案。各量の範囲は要確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-cross-cutting"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
     }
   ]
 }
