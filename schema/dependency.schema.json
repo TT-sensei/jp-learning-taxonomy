@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tt-sensei.github.io/jp-learning-taxonomy/schema/dependency.schema.json",
+  "title": "JP Learning Taxonomy Dependency",
+  "type": "object",
+  "required": [
+    "id",
+    "from",
+    "to",
+    "type",
+    "rationale",
+    "evidenceType",
+    "reviewStatus"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "from": {
+      "type": "string",
+      "minLength": 1
+    },
+    "to": {
+      "type": "string",
+      "minLength": 1
+    },
+    "type": {
+      "enum": [
+        "prerequisite",
+        "recommended-prerequisite",
+        "related-learning",
+        "extension",
+        "application",
+        "recurring-development"
+      ]
+    },
+    "rationale": {
+      "type": "string"
+    },
+    "evidenceType": {
+      "enum": [
+        "official-explicit",
+        "editorial",
+        "research",
+        "teacher-review",
+        "unknown"
+      ]
+    },
+    "reviewStatus": {
+      "enum": [
+        "draft",
+        "needs-review",
+        "reviewed",
+        "published"
+      ]
+    }
+  },
+  "additionalProperties": false
+}
