@@ -1887,8 +1887,8 @@
       "id": "jp.elem.math.unknown-number-equations",
       "subject": "算数",
       "domain": "A 数と計算",
-      "name": "□や文字を使った式と未知数",
-      "description": "分からない数を□などで表し、数量の関係を式に表して求める。",
+      "name": "□を使った式と未知数",
+      "description": "分からない数を□などで表し、数量の関係を式に表して求める。文字を用いた式とは区別して整理する。",
       "grades": [
         2,
         3,
@@ -2179,6 +2179,114 @@
       ],
       "curriculumStandards": [
         "project-ref-math-cross-cutting"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.letter-expressions",
+      "subject": "算数",
+      "domain": "A 数と計算",
+      "name": "文字を用いた式",
+      "description": "文字を数量を表すものとして用い、数量の関係や計算のきまりを式で表す。",
+      "grades": [
+        6
+      ],
+      "topicType": "expression",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文字を用いた式を□を用いた式から分けた項目案。公式コードとの対応は未照合。"
+        },
+        {
+          "sourceId": "tokyo-shoseki-mathconnect-grade6-unit-index-2026",
+          "note": "東京書籍の小学6年単元一覧に「文字と式」が掲載されていることを確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-A"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.congruent-figures",
+      "subject": "算数",
+      "domain": "B 図形",
+      "name": "合同な図形",
+      "description": "形も大きさも同じ図形に着目し、対応する辺や角の関係を調べ、合同な図形をかく。",
+      "grades": [
+        5
+      ],
+      "topicType": "concept",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "合同な図形の学習項目案。公式コードとの対応は未照合。"
+        },
+        {
+          "sourceId": "tokyo-shoseki-mathconnect-congruence-grade5-2024",
+          "note": "東京書籍の小学5年「合同の導入」資料で、形と大きさ、図形が重なることに着目する指導例を確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-B"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.approximate-area-volume",
+      "subject": "算数",
+      "domain": "B 図形",
+      "name": "およその面積と体積",
+      "description": "身の回りの形を既習の図形に見立てたり分けたりして、面積や体積を見積もる。",
+      "grades": [
+        6
+      ],
+      "topicType": "application",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "およその面積・体積を独立した項目として整理した案。公式コードとの対応は未照合。"
+        },
+        {
+          "sourceId": "tokyo-shoseki-mathconnect-grade6-unit-index-2026",
+          "note": "東京書籍の小学6年単元一覧に「およその面積と体積」が掲載されていることを確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-B"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.arrangements-combinations",
+      "subject": "算数",
+      "domain": "D データの活用",
+      "name": "並べ方と組み合わせ方",
+      "description": "条件に合う場合を、落ちや重なりがないように順序よく整理して数え上げる。",
+      "grades": [
+        6
+      ],
+      "topicType": "skill",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "場合の数を独立した学習項目として整理した案。領域・公式コードとの対応は未照合。"
+        },
+        {
+          "sourceId": "tokyo-shoseki-mathconnect-grade6-unit-index-2026",
+          "note": "東京書籍の小学6年単元一覧に「並べ方と組み合わせ方」が掲載されていることを確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-D"
       ],
       "prerequisiteIds": [],
       "resourceIds": [],
