@@ -327,14 +327,15 @@
       "resourceIds": [],
       "reviewStatus": "needs-review",
       "gradePlacement": {
-        "status": "candidate",
+        "status": "reviewed",
         "candidateFirstIntroductionGrade": 2,
         "candidateContinuingGrades": [
           3,
           4
         ],
-        "basis": "current-draft-grades",
-        "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
+        "basis": "mext-commentary-initial-review",
+        "note": "第2学年では2位数と簡単な3位数、第3学年では3位数・4位数の加法及び減法が扱われることを確認。第4学年は既習計算の活用も含む候補範囲だが、2〜4桁という項目名はプロジェクト独自のまとめであり、学年別の単元名ではない。",
+        "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       }
     },
     {
@@ -463,14 +464,15 @@
       "resourceIds": [],
       "reviewStatus": "needs-review",
       "gradePlacement": {
-        "status": "candidate",
+        "status": "reviewed",
         "candidateFirstIntroductionGrade": 2,
         "candidateContinuingGrades": [
           3,
           4
         ],
-        "basis": "current-draft-grades",
-        "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
+        "basis": "mext-commentary-initial-review",
+        "note": "第2学年で簡単な分数を扱い、第3学年で簡単な分数の大きさの比較や加法・減法、第4学年で真分数・仮分数・帯分数とその大小を扱うことを確認。単位分数に焦点を当てた名称はプロジェクト独自の細分化。",
+        "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       }
     },
     {
@@ -631,11 +633,12 @@
       "resourceIds": [],
       "reviewStatus": "needs-review",
       "gradePlacement": {
-        "status": "candidate",
+        "status": "reviewed",
         "candidateFirstIntroductionGrade": 3,
         "candidateContinuingGrades": [],
-        "basis": "current-draft-grades",
-        "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
+        "basis": "mext-commentary-initial-review",
+        "note": "第3学年の内容概観で小数（1/10の位）とその加法・減法が明示されることを確認。後学年の小数計算や位取りは別項目として扱う。",
+        "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       }
     },
     {
@@ -972,11 +975,12 @@
       "resourceIds": [],
       "reviewStatus": "needs-review",
       "gradePlacement": {
-        "status": "candidate",
+        "status": "reviewed",
         "candidateFirstIntroductionGrade": 6,
         "candidateContinuingGrades": [],
-        "basis": "current-draft-grades",
-        "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
+        "basis": "mext-commentary-initial-review",
+        "note": "第6学年の内容概観で分数による乗法・除法の適用範囲の拡張と計算が明示されることを確認。第5学年の分数×整数・分数÷整数は前段階として区別する。",
+        "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       }
     },
     {
@@ -3002,11 +3006,12 @@
       "resourceIds": [],
       "reviewStatus": "needs-review",
       "gradePlacement": {
-        "status": "candidate",
+        "status": "reviewed",
         "candidateFirstIntroductionGrade": 6,
         "candidateContinuingGrades": [],
-        "basis": "current-draft-grades",
-        "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
+        "basis": "mext-commentary-initial-review",
+        "note": "第6学年A(2)で、□や△などに代えてa、xなどの文字を用いて数量関係を式に表し、文字に数を当てはめて調べることが明示される。第5学年までの□・△や言葉の式は準備段階として区別する。",
+        "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       }
     },
     {
