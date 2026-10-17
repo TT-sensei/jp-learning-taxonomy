@@ -31,6 +31,26 @@
       "publishedDate": "2022-03-14",
       "sourceType": "official-code-table",
       "usageNote": "公式コードの照合元。コード表のデータを確認してから各学習項目との対応を登録する。現時点で個別コードの照合は未完了。"
+    },
+    {
+      "id": "keirinkan-math-sequence-support",
+      "title": "授業支援・サポート資料（算数・小学校）",
+      "publisher": "新興出版社啓林館",
+      "url": "https://shinko-keirin.co.jp/keirinkan/sho/sansu/support/",
+      "sourceType": "publisher-reference",
+      "versionNote": "「算数・数学 内容系統一覧表」などを学年をまたぐ内容のつながりの検討に用いる。対象年度を確認する。",
+      "reuseNote": "出版社の文章・図版を転載せず、複数資料を比較して独自の項目・関係を作成する。",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "tokyo-shoseki-math-sequence-2024",
+      "title": "新編 新しい算数の資料ダウンロード（令和6年度用）",
+      "publisher": "東京書籍",
+      "url": "https://ten.tokyo-shoseki.co.jp/text/shou//download/sansu/",
+      "sourceType": "publisher-reference",
+      "versionNote": "「領域別系統表」「図解系統表」「線分図・数直線の系統」などを参照する。対象年度を明示して扱う。",
+      "reuseNote": "出版社の文章・図版を転載せず、単元配列を全国共通の唯一の順序とみなさない。",
+      "reviewStatus": "needs-review"
     }
   ],
   "standards": [
