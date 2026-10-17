@@ -81,6 +81,16 @@
       "publishedDate": "2026-04-06",
       "usageNote": "文字と式、およその面積と体積、並べ方と組み合わせ方などの小学6年単元が掲載されていることを確認。単元一覧は公式コード表の代替ではない。",
       "reviewStatus": "content-checked"
+    },
+    {
+      "id": "tokyo-shoseki-mathconnect-congruence-grade5-2024",
+      "title": "小学5年「合同の導入」指導資料",
+      "publisher": "東京書籍",
+      "url": "https://mathconnect.tokyo-shoseki.co.jp/hitokufu/20240617-05/",
+      "sourceType": "publisher-teaching-reference",
+      "publishedDate": "2024-06-17",
+      "usageNote": "小学5年「合同な図形」の導入と、形・大きさ・重なりに着目する指導例を確認。",
+      "reviewStatus": "content-checked"
     }
   ],
   "standards": [
