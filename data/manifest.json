@@ -1,0 +1,18 @@
+{
+  "dataset": "JP Learning Taxonomy",
+  "version": "0.1.0-draft",
+  "schemaVersion": "0.1.0",
+  "status": "prototype",
+  "generatedAt": "2026-10-18",
+  "counts": {
+    "topics": 3,
+    "dependencies": 2,
+    "curriculumSources": 2,
+    "resources": 0
+  },
+  "notes": [
+    "試作データです。網羅性・公式性を示すものではありません。",
+    "レビュー完了前の項目は reviewStatus=draft または needs-review とします。",
+    "ライセンスと出典条件の確認を完了してから、本格的な公開データとして扱います。"
+  ]
+}
