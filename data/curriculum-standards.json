@@ -91,6 +91,16 @@
       "publishedDate": "2024-06-17",
       "usageNote": "小学5年「合同な図形」の導入と、形・大きさ・重なりに着目する指導例を確認。",
       "reviewStatus": "content-checked"
+    },
+    {
+      "id": "tokyo-shoseki-grade5-units-2026",
+      "title": "東京書籍 小学5年 算数の単元一覧",
+      "publisher": "東京書籍",
+      "url": "https://mathconnect.tokyo-shoseki.co.jp/hitokufu-es5_09/",
+      "sourceType": "publisher-unit-index",
+      "publishedDate": "2026-09-24",
+      "usageNote": "小学5年の「図形の角」「変わり方調べ」の有無を確認する参照。",
+      "reviewStatus": "content-checked"
     }
   ],
   "standards": [
