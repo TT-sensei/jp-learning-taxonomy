@@ -48,11 +48,17 @@
       "officialEvidence": {
         "sourceId": "mext-elementary-math-guideline-2017",
         "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf",
-        "pdfPages": [
-          84,
-          85
+        "note": "第1学年のA(1)「数の意味と表し方」で、個数や順番を正しく数えたり表したりする内容を確認。レビュー対象の「数を数える・順序を表す」はこの範囲に対応する。",
+        "pdfPageIndexLabels": [
+          "P86",
+          "P87",
+          "P88"
         ],
-        "note": "第1学年のA(1)「数の意味と表し方」で、個数や順番を正しく数えたり表したりする内容を確認。レビュー対象の「数を数える・順序を表す」はこの範囲に対応する。"
+        "printedPages": [
+          81,
+          82,
+          83
+        ]
       }
     },
     {
@@ -73,11 +79,15 @@
       "officialEvidence": {
         "sourceId": "mext-elementary-math-guideline-2017",
         "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf",
-        "pdfPages": [
-          84,
-          85
+        "note": "第1学年A(1)で、数をほかの数の和や差として見る数の構成を扱うことを確認。『10まで』というプロジェクト独自の細分化は公式の独立項目名ではないため、初出学年のみ根拠確認。",
+        "pdfPageIndexLabels": [
+          "P86",
+          "P87"
         ],
-        "note": "第1学年A(1)で、数をほかの数の和や差として見る数の構成を扱うことを確認。『10まで』というプロジェクト独自の細分化は公式の独立項目名ではないため、初出学年のみ根拠確認。"
+        "printedPages": [
+          81,
+          82
+        ]
       }
     },
     {
@@ -122,12 +132,17 @@
       "officialEvidence": {
         "sourceId": "mext-elementary-math-guideline-2017",
         "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf",
-        "pdfPages": [
-          84,
-          85,
-          86
+        "note": "第1学年A(2)に加法・減法の意味が明記される。第2学年では桁数を広げた加法・減法や相互関係へ発展するため、継続学年2は概念の発展を示す編集上の整理であり、同じ単元の再配当を意味しない。",
+        "pdfPageIndexLabels": [
+          "P88",
+          "P89",
+          "P90"
         ],
-        "note": "第1学年A(2)に加法・減法の意味が明記される。第2学年では桁数を広げた加法・減法や相互関係へ発展するため、継続学年2は概念の発展を示す編集上の整理であり、同じ単元の再配当を意味しない。"
+        "printedPages": [
+          83,
+          84,
+          85
+        ]
       }
     },
     {
@@ -148,12 +163,17 @@
       "officialEvidence": {
         "sourceId": "mext-elementary-math-guideline-2017",
         "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf",
-        "pdfPages": [
-          84,
-          85,
-          86
+        "note": "第1学年A(2)の1位数どうしの加法について、和が10以下の場合と10より大きい場合を分けて扱う説明を確認。『20まで』は公式の単元名ではなく、項目名は技能の範囲を示すプロジェクト独自表現。",
+        "pdfPageIndexLabels": [
+          "P88",
+          "P89",
+          "P90"
         ],
-        "note": "第1学年A(2)の1位数どうしの加法について、和が10以下の場合と10より大きい場合を分けて扱う説明を確認。『20まで』は公式の単元名ではなく、項目名は技能の範囲を示すプロジェクト独自表現。"
+        "printedPages": [
+          83,
+          84,
+          85
+        ]
       }
     },
     {
@@ -179,12 +199,17 @@
       "officialEvidence": {
         "sourceId": "mext-elementary-math-guideline-2017",
         "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf",
-        "pdfPages": [
-          84,
-          85,
-          86
+        "note": "第1学年A(2)に加法・減法の意味が明記される。第2学年では桁数を広げた計算や加法と減法の相互関係へ発展するため、継続学年2は概念の発展を示す編集上の整理。",
+        "pdfPageIndexLabels": [
+          "P88",
+          "P89",
+          "P90"
         ],
-        "note": "第1学年A(2)に加法・減法の意味が明記される。第2学年では桁数を広げた計算や加法と減法の相互関係へ発展するため、継続学年2は概念の発展を示す編集上の整理。"
+        "printedPages": [
+          83,
+          84,
+          85
+        ]
       }
     },
     {
@@ -205,12 +230,17 @@
       "officialEvidence": {
         "sourceId": "mext-elementary-math-guideline-2017",
         "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf",
-        "pdfPages": [
-          84,
-          85,
-          86
+        "note": "第1学年A(2)で1位数どうしの加法とその逆の減法を扱い、10を超える加法とその逆の減法も明記されることを確認。『20まで』は公式の単元名ではなく、プロジェクト独自の技能整理。",
+        "pdfPageIndexLabels": [
+          "P88",
+          "P89",
+          "P90"
         ],
-        "note": "第1学年A(2)で1位数どうしの加法とその逆の減法を扱い、10を超える加法とその逆の減法も明記されることを確認。『20まで』は公式の単元名ではなく、プロジェクト独自の技能整理。"
+        "printedPages": [
+          83,
+          84,
+          85
+        ]
       }
     },
     {
@@ -252,11 +282,15 @@
       "officialEvidence": {
         "sourceId": "mext-elementary-math-guideline-2017",
         "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf",
-        "pdfPages": [
-          110,
-          111
+        "note": "第2学年A(1)で数の範囲を4位数まで広げ、1万も扱うと明記。第3学年の1万を超える数へ接続するため、継続を表すより、次の項目へつなぐ境界として整理する。",
+        "pdfPageIndexLabels": [
+          "P110",
+          "P111"
         ],
-        "note": "第2学年A(1)で数の範囲を4位数まで広げ、1万も扱うと明記。第3学年の1万を超える数へ接続するため、継続を表すより、次の項目へつなぐ境界として整理する。"
+        "printedPages": [
+          105,
+          106
+        ]
       }
     },
     {
@@ -296,11 +330,15 @@
       "officialEvidence": {
         "sourceId": "mext-elementary-math-guideline-2017",
         "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf",
-        "pdfPages": [
-          120,
-          121
+        "note": "第2学年A(3)に乗法が用いられる場合と意味が明記される。第2学年での初出として根拠確認。",
+        "pdfPageIndexLabels": [
+          "P120",
+          "P121"
         ],
-        "note": "第2学年A(3)に乗法が用いられる場合と意味が明記される。第2学年での初出として根拠確認。"
+        "printedPages": [
+          115,
+          116
+        ]
       }
     },
     {
@@ -321,11 +359,15 @@
       "officialEvidence": {
         "sourceId": "mext-elementary-math-guideline-2017",
         "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf",
-        "pdfPages": [
-          120,
-          121
+        "note": "第2学年A(3)に乗法九九が明記され、以後の乗法・除法計算の基盤として十分な習熟と活用が求められる。『継続学年』は単元の再配当と混同しないよう別扱いとする。",
+        "pdfPageIndexLabels": [
+          "P120",
+          "P121"
         ],
-        "note": "第2学年A(3)に乗法九九が明記され、以後の乗法・除法計算の基盤として十分な習熟と活用が求められる。『継続学年』は単元の再配当と混同しないよう別扱いとする。"
+        "printedPages": [
+          115,
+          116
+        ]
       }
     },
     {
