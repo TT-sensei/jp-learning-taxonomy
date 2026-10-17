@@ -71,6 +71,16 @@
       "publishedDate": "2024-07-01",
       "usageNote": "比の利用で線分図を用いて数量と比の関係を捉える例を確認する補助資料。",
       "reviewStatus": "content-checked"
+    },
+    {
+      "id": "tokyo-shoseki-mathconnect-grade6-unit-index-2026",
+      "title": "東京書籍 math connect 小学6年 単元一覧",
+      "publisher": "東京書籍",
+      "url": "https://mathconnect.tokyo-shoseki.co.jp/hitokufu-es6_all/",
+      "sourceType": "publisher-unit-index",
+      "publishedDate": "2026-04-06",
+      "usageNote": "文字と式、およその面積と体積、並べ方と組み合わせ方などの小学6年単元が掲載されていることを確認。単元一覧は公式コード表の代替ではない。",
+      "reviewStatus": "content-checked"
     }
   ],
   "standards": [
