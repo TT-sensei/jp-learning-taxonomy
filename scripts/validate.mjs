@@ -7,6 +7,7 @@ const topicsData = readJson("data/topics.json");
 const dependenciesData = readJson("data/dependencies.json");
 const standardsData = readJson("data/curriculum-standards.json");
 const resourcesData = readJson("data/resources.json");
+const representationData = readJson("data/representation-models.json");
 const errors = [];
 const report = [];
 const uniqueMap = (items, key, label) => {
@@ -24,11 +25,13 @@ const dependencies = dependenciesData.dependencies ?? [];
 const standards = standardsData.standards ?? [];
 const sources = standardsData.sources ?? [];
 const resources = resourcesData.resources ?? [];
+const representationModels = representationData.models ?? [];
 const topicById = uniqueMap(topics, "id", "topic ID");
 const edgeById = uniqueMap(dependencies, "id", "dependency ID");
 const standardById = uniqueMap(standards, "id", "standard ID");
 const sourceById = uniqueMap(sources, "id", "source ID");
 const resourceById = uniqueMap(resources, "id", "resource ID");
+const representationById = uniqueMap(representationModels, "id", "representation model ID");
 const topicTypes = new Set(["concept","skill","practice","expression","appreciation","inquiry","attitude","experience","application","other"]);
 const topicStatuses = new Set(["draft","needs-review","reviewed","published"]);
 const edgeTypes = new Set(["prerequisite","recommended-prerequisite","related-learning","extension","application","recurring-development"]);
@@ -99,7 +102,7 @@ for (const topic of topics) byDomain[topic.domain] = (byDomain[topic.domain] ?? 
 report.push(`学習項目: ${topics.length}`);
 report.push(`関係: ${dependencies.length}`);
 report.push(`出典: ${sources.length}`);
-report.push(`領域参照: ${standards.length}`);
+report.push(`領域参照: ${standards.length}`);\nreport.push(`表現モデル: ${representationModels.length}`);
 report.push(`教科・領域別: ${JSON.stringify(byDomain)}`);
 if (errors.length) {
   console.error("検証エラー:");
