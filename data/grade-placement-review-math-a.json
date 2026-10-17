@@ -1,0 +1,364 @@
+{
+  "schemaVersion": "0.1.0",
+  "title": "算数 学年配当照合レビュー（第1回：数と計算の基礎項目）",
+  "updatedAt": "2026-10-18",
+  "status": "in-progress",
+  "referenceSources": [
+    {
+      "id": "mext-elementary-math-guideline-2017",
+      "title": "小学校学習指導要領（平成29年告示）解説 算数編",
+      "url": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf",
+      "use": "学年別の内容を基準に、項目の初出と前学年からの接続を確認する。"
+    },
+    {
+      "id": "tokyo-shoseki-mathconnect-grade6-unit-index-2026",
+      "title": "東京書籍 math connect 小学6年 単元一覧",
+      "url": "https://mathconnect.tokyo-shoseki.co.jp/hitokufu-es6_all/",
+      "use": "学年別単元名との照合補助。学習指導要領の代替ではない。"
+    },
+    {
+      "id": "keirinkan-math-sequence-support",
+      "title": "啓林館 算数・数学 内容系統一覧表（公開資料案内）",
+      "url": "https://shinko-keirin.co.jp/keirinkan/sho/sansu/support/",
+      "use": "学年をまたぐ系統を比較するための資料候補。個別の系統表本文の照合は別途継続。"
+    }
+  ],
+  "method": [
+    "初出学年は、学習指導要領の当該学年の内容に明示される内容を基準にする。",
+    "継続学年は、同じ名称が再登場することだけで決めず、既習内容を使って発展する学年と、単に活用する学年を区別する。",
+    "教科書の単元配列は出版社・年度による違いがあり得るため、公式の学年内容と同じ欄に混ぜない。",
+    "現行 topics.json の grades は候補範囲のまま維持し、個別照合を終えた項目から gradePlacement に根拠と状態を追記する。"
+  ],
+  "entries": [
+    {
+      "topicId": "jp.elem.math.number-counting",
+      "topicName": "数を数える・順序を表す",
+      "currentCandidateGrades": [
+        1
+      ],
+      "currentCandidateFirstIntroductionGrade": 1,
+      "currentCandidateContinuingGrades": [],
+      "reviewStatus": "needs-item-level-check",
+      "evidenceSourceIds": [
+        "mext-elementary-math-guideline-2017"
+      ],
+      "reviewerNote": "領域・学年別内容の確認対象として抽出。現時点では個別の初出・継続学年を確定していない。"
+    },
+    {
+      "topicId": "jp.elem.math.compose-decompose-to-10",
+      "topicName": "10までの数の合成・分解",
+      "currentCandidateGrades": [
+        1
+      ],
+      "currentCandidateFirstIntroductionGrade": 1,
+      "currentCandidateContinuingGrades": [],
+      "reviewStatus": "needs-item-level-check",
+      "evidenceSourceIds": [
+        "mext-elementary-math-guideline-2017"
+      ],
+      "reviewerNote": "領域・学年別内容の確認対象として抽出。現時点では個別の初出・継続学年を確定していない。"
+    },
+    {
+      "topicId": "jp.elem.math.compare-order-numbers",
+      "topicName": "数の大小・順序",
+      "currentCandidateGrades": [
+        1,
+        2,
+        3
+      ],
+      "currentCandidateFirstIntroductionGrade": 1,
+      "currentCandidateContinuingGrades": [
+        2,
+        3
+      ],
+      "reviewStatus": "needs-item-level-check",
+      "evidenceSourceIds": [
+        "mext-elementary-math-guideline-2017"
+      ],
+      "reviewerNote": "領域・学年別内容の確認対象として抽出。現時点では個別の初出・継続学年を確定していない。"
+    },
+    {
+      "topicId": "jp.elem.math.addition-meaning",
+      "topicName": "加法の意味",
+      "currentCandidateGrades": [
+        1,
+        2
+      ],
+      "currentCandidateFirstIntroductionGrade": 1,
+      "currentCandidateContinuingGrades": [
+        2
+      ],
+      "reviewStatus": "needs-item-level-check",
+      "evidenceSourceIds": [
+        "mext-elementary-math-guideline-2017"
+      ],
+      "reviewerNote": "領域・学年別内容の確認対象として抽出。現時点では個別の初出・継続学年を確定していない。"
+    },
+    {
+      "topicId": "jp.elem.math.addition-within-20",
+      "topicName": "1位数どうしを中心とした加法",
+      "currentCandidateGrades": [
+        1
+      ],
+      "currentCandidateFirstIntroductionGrade": 1,
+      "currentCandidateContinuingGrades": [],
+      "reviewStatus": "needs-item-level-check",
+      "evidenceSourceIds": [
+        "mext-elementary-math-guideline-2017"
+      ],
+      "reviewerNote": "領域・学年別内容の確認対象として抽出。現時点では個別の初出・継続学年を確定していない。"
+    },
+    {
+      "topicId": "jp.elem.math.subtraction-meaning",
+      "topicName": "減法の意味",
+      "currentCandidateGrades": [
+        1,
+        2
+      ],
+      "currentCandidateFirstIntroductionGrade": 1,
+      "currentCandidateContinuingGrades": [
+        2
+      ],
+      "reviewStatus": "needs-item-level-check",
+      "evidenceSourceIds": [
+        "mext-elementary-math-guideline-2017"
+      ],
+      "reviewerNote": "領域・学年別内容の確認対象として抽出。現時点では個別の初出・継続学年を確定していない。"
+    },
+    {
+      "topicId": "jp.elem.math.subtraction-within-20",
+      "topicName": "1位数どうしを中心とした減法",
+      "currentCandidateGrades": [
+        1
+      ],
+      "currentCandidateFirstIntroductionGrade": 1,
+      "currentCandidateContinuingGrades": [],
+      "reviewStatus": "needs-item-level-check",
+      "evidenceSourceIds": [
+        "mext-elementary-math-guideline-2017"
+      ],
+      "reviewerNote": "領域・学年別内容の確認対象として抽出。現時点では個別の初出・継続学年を確定していない。"
+    },
+    {
+      "topicId": "jp.elem.math.number-sentences",
+      "topicName": "式の表現と等号",
+      "currentCandidateGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "currentCandidateFirstIntroductionGrade": 1,
+      "currentCandidateContinuingGrades": [
+        2,
+        3,
+        4
+      ],
+      "reviewStatus": "needs-item-level-check",
+      "evidenceSourceIds": [
+        "mext-elementary-math-guideline-2017"
+      ],
+      "reviewerNote": "領域・学年別内容の確認対象として抽出。現時点では個別の初出・継続学年を確定していない。"
+    },
+    {
+      "topicId": "jp.elem.math.numbers-to-10000",
+      "topicName": "10000までの数と位取り",
+      "currentCandidateGrades": [
+        2
+      ],
+      "currentCandidateFirstIntroductionGrade": 2,
+      "currentCandidateContinuingGrades": [],
+      "reviewStatus": "needs-item-level-check",
+      "evidenceSourceIds": [
+        "mext-elementary-math-guideline-2017"
+      ],
+      "reviewerNote": "領域・学年別内容の確認対象として抽出。現時点では個別の初出・継続学年を確定していない。"
+    },
+    {
+      "topicId": "jp.elem.math.multidigit-add-subtract",
+      "topicName": "2～4桁の加法・減法",
+      "currentCandidateGrades": [
+        2,
+        3,
+        4
+      ],
+      "currentCandidateFirstIntroductionGrade": 2,
+      "currentCandidateContinuingGrades": [
+        3,
+        4
+      ],
+      "reviewStatus": "needs-item-level-check",
+      "evidenceSourceIds": [
+        "mext-elementary-math-guideline-2017"
+      ],
+      "reviewerNote": "領域・学年別内容の確認対象として抽出。現時点では個別の初出・継続学年を確定していない。"
+    },
+    {
+      "topicId": "jp.elem.math.multiplication-meaning",
+      "topicName": "乗法の意味",
+      "currentCandidateGrades": [
+        2
+      ],
+      "currentCandidateFirstIntroductionGrade": 2,
+      "currentCandidateContinuingGrades": [],
+      "reviewStatus": "needs-item-level-check",
+      "evidenceSourceIds": [
+        "mext-elementary-math-guideline-2017"
+      ],
+      "reviewerNote": "領域・学年別内容の確認対象として抽出。現時点では個別の初出・継続学年を確定していない。"
+    },
+    {
+      "topicId": "jp.elem.math.multiplication-tables",
+      "topicName": "乗法九九",
+      "currentCandidateGrades": [
+        2
+      ],
+      "currentCandidateFirstIntroductionGrade": 2,
+      "currentCandidateContinuingGrades": [],
+      "reviewStatus": "needs-item-level-check",
+      "evidenceSourceIds": [
+        "mext-elementary-math-guideline-2017"
+      ],
+      "reviewerNote": "領域・学年別内容の確認対象として抽出。現時点では個別の初出・継続学年を確定していない。"
+    },
+    {
+      "topicId": "jp.elem.math.unit-fractions",
+      "topicName": "分数の意味と単位分数",
+      "currentCandidateGrades": [
+        2,
+        3,
+        4
+      ],
+      "currentCandidateFirstIntroductionGrade": 2,
+      "currentCandidateContinuingGrades": [
+        3,
+        4
+      ],
+      "reviewStatus": "needs-item-level-check",
+      "evidenceSourceIds": [
+        "mext-elementary-math-guideline-2017"
+      ],
+      "reviewerNote": "領域・学年別内容の確認対象として抽出。現時点では個別の初出・継続学年を確定していない。"
+    },
+    {
+      "topicId": "jp.elem.math.numbers-and-place-value",
+      "topicName": "大きな数と位取り",
+      "currentCandidateGrades": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "currentCandidateFirstIntroductionGrade": 3,
+      "currentCandidateContinuingGrades": [
+        4,
+        5,
+        6
+      ],
+      "reviewStatus": "needs-item-level-check",
+      "evidenceSourceIds": [
+        "mext-elementary-math-guideline-2017"
+      ],
+      "reviewerNote": "領域・学年別内容の確認対象として抽出。現時点では個別の初出・継続学年を確定していない。"
+    },
+    {
+      "topicId": "jp.elem.math.decimals-tenths",
+      "topicName": "小数の意味（十分の一の位）",
+      "currentCandidateGrades": [
+        3
+      ],
+      "currentCandidateFirstIntroductionGrade": 3,
+      "currentCandidateContinuingGrades": [],
+      "reviewStatus": "needs-item-level-check",
+      "evidenceSourceIds": [
+        "mext-elementary-math-guideline-2017"
+      ],
+      "reviewerNote": "領域・学年別内容の確認対象として抽出。現時点では個別の初出・継続学年を確定していない。"
+    },
+    {
+      "topicId": "jp.elem.math.fractions-compare",
+      "topicName": "分数の大きさと等しい分数",
+      "currentCandidateGrades": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "currentCandidateFirstIntroductionGrade": 3,
+      "currentCandidateContinuingGrades": [
+        4,
+        5,
+        6
+      ],
+      "reviewStatus": "needs-item-level-check",
+      "evidenceSourceIds": [
+        "mext-elementary-math-guideline-2017"
+      ],
+      "reviewerNote": "領域・学年別内容の確認対象として抽出。現時点では個別の初出・継続学年を確定していない。"
+    },
+    {
+      "topicId": "jp.elem.math.decimal-place-value",
+      "topicName": "小数の位取りと大小",
+      "currentCandidateGrades": [
+        4,
+        5,
+        6
+      ],
+      "currentCandidateFirstIntroductionGrade": 4,
+      "currentCandidateContinuingGrades": [
+        5,
+        6
+      ],
+      "reviewStatus": "needs-item-level-check",
+      "evidenceSourceIds": [
+        "mext-elementary-math-guideline-2017"
+      ],
+      "reviewerNote": "領域・学年別内容の確認対象として抽出。現時点では個別の初出・継続学年を確定していない。"
+    },
+    {
+      "topicId": "jp.elem.math.factors-multiples",
+      "topicName": "倍数・約数",
+      "currentCandidateGrades": [
+        5,
+        6
+      ],
+      "currentCandidateFirstIntroductionGrade": 5,
+      "currentCandidateContinuingGrades": [
+        6
+      ],
+      "reviewStatus": "needs-item-level-check",
+      "evidenceSourceIds": [
+        "mext-elementary-math-guideline-2017"
+      ],
+      "reviewerNote": "領域・学年別内容の確認対象として抽出。現時点では個別の初出・継続学年を確定していない。"
+    },
+    {
+      "topicId": "jp.elem.math.fraction-multiply-divide",
+      "topicName": "分数の乗法・除法",
+      "currentCandidateGrades": [
+        6
+      ],
+      "currentCandidateFirstIntroductionGrade": 6,
+      "currentCandidateContinuingGrades": [],
+      "reviewStatus": "needs-item-level-check",
+      "evidenceSourceIds": [
+        "mext-elementary-math-guideline-2017"
+      ],
+      "reviewerNote": "領域・学年別内容の確認対象として抽出。現時点では個別の初出・継続学年を確定していない。"
+    },
+    {
+      "topicId": "jp.elem.math.letter-expressions",
+      "topicName": "文字を用いた式",
+      "currentCandidateGrades": [
+        6
+      ],
+      "currentCandidateFirstIntroductionGrade": 6,
+      "currentCandidateContinuingGrades": [],
+      "reviewStatus": "needs-item-level-check",
+      "evidenceSourceIds": [
+        "mext-elementary-math-guideline-2017"
+      ],
+      "reviewerNote": "領域・学年別内容の確認対象として抽出。現時点では個別の初出・継続学年を確定していない。"
+    }
+  ]
+}
