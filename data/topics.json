@@ -1,12 +1,331 @@
 {
-  "schemaVersion": "0.1.0",
+  "schemaVersion": "0.2.0",
   "topics": [
     {
-      "id": "jp.elem.math.number.place-value",
+      "id": "jp.elem.math.number-counting",
       "subject": "算数",
-      "domain": "数と計算",
-      "name": "整数の位取り",
-      "description": "十進位取り記数法で、数字の位置と表す大きさの関係を理解する。",
+      "domain": "A 数と計算",
+      "name": "数を数える・順序を表す",
+      "description": "ものの個数を数え、数詞・数字・数の順序を対応させる。",
+      "grades": [
+        1
+      ],
+      "topicType": "concept",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-A"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.compose-decompose-to-10",
+      "subject": "算数",
+      "domain": "A 数と計算",
+      "name": "10までの数の合成・分解",
+      "description": "数をいくつかのまとまりに分けたり、合わせたりして数の構成を捉える。",
+      "grades": [
+        1
+      ],
+      "topicType": "concept",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-A"
+      ],
+      "prerequisiteIds": [
+        "jp.elem.math.number-counting"
+      ],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.compare-order-numbers",
+      "subject": "算数",
+      "domain": "A 数と計算",
+      "name": "数の大小・順序",
+      "description": "数直線や具体物などを使い、数の大小を比べて順序づける。",
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "topicType": "skill",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-A"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.addition-meaning",
+      "subject": "算数",
+      "domain": "A 数と計算",
+      "name": "加法の意味",
+      "description": "合わせる・増える場面を、加法の式や図で表す。",
+      "grades": [
+        1,
+        2
+      ],
+      "topicType": "concept",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-A"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.addition-within-20",
+      "subject": "算数",
+      "domain": "A 数と計算",
+      "name": "1位数どうしを中心とした加法",
+      "description": "数の構成に着目して、繰り上がりを含む加法を考え、計算する。",
+      "grades": [
+        1
+      ],
+      "topicType": "skill",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-A"
+      ],
+      "prerequisiteIds": [
+        "jp.elem.math.addition-meaning"
+      ],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.subtraction-meaning",
+      "subject": "算数",
+      "domain": "A 数と計算",
+      "name": "減法の意味",
+      "description": "減る・残り・違いなどの場面を、減法の式や図で表す。",
+      "grades": [
+        1,
+        2
+      ],
+      "topicType": "concept",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-A"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.subtraction-within-20",
+      "subject": "算数",
+      "domain": "A 数と計算",
+      "name": "1位数どうしを中心とした減法",
+      "description": "数の構成に着目して、繰り下がりを含む減法を考え、計算する。",
+      "grades": [
+        1
+      ],
+      "topicType": "skill",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-A"
+      ],
+      "prerequisiteIds": [
+        "jp.elem.math.subtraction-meaning"
+      ],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.number-sentences",
+      "subject": "算数",
+      "domain": "A 数と計算",
+      "name": "式の表現と等号",
+      "description": "場面や数量の関係を式に表し、等号が表す関係を読み取る。",
+      "grades": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "topicType": "expression",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-A"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.numbers-to-10000",
+      "subject": "算数",
+      "domain": "A 数と計算",
+      "name": "10000までの数と位取り",
+      "description": "十進位取り記数法を使い、3～4桁の数の構成や大きさを捉える。",
+      "grades": [
+        2
+      ],
+      "topicType": "concept",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-A"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.multidigit-add-subtract",
+      "subject": "算数",
+      "domain": "A 数と計算",
+      "name": "2～4桁の加法・減法",
+      "description": "位をそろえる意味を理解し、複数の位にわたる加法・減法を計算する。",
+      "grades": [
+        2,
+        3,
+        4
+      ],
+      "topicType": "skill",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-A"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.multiplication-meaning",
+      "subject": "算数",
+      "domain": "A 数と計算",
+      "name": "乗法の意味",
+      "description": "同じ数のまとまりや、1つ分の大きさといくつ分の関係を乗法で表す。",
+      "grades": [
+        2
+      ],
+      "topicType": "concept",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-A"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.multiplication-tables",
+      "subject": "算数",
+      "domain": "A 数と計算",
+      "name": "乗法九九",
+      "description": "乗法九九を構成し、暗記だけでなくまとまりや交換の関係を使って答えを求める。",
+      "grades": [
+        2
+      ],
+      "topicType": "skill",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-A"
+      ],
+      "prerequisiteIds": [
+        "jp.elem.math.multiplication-meaning"
+      ],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.multiplication-properties",
+      "subject": "算数",
+      "domain": "A 数と計算",
+      "name": "乗法の性質",
+      "description": "乗数や被乗数を分けたり入れ替えたりする見方で、乗法の計算や関係を考える。",
+      "grades": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "topicType": "concept",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-A"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.unit-fractions",
+      "subject": "算数",
+      "domain": "A 数と計算",
+      "name": "分数の意味と単位分数",
+      "description": "量を等しく分けた大きさを分数で表し、分母・分子の意味を捉える。",
       "grades": [
         2,
         3,
@@ -15,23 +334,883 @@
       "topicType": "concept",
       "evidence": [
         {
-          "sourceId": "mext-elementary-curriculum",
-          "note": "学習指導要領の算数・数と計算領域を参照して構成した試作項目。公式文の転載ではない。"
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
         }
       ],
-      "curriculumStandards": [],
+      "curriculumStandards": [
+        "project-ref-math-area-A"
+      ],
       "prerequisiteIds": [],
       "resourceIds": [],
-      "reviewStatus": "draft"
+      "reviewStatus": "needs-review"
     },
     {
-      "id": "jp.elem.math.addition-subtraction",
+      "id": "jp.elem.math.numbers-and-place-value",
       "subject": "算数",
-      "domain": "数と計算",
-      "name": "整数の加法・減法",
-      "description": "数のまとまりや位取りに着目して、整数のたし算・ひき算を考え、計算する。",
+      "domain": "A 数と計算",
+      "name": "大きな数と位取り",
+      "description": "大きな整数の位の並びや10倍・100倍・10分の1の関係を捉える。",
+      "grades": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicType": "concept",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-A"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.multidigit-multiplication",
+      "subject": "算数",
+      "domain": "A 数と計算",
+      "name": "多桁×1桁・2桁の乗法",
+      "description": "位ごとの分解や分配の考えを用いて、桁数の多い整数の乗法を計算する。",
+      "grades": [
+        3,
+        4
+      ],
+      "topicType": "skill",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-A"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.division-meaning",
+      "subject": "算数",
+      "domain": "A 数と計算",
+      "name": "除法の意味",
+      "description": "等分除・包含除の場面を図や式に表し、乗法との関係を捉える。",
+      "grades": [
+        3,
+        4
+      ],
+      "topicType": "concept",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-A"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.division-remainders",
+      "subject": "算数",
+      "domain": "A 数と計算",
+      "name": "あまりのある除法",
+      "description": "除数と商・あまりの関係を理解し、あまりの意味を場面に合わせて判断する。",
+      "grades": [
+        3
+      ],
+      "topicType": "skill",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-A"
+      ],
+      "prerequisiteIds": [
+        "jp.elem.math.division-meaning"
+      ],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.decimals-tenths",
+      "subject": "算数",
+      "domain": "A 数と計算",
+      "name": "小数の意味（十分の一の位）",
+      "description": "1を10等分した単位に着目し、小数を数直線や位取りで表す。",
+      "grades": [
+        3
+      ],
+      "topicType": "concept",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-A"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.fractions-compare",
+      "subject": "算数",
+      "domain": "A 数と計算",
+      "name": "分数の大きさと等しい分数",
+      "description": "数直線や図を用いて分数の大きさを比べ、同じ大きさを表す分数を捉える。",
+      "grades": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicType": "concept",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-A"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.decimal-place-value",
+      "subject": "算数",
+      "domain": "A 数と計算",
+      "name": "小数の位取りと大小",
+      "description": "小数を位ごとに捉え、位の単位や小数の大小の関係を考える。",
+      "grades": [
+        4,
+        5,
+        6
+      ],
+      "topicType": "concept",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-A"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.decimal-add-subtract",
+      "subject": "算数",
+      "domain": "A 数と計算",
+      "name": "小数の加法・減法",
+      "description": "位取りと単位の考えを用いて、小数の加法・減法を計算する。",
+      "grades": [
+        4,
+        5,
+        6
+      ],
+      "topicType": "skill",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-A"
+      ],
+      "prerequisiteIds": [
+        "jp.elem.math.decimal-place-value"
+      ],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.fractions-same-denominator",
+      "subject": "算数",
+      "domain": "A 数と計算",
+      "name": "同分母分数の加法・減法",
+      "description": "単位分数の個数に着目し、同分母分数の加法・減法を考え、計算する。",
+      "grades": [
+        4,
+        5
+      ],
+      "topicType": "skill",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-A"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.expressions-parentheses",
+      "subject": "算数",
+      "domain": "A 数と計算",
+      "name": "四則の式・かっこと計算順序",
+      "description": "式の構造を読み、かっこや四則の計算順序を考えて数量の関係を表す。",
+      "grades": [
+        4,
+        5,
+        6
+      ],
+      "topicType": "expression",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-A"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.factors-multiples",
+      "subject": "算数",
+      "domain": "A 数と計算",
+      "name": "倍数・約数",
+      "description": "整数をかけ算の積として見たり、共通の倍数・約数を調べたりする。",
+      "grades": [
+        5,
+        6
+      ],
+      "topicType": "concept",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-A"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.decimal-multiply-divide",
+      "subject": "算数",
+      "domain": "A 数と計算",
+      "name": "小数の乗法・除法",
+      "description": "積や商の大きさを見積もり、位取りの考えを使って小数の乗法・除法を計算する。",
+      "grades": [
+        5,
+        6
+      ],
+      "topicType": "skill",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-A"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.fractions-unlike-denominators",
+      "subject": "算数",
+      "domain": "A 数と計算",
+      "name": "異分母分数の加法・減法",
+      "description": "通分して単位分数をそろえ、異分母分数の加法・減法を考え、計算する。",
+      "grades": [
+        5,
+        6
+      ],
+      "topicType": "skill",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-A"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.rounding-estimation",
+      "subject": "算数",
+      "domain": "A 数と計算",
+      "name": "概数・四捨五入・見積もり",
+      "description": "目的に応じて数を概数にし、計算結果の見当をつけて妥当性を確かめる。",
+      "grades": [
+        4,
+        5,
+        6
+      ],
+      "topicType": "skill",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-A"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.fraction-multiply-divide",
+      "subject": "算数",
+      "domain": "A 数と計算",
+      "name": "分数の乗法・除法",
+      "description": "図や式で数量の関係を捉え、分数の乗法・除法を計算する。",
+      "grades": [
+        6
+      ],
+      "topicType": "skill",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-A"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.mixed-calculations",
+      "subject": "算数",
+      "domain": "A 数と計算",
+      "name": "整数・小数・分数の計算の活用",
+      "description": "数の種類や計算の性質を選び、複数の計算を含む問題を解決する。",
+      "grades": [
+        5,
+        6
+      ],
+      "topicType": "application",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-A"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.familiar-shapes",
+      "subject": "算数",
+      "domain": "B 図形",
+      "name": "身の回りの形と特徴",
+      "description": "身の回りのものから平面や立体の形を見いだし、形の特徴を捉える。",
+      "grades": [
+        1
+      ],
+      "topicType": "concept",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-B"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.compose-decompose-shapes",
+      "subject": "算数",
+      "domain": "B 図形",
+      "name": "形づくり・形の分解",
+      "description": "色板や箱などを動かしたり組み合わせたりして、形の構成や分解を考える。",
       "grades": [
         1,
+        2
+      ],
+      "topicType": "experience",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-B"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.triangles-quadrilaterals",
+      "subject": "算数",
+      "domain": "B 図形",
+      "name": "三角形・四角形の特徴",
+      "description": "辺や頂点に着目し、三角形・四角形を構成して特徴を説明する。",
+      "grades": [
+        2
+      ],
+      "topicType": "concept",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-B"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.boxes-and-faces",
+      "subject": "算数",
+      "domain": "B 図形",
+      "name": "箱の形と面・辺・頂点",
+      "description": "箱の形を構成する面・辺・頂点の位置やつながりを捉える。",
+      "grades": [
+        2,
+        4,
+        5
+      ],
+      "topicType": "concept",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-B"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.angles",
+      "subject": "算数",
+      "domain": "B 図形",
+      "name": "角の大きさ",
+      "description": "角を回転の大きさとして捉え、角の大きさを比べたり測ったりする。",
+      "grades": [
+        3,
+        4
+      ],
+      "topicType": "concept",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-B"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.triangles-circles-spheres",
+      "subject": "算数",
+      "domain": "B 図形",
+      "name": "三角形・円・球の性質",
+      "description": "辺や中心・半径・直径などに着目して、基本的な平面図形や立体の特徴を捉える。",
+      "grades": [
+        3
+      ],
+      "topicType": "concept",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-B"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.perpendicular-parallel",
+      "subject": "算数",
+      "domain": "B 図形",
+      "name": "垂直・平行と交わり方",
+      "description": "直線の交わり方や離れ方に着目し、垂直・平行の関係を見いだす。",
+      "grades": [
+        4
+      ],
+      "topicType": "concept",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-B"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.quadrilateral-properties",
+      "subject": "算数",
+      "domain": "B 図形",
+      "name": "四角形の分類と性質",
+      "description": "辺・角・対角線などの特徴から、台形・平行四辺形・ひし形などを分類する。",
+      "grades": [
+        4,
+        5
+      ],
+      "topicType": "concept",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-B"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.area-rectangle-square",
+      "subject": "算数",
+      "domain": "B 図形",
+      "name": "長方形・正方形の面積",
+      "description": "単位正方形の個数と辺の長さの関係を捉え、面積を公式で求める。",
+      "grades": [
+        4
+      ],
+      "topicType": "skill",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-B"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.regular-polygons-circumference",
+      "subject": "算数",
+      "domain": "B 図形",
+      "name": "正多角形と円周",
+      "description": "繰り返す辺の長さや角の大きさに着目して正多角形を捉え、円周の意味を理解する。",
+      "grades": [
+        5
+      ],
+      "topicType": "concept",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-B"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.area-triangle-parallelogram-trapezoid",
+      "subject": "算数",
+      "domain": "B 図形",
+      "name": "三角形・平行四辺形・台形の面積",
+      "description": "図形を分けたり移動したりして既習の面積に帰着し、面積の求め方を説明する。",
+      "grades": [
+        5
+      ],
+      "topicType": "skill",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-B"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.volume-cuboid",
+      "subject": "算数",
+      "domain": "B 図形",
+      "name": "立方体・直方体の体積",
+      "description": "単位立方体の個数と辺の長さの関係を捉え、体積を求める。",
+      "grades": [
+        5
+      ],
+      "topicType": "skill",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-B"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.area-circle",
+      "subject": "算数",
+      "domain": "B 図形",
+      "name": "円の面積",
+      "description": "円を分割・近似する見方から、半径と面積の関係を考えて面積を求める。",
+      "grades": [
+        6
+      ],
+      "topicType": "skill",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-B"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.symmetry",
+      "subject": "算数",
+      "domain": "B 図形",
+      "name": "対称な図形",
+      "description": "折り重ねや対応する点・辺に着目し、線対称・点対称の特徴を捉える。",
+      "grades": [
+        6
+      ],
+      "topicType": "concept",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-B"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.enlargement-reduction",
+      "subject": "算数",
+      "domain": "B 図形",
+      "name": "拡大図・縮図",
+      "description": "対応する角の大きさや辺の比に着目し、拡大図・縮図をかいて活用する。",
+      "grades": [
+        6
+      ],
+      "topicType": "skill",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-B"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.volume-prisms-cylinders",
+      "subject": "算数",
+      "domain": "B 図形",
+      "name": "角柱・円柱の体積",
+      "description": "底面積と高さの関係を捉え、角柱や円柱の体積を求める。",
+      "grades": [
+        6
+      ],
+      "topicType": "skill",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-B"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.direct-measurement",
+      "subject": "算数",
+      "domain": "C 測定（第1〜3学年を中心とする）",
+      "name": "長さ・広さ・かさの直接比較",
+      "description": "同じ単位で測る前に、端をそろえたり重ねたりして量の大きさを比較する。",
+      "grades": [
+        1
+      ],
+      "topicType": "experience",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-C-measure"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.time-reading",
+      "subject": "算数",
+      "domain": "C 測定（第1〜3学年を中心とする）",
+      "name": "時計の読み方と時刻",
+      "description": "時計の短針・長針や時刻の並びを使って、時刻を読み取る。",
+      "grades": [
+        1,
+        2
+      ],
+      "topicType": "skill",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-C-measure"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.length-units-cm-mm-m",
+      "subject": "算数",
+      "domain": "C 測定（第1〜3学年を中心とする）",
+      "name": "長さの単位（cm・mm・m）",
+      "description": "ものさしなどを使って長さを測り、単位の関係と測定の仕方を理解する。",
+      "grades": [
+        2
+      ],
+      "topicType": "skill",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-C-measure"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.capacity-units",
+      "subject": "算数",
+      "domain": "C 測定（第1〜3学年を中心とする）",
+      "name": "かさの単位（L・dL・mL）",
+      "description": "容器のかさを測定し、単位を選んだり単位間の関係を使ったりする。",
+      "grades": [
+        2
+      ],
+      "topicType": "skill",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-C-measure"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.elapsed-time",
+      "subject": "算数",
+      "domain": "C 測定（第1〜3学年を中心とする）",
+      "name": "時間の単位と経過時間",
+      "description": "時刻と時間を区別し、時間の単位を使って経過時間を考える。",
+      "grades": [
         2,
         3,
         4
@@ -39,40 +1218,659 @@
       "topicType": "skill",
       "evidence": [
         {
-          "sourceId": "mext-elementary-curriculum",
-          "note": "学習指導要領の算数・数と計算領域を参照して構成した試作項目。公式文の転載ではない。"
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
         }
       ],
-      "curriculumStandards": [],
-      "prerequisiteIds": [
-        "jp.elem.math.number.place-value"
+      "curriculumStandards": [
+        "project-ref-math-area-C-measure"
       ],
+      "prerequisiteIds": [],
       "resourceIds": [],
-      "reviewStatus": "draft"
+      "reviewStatus": "needs-review"
     },
     {
-      "id": "jp.elem.math.multiplication",
+      "id": "jp.elem.math.distance-kilometer",
       "subject": "算数",
-      "domain": "数と計算",
-      "name": "乗法",
-      "description": "同じ数のまとまりに着目し、乗法の意味や計算の仕方を理解して用いる。",
+      "domain": "C 測定（第1〜3学年を中心とする）",
+      "name": "長さの単位（km）",
+      "description": "長い距離をキロメートルで表し、既習の長さの単位と関連づける。",
       "grades": [
-        2,
+        3
+      ],
+      "topicType": "concept",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-C-measure"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.mass-units",
+      "subject": "算数",
+      "domain": "C 測定（第1〜3学年を中心とする）",
+      "name": "重さの単位（g・kg）",
+      "description": "はかりで重さを測定し、グラム・キログラムの意味と関係を捉える。",
+      "grades": [
         3
       ],
       "topicType": "skill",
       "evidence": [
         {
-          "sourceId": "mext-elementary-curriculum",
-          "note": "学習指導要領の算数・数と計算領域を参照して構成した試作項目。公式文の転載ではない。"
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
         }
       ],
-      "curriculumStandards": [],
-      "prerequisiteIds": [
-        "jp.elem.math.addition-subtraction"
+      "curriculumStandards": [
+        "project-ref-math-area-C-measure"
       ],
+      "prerequisiteIds": [],
       "resourceIds": [],
-      "reviewStatus": "draft"
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.area-units",
+      "subject": "算数",
+      "domain": "C 測定（第1〜3学年を中心とする）",
+      "name": "面積の単位と単位換算",
+      "description": "平方センチメートルなどの単位を使い、面積の量感や単位の関係を捉える。",
+      "grades": [
+        4,
+        5,
+        6
+      ],
+      "topicType": "concept",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-C-measure"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.measurement-choice",
+      "subject": "算数",
+      "domain": "C 測定（第1〜3学年を中心とする）",
+      "name": "目的に合う単位・測定方法",
+      "description": "測る対象や目的に応じて単位と測定方法を選び、量を見積もってから確かめる。",
+      "grades": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicType": "application",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-C-measure"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.unit-quantity",
+      "subject": "算数",
+      "domain": "C 変化と関係（第4〜6学年を中心とする）",
+      "name": "単位量当たりの大きさ",
+      "description": "異なる単位の数量を比べるために、1単位当たりの大きさにそろえて考える。",
+      "grades": [
+        5
+      ],
+      "topicType": "concept",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-C-change"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.speed",
+      "subject": "算数",
+      "domain": "C 変化と関係（第4〜6学年を中心とする）",
+      "name": "速さ・道のり・時間",
+      "description": "速さを単位時間当たりの道のりとして捉え、道のり・時間との関係を使って解決する。",
+      "grades": [
+        5,
+        6
+      ],
+      "topicType": "skill",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-C-change"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.percentage",
+      "subject": "算数",
+      "domain": "C 変化と関係（第4〜6学年を中心とする）",
+      "name": "割合と百分率",
+      "description": "基準量と比較量の関係を捉え、割合を小数や百分率で表して問題を解く。",
+      "grades": [
+        5,
+        6
+      ],
+      "topicType": "concept",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-C-change"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.ratio",
+      "subject": "算数",
+      "domain": "C 変化と関係（第4〜6学年を中心とする）",
+      "name": "比の表し方と比べ方",
+      "description": "2つの量の関係を比で表し、等しい比や比の値を使って関係を考える。",
+      "grades": [
+        6
+      ],
+      "topicType": "concept",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-C-change"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.proportionality",
+      "subject": "算数",
+      "domain": "C 変化と関係（第4〜6学年を中心とする）",
+      "name": "比例の関係",
+      "description": "一方が何倍になるともう一方も同じ割合で変わる関係を表・式・グラフで捉える。",
+      "grades": [
+        6
+      ],
+      "topicType": "concept",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-C-change"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.inverse-proportionality",
+      "subject": "算数",
+      "domain": "C 変化と関係（第4〜6学年を中心とする）",
+      "name": "反比例の関係",
+      "description": "積が一定になる2つの量の変わり方を表・式などで捉え、比例との違いを考える。",
+      "grades": [
+        6
+      ],
+      "topicType": "concept",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-C-change"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.scale-and-ratio",
+      "subject": "算数",
+      "domain": "C 変化と関係（第4〜6学年を中心とする）",
+      "name": "縮図の縮尺と実際の長さ",
+      "description": "縮図上の長さと実際の長さの比を用いて、距離や長さを求める。",
+      "grades": [
+        6
+      ],
+      "topicType": "application",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-C-change"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.classify-count-pictograph",
+      "subject": "算数",
+      "domain": "D データの活用",
+      "name": "分類・整理と絵グラフ",
+      "description": "集めた事柄を観点ごとに分類・整理し、数を絵や記号で表して特徴を読む。",
+      "grades": [
+        1
+      ],
+      "topicType": "practice",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-D"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.tables-simple-graphs",
+      "subject": "算数",
+      "domain": "D データの活用",
+      "name": "簡単な表とグラフ",
+      "description": "データを表に整理し、数量の大小や違いを簡単なグラフで読み取る。",
+      "grades": [
+        2
+      ],
+      "topicType": "practice",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-D"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.bar-graphs",
+      "subject": "算数",
+      "domain": "D データの活用",
+      "name": "表・棒グラフ",
+      "description": "項目ごとの数を表や棒グラフに整理し、項目間の比較や特徴を説明する。",
+      "grades": [
+        3
+      ],
+      "topicType": "practice",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-D"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.line-graphs",
+      "subject": "算数",
+      "domain": "D データの活用",
+      "name": "折れ線グラフ",
+      "description": "時間とともに変わる数量を折れ線グラフで表し、増減や変化の様子を読む。",
+      "grades": [
+        4
+      ],
+      "topicType": "practice",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-D"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.tables-multiple-viewpoints",
+      "subject": "算数",
+      "domain": "D データの活用",
+      "name": "二つの観点で整理した表",
+      "description": "複数の観点でデータを整理し、条件に合う数や関係を読み取る。",
+      "grades": [
+        4,
+        5
+      ],
+      "topicType": "practice",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-D"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.average",
+      "subject": "算数",
+      "domain": "D データの活用",
+      "name": "平均",
+      "description": "データ全体の特徴を表す量として平均を捉え、目的に応じて求めて使う。",
+      "grades": [
+        5,
+        6
+      ],
+      "topicType": "concept",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-D"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.percentage-graphs",
+      "subject": "算数",
+      "domain": "D データの活用",
+      "name": "割合を表すグラフ",
+      "description": "割合や百分率を使うグラフを読み、全体と部分の関係や比較を説明する。",
+      "grades": [
+        5,
+        6
+      ],
+      "topicType": "practice",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-D"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.statistical-viewpoints",
+      "subject": "算数",
+      "domain": "D データの活用",
+      "name": "データの特徴を多面的に捉える",
+      "description": "目的に応じてデータを整理・代表させ、複数の見方を比べながら結論を考える。",
+      "grades": [
+        5,
+        6
+      ],
+      "topicType": "inquiry",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-D"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.data-based-reasoning",
+      "subject": "算数",
+      "domain": "D データの活用",
+      "name": "データを根拠に説明する",
+      "description": "表やグラフから読み取った事実を根拠として、判断や考えを説明する。",
+      "grades": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicType": "application",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-D"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.understand-problem-structure",
+      "subject": "算数",
+      "domain": "横断的な数学的活動（プロジェクト独自の分類）",
+      "name": "問題場面を数量の関係として捉える",
+      "description": "文章・図・実物から必要な数量や関係を見いだし、既習の考えと結びつける。",
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicType": "inquiry",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-cross-cutting"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.represent-with-diagrams-tables",
+      "subject": "算数",
+      "domain": "横断的な数学的活動（プロジェクト独自の分類）",
+      "name": "図・表・式で表現する",
+      "description": "考えたい数量の関係を、図・表・式・数直線など適した方法で表す。",
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicType": "expression",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-cross-cutting"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.explain-reasoning",
+      "subject": "算数",
+      "domain": "横断的な数学的活動（プロジェクト独自の分類）",
+      "name": "考え方を説明し比べる",
+      "description": "答えだけでなく、図や式、言葉を使って解決の根拠を説明し、他の考えと比べる。",
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicType": "practice",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-cross-cutting"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.find-patterns",
+      "subject": "算数",
+      "domain": "横断的な数学的活動（プロジェクト独自の分類）",
+      "name": "きまりを見つけて一般化する",
+      "description": "具体例や計算結果を比べ、繰り返しや変化のきまりを見つけて別の場面に使う。",
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicType": "inquiry",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-cross-cutting"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.estimate-and-check",
+      "subject": "算数",
+      "domain": "横断的な数学的活動（プロジェクト独自の分類）",
+      "name": "見積もりと結果の確かめ",
+      "description": "計算や測定の前後に見当をつけ、答えが場面に合っているかを確かめる。",
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicType": "practice",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-cross-cutting"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp.elem.math.math-in-daily-life",
+      "subject": "算数",
+      "domain": "横断的な数学的活動（プロジェクト独自の分類）",
+      "name": "日常生活の問題を算数で解決する",
+      "description": "買い物・時間・測定・データなどの場面を数量化し、結果を実際の場面に戻して解釈する。",
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicType": "application",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-cross-cutting"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review"
     }
   ]
 }
