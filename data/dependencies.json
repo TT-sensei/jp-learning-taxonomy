@@ -414,6 +414,141 @@
       "rationale": "数や計算のきまりを見つける活動が計算の性質の理解に関連する。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-047",
+      "from": "jp.elem.math.angles",
+      "to": "jp.elem.math.angle-measurement",
+      "type": "recommended-prerequisite",
+      "rationale": "角の大きさの理解を、測定・作図の技能につなげる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-048",
+      "from": "jp.elem.math.perpendicular-parallel",
+      "to": "jp.elem.math.geometric-construction",
+      "type": "recommended-prerequisite",
+      "rationale": "直線の関係を理解し、道具を使って作図する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-049",
+      "from": "jp.elem.math.boxes-and-faces",
+      "to": "jp.elem.math.solids-nets",
+      "type": "related-learning",
+      "rationale": "立体の面や辺の理解を、展開図での表現につなげる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-050",
+      "from": "jp.elem.math.volume-cuboid",
+      "to": "jp.elem.math.volume-units",
+      "type": "related-learning",
+      "rationale": "体積の計算と体積単位の意味を相互に確認する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-051",
+      "from": "jp.elem.math.fractions-compare",
+      "to": "jp.elem.math.decimal-fraction-connections",
+      "type": "related-learning",
+      "rationale": "分数と小数の大きさを同じ数直線上で比べる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-052",
+      "from": "jp.elem.math.decimal-place-value",
+      "to": "jp.elem.math.decimal-fraction-connections",
+      "type": "related-learning",
+      "rationale": "小数の位取りを、分数の表し方と関連づける。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-053",
+      "from": "jp.elem.math.multiplication-properties",
+      "to": "jp.elem.math.calculation-properties",
+      "type": "related-learning",
+      "rationale": "乗法の性質を、計算方法を工夫する場面で活用する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-054",
+      "from": "jp.elem.math.number-sentences",
+      "to": "jp.elem.math.unknown-number-equations",
+      "type": "related-learning",
+      "rationale": "数量の関係を式に表す学習から未知数を含む式へつなぐ。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-055",
+      "from": "jp.elem.math.proportionality",
+      "to": "jp.elem.math.meaning-of-proportion",
+      "type": "related-learning",
+      "rationale": "比例の関係を複数の表現で捉える。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-056",
+      "from": "jp.elem.math.ratio",
+      "to": "jp.elem.math.meaning-of-ratio",
+      "type": "related-learning",
+      "rationale": "比の表し方を、比の値や等しい比の理解へ広げる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-057",
+      "from": "jp.elem.math.tables-multiple-viewpoints",
+      "to": "jp.elem.math.data-frequency-tables",
+      "type": "related-learning",
+      "rationale": "表でデータを整理する力を、分布の読み取りへつなげる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-058",
+      "from": "jp.elem.math.statistical-viewpoints",
+      "to": "jp.elem.math.data-statistical-investigation",
+      "type": "related-learning",
+      "rationale": "データの特徴を多面的に捉え、問いに対する結論を検討する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-059",
+      "from": "jp.elem.math.length-units-cm-mm-m",
+      "to": "jp.elem.math.unit-conversion-length-area-volume",
+      "type": "related-learning",
+      "rationale": "長さの単位の関係を、量を横断する単位換算へつなげる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-060",
+      "from": "jp.elem.math.area-units",
+      "to": "jp.elem.math.unit-conversion-length-area-volume",
+      "type": "related-learning",
+      "rationale": "面積単位の関係を他の量の単位と関連づける。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "math-edge-061",
+      "from": "jp.elem.math.volume-units",
+      "to": "jp.elem.math.unit-conversion-length-area-volume",
+      "type": "related-learning",
+      "rationale": "体積単位の関係を他の量の単位と関連づける。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
     }
   ]
 }
