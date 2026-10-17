@@ -35,6 +35,7 @@ const standardById = uniqueMap(standards, "id", "standard ID");
 const sourceById = uniqueMap(sources, "id", "source ID");
 const resourceById = uniqueMap(resources, "id", "resource ID");
 const representationById = uniqueMap(representationModels, "id", "representation model ID");
+const mappingByTopicId = uniqueMap(codeMappings, "topicId", "code mapping topic ID");
 const topicTypes = new Set(["concept","skill","practice","expression","appreciation","inquiry","attitude","experience","application","other"]);
 const topicStatuses = new Set(["draft","needs-review","reviewed","published"]);
 const edgeTypes = new Set(["prerequisite","recommended-prerequisite","related-learning","extension","application","recurring-development"]);
@@ -120,6 +121,8 @@ report.push(`公式コード未照合の項目: ${codeMappings.filter(item => it
 if (manifestData.counts?.topics !== topics.length) errors.push("manifest.json の topics 件数が topics.json と一致しません。");
 if (manifestData.counts?.dependencies !== dependencies.length) errors.push("manifest.json の dependencies 件数が dependencies.json と一致しません。");
 if (manifestData.counts?.representationModels !== representationModels.length) errors.push("manifest.json の representationModels 件数が実データと一致しません。");
+if (manifestData.counts?.sources !== sources.length) errors.push("manifest.json の sources 件数が実データと一致しません。");
+if (manifestData.counts?.curriculumStandards !== standards.length) errors.push("manifest.json の curriculumStandards 件数が実データと一致しません。");
 if (codeMappings.length !== topics.length) errors.push("curriculum-code-mapping.json の対応枠数が topics.json の項目数と一致しません。");
 for (const item of codeMappings) {
   if (!topicById.has(item.topicId)) errors.push(`コード対応表に未登録の topic ID ${item.topicId}`);
