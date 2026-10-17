@@ -627,6 +627,34 @@
       "matchStatus": "not-checked",
       "matchType": "unconfirmed",
       "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.letter-expressions",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.congruent-figures",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.approximate-area-volume",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.arrangements-combinations",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち"
     }
   ]
 }
