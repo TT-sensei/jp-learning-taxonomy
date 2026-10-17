@@ -35,6 +35,7 @@
 - [学習項目と表現モデルの対応](data/representation-models.json)
 - [算数の表現モデルマップ](site/representations.html)
 - [表現モデルの設計・レビュー方針](docs/math-representation-models.md)
+- [算数データのレビュー記録](docs/review-findings-2026-10.md)
 - [学習指導要領コード対応表（照合中）](data/curriculum-code-mapping.json)
 - [学習マップ（試作）](site/)
 
