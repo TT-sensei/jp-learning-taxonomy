@@ -33,13 +33,12 @@
 - [学習項目間の関係](data/dependencies.json)
 - [学習指導要領・領域参照データ](data/curriculum-standards.json)
 - [学習項目と表現モデルの対応](data/representation-models.json)
-- [出版社の系統資料の参照方針](docs/publisher-reference-policy.md)
 - [算数の表現モデルマップ](site/representations.html)
+- [表現モデルの設計・レビュー方針](docs/math-representation-models.md)
 - [学習指導要領コード対応表（照合中）](data/curriculum-code-mapping.json)
-- [出版社の系統資料の参照方針](docs/publisher-reference-policy.md)
 - [学習マップ（試作）](site/)
 
-現在の領域参照 ID はプロジェクト独自の分類であり、文部科学省の正式な学習指導要領コードではありません。正式コードとの対応付けは今後の作業です。
+現在の領域参照 ID はプロジェクト独自の分類であり、文部科学省の正式な学習指導要領コードではありません。正式コードとの対応付けは今後の作業です。各項目の学年は現時点では確認候補であり、公式な学年配当を保証しません。表現モデルも全89項目を網羅しておらず、対応はレビュー中です。
 
 ## ディレクトリ構成
 
