@@ -1,0 +1,78 @@
+{
+  "schemaVersion": "0.1.0",
+  "topics": [
+    {
+      "id": "jp.elem.math.number.place-value",
+      "subject": "算数",
+      "domain": "数と計算",
+      "name": "整数の位取り",
+      "description": "十進位取り記数法で、数字の位置と表す大きさの関係を理解する。",
+      "grades": [
+        2,
+        3,
+        4
+      ],
+      "topicType": "concept",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-curriculum",
+          "note": "学習指導要領の算数・数と計算領域を参照して構成した試作項目。公式文の転載ではない。"
+        }
+      ],
+      "curriculumStandards": [],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "jp.elem.math.addition-subtraction",
+      "subject": "算数",
+      "domain": "数と計算",
+      "name": "整数の加法・減法",
+      "description": "数のまとまりや位取りに着目して、整数のたし算・ひき算を考え、計算する。",
+      "grades": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "topicType": "skill",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-curriculum",
+          "note": "学習指導要領の算数・数と計算領域を参照して構成した試作項目。公式文の転載ではない。"
+        }
+      ],
+      "curriculumStandards": [],
+      "prerequisiteIds": [
+        "jp.elem.math.number.place-value"
+      ],
+      "resourceIds": [],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "jp.elem.math.multiplication",
+      "subject": "算数",
+      "domain": "数と計算",
+      "name": "乗法",
+      "description": "同じ数のまとまりに着目し、乗法の意味や計算の仕方を理解して用いる。",
+      "grades": [
+        2,
+        3
+      ],
+      "topicType": "skill",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-curriculum",
+          "note": "学習指導要領の算数・数と計算領域を参照して構成した試作項目。公式文の転載ではない。"
+        }
+      ],
+      "curriculumStandards": [],
+      "prerequisiteIds": [
+        "jp.elem.math.addition-subtraction"
+      ],
+      "resourceIds": [],
+      "reviewStatus": "draft"
+    }
+  ]
+}
