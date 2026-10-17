@@ -1,0 +1,108 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tt-sensei.github.io/jp-learning-taxonomy/schema/topic.schema.json",
+  "title": "JP Learning Taxonomy Topic",
+  "type": "object",
+  "required": [
+    "id",
+    "subject",
+    "domain",
+    "name",
+    "description",
+    "grades",
+    "topicType",
+    "evidence",
+    "curriculumStandards",
+    "prerequisiteIds",
+    "resourceIds",
+    "reviewStatus"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9.-]+$"
+    },
+    "subject": {
+      "type": "string",
+      "minLength": 1
+    },
+    "domain": {
+      "type": "string",
+      "minLength": 1
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "description": {
+      "type": "string"
+    },
+    "grades": {
+      "type": "array",
+      "items": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 6
+      },
+      "uniqueItems": true
+    },
+    "topicType": {
+      "enum": [
+        "concept",
+        "skill",
+        "practice",
+        "expression",
+        "appreciation",
+        "inquiry",
+        "attitude",
+        "experience",
+        "other"
+      ]
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "sourceId",
+          "note"
+        ],
+        "properties": {
+          "sourceId": {
+            "type": "string"
+          },
+          "note": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "curriculumStandards": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "prerequisiteIds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "resourceIds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "reviewStatus": {
+      "enum": [
+        "draft",
+        "needs-review",
+        "reviewed",
+        "published"
+      ]
+    }
+  },
+  "additionalProperties": false
+}
