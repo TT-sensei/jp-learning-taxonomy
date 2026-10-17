@@ -1,24 +1,123 @@
 {
-  "schemaVersion": "0.1.0",
+  "schemaVersion": "0.2.0",
   "sources": [
     {
-      "id": "mext-elementary-curriculum",
-      "title": "小学校学習指導要領・解説",
+      "id": "mext-elementary-math-guideline-2017",
+      "title": "小学校学習指導要領（平成29年告示）解説 算数編",
       "publisher": "文部科学省",
-      "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1384661.htm",
+      "url": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf",
+      "landingPage": "https://www.mext.go.jp/a_menu/shotou/new-cs/1387014.htm",
       "sourceType": "official-reference",
-      "versionNote": "対象の告示年・版・該当箇所は、各項目を公開レビューする際に確認して追記する。",
-      "reuseNote": "原文・図表等の転載は避け、個別の利用条件を確認する。",
+      "versionNote": "平成29年告示の解説資料。学習内容の表現はプロジェクト独自の要約であり、公式文の転載ではない。",
+      "reuseNote": "PDFの原文・図表の転載は行わず、個別の利用条件を確認する。",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "mext-elementary-curriculum-codes-82V12",
+      "title": "小学校学習指導要領コード（平成29年告示）版コード表 82V12",
+      "publisher": "文部科学省",
+      "url": "https://www.mext.go.jp/a_menu/other/data_00001.htm",
+      "sourceType": "official-reference",
+      "versionNote": "文部科学省の教育データ標準ページで示される小学校学習指導要領コードの版。個々の算数項目へのコード対応は未確認。",
+      "reuseNote": "コード表とデータの利用条件を確認し、対応コードを登録する際に出典・版を明示する。",
+      "reviewStatus": "needs-review"
+    }
+  ],
+  "standards": [
+    {
+      "id": "project-ref-math-area-A",
+      "title": "A 数と計算",
+      "sourceId": "mext-elementary-math-guideline-2017",
+      "standardKind": "project-domain-reference",
+      "officialCode": null,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "note": "領域・横断分類に結び付けるためのプロジェクト独自ID。文部科学省の公式な学習指導要領コードではなく、具体的コードとの対応付けは今後の作業。",
       "reviewStatus": "needs-review"
     },
     {
-      "id": "mext-curriculum-codes",
-      "title": "学習指導要領コード関連情報",
-      "publisher": "文部科学省",
-      "url": "https://www.mext.go.jp/a_menu/other/data_00002.htm",
-      "sourceType": "official-reference",
-      "versionNote": "採用するコード体系の版と配布ファイルを確認してから登録する。",
-      "reuseNote": "配布データの利用条件と改変・再配布条件を確認する。",
+      "id": "project-ref-math-area-B",
+      "title": "B 図形",
+      "sourceId": "mext-elementary-math-guideline-2017",
+      "standardKind": "project-domain-reference",
+      "officialCode": null,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "note": "領域・横断分類に結び付けるためのプロジェクト独自ID。文部科学省の公式な学習指導要領コードではなく、具体的コードとの対応付けは今後の作業。",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "project-ref-math-area-C-measure",
+      "title": "C 測定（第1〜3学年を中心とする）",
+      "sourceId": "mext-elementary-math-guideline-2017",
+      "standardKind": "project-domain-reference",
+      "officialCode": null,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "note": "領域・横断分類に結び付けるためのプロジェクト独自ID。文部科学省の公式な学習指導要領コードではなく、具体的コードとの対応付けは今後の作業。",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "project-ref-math-area-C-change",
+      "title": "C 変化と関係（第4〜6学年を中心とする）",
+      "sourceId": "mext-elementary-math-guideline-2017",
+      "standardKind": "project-domain-reference",
+      "officialCode": null,
+      "grades": [
+        4,
+        5,
+        6
+      ],
+      "note": "領域・横断分類に結び付けるためのプロジェクト独自ID。文部科学省の公式な学習指導要領コードではなく、具体的コードとの対応付けは今後の作業。",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "project-ref-math-area-D",
+      "title": "D データの活用",
+      "sourceId": "mext-elementary-math-guideline-2017",
+      "standardKind": "project-domain-reference",
+      "officialCode": null,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "note": "領域・横断分類に結び付けるためのプロジェクト独自ID。文部科学省の公式な学習指導要領コードではなく、具体的コードとの対応付けは今後の作業。",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "project-ref-math-cross-cutting",
+      "title": "横断的な数学的活動（プロジェクト独自の分類）",
+      "sourceId": "mext-elementary-math-guideline-2017",
+      "standardKind": "project-domain-reference",
+      "officialCode": null,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "note": "領域・横断分類に結び付けるためのプロジェクト独自ID。文部科学省の公式な学習指導要領コードではなく、具体的コードとの対応付けは今後の作業。",
       "reviewStatus": "needs-review"
     }
   ]
