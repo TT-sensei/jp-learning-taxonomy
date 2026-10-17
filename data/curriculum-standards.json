@@ -61,6 +61,16 @@
       "publishedDate": "2024-11-11",
       "usageNote": "比例の学習をもとに反比例を調べる学習展開を確認する補助資料。公式コードの代替ではない。",
       "reviewStatus": "content-checked"
+    },
+    {
+      "id": "tokyo-shoseki-mathconnect-ratio-tape-diagram-2024",
+      "title": "小学6年「比の利用」指導資料",
+      "publisher": "東京書籍",
+      "url": "https://ten.tokyo-shoseki.co.jp/tangenl/shou/10646/20498/",
+      "sourceType": "publisher-teaching-reference",
+      "publishedDate": "2024-07-01",
+      "usageNote": "比の利用で線分図を用いて数量と比の関係を捉える例を確認する補助資料。",
+      "reviewStatus": "content-checked"
     }
   ],
   "standards": [
