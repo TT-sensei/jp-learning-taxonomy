@@ -67,6 +67,13 @@ for (const standard of standards) {
 for (const source of sources) {
   if (!source.title || !source.publisher || !source.url) errors.push(`${source.id}: 出典の必須情報が不足しています。`);
 }
+for (const model of representationModels) {
+  if (!model.name || !model.purpose) errors.push(`${model.id}: 表現モデルの name / purpose が不足しています。`);
+  for (const topicId of model.topicIds ?? []) {
+    if (!topicById.has(topicId)) errors.push(`${model.id}: 未登録の topic ID ${topicId}`);
+  }
+}
+
 for (const topic of topics) {
   const strictPrerequisites = dependencies
     .filter(edge => edge.type === "prerequisite" && edge.to === topic.id)
