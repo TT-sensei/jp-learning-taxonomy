@@ -90,14 +90,15 @@
       "resourceIds": [],
       "reviewStatus": "needs-review",
       "gradePlacement": {
-        "status": "candidate",
+        "status": "reviewed",
         "candidateFirstIntroductionGrade": 1,
         "candidateContinuingGrades": [
           2,
           3
         ],
-        "basis": "current-draft-grades",
-        "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
+        "basis": "mext-commentary-initial-review",
+        "note": "第1学年で数の大小・順序を考え、系列や数直線に表すことが明記される。第2学年では4位数まで、第3学年ではさらに大きな整数へ数の範囲を広げるため、継続学年は数の範囲の拡張を表す編集上の整理。",
+        "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       }
     },
     {
@@ -260,15 +261,16 @@
       "resourceIds": [],
       "reviewStatus": "needs-review",
       "gradePlacement": {
-        "status": "candidate",
+        "status": "reviewed",
         "candidateFirstIntroductionGrade": 1,
         "candidateContinuingGrades": [
           2,
           3,
           4
         ],
-        "basis": "current-draft-grades",
-        "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
+        "basis": "mext-commentary-initial-review",
+        "note": "第1学年で加法・減法が用いられる場面と式による表現を扱う。第2学年以降は桁数や演算の範囲を広げ、等号を含む式や数量関係の表現も発展する。これは式表現の概念を横断的にまとめた項目で、公式の単一単元・継続配当を意味しない。今後、等号の意味と式の表現を分割するか検討する。",
+        "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       }
     },
     {
@@ -501,15 +503,16 @@
       "resourceIds": [],
       "reviewStatus": "needs-review",
       "gradePlacement": {
-        "status": "candidate",
+        "status": "reviewed",
         "candidateFirstIntroductionGrade": 3,
         "candidateContinuingGrades": [
           4,
           5,
           6
         ],
-        "basis": "current-draft-grades",
-        "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
+        "basis": "mext-commentary-initial-review",
+        "note": "第3学年で1万を超える整数や数の相対的な大きさ、第4学年でより大きな整数の位取り、第5・6学年で10倍・100倍・1/10・1/100等の関係や小数の位取りを扱うことを確認。整数の位取りと小数の相対的な大きさを一項目にまとめているため、概念マップ上では今後分割を検討する。",
+        "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       }
     },
     {
@@ -667,15 +670,16 @@
       "resourceIds": [],
       "reviewStatus": "needs-review",
       "gradePlacement": {
-        "status": "candidate",
+        "status": "reviewed",
         "candidateFirstIntroductionGrade": 3,
         "candidateContinuingGrades": [
           4,
           5,
           6
         ],
-        "basis": "current-draft-grades",
-        "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
+        "basis": "mext-commentary-initial-review",
+        "note": "第3学年で分数を単位分数のいくつ分として捉え、簡単な分数の大小を考える基礎を扱う。第4学年では大きさの等しい分数や真分数・仮分数等を扱い、以後は分数の計算や割合等で活用する。項目名は比較と等しい分数をまとめたプロジェクト独自の整理で、継続学年は活用を含む。",
+        "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       }
     },
     {
@@ -703,14 +707,15 @@
       "resourceIds": [],
       "reviewStatus": "needs-review",
       "gradePlacement": {
-        "status": "candidate",
+        "status": "reviewed",
         "candidateFirstIntroductionGrade": 4,
         "candidateContinuingGrades": [
           5,
           6
         ],
-        "basis": "current-draft-grades",
-        "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
+        "basis": "mext-commentary-initial-review",
+        "note": "第4学年で1/100の位、第5学年で1/1000の位などを扱い、小数が十進位取り記数法で表されることの理解を深める。第6学年は既習の小数の位取り・相対的な大きさを計算や数量関係で活用する意味で継続学年に含めた。公式の単元配当を示すものではない。",
+        "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       }
     },
     {
@@ -842,13 +847,12 @@
       "resourceIds": [],
       "reviewStatus": "needs-review",
       "gradePlacement": {
-        "status": "candidate",
+        "status": "reviewed",
         "candidateFirstIntroductionGrade": 5,
-        "candidateContinuingGrades": [
-          6
-        ],
-        "basis": "current-draft-grades",
-        "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
+        "candidateContinuingGrades": [],
+        "basis": "mext-commentary-initial-review",
+        "note": "第5学年 A(1)で整数の性質として偶数・奇数、約数・倍数を扱うことが明記される。第6学年での利用場面はあり得るが、同一内容の公式な継続配当とは確認できないため、継続学年は空配列とする。",
+        "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       }
     },
     {
