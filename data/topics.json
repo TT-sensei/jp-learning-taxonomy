@@ -10,17 +10,13 @@
       "description": "文章の内容や表現に合わせ、声の大きさ、速さ、間などを工夫して音読・朗読する。",
       "grades": [
         1,
-        2,
-        3,
-        4,
-        5,
-        6
+        2
       ],
       "topicType": "concept",
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -37,8 +33,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "声や間を工夫して音読しよう",
       "studentDescription": "文章の内容に合わせて、声の大きさ・速さ・間を工夫して読もう。"
@@ -52,17 +48,13 @@
       "description": "原稿用紙の使い方や、手紙・報告文などの基本的な書式を理解して使う。",
       "grades": [
         1,
-        2,
-        3,
-        4,
-        5,
-        6
+        2
       ],
       "topicType": "concept",
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -79,8 +71,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "原稿用紙・手紙・報告文の書き方",
       "studentDescription": "原稿用紙の使い方や、手紙・報告文を書くときの形を知って使おう。"
@@ -94,17 +86,13 @@
       "description": "詩歌や短い文章を音読・朗読し、言葉の響きやリズムを味わう。",
       "grades": [
         1,
-        2,
-        3,
-        4,
-        5,
-        6
+        2
       ],
       "topicType": "concept",
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -121,8 +109,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "詩や短い文の音・リズムを味わおう",
       "studentDescription": "詩や短い文章を声に出して読み、言葉の音やリズムを楽しもう。"
@@ -136,17 +124,13 @@
       "description": "姿勢や筆記具の持ち方、点画や文字の組み立てに注意して書く。",
       "grades": [
         1,
-        2,
-        3,
-        4,
-        5,
-        6
+        2
       ],
       "topicType": "concept",
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -163,8 +147,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "文字を読みやすく整えて書こう",
       "studentDescription": "字を書きやすい姿勢や鉛筆の持ち方、点や線の形に気をつけて書こう。"
@@ -178,17 +162,13 @@
       "description": "図書館や資料の分類、目次、索引などを活用して、目的に合う本や資料を選ぶ。",
       "grades": [
         1,
-        2,
-        3,
-        4,
-        5,
-        6
+        2
       ],
       "topicType": "concept",
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -205,8 +185,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "図書館で本や資料を探そう",
       "studentDescription": "目次や索引（さくいん）を使って、知りたいことに合う本や資料を選ぼう。"
@@ -220,17 +200,13 @@
       "description": "昔話、神話・伝承、古典などに触れ、言語文化の特徴やよさを感じ取る。",
       "grades": [
         1,
-        2,
-        3,
-        4,
-        5,
-        6
+        2
       ],
       "topicType": "concept",
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -247,8 +223,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "昔話・神話・古典に親しもう",
       "studentDescription": "昔話や神話、昔の文章にふれて、今の言葉やくらしとのちがいを見つけよう。"
@@ -262,17 +238,13 @@
       "description": "目的や興味に応じて本を選び、読書を通して知識や考えを広げる。",
       "grades": [
         1,
-        2,
-        3,
-        4,
-        5,
-        6
+        2
       ],
       "topicType": "concept",
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -289,8 +261,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "本を選んで読み、考えを広げよう",
       "studentDescription": "興味のある本や知りたいことに合う本を選び、読んで分かったことや考えたことを広げよう。"
@@ -304,17 +276,13 @@
       "description": "仮名や学年に応じた漢字を読み書きし、語句や文章の中で使う。",
       "grades": [
         1,
-        2,
-        3,
-        4,
-        5,
-        6
+        2
       ],
       "topicType": "concept",
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -331,8 +299,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "ひらがな・カタカナ・漢字を正しく使おう",
       "studentDescription": "習ったひらがな・カタカナ・漢字を読んだり書いたりして、文の中で使おう。"
@@ -352,7 +320,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -365,8 +333,8 @@
         "candidateContinuingGrades": [
           2
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "言葉の音や文字のきまりを知ろう",
       "studentDescription": "言葉を声に出し、音の区切りや文字の形に注目して、正しく読んだり書いたりしよう。"
@@ -380,17 +348,13 @@
       "description": "仮名遣い、送り仮名、同音の語などの表記に注意し、文脈に合う表記を選ぶ。",
       "grades": [
         1,
-        2,
-        3,
-        4,
-        5,
-        6
+        2
       ],
       "topicType": "concept",
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -407,8 +371,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "送り仮名・かなづかいのきまり",
       "studentDescription": "送り仮名やかなづかい、同じ音でも書き方や意味がちがう言葉に気をつけて書こう。"
@@ -422,17 +386,13 @@
       "description": "学年に応じた漢字の読みや意味を理解し、熟語や文の中で適切に使う。",
       "grades": [
         1,
-        2,
-        3,
-        4,
-        5,
-        6
+        2
       ],
       "topicType": "concept",
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -449,8 +409,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "漢字の読み方・意味・使い方",
       "studentDescription": "習った漢字の読み方や意味を知り、熟語や文の中で正しく使おう。"
@@ -464,17 +424,13 @@
       "description": "音や様子、感覚を表す言葉の働きに気付き、表現や読解に生かす。",
       "grades": [
         1,
-        2,
-        3,
-        4,
-        5,
-        6
+        2
       ],
       "topicType": "concept",
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -491,8 +447,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "「ザーザー」「ふわふわ」などの言葉",
       "studentDescription": "音や様子、感覚を表す言葉の働きに気付き、表現や読解に生かす。"
@@ -506,17 +462,13 @@
       "description": "句読点、かぎ、送り仮名などの表記のきまりを理解して使う。",
       "grades": [
         1,
-        2,
-        3,
-        4,
-        5,
-        6
+        2
       ],
       "topicType": "concept",
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -533,8 +485,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "句読点・かぎかっこ・送り仮名の使い方",
       "studentDescription": "句読点・かぎかっこ・送り仮名のきまりを知り、正しく書こう。"
@@ -548,17 +500,13 @@
       "description": "言葉の意味や用法、類義語・対義語などを捉え、場面や目的に応じて使う。",
       "grades": [
         1,
-        2,
-        3,
-        4,
-        5,
-        6
+        2
       ],
       "topicType": "concept",
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -575,8 +523,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "言葉の意味と使い分け",
       "studentDescription": "言葉の意味や、似た意味・反対の意味を知り、場面に合う言葉を選ぼう。"
@@ -590,17 +538,13 @@
       "description": "経験や学習に関連する語彙を増やし、表現や理解に生かす。",
       "grades": [
         1,
-        2,
-        3,
-        4,
-        5,
-        6
+        2
       ],
       "topicType": "concept",
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -617,8 +561,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "知っている言葉を増やして使おう",
       "studentDescription": "新しい言葉や使える言葉を増やし、話したり書いたりするときに使おう。"
@@ -632,17 +576,13 @@
       "description": "辞書や語句集などを目的に応じて使い、言葉の意味や用法を確かめる。",
       "grades": [
         1,
-        2,
-        3,
-        4,
-        5,
-        6
+        2
       ],
       "topicType": "concept",
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -659,8 +599,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "辞書を使って言葉を調べよう",
       "studentDescription": "辞書や言葉の資料を使って、意味や使い方を調べよう。"
@@ -674,17 +614,13 @@
       "description": "相手、目的、場面に応じて言葉を選び、伝え方を調整する。",
       "grades": [
         1,
-        2,
-        3,
-        4,
-        5,
-        6
+        2
       ],
       "topicType": "concept",
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -701,8 +637,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "相手や場面に合う言葉を選ぼう",
       "studentDescription": "話す相手や場面に合わせて言葉を選び、伝え方を工夫しよう。"
@@ -716,17 +652,13 @@
       "description": "文末表現や文の形に着目し、伝えたい内容や相手に応じた文を使う。",
       "grades": [
         1,
-        2,
-        3,
-        4,
-        5,
-        6
+        2
       ],
       "topicType": "concept",
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -743,8 +675,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "文の終わり方と文の形",
       "studentDescription": "「〜です」「〜かな」など文の終わり方に注目し、伝えたいことや相手に合わせて文を書こう。"
@@ -758,17 +690,13 @@
       "description": "主語と述語、修飾・被修飾の関係など、文の組み立てに着目する。",
       "grades": [
         1,
-        2,
-        3,
-        4,
-        5,
-        6
+        2
       ],
       "topicType": "concept",
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -785,8 +713,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "文の中の言葉の役割を考えよう",
       "studentDescription": "だれが何をする文なのか、様子をくわしく説明する言葉はどれかを考えよう。"
@@ -800,17 +728,13 @@
       "description": "経験や観察した事実を、順序や観点を意識して記録する。",
       "grades": [
         1,
-        2,
-        3,
-        4,
-        5,
-        6
+        2
       ],
       "topicType": "concept",
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -827,8 +751,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "経験や観察したことを記録しよう",
       "studentDescription": "見たことや経験したことを、順序や見るポイントを決めて記録しよう。"
@@ -842,17 +766,13 @@
       "description": "相手や目的に応じて、必要な情報や適切な言葉遣いを選んで書く。",
       "grades": [
         1,
-        2,
-        3,
-        4,
-        5,
-        6
+        2
       ],
       "topicType": "concept",
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -869,8 +789,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "手紙やお願いの文を書こう",
       "studentDescription": "相手や目的に合わせて、必要なこととふさわしい言葉を選び、手紙やお願いの文を書こう。"
@@ -884,17 +804,13 @@
       "description": "伝えたいことを明確にし、時間・事柄の順序や段落の構成を考える。",
       "grades": [
         1,
-        2,
-        3,
-        4,
-        5,
-        6
+        2
       ],
       "topicType": "concept",
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -911,8 +827,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "書くことを整理して文章を組み立てよう",
       "studentDescription": "何を伝えたいかを決め、出来事の順番や段落の分け方を考えて文章を組み立てよう。"
@@ -926,17 +842,13 @@
       "description": "経験や関心、目的に応じて題材を選び、必要な事柄を集める。",
       "grades": [
         1,
-        2,
-        3,
-        4,
-        5,
-        6
+        2
       ],
       "topicType": "concept",
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -953,8 +865,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "書きたいことを見つけて材料を集めよう",
       "studentDescription": "経験や興味から題材を選び、書くための情報を集めよう。"
@@ -968,17 +880,13 @@
       "description": "内容、順序、語句、文や表記を読み返し、より伝わる文章に直す。",
       "grades": [
         1,
-        2,
-        3,
-        4,
-        5,
-        6
+        2
       ],
       "topicType": "concept",
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -995,8 +903,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "読み返して、もっと伝わる文に直そう",
       "studentDescription": "内容、順序、語句、文や表記を読み返し、より伝わる文章に直す。"
@@ -1010,17 +918,13 @@
       "description": "互いの文章を読み、よいところや改善点を伝え合って次の表現に生かす。",
       "grades": [
         1,
-        2,
-        3,
-        4,
-        5,
-        6
+        2
       ],
       "topicType": "concept",
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -1037,8 +941,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "文章を読み合い、よいところを伝えよう",
       "studentDescription": "友だちの文章を読み、よいところや、もっと分かりやすくできそうなところを伝え合おう。"
@@ -1052,17 +956,13 @@
       "description": "目的や相手に応じて、説明、報告、紹介、意見などの文章を書く。",
       "grades": [
         1,
-        2,
-        3,
-        4,
-        5,
-        6
+        2
       ],
       "topicType": "concept",
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -1079,8 +979,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "目的や相手に合う文章を書こう",
       "studentDescription": "説明・報告・紹介・意見など、何を伝える文章なのかを決め、相手に合う書き方をしよう。"
@@ -1094,17 +994,13 @@
       "description": "観察、インタビュー、書籍、ウェブ資料などから目的に合う情報を集め、必要な形で記録する。",
       "grades": [
         1,
-        2,
-        3,
-        4,
-        5,
-        6
+        2
       ],
       "topicType": "concept",
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -1121,8 +1017,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "必要な情報を集めて記録しよう",
       "studentDescription": "観察やインタビュー、本、ウェブ資料から必要な情報を集め、後で使えるように記録しよう。"
@@ -1136,17 +1032,13 @@
       "description": "共通点や相違点、観点を明確にして情報を比べたり分類したりする。",
       "grades": [
         1,
-        2,
-        3,
-        4,
-        5,
-        6
+        2
       ],
       "topicType": "concept",
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -1163,8 +1055,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "情報を比べて、仲間分けしよう",
       "studentDescription": "同じところやちがうところを見つけ、情報を比べたり仲間分けしたりしよう。"
@@ -1178,15 +1070,13 @@
       "description": "出来事の順序や場面の移り変わりを捉え、内容を理解する。",
       "grades": [
         1,
-        2,
-        3,
-        4
+        2
       ],
       "topicType": "concept",
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -1201,8 +1091,8 @@
           3,
           4
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "出来事や場面の順番を読み取ろう",
       "studentDescription": "出来事の順番や場面の変わり方をたどり、文章に何が書かれているか読み取ろう。"
@@ -1216,17 +1106,13 @@
       "description": "文章中の言葉や描写を根拠に、書かれていることや書かれていないことを考える。",
       "grades": [
         1,
-        2,
-        3,
-        4,
-        5,
-        6
+        2
       ],
       "topicType": "concept",
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -1243,8 +1129,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "文章の言葉を手がかりに想像しよう",
       "studentDescription": "文章に書かれた言葉を根拠にして、気持ちや様子を想像しよう。"
@@ -1258,17 +1144,13 @@
       "description": "文章の中心的な内容や筆者の要旨を捉える。",
       "grades": [
         1,
-        2,
-        3,
-        4,
-        5,
-        6
+        2
       ],
       "topicType": "concept",
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -1285,8 +1167,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "文章の大事なところをつかもう",
       "studentDescription": "文章の中で特に大事な内容を見つけ、自分の言葉で説明しよう。"
@@ -1300,17 +1182,13 @@
       "description": "叙述を基に、登場人物の行動や気持ち、場面の様子を捉える。",
       "grades": [
         1,
-        2,
-        3,
-        4,
-        5,
-        6
+        2
       ],
       "topicType": "concept",
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -1327,8 +1205,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "登場人物の行動や気持ち、場面を読み取ろう",
       "studentDescription": "文章中の言葉を手がかりに、登場人物の行動や気持ち、場面の様子を考えよう。"
@@ -1342,17 +1220,13 @@
       "description": "読んで感じたことや考えたことを伝え合い、新たな見方や考えをもつ。",
       "grades": [
         1,
-        2,
-        3,
-        4,
-        5,
-        6
+        2
       ],
       "topicType": "concept",
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -1369,8 +1243,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "読んで思ったことを伝え合おう",
       "studentDescription": "読んで心に残ったことや考えたことを伝え合い、友だちの考えから新しい気づきを得よう。"
@@ -1384,17 +1258,13 @@
       "description": "目的に応じて、詳しく読む、要点を探す、比べて読むなどの方法を選ぶ。",
       "grades": [
         1,
-        2,
-        3,
-        4,
-        5,
-        6
+        2
       ],
       "topicType": "concept",
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -1411,8 +1281,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "目的に合う読み方を選ぼう",
       "studentDescription": "何を知りたいかに合わせて、詳しく読む・大事なところを探す・比べて読むなどの方法を選ぼう。"
@@ -1426,15 +1296,13 @@
       "description": "伝えたいことを選び、順序や相手を意識して分かりやすく話す。",
       "grades": [
         1,
-        2,
-        3,
-        4
+        2
       ],
       "topicType": "concept",
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -1449,8 +1317,8 @@
           3,
           4
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "経験や出来事を順序よく話そう",
       "studentDescription": "伝えたいことを選び、順序や相手を意識して分かりやすく話す。"
@@ -1464,17 +1332,13 @@
       "description": "分からないことを質問し、相手の意図や情報を確かめる。",
       "grades": [
         1,
-        2,
-        3,
-        4,
-        5,
-        6
+        2
       ],
       "topicType": "concept",
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -1491,8 +1355,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "質問して、分からないことを確かめよう",
       "studentDescription": "分からないことや、もっと知りたいことを質問して確かめよう。"
@@ -1506,17 +1370,13 @@
       "description": "話題や要点を捉え、必要な情報を聞き取る。",
       "grades": [
         1,
-        2,
-        3,
-        4,
-        5,
-        6
+        2
       ],
       "topicType": "concept",
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -1533,8 +1393,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "話の大事なところを聞き取ろう",
       "studentDescription": "話の中心や大事なところを聞き取り、必要なことをおさえよう。"
@@ -1548,17 +1408,13 @@
       "description": "目的や進め方を意識し、意見を比べたり質問したりして考えをまとめる。",
       "grades": [
         1,
-        2,
-        3,
-        4,
-        5,
-        6
+        2
       ],
       "topicType": "concept",
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -1575,8 +1431,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "話し合って、考えをまとめよう",
       "studentDescription": "おたがいの意見を聞き、質問したり比べたりしながら、みんなの考えをまとめよう。"
@@ -1590,17 +1446,13 @@
       "description": "目的や相手を意識して話題を選び、伝える順序や要点を整える。",
       "grades": [
         1,
-        2,
-        3,
-        4,
-        5,
-        6
+        2
       ],
       "topicType": "concept",
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -1617,8 +1469,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "話す内容と順番を考えよう",
       "studentDescription": "だれに何を伝えるかを考え、話す内容と順番を決めよう。"
@@ -1640,7 +1492,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -1655,8 +1507,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "昔の言葉や古典の表現に親しもう",
       "studentDescription": "古文や漢文調の文章などに触れ、現代の言葉との違いや響きを味わう。"
@@ -1678,7 +1530,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -1693,8 +1545,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "作品や作者について知ろう",
       "studentDescription": "作品や作者について調べ、作品の時代やほかの作品とのつながりも考えてみよう。"
@@ -1716,7 +1568,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -1731,8 +1583,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "慣用句・ことわざ・故事成語を使おう",
       "studentDescription": "慣用句・ことわざ・故事成語の意味や使い方を知り、話したり書いたりするときに使おう。"
@@ -1754,7 +1606,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -1769,8 +1621,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "敬語や丁寧な言葉の使い方",
       "studentDescription": "相手や場面に合う言葉づかいを知り、使い分けよう。"
@@ -1792,7 +1644,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -1807,8 +1659,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "言葉の種類と文の中での働き",
       "studentDescription": "名詞・動詞など言葉の種類や、文の中での役目を考えよう。"
@@ -1830,7 +1682,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -1845,8 +1697,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "言葉の組み立てやつながりを考えよう",
       "studentDescription": "言葉がどのように組み合わさっているか、言葉どうしがどんな意味でつながるか考えよう。"
@@ -1868,7 +1720,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -1883,8 +1735,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "接続語・修飾語で文のつながりを考えよう",
       "studentDescription": "「だから」「しかし」などの接続語や、様子をくわしくする修飾語が文の意味をどうつなぐか考えよう。"
@@ -1906,7 +1758,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -1921,8 +1773,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "理由や例を挙げて意見文を書こう",
       "studentDescription": "自分の立場を明確にし、理由や事例を挙げて読み手に伝わるように書く。"
@@ -1944,7 +1796,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -1959,8 +1811,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "引用した言葉と出典を示して書こう",
       "studentDescription": "他の文章や資料を引用する際に、自分の考えと区別し、出典を示す。"
@@ -1982,7 +1834,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -1997,8 +1849,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "事実と自分の考えを分けて書こう",
       "studentDescription": "事実、感想、意見や理由を区別し、関係が分かるように書く。"
@@ -2020,7 +1872,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -2035,8 +1887,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "段落や接続語を使って文章をつなごう",
       "studentDescription": "段落相互の関係や接続語に気を付け、文章のつながりを整える。"
@@ -2058,7 +1910,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -2073,8 +1925,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "調べたことを報告文にまとめよう",
       "studentDescription": "調べた情報を、事実と自分の考えに分けて報告文にまとめよう。"
@@ -2096,7 +1948,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -2111,8 +1963,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "大事なところを要約し、自分の言葉で言い換えよう",
       "studentDescription": "文章の大事な情報を選び、短くまとめたり自分の言葉で言い換えたりしよう。"
@@ -2134,7 +1986,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -2149,8 +2001,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "原因と結果などのつながりを見つけよう",
       "studentDescription": "「何が原因で、何が起きたのか」など、出来事や情報どうしのつながりを考えよう。"
@@ -2172,7 +2024,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -2187,8 +2039,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "事実・意見・自分の読み取りを分けよう",
       "studentDescription": "資料に書かれた事実、だれかの意見、自分の読み取りを分けて考えよう。"
@@ -2210,7 +2062,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -2225,8 +2077,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "情報を順序やグループに整理しよう",
       "studentDescription": "情報を順番やグループに分け、分かりやすく整理しよう。"
@@ -2248,7 +2100,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -2263,8 +2115,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "情報がどこから来たか、確かめよう",
       "studentDescription": "だれが、いつ、何をもとに発信した情報かを確かめ、別の資料とも比べてみよう。"
@@ -2286,7 +2138,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -2301,8 +2153,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "図や表、引用を使って伝えよう",
       "studentDescription": "図や表を使い、引用した資料の出どころを示して伝えよう。"
@@ -2324,7 +2176,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -2339,8 +2191,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "文章・図・写真を組み合わせて読み取ろう",
       "studentDescription": "文章・図表・写真を見比べ、同じ情報やちがう情報をつなげて読み取ろう。"
@@ -2362,7 +2214,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -2377,8 +2229,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "文章中の言葉を根拠にして説明しよう",
       "studentDescription": "自分の考えを支える言葉や文を選び、どこに書いてあるかを示して説明しよう。"
@@ -2400,7 +2252,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -2415,8 +2267,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "だれの目線で書かれているか考えよう",
       "studentDescription": "だれの立場から語られているか、何に注目して書かれているかを考えよう。"
@@ -2438,7 +2290,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -2453,8 +2305,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "事実・意見・理由・例のつながりを読もう",
       "studentDescription": "説明文の事実と筆者の意見を分け、意見を支える理由や例を見つけよう。"
@@ -2476,7 +2328,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -2491,8 +2343,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "文章の言葉を結び付けて、気持ちや意図を考えよう",
       "studentDescription": "いくつかの言葉や文を結び付けて、直接書かれていない気持ちや意図を考えよう。"
@@ -2514,7 +2366,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -2529,8 +2381,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "段落や文章全体の組み立てを読み取ろう",
       "studentDescription": "段落どうしのつながりや文章全体の組み立てを考え、筆者の説明の進め方を読み取ろう。"
@@ -2552,7 +2404,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -2567,8 +2419,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "筆者の主張と理由・例を見つけよう",
       "studentDescription": "筆者が一番伝えたいことと、その理由や例を見つけて説明しよう。"
@@ -2590,7 +2442,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -2605,8 +2457,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "たとえや言葉選びの工夫を考えよう",
       "studentDescription": "比喩、反復、言葉選び、描写などの表現の工夫と効果を考える。"
@@ -2628,7 +2480,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -2643,8 +2495,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "複数の文章を比べて読もう",
       "studentDescription": "複数の文章や資料を比べ、内容・表現・構成の同じところやちがいを考える。"
@@ -2666,7 +2518,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -2681,8 +2533,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "いくつかの資料を比べて確かめよう",
       "studentDescription": "いくつかの文章や資料を比べ、同じところ・ちがうところ・一方にしかない情報を確かめよう。"
@@ -2704,7 +2556,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -2719,8 +2571,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "文章の種類や目的に合わせて読もう",
       "studentDescription": "物語・説明文・記録・意見文など、文章の種類に合わせて読み方を工夫しよう。"
@@ -2742,7 +2594,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -2757,8 +2609,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "ちがう意見を比べて聞こう",
       "studentDescription": "複数の意見の同じところやちがうところをつかみ、自分の考えを広げよう。"
@@ -2780,7 +2632,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -2795,8 +2647,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "事例や資料を使って説明しよう",
       "studentDescription": "自分の考えを分かってもらえるように、理由や具体的な例、資料を使って説明しよう。"
@@ -2818,7 +2670,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -2833,8 +2685,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "相手の考えを整理して伝え返そう",
       "studentDescription": "相手が話した大事なことを整理し、自分の言葉で伝え返して理解を確かめよう。"
@@ -2856,7 +2708,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -2871,8 +2723,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "聞きながら大事なことをメモしよう",
       "studentDescription": "話を聞きながら、大事なことや後で使いたいことを短くメモしよう。"
@@ -2894,7 +2746,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -2909,8 +2761,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "知りたいことを質問して調べよう",
       "studentDescription": "知りたいことを整理して質問し、相手の話から必要な情報を集めよう。"
@@ -2932,7 +2784,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -2947,8 +2799,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "相手に伝わるように発表しよう",
       "studentDescription": "話す順番や資料、声の大きさ・速さを工夫して、聞く人に伝わるように発表しよう。"
@@ -2970,7 +2822,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年別内容との個別照合は未完了。"
+          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
         }
       ],
       "curriculumStandards": [],
@@ -2985,8 +2837,8 @@
           5,
           6
         ],
-        "basis": "japanese-taxonomy-draft",
-        "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
+        "basis": "japanese-taxonomy-grade-band-draft",
+        "note": "文部科学省の学習指導要領解説に示される学年帯をもとにした暫定整理。個別項目の厳密な学年配当ではなく、学年帯の目安として扱う。"
       },
       "studentName": "理由や根拠をはっきりさせて話そう",
       "studentDescription": "自分の考えだけでなく、その理由や例もそえて話そう。"
