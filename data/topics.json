@@ -41,7 +41,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "声や間を工夫して音読しよう",
-      "studentDescription": "文章の内容に合わせて、声の大きさ・速さ・間を工夫して読もう。"
+      "studentDescription": "文章の内容や表現に合わせ、声の大きさ、速さ、間などを工夫して音読・朗読する。"
     },
     {
       "id": "jp.elem.japanese.manuscript-paper-and-layout",
@@ -1247,7 +1247,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "文章の言葉を手がかりに想像しよう",
-      "studentDescription": "文章に書かれた言葉を根拠にして、気持ちや様子を想像しよう。"
+      "studentDescription": "文章中の言葉や描写を根拠に、書かれていることや書かれていないことを考える。"
     },
     {
       "id": "jp.elem.japanese.read-main-idea",
@@ -1289,7 +1289,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "文章の大事なところをつかもう",
-      "studentDescription": "文章の中で特に大事な内容を見つけ、自分の言葉で説明しよう。"
+      "studentDescription": "文章の中心的な内容や筆者の大事な内容を読み取る。"
     },
     {
       "id": "jp.elem.japanese.read-character-and-setting",
@@ -1331,7 +1331,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "登場人物の行動や気持ち、場面を読み取ろう",
-      "studentDescription": "文章中の言葉を手がかりに、登場人物の行動や気持ち、場面の様子を考えよう。"
+      "studentDescription": "文章中の言葉や文を基に、登場人物の行動や気持ち、場面の様子を読み取る。"
     },
     {
       "id": "jp.elem.japanese.read-and-reflect",
@@ -1734,8 +1734,8 @@
         "basis": "japanese-taxonomy-draft",
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
-      "studentName": "慣用句・ことわざ・故事成語",
-      "studentDescription": "慣用句、ことわざ、故事成語などの意味や使われ方を知り、表現に生かす。"
+      "studentName": "慣用句・ことわざ・故事成語を使おう",
+      "studentDescription": "慣用句・ことわざ・故事成語の意味や使い方を知り、話したり書いたりするときに使おう。"
     },
     {
       "id": "jp.elem.japanese.polite-language",
@@ -1886,8 +1886,8 @@
         "basis": "japanese-taxonomy-draft",
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
-      "studentName": "接続語や修飾語の働き",
-      "studentDescription": "接続語や修飾語が文や文章の意味のつながりに果たす役割を見つける。"
+      "studentName": "接続語・修飾語で文のつながりを考えよう",
+      "studentDescription": "「だから」「しかし」などの接続語や、様子をくわしくする修飾語が文の意味をどうつなぐか考えよう。"
     },
     {
       "id": "jp.elem.japanese.write-opinion-and-argument",
@@ -2153,7 +2153,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "原因と結果などのつながりを見つけよう",
-      "studentDescription": "原因と結果、事実と意見など、情報どうしの関係を見つける。"
+      "studentDescription": "原因と結果、事実と意見など、情報どうしの関係を読み取る。"
     },
     {
       "id": "jp.elem.japanese.facts-opinions-and-interpretations",
@@ -2267,7 +2267,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "情報の出どころや確かさを確かめよう",
-      "studentDescription": "だれが、いつ、何をもとに発信した情報かを確かめ、ほかの資料とも比べよう。"
+      "studentDescription": "情報の出典や発信者、複数資料との照合に注目し、情報を吟味する。"
     },
     {
       "id": "jp.elem.japanese.diagrams-and-tables",
@@ -2381,7 +2381,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "文章中の言葉を根拠にして説明しよう",
-      "studentDescription": "自分の考えを支える言葉や文を選び、どこに書いてあるかを示して説明しよう。"
+      "studentDescription": "考えの根拠となる文章中の言葉や文を選び、引用や要約を用いて説明する。"
     },
     {
       "id": "jp.elem.japanese.read-narrator-and-point-of-view",
@@ -2457,7 +2457,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "事実・意見・理由・例のつながりを読もう",
-      "studentDescription": "説明文などで事実と意見、主張と理由・事例の関係を見つける。"
+      "studentDescription": "説明文などで事実と意見、主張と理由・事例の関係を読み取る。"
     },
     {
       "id": "jp.elem.japanese.read-between-the-lines",
@@ -2495,7 +2495,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "文章の言葉を結び付けて、気持ちや意図を考えよう",
-      "studentDescription": "いくつかの言葉や文を結び付けて、直接書かれていない気持ちや意図を考えよう。"
+      "studentDescription": "複数の文章中の言葉や文を関連付け、明示されていない心情や意図を根拠をもって考える。"
     },
     {
       "id": "jp.elem.japanese.read-structure-and-relationships",
@@ -2533,7 +2533,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "段落や文章全体の組み立てを読み取ろう",
-      "studentDescription": "段落相互の関係や文章全体の構成、論の進め方を見つける。"
+      "studentDescription": "段落相互の関係や文章全体の構成、論の進め方を読み取る。"
     },
     {
       "id": "jp.elem.japanese.read-author-claim-and-evidence",
@@ -2571,7 +2571,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "筆者の主張と理由・例を見つけよう",
-      "studentDescription": "説明的な文章で筆者の主張、理由、事例、資料の関係を見つける。"
+      "studentDescription": "説明的な文章で筆者の主張、理由、事例、資料の関係を読み取る。"
     },
     {
       "id": "jp.elem.japanese.read-figurative-language-and-effects",
@@ -2647,7 +2647,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "複数の文章を比べて読もう",
-      "studentDescription": "複数の文章や資料を比べ、内容・表現・構成の共通点や相違点を見つける。"
+      "studentDescription": "複数の文章や資料を比べ、内容・表現・構成の共通点や相違点を読み取る。"
     },
     {
       "id": "jp.elem.japanese.compare-information-across-sources",
@@ -2685,7 +2685,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "いくつかの資料を比べて確かめよう",
-      "studentDescription": "複数の文章や資料の情報を照らし合わせ、共通点、違い、補完関係を見つける。"
+      "studentDescription": "複数の文章や資料の情報を照らし合わせ、共通点、違い、補完関係を読み取る。"
     },
     {
       "id": "jp.elem.japanese.read-text-type-and-purpose",
@@ -3024,7 +3024,7 @@
         "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       },
       "studentName": "10までの数を分けたり合わせたりしよう",
-      "studentDescription": "数をいくつかのまとまりに分けたり、合わせたりして数の構成を見つける。"
+      "studentDescription": "数をいくつかのまとまりに分けたり、合わせたりして数の構成を読み取る。"
     },
     {
       "id": "jp.elem.math.addition-within-20",
@@ -3059,7 +3059,7 @@
         "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       },
       "studentName": "くり上がりのあるたし算",
-      "studentDescription": "数を分けたり合わせたりする考えを使って、くり上がりのあるたし算をしよう。"
+      "studentDescription": "数の構成に注目して、繰り上がりを含むたし算を考え、計算する。"
     },
     {
       "id": "jp.elem.math.subtraction-within-20",
@@ -3094,7 +3094,7 @@
         "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       },
       "studentName": "くり下がりのあるひき算",
-      "studentDescription": "数のまとまりに着目して、くり下がりのあるひき算を考え、計算しよう。"
+      "studentDescription": "数の構成に注目して、繰り下がりを含むひき算を考え、計算する。"
     },
     {
       "id": "jp.elem.math.addition-meaning",
@@ -3344,7 +3344,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "身の回りの形を見つけよう",
-      "studentDescription": "身の回りのものから平面や立体の形を見いだし、形の特徴を見つける。"
+      "studentDescription": "身の回りのものから平面や立体の形を見いだし、形の特徴を読み取る。"
     },
     {
       "id": "jp.elem.math.time-reading",
@@ -3816,7 +3816,7 @@
         "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       },
       "studentName": "10000までの数と位のしくみ",
-      "studentDescription": "十進数字の位のしくみを使い、3～4桁の数の構成や大きさを見つける。"
+      "studentDescription": "十進数字の位のしくみを使い、3～4桁の数の構成や大きさを読み取る。"
     },
     {
       "id": "jp.elem.math.multidigit-add-subtract",
@@ -3922,7 +3922,7 @@
         "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       },
       "studentName": "かけ算になる場面を考えよう",
-      "studentDescription": "同じ数ずつのまとまりを使って、かけ算の式に表そう。"
+      "studentDescription": "同じ数のまとまりや、1つ分の大きさといくつ分の関係をかけ算で表す。"
     },
     {
       "id": "jp.elem.math.multiplication-properties",
@@ -4034,7 +4034,7 @@
         "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       },
       "studentName": "分数の表し方と、分数の1つ分",
-      "studentDescription": "ものを同じ大きさに分けたとき、分数が何を表すのか考えよう。"
+      "studentDescription": "量を等しく分けた大きさを分数で表し、分母・分子の意味を読み取る。"
     },
     {
       "id": "jp.elem.math.triangles-quadrilaterals",
@@ -4065,8 +4065,8 @@
         "basis": "current-draft-grades",
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
-      "studentName": "三角形・四角形の特徴",
-      "studentDescription": "辺や頂点に注目し、三角形・四角形を構成して特徴を説明する。"
+      "studentName": "三角形・四角形の辺や頂点と特徴",
+      "studentDescription": "辺や頂点の数・並び方に注目して、三角形や四角形の特徴を説明しよう。"
     },
     {
       "id": "jp.elem.math.boxes-and-faces",
@@ -4103,7 +4103,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "箱の面・辺・頂点のつながり",
-      "studentDescription": "箱の形を構成する面・辺・頂点の位置やつながりを見つける。"
+      "studentDescription": "箱の形を構成する面・辺・頂点の位置やつながりを読み取る。"
     },
     {
       "id": "jp.elem.math.capacity-units",
@@ -4134,8 +4134,8 @@
         "basis": "current-draft-grades",
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
-      "studentName": "かさの単位（L・dL・mL）",
-      "studentDescription": "容器のかさを測定し、単位を選んだり単位間の関係を使ったりする。"
+      "studentName": "L・dL・mLでかさを表そう",
+      "studentDescription": "容器のかさをL・dL・mLで測り、単位どうしの関係も調べよう。"
     },
     {
       "id": "jp.elem.math.elapsed-time",
@@ -4201,8 +4201,8 @@
         "basis": "current-draft-grades",
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
-      "studentName": "長さの単位（cm・mm・m）",
-      "studentDescription": "ものさしなどを使って長さを測り、単位の関係と測定の仕方を理解する。"
+      "studentName": "cm・mm・mで長さを測ろう",
+      "studentDescription": "ものさしなどで長さを測り、cm・mm・mの関係を使おう。"
     },
     {
       "id": "jp.elem.math.tables-simple-graphs",
@@ -4491,7 +4491,7 @@
         "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       },
       "studentName": "わり算になる場面を考えよう",
-      "studentDescription": "同じ数ずつ分ける場面や、何人分あるかを考える場面を、図や式に表そう。"
+      "studentDescription": "同じ数ずつ分ける場面・何人分あるかを考える場面の場面を図や式に表し、かけ算との関係を読み取る。"
     },
     {
       "id": "jp.elem.math.decimal-fraction-connections",
@@ -4605,7 +4605,7 @@
         "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       },
       "studentName": "0.1の大きさと小数の表し方",
-      "studentDescription": "1を10等分した1つ分を0.1と表し、小数の大きさを考えよう。"
+      "studentDescription": "1を10等分した単位に注目し、小数を数直線や数字の位のしくみで表す。"
     },
     {
       "id": "jp.elem.math.multidigit-multiplication",
@@ -4686,7 +4686,7 @@
         "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       },
       "studentName": "大きな数と位のしくみ",
-      "studentDescription": "大きな整数の位の並びや10倍・100倍・10分の1の関係を見つける。"
+      "studentDescription": "大きな整数の位の並びや10倍・100倍・10分の1の関係を読み取る。"
     },
     {
       "id": "jp.elem.math.fractions-compare",
@@ -4725,8 +4725,8 @@
         "note": "第3学年で分数を単位分数のいくつ分として捉え、簡単な分数の大小を考える基礎を扱う。第4学年では大きさの等しい分数や真分数・仮分数等を扱い、以後は分数の計算や割合等で活用する。項目名は比較と等しい分数をまとめたプロジェクト独自の整理で、継続学年は活用を含む。",
         "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       },
-      "studentName": "分数の大きさと等しい分数",
-      "studentDescription": "数直線や図を用いて分数の大きさを比べ、同じ大きさを表す分数を見つける。"
+      "studentName": "分数の大きさを比べ、同じ大きさの分数を見つけよう",
+      "studentDescription": "図や数直線を使って分数の大きさを比べ、同じ大きさを表す分数を見つけよう。"
     },
     {
       "id": "jp.elem.math.distributive-property",
@@ -4763,7 +4763,7 @@
         "note": "分割設計時の候補学年。公式の学年別内容との照合前であり、確定配当ではない。"
       },
       "studentName": "分けて考えるかけ算のきまり",
-      "studentDescription": "数を分けて考え、分配法則を計算方法の説明や工夫に活用する。"
+      "studentDescription": "数を分けて考え、分配法則を計算方法の説明や工夫に使う。"
     },
     {
       "id": "jp.elem.math.angles",
@@ -4830,7 +4830,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "三角形・円・球の形と特徴",
-      "studentDescription": "辺や中心・半径・直径などに注目して、基本的な平面図形や立体の特徴を見つける。"
+      "studentDescription": "辺や中心・半径・直径などに注目して、基本的な平面図形や立体の特徴を読み取る。"
     },
     {
       "id": "jp.elem.math.mass-units",
@@ -4861,8 +4861,8 @@
         "basis": "current-draft-grades",
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
-      "studentName": "重さの単位（g・kg）",
-      "studentDescription": "はかりで重さを測定し、グラム・キログラムの意味と関係を見つける。"
+      "studentName": "g・kgで重さを表そう",
+      "studentDescription": "はかりで重さを測り、gとkgの関係を使おう。"
     },
     {
       "id": "jp.elem.math.distance-kilometer",
@@ -4893,8 +4893,8 @@
         "basis": "current-draft-grades",
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
-      "studentName": "長さの単位（km）",
-      "studentDescription": "長い距離をキロメートルで表し、既習の長さの単位と関連づける。"
+      "studentName": "kmを使って長い道のりを表そう",
+      "studentDescription": "長い道のりをkmで表し、mとの関係を使おう。"
     },
     {
       "id": "jp.elem.math.data-based-reasoning",
@@ -5180,7 +5180,7 @@
         "note": "分割設計時の候補学年。公式の学年別内容との照合前であり、確定配当ではない。"
       },
       "studentName": "同じ大きさを小数と分数で表そう",
-      "studentDescription": "数の範囲に応じて、小数・分数の等しい大きさや表現の関係を見つける。"
+      "studentDescription": "数の範囲に応じて、小数・分数の等しい大きさや表現の関係を読み取る。"
     },
     {
       "id": "jp.elem.math.decimal-place-value",
@@ -5457,8 +5457,8 @@
         "basis": "current-draft-grades",
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
-      "studentName": "長方形・正方形の面積",
-      "studentDescription": "単位正方形の個数と辺の長さの関係を見つけ、面積を公式で求める。"
+      "studentName": "長方形・正方形の面積の求め方",
+      "studentDescription": "たてと横の長さに注目して、長方形や正方形の面積を求めよう。"
     },
     {
       "id": "jp.elem.math.angle-measurement",
@@ -5527,7 +5527,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "面積の単位と単位の変え方",
-      "studentDescription": "平方センチメートルなどの単位を使い、面積の量感や単位の関係を見つける。"
+      "studentDescription": "平方センチメートルなどの単位を使い、面積の量感や単位の関係を読み取る。"
     },
     {
       "id": "jp.elem.math.solids-nets",
@@ -5564,7 +5564,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "立体の見取図と展開図",
-      "studentDescription": "立方体や直方体などを見取図や展開図で表し、面・辺のつながりを見つける。"
+      "studentDescription": "立方体や直方体などを見取図や展開図で表し、面・辺のつながりを読み取る。"
     },
     {
       "id": "jp.elem.math.line-graphs",
@@ -5812,7 +5812,7 @@
         "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       },
       "studentName": "倍数と約数",
-      "studentDescription": "ある数をかけ算で作ったり、いくつおきに現れる数を調べたりして、倍数と約数を見つけよう。"
+      "studentDescription": "整数をかけ算の積として見たり、共通の倍数・約数を調べたりする。"
     },
     {
       "id": "jp.elem.math.solve-multistep-number-problems",
@@ -5949,8 +5949,8 @@
         "basis": "current-draft-grades",
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
-      "studentName": "三角形・平行四辺形・台形の面積",
-      "studentDescription": "図形を分けたり移動したりして既習の面積に帰着し、面積の求め方を説明する。"
+      "studentName": "三角形・平行四辺形・台形の面積の求め方",
+      "studentDescription": "図形を分けたり動かしたりして、三角形・平行四辺形・台形の面積の求め方を説明しよう。"
     },
     {
       "id": "jp.elem.math.angle-sums-in-polygons",
@@ -6017,8 +6017,8 @@
         "basis": "current-draft-grades",
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
-      "studentName": "正多角形と円周",
-      "studentDescription": "繰り返す辺の長さや角の大きさに注目して正多角形を捉え、円周の意味を理解する。"
+      "studentName": "正多角形の特徴と円周の長さ",
+      "studentDescription": "正多角形の辺や角の特徴を調べ、円周が何を表すか考えよう。"
     },
     {
       "id": "jp.elem.math.volume-units",
@@ -6053,7 +6053,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "体積の単位と単位の変え方",
-      "studentDescription": "体積を表す単位を理解し、立方体・直方体の体積と単位の関係を見つける。"
+      "studentDescription": "体積を表す単位を理解し、立方体・直方体の体積と単位の関係を読み取る。"
     },
     {
       "id": "jp.elem.math.volume-cuboid",
@@ -6084,8 +6084,8 @@
         "basis": "current-draft-grades",
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
-      "studentName": "立方体・直方体の体積",
-      "studentDescription": "単位立方体の個数と辺の長さの関係を見つけ、体積を求める。"
+      "studentName": "立方体・直方体の体積の求め方",
+      "studentDescription": "1辺が1cmの立方体をもとに、立方体や直方体の体積を求めよう。"
     },
     {
       "id": "jp.elem.math.percentage",
@@ -6120,7 +6120,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "割合と百分率（％）",
-      "studentDescription": "もとにする量を100としたときの割合を百分率（％）で表し、比べる問題を解こう。"
+      "studentDescription": "もとにする量と比べる量の関係を捉え、割合を小数や百分率で表して問題を解く。"
     },
     {
       "id": "jp.elem.math.speed",
@@ -6155,7 +6155,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "速さ・道のり・時間の関係",
-      "studentDescription": "速さ・道のり・時間の関係を使って、問題を解こう。"
+      "studentDescription": "速さを単位時間当たりの道のりとして捉え、道のり・時間との関係を使って解決する。"
     },
     {
       "id": "jp.elem.math.unit-quantity",
@@ -6187,7 +6187,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "1つ分にそろえて比べる",
-      "studentDescription": "1つ分の大きさにそろえて比べると、違う量どうしも比べやすくなることを使おう。"
+      "studentDescription": "異なる単位の数や量を比べるために、1単位当たりの大きさにそろえて考える。"
     },
     {
       "id": "jp.elem.math.changing-quantities-patterns",
@@ -6327,8 +6327,8 @@
         "basis": "current-draft-grades",
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
-      "studentName": "割合を表すグラフ",
-      "studentDescription": "割合や百分率を使うグラフを読み、全体と部分の関係や比較を説明する。"
+      "studentName": "割合を表すグラフの読み取り方",
+      "studentDescription": "割合を表すグラフから、全体と部分の関係や数量のちがいを読み取ろう。"
     },
     {
       "id": "jp.elem.math.data-frequency-tables",
@@ -6431,7 +6431,7 @@
         "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       },
       "studentName": "分数のかけ算・わり算",
-      "studentDescription": "図や式を使って数量の関係を考え、分数のかけ算・わり算をしよう。"
+      "studentDescription": "図や式で数や量のつながりを捉え、分数のかけ算・わり算を計算する。"
     },
     {
       "id": "jp.elem.math.letter-expressions",
@@ -6535,8 +6535,8 @@
         "basis": "current-draft-grades",
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
-      "studentName": "円の面積",
-      "studentDescription": "円を分割・近似する見方から、半径と面積の関係を考えて面積を求める。"
+      "studentName": "円の面積の求め方",
+      "studentDescription": "円を分けたり図形に見立てたりして、半径と面積の関係を考えよう。"
     },
     {
       "id": "jp.elem.math.enlargement-reduction",
@@ -6568,7 +6568,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "拡大図と縮図",
-      "studentDescription": "対応する角の大きさや辺の比に注目し、拡大図・縮図をかいて活用する。"
+      "studentDescription": "対応する角の大きさや辺の比に注目し、拡大図・縮図をかいて使う。"
     },
     {
       "id": "jp.elem.math.volume-prisms-cylinders",
@@ -6599,8 +6599,8 @@
         "basis": "current-draft-grades",
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
-      "studentName": "角柱・円柱の体積",
-      "studentDescription": "底面積と高さの関係を見つけ、角柱や円柱の体積を求める。"
+      "studentName": "角柱・円柱の体積の求め方",
+      "studentDescription": "底面積と高さの関係を使って、角柱や円柱の体積を求めよう。"
     },
     {
       "id": "jp.elem.math.symmetry",
@@ -6632,7 +6632,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "線対称・点対称な図形",
-      "studentDescription": "折り重ねや対応する点・辺に注目し、線対称・点対称の特徴を見つける。"
+      "studentDescription": "折り重ねや対応する点・辺に注目し、線対称・点対称の特徴を読み取る。"
     },
     {
       "id": "jp.elem.math.scale-and-ratio",
@@ -6699,8 +6699,8 @@
         "basis": "current-draft-grades",
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
-      "studentName": "反比例の関係",
-      "studentDescription": "積が一定になる2つの量の変わり方を表・式などで捉え、比例との違いを考える。"
+      "studentName": "反比例とはどんな関係？",
+      "studentDescription": "一方が大きくなるともう一方が小さくなるなど、反比例の関係を表や式で考えよう。"
     },
     {
       "id": "jp.elem.math.meaning-of-ratio",
@@ -6735,8 +6735,8 @@
         "basis": "current-draft-grades",
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
-      "studentName": "比の値と等しい比",
-      "studentDescription": "比の値を用いて、等しい比や比の関係を見つける。"
+      "studentName": "比の値を使って、等しい比を見つけよう",
+      "studentDescription": "比の値を使って、同じ関係を表す比を見つけよう。"
     },
     {
       "id": "jp.elem.math.ratio",
@@ -6771,8 +6771,8 @@
         "basis": "current-draft-grades",
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
-      "studentName": "比の表し方と比べ方",
-      "studentDescription": "2つの量の関係を比で表し、等しい比や比の値を使って関係を考える。"
+      "studentName": "比で表して、2つの量を比べよう",
+      "studentDescription": "2つの量の関係を比で表し、どちらがどのくらいの割合かを比べよう。"
     },
     {
       "id": "jp.elem.math.proportionality",
@@ -6807,8 +6807,8 @@
         "basis": "current-draft-grades",
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
-      "studentName": "比例の関係",
-      "studentDescription": "一方が何倍になるともう一方も同じ割合で変わる関係を表・式・グラフで見つける。"
+      "studentName": "比例とはどんな関係？",
+      "studentDescription": "一方が何倍になると、もう一方も同じ倍になる関係を表や式、グラフで表そう。"
     },
     {
       "id": "jp.elem.math.arrangements-combinations",
@@ -6843,8 +6843,8 @@
         "basis": "current-draft-grades",
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
-      "studentName": "並べ方と組み合わせ方",
-      "studentDescription": "順番に整理して、ぬけや重なりがないように場合を数えよう。"
+      "studentName": "順序よく並べて、組み合わせを数えよう",
+      "studentDescription": "順番に整理して、ぬけや重なりがないように並べ方や組み合わせ方を数えよう。"
     },
     {
       "id": "jp.elem.social.municipality-change",
@@ -6874,7 +6874,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "市や町のようすの変化",
-      "studentDescription": "古い写真や資料を比べ、交通・土地利用・人口・公共施設などの変化を見つける。"
+      "studentDescription": "古い写真や資料を比べ、交通・土地利用・人口・公共施設などの変化を読み取る。"
     },
     {
       "id": "jp.elem.social.local-area",
@@ -6904,7 +6904,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "身近な地域や市町村のようす",
-      "studentDescription": "地形、土地利用、主な施設や交通、地域の位置関係を地図などから見つける。"
+      "studentDescription": "地形、土地利用、主な施設や交通、地域の位置関係を地図などから読み取る。"
     },
     {
       "id": "jp.elem.social.municipality-work",
@@ -6964,7 +6964,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "地域をよくするために働いた人々",
-      "studentDescription": "地域のために働いた人の願いや工夫を、昔の資料や話から調べよう。"
+      "studentDescription": "地域の暮らしや発展を支えた先人の働きや願いを、資料や聞き取りなどから読み取る。"
     },
     {
       "id": "jp.elem.social.local-map",
@@ -7285,7 +7285,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "水道の水はどこから届く？",
-      "studentDescription": "水源から浄水・配水までの仕組みと、関係する人々の工夫を見つける。"
+      "studentDescription": "水源から浄水・配水までの仕組みと、関係する人々の工夫を読み取る。"
     },
     {
       "id": "jp.elem.social.firefighting",
@@ -7315,7 +7315,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "火事から地域を守るしくみ",
-      "studentDescription": "消防の施設・人々の働きと、関係機関や地域住民の協力を見つける。"
+      "studentDescription": "消防の施設・人々の働きと、関係機関や地域住民の協力を読み取る。"
     },
     {
       "id": "jp.elem.social.police-safety",
@@ -7405,7 +7405,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "地域に伝わる文化や年中行事",
-      "studentDescription": "地域の文化財や年中行事を調べ、地域の発展や人々の願いとの関係を見つける。"
+      "studentDescription": "地域の文化財や年中行事を調べ、地域の発展や人々の願いとの関係を読み取る。"
     },
     {
       "id": "jp.elem.social.prefecture-land",
@@ -7435,7 +7435,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "都道府県の位置・地形・気候",
-      "studentDescription": "都道府県の位置や地形、気候の特色を地図や資料から見つける。"
+      "studentDescription": "都道府県の位置や地形、気候の特色を地図や資料から読み取る。"
     },
     {
       "id": "jp.elem.social.prefecture-industry",
@@ -7465,7 +7465,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "都道府県の産業と地域の特色",
-      "studentDescription": "地域の産業や土地利用、交通との関係を資料から見つける。"
+      "studentDescription": "地域の産業や土地利用、交通との関係を資料から読み取る。"
     },
     {
       "id": "jp.elem.social.environment-protection",
@@ -7525,7 +7525,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "交通や物流で地域はどうつながる？",
-      "studentDescription": "交通網や物流が生産・販売・地域間のつながりを支える様子を見つける。"
+      "studentDescription": "交通網や物流が生産・販売・地域間のつながりを支える様子を読み取る。"
     },
     {
       "id": "jp.elem.social.industrial-production",
@@ -7555,7 +7555,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "工業製品はどう作られ、運ばれる？",
-      "studentDescription": "工業生産の工程や工夫、原材料・製品の輸送、貿易との関係を見つける。"
+      "studentDescription": "工業生産の工程や工夫、原材料・製品の輸送、貿易との関係を読み取る。"
     },
     {
       "id": "jp.elem.social.natural-environment-life",
@@ -7584,8 +7584,8 @@
         "basis": "current-draft-grades",
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
-      "studentName": "自然環境と人々のくらし",
-      "studentDescription": "自然条件に応じた暮らしの工夫を地域間で比較する。"
+      "studentName": "自然のようすと人々のくらし",
+      "studentDescription": "地域の自然のようすと、人々のくらしの工夫を比べて考えよう。"
     },
     {
       "id": "jp.elem.social.information-industry",
@@ -7675,7 +7675,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "森林の働きと林業",
-      "studentDescription": "森林の働きと林業の工夫、資源の利用・保全を見つける。"
+      "studentDescription": "森林の働きと林業の工夫、資源の利用・保全を読み取る。"
     },
     {
       "id": "jp.elem.social.fisheries",
@@ -7735,7 +7735,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "世界の中の日本と国土の広がり",
-      "studentDescription": "世界の中での日本の位置、国土の構成、領土の範囲を地図や地球儀で見つける。"
+      "studentDescription": "世界の中での日本の位置、国土の構成、領土の範囲を地図や地球儀で読み取る。"
     },
     {
       "id": "jp.elem.social.japan-landforms-climate",
@@ -7765,7 +7765,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "日本の地形・気候と人々のくらし",
-      "studentDescription": "日本の地形・気候の特色と、人々の生活との関わりを見つける。"
+      "studentDescription": "日本の地形・気候の特色と、人々の生活との関わりを読み取る。"
     },
     {
       "id": "jp.elem.social.agriculture",
@@ -7825,7 +7825,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "江戸幕府の政治と人々のくらし",
-      "studentDescription": "幕府の政治や身分・産業・文化の様子を資料から見つける。"
+      "studentDescription": "幕府の政治や身分・産業・文化の様子を資料から読み取る。"
     },
     {
       "id": "jp.elem.social.diet",
@@ -7884,8 +7884,8 @@
         "basis": "current-draft-grades",
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
-      "studentName": "世界の国々と日本の国際協力",
-      "studentDescription": "国際連合や国際協力、日本と世界のつながりを資料から見つける。"
+      "studentName": "日本と世界のつながり・国際協力",
+      "studentDescription": "日本が世界の国々や国際連合などと、どのように協力しているか調べよう。"
     },
     {
       "id": "jp.elem.social.unification",
@@ -7915,7 +7915,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "戦国時代から全国統一へ",
-      "studentDescription": "織田信長や豊臣秀吉などの働きに注目し、戦国時代から全国統一へ向かう変化を調べよう。"
+      "studentDescription": "戦国時代から天下統一へ向かう動きを、人物の働きや社会の変化と関連付ける。"
     },
     {
       "id": "jp.elem.social.war-and-recovery",
@@ -8004,8 +8004,8 @@
         "basis": "current-draft-grades",
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
-      "studentName": "内閣・行政・裁判所の働き",
-      "studentDescription": "行政や司法の役割と、国民生活を支える仕組みを見つける。"
+      "studentName": "内閣・裁判所などの働きと役割",
+      "studentDescription": "内閣や裁判所などがどのような役割をもち、くらしを支えているか調べよう。"
     },
     {
       "id": "jp.elem.social.ancient-japan",
@@ -8035,7 +8035,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "日本の国の始まりと古代の文化",
-      "studentDescription": "遺跡や史料を基に、国の形成や大陸との関係、古代文化を見つける。"
+      "studentDescription": "遺跡や史料を基に、国の形成や大陸との関係、古代文化を読み取る。"
     },
     {
       "id": "jp.elem.social.postwar-japan",
@@ -8065,7 +8065,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "戦後の日本の発展と世界とのつながり",
-      "studentDescription": "戦後の社会変化と国際社会における日本の役割を見つける。"
+      "studentDescription": "戦後の社会変化と国際社会における日本の役割を読み取る。"
     },
     {
       "id": "jp.elem.social.constitution",
@@ -8094,7 +8094,7 @@
         "basis": "current-draft-grades",
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
-      "studentName": "日本国憲法と政治の基本",
+      "studentName": "日本国憲法と、くらしを支える政治",
       "studentDescription": "日本国憲法の基本的な考え方と、政治やくらしとのつながりを調べよう。"
     },
     {
@@ -8125,7 +8125,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "武士の登場と政治・社会の変化",
-      "studentDescription": "武士の登場から中世の政治・社会の変化を、主な人物や出来事を手掛かりに見つける。"
+      "studentDescription": "武士の登場から中世の政治・社会の変化を、主な人物や出来事を手掛かりに読み取る。"
     },
     {
       "id": "jp.elem.social.modernization",
@@ -8155,7 +8155,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "明治の改革と近代化",
-      "studentDescription": "明治政府の改革や近代国家への変化を、制度・産業・生活の変化から見つける。"
+      "studentDescription": "明治政府の改革や近代国家への変化を、制度・産業・生活の変化から読み取る。"
     },
     {
       "id": "jp.elem.science.sound",
@@ -8295,7 +8295,7 @@
       ],
       "officialAreaCandidate": "A 物質・エネルギー",
       "studentName": "電気が流れる道すじ（回路）",
-      "studentDescription": "電気を通す物と通さない物を調べ、回路ができる条件を見つける。"
+      "studentDescription": "電気を通す物と通さない物を調べ、回路ができる条件を読み取る。"
     },
     {
       "id": "jp.elem.science.force-motion",
@@ -8330,7 +8330,7 @@
       ],
       "officialAreaCandidate": "A 物質・エネルギー",
       "studentName": "風やゴムの力で物はどう動く？",
-      "studentDescription": "風やゴムの力で物が動く様子を調べ、力の働きと物の動きの関係を見つける。"
+      "studentDescription": "風やゴムの力で物が動く様子を調べ、力の働きと物の動きの関係を読み取る。"
     },
     {
       "id": "jp.elem.science.matter",
@@ -8399,8 +8399,8 @@
         "生命"
       ],
       "officialAreaCandidate": "B 生命・地球",
-      "studentName": "植物の育ち方と体のつくり",
-      "studentDescription": "植物の成長や体のつくりを観察し、共通点や差異を見つける。"
+      "studentName": "植物の育ち方と体のつくりを調べよう",
+      "studentDescription": "植物を育てながら、育ち方や体のつくりを観察して共通点・ちがいを調べよう。"
     },
     {
       "id": "jp.elem.science.animals",
@@ -8435,7 +8435,7 @@
       ],
       "officialAreaCandidate": "B 生命・地球",
       "studentName": "動物の体のつくりとくらし",
-      "studentDescription": "動物の体のつくりや活動を観察し、生活の仕方と関係付ける。"
+      "studentDescription": "動物の体のつくりや活動を観察し、生活の仕方と関連付ける。"
     },
     {
       "id": "jp.elem.science.sun-shadow",
@@ -8470,7 +8470,7 @@
       ],
       "officialAreaCandidate": "B 生命・地球",
       "studentName": "太陽の位置と影の動き",
-      "studentDescription": "影の向きや長さを時間と関係付け、太陽の位置の変化を見つける。"
+      "studentDescription": "影の向きや長さを時間と関係付け、太陽の位置の変化を読み取る。"
     },
     {
       "id": "jp.elem.science.conclusion",
@@ -8630,7 +8630,7 @@
       "conceptualPillarCandidates": [],
       "officialAreaCandidate": "横断的な問題解決の力（公式のA・B区分とは別の整理）",
       "studentName": "自然の中から調べたい問題を見つけよう",
-      "studentDescription": "自然の様子を観察して気付いたことから、何を調べるとよいか考えよう。"
+      "studentDescription": "自然の事物・現象の差異や変化に気付き、調べる問題を設定する。"
     },
     {
       "id": "jp.elem.science.experiment-plan",
@@ -8670,7 +8670,7 @@
       "conceptualPillarCandidates": [],
       "officialAreaCandidate": "横断的な問題解決の力（公式のA・B区分とは別の整理）",
       "studentName": "調べ方を計画しよう",
-      "studentDescription": "予想を確かめるには何を変え、何を同じにして調べればよいか計画しよう。"
+      "studentDescription": "問題に合った観察・実験の方法を考え、必要な器具や手順を選ぶ。"
     },
     {
       "id": "jp.elem.science.compare",
@@ -8783,7 +8783,7 @@
       "conceptualPillarCandidates": [],
       "officialAreaCandidate": "横断的な問題解決の力（公式のA・B区分とは別の整理）",
       "studentName": "経験や事実をもとに予想しよう",
-      "studentDescription": "これまでの経験や観察した事実をもとに予想し、そう考えた理由も伝えよう。"
+      "studentDescription": "既習経験や観察した事実を基に、結果を予想し理由を説明する。"
     },
     {
       "id": "jp.elem.science.metal-water-air-temperature",
@@ -8853,7 +8853,7 @@
       ],
       "officialAreaCandidate": "A 物質・エネルギー",
       "studentName": "空気を閉じ込めるとどうなる？",
-      "studentDescription": "空気を閉じ込めたときの体積や押し返す働きを調べ、空気の性質を見つける。"
+      "studentDescription": "空気を閉じ込めたときの体積や押し返す働きを調べ、空気の性質を読み取る。"
     },
     {
       "id": "jp.elem.science.water-state",
@@ -8888,7 +8888,7 @@
       ],
       "officialAreaCandidate": "A 物質・エネルギー",
       "studentName": "水は温めたり冷やしたりするとどう変わる？",
-      "studentDescription": "水を熱したり冷やしたりして、温度と状態の変化を関係付ける。"
+      "studentDescription": "水を熱したり冷やしたりして、温度と状態の変化を関連付ける。"
     },
     {
       "id": "jp.elem.science.electricity-effects",
@@ -8958,7 +8958,7 @@
       ],
       "officialAreaCandidate": "B 生命・地球",
       "studentName": "季節による生き物の変化",
-      "studentDescription": "季節による生物の様子の変化を継続観察し、環境との関係を見つける。"
+      "studentDescription": "季節による生物の様子の変化を継続観察し、環境との関係を読み取る。"
     },
     {
       "id": "jp.elem.science.moon-stars",
@@ -8993,7 +8993,7 @@
       ],
       "officialAreaCandidate": "B 生命・地球",
       "studentName": "月や星の見える位置・形・明るさ",
-      "studentDescription": "月や星の位置・明るさ・並び方を観察し、時間による変化を見つける。"
+      "studentDescription": "月や星の位置・明るさ・並び方を観察し、時間による変化を読み取る。"
     },
     {
       "id": "jp.elem.science.earth-disasters",
@@ -9068,7 +9068,7 @@
       ],
       "officialAreaCandidate": "B 生命・地球",
       "studentName": "人の体のつくりと動き",
-      "studentDescription": "骨や筋肉、関節の働きを観察し、人や他の動物の体のつくりと運動との関わりを見つける。"
+      "studentDescription": "骨や筋肉、関節の働きを観察し、人や他の動物の体のつくりと運動との関わりを読み取る。"
     },
     {
       "id": "jp.elem.science.water-cycle",
@@ -9108,7 +9108,7 @@
       ],
       "officialAreaCandidate": "B 生命・地球",
       "studentName": "水は自然の中をどうめぐる？",
-      "studentDescription": "水の状態変化や移動を通して、自然界での水の循環を見つける。"
+      "studentDescription": "水の状態変化や移動を通して、自然界での水の循環を読み取る。"
     },
     {
       "id": "jp.elem.science.weather",
@@ -9142,8 +9142,8 @@
         "地球"
       ],
       "officialAreaCandidate": "B 生命・地球",
-      "studentName": "天気と気温の変化",
-      "studentDescription": "天気や気温を継続して観測し、変化の特徴を見つける。"
+      "studentName": "天気・気温の変化を観測しよう",
+      "studentDescription": "天気や気温を続けて観測し、変化の特徴を記録して説明しよう。"
     },
     {
       "id": "jp.elem.science.relate",
@@ -9245,8 +9245,8 @@
         "エネルギー"
       ],
       "officialAreaCandidate": "A 物質・エネルギー",
-      "studentName": "電流がつくる磁力",
-      "studentDescription": "電流の大きさや向き、コイルの巻数などと磁力の関係を調べる。"
+      "studentName": "電流の大きさと磁力の関係",
+      "studentDescription": "電流の大きさや向き、コイルの巻数を変えて、磁力がどう変わるか調べよう."
     },
     {
       "id": "jp.elem.science.dissolving",
@@ -9351,7 +9351,7 @@
       ],
       "officialAreaCandidate": "B 生命・地球",
       "studentName": "雲の動きと天気の変化",
-      "studentDescription": "雲の量や動き、気象情報と天気の変化を関係付ける。"
+      "studentDescription": "雲の量や動き、気象情報と天気の変化を関連付ける。"
     },
     {
       "id": "jp.elem.science.animal-birth",
@@ -9386,7 +9386,7 @@
       ],
       "officialAreaCandidate": "B 生命・地球",
       "studentName": "魚や人などの誕生と成長",
-      "studentDescription": "魚や人などの発生・成長を資料や観察を通して時間の経過と関係付ける。"
+      "studentDescription": "魚や人などの発生・成長を資料や観察を通して時間の経過と関連付ける。"
     },
     {
       "id": "jp.elem.science.river-land",
@@ -9421,7 +9421,7 @@
       ],
       "officialAreaCandidate": "B 生命・地球",
       "studentName": "流れる水が土地を変えるしくみ",
-      "studentDescription": "水の量や流れる速さを変えて、土をけずる・運ぶ・積もらせる働きを調べよう。"
+      "studentDescription": "水の量や速さと、けずる・運ぶ・積もらせる働きなどの働きを関連付ける。"
     },
     {
       "id": "jp.elem.science.control-conditions",
@@ -9454,7 +9454,7 @@
       "conceptualPillarCandidates": [],
       "officialAreaCandidate": "横断的な問題解決の力（公式のA・B区分とは別の整理）",
       "studentName": "変える条件を決めて調べよう",
-      "studentDescription": "調べるときは変える条件を決め、それ以外の条件を同じにして比べよう。"
+      "studentDescription": "変える条件と同じにする条件を区別し、変える条件を決め、それ以外は同じにしてして確かめる。"
     },
     {
       "id": "jp.elem.science.lever",
@@ -9524,7 +9524,7 @@
       ],
       "officialAreaCandidate": "A 物質・エネルギー",
       "studentName": "水溶液の性質と金属の変化",
-      "studentDescription": "水溶液の性質や金属を変化させる働きを調べ、酸性・アルカリ性・中性などの違いを見つける。"
+      "studentDescription": "水溶液の性質や金属を変化させる働きを調べ、酸性・アルカリ性・中性などの違いを読み取る。"
     },
     {
       "id": "jp.elem.science.electric-energy-use",
@@ -9559,7 +9559,7 @@
       ],
       "officialAreaCandidate": "A 物質・エネルギー",
       "studentName": "電気を光・音・熱・動きに変えて使う",
-      "studentDescription": "電気が光・音・熱・運動などに変わることや、電気の効率的な利用を見つける。"
+      "studentDescription": "電気が光・音・熱・運動などに変わることや、電気の効率的な利用を読み取る。"
     },
     {
       "id": "jp.elem.science.combustion",
@@ -9629,7 +9629,7 @@
       ],
       "officialAreaCandidate": "B 生命・地球",
       "studentName": "月の形の見え方と太陽の位置",
-      "studentDescription": "月の形の見え方と太陽の位置との関係を見つける。"
+      "studentDescription": "月の形の見え方と太陽の位置との関係を読み取る。"
     },
     {
       "id": "jp.elem.science.plant-nutrition",
@@ -9699,7 +9699,7 @@
       ],
       "officialAreaCandidate": "B 生命・地球",
       "studentName": "食べる・食べられる生き物のつながり",
-      "studentDescription": "生物が食べる・食べられる関係を通して、環境中でのつながりを見つける。"
+      "studentDescription": "生物が食べる・食べられる関係を通して、環境中でのつながりを読み取る。"
     },
     {
       "id": "jp.elem.science.human-body",
@@ -9734,7 +9734,7 @@
       ],
       "officialAreaCandidate": "B 生命・地球",
       "studentName": "呼吸・消化・血液の循環など、体の働き",
-      "studentDescription": "呼吸・消化・排出・血液の循環などを調べ、体の各部分がどう働くか考えよう。"
+      "studentDescription": "呼吸、消化、排出、血液の循環などを調べ、人や他の動物の体のつくりと働きを読み取る。"
     },
     {
       "id": "jp.elem.science.organism-environment",
@@ -9769,7 +9769,7 @@
       ],
       "officialAreaCandidate": "B 生命・地球",
       "studentName": "生き物と環境のつながり",
-      "studentDescription": "生物どうしや、生物と水・空気などの環境との関係を見つける。"
+      "studentDescription": "生物どうしや、生物と水・空気などの環境との関係を読み取る。"
     },
     {
       "id": "jp.elem.science.land-formation",
@@ -9804,7 +9804,7 @@
       ],
       "officialAreaCandidate": "B 生命・地球",
       "studentName": "地層や岩石から土地のでき方を考えよう",
-      "studentDescription": "地層や岩石、土地の変化について資料や観察を通して見つける。"
+      "studentDescription": "地層や岩石、土地の変化について資料や観察を通して読み取る。"
     },
     {
       "id": "jp.elem.science.multiple-perspectives",
