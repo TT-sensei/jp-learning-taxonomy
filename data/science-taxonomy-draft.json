@@ -1090,6 +1090,15 @@
       "sourceType": "project-review-record",
       "reviewStatus": "first-pass",
       "note": "平成29年告示の理科編解説を参照し、初回レビュー時45候補を確認。その後2候補を追加し、現在は47候補。公式コードの照合は未実施。"
+    },
+    {
+      "id": "science-relationship-review-2026-10",
+      "title": "理科タクソノミー：項目間の関係候補",
+      "publisher": "TT-sensei / JP Learning Taxonomy project",
+      "url": "https://github.com/TT-sensei/jp-learning-taxonomy/blob/main/docs/science-relationship-review.md",
+      "sourceType": "project-review-record",
+      "reviewStatus": "first-pass",
+      "note": "公式の系統表ではなく、学習上の関係候補を整理した設計メモ。"
     }
   ],
   "reviewPlan": [
@@ -1120,8 +1129,8 @@
     {
       "id": "relationships",
       "label": "前提・関連・発展の関係",
-      "status": "not-started",
-      "note": "各項目の内容照合後に関係を提案する。"
+      "status": "first-pass",
+      "note": "docs/science-relationship-review.mdに学習上のつながり・概念の橋渡し・探究スキルの関係候補を記録。公式系統や必須前提ではなく、要検証の設計候補。"
     },
     {
       "id": "grade-alignment",
@@ -1139,6 +1148,7 @@
     "2026-10-18: 学年別内容との初回対応レビューをdocs/science-grade-alignment-review.mdに作成。45候補の対応先と粒度を点検し、分割・追加・横断整理の必要性を記録。",
     "2026-10-18: 初回対応レビューを受け、公式内容との対応が曖昧だった「力と物の動きの基礎」を「風やゴムの力の働き」に修正し、第6学年「水溶液の性質」と第4学年「人の体のつくりと運動」を候補追加。学年・コードは引き続き要確認。",
     "2026-10-18: 初回レビュー後に2項目を追加・再設計し、候補は47件。レビュー表は全47項目を収録。公式コードとの照合は未完了。",
-    "2026-10-18: 初回レビュー後に2項目を追加・再設計し、候補は47件。レビュー表は全47項目を収録。公式コードとの照合は未完了。"
+    "2026-10-18: 初回レビュー後に2項目を追加・再設計し、候補は47件。レビュー表は全47項目を収録。公式コードとの照合は未完了。",
+    "2026-10-18: 学習項目間の関係候補を別文書に整理。公式の前提条件ではなく、公式コード・学年配当確認後に確定する設計候補として扱う。"
   ]
 }
