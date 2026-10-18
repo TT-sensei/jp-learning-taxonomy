@@ -52,12 +52,17 @@ function correctContextualReadings(result, source) {
   let html = result;
   // 「解く」は文脈によって「とく」「ほどく」と読むため、学習内容の文脈で補正する。
   const readingCorrections = [
-    { context: /(?:問題|式|計算|方程式|文章題|問い|課題|答え|算数|数学).{0,12}解こう/, word: "解こう", reading: "とこう" },
-    { context: /(?:ひも|結び目|包み|封|絡まり).{0,12}解こう/, word: "解こう", reading: "ほどこう" }
+    { context: /(?:問題|式|計算|方程式|文章題|問い|課題|答え|算数|数学).{0,12}解こう/, reading: "とこう" },
+    { context: /(?:ひも|結び目|包み|封|絡まり).{0,12}解こう/, reading: "ほどこう" }
   ];
   for (const rule of readingCorrections) {
     if (!rule.context.test(source)) continue;
-    const escapedWord = rule.word.replace(/[.*+?^${}()|[\\]\\]/g, "\\function processAutoFurigana(root) {
+    html = html.replace(/<ruby>解こう<rt>[^<]*<\\/rt><\\/ruby>/g, '<ruby>解こう<rt>' + rule.reading + '</rt></ruby>');
+  }
+  return html;
+}
+
+function processAutoFurigana(root) {
 ");
     const pattern = new RegExp("<ruby>" + escapedWord + "<rt>[^<]*</rt></ruby>", "g");
     html = html.replace(pattern, '<ruby>' + rule.word + '<rt>' + rule.reading + '</rt></ruby>');
