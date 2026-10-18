@@ -3326,8 +3326,9 @@
       "reviewStatus": "needs-review",
       "gradePlacement": {
         "status": "candidate",
-        "candidateFirstIntroductionGrade": 1,
+        "candidateFirstIntroductionGrade": 0,
         "candidateContinuingGrades": [
+          1,
           2,
           3,
           4,
@@ -3335,7 +3336,7 @@
           6
         ],
         "basis": "current-draft-grades",
-        "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
+        "note": "特定学年の単元ではなく、算数の学習全体で使う横断的な力。学年別の単元マップには置かず、横断的な考え方として別枠で表示する。"
       },
       "studentName": "数や図のきまりを見つけよう",
       "studentDescription": "いくつかの数や図を比べ、くり返しや変わり方のきまりを見つけて、別の問題でも使おう。"
@@ -3369,8 +3370,9 @@
       "reviewStatus": "needs-review",
       "gradePlacement": {
         "status": "candidate",
-        "candidateFirstIntroductionGrade": 1,
+        "candidateFirstIntroductionGrade": 0,
         "candidateContinuingGrades": [
+          1,
           2,
           3,
           4,
@@ -3378,7 +3380,7 @@
           6
         ],
         "basis": "current-draft-grades",
-        "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
+        "note": "特定学年の単元ではなく、算数の学習全体で使う横断的な力。学年別の単元マップには置かず、横断的な考え方として別枠で表示する。"
       },
       "studentName": "答えを予想して、確かめよう",
       "studentDescription": "計算や測定の前に答えを予想し、あとで実際の答えと比べて確かめよう。"
@@ -3412,8 +3414,9 @@
       "reviewStatus": "needs-review",
       "gradePlacement": {
         "status": "candidate",
-        "candidateFirstIntroductionGrade": 1,
+        "candidateFirstIntroductionGrade": 0,
         "candidateContinuingGrades": [
+          1,
           2,
           3,
           4,
@@ -3421,7 +3424,7 @@
           6
         ],
         "basis": "current-draft-grades",
-        "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
+        "note": "特定学年の単元ではなく、算数の学習全体で使う横断的な力。学年別の単元マップには置かず、横断的な考え方として別枠で表示する。"
       },
       "studentName": "考え方を説明して比べよう",
       "studentDescription": "答えだけでなく、図・式・言葉を使って考え方を説明し、友だちの考えと比べよう。"
@@ -3455,8 +3458,9 @@
       "reviewStatus": "needs-review",
       "gradePlacement": {
         "status": "candidate",
-        "candidateFirstIntroductionGrade": 1,
+        "candidateFirstIntroductionGrade": 0,
         "candidateContinuingGrades": [
+          1,
           2,
           3,
           4,
@@ -3464,7 +3468,7 @@
           6
         ],
         "basis": "current-draft-grades",
-        "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
+        "note": "特定学年の単元ではなく、算数の学習全体で使う横断的な力。学年別の単元マップには置かず、横断的な考え方として別枠で表示する。"
       },
       "studentName": "図・表・式を使って表そう",
       "studentDescription": "問題に合う図・表・式・数直線を選んで、数の関係を表そう。"
@@ -3498,8 +3502,9 @@
       "reviewStatus": "needs-review",
       "gradePlacement": {
         "status": "candidate",
-        "candidateFirstIntroductionGrade": 1,
+        "candidateFirstIntroductionGrade": 0,
         "candidateContinuingGrades": [
+          1,
           2,
           3,
           4,
@@ -3507,7 +3512,7 @@
           6
         ],
         "basis": "current-draft-grades",
-        "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
+        "note": "特定学年の単元ではなく、算数の学習全体で使う横断的な力。学年別の単元マップには置かず、横断的な考え方として別枠で表示する。"
       },
       "studentName": "生活の中の問題を算数で解決しよう",
       "studentDescription": "買い物・時間・測定・データなどの問題を数や量で表し、答えが実際の場面に合っているか確かめよう。"
@@ -3541,8 +3546,9 @@
       "reviewStatus": "needs-review",
       "gradePlacement": {
         "status": "candidate",
-        "candidateFirstIntroductionGrade": 1,
+        "candidateFirstIntroductionGrade": 0,
         "candidateContinuingGrades": [
+          1,
           2,
           3,
           4,
@@ -3550,7 +3556,7 @@
           6
         ],
         "basis": "current-draft-grades",
-        "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
+        "note": "特定学年の単元ではなく、算数の学習全体で使う横断的な力。学年別の単元マップには置かず、横断的な考え方として別枠で表示する。"
       },
       "studentName": "問題から分かっている数や関係を見つけよう",
       "studentDescription": "文章・図・実物を見て、分かっている数や量、求めたいことを整理しよう。"
@@ -3785,8 +3791,7 @@
       "grades": [
         2,
         3,
-        4,
-        5
+        4
       ],
       "topicType": "concept",
       "evidence": [
@@ -3804,12 +3809,9 @@
       "gradePlacement": {
         "status": "reviewed",
         "candidateFirstIntroductionGrade": 2,
-        "candidateContinuingGrades": [
-          3,
-          4
-        ],
+        "candidateContinuingGrades": [],
         "basis": "mext-commentary-initial-review",
-        "note": "第2学年で乗法の交換法則を扱い、第3学年以降は計算方法や性質を用いた工夫へ発展する。第4学年までの継続は概念の活用を含むプロジェクト上の整理で、公式な同一単元の再配当を意味しない。",
+        "note": "第2学年で乗法の交換法則を扱い、第3学年以降は計算方法や性質を用いた工夫へ発展する。第4学年までの継続は概念の活用を含むプロジェクト上の整理で、公式な同一単元の再配当を意味しない。 学年フィルターは、この内容を新しく学ぶ学年を示すよう整理。後の学年での活用は、同じ学習項目を再配当する意味ではないため含めない。",
         "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       },
       "studentName": "かけ算のきまりを使って計算しよう",
@@ -4116,15 +4118,17 @@
       "reviewStatus": "needs-review",
       "gradePlacement": {
         "status": "candidate",
-        "candidateFirstIntroductionGrade": 2,
+        "candidateFirstIntroductionGrade": 0,
         "candidateContinuingGrades": [
+          1,
+          2,
           3,
           4,
           5,
           6
         ],
         "basis": "current-draft-grades",
-        "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
+        "note": "特定学年の単元ではなく、算数の学習全体で使う横断的な力。学年別の単元マップには置かず、横断的な考え方として別枠で表示する。"
       },
       "studentName": "目的に合う単位や測り方を選ぼう",
       "studentDescription": "何を測るかに合わせて単位や測り方を選び、見積もってから測ろう。"
@@ -4846,14 +4850,17 @@
       "reviewStatus": "needs-review",
       "gradePlacement": {
         "status": "candidate",
-        "candidateFirstIntroductionGrade": 3,
+        "candidateFirstIntroductionGrade": 0,
         "candidateContinuingGrades": [
+          1,
+          2,
+          3,
           4,
           5,
           6
         ],
         "basis": "current-draft-grades",
-        "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
+        "note": "特定学年の単元ではなく、算数の学習全体で使う横断的な力。学年別の単元マップには置かず、横断的な考え方として別枠で表示する。"
       },
       "studentName": "長さ・面積・体積の単位を変えよう",
       "studentDescription": "cm・m、cm²・m²、cm³・m³など、長さ・面積・体積の単位の関係を調べて変えよう。"
@@ -4897,9 +4904,7 @@
       "name": "概数・四捨五入・見積もり",
       "description": "目的に応じて数を概数にし、計算結果の見当をつけて妥当性を確かめる。",
       "grades": [
-        4,
-        5,
-        6
+        4
       ],
       "topicType": "skill",
       "evidence": [
@@ -4919,7 +4924,7 @@
         "candidateFirstIntroductionGrade": 4,
         "candidateContinuingGrades": [],
         "basis": "mext-commentary-initial-review",
-        "note": "第4学年で概数、四捨五入、目的に応じた見積もりを扱うことを確認。見積もりの活用は他学年でも行うが、継続学年として一律に配当しない。概数と計算の見積もりは必要なら分割する。",
+        "note": "第4学年で概数、四捨五入、目的に応じた見積もりを扱うことを確認。見積もりの活用は他学年でも行うが、継続学年として一律に配当しない。概数と計算の見積もりは必要なら分割する。 学年フィルターは、この内容を新しく学ぶ学年を示すよう整理。後の学年での活用は、同じ学習項目を再配当する意味ではないため含めない。",
         "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       },
       "studentName": "四捨五入して、およその数にしよう",
@@ -4969,9 +4974,7 @@
       "name": "四則の式・かっこと計算順序",
       "description": "式の構造を読み、かっこや四則の計算順序を考えて数量の関係を表す。",
       "grades": [
-        4,
-        5,
-        6
+        4
       ],
       "topicType": "expression",
       "evidence": [
@@ -4991,7 +4994,7 @@
         "candidateFirstIntroductionGrade": 4,
         "candidateContinuingGrades": [],
         "basis": "mext-commentary-initial-review",
-        "note": "第4学年で四則混合や（ ）を用いた式を扱う。第5学年以降の複雑な式の利用とは区別し、式の意味・括弧・計算順序を一項目にまとめる現在の粒度は再検討候補。",
+        "note": "第4学年で四則混合や（ ）を用いた式を扱う。第5学年以降の複雑な式の利用とは区別し、式の意味・括弧・計算順序を一項目にまとめる現在の粒度は再検討候補。 学年フィルターは、この内容を新しく学ぶ学年を示すよう整理。後の学年での活用は、同じ学習項目を再配当する意味ではないため含めない。",
         "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       },
       "studentName": "かっこや計算の順番を考えよう",
@@ -5079,9 +5082,7 @@
       "name": "小数の加法・減法",
       "description": "位取りと単位の考えを用いて、小数の加法・減法を計算する。",
       "grades": [
-        4,
-        5,
-        6
+        4
       ],
       "topicType": "skill",
       "evidence": [
@@ -5103,7 +5104,7 @@
         "candidateFirstIntroductionGrade": 4,
         "candidateContinuingGrades": [],
         "basis": "mext-commentary-initial-review",
-        "note": "第4学年で小数の加法・減法を扱うことを確認。第5・6学年での活用はあり得るが、同じ内容の公式な継続配当として確認できないため継続学年は空配列とする。",
+        "note": "第4学年で小数の加法・減法を扱うことを確認。第5・6学年での活用はあり得るが、同じ内容の公式な継続配当として確認できないため継続学年は空配列とする。 学年フィルターは、この内容を新しく学ぶ学年を示すよう整理。後の学年での活用は、同じ学習項目を再配当する意味ではないため含めない。",
         "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       },
       "studentName": "小数のたし算・ひき算",
@@ -5151,8 +5152,7 @@
       "name": "同分母分数の加法・減法",
       "description": "単位分数の個数に着目し、同分母分数の加法・減法を考え、計算する。",
       "grades": [
-        4,
-        5
+        4
       ],
       "topicType": "skill",
       "evidence": [
@@ -5172,7 +5172,7 @@
         "candidateFirstIntroductionGrade": 4,
         "candidateContinuingGrades": [],
         "basis": "mext-commentary-initial-review",
-        "note": "第4学年で同分母分数の加法・減法を扱う。第5学年では分数×整数・分数÷整数など別の計算へ進むため、同分母分数の加減そのものの継続配当とは区別する。",
+        "note": "第4学年で同分母分数の加法・減法を扱う。第5学年では分数×整数・分数÷整数など別の計算へ進むため、同分母分数の加減そのものの継続配当とは区別する。 学年フィルターは、この内容を新しく学ぶ学年を示すよう整理。後の学年での活用は、同じ学習項目を再配当する意味ではないため含めない。",
         "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       },
       "studentName": "分母が同じ分数のたし算・ひき算",
@@ -5529,8 +5529,7 @@
       "name": "異分母分数の加法・減法",
       "description": "通分して単位分数をそろえ、異分母分数の加法・減法を考え、計算する。",
       "grades": [
-        5,
-        6
+        5
       ],
       "topicType": "skill",
       "evidence": [
@@ -5550,7 +5549,7 @@
         "candidateFirstIntroductionGrade": 5,
         "candidateContinuingGrades": [],
         "basis": "mext-commentary-initial-review",
-        "note": "第5学年で異分母分数の加法・減法を扱う。通分と計算技能は関連するが、分数の大きさ・等しい分数とは項目を分けて追跡する。",
+        "note": "第5学年で異分母分数の加法・減法を扱う。通分と計算技能は関連するが、分数の大きさ・等しい分数とは項目を分けて追跡する。 学年フィルターは、この内容を新しく学ぶ学年を示すよう整理。後の学年での活用は、同じ学習項目を再配当する意味ではないため含めない。",
         "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       },
       "studentName": "分母がちがう分数のたし算・ひき算",
@@ -5563,8 +5562,7 @@
       "name": "小数の乗法・除法",
       "description": "積や商の大きさを見積もり、位取りの考えを使って小数の乗法・除法を計算する。",
       "grades": [
-        5,
-        6
+        5
       ],
       "topicType": "skill",
       "evidence": [
@@ -5584,7 +5582,7 @@
         "candidateFirstIntroductionGrade": 5,
         "candidateContinuingGrades": [],
         "basis": "mext-commentary-initial-review",
-        "note": "第5学年で乗数・除数が小数の場合の乗法・除法の意味と計算を扱う。第6学年での活用はあり得るが、同一内容の公式な継続配当とは確認できないため継続学年は空配列とする。",
+        "note": "第5学年で乗数・除数が小数の場合の乗法・除法の意味と計算を扱う。第6学年での活用はあり得るが、同一内容の公式な継続配当とは確認できないため継続学年は空配列とする。 学年フィルターは、この内容を新しく学ぶ学年を示すよう整理。後の学年での活用は、同じ学習項目を再配当する意味ではないため含めない。",
         "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       },
       "studentName": "小数のかけ算・わり算",
@@ -5639,8 +5637,7 @@
       "name": "倍数・約数",
       "description": "整数をかけ算の積として見たり、共通の倍数・約数を調べたりする。",
       "grades": [
-        5,
-        6
+        5
       ],
       "topicType": "concept",
       "evidence": [
@@ -5660,7 +5657,7 @@
         "candidateFirstIntroductionGrade": 5,
         "candidateContinuingGrades": [],
         "basis": "mext-commentary-initial-review",
-        "note": "第5学年 A(1)で整数の性質として偶数・奇数、約数・倍数を扱うことが明記される。第6学年での利用場面はあり得るが、同一内容の公式な継続配当とは確認できないため、継続学年は空配列とする。",
+        "note": "第5学年 A(1)で整数の性質として偶数・奇数、約数・倍数を扱うことが明記される。第6学年での利用場面はあり得るが、同一内容の公式な継続配当とは確認できないため、継続学年は空配列とする。 学年フィルターは、この内容を新しく学ぶ学年を示すよう整理。後の学年での活用は、同じ学習項目を再配当する意味ではないため含めない。",
         "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       },
       "studentName": "倍数と約数",
