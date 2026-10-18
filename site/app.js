@@ -83,10 +83,22 @@ function relationCards(items, empty, limit=3) {
   }).join("")+'</div>'+
   (items.length>limit?'<p class="muted small-note">ほかに'+(items.length-limit)+'件の関係があります。必要なものだけを表示しています。</p>':'');
 }
+function gradeListLabel(grades) {
+  const sorted=[...new Set((grades||[]).filter(g=>Number.isInteger(g)&&g>=1&&g<=6))].sort((a,b)=>a-b);
+  if(!sorted.length)return "";
+  const ranges=[];
+  let start=sorted[0],end=sorted[0];
+  for(const grade of sorted.slice(1)){
+    if(grade===end+1){end=grade;continue;}
+    ranges.push([start,end]);start=end=grade;
+  }
+  ranges.push([start,end]);
+  return ranges.map(([a,b])=>a===b?a+"年":a+"〜"+b+"年").join("・");
+}
 function renderGradeMap(subject) {
   const subjectTopics=state.topics.filter(topic=>topic.subject===subject && topic.topicLifecycle!=="superseded");
   const lanes=[1,2,3,4,5,6].map(grade=>{
-    const topics=subjectTopics.filter(topic=>(topic.grades||[]).includes(grade))
+    const topics=subjectTopics.filter(topic=>(Number(topic.gradePlacement?.candidateFirstIntroductionGrade)||Math.min(...(topic.grades||[99])))===grade)
       .sort((a,b)=>(a.domain||"").localeCompare(b.domain||"","ja")||a.name.localeCompare(b.name,"ja"));
     const groups=new Map();
     topics.forEach(topic=>{
@@ -94,14 +106,19 @@ function renderGradeMap(subject) {
       if(!groups.has(domain))groups.set(domain,[]);
       groups.get(domain).push(topic);
     });
-    return '<section class="grade-lane"><header class="grade-lane-head"><span>'+grade+'年</span><small>'+topics.length+'項目</small></header>'+
+    return '<section class="grade-lane"><header class="grade-lane-head"><span>'+grade+'年</span><small>初出候補 '+topics.length+'件</small></header>'+
       [...groups.entries()].map(([domain,items])=>'<div class="grade-lane-group"><h3>'+esc(domain)+'</h3>'+
-        items.map(topic=>'<button type="button" class="grade-topic'+(state.selected===topic.id?' is-selected':'')+'" data-topic-id="'+esc(topic.id)+'" aria-pressed="'+(state.selected===topic.id)+'">'+
-          '<strong>'+esc(topic.name)+'</strong><span>つながりを見る →</span></button>').join("")+'</div>').join("")+
-      (topics.length?'':'<p class="grade-lane-empty">項目候補はありません</p>')+'</section>';
+        items.map(topic=>{
+          const continuing=gradeListLabel(topic.gradePlacement?.candidateContinuingGrades||[]);
+          return '<button type="button" class="grade-topic'+(state.selected===topic.id?' is-selected':'')+'" data-topic-id="'+esc(topic.id)+'" aria-pressed="'+(state.selected===topic.id)+'">'+
+            '<strong>'+esc(topic.name)+'</strong>'+
+            (continuing?'<span class="grade-topic-continuation">継続候補：'+esc(continuing)+'</span>':'')+
+            '<span>つながりを見る →</span></button>';
+        }).join("")+'</div>').join("")+
+      (topics.length?'':'<p class="grade-lane-empty">初出候補はありません</p>')+'</section>';
   }).join("");
-  return '<div class="grade-map-intro"><strong>'+esc(subject)+'の学年マップ</strong><p>左右に進むと、学年ごとの学習項目を見比べられます。項目を選ぶと、前後のつながりが右側に表示されます。</p><small>学年は確認中の候補です。公式の配当を確定したものではありません。</small></div>'+
-    '<div class="grade-map-scroll" role="region" aria-label="'+esc(subject)+'の1年生から6年生の学習項目" tabindex="0">'+lanes+'</div>';
+  return '<div class="grade-map-intro"><strong>'+esc(subject)+'の学年マップ</strong><p>項目は「初めて扱う学年の候補」に1回だけ配置しています。継続して学ぶ候補は各項目内に表示し、項目の重複で学年ごとの数が膨らまないようにしました。項目を選ぶと、前後のつながりが右側に表示されます。</p><small>初出学年・継続学年とも確認中の候補です。公式の学年配当や、実際の授業順を確定したものではありません。</small></div>'+
+    '<div class="grade-map-scroll" role="region" aria-label="'+esc(subject)+'の1年生から6年生の初出学年候補マップ" tabindex="0">'+lanes+'</div>';
 }
 function renderList() {
   const topics=filteredTopics();
