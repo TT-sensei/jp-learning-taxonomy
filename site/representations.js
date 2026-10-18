@@ -9,6 +9,25 @@ async function loadJson(path) {
   return response.json();
 }
 
+function gradeRangeLabel(grades) {
+  const sorted = [...new Set((grades || []).filter((grade) => Number.isInteger(grade) && grade >= 1 && grade <= 6))].sort((a, b) => a - b);
+  if (!sorted.length) return "";
+  const ranges = [];
+  let start = sorted[0], end = sorted[0];
+  for (const grade of sorted.slice(1)) {
+    if (grade === end + 1) { end = grade; continue; }
+    ranges.push([start, end]); start = end = grade;
+  }
+  ranges.push([start, end]);
+  return ranges.map(([from, to]) => from === to ? `${from}年` : `${from}〜${to}年`).join("・");
+}
+
+function topicGradeLabel(topic) {
+  if (!topic.grades?.length || topic.gradePlacement?.basis === "japanese-taxonomy-draft") return "学年は確認中";
+  const label = gradeRangeLabel(topic.grades);
+  return topic.gradePlacement?.status === "reviewed" ? label : `目安：${label}`;
+}
+
 async function init() {
   try {
     const [modelData, topicData] = await Promise.all([
@@ -22,27 +41,29 @@ async function init() {
       const cards = (modelData.models || []).map((model) => {
         const relatedTopics = (model.topicIds || [])
           .map((id) => topicsById.get(id))
-          .filter((topic) => topic && (!selectedGrade || topic.grades.includes(selectedGrade)));
+          .filter((topic) => topic && topic.topicLifecycle !== "superseded" && (!selectedGrade || (topic.grades || []).includes(selectedGrade)));
         return { model, relatedTopics };
       }).filter(({ relatedTopics }) => relatedTopics.length > 0);
 
       $("#summary").textContent = selectedGrade
-        ? `${selectedGrade}年に関連する表現モデル ${cards.length}種類 · 対応は確認中`
-        : `${cards.length}種類の表現モデル · 対応する学習項目が登録されたものを表示`;
+        ? `${selectedGrade}年に関連する表し方 ${cards.length}種類（学年との対応は確認中）`
+        : `${cards.length}種類の表し方を表示中（学習項目とのつながりは確認中）`;
 
       $("#models").innerHTML = cards.map(({ model, relatedTopics }) => {
-        const applicableGrades = [...new Set(relatedTopics.flatMap((topic) => topic.grades))]
-          .sort((a, b) => a - b);
+        const numberOfRelatedTopics = relatedTopics.length;
         return `
           <article class="model-card">
-            <p class="model-meta">関連項目の学年：${esc(applicableGrades.map((grade) => grade + "年").join("・"))}</p>
-            <h2>${esc(model.name)}</h2>
-            <p>${esc(model.purpose)}</p>
-            <h3>関連する学習項目</h3>
+            <p class="model-meta">関連する学び：${esc(numberOfRelatedTopics)}件</p>
+            <h2>${esc(model.studentName || model.name)}</h2>
+            <p class="model-purpose">${esc(model.studentPurpose || model.purpose)}</p>
+            <h3>こんな学びで使う</h3>
             <ul>${relatedTopics.map((topic) => `
-              <li>${esc(topic.name)} <span class="model-meta">${esc(topic.grades.map((grade) => grade + "年").join("・"))}</span></li>
+              <li>
+                <strong class="model-topic-title">${esc(topic.studentName || topic.name)}</strong>
+                <span class="model-meta">${esc(topicGradeLabel(topic))}</span>
+                <p class="model-topic-description">${esc(topic.studentDescription || topic.description || "")}</p>
+              </li>
             `).join("")}</ul>
-            <p class="model-meta">表現モデルと項目の対応：確認中</p>
           </article>`;
       }).join("");
 
