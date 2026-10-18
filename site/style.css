@@ -160,3 +160,10 @@ button:focus-visible{outline:3px solid #243f52!important;outline-offset:3px!impo
 .key-before{background:#6ba88d}.key-related{background:#809bd0}.key-next{background:#d5a05d}
 .color-key ruby{white-space:nowrap}
 .top ruby rt,.detail ruby rt{font-size:.48em}
+
+/* Kuroshiro is opt-in so the Japanese dictionary does not slow the initial page load. */
+.furigana-test{display:inline-flex;align-items:center;gap:8px;flex-wrap:wrap;margin:8px 0 0 8px;font-size:.78rem;color:#52636d}
+.furigana-test-button{border:1px solid #9aafb9;border-radius:999px;background:#f4f8fa;color:#263f4c;padding:6px 12px;font:inherit;font-weight:600;cursor:pointer}
+.furigana-test-button:hover{background:#e6f0f4}
+.furigana-test-button:disabled{opacity:.65;cursor:wait}
+.furigana-target{display:inline}
