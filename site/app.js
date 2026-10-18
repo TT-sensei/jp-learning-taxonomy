@@ -325,7 +325,7 @@ function renderDetail(id, scroll = true) {
     return '<li>'+link+'<span class="source-note">'+esc(evidence.note||"")+'</span></li>';
   }).join("");
   $("#detail").innerHTML=
-    '<div class="detail-topline"><span class="subject-chip" data-subject='+esc(topic.subject)+' >'+rubyHTML(topic.subject)+'</span></div>'+
+    '<div class="detail-topline"><span class="subject-chip" data-subject="'+esc(topic.subject)+'">'+rubyHTML(topic.subject)+'</span></div>'+
     '<p class="detail-grade">'+esc(gradeLabel(topic))+'　／　'+rubyHTML(topicGroup(topic))+'</p>'+
     '<h2>'+rubyHTML(topicTitle(topic))+'</h2><p class="detail-description">'+rubyHTML(topicText(topic))+'</p>'+
     '<section class="progression-map" aria-label="学びのつながり">'+
