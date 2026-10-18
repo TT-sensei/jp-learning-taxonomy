@@ -191,7 +191,7 @@ function renderDetail(id) {
     return '<li>'+link+'<span class="source-note">'+esc(evidence.note||"")+'</span></li>';
   }).join("");
   $("#detail").innerHTML=
-    '<div class="detail-topline"><span class="subject-chip">'+esc(topic.subject)+'</span><span class="review-chip">'+esc(statusNames[topic.reviewStatus]||"見直し中")+'</span></div>'+
+    '<div class="detail-topline"><span class="subject-chip">'+esc(topic.subject)+'</span></div>'+
     '<p class="detail-grade">'+esc(gradeLabel(topic))+'　／　'+esc(topic.domain)+'</p>'+
     '<h2>'+esc(topic.name)+'</h2><p class="detail-description">'+esc(topic.description||"")+'</p>'+
     '<section class="progression-map" aria-label="学びの道すじ">'+
