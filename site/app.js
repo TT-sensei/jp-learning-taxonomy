@@ -63,14 +63,6 @@ function correctContextualReadings(result, source) {
 }
 
 function processAutoFurigana(root) {
-");
-    const pattern = new RegExp("<ruby>" + escapedWord + "<rt>[^<]*</rt></ruby>", "g");
-    html = html.replace(pattern, '<ruby>' + rule.word + '<rt>' + rule.reading + '</rt></ruby>');
-  }
-  return html;
-}
-
-function processAutoFurigana(root) {
   if (!kuroshiroEngine || !root) return;
   const targets = [];
   if (root.matches?.(".furigana-target")) targets.push(root);
