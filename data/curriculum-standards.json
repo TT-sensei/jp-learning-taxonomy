@@ -112,6 +112,26 @@
       "versionNote": "平成29年告示の解説資料。社会の候補項目・関係は独自の整理であり、公式コードとの対応は未確認。",
       "reuseNote": "原文・図表の大量転載は行わず、公式の内容構造を参照して独自に要約する。",
       "reviewStatus": "needs-review"
+    },
+    {
+      "id": "mext-elementary-japanese-guideline-2017",
+      "title": "小学校学習指導要領（平成29年告示）解説 国語編",
+      "publisher": "文部科学省",
+      "url": "https://www.mext.go.jp/content/20220606-mxt_kyoiku02-100002607_002.pdf",
+      "sourceType": "official-reference",
+      "versionNote": "内容構成と用語の確認に使用。各項目の個別コード・学年配当は未照合。",
+      "reuseNote": "公式資料の原文・図表を転載せず、学習項目は独自の表現で整理する。",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "mext-elementary-science-guideline-2017",
+      "title": "小学校学習指導要領（平成29年告示）解説 理科編",
+      "publisher": "文部科学省",
+      "url": "https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf",
+      "sourceType": "official-reference",
+      "versionNote": "公式の内容構成と概念の柱を参照。個々の候補項目と学年配当の照合は未完了。",
+      "reuseNote": "公式資料の原文・図表を転載せず、学習項目は独自の表現で整理する。",
+      "reviewStatus": "needs-review"
     }
   ],
   "standards": [
