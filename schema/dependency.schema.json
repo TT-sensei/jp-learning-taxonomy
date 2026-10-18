@@ -54,6 +54,10 @@
         "reviewed",
         "published"
       ]
+    },
+    "studentRationale": {
+      "type": "string",
+      "description": "Child-facing explanation of the relationship between two learning topics."
     }
   },
   "additionalProperties": false
