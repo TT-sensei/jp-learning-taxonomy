@@ -37,7 +37,7 @@
 - [学習項目間の関係：監査ログ](docs/relationship-audit-2026-10-18.md)
 - [学習指導要領・領域参照データ](data/curriculum-standards.json)
 - [学習項目と表現モデルの対応](data/representation-models.json)
-- [算数の表現モデルマップ](site/representations.html)
+- [算数の表し方マップ](site/representations.html)
 - [表現モデルの設計・レビュー方針](docs/math-representation-models.md)
 - [算数データのレビュー記録](docs/review-findings-2026-10.md)
 - [学習指導要領コード対応表（照合中）](data/curriculum-code-mapping.json)
