@@ -2,8 +2,8 @@
   "schemaVersion": "0.1.0",
   "title": "算数「数と計算」複合項目の分割提案",
   "updatedAt": "2026-10-18",
-  "status": "proposal-not-applied",
-  "purpose": "複数学年・複数の学習内容を一つにまとめた項目を、学習マップや公式コード対応で追跡しやすい単位に整理する。以下は編集提案であり、topics.json へ子項目を追加した状態ではない。",
+  "status": "applied-with-legacy-parents",
+  "purpose": "分割案は topics.json に反映済み。旧親IDは互換性のため保持し、topicLifecycle=superseded と replacementTopicIds で後継を示す。子項目は追加済みだが、学年・粒度・公式コードの確認は継続中。",
   "principles": [
     "既存の topic ID はすぐに削除・改名せず、子項目との対応が確認できるまで維持する。",
     "公式の学年別内容と、プロジェクト独自の概念整理・横断的項目を区別する。",
@@ -185,5 +185,6 @@
       "curriculum-code-mapping.json の行を親・子どちらに紐づけるか決める",
       "サイト側が旧IDを参照していないことを確認する"
     ]
-  }
+  },
+  "appliedAt": "2026-10-18"
 }
