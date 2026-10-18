@@ -66,6 +66,7 @@
 - [理科の分類・項目候補（草案）](data/science-taxonomy-draft.json)
 - [理科タクソノミーの初期レビュー記録](docs/science-taxonomy-review.md)
 - [理科：学年別内容との対応確認（第1回）](docs/science-grade-alignment-review.md)
+- [理科タクソノミー：項目間の関係候補](docs/science-relationship-review.md)
 
 文部科学省の理科編解説を参照し、45候補について学年別内容との初回対応レビューを行いました。公式内容より広い候補や、分割・追加が必要な項目を[対応確認記録](docs/science-grade-alignment-review.md)に整理しています。これは初回レビューであり、正式コードの照合や全項目の確定は未完了です。次に候補データを修正し、公式コード表の実データと照合します。
 
