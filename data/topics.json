@@ -8190,7 +8190,7 @@
       ],
       "officialAreaCandidate": "A 物質・エネルギー",
       "studentName": "音はどのように伝わる？",
-      "studentDescription": "音が出るときの物の震えや、音の大きさと震え方の関係を調べる。"
+      "studentDescription": "音が出るときに物がふるえることや、音の大きさとふるえ方の関係を調べよう。"
     },
     {
       "id": "jp.elem.science.light",
@@ -8225,7 +8225,7 @@
       ],
       "officialAreaCandidate": "A 物質・エネルギー",
       "studentName": "光の進み方と影のでき方",
-      "studentDescription": "光を当てたときの明るさや影、反射の様子を調べる。"
+      "studentDescription": "光が当たると明るさや影がどう変わるか、鏡などで光がはね返る様子も調べよう。"
     },
     {
       "id": "jp.elem.science.magnet",
@@ -8259,8 +8259,8 @@
         "粒子"
       ],
       "officialAreaCandidate": "A 物質・エネルギー",
-      "studentName": "磁石に引きつけられる物と極の性質",
-      "studentDescription": "磁石に引き付けられる物や極の性質を調べる。"
+      "studentName": "磁石につく物・N極とS極のきまり",
+      "studentDescription": "どんな物が磁石につくか、N極とS極を近づけるとどうなるかを試して調べよう。"
     },
     {
       "id": "jp.elem.science.electricity-circuit",
@@ -8295,7 +8295,7 @@
       ],
       "officialAreaCandidate": "A 物質・エネルギー",
       "studentName": "電気が流れる道すじ（回路）",
-      "studentDescription": "電気を通す物と通さない物を調べ、回路ができる条件を考える。"
+      "studentDescription": "電気を通す物を調べ、豆電球などがつく回路のつなぎ方を考えよう。"
     },
     {
       "id": "jp.elem.science.force-motion",
@@ -8330,7 +8330,7 @@
       ],
       "officialAreaCandidate": "A 物質・エネルギー",
       "studentName": "風やゴムの力で物はどう動く？",
-      "studentDescription": "風やゴムの力で物が動く様子を調べ、力の働きと物の動きの関係を考える。"
+      "studentDescription": "風やゴムの強さを変えて、物の動く向きや進む距離がどう変わるか調べよう。"
     },
     {
       "id": "jp.elem.science.matter",
@@ -8365,7 +8365,7 @@
       ],
       "officialAreaCandidate": "A 物質・エネルギー",
       "studentName": "物の性質を比べて見分けよう",
-      "studentDescription": "物を比較して、形・手触り・重さなどの性質に注目し、分類や説明を行う。"
+      "studentDescription": "形・手ざわり・重さなどを比べ、同じところやちがいをもとに物を仲間分けしよう。"
     },
     {
       "id": "jp.elem.science.plants-grow",
@@ -8435,7 +8435,7 @@
       ],
       "officialAreaCandidate": "B 生命・地球",
       "studentName": "動物の体のつくりとくらし",
-      "studentDescription": "動物の体のつくりや活動を観察し、生活の仕方と結び付ける。"
+      "studentDescription": "動物の体のつくりや動き、食べ物などを観察して、くらしとのつながりを考えよう。"
     },
     {
       "id": "jp.elem.science.sun-shadow",
@@ -8470,7 +8470,7 @@
       ],
       "officialAreaCandidate": "B 生命・地球",
       "studentName": "太陽の位置と影の動き",
-      "studentDescription": "影の向きや長さを時間と関係付け、太陽の位置の変化を考える。"
+      "studentDescription": "時間ごとに影の向きや長さを調べ、太陽の位置がどう変わるか考えよう。"
     },
     {
       "id": "jp.elem.science.conclusion",
@@ -8510,7 +8510,7 @@
       "conceptualPillarCandidates": [],
       "officialAreaCandidate": "横断的な問題解決の力（公式のA・B区分とは別の整理）",
       "studentName": "結果をもとに結論を考えよう",
-      "studentDescription": "結果を予想や問題と照らし合わせ、根拠を示して結論をまとめる。"
+      "studentDescription": "観察や実験の結果を予想と比べ、分かったことを理由とともにまとめよう。"
     },
     {
       "id": "jp.elem.science.record-data",
@@ -8590,7 +8590,7 @@
       "conceptualPillarCandidates": [],
       "officialAreaCandidate": "横断的な問題解決の力（公式のA・B区分とは別の整理）",
       "studentName": "根拠を示して考えを伝え合おう",
-      "studentDescription": "観察・実験の事実や記録を根拠として、自分の考えを説明し他者と検討する。"
+      "studentDescription": "観察や実験の結果をもとに、自分の考えを説明し、友だちの考えと比べてみよう。"
     },
     {
       "id": "jp.elem.science.question",
@@ -8703,7 +8703,7 @@
       "conceptualPillarCandidates": [],
       "officialAreaCandidate": "横断的な問題解決の力（公式のA・B区分とは別の整理）",
       "studentName": "比べて、同じところやちがいを見つけよう",
-      "studentDescription": "複数の対象や結果を比べ、ちがいや同じところから問題を解決する。"
+      "studentDescription": "いくつかの物や結果を比べ、同じところやちがうところから、調べたいことを考えよう。"
     },
     {
       "id": "jp.elem.science.observe",
@@ -8818,7 +8818,7 @@
       ],
       "officialAreaCandidate": "A 物質・エネルギー",
       "studentName": "金属・水・空気を温めたり冷やしたりすると？",
-      "studentDescription": "温めたり冷やしたりしたときの温度変化や体積変化を比較する。"
+      "studentDescription": "金属・水・空気を温めたり冷やしたりして、温度や体積がどう変わるか比べよう。"
     },
     {
       "id": "jp.elem.science.air-properties",
@@ -8923,7 +8923,7 @@
       ],
       "officialAreaCandidate": "A 物質・エネルギー",
       "studentName": "電気の働きと利用",
-      "studentDescription": "乾電池のつなぎ方や電流の働きを調べ、電気の利用につなげる。"
+      "studentDescription": "乾電池のつなぎ方を変えて電気の働きを調べ、電気がどのように使われているか考えよう。"
     },
     {
       "id": "jp.elem.science.seasonal-change",
@@ -8958,7 +8958,7 @@
       ],
       "officialAreaCandidate": "B 生命・地球",
       "studentName": "季節による生き物の変化",
-      "studentDescription": "季節による生物の様子の変化を継続観察し、環境との関係を考える。"
+      "studentDescription": "季節ごとに生き物のようすを観察し、気温や周りの環境によって何が変わるか比べよう。"
     },
     {
       "id": "jp.elem.science.moon-stars",
@@ -9033,7 +9033,7 @@
       ],
       "officialAreaCandidate": "B 生命・地球",
       "studentName": "土地や天気の変化と自然災害",
-      "studentDescription": "土地や気象の変化と自然災害との関係を資料を通して考える。"
+      "studentDescription": "大雨や地震などで土地や天気がどう変わるか調べ、災害とのつながりを考えよう。"
     },
     {
       "id": "jp.elem.science.human-body-movement",
@@ -9108,7 +9108,7 @@
       ],
       "officialAreaCandidate": "B 生命・地球",
       "studentName": "水は自然の中をどうめぐる？",
-      "studentDescription": "水の状態変化や移動を通して、自然界での水の循環を考える。"
+      "studentDescription": "水が水蒸気や水、氷に姿を変えることや、雨や川などを通してめぐることを調べよう。"
     },
     {
       "id": "jp.elem.science.weather",
@@ -9175,8 +9175,8 @@
       },
       "conceptualPillarCandidates": [],
       "officialAreaCandidate": "横断的な問題解決の力（公式のA・B区分とは別の整理）",
-      "studentName": "いくつかのことがらの関係を考えよう",
-      "studentDescription": "複数の事象や条件の関係に注目して、結果を説明する。"
+      "studentName": "条件や結果を比べて、関係を考えよう",
+      "studentDescription": "条件を変えたり、いくつかの結果を比べたりして、何がどのようにつながっているか考えよう。"
     },
     {
       "id": "jp.elem.science.pendulum",
@@ -9281,7 +9281,7 @@
       ],
       "officialAreaCandidate": "A 物質・エネルギー",
       "studentName": "物は水にどのくらい溶ける？",
-      "studentDescription": "物が水に溶ける量や様子を、温度や水の量などの条件と関係付けて調べる。"
+      "studentDescription": "水の量や温度、溶かす物を変えて、水に溶ける量がどう変わるか調べよう。"
     },
     {
       "id": "jp.elem.science.plants-conditions",
@@ -9351,7 +9351,7 @@
       ],
       "officialAreaCandidate": "B 生命・地球",
       "studentName": "雲の動きと天気の変化",
-      "studentDescription": "雲の量や動き、気象情報と天気の変化を結び付ける。"
+      "studentDescription": "雲の量や動き、天気予報などを見比べ、天気がどのように変わるか考えよう。"
     },
     {
       "id": "jp.elem.science.animal-birth",
@@ -9385,8 +9385,8 @@
         "生命"
       ],
       "officialAreaCandidate": "B 生命・地球",
-      "studentName": "魚や人などの誕生と成長",
-      "studentDescription": "魚や人などの発生・成長を資料や観察を通して時間の経過と結び付ける。"
+      "studentName": "魚や人はどのように生まれ、育つ？",
+      "studentDescription": "魚や人がどのように生まれ、体が育っていくかを、観察や資料で調べよう。"
     },
     {
       "id": "jp.elem.science.river-land",
@@ -9524,7 +9524,7 @@
       ],
       "officialAreaCandidate": "A 物質・エネルギー",
       "studentName": "水溶液の性質と金属の変化",
-      "studentDescription": "水溶液の性質や金属を変化させる働きを調べ、酸性・アルカリ性・中性などの違いを考える。"
+      "studentDescription": "水溶液の性質を調べ、溶けている物によって金属などがどう変わるか確かめよう。"
     },
     {
       "id": "jp.elem.science.electric-energy-use",
@@ -9559,7 +9559,7 @@
       ],
       "officialAreaCandidate": "A 物質・エネルギー",
       "studentName": "電気を光・音・熱・動きに変えて使う",
-      "studentDescription": "電気が光・音・熱・運動などに変わることや、電気の効率的な利用を考える。"
+      "studentDescription": "電気が光・音・熱・動きに変わることを調べ、電気をむだなく使う方法も考えよう。"
     },
     {
       "id": "jp.elem.science.combustion",
@@ -9594,7 +9594,7 @@
       ],
       "officialAreaCandidate": "A 物質・エネルギー",
       "studentName": "物が燃えるときの空気の働き",
-      "studentDescription": "物が燃えるときの空気の働きや燃焼前後の変化を調べる。"
+      "studentDescription": "物が燃える前後で、空気や物のようすがどう変わるか調べよう。"
     },
     {
       "id": "jp.elem.science.moon-sun",
@@ -9629,7 +9629,7 @@
       ],
       "officialAreaCandidate": "B 生命・地球",
       "studentName": "月の形の見え方と太陽の位置",
-      "studentDescription": "月の形の見え方と太陽の位置との関係を考える。"
+      "studentDescription": "月の形が変わって見えるのはなぜか、月と太陽の位置を比べて考えよう。"
     },
     {
       "id": "jp.elem.science.plant-nutrition",
@@ -9664,7 +9664,7 @@
       ],
       "officialAreaCandidate": "B 生命・地球",
       "studentName": "植物と日光・養分の関係",
-      "studentDescription": "植物が日光と関わって養分をつくることなどを調べる。"
+      "studentDescription": "植物が日光を受けて養分をつくることや、つくられた養分がどこにあるかを調べよう。"
     },
     {
       "id": "jp.elem.science.ecosystem",
@@ -9734,7 +9734,7 @@
       ],
       "officialAreaCandidate": "B 生命・地球",
       "studentName": "呼吸・消化・血液の循環など、体の働き",
-      "studentDescription": "呼吸・消化・排出・血液の循環などを調べ、体の各部分がどう働くか考えよう。"
+      "studentDescription": "呼吸・食べ物の消化・血液の流れ・不要なものを体の外に出す働きなどを調べよう。"
     },
     {
       "id": "jp.elem.science.organism-environment",
@@ -9769,7 +9769,7 @@
       ],
       "officialAreaCandidate": "B 生命・地球",
       "studentName": "生き物と環境のつながり",
-      "studentDescription": "生物どうしや、生物と水・空気などの環境との関係を考える。"
+      "studentDescription": "生き物どうしや、生き物と水・空気・日光などのつながりを調べよう。"
     },
     {
       "id": "jp.elem.science.land-formation",
@@ -9804,7 +9804,7 @@
       ],
       "officialAreaCandidate": "B 生命・地球",
       "studentName": "地層や岩石から土地のでき方を考えよう",
-      "studentDescription": "地層や岩石、土地の変化を資料や観察から調べ、土地のでき方を考えよう."
+      "studentDescription": "地層や岩石のようすを観察し、土地がどのようにでき、変化してきたか考えよう。"
     },
     {
       "id": "jp.elem.science.multiple-perspectives",
@@ -9837,7 +9837,7 @@
       "conceptualPillarCandidates": [],
       "officialAreaCandidate": "横断的な問題解決の力（公式のA・B区分とは別の整理）",
       "studentName": "いくつかの結果や見方から説明しよう",
-      "studentDescription": "複数の要因や資料、観察・実験結果を基に、より妥当な説明を考える。"
+      "studentDescription": "いくつかの結果や資料を比べ、いちばん納得できる説明を考えよう。"
     }
   ]
 }
