@@ -98,7 +98,7 @@ function filteredTopics() {
   return state.topics.filter(topic => {
     const haystack = [topicTitle(topic),topicText(topic),topic.name,topic.description,topicGroup(topic),domainLabel(topic.domain),topic.domain,topic.subject].join(" ").toLocaleLowerCase("ja");
     return (!f.subject || topic.subject===f.subject) &&
-      (!f.grade || (topic.grades||[]).includes(f.grade)) &&
+      (!f.grade || topic.gradePlacement?.basis === "japanese-taxonomy-draft" || (topic.grades||[]).includes(f.grade)) &&
       (!f.domain || topicGroup(topic)===f.domain) &&
       (!f.query || haystack.includes(f.query));
   }).sort((a,b)=>topicGrade(a)-topicGrade(b)||a.domain.localeCompare(b.domain,"ja")||a.name.localeCompare(b.name,"ja"));
@@ -260,6 +260,17 @@ function flowNodes(items, empty, group) {
   }).join("")+'</div>'+
   (items.length>3?'<p class="muted small-note">ほかにも'+(items.length-3)+'件のつながりがあるよ。</p>':'');
 }
+function navigateToConnectedTopic(id) {
+  const topic = state.topics.find(item => item.id === id);
+  if (!topic) return;
+  $("#subject").value = topic.subject;
+  renderDomainOptions();
+  $("#grade").value = "";
+  $("#domain").value = topicGroup(topic);
+  $("#query").value = "";
+  renderList();
+  renderDetail(id);
+}
 function syncDetailToFilters(scroll = false) {
   const visible = filteredTopics();
   const current = visible.find(topic => topic.id === state.selected);
@@ -296,7 +307,7 @@ function renderDetail(id, scroll = true) {
       '<div class="progression-stage"><div class="stage-label"><span>04</span><strong>この学びから広がること</strong></div>'+flowNodes(next,"使ったり、さらに考えを広げたりする学びは、まだ登録されていないよ。","future")+'</div>'+
     '</section>'+
     '<details class="source-details"><summary>先生・保護者向けの確認情報</summary><p class="muted">学びのつながりは確認中です。必ずこの順番で学ぶ、という意味ではありません。</p><ul>'+(sourceLinks||"<li>出典情報は未登録です。</li>")+'</ul></details>';
-  $("#detail").querySelectorAll("[data-topic-id]").forEach(button=>button.addEventListener("click",()=>renderDetail(button.dataset.topicId)));
+  $("#detail").querySelectorAll("[data-topic-id]").forEach(button=>button.addEventListener("click",()=>navigateToConnectedTopic(button.dataset.topicId)));
   renderList();
   if (scroll) $("#detail").scrollIntoView({behavior:"smooth",block:"nearest"});
 }
