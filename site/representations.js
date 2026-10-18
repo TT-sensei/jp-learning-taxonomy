@@ -55,8 +55,20 @@ async function init() {
     $("#grade-filter").addEventListener("change", render);
     render();
   } catch (error) {
+    console.error("算数の表し方マップの初期化に失敗しました。", error);
     $("#summary").textContent = "データを読み込めませんでした。";
-    $("#models").textContent = error.message;
+    $("#models").replaceChildren();
+    const message = document.createElement("div");
+    message.className = "load-error";
+    message.setAttribute("role", "alert");
+    message.innerHTML = "<strong>表し方マップを読み込めませんでした。</strong><p>通信状態を確認して、もう一度お試しください。</p>";
+    const retry = document.createElement("button");
+    retry.type = "button";
+    retry.className = "retry-button";
+    retry.textContent = "もう一度読み込む";
+    retry.addEventListener("click", () => window.location.reload());
+    message.append(retry);
+    $("#models").append(message);
   }
 }
 
