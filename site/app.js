@@ -9,6 +9,31 @@ const relationNames = {
   "application":"学んだことを使う",
   "recurring-development":"くり返し使って深める"
 };
+
+const furigana = {
+  "図画工作":"ずがこうさく","総合的な学習の時間":"そうごうてきながくしゅうのじかん","外国語活動":"がいこくごかつどう",
+  "問題解決":"もんだいかいけつ","学習内容":"がくしゅうないよう","学習項目":"がくしゅうこうもく","学習指導要領":"がくしゅうしどうようりょう",
+  "都道府県":"とどうふけん","原稿用紙":"げんこうようし","音読":"おんどく","朗読":"ろうどく","索引":"さくいん","神話":"しんわ","古典":"こてん",
+  "観察":"かんさつ","実験":"じっけん","物質":"ぶっしつ","情報":"じょうほう","資料":"しりょう","地域":"ちいき","国土":"こくど","産業":"さんぎょう",
+  "政治":"せいじ","国際":"こくさい","歴史":"れきし","生命":"せいめい","地球":"ちきゅう","関係":"かんけい","文章":"ぶんしょう","表現":"ひょうげん",
+  "読書":"どくしょ","仮名":"かな","漢字":"かんじ","目次":"もくじ","確認":"かくにん","出典":"しゅってん","目安":"めやす","項目":"こうもく",
+  "学習":"がくしゅう","教科":"きょうか","学年":"がくねん","算数":"さんすう","国語":"こくご","社会":"しゃかい","理科":"りか","生活":"せいかつ",
+  "音楽":"おんがく","家庭":"かてい","体育":"たいいく","外国語":"がいこくご","道徳":"どうとく","特別活動":"とくべつかつどう",
+  "図書館":"としょかん","昔話":"むかしばなし","文章中":"ぶんしょうちゅう","割合":"わりあい","速さ":"はやさ","図形":"ずけい","測定":"そくてい",
+  "前提":"ぜんてい","発展":"はってん","関連":"かんれん","内容":"ないよう","分類":"ぶんるい","領域":"りょういき","継続":"けいぞく",
+  "都道府県の":"とどうふけんの","都道府県":"とどうふけん","問題":"もんだい","解説":"かいせつ","順番":"じゅんばん","出典情報":"しゅってんじょうほう"
+};
+function rubyText(value) {
+  let html = esc(value);
+  for (const [word, reading] of Object.entries(furigana).sort((a,b)=>b[0].length-a[0].length)) {
+    html = html.split(word).join('<ruby>'+word+'<rt>'+reading+'</rt></ruby>');
+  }
+  return html;
+}
+function subjectClass(subject) {
+  return ({ "国語":"japanese","社会":"social","算数":"math","理科":"science","生活":"life","音楽":"music","図画工作":"art","家庭":"home","体育":"pe","外国語":"foreign","外国語活動":"foreign","道徳":"moral","総合的な学習の時間":"general","特別活動":"general" })[subject] || "general";
+}
+
 function topicTitle(topic) { return topic.studentName || topic.name; }
 function topicText(topic) { return topic.studentDescription || topic.description || ""; }
 function domainLabel(domain) {
@@ -152,7 +177,7 @@ function relationCards(items, empty, limit=3) {
     const topic=item.topic, edge=item.edge;
     return '<button type="button" class="path-card" data-topic-id="'+esc(topic.id)+'">'+
       '<span class="path-grade">'+esc(gradeLabel(topic))+'</span>'+
-      '<strong>'+esc(topicTitle(topic))+'</strong>'+
+      '<strong>'+rubyText(topicTitle(topic))+'</strong>'+
       '<span class="path-kind">'+esc(relationNames[edge.type]||"関連する学び")+'</span>'+
       '<span class="path-why">'+esc(edge.studentRationale || studentRationale(edge.rationale))+'</span></button>';
   }).join("")+'</div>'+
@@ -182,20 +207,20 @@ function renderGradeMap(subject) {
       groups.get(domain).push(topic);
     });
     return '<section class="grade-lane"><header class="grade-lane-head"><span>'+grade+'年</span><small>この学年から学ぶかも・'+topics.length+'こ</small></header>'+
-      [...groups.entries()].map(([domain,items])=>'<div class="grade-lane-group"><h3>'+esc(domain)+'</h3>'+
+      [...groups.entries()].map(([domain,items])=>'<div class="grade-lane-group"><h3>'+rubyText(domain)+'</h3>'+
         items.map(topic=>{
           const candidateGrade=Number(topic.gradePlacement?.candidateFirstIntroductionGrade)||Math.min(...(topic.grades||[99]));
           const continuingGrades=(topic.gradePlacement?.candidateContinuingGrades||[]).length?topic.gradePlacement.candidateContinuingGrades:(topic.grades||[]).filter(g=>g!==candidateGrade);
           const continuing=gradeListLabel(continuingGrades);
           return '<button type="button" class="grade-topic'+(state.selected===topic.id?' is-selected':'')+'" data-topic-id="'+esc(topic.id)+'" aria-pressed="'+(state.selected===topic.id)+'">'+
-            '<strong>'+esc(topicTitle(topic))+'</strong>'+
+            '<strong>'+rubyText(topicTitle(topic))+'</strong>'+
             (continuing?'<span class="grade-topic-continuation">このあとも学ぶかも：'+esc(continuing)+'</span>':'')+
             '<span>つながりを見る →</span></button>';
         }).join("")+'</div>').join("")+
       (topics.length?'':'<p class="grade-lane-empty">この学年から学ぶ項目は、まだ登録されていないよ。</p>')+'</section>';
   }).join("");
-  return '<div class="grade-map-intro"><strong>'+esc(subject)+'の学年マップ</strong><p>それぞれの学びを、学び始める学年の目安に1回ずつ置いています。あとでまた使う学びは、カードに表示しています。項目を選ぶと、前や次につながる学びが見られます。</p><small>学年は見直し中の目安です。必ずこの学年・順番で学ぶという意味ではありません。</small></div>'+
-    '<div class="grade-map-scroll" role="region" aria-label="'+esc(subject)+'の1年生から6年生までの学びのマップ" tabindex="0">'+lanes+'</div>';
+  return '<div class="grade-map-intro"><strong>'+rubyText(subject)+'の学年マップ</strong><p>それぞれの学びを、学び始める学年の目安に1回ずつ置いています。あとでまた使う学びは、カードに表示しています。項目を選ぶと、前や次につながる学びが見られます。</p><small>学年は見直し中の目安です。必ずこの学年・順番で学ぶという意味ではありません。</small></div>'+
+    '<div class="grade-map-scroll" role="region" aria-label="'+rubyText(subject)+'の1年生から6年生までの学びのマップ" tabindex="0">'+lanes+'</div>';
 }
 function renderList() {
   const topics=filteredTopics();
@@ -210,7 +235,7 @@ function renderList() {
   }
   if(!filters.subject&&!filters.grade&&!filters.domain&&!filters.query){
     const subjects=[...new Set(state.topics.map(t=>t.subject))].sort((a,b)=>a.localeCompare(b,"ja"));
-    list.innerHTML='<div class="subject-picks">'+subjects.map(subject=>'<button type="button" class="subject-pick" data-subject="'+esc(subject)+'"><span class="subject-pick-label">教科</span><strong>'+esc(subject)+'</strong><span>学びのつながりを見る →</span></button>').join("")+'</div><p class="empty-note">まず教科を選んでみてください。学年や学習内容のまとまりをしぼって、項目を選ぶと前後の学びをたどれます。</p>';
+    list.innerHTML='<div class="subject-picks">'+subjects.map(subject=>'<button type="button" class="subject-pick" data-subject="'+rubyText(subject)+'"><span class="subject-pick-label">教科</span><strong>'+rubyText(subject)+'</strong><span>学びのつながりを見る →</span></button>').join("")+'</div><p class="empty-note">まず教科を選んでみてください。学年や学習内容のまとまりをしぼって、項目を選ぶと前後の学びをたどれます。</p>';
     list.querySelectorAll("[data-subject]").forEach(button=>button.addEventListener("click",()=>{
       $("#subject").value=button.dataset.subject;
       renderDomainOptions();
@@ -238,11 +263,11 @@ function renderList() {
   for(const [domain,items] of groups){
     const section=document.createElement("section");
     section.className="domain-group";
-    section.innerHTML='<div class="domain-heading"><h2>'+esc(domain)+'</h2><span>'+items.length+'</span></div>'+
+    section.innerHTML='<div class="domain-heading"><h2>'+rubyText(domain)+'</h2><span>'+items.length+'</span></div>'+
       '<div class="topic-grid">'+items.map(topic=>
         '<button type="button" class="topic-card'+(state.selected===topic.id?' is-selected':'')+'" data-topic-id="'+esc(topic.id)+'" aria-pressed="'+(state.selected===topic.id)+'">'+
-        '<span class="topic-grade">'+esc(gradeLabel(topic))+'</span><strong>'+esc(topicTitle(topic))+'</strong>'+
-        '<span class="topic-description">'+esc(topicText(topic))+'</span></button>'
+        '<span class="topic-grade">'+esc(gradeLabel(topic))+'</span><strong>'+rubyText(topicTitle(topic))+'</strong>'+
+        '<span class="topic-description">'+rubyText(topicText(topic))+'</span></button>'
       ).join("")+'</div>';
     list.append(section);
   }
@@ -254,7 +279,7 @@ function flowNodes(items, empty, group) {
     const topic=item.topic, edge=item.edge;
     return '<button type="button" class="flow-node" data-topic-id="'+esc(topic.id)+'">'+
       '<span class="flow-grade">'+esc(topic.subject+"・"+gradeLabel(topic))+'</span>'+
-      '<strong>'+esc(topicTitle(topic))+'</strong>'+
+      '<strong>'+rubyText(topicTitle(topic))+'</strong>'+
       '<span class="path-kind">'+esc(relationLabel(edge,group))+'</span>'+
       '<span class="flow-why"><b>どうつながる？</b> '+esc(edge.studentRationale || studentRationale(edge.rationale))+'</span></button>';
   }).join("")+'</div>'+
@@ -295,14 +320,14 @@ function renderDetail(id, scroll = true) {
     return '<li>'+link+'<span class="source-note">'+esc(evidence.note||"")+'</span></li>';
   }).join("");
   $("#detail").innerHTML=
-    '<div class="detail-topline"><span class="subject-chip">'+esc(topic.subject)+'</span></div>'+
-    '<p class="detail-grade">'+esc(gradeLabel(topic))+'　／　'+esc(topicGroup(topic))+'</p>'+
-    '<h2>'+esc(topicTitle(topic))+'</h2><p class="detail-description">'+esc(topicText(topic))+'</p>'+
+    '<div class="detail-topline"><span class="subject-chip" data-subject='+esc(topic.subject)+' >'+rubyText(topic.subject)+'</span></div>'+
+    '<p class="detail-grade">'+esc(gradeLabel(topic))+'　／　'+rubyText(topicGroup(topic))+'</p>'+
+    '<h2>'+rubyText(topicTitle(topic))+'</h2><p class="detail-description">'+rubyText(topicText(topic))+'</p>'+
     '<section class="progression-map" aria-label="学びのつながり">'+
       '<div class="progression-title"><span class="progression-mark">学びのつながり</span><p>「先に学ぶ」「関係する」「使って広げる」を分けているよ。必ずこの順番で学ぶという意味ではないよ。</p></div>'+
       '<div class="progression-stage"><div class="stage-label"><span>01</span><strong>先に学ぶとよいこと</strong></div>'+flowNodes(previous,"先に学ぶとよい項目は、まだ登録されていないよ。ほかにも必要な学びがあるかもしれないね。","prior")+'</div>'+
       '<div class="progression-stage is-current"><div class="stage-label"><span>02</span><strong>今見ている学び</strong></div>'+
-        '<div class="flow-current"><span>'+esc(topic.subject)+"・"+esc(gradeLabel(topic))+'</span><strong>'+esc(topicTitle(topic))+'</strong><small>今、見ている学び</small></div></div>'+
+        '<div class="flow-current"><span>'+rubyText(topic.subject)+"・"+esc(gradeLabel(topic))+'</span><strong>'+rubyText(topicTitle(topic))+'</strong><small>今、見ている学び</small></div></div>'+
       '<div class="progression-stage"><div class="stage-label"><span>03</span><strong>関係する学び</strong></div>'+flowNodes(related,"関係する学びは、まだ登録されていないよ。","related")+'</div>'+
       '<div class="progression-stage"><div class="stage-label"><span>04</span><strong>この学びから広がること</strong></div>'+flowNodes(next,"使ったり、さらに考えを広げたりする学びは、まだ登録されていないよ。","future")+'</div>'+
     '</section>'+
