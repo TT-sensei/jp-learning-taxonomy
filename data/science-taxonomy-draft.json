@@ -115,7 +115,8 @@
         "jp.elem.science.magnet",
         "jp.elem.science.pendulum",
         "jp.elem.science.lever",
-        "jp.elem.science.force-motion"
+        "jp.elem.science.force-motion",
+        "jp.elem.science.solution-properties"
       ]
     },
     {
@@ -143,7 +144,8 @@
         "jp.elem.science.land-formation",
         "jp.elem.science.moon-sun",
         "jp.elem.science.water-cycle",
-        "jp.elem.science.earth-disasters"
+        "jp.elem.science.earth-disasters",
+        "jp.elem.science.human-body-movement"
       ]
     },
     {
@@ -175,7 +177,8 @@
         "jp.elem.science.water-state",
         "jp.elem.science.metal-water-air-temperature",
         "jp.elem.science.dissolving",
-        "jp.elem.science.combustion"
+        "jp.elem.science.combustion",
+        "jp.elem.science.solution-properties"
       ]
     },
     {
@@ -188,8 +191,7 @@
         "jp.elem.science.electric-energy-use",
         "jp.elem.science.magnet",
         "jp.elem.science.pendulum",
-        "jp.elem.science.lever",
-        "jp.elem.science.force-motion"
+        "jp.elem.science.lever"
       ]
     },
     {
@@ -212,7 +214,8 @@
         "jp.elem.science.plant-nutrition",
         "jp.elem.science.organism-environment",
         "jp.elem.science.seasonal-change",
-        "jp.elem.science.ecosystem"
+        "jp.elem.science.ecosystem",
+        "jp.elem.science.human-body-movement"
       ]
     },
     {
@@ -506,12 +509,11 @@
     },
     {
       "id": "jp.elem.science.force-motion",
-      "name": "力と物の動きの基礎",
+      "name": "風やゴムの力の働き",
       "domain": "物質・エネルギー",
-      "description": "物に力を加えたときの動きや変化を、観察・実験を通して捉える。",
+      "description": "風やゴムの力で物が動く様子を調べ、力の働きと物の動きの関係を捉える。",
       "candidateGrades": [
-        3,
-        4
+        3
       ],
       "gradePlacementStatus": "needs-review",
       "topicType": "concept",
@@ -520,7 +522,7 @@
       "conceptualPillarCandidates": [
         "エネルギー"
       ],
-      "sourceBasis": "mext-commentary-framework-not-item-verified"
+      "sourceBasis": "mext-commentary-grade-content-candidate"
     },
     {
       "id": "jp.elem.science.plants-grow",
@@ -592,9 +594,9 @@
     },
     {
       "id": "jp.elem.science.human-body",
-      "name": "人の体のつくりと働き",
+      "name": "人の体のつくりと働き（呼吸・消化・排出・循環）",
       "domain": "生命・地球",
-      "description": "呼吸、消化・吸収、血液の循環などを体のつくりと関係付ける。",
+      "description": "呼吸、消化、排出、血液の循環などを調べ、人や他の動物の体のつくりと働きを捉える。",
       "candidateGrades": [
         6
       ],
@@ -605,7 +607,7 @@
       "conceptualPillarCandidates": [
         "生命"
       ],
-      "sourceBasis": "mext-commentary-framework-not-item-verified"
+      "sourceBasis": "mext-commentary-grade-content-candidate"
     },
     {
       "id": "jp.elem.science.plant-nutrition",
@@ -1017,6 +1019,40 @@
       "officialAreaCandidate": "横断的な問題解決の力（公式のA・B区分とは別の整理）",
       "conceptualPillarCandidates": [],
       "sourceBasis": "mext-commentary-framework-not-item-verified"
+    },
+    {
+      "id": "jp.elem.science.solution-properties",
+      "name": "水溶液の性質",
+      "domain": "物質・エネルギー",
+      "description": "水溶液の性質や金属を変化させる働きを調べ、酸性・アルカリ性・中性などの違いを捉える。",
+      "candidateGrades": [
+        6
+      ],
+      "gradePlacementStatus": "needs-review",
+      "topicType": "concept",
+      "reviewStatus": "needs-review",
+      "officialAreaCandidate": "A 物質・エネルギー",
+      "conceptualPillarCandidates": [
+        "粒子"
+      ],
+      "sourceBasis": "mext-commentary-grade-content-candidate"
+    },
+    {
+      "id": "jp.elem.science.human-body-movement",
+      "name": "人の体のつくりと運動",
+      "domain": "生命・地球",
+      "description": "骨や筋肉、関節の働きを観察し、人や他の動物の体のつくりと運動との関わりを捉える。",
+      "candidateGrades": [
+        4
+      ],
+      "gradePlacementStatus": "needs-review",
+      "topicType": "concept",
+      "reviewStatus": "needs-review",
+      "officialAreaCandidate": "B 生命・地球",
+      "conceptualPillarCandidates": [
+        "生命"
+      ],
+      "sourceBasis": "mext-commentary-grade-content-candidate"
     }
   ],
   "sources": [
@@ -1060,13 +1096,13 @@
       "id": "coverage",
       "label": "学習項目の網羅性と粒度",
       "status": "needs-review",
-      "note": "45項目の初期候補。学年別の内容と照合し不足・重複を確認する。"
+      "note": "初回照合で不足候補（水溶液の性質、人の体のつくりと運動）を追加。全項目の網羅性確認は継続中。"
     },
     {
       "id": "grade-placement",
       "label": "初出学年・継続学年",
       "status": "needs-review",
-      "note": "candidateGradesは候補にすぎず、正式な学年配当ではない。"
+      "note": "候補学年を公式解説の学年別内容に照らして一部修正。すべての項目で初出・継続学年の確定は未完了。"
     },
     {
       "id": "official-codes",
@@ -1093,6 +1129,7 @@
     "概念の柱は学年横断の整理であり、公式コードや個々の内容項目との対応を意味しない。",
     "観察・実験や問題解決の力はA・Bの内容区分と混同しないよう、横断的な候補群として別に整理する。",
     "2026-10-18: 文部科学省の理科編解説で内容構成と概念の柱を確認し、45項目の初期候補を作成。個々の項目との照合は未完了。",
-    "2026-10-18: 学年別内容との初回対応レビューをdocs/science-grade-alignment-review.mdに作成。45候補の対応先と粒度を点検し、分割・追加・横断整理の必要性を記録。"
+    "2026-10-18: 学年別内容との初回対応レビューをdocs/science-grade-alignment-review.mdに作成。45候補の対応先と粒度を点検し、分割・追加・横断整理の必要性を記録。",
+    "2026-10-18: 初回対応レビューを受け、公式内容との対応が曖昧だった「力と物の動きの基礎」を「風やゴムの力の働き」に修正し、第6学年「水溶液の性質」と第4学年「人の体のつくりと運動」を候補追加。学年・コードは引き続き要確認。"
   ]
 }
