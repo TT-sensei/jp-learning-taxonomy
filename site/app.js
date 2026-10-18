@@ -25,10 +25,10 @@ const furigana = {
   "見方":"みかた","考え方":"かんがえかた","考える":"かんがえる","考え":"かんがえ","伝える":"つたえる","話し合い":"はなしあい","話す":"はなす","聞く":"きく","書く":"かく","読む":"よむ","調べる":"しらべる","比べる":"くらべる","説明":"せつめい","理由":"りゆう","目的":"もくてき","工夫":"くふう","特徴":"とくちょう","違い":"ちがい","共通":"きょうつう","大切":"たいせつ","自分":"じぶん","相手":"あいて","友達":"ともだち","言葉":"ことば","意味":"いみ","使い方":"つかいかた","使う":"つかう","身につける":"みにつける","身近":"みぢか","気づく":"きづく","見つける":"みつける","見通し":"みとおし","広げる":"ひろげる","深める":"ふかめる","振り返る":"ふりかえる","知識":"ちしき","理解":"りかい","活用":"かつよう","比較":"ひかく","分析":"ぶんせき","整理":"せいり","判断":"はんだん","表し方":"あらわしかた","計算":"けいさん","小数":"しょうすう","分数":"ぶんすう","整数":"せいすう","数直線":"すうちょくせん","単位":"たんい","面積":"めんせき","体積":"たいせき","角度":"かくど","統計":"とうけい","平均":"へいきん","規則性":"きそくせい","数量":"すうりょう","単元":"たんげん","授業":"じゅぎょう","課題":"かだい","予想":"よそう","仮説":"かせつ","結果":"けっか","結論":"けつろん","方法":"ほうほう","手順":"てじゅん","記録":"きろく","植物":"しょくぶつ","動物":"どうぶつ","成長":"せいちょう","季節":"きせつ","天気":"てんき","気温":"きおん","空気":"くうき","磁石":"じしゃく","温度":"おんど","状態":"じょうたい","性質":"せいしつ","人々":"ひとびと","文化":"ぶんか","伝統":"でんとう","農業":"のうぎょう","工業":"こうぎょう","漁業":"ぎょぎょう","交通":"こうつう","防災":"ぼうさい","安全":"あんぜん","憲法":"けんぽう","選挙":"せんきょ","時代":"じだい","人物":"じんぶつ","出来事":"できごと","平和":"へいわ","環境":"かんきょう","資源":"しげん","国際社会":"こくさいしゃかい","世界遺産":"せかいいさん","地図":"ちず","方位":"ほうい","地形":"ちけい","気候":"きこう","人口":"じんこう","自然":"しぜん","災害":"さいがい","材料":"ざいりょう","作品":"さくひん","鑑賞":"かんしょう","音色":"ねいろ","旋律":"せんりつ","演奏":"えんそう","運動":"うんどう","健康":"けんこう","協力":"きょうりょく","約束":"やくそく","役割":"やくわり","責任":"せきにん","思いやり":"おもいやり","家庭生活":"かていせいかつ","食事":"しょくじ","調理":"ちょうり","衣服":"いふく","消費":"しょうひ","英語":"えいご","発音":"はつおん","会話":"かいわ","質問":"しつもん","紹介":"しょうかい","気持ち":"きもち","物語":"ものがたり","登場人物":"とうじょうじんぶつ","場面":"ばめん","情景":"じょうけい","心情":"しんじょう","筆者":"ひっしゃ","主張":"しゅちょう","要点":"ようてん","要旨":"ようし","段落":"だんらく","構成":"こうせい","引用":"いんよう","根拠":"こんきょ","意見":"いけん","感想":"かんそう","事実":"じじつ","想像":"そうぞう","比喩":"ひゆ","擬音語":"ぎおんご","擬態語":"ぎたいご","敬語":"けいご","主語":"しゅご","述語":"じゅつご","修飾語":"しゅうしょくご","文法":"ぶんぽう","熟語":"じゅくご","送り仮名":"おくりがな","同音異義語":"どうおんいぎご","慣用句":"かんようく","四字熟語":"よじじゅくご","辞典":"じてん","辞書":"じしょ","見出し":"みだし","検索":"けんさく","文末":"ぶんまつ","句読点":"くとうてん","改行":"かいぎょう","表記":"ひょうき","書式":"しょしき","読み手":"よみて","書き手":"かきて","発表":"はっぴょう","発言":"はつげん","賛成":"さんせい","反対":"はんたい","意図":"いと","要約":"ようやく","情報源":"じょうほうげん","信頼性":"しんらいせい","著作権":"ちょさくけん","個人情報":"こじんじょうほう","尊重":"そんちょう","多様性":"たようせい","公平":"こうへい","公正":"こうせい","協働":"きょうどう","対話":"たいわ","探究":"たんきゅう","教科横断":"きょうかおうだん","低学年":"ていがくねん","中学年":"ちゅうがくねん","高学年":"こうがくねん","発展的":"はってんてき","具体的":"ぐたいてき","継続的":"けいぞくてき","年表":"ねんぴょう","写真":"しゃしん","映像":"えいぞう","動画":"どうが","新聞":"しんぶん","図書":"としょ","自由研究":"じゆうけんきゅう","探究活動":"たんきゅうかつどう","問題意識":"もんだいいしき","解決方法":"かいけつほうほう","解決策":"かいけつさく","判断材料":"はんだんざいりょう","根拠資料":"こんきょしりょう","学年別":"がくねんべつ","学年ごと":"がくねんごと","内容別":"ないようべつ","領域別":"りょういきべつ","関連項目":"かんれんこうもく","前提関係":"ぜんていかんけい","学習順序":"がくしゅうじゅんじょ","未確認":"みかくにん","未完了":"みかんりょう","妥当性":"だとうせい","網羅性":"もうらせい","参照先":"さんしょうさき","対応関係":"たいおうかんけい","学習マップ":"がくしゅうまっぷ","学習過程":"がくしゅうかてい","学習活動":"がくしゅうかつどう","学習目標":"がくしゅうもくひょう","自己評価":"じこひょうか","分類表":"ぶんるいひょう","関連図":"かんれんず","関係図":"かんけいず","学習環境":"がくしゅうかんきょう","学習支援":"がくしゅうしえん","適切":"てきせつ","効果的":"こうかてき","言語文化":"げんごぶんか","言語活動":"げんごかつどう","文学":"ぶんがく","説明文":"せつめいぶん","詩歌":"しいか","短歌":"たんか","俳句":"はいく","古文":"こぶん","漢文":"かんぶん","音声":"おんせい","発声":"はっせい","読解":"どっかい","語彙":"ごい","語句":"ごく","文節":"ぶんせつ","単語":"たんご","品詞":"ひんし","語感":"ごかん","類義語":"るいぎご","対義語":"たいぎご","接続語":"せつぞくご","指示語":"しじご","主題":"しゅだい","中心人物":"ちゅうしんじんぶつ","人物像":"じんぶつぞう","描写":"びょうしゃ","展開":"てんかい","語り手":"かたりて","作者":"さくしゃ","著者":"ちょしゃ","論理的":"ろんりてき","説得力":"せっとくりょく","具体例":"ぐたいれい","文脈":"ぶんみゃく","接続詞":"せつぞくし","仮名遣い":"かなづかい","筆記具":"ひっきぐ","姿勢":"しせい","点画":"てんかく","字体":"じたい","字形":"じけい","筆順":"ひつじゅん","配当":"はいとう","手紙":"てがみ","報告文":"ほうこくぶん","意見文":"いけんぶん","読書生活":"どくしょせいかつ","情報活用":"じょうほうかつよう","情報モラル":"じょうほうもらる","著作物":"ちょさくぶつ","信ぴょう性":"しんぴょうせい","発信者":"はっしんしゃ","受け手":"うけて","目的に応じて":"もくてきにおうじて","表現方法":"ひょうげんほうほう","表現効果":"ひょうげんこうか","学年配当":"がくねんはいとう","学習者":"がくしゅうしゃ","学び方":"まなびかた","学習方法":"がくしゅうほうほう","学び合う":"まなびあう","学び合い":"まなびあい","学習者":"がくしゅうしゃ","学年マップ":"がくねんまっぷ","学習項目":"がくしゅうこうもく","学習内容":"がくしゅうないよう","読み方":"よみかた","選択中":"せんたくちゅう","現在":"げんざい","今見ている":"いまみている","見ている":"みている","見たい":"みたい","気になる":"きになる","知りたい":"しりたい","難しい":"むずかしい","選んで":"えらんで","前に":"まえに","先に":"さきに","この先":"このさき","関係する学び":"かんけいするまなび","先に学ぶ":"さきにまなぶ","使って広げる":"つかってひろげる","読みやすい":"よみやすい","見やすい":"みやすい","分かりやすい":"わかりやすい","わかりやすい":"わかりやすい"
 };
 
-function rubyHTML(value) {
-  const source = String(value ?? "");
+function fallbackRubyHTML(source) {
   const words = Object.keys(furigana).sort((a,b)=>b.length-a.length);
-  const pattern = new RegExp(words.join("|"), "g");
+  const escapeRegExp = (value) => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const pattern = new RegExp(words.map(escapeRegExp).join("|"), "g");
   let result = "", last = 0, match;
   while ((match = pattern.exec(source)) !== null) {
     result += esc(source.slice(last, match.index));
@@ -37,6 +37,87 @@ function rubyHTML(value) {
   }
   return result + esc(source.slice(last));
 }
+
+function rubyHTML(value) {
+  const source = String(value ?? "");
+  return '<span class="furigana-target" data-furigana-source="' + esc(source) + '">' + fallbackRubyHTML(source) + '</span>';
+}
+
+let kuroshiroEngine = null;
+const furiganaCache = new Map();
+const furiganaPending = new Map();
+let furiganaObserver = null;
+
+function processAutoFurigana(root) {
+  if (!kuroshiroEngine || !root) return;
+  const targets = [];
+  if (root.matches?.(".furigana-target")) targets.push(root);
+  if (root.querySelectorAll) targets.push(...root.querySelectorAll(".furigana-target"));
+
+  for (const target of targets) {
+    if (!target.closest("#detail") || target.dataset.furiganaState) continue;
+    const source = target.dataset.furiganaSource ?? "";
+    if (furiganaCache.has(source)) {
+      target.innerHTML = furiganaCache.get(source);
+      target.dataset.furiganaState = "ready";
+      continue;
+    }
+    target.dataset.furiganaState = "loading";
+    let task = furiganaPending.get(source);
+    if (!task) {
+      task = kuroshiroEngine.convert(source, { to: "hiragana", mode: "furigana" })
+        .then(result => {
+          if (typeof result !== "string") throw new Error("Kuroshiro returned a non-string result");
+          furiganaCache.set(source, result);
+          return result;
+        })
+        .catch(error => {
+          console.warn("自動ふりがなを適用できませんでした。登録済みの読みを使います。", error);
+          return null;
+        })
+        .finally(() => furiganaPending.delete(source));
+      furiganaPending.set(source, task);
+    }
+    task.then(result => {
+      if (!target.isConnected) return;
+      if (result === null) {
+        target.dataset.furiganaState = "fallback";
+        return;
+      }
+      target.innerHTML = result;
+      target.dataset.furiganaState = "ready";
+    });
+  }
+}
+
+async function initAutoFurigana() {
+  const status = $("#furigana-status");
+  const button = $("#auto-furigana-button");
+  try {
+    if (typeof window.Kuroshiro !== "function" || typeof window.KuromojiAnalyzer !== "function") {
+      throw new Error("Kuroshiroのファイルがまだ読み込まれていません");
+    }
+    if (status) status.textContent = "日本語辞書を読み込んでいます…";
+    const engine = new window.Kuroshiro();
+    const dictPath = new URL("./vendor/kuroshiro/dict/", window.location.href).href;
+    await engine.init(new window.KuromojiAnalyzer({ dictPath }));
+    kuroshiroEngine = engine;
+    if (status) status.textContent = "自動ふりがなを使用中（読み方は確認してください）";
+    if (button) button.textContent = "自動ふりがな使用中";
+    if (!furiganaObserver && $("#detail")) {
+      furiganaObserver = new MutationObserver(() => processAutoFurigana($("#detail")));
+      furiganaObserver.observe($("#detail"), { childList: true, subtree: true });
+    }
+    processAutoFurigana($("#detail"));
+    return true;
+  } catch (error) {
+    console.warn("Kuroshiroを初期化できませんでした。登録済みのふりがなを使います。", error);
+    if (status) status.textContent = "自動ふりがなを使えません。登録済みのふりがなで表示しています。";
+    if (button) button.textContent = "自動ふりがなを再試行";
+    return false;
+  }
+}
+
 function subjectClass(subject) {
   return ({ "国語":"japanese","社会":"social","算数":"math","理科":"science","生活":"life","音楽":"music","図画工作":"art","家庭":"home","体育":"pe","外国語":"foreign","外国語活動":"foreign","道徳":"moral","総合的な学習の時間":"general","特別活動":"general" })[subject] || "general";
 }
@@ -360,6 +441,19 @@ async function init() {
     $("#grade").addEventListener("change",()=>{renderList();syncDetailToFilters(false);});
     $("#domain").addEventListener("change",()=>{renderList();syncDetailToFilters(false);});
     $("#query").addEventListener("input",()=>{renderList();syncDetailToFilters(false);});
+    const autoFuriganaButton = $("#auto-furigana-button");
+    if (autoFuriganaButton) {
+      autoFuriganaButton.addEventListener("click", async () => {
+        if (kuroshiroEngine) {
+          processAutoFurigana($("#detail"));
+          return;
+        }
+        autoFuriganaButton.disabled = true;
+        autoFuriganaButton.textContent = "準備中…";
+        await initAutoFurigana();
+        autoFuriganaButton.disabled = false;
+      });
+    }
   } catch(error) {
     $("#count").textContent="読み込みエラー";
     $("#items").textContent=error.message+" GitHub Pages またはローカル HTTP サーバーで開いてください。";
