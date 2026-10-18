@@ -197,7 +197,7 @@ function studentRationale(text) {
 }
 function gradeLabel(topic) {
   const grades = (topic.grades || []).slice().sort((a,b)=>a-b);
-  if (!grades.length || topic.gradePlacement?.basis === "japanese-taxonomy-draft") return "学年は確認中";
+  if (!grades.length) return "学年は確認中";
   const label = gradeListLabel(grades).replace(/年/g,"年生");
   return topic.gradePlacement?.status === "reviewed" ? label : "目安：" + label;
 }
@@ -226,7 +226,7 @@ function filteredTopics() {
   return state.topics.filter(topic => {
     const haystack = [topicTitle(topic),topicText(topic),topic.name,topic.description,topicGroup(topic),domainLabel(topic.domain),topic.domain,topic.subject].join(" ").toLocaleLowerCase("ja");
     return (!f.subject || topic.subject===f.subject) &&
-      (!f.grade || topic.gradePlacement?.basis === "japanese-taxonomy-draft" || (topic.grades||[]).includes(f.grade)) &&
+      (!f.grade || (topic.grades||[]).includes(f.grade)) &&
       (!f.domain || topicGroup(topic)===f.domain) &&
       (!f.query || haystack.includes(f.query));
   }).sort((a,b)=>topicGrade(a)-topicGrade(b)||a.domain.localeCompare(b.domain,"ja")||a.name.localeCompare(b.name,"ja"));
@@ -355,7 +355,7 @@ function renderList() {
   if(filters.subject==="国語" && filters.grade && state.topics.filter(topic=>topic.subject==="国語").every(topic=>topic.gradePlacement?.basis==="japanese-taxonomy-draft")){
     const note=document.createElement("p");
     note.className="empty-note grade-review-note";
-    note.textContent="国語の学年ごとの整理は確認中です。今は学年でしぼらず、学習内容のまとまりや言葉から探してね。";
+    note.textContent="国語は学習指導要領の学年帯をもとにした目安で表示しています。個別の学年配当を確定したものではないので、前後の学年の学びも見てみよう。";
     list.append(note);
   }
   const groups=new Map();
