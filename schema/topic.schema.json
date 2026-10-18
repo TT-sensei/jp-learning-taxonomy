@@ -103,6 +103,21 @@
         "reviewed",
         "published"
       ]
+    },
+    "topicLifecycle": {
+      "enum": [
+        "active",
+        "superseded"
+      ],
+      "description": "Optional lifecycle state. Omission means active."
+    },
+    "replacementTopicIds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true,
+      "description": "Successor topic IDs when topicLifecycle is superseded."
     }
   },
   "additionalProperties": false
