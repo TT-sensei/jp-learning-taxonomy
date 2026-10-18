@@ -54,7 +54,7 @@ function renderDomainOptions() {
 }
 function renderFilters() {
   fillSelect("#subject", state.topics.map(t=>t.subject), "すべての教科");
-  $("#subject").value = state.topics.some(t=>t.subject==="算数") ? "算数" : "";
+  $("#subject").value = "";
   renderDomainOptions();
 }
 function relationCandidates(topic, direction) {
@@ -85,9 +85,22 @@ function relationCards(items, empty, limit=3) {
 }
 function renderList() {
   const topics=filteredTopics();
-  $("#count").textContent=topics.length+"件";
+  const filters=currentFilters();
+  $("#count").textContent=(!filters.subject&&!filters.grade&&!filters.domain&&!filters.query) ? "4教科" : topics.length+"件";
   const list=$("#items");
   list.replaceChildren();
+  if(!filters.subject&&!filters.grade&&!filters.domain&&!filters.query){
+    const subjects=[...new Set(state.topics.map(t=>t.subject))].sort((a,b)=>a.localeCompare(b,"ja"));
+    list.innerHTML='<div class="subject-picks">'+subjects.map(subject=>'<button type="button" class="subject-pick" data-subject="'+esc(subject)+'"><span class="subject-pick-label">教科</span><strong>'+esc(subject)+'</strong><span>学びのつながりを見る →</span></button>').join("")+'</div><p class="empty-note">まず教科を選んでみてください。学年や学習のまとまりを絞り込んで、項目を選ぶと前後の学びをたどれます。</p>';
+    list.querySelectorAll("[data-subject]").forEach(button=>button.addEventListener("click",()=>{
+      $("#subject").value=button.dataset.subject;
+      renderDomainOptions();
+      renderList();
+      const first=filteredTopics()[0];
+      if(first)renderDetail(first.id);
+    }));
+    return;
+  }
   if(!topics.length){
     list.innerHTML='<p class="empty-note">項目が見つかりません。教科・学年・領域を変えてみてください。</p>';
     return;
@@ -146,8 +159,8 @@ async function init() {
     state.standards=standards;
     renderFilters();
     renderList();
-    const first=filteredTopics()[0]||state.topics[0];
-    if(first) renderDetail(first.id);
+    const first=filteredTopics()[0];
+    if($("#subject").value && first) renderDetail(first.id);
     $("#subject").addEventListener("change",()=>{renderDomainOptions();renderList();const first=filteredTopics()[0];if(first)renderDetail(first.id);});
     $("#grade").addEventListener("change",()=>{renderList();const first=filteredTopics()[0];if(first)renderDetail(first.id);});
     $("#domain").addEventListener("change",()=>{renderList();const first=filteredTopics()[0];if(first)renderDetail(first.id);});
