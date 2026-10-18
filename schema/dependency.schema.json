@@ -10,7 +10,8 @@
     "type",
     "rationale",
     "evidenceType",
-    "reviewStatus"
+    "reviewStatus",
+    "studentRationale"
   ],
   "properties": {
     "id": {
@@ -57,6 +58,7 @@
     },
     "studentRationale": {
       "type": "string",
+      "minLength": 1,
       "description": "Child-facing explanation of the relationship between two learning topics."
     }
   },
