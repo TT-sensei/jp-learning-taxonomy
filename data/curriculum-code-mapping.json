@@ -760,6 +760,350 @@
       "matchStatus": "not-checked",
       "matchType": "unconfirmed",
       "note": "分割後に追加したプロジェクト独自の学習項目案。82V12公式コード表との照合前。"
+    },
+    {
+      "topicId": "jp.elem.social.local-area",
+      "matchStatus": "not-checked",
+      "candidateCode": null,
+      "verifiedCode": null,
+      "sourceId": "mext-elementary-social-guideline-2017",
+      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+    },
+    {
+      "topicId": "jp.elem.social.municipality-work",
+      "matchStatus": "not-checked",
+      "candidateCode": null,
+      "verifiedCode": null,
+      "sourceId": "mext-elementary-social-guideline-2017",
+      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+    },
+    {
+      "topicId": "jp.elem.social.municipality-change",
+      "matchStatus": "not-checked",
+      "candidateCode": null,
+      "verifiedCode": null,
+      "sourceId": "mext-elementary-social-guideline-2017",
+      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+    },
+    {
+      "topicId": "jp.elem.social.community-predecessors",
+      "matchStatus": "not-checked",
+      "candidateCode": null,
+      "verifiedCode": null,
+      "sourceId": "mext-elementary-social-guideline-2017",
+      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+    },
+    {
+      "topicId": "jp.elem.social.local-map",
+      "matchStatus": "not-checked",
+      "candidateCode": null,
+      "verifiedCode": null,
+      "sourceId": "mext-elementary-social-guideline-2017",
+      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+    },
+    {
+      "topicId": "jp.elem.social.prefecture-land",
+      "matchStatus": "not-checked",
+      "candidateCode": null,
+      "verifiedCode": null,
+      "sourceId": "mext-elementary-social-guideline-2017",
+      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+    },
+    {
+      "topicId": "jp.elem.social.disaster-prevention",
+      "matchStatus": "not-checked",
+      "candidateCode": null,
+      "verifiedCode": null,
+      "sourceId": "mext-elementary-social-guideline-2017",
+      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+    },
+    {
+      "topicId": "jp.elem.social.firefighting",
+      "matchStatus": "not-checked",
+      "candidateCode": null,
+      "verifiedCode": null,
+      "sourceId": "mext-elementary-social-guideline-2017",
+      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+    },
+    {
+      "topicId": "jp.elem.social.police-safety",
+      "matchStatus": "not-checked",
+      "candidateCode": null,
+      "verifiedCode": null,
+      "sourceId": "mext-elementary-social-guideline-2017",
+      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+    },
+    {
+      "topicId": "jp.elem.social.water-supply",
+      "matchStatus": "not-checked",
+      "candidateCode": null,
+      "verifiedCode": null,
+      "sourceId": "mext-elementary-social-guideline-2017",
+      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+    },
+    {
+      "topicId": "jp.elem.social.waste-management",
+      "matchStatus": "not-checked",
+      "candidateCode": null,
+      "verifiedCode": null,
+      "sourceId": "mext-elementary-social-guideline-2017",
+      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+    },
+    {
+      "topicId": "jp.elem.social.prefecture-industry",
+      "matchStatus": "not-checked",
+      "candidateCode": null,
+      "verifiedCode": null,
+      "sourceId": "mext-elementary-social-guideline-2017",
+      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+    },
+    {
+      "topicId": "jp.elem.social.prefecture-culture",
+      "matchStatus": "not-checked",
+      "candidateCode": null,
+      "verifiedCode": null,
+      "sourceId": "mext-elementary-social-guideline-2017",
+      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+    },
+    {
+      "topicId": "jp.elem.social.japan-location",
+      "matchStatus": "not-checked",
+      "candidateCode": null,
+      "verifiedCode": null,
+      "sourceId": "mext-elementary-social-guideline-2017",
+      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+    },
+    {
+      "topicId": "jp.elem.social.japan-landforms-climate",
+      "matchStatus": "not-checked",
+      "candidateCode": null,
+      "verifiedCode": null,
+      "sourceId": "mext-elementary-social-guideline-2017",
+      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+    },
+    {
+      "topicId": "jp.elem.social.natural-environment-life",
+      "matchStatus": "not-checked",
+      "candidateCode": null,
+      "verifiedCode": null,
+      "sourceId": "mext-elementary-social-guideline-2017",
+      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+    },
+    {
+      "topicId": "jp.elem.social.agriculture",
+      "matchStatus": "not-checked",
+      "candidateCode": null,
+      "verifiedCode": null,
+      "sourceId": "mext-elementary-social-guideline-2017",
+      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+    },
+    {
+      "topicId": "jp.elem.social.forestry",
+      "matchStatus": "not-checked",
+      "candidateCode": null,
+      "verifiedCode": null,
+      "sourceId": "mext-elementary-social-guideline-2017",
+      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+    },
+    {
+      "topicId": "jp.elem.social.fisheries",
+      "matchStatus": "not-checked",
+      "candidateCode": null,
+      "verifiedCode": null,
+      "sourceId": "mext-elementary-social-guideline-2017",
+      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+    },
+    {
+      "topicId": "jp.elem.social.industrial-production",
+      "matchStatus": "not-checked",
+      "candidateCode": null,
+      "verifiedCode": null,
+      "sourceId": "mext-elementary-social-guideline-2017",
+      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+    },
+    {
+      "topicId": "jp.elem.social.information-industry",
+      "matchStatus": "not-checked",
+      "candidateCode": null,
+      "verifiedCode": null,
+      "sourceId": "mext-elementary-social-guideline-2017",
+      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+    },
+    {
+      "topicId": "jp.elem.social.transport-trade",
+      "matchStatus": "not-checked",
+      "candidateCode": null,
+      "verifiedCode": null,
+      "sourceId": "mext-elementary-social-guideline-2017",
+      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+    },
+    {
+      "topicId": "jp.elem.social.food-life",
+      "matchStatus": "not-checked",
+      "candidateCode": null,
+      "verifiedCode": null,
+      "sourceId": "mext-elementary-social-guideline-2017",
+      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+    },
+    {
+      "topicId": "jp.elem.social.environment-protection",
+      "matchStatus": "not-checked",
+      "candidateCode": null,
+      "verifiedCode": null,
+      "sourceId": "mext-elementary-social-guideline-2017",
+      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+    },
+    {
+      "topicId": "jp.elem.social.ancient-japan",
+      "matchStatus": "not-checked",
+      "candidateCode": null,
+      "verifiedCode": null,
+      "sourceId": "mext-elementary-social-guideline-2017",
+      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+    },
+    {
+      "topicId": "jp.elem.social.medieval-japan",
+      "matchStatus": "not-checked",
+      "candidateCode": null,
+      "verifiedCode": null,
+      "sourceId": "mext-elementary-social-guideline-2017",
+      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+    },
+    {
+      "topicId": "jp.elem.social.unification",
+      "matchStatus": "not-checked",
+      "candidateCode": null,
+      "verifiedCode": null,
+      "sourceId": "mext-elementary-social-guideline-2017",
+      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+    },
+    {
+      "topicId": "jp.elem.social.edo-society",
+      "matchStatus": "not-checked",
+      "candidateCode": null,
+      "verifiedCode": null,
+      "sourceId": "mext-elementary-social-guideline-2017",
+      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+    },
+    {
+      "topicId": "jp.elem.social.modernization",
+      "matchStatus": "not-checked",
+      "candidateCode": null,
+      "verifiedCode": null,
+      "sourceId": "mext-elementary-social-guideline-2017",
+      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+    },
+    {
+      "topicId": "jp.elem.social.war-and-recovery",
+      "matchStatus": "not-checked",
+      "candidateCode": null,
+      "verifiedCode": null,
+      "sourceId": "mext-elementary-social-guideline-2017",
+      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+    },
+    {
+      "topicId": "jp.elem.social.postwar-japan",
+      "matchStatus": "not-checked",
+      "candidateCode": null,
+      "verifiedCode": null,
+      "sourceId": "mext-elementary-social-guideline-2017",
+      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+    },
+    {
+      "topicId": "jp.elem.social.constitution",
+      "matchStatus": "not-checked",
+      "candidateCode": null,
+      "verifiedCode": null,
+      "sourceId": "mext-elementary-social-guideline-2017",
+      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+    },
+    {
+      "topicId": "jp.elem.social.diet",
+      "matchStatus": "not-checked",
+      "candidateCode": null,
+      "verifiedCode": null,
+      "sourceId": "mext-elementary-social-guideline-2017",
+      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+    },
+    {
+      "topicId": "jp.elem.social.government-courts",
+      "matchStatus": "not-checked",
+      "candidateCode": null,
+      "verifiedCode": null,
+      "sourceId": "mext-elementary-social-guideline-2017",
+      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+    },
+    {
+      "topicId": "jp.elem.social.local-government",
+      "matchStatus": "not-checked",
+      "candidateCode": null,
+      "verifiedCode": null,
+      "sourceId": "mext-elementary-social-guideline-2017",
+      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+    },
+    {
+      "topicId": "jp.elem.social.international-relations",
+      "matchStatus": "not-checked",
+      "candidateCode": null,
+      "verifiedCode": null,
+      "sourceId": "mext-elementary-social-guideline-2017",
+      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+    },
+    {
+      "topicId": "jp.elem.social.maps-globes",
+      "matchStatus": "not-checked",
+      "candidateCode": null,
+      "verifiedCode": null,
+      "sourceId": "mext-elementary-social-guideline-2017",
+      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+    },
+    {
+      "topicId": "jp.elem.social.statistics-graphs",
+      "matchStatus": "not-checked",
+      "candidateCode": null,
+      "verifiedCode": null,
+      "sourceId": "mext-elementary-social-guideline-2017",
+      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+    },
+    {
+      "topicId": "jp.elem.social.timeline-sources",
+      "matchStatus": "not-checked",
+      "candidateCode": null,
+      "verifiedCode": null,
+      "sourceId": "mext-elementary-social-guideline-2017",
+      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+    },
+    {
+      "topicId": "jp.elem.social.fieldwork-interview",
+      "matchStatus": "not-checked",
+      "candidateCode": null,
+      "verifiedCode": null,
+      "sourceId": "mext-elementary-social-guideline-2017",
+      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+    },
+    {
+      "topicId": "jp.elem.social.compare-regions",
+      "matchStatus": "not-checked",
+      "candidateCode": null,
+      "verifiedCode": null,
+      "sourceId": "mext-elementary-social-guideline-2017",
+      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+    },
+    {
+      "topicId": "jp.elem.social.evidence-explanation",
+      "matchStatus": "not-checked",
+      "candidateCode": null,
+      "verifiedCode": null,
+      "sourceId": "mext-elementary-social-guideline-2017",
+      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+    },
+    {
+      "topicId": "jp.elem.social.decision-civic",
+      "matchStatus": "not-checked",
+      "candidateCode": null,
+      "verifiedCode": null,
+      "sourceId": "mext-elementary-social-guideline-2017",
+      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
     }
   ]
 }
