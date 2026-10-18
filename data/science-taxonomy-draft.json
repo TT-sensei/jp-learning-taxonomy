@@ -1038,6 +1038,15 @@
       "sourceType": "official-code-table",
       "reviewStatus": "not-started",
       "note": "理科の各項目とのコード対応は未確認。"
+    },
+    {
+      "id": "science-grade-alignment-review-2026-10",
+      "title": "理科：学年別内容との対応確認（第1回）",
+      "publisher": "TT-sensei / JP Learning Taxonomy project",
+      "url": "https://github.com/TT-sensei/jp-learning-taxonomy/blob/main/docs/science-grade-alignment-review.md",
+      "sourceType": "project-review-record",
+      "reviewStatus": "first-pass",
+      "note": "平成29年告示の理科編解説を参照し、45候補の対応先と粒度を初回確認。公式コードの照合は未実施。"
     }
   ],
   "reviewPlan": [
@@ -1070,6 +1079,12 @@
       "label": "前提・関連・発展の関係",
       "status": "not-started",
       "note": "各項目の内容照合後に関係を提案する。"
+    },
+    {
+      "id": "grade-alignment",
+      "label": "学年別内容との初回対応確認",
+      "status": "first-pass",
+      "note": "docs/science-grade-alignment-review.mdに45候補の対応候補・分割修正方針を記録。正式コードの照合は未実施。"
     }
   ],
   "notes": [
@@ -1077,6 +1092,7 @@
     "candidateGradesはレビュー開始用の仮候補であり、公式の学年配当を示さない。",
     "概念の柱は学年横断の整理であり、公式コードや個々の内容項目との対応を意味しない。",
     "観察・実験や問題解決の力はA・Bの内容区分と混同しないよう、横断的な候補群として別に整理する。",
-    "2026-10-18: 文部科学省の理科編解説で内容構成と概念の柱を確認し、45項目の初期候補を作成。個々の項目との照合は未完了。"
+    "2026-10-18: 文部科学省の理科編解説で内容構成と概念の柱を確認し、45項目の初期候補を作成。個々の項目との照合は未完了。",
+    "2026-10-18: 学年別内容との初回対応レビューをdocs/science-grade-alignment-review.mdに作成。45候補の対応先と粒度を点検し、分割・追加・横断整理の必要性を記録。"
   ]
 }
