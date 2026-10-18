@@ -1,0 +1,35 @@
+name: Validate learning map
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check JavaScript syntax
+        run: |
+          node --check site/app.js
+          node --check site/representations.js
+      - name: Validate learning data
+        run: node scripts/validate.mjs
+      - name: Check local furigana assets and license notices
+        shell: bash
+        run: |
+          test -f site/vendor/kuroshiro/kuroshiro.min.js
+          test -f site/vendor/kuroshiro/kuroshiro-analyzer-kuromoji.min.js
+          test -f site/vendor/kuroshiro/THIRD_PARTY_LICENSES.md
+          test -f site/vendor/kuroshiro/dict/NOTICE.md
+          test "$(find site/vendor/kuroshiro/dict -maxdepth 1 -name '*.dat.gz' | wc -l)" -eq 12
