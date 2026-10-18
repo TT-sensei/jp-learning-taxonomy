@@ -300,8 +300,10 @@ function gradeListLabel(grades) {
 }
 function renderGradeMap(subject) {
   const subjectTopics=state.topics.filter(topic=>topic.subject===subject && topic.topicLifecycle!=="superseded");
+  const crossCutting=subject==="算数" ? subjectTopics.filter(topic=>topic.domain==="横断的な数学的活動（プロジェクト独自の分類）") : [];
+  const curriculumTopics=subjectTopics.filter(topic=>!crossCutting.includes(topic));
   const lanes=[1,2,3,4,5,6].map(grade=>{
-    const topics=subjectTopics.filter(topic=>(Number(topic.gradePlacement?.candidateFirstIntroductionGrade)||Math.min(...(topic.grades||[99])))===grade)
+    const topics=curriculumTopics.filter(topic=>(Number(topic.gradePlacement?.candidateFirstIntroductionGrade)||Math.min(...(topic.grades||[99])))===grade)
       .sort((a,b)=>(a.domain||"").localeCompare(b.domain||"","ja")||a.name.localeCompare(b.name,"ja"));
     const groups=new Map();
     topics.forEach(topic=>{
@@ -322,8 +324,9 @@ function renderGradeMap(subject) {
         }).join("")+'</div>').join("")+
       (topics.length?'':'<p class="grade-lane-empty">この学年から学ぶ項目は、まだ登録されていないよ。</p>')+'</section>';
   }).join("");
+  const crossCuttingPanel=crossCutting.length ? '<section class="cross-cutting-panel"><h2>'+rubyHTML("どの学年でも使う考え方")+'</h2><p>'+rubyHTML("単元の学年とは別に、算数の学び全体で使う力をまとめています。")+'</p><div class="path-grid">'+crossCutting.map(topic=>'<button type="button" class="path-card" data-subject="'+esc(topic.subject)+'" data-topic-id="'+esc(topic.id)+'"><strong>'+rubyHTML(topicTitle(topic))+'</strong><span class="path-why">'+rubyHTML(topic.studentDescription||topic.description)+'</span><span class="path-kind">'+rubyHTML("横断的な力")+'</span></button>').join("")+'</div></section>' : '';
   return '<div class="grade-map-intro"><strong>'+rubyHTML(subject+"の学年マップ")+'</strong><p>'+rubyHTML("それぞれの学びを、学び始める学年の目安に1回ずつ置いています。あとでまた使う学びは、カードに表示しています。項目を選ぶと、前や次につながる学びが見られます。")+'</p><small>'+rubyHTML("学年は見直し中の目安です。必ずこの学年・順番で学ぶという意味ではありません。")+'</small></div>'+
-    '<div class="grade-map-scroll" role="region" aria-label="'+rubyHTML(subject)+'の1年生から6年生までの学びのマップ" tabindex="0">'+lanes+'</div>';
+    '<div class="grade-map-scroll" role="region" aria-label="'+rubyHTML(subject)+'の1年生から6年生までの学びのマップ" tabindex="0">'+lanes+'</div>'+crossCuttingPanel;
 }
 function renderList() {
   $("#items").setAttribute("aria-busy","false");
