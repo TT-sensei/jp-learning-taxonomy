@@ -240,7 +240,7 @@ function renderList() {
   }
   if(!filters.subject&&!filters.grade&&!filters.domain&&!filters.query){
     const subjects=[...new Set(state.topics.map(t=>t.subject))].sort((a,b)=>a.localeCompare(b,"ja"));
-    list.innerHTML='<div class="subject-picks">'+subjects.map(subject=>'<button type="button" class="subject-pick" data-subject="'+rubyHTML(subject)+'"><span class="subject-pick-label">教科</span><strong>'+rubyHTML(subject)+'</strong><span>学びのつながりを見る →</span></button>').join("")+'</div><p class="empty-note">まず教科を選んでみてください。学年や学習内容のまとまりをしぼって、項目を選ぶと前後の学びをたどれます。</p>';
+    list.innerHTML='<div class="subject-picks">'+subjects.map(subject=>'<button type="button" class="subject-pick" data-subject="'+esc(subject)+'"><span class="subject-pick-label">'+rubyHTML("教科")+'</span><strong>'+rubyHTML(subject)+'</strong><span>'+rubyHTML("学びのつながりを見る")+' →</span></button>').join("")+'</div><p class="empty-note">まず教科を選んでみてください。学年や学習内容のまとまりをしぼって、項目を選ぶと前後の学びをたどれます。</p>';
     list.querySelectorAll("[data-subject]").forEach(button=>button.addEventListener("click",()=>{
       $("#subject").value=button.dataset.subject;
       renderDomainOptions();
