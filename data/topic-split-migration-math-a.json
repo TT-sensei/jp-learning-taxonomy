@@ -79,8 +79,9 @@
       "reason": "式の構造との関係が、乗法の分割項目か計算の性質の項目に属するか再確認する。",
       "applicationStatus": "reviewed-and-applied",
       "appliedTarget": {
-        "from": "jp.elem.math.calculation-properties"
-      }
+        "from": "jp.elem.math.distributive-property"
+      },
+      "note": "旧親項目から、式の構造を捉える内容に最も近い分配法則の項目へ移行。"
     },
     {
       "edgeId": "math-edge-051",
