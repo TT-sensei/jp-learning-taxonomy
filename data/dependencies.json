@@ -353,15 +353,6 @@
       "reviewStatus": "needs-review"
     },
     {
-      "id": "math-edge-040",
-      "from": "jp.elem.math.average",
-      "to": "jp.elem.math.statistical-viewpoints",
-      "type": "recommended-prerequisite",
-      "rationale": "平均を含む複数の見方を比較してデータの特徴を捉える。",
-      "evidenceType": "editorial",
-      "reviewStatus": "needs-review"
-    },
-    {
       "id": "math-edge-041",
       "from": "jp.elem.math.percentage",
       "to": "jp.elem.math.percentage-graphs",
@@ -610,15 +601,6 @@
       "to": "jp.elem.math.multidigit-multiply-two-digit",
       "type": "recommended-prerequisite",
       "rationale": "1位数をかける計算の理解を2位数をかける計算へ広げる候補。",
-      "reviewStatus": "needs-review",
-      "evidenceType": "editorial"
-    },
-    {
-      "id": "proposed-math-edge-a-002",
-      "from": "jp.elem.math.decimal-place-value",
-      "to": "jp.elem.math.decimal-fraction-tenths",
-      "type": "recommended-prerequisite",
-      "rationale": "小数の位取りを0.1と1/10の関係へつなぐ候補。",
       "reviewStatus": "needs-review",
       "evidenceType": "editorial"
     },
@@ -1028,15 +1010,6 @@
       "reviewStatus": "needs-review"
     },
     {
-      "id": "grade-link-115",
-      "from": "jp.elem.math.division-meaning",
-      "to": "jp.elem.math.division-remainders",
-      "type": "recommended-prerequisite",
-      "rationale": "等分や包含の除法の意味を、あまりが生じる場面の解釈へつなげる。",
-      "evidenceType": "editorial",
-      "reviewStatus": "needs-review"
-    },
-    {
       "id": "grade-link-116",
       "from": "jp.elem.math.unit-fractions",
       "to": "jp.elem.math.fractions-same-denominator",
@@ -1051,15 +1024,6 @@
       "to": "jp.elem.math.decimal-add-subtract",
       "type": "related-learning",
       "rationale": "0.1を単位とする小数の見方を、小数の加法・減法で位をそろえる考え方に生かす。",
-      "evidenceType": "editorial",
-      "reviewStatus": "needs-review"
-    },
-    {
-      "id": "grade-link-118",
-      "from": "jp.elem.math.decimal-add-subtract",
-      "to": "jp.elem.math.decimal-multiply-divide",
-      "type": "related-learning",
-      "rationale": "小数の位取りと加減計算の理解を、小数の乗法・除法の計算や意味へ広げる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review"
     },
