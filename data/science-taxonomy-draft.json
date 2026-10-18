@@ -249,6 +249,13 @@
         "jp.elem.science.conclusion",
         "jp.elem.science.communicate"
       ]
+    },
+    {
+      "id": "force-and-motion",
+      "name": "力の働き",
+      "topicIds": [
+        "jp.elem.science.force-motion"
+      ]
     }
   ],
   "topics": [
