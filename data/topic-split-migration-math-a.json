@@ -2,7 +2,7 @@
   "schemaVersion": "0.1.0",
   "title": "算数「数と計算」分割案の移行設計",
   "updatedAt": "2026-10-18",
-  "status": "proposal-not-applied",
+  "status": "applied-with-legacy-parents",
   "purpose": "分割案の移行先と学習関係を記録する設計案。topics.json と dependencies.json は変更しない。",
   "principles": [
     "既存IDは利用側の参照確認前に削除しない。",
@@ -65,14 +65,22 @@
       "oldTo": "jp.elem.math.multidigit-multiplication",
       "proposedTo": "jp.elem.math.multidigit-multiply-one-digit",
       "action": "retarget",
-      "reason": "九九は1位数をかける多桁計算の直接的な前提候補。"
+      "reason": "九九は1位数をかける多桁計算の直接的な前提候補。",
+      "applicationStatus": "reviewed-and-applied",
+      "appliedTarget": {
+        "to": "jp.elem.math.multidigit-multiply-one-digit"
+      }
     },
     {
       "edgeId": "math-edge-016",
       "oldFrom": "jp.elem.math.multidigit-multiplication",
       "to": "jp.elem.math.expressions-parentheses",
       "action": "review",
-      "reason": "式の構造との関係が、乗法の分割項目か計算の性質の項目に属するか再確認する。"
+      "reason": "式の構造との関係が、乗法の分割項目か計算の性質の項目に属するか再確認する。",
+      "applicationStatus": "reviewed-and-applied",
+      "appliedTarget": {
+        "from": "jp.elem.math.calculation-properties"
+      }
     },
     {
       "edgeId": "math-edge-051",
@@ -80,7 +88,11 @@
       "oldTo": "jp.elem.math.decimal-fraction-connections",
       "proposedTo": "jp.elem.math.decimal-fraction-numberline",
       "action": "retarget",
-      "reason": "分数と小数を同じ数直線上で比べる内容に近い。"
+      "reason": "分数と小数を同じ数直線上で比べる内容に近い。",
+      "applicationStatus": "reviewed-and-applied",
+      "appliedTarget": {
+        "to": "jp.elem.math.decimal-fraction-numberline"
+      }
     },
     {
       "edgeId": "math-edge-052",
@@ -88,7 +100,11 @@
       "oldTo": "jp.elem.math.decimal-fraction-connections",
       "proposedTo": "jp.elem.math.decimal-fraction-tenths",
       "action": "retarget",
-      "reason": "小数の位取りから0.1と1/10の関係へつなぐ候補。"
+      "reason": "小数の位取りから0.1と1/10の関係へつなぐ候補。",
+      "applicationStatus": "reviewed-and-applied",
+      "appliedTarget": {
+        "to": "jp.elem.math.decimal-fraction-tenths"
+      }
     },
     {
       "edgeId": "math-edge-053",
@@ -99,7 +115,12 @@
         "jp.elem.math.choose-calculation-strategy"
       ],
       "action": "review",
-      "reason": "既存の乗法の性質を維持し、重複しない移行先を確認する。"
+      "reason": "既存の乗法の性質を維持し、重複しない移行先を確認する。",
+      "applicationStatus": "reviewed-and-applied",
+      "appliedTarget": {
+        "to": "jp.elem.math.choose-calculation-strategy",
+        "type": "application"
+      }
     },
     {
       "edgeId": "math-edge-054",
@@ -107,7 +128,11 @@
       "oldTo": "jp.elem.math.unknown-number-equations",
       "proposedTo": "jp.elem.math.unknown-number-box-expression",
       "action": "retarget",
-      "reason": "式の表現から□を使った式の表現へつなぐ候補。"
+      "reason": "式の表現から□を使った式の表現へつなぐ候補。",
+      "applicationStatus": "reviewed-and-applied",
+      "appliedTarget": {
+        "to": "jp.elem.math.unknown-number-box-expression"
+      }
     }
   ],
   "proposedEdges": [
@@ -117,7 +142,8 @@
       "to": "jp.elem.math.multidigit-multiply-two-digit",
       "type": "recommended-prerequisite",
       "rationale": "1位数をかける計算の理解を2位数をかける計算へ広げる候補。",
-      "reviewStatus": "needs-review"
+      "reviewStatus": "needs-review",
+      "applicationStatus": "added-to-dependencies"
     },
     {
       "id": "proposed-math-edge-a-002",
@@ -125,7 +151,8 @@
       "to": "jp.elem.math.decimal-fraction-tenths",
       "type": "recommended-prerequisite",
       "rationale": "小数の位取りを0.1と1/10の関係へつなぐ候補。",
-      "reviewStatus": "needs-review"
+      "reviewStatus": "needs-review",
+      "applicationStatus": "added-to-dependencies"
     },
     {
       "id": "proposed-math-edge-a-003",
@@ -133,7 +160,8 @@
       "to": "jp.elem.math.decimal-fraction-numberline",
       "type": "related-learning",
       "rationale": "表し方の関係から数直線上での比較へ広げる候補。",
-      "reviewStatus": "needs-review"
+      "reviewStatus": "needs-review",
+      "applicationStatus": "added-to-dependencies"
     },
     {
       "id": "proposed-math-edge-a-004",
@@ -141,7 +169,8 @@
       "to": "jp.elem.math.unknown-number-solve",
       "type": "recommended-prerequisite",
       "rationale": "□を使った式を表すことから、□に当てはまる数を求める学習へつなぐ候補。",
-      "reviewStatus": "needs-review"
+      "reviewStatus": "needs-review",
+      "applicationStatus": "added-to-dependencies"
     },
     {
       "id": "proposed-math-edge-a-005",
@@ -149,7 +178,8 @@
       "to": "jp.elem.math.unknown-number-relationships",
       "type": "related-learning",
       "rationale": "□を使った式から数量の関係を式に表す学習へ広げる候補。",
-      "reviewStatus": "needs-review"
+      "reviewStatus": "needs-review",
+      "applicationStatus": "added-to-dependencies"
     },
     {
       "id": "proposed-math-edge-a-006",
@@ -157,7 +187,8 @@
       "to": "jp.elem.math.choose-calculation-strategy",
       "type": "application",
       "rationale": "加法の性質を計算方法の選択に活用する候補。",
-      "reviewStatus": "needs-review"
+      "reviewStatus": "needs-review",
+      "applicationStatus": "added-to-dependencies"
     },
     {
       "id": "proposed-math-edge-a-007",
@@ -165,7 +196,8 @@
       "to": "jp.elem.math.choose-calculation-strategy",
       "type": "application",
       "rationale": "分配法則を計算の工夫に活用する候補。",
-      "reviewStatus": "needs-review"
+      "reviewStatus": "needs-review",
+      "applicationStatus": "added-to-dependencies"
     },
     {
       "id": "proposed-math-edge-a-008",
@@ -173,7 +205,8 @@
       "to": "jp.elem.math.solve-multistep-number-problems",
       "type": "application",
       "rationale": "複数の計算を使う問題で、見積もりを結果の確認に活用する候補。",
-      "reviewStatus": "needs-review"
+      "reviewStatus": "needs-review",
+      "applicationStatus": "added-to-dependencies"
     }
   ],
   "checksBeforeApplying": [
@@ -181,5 +214,6 @@
     "既存関係の移行後に循環と意味の整合性を確認する。",
     "表現モデル・公式コード対応・サイト側参照の移行を確認する。",
     "提案関係は dependencies.json に未登録のままとする。"
-  ]
+  ],
+  "appliedAt": "2026-10-18"
 }
