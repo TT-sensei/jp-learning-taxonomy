@@ -9,7 +9,6 @@ const relationNames = {
   "application":"学んだことを使う",
   "recurring-development":"くり返し使って深める"
 };
-const statusNames = {"draft":"作成中","needs-review":"見直し中","reviewed":"見直し済み","published":"公開中"};
 function topicTitle(topic) { return topic.studentName || topic.name; }
 function topicText(topic) { return topic.studentDescription || topic.description || ""; }
 function domainLabel(domain) {
