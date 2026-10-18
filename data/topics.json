@@ -3206,7 +3206,7 @@
         "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       },
       "studentName": "式と「＝」の意味",
-      "studentDescription": "場面や数や量のつながりを式に表し、等号が表す関係を読み取る。"
+      "studentDescription": "場面にある数や量の関係を式に表し、「＝」の左右が同じ大きさや関係を表すことを考えよう。"
     },
     {
       "id": "jp.elem.math.compare-order-numbers",
@@ -3277,7 +3277,7 @@
         "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       },
       "studentName": "数を数えて、順番を表そう",
-      "studentDescription": "ものの個数を数え、数詞・数字・数の順序を対応させる。"
+      "studentDescription": "ものの数を数え、数字で表したり、何番目かを表したりしよう。"
     },
     {
       "id": "jp.elem.math.compose-decompose-shapes",
@@ -3411,7 +3411,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "長さ・広さ・かさを直接比べよう",
-      "studentDescription": "同じ単位で測る前に、端をそろえたり重ねたりして量の大きさを比較する。"
+      "studentDescription": "ものの端をそろえたり、重ねたりして、長さ・広さ・かさを直接比べよう。"
     },
     {
       "id": "jp.elem.math.classify-count-pictograph",
@@ -3486,7 +3486,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "数や図のきまりを見つけよう",
-      "studentDescription": "具体例や計算結果を比べ、繰り返しや変化のきまりを見つけて別の場面に使う。"
+      "studentDescription": "いくつかの数や図を比べ、くり返しや変わり方のきまりを見つけて、別の問題でも使おう。"
     },
     {
       "id": "jp.elem.math.estimate-and-check",
@@ -3529,7 +3529,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "答えを予想して、確かめよう",
-      "studentDescription": "計算や測定の前後に見当をつけ、答えが場面に合っているかを確かめる。"
+      "studentDescription": "計算や測定の前に答えを予想し、あとで実際の答えと比べて確かめよう。"
     },
     {
       "id": "jp.elem.math.explain-reasoning",
@@ -3572,7 +3572,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "考え方を説明して比べよう",
-      "studentDescription": "答えだけでなく、図や式、言葉を使って解決の根拠を説明し、他の考えと比べる。"
+      "studentDescription": "答えだけでなく、図・式・言葉を使って考え方を説明し、友だちの考えと比べよう。"
     },
     {
       "id": "jp.elem.math.represent-with-diagrams-tables",
@@ -3615,7 +3615,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "図・表・式を使って表そう",
-      "studentDescription": "考えたい数や量のつながりを、図・表・式・数直線など適した方法で表す。"
+      "studentDescription": "問題に合う図・表・式・数直線を選んで、数の関係を表そう。"
     },
     {
       "id": "jp.elem.math.math-in-daily-life",
@@ -3736,7 +3736,7 @@
         "note": "分割設計時の候補学年。公式の学年別内容との照合前であり、確定配当ではない。"
       },
       "studentName": "□を使って数の関係を式に表そう",
-      "studentDescription": "□を数や量の代わりに使って式を表し、式が表す数や量のつながりを読み取る。"
+      "studentDescription": "□を数の代わりに使って式に表し、その式がどんな数の関係を表しているか考えよう。"
     },
     {
       "id": "jp.elem.math.unknown-number-equations",
@@ -3816,7 +3816,7 @@
         "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       },
       "studentName": "10000までの数と位のしくみ",
-      "studentDescription": "十進数字の位のしくみを使い、3～4桁の数の構成や大きさを考える。"
+      "studentDescription": "数字の位置によって数の大きさが変わることに注目して、10000までの数を読んだり表したりしよう。"
     },
     {
       "id": "jp.elem.math.multidigit-add-subtract",
@@ -3889,7 +3889,7 @@
         "note": "分割設計時の候補学年。公式の学年別内容との照合前であり、確定配当ではない。"
       },
       "studentName": "たし算の順番やまとめ方を変えるきまり",
-      "studentDescription": "たし算の順序やまとめ方を変えても和が変わらない性質を使う。"
+      "studentDescription": "たし算の順番やまとめ方を変えても答えが変わらないきまりを使って、計算を工夫しよう。"
     },
     {
       "id": "jp.elem.math.multiplication-meaning",
@@ -3961,7 +3961,7 @@
         "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       },
       "studentName": "かけ算のきまりを使って計算しよう",
-      "studentDescription": "かける数やかけられる数を分けたり入れ替えたりする見方で、かけ算の計算や関係を考える。"
+      "studentDescription": "かける数を分けたり、かける順番を入れ替えたりして、計算しやすい方法を考えよう。"
     },
     {
       "id": "jp.elem.math.multiplication-tables",
@@ -3996,7 +3996,7 @@
         "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       },
       "studentName": "九九のきまりを見つけて使おう",
-      "studentDescription": "かけ算九九を構成し、暗記だけでなくまとまりや交換の関係を使って答えを求める。"
+      "studentDescription": "九九を作りながら、数のまとまりや、かける順番を入れ替えるきまりを見つけよう。"
     },
     {
       "id": "jp.elem.math.unit-fractions",
@@ -4034,7 +4034,7 @@
         "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       },
       "studentName": "分数の表し方と、分数の1つ分",
-      "studentDescription": "ものを同じ大きさに分けたとき、分数が何を表すのか考えよう。"
+      "studentDescription": "ものを同じ大きさに分けたときの1つ分を、分数で表してみよう。"
     },
     {
       "id": "jp.elem.math.triangles-quadrilaterals",
@@ -4103,7 +4103,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "箱の面・辺・頂点のつながり",
-      "studentDescription": "箱の形を構成する面・辺・頂点の位置やつながりを考える。"
+      "studentDescription": "箱の面・辺・頂点に注目して、それぞれの位置やつながりを考えよう。"
     },
     {
       "id": "jp.elem.math.capacity-units",
@@ -4170,7 +4170,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "時刻と時間、かかった時間",
-      "studentDescription": "時刻と時間を区別し、時間の単位を使って経過時間を考える。"
+      "studentDescription": "何時から何時まで、どれくらいの時間がたったかを、時刻と時間の単位を使って考えよう。"
     },
     {
       "id": "jp.elem.math.length-units-cm-mm-m",
@@ -4202,7 +4202,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "cm・mm・mで長さを測ろう",
-      "studentDescription": "ものさしなどを使って長さを測り、単位の関係と測定の仕方を理解する。"
+      "studentDescription": "ものさしで長さを測り、cm・mm・mの単位を使い分けよう。"
     },
     {
       "id": "jp.elem.math.tables-simple-graphs",
@@ -4310,7 +4310,7 @@
         "note": "分割設計時の候補学年。公式の学年別内容との照合前であり、確定配当ではない。"
       },
       "studentName": "□に入る数を求めよう",
-      "studentDescription": "加減乗除の関係や逆算を使って、□に当てはまる数を求める。"
+      "studentDescription": "たし算・ひき算・かけ算・わり算の関係を使って、□に入る数を求めよう。"
     },
     {
       "id": "jp.elem.math.decimal-fraction-tenths",
@@ -4342,7 +4342,7 @@
         "note": "分割設計時の候補学年。公式の学年別内容との照合前であり、確定配当ではない。"
       },
       "studentName": "0.1と1/10の関係",
-      "studentDescription": "十分の一を単位として、小数と分数の表し方を関連づける。"
+      "studentDescription": "1を10こに分けた1こ分を0.1や1/10で表し、小数と分数のつながりを考えよう。"
     },
     {
       "id": "jp.elem.math.multidigit-multiply-one-digit",
@@ -4374,7 +4374,7 @@
         "note": "分割設計時の候補学年。公式の学年別内容との照合前であり、確定配当ではない。"
       },
       "studentName": "2〜3けた×1けたのかけ算",
-      "studentDescription": "位ごとの分解や筆算の仕組みを使い、2位数・3位数に1けたの数をかける。"
+      "studentDescription": "位ごとに分けて計算する考え方を使い、2〜3けたの数に1けたの数をかけよう。"
     },
     {
       "id": "jp.elem.math.division-remainders",
@@ -4572,7 +4572,7 @@
         "note": "分割設計時の候補学年。公式の学年別内容との照合前であり、確定配当ではない。"
       },
       "studentName": "数直線で小数と分数を比べよう",
-      "studentDescription": "数直線上の位置や単位量に注目し、小数と分数の大きさを比較する。"
+      "studentDescription": "同じ数直線に小数と分数を表し、どちらが大きいか比べよう。"
     },
     {
       "id": "jp.elem.math.decimals-tenths",
@@ -4605,7 +4605,7 @@
         "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       },
       "studentName": "0.1の大きさと小数の表し方",
-      "studentDescription": "1を10等分した1つ分を0.1と表し、小数の大きさを考えよう。"
+      "studentDescription": "1を10こに分けた1こ分を0.1と表し、小数の大きさや表し方を考えよう。"
     },
     {
       "id": "jp.elem.math.multidigit-multiplication",
@@ -4686,7 +4686,7 @@
         "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       },
       "studentName": "大きな数と位のしくみ",
-      "studentDescription": "大きな整数の位の並びや10倍・100倍・10分の1の関係を考える。"
+      "studentDescription": "大きな数の位の並び方や、10倍・100倍・10分の1にしたときの変化を考えよう。"
     },
     {
       "id": "jp.elem.math.fractions-compare",
@@ -4726,7 +4726,7 @@
         "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       },
       "studentName": "分数の大きさを比べ、同じ大きさの分数を見つけよう",
-      "studentDescription": "数直線や図を用いて分数の大きさを比べ、同じ大きさを表す分数を考える。"
+      "studentDescription": "図や数直線で分数の大きさを比べ、同じ大きさを表す分数を見つけよう。"
     },
     {
       "id": "jp.elem.math.distributive-property",
@@ -4830,7 +4830,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "三角形・円・球の形と特徴",
-      "studentDescription": "辺や中心・半径・直径などに注目して、基本的な平面図形や立体の特徴を考える。"
+      "studentDescription": "辺や頂点、円の中心・半径・直径などに注目して、三角形・円・球の特徴を考えよう。"
     },
     {
       "id": "jp.elem.math.mass-units",
@@ -4862,7 +4862,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "g・kgで重さを表そう",
-      "studentDescription": "はかりで重さを測定し、グラム・キログラムの意味と関係を考える。"
+      "studentDescription": "はかりで重さを測り、gとkgの使い分けや単位どうしの関係を考えよう。"
     },
     {
       "id": "jp.elem.math.distance-kilometer",
@@ -4894,7 +4894,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "kmを使って長い道のりを表そう",
-      "studentDescription": "長い距離をキロメートルで表し、既習の長さの単位と関連づける。"
+      "studentDescription": "長い道のりをkmで表し、mとkmの関係を使って長さを表そう。"
     },
     {
       "id": "jp.elem.math.data-based-reasoning",
@@ -4933,7 +4933,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "データを根拠に説明しよう",
-      "studentDescription": "表やグラフから読み取った事実を根拠として、判断や考えを説明する。"
+      "studentDescription": "表やグラフのどこを見たのかを示し、数字や記録を根拠にして考えを説明しよう。"
     },
     {
       "id": "jp.elem.math.bar-graphs",
@@ -5003,8 +5003,8 @@
         "basis": "current-draft-grades",
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
-      "studentName": "単位の関係と単位の変え方",
-      "studentDescription": "長さ・面積・体積の単位どうしの関係を調べ、目的に合う単位に変えよう。"
+      "studentName": "長さ・面積・体積の単位を変えよう",
+      "studentDescription": "cm・m、cm²・m²、cm³・m³など、長さ・面積・体積の単位の関係を調べて変えよう。"
     },
     {
       "id": "jp.elem.math.multidigit-multiply-two-digit",
@@ -5036,7 +5036,7 @@
         "note": "分割設計時の候補学年。公式の学年別内容との照合前であり、確定配当ではない。"
       },
       "studentName": "2〜3けた×2けたのかけ算",
-      "studentDescription": "数字の位のしくみと部分積を使い、2位数・3位数に2位数をかける。"
+      "studentDescription": "位ごとに分けて計算する考え方を使い、2〜3けたの数に2けたの数をかけよう。"
     },
     {
       "id": "jp.elem.math.rounding-estimation",
@@ -5108,7 +5108,7 @@
         "note": "分割設計時の候補学年。公式の学年別内容との照合前であり、確定配当ではない。"
       },
       "studentName": "見積もりで計算の答えを確かめよう",
-      "studentDescription": "見積もりと計算結果を比べ、答えの妥当性を検討する。"
+      "studentDescription": "計算する前に答えを予想し、実際に計算した答えと比べて、大きくずれていないか確かめよう。"
     },
     {
       "id": "jp.elem.math.expressions-parentheses",
@@ -5143,7 +5143,7 @@
         "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       },
       "studentName": "かっこや計算の順番を考えよう",
-      "studentDescription": "式の構造を読み、かっこや四則の計算順序を考えて数や量のつながりを表す。"
+      "studentDescription": "かっこがある式で、どの順番で計算するとよいか考えよう。"
     },
     {
       "id": "jp.elem.math.decimal-fraction-equivalence",
@@ -5179,8 +5179,8 @@
         "basis": "current-draft-grades",
         "note": "分割設計時の候補学年。公式の学年別内容との照合前であり、確定配当ではない。"
       },
-      "studentName": "同じ大きさを小数と分数で表そう",
-      "studentDescription": "数の範囲に応じて、小数・分数の等しい大きさや表現の関係を考える。"
+      "studentName": "小数と分数で同じ大きさを表そう",
+      "studentDescription": "同じ大きさを小数と分数の両方で表し、表し方のちがいを比べよう。"
     },
     {
       "id": "jp.elem.math.decimal-place-value",
@@ -5255,7 +5255,7 @@
         "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       },
       "studentName": "小数のたし算・ひき算",
-      "studentDescription": "数字の位のしくみと単位の考えを用いて、小数のたし算・ひき算を計算する。"
+      "studentDescription": "小数の位をそろえることに気をつけて、たし算・ひき算をしよう。"
     },
     {
       "id": "jp.elem.math.unknown-number-relationships",
@@ -5290,7 +5290,7 @@
         "note": "分割設計時の候補学年。公式の学年別内容との照合前であり、確定配当ではない。"
       },
       "studentName": "数の関係を式に表そう",
-      "studentDescription": "場面にある複数の数や量のつながりを式に表し、式の意味を説明する。"
+      "studentDescription": "文章や図から数や量の関係を見つけ、式に表して、式が何を表しているか説明しよう。"
     },
     {
       "id": "jp.elem.math.fractions-same-denominator",
@@ -5324,7 +5324,7 @@
         "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       },
       "studentName": "分母が同じ分数のたし算・ひき算",
-      "studentDescription": "単位分数の個数に注目し、同分母分数のたし算・ひき算を考え、計算する。"
+      "studentDescription": "分母が同じ分数は、分母を変えずに分子をたしたりひいたりして計算しよう。"
     },
     {
       "id": "jp.elem.math.quadrilateral-properties",
@@ -5359,7 +5359,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "四角形を仲間分けして特徴を調べよう",
-      "studentDescription": "辺・角・対角線などの特徴から、台形・平行四辺形・ひし形などを分類する。"
+      "studentDescription": "辺・角・対角線の特徴を調べ、台形・平行四辺形・ひし形などを仲間分けしよう。"
     },
     {
       "id": "jp.elem.math.perpendicular-parallel",
@@ -5391,7 +5391,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "垂直・平行な直線の交わり方",
-      "studentDescription": "直線の交わり方や離れ方に注目し、垂直・平行の関係を見つける。"
+      "studentDescription": "直線の交わり方や、どこまで進んでも離れ方が変わらないかに注目して、垂直・平行を調べよう。"
     },
     {
       "id": "jp.elem.math.geometric-construction",
@@ -5490,7 +5490,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "分度器で角を測り、かこう",
-      "studentDescription": "角の大きさを測ったり、指定された大きさの角をかいたりする。"
+      "studentDescription": "分度器を使って角の大きさを測り、指定された大きさの角をかこう。"
     },
     {
       "id": "jp.elem.math.area-units",
@@ -5527,7 +5527,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "面積の単位と単位の変え方",
-      "studentDescription": "平方センチメートルなどの単位を使い、面積の量感や単位の関係を考える。"
+      "studentDescription": "cm²やm²などの単位を使い、面積の大きさを表したり、単位を変えたりしよう。"
     },
     {
       "id": "jp.elem.math.solids-nets",
@@ -5564,7 +5564,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "立体の見取図と展開図",
-      "studentDescription": "立方体や直方体などを見取図や展開図で表し、面・辺のつながりを考える。"
+      "studentDescription": "立体をいろいろな向きから見た図や、切り開いて平らにした図で表そう。"
     },
     {
       "id": "jp.elem.math.line-graphs",
@@ -5667,8 +5667,8 @@
         "basis": "current-draft-grades",
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
-      "studentName": "データを集めて、結果から考えよう",
-      "studentDescription": "問いに応じてデータを集め、整理・分析し、結論がデータに支えられているか考える。"
+      "studentName": "データを集めて、何が分かるか考えよう",
+      "studentDescription": "知りたいことに合わせてデータを集め、表やグラフに整理し、結果から分かったことを考えよう。"
     },
     {
       "id": "jp.elem.math.fractions-unlike-denominators",
@@ -5702,7 +5702,7 @@
         "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       },
       "studentName": "分母がちがう分数のたし算・ひき算",
-      "studentDescription": "通分して単位分数をそろえ、異分母分数のたし算・ひき算を考え、計算する。"
+      "studentDescription": "分母がちがう分数は、分母をそろえてから、たし算・ひき算をしよう。"
     },
     {
       "id": "jp.elem.math.decimal-multiply-divide",
@@ -5736,7 +5736,7 @@
         "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       },
       "studentName": "小数のかけ算・わり算",
-      "studentDescription": "積や商の大きさを見積もり、数字の位のしくみの考えを使って小数のかけ算・わり算を計算する。"
+      "studentDescription": "答えの大きさを先に予想し、小数のかけ算・わり算をして、答えが合っているか確かめよう。"
     },
     {
       "id": "jp.elem.math.mixed-calculations",
@@ -5847,7 +5847,7 @@
         "note": "分割設計時の候補学年。公式の学年別内容との照合前であり、確定配当ではない。"
       },
       "studentName": "いくつかの計算を組み合わせて解こう",
-      "studentDescription": "場面を式に表し、複数の計算を組み合わせて問題を解決する。"
+      "studentDescription": "問題に合う式を考え、たし算・ひき算・かけ算・わり算を組み合わせて解こう。"
     },
     {
       "id": "jp.elem.math.choose-calculation-strategy",
@@ -5882,7 +5882,7 @@
         "note": "分割設計時の候補学年。公式の学年別内容との照合前であり、確定配当ではない。"
       },
       "studentName": "計算の工夫を選んで説明しよう",
-      "studentDescription": "数の特徴や計算の性質に応じて方法を選び、選んだ理由を説明する。"
+      "studentDescription": "数の特徴や計算のきまりを使って、計算しやすい方法を選び、その理由も説明しよう。"
     },
     {
       "id": "jp.elem.math.congruent-figures",
@@ -5918,7 +5918,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "ぴったり重なる図形（合同）",
-      "studentDescription": "形も大きさも同じ図形に注目し、対応する辺や角の関係を調べ、合同な図形をかく。"
+      "studentDescription": "形も大きさも同じ図形に注目し、重ねたときにぴったり合う辺や角を調べよう。"
     },
     {
       "id": "jp.elem.math.area-triangle-parallelogram-trapezoid",
@@ -5950,7 +5950,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "三角形・平行四辺形・台形の面積の求め方",
-      "studentDescription": "図形を分けたり移動したりして既習の面積に帰着し、面積の求め方を説明する。"
+      "studentDescription": "図形を切り分けたり動かしたりして、長方形などに直し、面積を求めよう。"
     },
     {
       "id": "jp.elem.math.angle-sums-in-polygons",
@@ -5986,7 +5986,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "三角形・四角形の角の和",
-      "studentDescription": "三角形や四角形の角の大きさの和に注目し、図形の性質を考える。"
+      "studentDescription": "三角形や四角形の角を調べ、角の大きさを合わせるといくつになるか考えよう。"
     },
     {
       "id": "jp.elem.math.regular-polygons-circumference",
@@ -6018,7 +6018,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "正多角形の特徴と円周の長さ",
-      "studentDescription": "正多角形の辺や角のきまりを調べ、円周が何を表すか考えよう。"
+      "studentDescription": "辺の長さや角の大きさがそろった正多角形の特徴を調べ、円周が円のまわりの長さであることを考えよう。"
     },
     {
       "id": "jp.elem.math.volume-units",
@@ -6053,7 +6053,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "体積の単位と単位の変え方",
-      "studentDescription": "体積の単位を知り、立方体・直方体の体積と単位のつながりを考えよう。"
+      "studentDescription": "cm³やm³などの単位を使って体積を表し、単位どうしの関係を考えよう。"
     },
     {
       "id": "jp.elem.math.volume-cuboid",
@@ -6120,7 +6120,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "割合と百分率（％）",
-      "studentDescription": "もとにする量を100としたときの割合を百分率（％）で表し、比べる問題を解こう。"
+      "studentDescription": "全体を100とみて、割合を％で表す方法を知り、量を比べる問題を解こう。"
     },
     {
       "id": "jp.elem.math.speed",
@@ -6155,7 +6155,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "速さ・道のり・時間の関係",
-      "studentDescription": "速さ・道のり・時間の関係を使って、問題を解こう。"
+      "studentDescription": "速さ・道のり・時間の関係を使い、どれくらいの時間で進むか、どれくらいの距離を進むか求めよう。"
     },
     {
       "id": "jp.elem.math.unit-quantity",
@@ -6223,7 +6223,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "2つの量の変わり方",
-      "studentDescription": "二つの数や量の変化を表などに整理し、対応や変化のきまりを見つけて説明する。"
+      "studentDescription": "2つの数や量が一緒にどう変わるかを表にして、変わり方のきまりを見つけよう。"
     },
     {
       "id": "jp.elem.math.meaning-of-proportion",
@@ -6258,7 +6258,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "比例の関係を表・式・グラフで表そう",
-      "studentDescription": "二つの数や量の対応を表や式、グラフで表し、比例の特徴を読み取る。"
+      "studentDescription": "一方が2倍、3倍になると、もう一方も同じように変わる比例のきまりを、表・式・グラフで表そう。"
     },
     {
       "id": "jp.elem.math.statistical-viewpoints",
@@ -6292,8 +6292,8 @@
         "basis": "current-draft-grades",
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
-      "studentName": "データをいくつかの見方で考えよう",
-      "studentDescription": "データを整理し、いくつかの見方を比べて、どんなことが言えるか考えよう。"
+      "studentName": "データをいくつかの見方で比べよう",
+      "studentDescription": "データを整理して、いくつかの見方を比べ、どんなことが言えるか考えよう。"
     },
     {
       "id": "jp.elem.math.percentage-graphs",
@@ -6328,7 +6328,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "割合を表すグラフの読み取り方",
-      "studentDescription": "割合や百分率を使うグラフを読み、全体と部分の関係や比較を説明する。"
+      "studentDescription": "割合や％で表したグラフを読み、全体と一部の関係や量のちがいを説明しよう。"
     },
     {
       "id": "jp.elem.math.data-frequency-tables",
@@ -6362,8 +6362,8 @@
         "basis": "current-draft-grades",
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
-      "studentName": "データを度数分布表などに整理しよう",
-      "studentDescription": "データを区間やグループに分けて表に整理し、集まり方の特徴を読み取ろう。"
+      "studentName": "データを数のまとまりごとに表にしよう",
+      "studentDescription": "データを数の範囲ごとに分けて表にし、どの範囲に多く集まっているか読み取ろう。"
     },
     {
       "id": "jp.elem.math.average",
@@ -6398,7 +6398,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "平均を求めて使おう",
-      "studentDescription": "平均を求めてデータ全体の様子を表し、目的に合わせて使おう。"
+      "studentDescription": "平均を求めて、データ全体の様子を表したり比べたりしよう。"
     },
     {
       "id": "jp.elem.math.fraction-multiply-divide",
@@ -6431,7 +6431,7 @@
         "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       },
       "studentName": "分数のかけ算・わり算",
-      "studentDescription": "図や式を使って数量の関係を考え、分数のかけ算・わり算をしよう。"
+      "studentDescription": "図や式を使い、分数のかけ算・わり算で何が起きているか考えて計算しよう。"
     },
     {
       "id": "jp.elem.math.letter-expressions",
@@ -6468,7 +6468,7 @@
         "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       },
       "studentName": "文字を使って数の関係を式に表そう",
-      "studentDescription": "文字を数や量を表すものとして用い、数や量のつながりや計算のきまりを式で表す。"
+      "studentDescription": "文字を数や量の代わりに使い、いろいろな場合に当てはまる関係を式で表そう。"
     },
     {
       "id": "jp.elem.math.approximate-area-volume",
@@ -6504,7 +6504,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "面積や体積をおよそで求めよう",
-      "studentDescription": "身の回りの形を既習の図形に見立てたり分けたりして、面積や体積を見積もる。"
+      "studentDescription": "身の回りの形を、知っている図形に分けたり見立てたりして、面積や体積をおよそで求めよう。"
     },
     {
       "id": "jp.elem.math.area-circle",
@@ -6568,7 +6568,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "拡大図と縮図",
-      "studentDescription": "対応する角の大きさや辺の比に注目し、拡大図・縮図をかいて使う。"
+      "studentDescription": "図形の形を変えずに大きくしたり小さくしたりして、対応する辺の長さや角の大きさを比べよう。"
     },
     {
       "id": "jp.elem.math.volume-prisms-cylinders",
@@ -6600,7 +6600,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "角柱・円柱の体積の求め方",
-      "studentDescription": "底面積と高さを使って、角柱や円柱の体積を求めよう。"
+      "studentDescription": "底面の面積と高さを使って、角柱や円柱の体積を求めよう。"
     },
     {
       "id": "jp.elem.math.symmetry",
@@ -6632,7 +6632,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "線対称・点対称な図形",
-      "studentDescription": "折り重ねや対応する点・辺に注目し、線対称・点対称の特徴を考える。"
+      "studentDescription": "図形を折り重ねたり、点や辺の位置を比べたりして、線対称・点対称の特徴を見つけよう。"
     },
     {
       "id": "jp.elem.math.scale-and-ratio",
@@ -6699,8 +6699,8 @@
         "basis": "current-draft-grades",
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
-      "studentName": "反比例とはどんな関係？",
-      "studentDescription": "一方が大きくなるともう一方が小さくなるなど、反比例の関係を表や式で考えよう。"
+      "studentName": "反比例のきまりを見つけよう",
+      "studentDescription": "2つの量をかけた答えがいつも同じになる関係を、表や式で考えよう。"
     },
     {
       "id": "jp.elem.math.meaning-of-ratio",
@@ -6736,7 +6736,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "比の値を使って、等しい比を見つけよう",
-      "studentDescription": "比の値を使って、同じ関係を表す比を見つけよう。"
+      "studentDescription": "比を計算して数で表す「比の値」を使い、同じ関係を表す比を見つけよう。"
     },
     {
       "id": "jp.elem.math.ratio",
@@ -6772,7 +6772,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "比で表して、2つの量を比べよう",
-      "studentDescription": "2つの量の関係を比で表し、どちらがどのくらいの割合かを比べよう。"
+      "studentDescription": "2つの量の関係を比で表し、比の値や等しい比を使って比べよう。"
     },
     {
       "id": "jp.elem.math.proportionality",
@@ -6808,7 +6808,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "比例とはどんな関係？",
-      "studentDescription": "一方が何倍になると、もう一方も同じ倍になる関係を表や式、グラフで表そう。"
+      "studentDescription": "一方が2倍、3倍になると、もう一方も同じように変わる関係を表や式、グラフで表そう."
     },
     {
       "id": "jp.elem.math.arrangements-combinations",
