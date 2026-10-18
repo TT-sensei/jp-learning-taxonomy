@@ -124,6 +124,17 @@ function renderList() {
   }
   list.querySelectorAll("[data-topic-id]").forEach(button=>button.addEventListener("click",()=>renderDetail(button.dataset.topicId)));
 }
+function flowNodes(items, empty, direction) {
+  if (!items.length) return '<p class="flow-empty">'+esc(empty)+'</p>';
+  return '<div class="flow-nodes">'+items.slice(0,3).map(item=>{
+    const topic=item.topic, edge=item.edge;
+    return '<button type="button" class="flow-node" data-topic-id="'+esc(topic.id)+'">'+
+      '<span class="flow-grade">'+esc(gradeLabel(topic))+'</span>'+
+      '<strong>'+esc(topic.name)+'</strong>'+
+      '<span class="flow-why">'+esc(edge.rationale||"")+'</span></button>';
+  }).join("")+'</div>'+
+  (items.length>3?'<p class="muted small-note">ほかに'+(items.length-3)+'件のつながりがあります。</p>':'');
+}
 function renderDetail(id) {
   const topic=state.topics.find(item=>item.id===id);
   if(!topic) return;
@@ -139,11 +150,15 @@ function renderDetail(id) {
     '<div class="detail-topline"><span class="subject-chip">'+esc(topic.subject)+'</span><span class="review-chip">'+esc(statusNames[topic.reviewStatus]||"確認中")+'</span></div>'+
     '<p class="detail-grade">'+esc(gradeLabel(topic))+'　／　'+esc(topic.domain)+'</p>'+
     '<h2>'+esc(topic.name)+'</h2><p class="detail-description">'+esc(topic.description||"")+'</p>'+
-    '<section class="learning-path"><div class="path-heading"><span class="path-number">01</span><div><h3>ここにつながるまで</h3><p>土台になる学び</p></div></div>'+
-    relationCards(previous,"今のデータでは、つながりをまだ整理できていません。")+'</section>'+
-    '<div class="current-learning"><span>いま見ている学び</span><strong>'+esc(topic.name)+'</strong><small>'+esc(gradeLabel(topic))+'</small></div>'+
-    '<section class="learning-path"><div class="path-heading"><span class="path-number">02</span><div><h3>この先につながる学び</h3><p>次の学習で生きる見方</p></div></div>'+
-    relationCards(next,"次につながる項目は、これから整理します。")+'</section>'+
+    '<section class="progression-map" aria-label="学びの道すじ">'+
+      '<div class="progression-title"><span class="progression-mark">学びの道すじ</span><p>つながりを選ぶと、その学びを中心に道すじをたどれます。</p></div>'+
+      '<div class="progression-stage"><div class="stage-label"><span>01</span><strong>これまで</strong></div>'+flowNodes(previous,"前につながる学びは、まだ整理中です。","previous")+'</div>'+
+      '<div class="flow-arrow" aria-hidden="true">↓</div>'+
+      '<div class="progression-stage is-current"><div class="stage-label"><span>02</span><strong>いま</strong></div>'+
+        '<div class="flow-current"><span>'+esc(gradeLabel(topic))+'</span><strong>'+esc(topic.name)+'</strong><small>選択中の学び</small></div></div>'+
+      '<div class="flow-arrow" aria-hidden="true">↓</div>'+
+      '<div class="progression-stage"><div class="stage-label"><span>03</span><strong>この先</strong></div>'+flowNodes(next,"次につながる学びは、これから整理します。","next")+'</div>'+
+    '</section>'+
     '<details class="source-details"><summary>出典・確認状況</summary><p class="muted">学習項目とつながりは確認中の候補です。公式の必修順序を示すものではありません。</p><ul>'+(sourceLinks||"<li>出典情報は未登録です。</li>")+'</ul><p class="muted small-note">項目ID：'+esc(topic.id)+'</p></details>';
   $("#detail").querySelectorAll("[data-topic-id]").forEach(button=>button.addEventListener("click",()=>renderDetail(button.dataset.topicId)));
   renderList();
