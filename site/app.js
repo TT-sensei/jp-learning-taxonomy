@@ -122,7 +122,7 @@ async function init() {
       loadJson("../data/dependencies.json"),
       loadJson("../data/curriculum-standards.json")
     ]);
-    state.topics = topics.topics || [];
+    state.topics = (topics.topics || []).filter(topic => topic.topicLifecycle !== "superseded");
     state.dependencies = dependencies.dependencies || [];
     state.standards = standards;
     renderFilters();
