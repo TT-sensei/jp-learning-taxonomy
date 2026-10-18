@@ -186,7 +186,7 @@ function renderList() {
   $("#count").textContent=(!filters.subject&&!filters.grade&&!filters.domain&&!filters.query) ? [...new Set(state.topics.map(t=>t.subject))].length+"教科" : topics.length+"件";
   const list=$("#items");
   list.replaceChildren();
-  if(filters.subject&&!filters.grade&&!filters.domain&&!filters.query){
+  if(filters.subject&&!filters.grade&&!filters.domain&&!filters.query && !(filters.subject==="国語" && state.topics.filter(topic=>topic.subject==="国語").every(topic=>topic.gradePlacement?.basis==="japanese-taxonomy-draft"))){
     list.innerHTML=renderGradeMap(filters.subject);
     list.querySelectorAll("[data-topic-id]").forEach(button=>button.addEventListener("click",()=>renderDetail(button.dataset.topicId)));
     return;
