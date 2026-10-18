@@ -326,6 +326,7 @@ function renderGradeMap(subject) {
     '<div class="grade-map-scroll" role="region" aria-label="'+rubyHTML(subject)+'の1年生から6年生までの学びのマップ" tabindex="0">'+lanes+'</div>';
 }
 function renderList() {
+  $("#items").setAttribute("aria-busy","false");
   const topics=filteredTopics();
   const filters=currentFilters();
   $("#count").textContent=(!filters.subject&&!filters.grade&&!filters.domain&&!filters.query) ? [...new Set(state.topics.map(t=>t.subject))].length+"教科" : topics.length+"件";
@@ -470,8 +471,23 @@ async function init() {
       });
     }
   } catch(error) {
-    $("#count").textContent="読み込みエラー";
-    $("#items").textContent=error.message+" GitHub Pages またはローカル HTTP サーバーで開いてください。";
+    console.error("学習マップの初期化に失敗しました。", error);
+    $("#count").textContent="表示できません";
+    $("#items").replaceChildren();
+    const message=document.createElement("div");
+    message.className="load-error";
+    message.setAttribute("role","alert");
+    message.innerHTML="<strong>学習マップを読み込めませんでした。</strong><p>通信状態を確認して、もう一度お試しください。</p>";
+    const retry=document.createElement("button");
+    retry.type="button";
+    retry.className="retry-button";
+    retry.textContent="もう一度読み込む";
+    retry.addEventListener("click",()=>window.location.reload());
+    message.append(retry);
+    $("#items").append(message);
+    $("#items").setAttribute("aria-busy","false");
+    const subject=$("#subject");
+    if(subject) subject.replaceChildren(new Option("読み込めませんでした",""));
   }
 }
 async function loadJson(path) {
