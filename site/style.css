@@ -167,3 +167,20 @@ button:focus-visible{outline:3px solid #243f52!important;outline-offset:3px!impo
 .furigana-test-button:hover{background:#e6f0f4}
 .furigana-test-button:disabled{opacity:.65;cursor:wait}
 .furigana-target{display:inline}
+
+/* エラーや読み込み状態は技術情報ではなく、次に取れる行動を表示する */
+.load-error{display:block;padding:20px;border:1px solid #e5c7bf;border-radius:12px;background:#fff8f6;color:#513b35;line-height:1.7}
+.load-error strong{display:block;font-size:1rem}
+.load-error p{margin:6px 0 14px;font-size:.88rem}
+.retry-button{min-height:44px;padding:10px 16px;border:1px solid #2f6578;border-radius:9px;background:#214e60;color:#fff;font:inherit;font-weight:700;cursor:pointer}
+.retry-button:hover{background:#17384a}
+.retry-button:focus-visible,.furigana-test-button:focus-visible{outline:3px solid #d49b39;outline-offset:3px}
+.furigana-tools{margin-top:12px;padding-top:10px;border-top:1px solid #e0e7ea}
+.furigana-tools summary{display:inline-block;cursor:pointer;color:#526b77;font-size:.78rem;font-weight:700;padding:5px 0}
+.furigana-tools>p{max-width:54rem;margin:6px 0;color:#71808a;font-size:.76rem;line-height:1.65}
+.furigana-tools[open]{padding-bottom:8px}
+.furigana-test{margin:4px 0 0}
+.furigana-test [role="status"]{line-height:1.6}
+#items[aria-busy="true"]{min-height:120px}
+#items[aria-busy="true"]::before{content:"学びの項目を準備しています…";display:block;padding:18px;border:1px solid #e0e7ea;border-radius:12px;background:#fff;color:#647984;font-size:.88rem}
+@media(max-width:700px){.furigana-tools{margin-top:10px}.furigana-test{display:flex;align-items:flex-start;flex-direction:column;gap:6px;margin-left:0}.load-error{padding:16px}}
