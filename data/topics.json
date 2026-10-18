@@ -6874,7 +6874,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "市や町のようすの変化",
-      "studentDescription": "古い写真や資料を比べ、交通・土地利用・人口・公共施設などの変化を考える。"
+      "studentDescription": "昔の写真や資料と今のようすを比べ、交通・人口・建物・土地の使われ方がどう変わったか調べよう。"
     },
     {
       "id": "jp.elem.social.local-area",
@@ -6904,7 +6904,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "身近な地域や市町村のようす",
-      "studentDescription": "地図や現地調査を使って、地形、土地の使われ方、主な施設や交通、地域の位置関係を調べよう。"
+      "studentDescription": "地図や現地調査を使って、地域の地形、土地の使われ方、主な施設や交通、場所どうしのつながりを調べよう。"
     },
     {
       "id": "jp.elem.social.municipality-work",
@@ -6934,7 +6934,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "地域の人々の仕事と、生産・販売の工夫",
-      "studentDescription": "地域の生産や販売の仕事について、仕事の工夫や地域との関わりを調べる。"
+      "studentDescription": "農家やお店など、地域の人々がどんな仕事をし、どんな工夫をしているか調べよう。"
     },
     {
       "id": "jp.elem.social.community-predecessors",
@@ -6994,7 +6994,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "地図記号や方位を使って地域を表そう",
-      "studentDescription": "身近な地域を観察・調査し、地図記号や方位などを用いて表現する。"
+      "studentDescription": "地図記号や方位を使って、身近な地域のようすや場所を地図に表そう。"
     },
     {
       "id": "jp.elem.social.fieldwork-interview",
@@ -7027,7 +7027,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "現地を調べ、人に話を聞こう",
-      "studentDescription": "調査の目的を明確にし、観察や聞き取りで得た情報を整理する。"
+      "studentDescription": "何を調べたいかを決め、現地を観察したり人に質問したりして、分かったことを記録しよう。"
     },
     {
       "id": "jp.elem.social.evidence-explanation",
@@ -7060,7 +7060,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "資料を根拠にして説明しよう",
-      "studentDescription": "複数の資料から必要な情報を選び、根拠と考えを区別して説明する。"
+      "studentDescription": "資料のどこからそう考えたのかを示し、分かった事実と自分の考えを分けて説明しよう。"
     },
     {
       "id": "jp.elem.social.decision-civic",
@@ -7093,7 +7093,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "社会の課題について考え、理由を伝えよう",
-      "studentDescription": "複数の立場や資料を踏まえ、社会の課題に対する考えを理由とともにまとめる。"
+      "studentDescription": "社会の問題について、いろいろな立場の人の考えや資料を比べ、自分の考えと理由をまとめよう。"
     },
     {
       "id": "jp.elem.social.compare-regions",
@@ -7126,7 +7126,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "地域や時代の共通点・ちがいを比べよう",
-      "studentDescription": "複数の地域・時代の同じところとちがいを、条件や背景に注目して比べる。"
+      "studentDescription": "いくつかの地域や時代を比べ、同じところ・ちがうところと、その理由を考えよう。"
     },
     {
       "id": "jp.elem.social.maps-globes",
@@ -7159,7 +7159,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "地図や地球儀から情報を読み取ろう",
-      "studentDescription": "方位、縮尺、地図記号、データのちらばりや位置関係など、目的に合う地図情報を読み取る。"
+      "studentDescription": "方位・縮尺・地図記号・場所どうしの位置関係に注目し、地図や地球儀から必要な情報を読み取ろう。"
     },
     {
       "id": "jp.elem.social.statistics-graphs",
@@ -7192,7 +7192,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "表やグラフから特徴を読み取ろう",
-      "studentDescription": "表やグラフの数や変化を読み取り、資料の出どころや単位も確かめよう。"
+      "studentDescription": "表やグラフの数や変化を読み取り、何が分かるかを説明しよう。資料の出どころや単位も確かめよう。"
     },
     {
       "id": "jp.elem.social.timeline-sources",
@@ -7225,7 +7225,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "年表や歴史資料から変化を読み取ろう",
-      "studentDescription": "年表、写真、絵図、文書などを比較し、時期や変化を根拠とともに説明する。"
+      "studentDescription": "年表や昔の写真・絵・文書を比べ、いつ、どんな変化があったのか説明しよう。"
     },
     {
       "id": "jp.elem.social.waste-management",
@@ -7255,7 +7255,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "ごみはどう処理され、どう生かされる？",
-      "studentDescription": "ごみの収集・処理・再利用の仕組みと、生活環境を守る工夫を調べる。"
+      "studentDescription": "ごみが集められてから、どのように処理・再利用されるのか調べ、町をきれいに保つ工夫を考えよう。"
     },
     {
       "id": "jp.elem.social.water-supply",
@@ -7285,7 +7285,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "水道の水はどこから届く？",
-      "studentDescription": "水源から浄水・配水までの仕組みと、関係する人々の工夫を考える。"
+      "studentDescription": "川やダムの水が、どのようにきれいにされて家や学校に届くのか調べよう。"
     },
     {
       "id": "jp.elem.social.firefighting",
@@ -7315,7 +7315,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "火事から地域を守るしくみ",
-      "studentDescription": "消防の施設・人々の働きと、関係機関や地域住民の協力を考える。"
+      "studentDescription": "消防署や消防団、地域の人たちが、火事を防いだり、起きたときに協力して消火したりする方法を調べよう。"
     },
     {
       "id": "jp.elem.social.police-safety",
@@ -7345,7 +7345,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "事故や事件から地域を守るしくみ",
-      "studentDescription": "警察などの関係機関の働きや、地域の安全を守る仕組みを調べる。"
+      "studentDescription": "警察や地域の人たちが、事故や事件を防ぎ、安全を守るためにどんなことをしているか調べよう。"
     },
     {
       "id": "jp.elem.social.disaster-prevention",
@@ -7375,7 +7375,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "自然災害から地域を守る備え",
-      "studentDescription": "地域で起こり得る災害と、行政・関係機関・住民による備えや対応を調べる。"
+      "studentDescription": "市や町、消防、地域の人たちが、災害が起きる前や起きたときにどのように備え、助け合うか調べよう。"
     },
     {
       "id": "jp.elem.social.prefecture-culture",
@@ -7405,7 +7405,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "地域に伝わる文化や年中行事",
-      "studentDescription": "地域の文化財や年中行事を調べ、地域の発展や人々の願いとの関係を考える。"
+      "studentDescription": "地域のお祭りや昔から伝わる建物・道具などを調べ、だれがどんな願いで受け継いできたのか考えよう。"
     },
     {
       "id": "jp.elem.social.prefecture-land",
@@ -7435,7 +7435,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "都道府県の位置・地形・気候",
-      "studentDescription": "都道府県の位置や地形、気候の特色を地図や資料から考える。"
+      "studentDescription": "地図や写真を見て、都道府県の位置・地形・気候の特徴を調べよう。"
     },
     {
       "id": "jp.elem.social.prefecture-industry",
@@ -7465,7 +7465,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "都道府県の産業と地域の特色",
-      "studentDescription": "地域の産業や土地利用、交通との関係を資料から考える。"
+      "studentDescription": "都道府県ではどんな仕事や産業がさかんか調べ、土地の使われ方や交通との関係を考えよう。"
     },
     {
       "id": "jp.elem.social.environment-protection",
@@ -7495,7 +7495,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "環境を守るための取組",
-      "studentDescription": "公害防止や環境保全に関わる人々の工夫と、持続可能な利用を考える。"
+      "studentDescription": "水や空気、自然を守るために、地域の人々や会社、自治体がどんな工夫をしているか調べよう。"
     },
     {
       "id": "jp.elem.social.transport-trade",
@@ -7525,7 +7525,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "交通や物流で地域はどうつながる？",
-      "studentDescription": "交通網や物流が生産・販売・地域間のつながりを支える様子を考える。"
+      "studentDescription": "道路・鉄道・港・空港などが人や荷物をどう運び、地域どうしをつないでいるか調べよう。"
     },
     {
       "id": "jp.elem.social.industrial-production",
@@ -7555,7 +7555,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "工業製品はどう作られ、運ばれる？",
-      "studentDescription": "工業生産の工程や工夫、原材料・製品の輸送、貿易との関係を考える。"
+      "studentDescription": "材料がどのように製品になり、工場から店や使う人のもとへ運ばれるのか調べよう。"
     },
     {
       "id": "jp.elem.social.natural-environment-life",
@@ -7585,7 +7585,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "自然のようすと人々のくらし",
-      "studentDescription": "自然条件に応じた暮らしの工夫を地域間で比較する。"
+      "studentDescription": "地形や気候、自然の特徴と、人々の仕事や住まい方の工夫を地域ごとに比べよう。"
     },
     {
       "id": "jp.elem.social.information-industry",
@@ -7615,7 +7615,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "情報はどのように作られ、届けられる？",
-      "studentDescription": "情報を生み出し届ける仕組みと、情報が産業や生活に果たす役割を考える。"
+      "studentDescription": "新聞・テレビ・インターネットなどで情報がどのように集められ、確かめられ、人々に届けられるか調べよう。"
     },
     {
       "id": "jp.elem.social.food-life",
@@ -7645,7 +7645,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "食料生産とわたしたちのくらし",
-      "studentDescription": "食料の生産・輸入・消費をつなげ、食生活と産業の関係を考える。"
+      "studentDescription": "食べ物がどこで作られ、どのように運ばれ、私たちの食卓に届くのか調べよう。"
     },
     {
       "id": "jp.elem.social.forestry",
@@ -7675,7 +7675,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "森林の働きと林業",
-      "studentDescription": "森林の働きと林業の工夫、資源の利用・保全を考える。"
+      "studentDescription": "森林が水や生き物、くらしを支える働きと、木を育てて使いながら森を守る工夫を考えよう。"
     },
     {
       "id": "jp.elem.social.fisheries",
@@ -7705,7 +7705,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "水産物はどう生産され、届けられる？",
-      "studentDescription": "水産物の生産・加工・輸送と、資源や環境を守る取組を調べる。"
+      "studentDescription": "魚や水産物がどのようにとられたり育てられたりし、加工・運搬されるのか調べ、資源を守る工夫も考えよう。"
     },
     {
       "id": "jp.elem.social.japan-location",
@@ -7735,7 +7735,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "世界の中の日本と国土の広がり",
-      "studentDescription": "世界の中での日本の位置、国土の構成、領土の範囲を地図や地球儀で考える。"
+      "studentDescription": "世界地図や地球儀で日本の位置や島々の広がりを調べ、世界の国々との位置関係を考えよう。"
     },
     {
       "id": "jp.elem.social.japan-landforms-climate",
@@ -7765,7 +7765,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "日本の地形・気候と人々のくらし",
-      "studentDescription": "日本の地形・気候の特色と、人々の生活との関わりを考える。"
+      "studentDescription": "日本の山地・平野・川や気候の特徴を調べ、人々のくらしとのつながりを考えよう。"
     },
     {
       "id": "jp.elem.social.agriculture",
@@ -7795,7 +7795,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "農業の工夫と食料生産",
-      "studentDescription": "農業の生産工程や工夫、自然条件・技術・流通との関係を調べる。"
+      "studentDescription": "農家がどのように作物を育て、機械や工夫を使い、収穫したものを届けているか調べよう。"
     },
     {
       "id": "jp.elem.social.edo-society",
@@ -7825,7 +7825,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "江戸幕府の政治と人々のくらし",
-      "studentDescription": "幕府の政治や身分・産業・文化の様子を資料から考える。"
+      "studentDescription": "江戸幕府がどのように国を治め、武士や農民、町人がどんなくらしをしていたか資料から調べよう。"
     },
     {
       "id": "jp.elem.social.diet",
@@ -7855,7 +7855,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "国会はどんな働きをしている？",
-      "studentDescription": "国会の役割、法律や予算を決める仕組みを調べる。"
+      "studentDescription": "国会が法律を作ったり、国のお金の使い方を決めたりする働きを調べよう。"
     },
     {
       "id": "jp.elem.social.international-relations",
@@ -7885,7 +7885,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "日本と世界のつながり・国際協力",
-      "studentDescription": "日本が世界の国々や国際連合などと、どのように協力しているか調べよう。"
+      "studentDescription": "日本が世界の国々や国際連合などと、平和やくらしを支えるためにどのように協力しているか調べよう。"
     },
     {
       "id": "jp.elem.social.unification",
@@ -7915,7 +7915,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "戦国時代から全国統一へ",
-      "studentDescription": "織田信長や豊臣秀吉などの働きに注目し、戦国時代から全国統一へ向かう変化を調べよう。"
+      "studentDescription": "織田信長や豊臣秀吉などが、どのように戦国の世をまとめていったのか調べよう。"
     },
     {
       "id": "jp.elem.social.war-and-recovery",
@@ -7945,7 +7945,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "戦争と人々のくらし、戦後の復興",
-      "studentDescription": "戦争の広がりと国民生活、戦後の改革や復興を資料に基づいて考える。"
+      "studentDescription": "戦争が人々のくらしをどう変え、戦後に日本がどのように立て直されていったか資料をもとに考えよう。"
     },
     {
       "id": "jp.elem.social.local-government",
@@ -7975,7 +7975,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "地方公共団体と住民のくらし",
-      "studentDescription": "地方公共団体の仕事や住民参加、国と地方の役割を考える。"
+      "studentDescription": "市や町などの自治体がどんな仕事をし、地域のことを決めるとき住民がどう関わるか調べよう。"
     },
     {
       "id": "jp.elem.social.government-courts",
@@ -8005,7 +8005,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "内閣・裁判所などの働きと役割",
-      "studentDescription": "内閣や裁判所などがどのような役割をもち、くらしを支えているか調べよう。"
+      "studentDescription": "内閣が政治を進め、裁判所が争いを判断するなど、国の政治がどのような仕組みで進むのか調べよう。"
     },
     {
       "id": "jp.elem.social.ancient-japan",
@@ -8035,7 +8035,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "日本の国の始まりと古代の文化",
-      "studentDescription": "遺跡や史料を基に、国の形成や大陸との関係、古代文化を考える。"
+      "studentDescription": "遺跡や昔の道具・記録から、日本の国がどのようにでき、大陸からどんな文化が伝わったか考えよう。"
     },
     {
       "id": "jp.elem.social.postwar-japan",
@@ -8065,7 +8065,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "戦後の日本の発展と世界とのつながり",
-      "studentDescription": "戦後の社会変化と国際社会における日本の役割を考える。"
+      "studentDescription": "戦後、日本のくらしや産業がどう変わり、世界の国々とどのようにつながるようになったか調べよう。"
     },
     {
       "id": "jp.elem.social.constitution",
@@ -8095,7 +8095,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "日本国憲法と、くらしを支える政治",
-      "studentDescription": "日本国憲法の基本的な考え方と、政治やくらしとのつながりを調べよう。"
+      "studentDescription": "日本国憲法が大切にしている考え方と、それが国の政治や私たちのくらしにどう関わるか考えよう。"
     },
     {
       "id": "jp.elem.social.medieval-japan",
@@ -8125,7 +8125,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "武士の登場と政治・社会の変化",
-      "studentDescription": "武士の登場から中世の政治・社会の変化を、主な人物や出来事を手掛かりに考える。"
+      "studentDescription": "武士が力を持つようになり、政治や人々のくらしがどう変わったか、主な人物や出来事から調べよう。"
     },
     {
       "id": "jp.elem.social.modernization",
@@ -8155,7 +8155,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "明治の改革と近代化",
-      "studentDescription": "明治政府の改革や近代国家への変化を、制度・産業・生活の変化から考える。"
+      "studentDescription": "明治政府が行った改革で、政治・産業・学校や人々のくらしがどう変わったか調べよう."
     },
     {
       "id": "jp.elem.science.sound",
