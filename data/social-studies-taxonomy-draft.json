@@ -162,7 +162,6 @@
       "id": "regional-life-safety",
       "name": "地域の生活・安全・文化",
       "topicIds": [
-        "jp.elem.social.prefecture-land",
         "jp.elem.social.disaster-prevention",
         "jp.elem.social.firefighting",
         "jp.elem.social.police-safety",
@@ -176,9 +175,16 @@
       "id": "japan-land",
       "name": "日本の国土と自然環境",
       "topicIds": [
+        "jp.elem.social.prefecture-land",
         "jp.elem.social.japan-location",
         "jp.elem.social.japan-landforms-climate",
-        "jp.elem.social.natural-environment-life",
+        "jp.elem.social.natural-environment-life"
+      ]
+    },
+    {
+      "id": "industry-information",
+      "name": "産業・情報・環境",
+      "topicIds": [
         "jp.elem.social.agriculture",
         "jp.elem.social.forestry",
         "jp.elem.social.fisheries",
@@ -190,11 +196,6 @@
       ]
     },
     {
-      "id": "industry-information",
-      "name": "産業・情報・環境",
-      "topicIds": []
-    },
-    {
       "id": "history",
       "name": "歴史の流れと文化",
       "topicIds": [
@@ -204,18 +205,19 @@
         "jp.elem.social.edo-society",
         "jp.elem.social.modernization",
         "jp.elem.social.war-and-recovery",
-        "jp.elem.social.postwar-japan",
+        "jp.elem.social.postwar-japan"
+      ]
+    },
+    {
+      "id": "politics-international",
+      "name": "政治の仕組みと国際社会",
+      "topicIds": [
         "jp.elem.social.constitution",
         "jp.elem.social.diet",
         "jp.elem.social.government-courts",
         "jp.elem.social.local-government",
         "jp.elem.social.international-relations"
       ]
-    },
-    {
-      "id": "politics-international",
-      "name": "政治の仕組みと国際社会",
-      "topicIds": []
     },
     {
       "id": "social-inquiry",
