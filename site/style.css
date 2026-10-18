@@ -113,3 +113,19 @@ ruby{ruby-position:over;ruby-align:center}
 rt{font-size:.52em;font-weight:500;letter-spacing:0;color:inherit;opacity:.88}
 ruby rt{line-height:1}
 @media(max-width:700px){rt{font-size:.48em}}
+
+/* Apply the same subject color to topic cards, relation cards, and grade-map entries. */
+.topic-card[data-subject="国語"],.flow-node[data-subject="国語"],.path-card[data-subject="国語"],.grade-topic[data-subject="国語"]{--subject-color:var(--subject-japanese)}
+.topic-card[data-subject="社会"],.flow-node[data-subject="社会"],.path-card[data-subject="社会"],.grade-topic[data-subject="社会"]{--subject-color:var(--subject-social)}
+.topic-card[data-subject="算数"],.flow-node[data-subject="算数"],.path-card[data-subject="算数"],.grade-topic[data-subject="算数"]{--subject-color:var(--subject-math)}
+.topic-card[data-subject="理科"],.flow-node[data-subject="理科"],.path-card[data-subject="理科"],.grade-topic[data-subject="理科"]{--subject-color:var(--subject-science)}
+.topic-card[data-subject="生活"],.flow-node[data-subject="生活"],.path-card[data-subject="生活"],.grade-topic[data-subject="生活"]{--subject-color:var(--subject-life)}
+.topic-card[data-subject="音楽"],.flow-node[data-subject="音楽"],.path-card[data-subject="音楽"],.grade-topic[data-subject="音楽"]{--subject-color:var(--subject-music)}
+.topic-card[data-subject="図画工作"],.flow-node[data-subject="図画工作"],.path-card[data-subject="図画工作"],.grade-topic[data-subject="図画工作"]{--subject-color:var(--subject-art)}
+.topic-card[data-subject="家庭"],.flow-node[data-subject="家庭"],.path-card[data-subject="家庭"],.grade-topic[data-subject="家庭"]{--subject-color:var(--subject-home)}
+.topic-card[data-subject="体育"],.flow-node[data-subject="体育"],.path-card[data-subject="体育"],.grade-topic[data-subject="体育"]{--subject-color:var(--subject-pe)}
+.topic-card[data-subject="外国語"],.topic-card[data-subject="外国語活動"],.flow-node[data-subject="外国語"],.flow-node[data-subject="外国語活動"],.path-card[data-subject="外国語"],.path-card[data-subject="外国語活動"],.grade-topic[data-subject="外国語"],.grade-topic[data-subject="外国語活動"]{--subject-color:var(--subject-foreign)}
+.topic-card[data-subject="道徳"],.flow-node[data-subject="道徳"],.path-card[data-subject="道徳"],.grade-topic[data-subject="道徳"]{--subject-color:var(--subject-moral)}
+.topic-card[data-subject="総合的な学習の時間"],.topic-card[data-subject="特別活動"],.flow-node[data-subject="総合的な学習の時間"],.flow-node[data-subject="特別活動"],.path-card[data-subject="総合的な学習の時間"],.path-card[data-subject="特別活動"],.grade-topic[data-subject="総合的な学習の時間"],.grade-topic[data-subject="特別活動"]{--subject-color:var(--subject-general)}
+.topic-card[data-subject],.flow-node[data-subject],.path-card[data-subject],.grade-topic[data-subject]{border-left:3px solid color-mix(in srgb,var(--subject-color,#9aadb5) 48%,white)}
+.topic-card.is-selected,.grade-topic.is-selected{border-color:var(--subject-color,#39758a);background:color-mix(in srgb,var(--subject-color,#39758a) 9%,white);box-shadow:inset 4px 0 var(--subject-color,#39758a)}
