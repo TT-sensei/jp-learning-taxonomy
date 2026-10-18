@@ -52,8 +52,9 @@ function studentRationale(text) {
 }
 function gradeLabel(topic) {
   const grades = (topic.grades || []).slice().sort((a,b)=>a-b);
-  if (!grades.length) return "学年は先生たちが確認中";
-  return gradeListLabel(grades).replace(/年/g,"年生");
+  if (!grades.length) return "学年は確認中";
+  const label = gradeListLabel(grades).replace(/年/g,"年生");
+  return topic.gradePlacement?.status === "reviewed" ? label : "目安：" + label;
 }
 function topicGrade(topic) {
   return Number(topic.gradePlacement?.candidateFirstIntroductionGrade) || Math.min(...(topic.grades || [99]));
