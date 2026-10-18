@@ -379,7 +379,7 @@
       "rationale": "項目の比較から、時間に沿った変化の表示へ見方を広げる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "項目を比べるグラフから、時間とともに変わる様子を表すグラフへ見方を広げられるよ。"
+      "studentRationale": "項目を比べるグラフから、時間とともに変わる様子を表すグラフへと考え方を広げよう。"
     },
     {
       "id": "math-edge-039",
@@ -779,7 +779,7 @@
       "rationale": "身近な地域の位置関係を、都道府県の位置や広がりへと視野を広げる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "身近な地域の場所を調べることから、都道府県の場所や広がりへと見方を広げよう。"
+      "studentRationale": "身近な地域の場所を調べたら、都道府県の場所や広がりも調べてみよう。"
     },
     {
       "id": "social-edge-006",
@@ -1409,7 +1409,7 @@
       "rationale": "比較・分類の見方を、情報全体の順序や階層を整理することへ広げる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "情報を比べたり仲間分けしたりすることから、全体を順序や階層に整理する学びへ広げよう。"
+      "studentRationale": "情報を比べたり仲間分けしたりすることから、全体を順番やまとまりに整理する学びへ広げよう。"
     },
     {
       "id": "grade-link-043",
@@ -1549,7 +1549,7 @@
       "rationale": "情報の構造を整理する見方を、文章全体の構成を読むことに生かす。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "情報を整理する見方を、文章全体の組み立てを読むときにも使おう。"
+      "studentRationale": "情報を整理する考え方を、文章全体の組み立てを読むときにも使おう。"
     },
     {
       "id": "grade-link-057",
@@ -1699,7 +1699,7 @@
       "rationale": "記録・整理した結果を、問題や予想と照らして結論を導くために使う。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "記録した結果を問題や予想と比べて、何が分かったかをまとめよう."
+      "studentRationale": "記録した結果を問題や予想と比べて、何が分かったかをまとめよう。"
     }
   ]
 }
