@@ -66,6 +66,7 @@
         "jp.elem.social.local-area",
         "jp.elem.social.municipality-work",
         "jp.elem.social.municipality-change",
+        "jp.elem.social.community-predecessors",
         "jp.elem.social.local-map"
       ]
     },
@@ -155,6 +156,7 @@
         "jp.elem.social.local-area",
         "jp.elem.social.municipality-work",
         "jp.elem.social.municipality-change",
+        "jp.elem.social.community-predecessors",
         "jp.elem.social.local-map"
       ]
     },
@@ -282,6 +284,23 @@
       "officialAreaCandidate": "第3学年の公式内容候補",
       "perspectiveCandidates": [
         "geography"
+      ],
+      "sourceBasis": "mext-commentary-grade-content-candidate"
+    },
+    {
+      "id": "jp.elem.social.community-predecessors",
+      "name": "地域の発展に尽くした先人",
+      "domain": "第3学年",
+      "description": "地域の暮らしや発展を支えた先人の働きや願いを、資料や聞き取りなどから捉える。",
+      "candidateGrades": [
+        3
+      ],
+      "gradePlacementStatus": "needs-review",
+      "topicType": "concept",
+      "reviewStatus": "needs-review",
+      "officialAreaCandidate": "第3学年の公式内容候補（内容(3)）",
+      "perspectiveCandidates": [
+        "history"
       ],
       "sourceBasis": "mext-commentary-grade-content-candidate"
     },
@@ -996,14 +1015,14 @@
     {
       "id": "framework",
       "label": "公式の学年別内容と教科構造",
-      "status": "initial-review",
-      "note": "第3〜6学年の主要な内容群を候補として整理。"
+      "status": "partial-review",
+      "note": "文部科学省解説の学年別内容の大枠と照合を開始。第3学年の内容(3)「地域の発展に尽くした先人」を追加したが、全候補の一対一照合は継続中。"
     },
     {
       "id": "coverage",
       "label": "学習項目の網羅性と粒度",
-      "status": "needs-review",
-      "note": "公式内容項目との対応・不足・複合項目を確認する。"
+      "status": "partial-review",
+      "note": "第3学年の公式内容(3)に対応する候補の欠落を発見して追加。第5学年の食料生産・工業生産・情報と産業、第6学年の歴史・政治・国際関係の粒度を引き続き整理する。"
     },
     {
       "id": "grade-placement",
@@ -1034,6 +1053,7 @@
     "社会科タクソノミーの初期草案。学習指導要領の全記述を網羅した確定版ではない。",
     "項目名・説明・候補学年は照合用の仮案であり、正式な公式コードや学年配当を示さない。",
     "地図・年表・統計・写真・聞き取り等の資料活用は、単元知識と区別して横断的な技能候補として整理する。",
-    "地域学習の具体的な対象は自治体・都道府県によって異なるため、全国共通の枠組みと地域教材を混同しない。"
+    "地域学習の具体的な対象は自治体・都道府県によって異なるため、全国共通の枠組みと地域教材を混同しない。",
+    "2026-10-18の公式解説との初回照合で、第3学年の「地域の発展に尽くした先人」に相当する候補の欠落を確認し、項目を追加。"
   ]
 }
