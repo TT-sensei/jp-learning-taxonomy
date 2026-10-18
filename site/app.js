@@ -12,7 +12,7 @@ const relationNames = {
 const statusNames = {"draft":"作成中","needs-review":"見直し中","reviewed":"見直し済み","published":"公開中"};
 function gradeLabel(topic) {
   const grades = (topic.grades || []).slice().sort((a,b)=>a-b);
-  if (!grades.length) return "学年確認中";
+  if (!grades.length) return "学年は先生たちが確認中";
   return gradeListLabel(grades).replace(/年/g,"年生");
 }
 function topicGrade(topic) {
@@ -81,7 +81,7 @@ function relationCards(items, empty, limit=3) {
       '<span class="path-kind">'+esc(relationNames[edge.type]||"関連する学び")+'</span>'+
       '<span class="path-why">'+esc(edge.rationale||"")+'</span></button>';
   }).join("")+'</div>'+
-  (items.length>limit?'<p class="muted small-note">ほかに'+(items.length-limit)+'件の関係があります。必要なものだけを表示しています。</p>':'');
+  (items.length>limit?'<p class="muted small-note">ほかにも'+(items.length-limit)+'件のつながりがあるよ。</p>':'');
 }
 function gradeListLabel(grades) {
   const sorted=[...new Set((grades||[]).filter(g=>Number.isInteger(g)&&g>=1&&g<=6))].sort((a,b)=>a-b);
@@ -106,7 +106,7 @@ function renderGradeMap(subject) {
       if(!groups.has(domain))groups.set(domain,[]);
       groups.get(domain).push(topic);
     });
-    return '<section class="grade-lane"><header class="grade-lane-head"><span>'+grade+'年</span><small>初出候補 '+topics.length+'件</small></header>'+
+    return '<section class="grade-lane"><header class="grade-lane-head"><span>'+grade+'年</span><small>この学年から学ぶかも・'+topics.length+'こ</small></header>'+
       [...groups.entries()].map(([domain,items])=>'<div class="grade-lane-group"><h3>'+esc(domain)+'</h3>'+
         items.map(topic=>{
           const candidateGrade=Number(topic.gradePlacement?.candidateFirstIntroductionGrade)||Math.min(...(topic.grades||[99]));
@@ -117,7 +117,7 @@ function renderGradeMap(subject) {
             (continuing?'<span class="grade-topic-continuation">このあとも学ぶかも：'+esc(continuing)+'</span>':'')+
             '<span>つながりを見る →</span></button>';
         }).join("")+'</div>').join("")+
-      (topics.length?'':'<p class="grade-lane-empty">初出候補はありません</p>')+'</section>';
+      (topics.length?'':'<p class="grade-lane-empty">この学年から学ぶ項目は、まだ登録されていないよ。</p>')+'</section>';
   }).join("");
   return '<div class="grade-map-intro"><strong>'+esc(subject)+'の学年マップ</strong><p>項目は「初めて扱う学年の候補」に1回だけ配置しています。継続して学ぶ候補は各項目内に表示し、項目の重複で学年ごとの数が膨らまないようにしました。項目を選ぶと、前後のつながりが右側に表示されます。</p><small>初出学年・継続学年とも確認中の候補です。公式の学年配当や、実際の授業順を確定したものではありません。</small></div>'+
     '<div class="grade-map-scroll" role="region" aria-label="'+esc(subject)+'の1年生から6年生の初出学年候補マップ" tabindex="0">'+lanes+'</div>';
@@ -135,7 +135,7 @@ function renderList() {
   }
   if(!filters.subject&&!filters.grade&&!filters.domain&&!filters.query){
     const subjects=[...new Set(state.topics.map(t=>t.subject))].sort((a,b)=>a.localeCompare(b,"ja"));
-    list.innerHTML='<div class="subject-picks">'+subjects.map(subject=>'<button type="button" class="subject-pick" data-subject="'+esc(subject)+'"><span class="subject-pick-label">教科</span><strong>'+esc(subject)+'</strong><span>学びのつながりを見る →</span></button>').join("")+'</div><p class="empty-note">まず教科を選んでみてください。学年や学習のまとまりを絞り込んで、項目を選ぶと前後の学びをたどれます。</p>';
+    list.innerHTML='<div class="subject-picks">'+subjects.map(subject=>'<button type="button" class="subject-pick" data-subject="'+esc(subject)+'"><span class="subject-pick-label">教科</span><strong>'+esc(subject)+'</strong><span>学びのつながりを見る →</span></button>').join("")+'</div><p class="empty-note">まず教科を選んでみてください。学年や学びのグループを絞り込んで、項目を選ぶと前後の学びをたどれます。</p>';
     list.querySelectorAll("[data-subject]").forEach(button=>button.addEventListener("click",()=>{
       $("#subject").value=button.dataset.subject;
       renderDomainOptions();
@@ -175,9 +175,9 @@ function flowNodes(items, empty, direction) {
     return '<button type="button" class="flow-node" data-topic-id="'+esc(topic.id)+'">'+
       '<span class="flow-grade">'+esc(gradeLabel(topic))+'</span>'+
       '<strong>'+esc(topic.name)+'</strong>'+
-      '<span class="flow-why">'+esc(edge.rationale||"")+'</span></button>';
+      '<span class="flow-why"><b>どうつながる？</b> '+esc(edge.rationale||"")+'</span></button>';
   }).join("")+'</div>'+
-  (items.length>3?'<p class="muted small-note">ほかに'+(items.length-3)+'件のつながりがあります。</p>':'');
+  (items.length>3?'<p class="muted small-note">ほかにも'+(items.length-3)+'件のつながりがあるよ。</p>':'');
 }
 function renderDetail(id) {
   const topic=state.topics.find(item=>item.id===id);
@@ -195,15 +195,15 @@ function renderDetail(id) {
     '<p class="detail-grade">'+esc(gradeLabel(topic))+'　／　'+esc(topic.domain)+'</p>'+
     '<h2>'+esc(topic.name)+'</h2><p class="detail-description">'+esc(topic.description||"")+'</p>'+
     '<section class="progression-map" aria-label="学びの道すじ">'+
-      '<div class="progression-title"><span class="progression-mark">学びの道すじ</span><p>つながりを選ぶと、その学びを中心に道すじをたどれます。</p></div>'+
-      '<div class="progression-stage"><div class="stage-label"><span>01</span><strong>これまで</strong></div>'+flowNodes(previous,"前につながる学びは、まだ調べているところだよ。","previous")+'</div>'+
+      '<div class="progression-title"><span class="progression-mark">学びの道すじ</span><p>前や次のカードを選ぶと、学びの道すじをたどれるよ。</p></div>'+
+      '<div class="progression-stage"><div class="stage-label"><span>01</span><strong>前に学んだこと</strong></div>'+flowNodes(previous,"前につながる学びは、まだ調べているところだよ。","previous")+'</div>'+
       '<div class="flow-arrow" aria-hidden="true">↓</div>'+
-      '<div class="progression-stage is-current"><div class="stage-label"><span>02</span><strong>いま</strong></div>'+
-        '<div class="flow-current"><span>'+esc(gradeLabel(topic))+'</span><strong>'+esc(topic.name)+'</strong><small>選択中の学び</small></div></div>'+
+      '<div class="progression-stage is-current"><div class="stage-label"><span>02</span><strong>今見ている学び</strong></div>'+
+        '<div class="flow-current"><span>'+esc(gradeLabel(topic))+'</span><strong>'+esc(topic.name)+'</strong><small>今、見ている学び</small></div></div>'+
       '<div class="flow-arrow" aria-hidden="true">↓</div>'+
-      '<div class="progression-stage"><div class="stage-label"><span>03</span><strong>この先</strong></div>'+flowNodes(next,"次につながる学びは、これから調べていくよ。","next")+'</div>'+
+      '<div class="progression-stage"><div class="stage-label"><span>03</span><strong>これから学ぶこと</strong></div>'+flowNodes(next,"次につながる学びは、これから調べていくよ。","next")+'</div>'+
     '</section>'+
-    '<details class="source-details"><summary>出典・確認状況</summary><p class="muted">学習項目とつながりは確認中の候補です。公式の必修順序を示すものではありません。</p><ul>'+(sourceLinks||"<li>出典情報は未登録です。</li>")+'</ul><p class="muted small-note">項目ID：'+esc(topic.id)+'</p></details>';
+    '<details class="source-details"><summary>先生たちの確認メモ</summary><p class="muted">学びのつながりは、今も見直しているところだよ。必ずこの順番で学ぶ、という意味ではないよ。</p><ul>'+(sourceLinks||"<li>出典情報は未登録です。</li>")+'</ul><p class="muted small-note">管理用の番号：'+esc(topic.id)+'</p></details>';
   $("#detail").querySelectorAll("[data-topic-id]").forEach(button=>button.addEventListener("click",()=>renderDetail(button.dataset.topicId)));
   renderList();
   $("#detail").scrollIntoView({behavior:"smooth",block:"nearest"});
