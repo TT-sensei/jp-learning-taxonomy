@@ -115,19 +115,36 @@ function renderFilters() {
   $("#subject").value = "";
   renderDomainOptions();
 }
-function relationCandidates(topic, direction) {
-  const key = direction==="previous" ? "to" : "from";
-  const relatedKey = direction==="previous" ? "from" : "to";
-  return state.dependencies
-    .filter(edge=>edge[key]===topic.id)
-    .map(edge=>({edge, topic:state.topics.find(t=>t.id===edge[relatedKey])}))
-    .filter(item=>item.topic && item.topic.subject===topic.subject && item.topic.topicLifecycle!=="superseded")
+function relationCandidates(topic, group) {
+  const edges = state.dependencies.filter(edge => {
+    const incoming = edge.to === topic.id;
+    const outgoing = edge.from === topic.id;
+    if (!incoming && !outgoing) return false;
+    if (group === "prior") return incoming && ["prerequisite","recommended-prerequisite"].includes(edge.type);
+    if (group === "related") return ["related-learning","recurring-development"].includes(edge.type);
+    if (group === "future") return outgoing && ["prerequisite","recommended-prerequisite","extension","application"].includes(edge.type);
+    return false;
+  });
+  return edges
+    .map(edge => ({edge, topic:state.topics.find(item=>item.id===(edge.from===topic.id?edge.to:edge.from))}))
+    .filter(item=>item.topic && item.topic.topicLifecycle!=="superseded")
     .sort((a,b)=>{
       const current=topicGrade(topic);
       const da=Math.abs(topicGrade(a.topic)-current), db=Math.abs(topicGrade(b.topic)-current);
       if(da!==db) return da-db;
+      if(a.topic.subject!==b.topic.subject) return a.topic.subject.localeCompare(b.topic.subject,"ja");
       return (a.topic.domain||"").localeCompare(b.topic.domain||"","ja");
     });
+}
+function relationLabel(edge, group) {
+  if (group === "prior") return edge.type === "prerequisite" ? "先に身につけたいこと" : "先に学ぶと分かりやすい";
+  if (group === "future") {
+    if (edge.type === "extension") return "さらに考えを広げる";
+    if (edge.type === "application") return "学んだことを使う";
+    if (edge.type === "recommended-prerequisite") return "次に学ぶと分かりやすい";
+    return "この学びを土台にする";
+  }
+  return relationNames[edge.type] || "関係のある学び";
 }
 function relationCards(items, empty, limit=3) {
   if (!items.length) return '<p class="empty-note">'+esc(empty)+'</p>';
@@ -231,13 +248,14 @@ function renderList() {
   }
   list.querySelectorAll("[data-topic-id]").forEach(button=>button.addEventListener("click",()=>renderDetail(button.dataset.topicId)));
 }
-function flowNodes(items, empty, direction) {
+function flowNodes(items, empty, group) {
   if (!items.length) return '<p class="flow-empty">'+esc(empty)+'</p>';
   return '<div class="flow-nodes">'+items.slice(0,3).map(item=>{
     const topic=item.topic, edge=item.edge;
     return '<button type="button" class="flow-node" data-topic-id="'+esc(topic.id)+'">'+
-      '<span class="flow-grade">'+esc(gradeLabel(topic))+'</span>'+
+      '<span class="flow-grade">'+esc(topic.subject+"・"+gradeLabel(topic))+'</span>'+
       '<strong>'+esc(topicTitle(topic))+'</strong>'+
+      '<span class="path-kind">'+esc(relationLabel(edge,group))+'</span>'+
       '<span class="flow-why"><b>どうつながる？</b> '+esc(edge.studentRationale || studentRationale(edge.rationale))+'</span></button>';
   }).join("")+'</div>'+
   (items.length>3?'<p class="muted small-note">ほかにも'+(items.length-3)+'件のつながりがあるよ。</p>':'');
@@ -257,8 +275,9 @@ function renderDetail(id, scroll = true) {
   const topic=state.topics.find(item=>item.id===id);
   if(!topic) return;
   state.selected=id;
-  const previous=relationCandidates(topic,"previous");
-  const next=relationCandidates(topic,"next");
+  const previous=relationCandidates(topic,"prior");
+  const related=relationCandidates(topic,"related");
+  const next=relationCandidates(topic,"future");
   const sourceLinks=(topic.evidence||[]).map(evidence=>{
     const source=(state.standards?.sources||[]).find(s=>s.id===evidence.sourceId);
     const link=source?'<a href="'+esc(source.url)+'" target="_blank" rel="noopener noreferrer">'+esc(source.title)+'</a>':esc(evidence.sourceId);
@@ -268,14 +287,13 @@ function renderDetail(id, scroll = true) {
     '<div class="detail-topline"><span class="subject-chip">'+esc(topic.subject)+'</span></div>'+
     '<p class="detail-grade">'+esc(gradeLabel(topic))+'　／　'+esc(topicGroup(topic))+'</p>'+
     '<h2>'+esc(topicTitle(topic))+'</h2><p class="detail-description">'+esc(topicText(topic))+'</p>'+
-    '<section class="progression-map" aria-label="学びの道すじ">'+
-      '<div class="progression-title"><span class="progression-mark">学びの道すじ</span><p>前や次のカードを選ぶと、学びの道すじをたどれるよ。</p></div>'+
-      '<div class="progression-stage"><div class="stage-label"><span>01</span><strong>前に学んだこと</strong></div>'+flowNodes(previous,"前につながる学びは、まだ調べているところだよ。","previous")+'</div>'+
-      '<div class="flow-arrow" aria-hidden="true">↓</div>'+
+    '<section class="progression-map" aria-label="学びのつながり">'+
+      '<div class="progression-title"><span class="progression-mark">学びのつながり</span><p>「先に学ぶ」「関係する」「使って広げる」を分けているよ。必ずこの順番で学ぶという意味ではないよ。</p></div>'+
+      '<div class="progression-stage"><div class="stage-label"><span>01</span><strong>先に学ぶとよいこと</strong></div>'+flowNodes(previous,"先に学ぶとよい項目は、まだ登録されていないよ。ほかにも必要な学びがあるかもしれないね。","prior")+'</div>'+
       '<div class="progression-stage is-current"><div class="stage-label"><span>02</span><strong>今見ている学び</strong></div>'+
-        '<div class="flow-current"><span>'+esc(gradeLabel(topic))+'</span><strong>'+esc(topicTitle(topic))+'</strong><small>今、見ている学び</small></div></div>'+
-      '<div class="flow-arrow" aria-hidden="true">↓</div>'+
-      '<div class="progression-stage"><div class="stage-label"><span>03</span><strong>これから学ぶこと</strong></div>'+flowNodes(next,"次につながる学びは、これから調べていくよ。","next")+'</div>'+
+        '<div class="flow-current"><span>'+esc(topic.subject)+"・"+esc(gradeLabel(topic))+'</span><strong>'+esc(topicTitle(topic))+'</strong><small>今、見ている学び</small></div></div>'+
+      '<div class="progression-stage"><div class="stage-label"><span>03</span><strong>関係する学び</strong></div>'+flowNodes(related,"関係する学びは、まだ登録されていないよ。","related")+'</div>'+
+      '<div class="progression-stage"><div class="stage-label"><span>04</span><strong>この学びから広がること</strong></div>'+flowNodes(next,"使ったり、さらに考えを広げたりする学びは、まだ登録されていないよ。","future")+'</div>'+
     '</section>'+
     '<details class="source-details"><summary>先生・保護者向けの確認情報</summary><p class="muted">学びのつながりは確認中です。必ずこの順番で学ぶ、という意味ではありません。</p><ul>'+(sourceLinks||"<li>出典情報は未登録です。</li>")+'</ul></details>';
   $("#detail").querySelectorAll("[data-topic-id]").forEach(button=>button.addEventListener("click",()=>renderDetail(button.dataset.topicId)));
