@@ -57,7 +57,7 @@ function correctContextualReadings(result, source) {
   ];
   for (const rule of readingCorrections) {
     if (!rule.context.test(source)) continue;
-    html = html.replace(/<ruby>解こう<rt>[^<]*<\\/rt><\\/ruby>/g, '<ruby>解こう<rt>' + rule.reading + '</rt></ruby>');
+    html = html.replace(new RegExp("<ruby>解こう<rt>[^<]*</rt></ruby>", "g"), '<ruby>解こう<rt>' + rule.reading + '</rt></ruby>');
   }
   return html;
 }
