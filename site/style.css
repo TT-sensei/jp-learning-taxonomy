@@ -37,7 +37,7 @@
 .grade-lane-group h3{font-size:.73rem;line-height:1.5;color:#58717c;margin:0 3px 7px}
 .grade-topic{display:block;width:100%;text-align:left;margin:0 0 7px;padding:10px;border:1px solid #dce5e8;border-radius:9px;background:#fff;color:inherit;font:inherit;cursor:pointer}
 .grade-topic strong{display:block;font-size:.8rem;line-height:1.5;font-weight:700}
-.grade-topic span{display:block;margin-top:5px;color:#4c7889;font-size:.68rem}
+.grade-topic span{display:block;margin-top:5px;color:#4c7889;font-size:.68rem}.grade-topic .grade-topic-continuation{color:#667780;font-size:.65rem;line-height:1.45;background:#f2f6f7;border-radius:5px;padding:4px 6px}
 .grade-topic:hover,.grade-topic:focus-visible{border-color:#75a1b1;outline:2px solid #dcebf0}
 .grade-topic.is-selected{border-color:#2e7087;background:#e6f2f5;box-shadow:inset 3px 0 #2e7087}
 .grade-lane-empty{font-size:.76rem;color:#7c8990;padding:12px}
