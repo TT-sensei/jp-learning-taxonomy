@@ -1485,6 +1485,87 @@
       "rationale": "調べたことを報告するときに、資料の引用と出典の示し方を活用する。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-063",
+      "from": "jp.elem.science.matter",
+      "to": "jp.elem.science.dissolving",
+      "type": "related-learning",
+      "rationale": "物の性質を比べる見方を、物が水に溶ける量や条件の観察に生かす。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-064",
+      "from": "jp.elem.science.water-state",
+      "to": "jp.elem.science.water-cycle",
+      "type": "related-learning",
+      "rationale": "水の状態変化を、自然界で水が循環する見方へつなげる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-065",
+      "from": "jp.elem.science.animals",
+      "to": "jp.elem.science.human-body-movement",
+      "type": "related-learning",
+      "rationale": "動物の体のつくりへの着目を、人の骨・筋肉と運動の関係を調べる学習につなぐ。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-066",
+      "from": "jp.elem.science.seasonal-change",
+      "to": "jp.elem.science.organism-environment",
+      "type": "extension",
+      "rationale": "季節による生物の変化を観察することから、生物と環境の関わりを広く考える。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-067",
+      "from": "jp.elem.science.river-land",
+      "to": "jp.elem.science.land-formation",
+      "type": "related-learning",
+      "rationale": "流れる水による土地の変化を、土地のつくりと変化の学習に関連付ける。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-068",
+      "from": "jp.elem.science.question",
+      "to": "jp.elem.science.prediction",
+      "type": "recommended-prerequisite",
+      "rationale": "自然事象から問題を見いだし、既習内容や経験を基に予想する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-069",
+      "from": "jp.elem.science.prediction",
+      "to": "jp.elem.science.experiment-plan",
+      "type": "related-learning",
+      "rationale": "予想を確かめるために、調べ方や条件を計画する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-070",
+      "from": "jp.elem.science.compare",
+      "to": "jp.elem.science.relate",
+      "type": "extension",
+      "rationale": "比較して違いや共通点を捉える見方から、事象どうしの関係を考える見方へ広げる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-071",
+      "from": "jp.elem.science.record-data",
+      "to": "jp.elem.science.conclusion",
+      "type": "application",
+      "rationale": "記録・整理した結果を、問題や予想と照らして結論を導くために使う。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
     }
   ]
 }
