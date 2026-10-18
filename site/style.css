@@ -67,3 +67,49 @@
 
 /* Keep links readable on the dark masthead (used on the math representations page). */
 .top a{color:#dce8ed;text-decoration:underline;text-underline-offset:2px}.top a:hover{color:#fff}
+
+
+/* 意味のある色分け：教科ごとに色相を固定し、選択中は同じ色で強調 */
+:root{
+  --subject-japanese:#b85d43; --subject-social:#a47722; --subject-math:#3476b8;
+  --subject-science:#25866c; --subject-life:#5e8a42; --subject-music:#9a63b5;
+  --subject-art:#c45e83; --subject-home:#b66c35; --subject-pe:#397e9b;
+  --subject-foreign:#4779a9; --subject-moral:#7a719d; --subject-general:#6c7f8b;
+  --path-prior:#4f8b75; --path-related:#6e83b6; --path-future:#b47c36;
+}
+.subject-chip[data-subject="国語"],.subject-pick[data-subject="国語"]{--subject-color:var(--subject-japanese)}
+.subject-chip[data-subject="社会"],.subject-pick[data-subject="社会"]{--subject-color:var(--subject-social)}
+.subject-chip[data-subject="算数"],.subject-pick[data-subject="算数"]{--subject-color:var(--subject-math)}
+.subject-chip[data-subject="理科"],.subject-pick[data-subject="理科"]{--subject-color:var(--subject-science)}
+.subject-chip[data-subject="生活"],.subject-pick[data-subject="生活"]{--subject-color:var(--subject-life)}
+.subject-chip[data-subject="音楽"],.subject-pick[data-subject="音楽"]{--subject-color:var(--subject-music)}
+.subject-chip[data-subject="図画工作"],.subject-pick[data-subject="図画工作"]{--subject-color:var(--subject-art)}
+.subject-chip[data-subject="家庭"],.subject-pick[data-subject="家庭"]{--subject-color:var(--subject-home)}
+.subject-chip[data-subject="体育"],.subject-pick[data-subject="体育"]{--subject-color:var(--subject-pe)}
+.subject-chip[data-subject="外国語"],.subject-pick[data-subject="外国語"]{--subject-color:var(--subject-foreign)}
+.subject-chip[data-subject="外国語活動"],.subject-pick[data-subject="外国語活動"]{--subject-color:var(--subject-foreign)}
+.subject-chip[data-subject="道徳"],.subject-pick[data-subject="道徳"]{--subject-color:var(--subject-moral)}
+.subject-chip[data-subject="総合的な学習の時間"],.subject-pick[data-subject="総合的な学習の時間"]{--subject-color:var(--subject-general)}
+.subject-chip[data-subject="特別活動"],.subject-pick[data-subject="特別活動"]{--subject-color:var(--subject-general)}
+.subject-pick{border-top:4px solid var(--subject-color,#6c7f8b);background:linear-gradient(180deg,color-mix(in srgb,var(--subject-color,#6c7f8b) 8%,white),#fff 58%)}
+.subject-pick strong{color:var(--subject-color,#385665)}
+.subject-pick:hover,.subject-pick:focus-visible{border-color:var(--subject-color,#80a6b5);background:color-mix(in srgb,var(--subject-color,#80a6b5) 10%,white)}
+.subject-chip{background:color-mix(in srgb,var(--subject-color,#557987) 13%,white);color:var(--subject-color,#345b6c);border:1px solid color-mix(in srgb,var(--subject-color,#557987) 30%,white)}
+.topic-card{border-left:3px solid color-mix(in srgb,var(--subject-color,#9aadb5) 40%,white)}
+.topic-card.is-selected{border-color:var(--subject-color,#39758a);background:color-mix(in srgb,var(--subject-color,#39758a) 9%,white);box-shadow:inset 4px 0 var(--subject-color,#39758a)}
+/* 学びの関係：緑＝先に学ぶ、青＝関連、橙＝活用・発展 */
+.progression-stage:nth-of-type(1) .stage-label span{background:#e4f2eb;color:#28694f}
+.progression-stage:nth-of-type(2) .stage-label span{background:#e3edf8;color:#315e94}
+.progression-stage:nth-of-type(3) .stage-label span{background:#fff0dc;color:#8a5a1c}
+.progression-stage:nth-of-type(1) .flow-node{border-left:3px solid #6ba88d}
+.progression-stage:nth-of-type(2) .flow-node{border-left:3px solid #809bd0}
+.progression-stage:nth-of-type(3) .flow-node{border-left:3px solid #d5a05d}
+.progression-map{background:#f9fafb}
+.flow-current{background:#243f52;border-color:#243f52}
+.grade-lane-head{background:#294d61}
+.grade-topic.is-selected{border-color:#3476b8;background:#eaf3fb;box-shadow:inset 3px 0 #3476b8}
+/* ふりがな：小学生が読み進めやすい大きさと間隔 */
+ruby{ruby-position:over;ruby-align:center}
+rt{font-size:.52em;font-weight:500;letter-spacing:0;color:inherit;opacity:.88}
+ruby rt{line-height:1}
+@media(max-width:700px){rt{font-size:.48em}}
