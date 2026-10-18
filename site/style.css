@@ -45,3 +45,22 @@
 
 /* Readability and child-friendly interaction refinements */
 .top h1{max-width:22em;line-height:1.35}.top p:last-child{max-width:56em}.controls-title span{line-height:1.5}.browse-heading h2{line-height:1.5}.topic-card strong,.flow-node strong,.grade-topic strong{overflow-wrap:anywhere}button{touch-action:manipulation}button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid #8bbdce;outline-offset:2px}@media(min-width:1101px){main{gap:18px}.controls{padding:18px}.browse-heading{padding-bottom:16px}}@media(max-width:900px) and (min-width:701px){main{grid-template-columns:180px minmax(0,1fr);padding:14px;gap:12px}.detail{grid-column:2}.controls{padding:14px}}@media(max-width:700px){.top h1{font-size:clamp(1.55rem,6vw,1.9rem)}.top p:last-child{font-size:.94rem}.hint{font-size:.82rem}.topic-card{padding:12px}.detail{scroll-margin-top:10px}}
+
+/* Child-facing text: readable line lengths, contrast, and touch targets */
+.topic-card strong{font-size:.98rem;line-height:1.55}
+.topic-description{font-size:.84rem;line-height:1.7;color:#536974}
+.topic-grade{font-size:.75rem}
+.grade-topic strong{font-size:.87rem;line-height:1.6}
+.grade-topic span{font-size:.73rem;line-height:1.55}
+.flow-node strong{font-size:.88rem;line-height:1.6}
+.flow-why{font-size:.78rem;line-height:1.65}
+.detail-description{font-size:.96rem;line-height:1.85;color:#384f5a}
+.footer-links{display:inline-block;margin-left:.25rem;color:#77858c}
+.footer-links a{white-space:nowrap}
+@media(max-width:700px){
+  .topic-card strong{font-size:1rem}
+  .topic-description{font-size:.87rem;line-height:1.7}
+  .grade-topic{padding:12px}
+  .flow-node{padding:12px}
+  .footer-links{margin-left:0}
+}
