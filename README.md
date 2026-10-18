@@ -65,6 +65,7 @@
 
 - [社会の分類・項目候補（草案）](data/social-studies-taxonomy-draft.json)
 - [社会タクソノミーの初期レビュー記録](docs/social-studies-taxonomy-review.md)
+- [社会タクソノミー：項目間の関係候補](docs/social-studies-relationship-review.md)
 
 文部科学省の社会編解説を参照元とし、地域固有の教材と全国共通の学習枠を分けること、公式コード表の実データと照合することを次の確認課題とします。
 
