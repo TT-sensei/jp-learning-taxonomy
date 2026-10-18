@@ -118,6 +118,15 @@
       },
       "uniqueItems": true,
       "description": "Successor topic IDs when topicLifecycle is superseded."
+    },
+    "studentName": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Child-facing display title. The stable internal taxonomy name remains in name."
+    },
+    "studentDescription": {
+      "type": "string",
+      "description": "Child-facing explanation in direct, accessible Japanese."
     }
   },
   "additionalProperties": false
