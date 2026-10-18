@@ -1008,6 +1008,105 @@
       "rationale": "観察や聞き取りで地域の特色を調べる方法を、都道府県の産業の調査にも活用する。",
       "reviewStatus": "needs-review",
       "evidenceType": "editorial"
+    },
+    {
+      "id": "grade-link-113",
+      "from": "jp.elem.math.addition-meaning",
+      "to": "jp.elem.math.addition-properties",
+      "type": "related-learning",
+      "rationale": "加法の意味を具体的な場面で捉えた経験を、交換法則や結合法則を使った計算の工夫へつなげる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-114",
+      "from": "jp.elem.math.subtraction-meaning",
+      "to": "jp.elem.math.unknown-number-box-expression",
+      "type": "related-learning",
+      "rationale": "減法の場面を式で表す経験を、□を使って数量の関係を表す学習へつなげる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-115",
+      "from": "jp.elem.math.division-meaning",
+      "to": "jp.elem.math.division-remainders",
+      "type": "recommended-prerequisite",
+      "rationale": "等分や包含の除法の意味を、あまりが生じる場面の解釈へつなげる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-116",
+      "from": "jp.elem.math.unit-fractions",
+      "to": "jp.elem.math.fractions-same-denominator",
+      "type": "recommended-prerequisite",
+      "rationale": "単位分数や分数の意味を土台に、同じ分母の分数を合わせたり比べたりする計算へ進む。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-117",
+      "from": "jp.elem.math.decimals-tenths",
+      "to": "jp.elem.math.decimal-add-subtract",
+      "type": "related-learning",
+      "rationale": "0.1を単位とする小数の見方を、小数の加法・減法で位をそろえる考え方に生かす。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-118",
+      "from": "jp.elem.math.decimal-add-subtract",
+      "to": "jp.elem.math.decimal-multiply-divide",
+      "type": "related-learning",
+      "rationale": "小数の位取りと加減計算の理解を、小数の乗法・除法の計算や意味へ広げる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-119",
+      "from": "jp.elem.math.familiar-shapes",
+      "to": "jp.elem.math.compose-decompose-shapes",
+      "type": "related-learning",
+      "rationale": "身の回りの形の特徴に気付く経験を、形を組み合わせたり分解したりする活動へ広げる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-120",
+      "from": "jp.elem.math.triangles-circles-spheres",
+      "to": "jp.elem.math.quadrilateral-properties",
+      "type": "related-learning",
+      "rationale": "図形の辺や角などの特徴に着目する見方を、四角形の分類や性質の理解にも活用する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-121",
+      "from": "jp.elem.social.local-area",
+      "to": "jp.elem.social.local-map",
+      "type": "application",
+      "rationale": "身近な地域の様子を調べるために、地図や方位を使って位置関係を表す。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-122",
+      "from": "jp.elem.social.municipality-change",
+      "to": "jp.elem.social.community-predecessors",
+      "type": "related-learning",
+      "rationale": "市区町村の移り変わりを捉えたうえで、地域の発展に尽くした人々の働きを調べる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-123",
+      "from": "jp.elem.social.prefecture-culture",
+      "to": "jp.elem.social.ancient-japan",
+      "type": "related-learning",
+      "rationale": "地域に伝わる文化や年中行事を手がかりに、文化や暮らしが時代とともに変化してきたことを考える。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
     }
   ]
 }
