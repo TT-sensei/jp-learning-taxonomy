@@ -2,14 +2,14 @@ const state = { topics: [], dependencies: [], standards: null, selected: null };
 const $ = (selector) => document.querySelector(selector);
 const esc = (value) => String(value ?? "").replace(/[&<>"']/g, (c) => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const relationNames = {
-  "prerequisite":"土台になる学び",
-  "recommended-prerequisite":"先に学ぶと役立つ",
-  "related-learning":"つながる学び",
-  "extension":"発展する学び",
-  "application":"活用する学び",
-  "recurring-development":"くり返し育つ力"
+  "prerequisite":"先に知っておくといいこと",
+  "recommended-prerequisite":"先にやると分かりやすい",
+  "related-learning":"いっしょに考えられる",
+  "extension":"もっと広げる",
+  "application":"使ってみる",
+  "recurring-development":"くり返し使う力"
 };
-const statusNames = {"draft":"草案","needs-review":"確認中","reviewed":"確認済み","published":"公開"};
+const statusNames = {"draft":"作成中","needs-review":"見直し中","reviewed":"見直し済み","published":"公開中"};
 function gradeLabel(topic) {
   const grades = (topic.grades || []).slice().sort((a,b)=>a-b);
   if (!grades.length) return "学年確認中";
@@ -114,7 +114,7 @@ function renderGradeMap(subject) {
           const continuing=gradeListLabel(continuingGrades);
           return '<button type="button" class="grade-topic'+(state.selected===topic.id?' is-selected':'')+'" data-topic-id="'+esc(topic.id)+'" aria-pressed="'+(state.selected===topic.id)+'">'+
             '<strong>'+esc(topic.name)+'</strong>'+
-            (continuing?'<span class="grade-topic-continuation">継続候補：'+esc(continuing)+'</span>':'')+
+            (continuing?'<span class="grade-topic-continuation">このあとも学ぶかも：'+esc(continuing)+'</span>':'')+
             '<span>つながりを見る →</span></button>';
         }).join("")+'</div>').join("")+
       (topics.length?'':'<p class="grade-lane-empty">初出候補はありません</p>')+'</section>';
@@ -146,7 +146,7 @@ function renderList() {
     return;
   }
   if(!topics.length){
-    list.innerHTML='<p class="empty-note">項目が見つかりません。教科・学年・領域を変えてみてください。</p>';
+    list.innerHTML='<p class="empty-note">見つからなかったよ。教科や学年を変えたり、別の言葉で探したりしてみよう。</p>';
     return;
   }
   const groups=new Map();
@@ -191,17 +191,17 @@ function renderDetail(id) {
     return '<li>'+link+'<span class="source-note">'+esc(evidence.note||"")+'</span></li>';
   }).join("");
   $("#detail").innerHTML=
-    '<div class="detail-topline"><span class="subject-chip">'+esc(topic.subject)+'</span><span class="review-chip">'+esc(statusNames[topic.reviewStatus]||"確認中")+'</span></div>'+
+    '<div class="detail-topline"><span class="subject-chip">'+esc(topic.subject)+'</span><span class="review-chip">'+esc(statusNames[topic.reviewStatus]||"見直し中")+'</span></div>'+
     '<p class="detail-grade">'+esc(gradeLabel(topic))+'　／　'+esc(topic.domain)+'</p>'+
     '<h2>'+esc(topic.name)+'</h2><p class="detail-description">'+esc(topic.description||"")+'</p>'+
     '<section class="progression-map" aria-label="学びの道すじ">'+
       '<div class="progression-title"><span class="progression-mark">学びの道すじ</span><p>つながりを選ぶと、その学びを中心に道すじをたどれます。</p></div>'+
-      '<div class="progression-stage"><div class="stage-label"><span>01</span><strong>これまで</strong></div>'+flowNodes(previous,"前につながる学びは、まだ整理中です。","previous")+'</div>'+
+      '<div class="progression-stage"><div class="stage-label"><span>01</span><strong>これまで</strong></div>'+flowNodes(previous,"前の学びは、まだ調べているところだよ。","previous")+'</div>'+
       '<div class="flow-arrow" aria-hidden="true">↓</div>'+
       '<div class="progression-stage is-current"><div class="stage-label"><span>02</span><strong>いま</strong></div>'+
         '<div class="flow-current"><span>'+esc(gradeLabel(topic))+'</span><strong>'+esc(topic.name)+'</strong><small>選択中の学び</small></div></div>'+
       '<div class="flow-arrow" aria-hidden="true">↓</div>'+
-      '<div class="progression-stage"><div class="stage-label"><span>03</span><strong>この先</strong></div>'+flowNodes(next,"次につながる学びは、これから整理します。","next")+'</div>'+
+      '<div class="progression-stage"><div class="stage-label"><span>03</span><strong>この先</strong></div>'+flowNodes(next,"次の学びは、これから調べていくよ。","next")+'</div>'+
     '</section>'+
     '<details class="source-details"><summary>出典・確認状況</summary><p class="muted">学習項目とつながりは確認中の候補です。公式の必修順序を示すものではありません。</p><ul>'+(sourceLinks||"<li>出典情報は未登録です。</li>")+'</ul><p class="muted small-note">項目ID：'+esc(topic.id)+'</p></details>';
   $("#detail").querySelectorAll("[data-topic-id]").forEach(button=>button.addEventListener("click",()=>renderDetail(button.dataset.topicId)));
