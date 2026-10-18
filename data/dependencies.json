@@ -711,6 +711,222 @@
       "rationale": "情報や統計を多面的に捉え、示された傾向と解釈を区別する。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review"
+    },
+    {
+      "id": "social-edge-005",
+      "from": "jp.elem.social.local-area",
+      "to": "jp.elem.social.prefecture-land",
+      "type": "related-learning",
+      "rationale": "身近な地域の位置関係を、都道府県の位置や広がりへと視野を広げる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "social-edge-006",
+      "from": "jp.elem.social.municipality-work",
+      "to": "jp.elem.social.agriculture",
+      "type": "related-learning",
+      "rationale": "地域の生産・販売の工夫と、食料生産の仕組みを比べる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "social-edge-007",
+      "from": "jp.elem.social.municipality-work",
+      "to": "jp.elem.social.industrial-production",
+      "type": "related-learning",
+      "rationale": "身近な仕事と全国的な工業生産の共通点や違いを比べる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "social-edge-008",
+      "from": "jp.elem.social.municipality-change",
+      "to": "jp.elem.social.timeline-sources",
+      "type": "application",
+      "rationale": "地域の変化を年表や過去の資料を使って整理する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "social-edge-009",
+      "from": "jp.elem.social.firefighting",
+      "to": "jp.elem.social.police-safety",
+      "type": "related-learning",
+      "rationale": "地域の安全を守る機関の役割と連携を比べる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "social-edge-010",
+      "from": "jp.elem.social.prefecture-industry",
+      "to": "jp.elem.social.agriculture",
+      "type": "application",
+      "rationale": "都道府県の特色を、農業や食料生産の具体的な事例と結び付ける。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "social-edge-011",
+      "from": "jp.elem.social.japan-landforms-climate",
+      "to": "jp.elem.social.natural-environment-life",
+      "type": "related-learning",
+      "rationale": "地形・気候の特徴と、人々の暮らしの工夫を関連付ける。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "social-edge-012",
+      "from": "jp.elem.social.agriculture",
+      "to": "jp.elem.social.food-life",
+      "type": "related-learning",
+      "rationale": "生産の工夫と、流通・消費を含む生活とのつながりを考える。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "social-edge-013",
+      "from": "jp.elem.social.industrial-production",
+      "to": "jp.elem.social.transport-trade",
+      "type": "related-learning",
+      "rationale": "原材料や製品の移動を、工業生産と物流の両面から捉える。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "social-edge-014",
+      "from": "jp.elem.social.environment-protection",
+      "to": "jp.elem.social.natural-environment-life",
+      "type": "related-learning",
+      "rationale": "自然環境と暮らしの関係を踏まえ、環境を守る社会的な取組を考える。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "social-edge-015",
+      "from": "jp.elem.social.unification",
+      "to": "jp.elem.social.edo-society",
+      "type": "extension",
+      "rationale": "統一後の政治や社会の仕組みを、江戸幕府の成立・安定と比べる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "social-edge-016",
+      "from": "jp.elem.social.edo-society",
+      "to": "jp.elem.social.modernization",
+      "type": "extension",
+      "rationale": "政治や社会の仕組みがどのように変わったかを比較する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "social-edge-017",
+      "from": "jp.elem.social.modernization",
+      "to": "jp.elem.social.war-and-recovery",
+      "type": "related-learning",
+      "rationale": "近代国家の形成と戦争・戦後の変化を、資料に基づき因果を単純化せず考える。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "social-edge-018",
+      "from": "jp.elem.social.war-and-recovery",
+      "to": "jp.elem.social.postwar-japan",
+      "type": "related-learning",
+      "rationale": "戦後の社会変化と国際社会における日本の役割を結び付ける。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "social-edge-019",
+      "from": "jp.elem.social.constitution",
+      "to": "jp.elem.social.diet",
+      "type": "related-learning",
+      "rationale": "憲法の原則と、国会が法律を制定する働きを関連付ける。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "social-edge-020",
+      "from": "jp.elem.social.diet",
+      "to": "jp.elem.social.government-courts",
+      "type": "related-learning",
+      "rationale": "立法・行政・司法の役割を区別し、相互の関係を捉える。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "social-edge-021",
+      "from": "jp.elem.social.local-government",
+      "to": "jp.elem.social.decision-civic",
+      "type": "application",
+      "rationale": "地域の課題を複数の立場や資料を基に考え、判断する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "social-edge-022",
+      "from": "jp.elem.social.international-relations",
+      "to": "jp.elem.social.postwar-japan",
+      "type": "related-learning",
+      "rationale": "歴史的な国際社会との関わりと、現在の国際協力をつなげて考える。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "social-edge-023",
+      "from": "jp.elem.social.maps-globes",
+      "to": "jp.elem.social.local-area",
+      "type": "application",
+      "rationale": "地図・地球儀を使い、地域の位置や空間的な広がりを調べる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "social-edge-024",
+      "from": "jp.elem.social.maps-globes",
+      "to": "jp.elem.social.japan-location",
+      "type": "application",
+      "rationale": "地図・地球儀を使い、日本の位置や国土の広がりを捉える。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "social-edge-025",
+      "from": "jp.elem.social.statistics-graphs",
+      "to": "jp.elem.math.bar-graphs",
+      "type": "related-learning",
+      "rationale": "社会資料の統計を読み取る際に、棒グラフの読み方を活用する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "social-edge-026",
+      "from": "jp.elem.social.statistics-graphs",
+      "to": "jp.elem.math.line-graphs",
+      "type": "related-learning",
+      "rationale": "社会の変化を表す統計資料を、折れ線グラフの読み方と結び付ける。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "social-edge-027",
+      "from": "jp.elem.social.statistics-graphs",
+      "to": "jp.elem.math.data-statistical-investigation",
+      "type": "application",
+      "rationale": "社会的な問いを調べるためにデータを集め、傾向や結論を検討する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "social-edge-028",
+      "from": "jp.elem.social.evidence-explanation",
+      "to": "jp.elem.math.data-based-reasoning",
+      "type": "related-learning",
+      "rationale": "資料の根拠と自分の解釈を分け、データに基づく説明を行う。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
     }
   ]
 }
