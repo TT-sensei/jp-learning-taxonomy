@@ -31,6 +31,7 @@
 
 - [学習項目データ](data/topics.json)
 - [学習項目間の関係](data/dependencies.json)
+- [学習項目間の関係：監査ログ](docs/relationship-audit-2026-10-18.md)
 - [学習指導要領・領域参照データ](data/curriculum-standards.json)
 - [学習項目と表現モデルの対応](data/representation-models.json)
 - [算数の表現モデルマップ](site/representations.html)
