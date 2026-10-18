@@ -349,7 +349,7 @@
       "rationale": "面積の計算で、単位や既知の量を目的に応じて選ぶ。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "面積の計算で、単位や既知の量を目的に応じて選ぶ。"
+      "studentRationale": "面積を求めるとき、図形や分かっている長さに合う単位を選ぼう。"
     },
     {
       "id": "math-edge-036",
@@ -369,7 +369,7 @@
       "rationale": "表に整理したデータを棒グラフで表現する。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "表に整理したデータを棒グラフで表現する。"
+      "studentRationale": "表にまとめたデータを棒グラフにすると、数のちがいを比べやすいよ。"
     },
     {
       "id": "math-edge-038",
@@ -409,7 +409,7 @@
       "rationale": "データを表現し、読み取った根拠を説明する活動で関連する。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "データを表現し、読み取った根拠を説明する活動で関連する。"
+      "studentRationale": "データから読み取ったことを、どの数字やグラフが根拠なのか示して説明しよう。"
     },
     {
       "id": "math-edge-043",
@@ -549,7 +549,7 @@
       "rationale": "比の表し方を、比の値や等しい比の理解へ広げる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "比の表し方を、比の値や等しい比の理解へ広げる。"
+      "studentRationale": "比の表し方を学んだら、比の値や等しい比も考えてみよう。"
     },
     {
       "id": "math-edge-057",
@@ -559,7 +559,7 @@
       "rationale": "表でデータを整理する力を、分布の読み取りへつなげる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "表でデータを整理する力を、分布の読み取りへつなげる。"
+      "studentRationale": "表にまとめたデータから、数の分布やかたよりを読み取ろう。"
     },
     {
       "id": "math-edge-058",
@@ -579,7 +579,7 @@
       "rationale": "長さの単位の関係を、量を横断する単位換算へつなげる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "長さの単位の関係を、量を横断する単位換算へつなげる。"
+      "studentRationale": "長さの単位で学んだことは、面積や体積など別の量の単位を考えるときにも役立つよ。"
     },
     {
       "id": "math-edge-060",
@@ -589,7 +589,7 @@
       "rationale": "面積単位の関係を他の量の単位と関連づける。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "面積単位の関係を他の量の単位と関連づける。"
+      "studentRationale": "面積の単位どうしの関係を知ると、ほかの単位の関係も考えやすいよ。"
     },
     {
       "id": "math-edge-061",
@@ -599,7 +599,7 @@
       "rationale": "体積単位の関係を他の量の単位と関連づける。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "体積単位の関係を他の量の単位と関連づける。"
+      "studentRationale": "体積の単位どうしの関係を知ると、ほかの単位とのつながりも考えやすいよ。"
     },
     {
       "id": "math-edge-062",
@@ -649,7 +649,7 @@
       "rationale": "角の大きさを測る見方を、三角形や四角形の角の性質を考える学習につなげる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "角の大きさを測る見方を、三角形や四角形の角の性質を考える学習につなげる。"
+      "studentRationale": "角の大きさを測る方法は、三角形や四角形の角のきまりを調べるときにも役立つよ。"
     },
     {
       "id": "math-edge-067",
@@ -669,7 +669,7 @@
       "rationale": "1位数をかける計算の理解を2位数をかける計算へ広げる候補。",
       "reviewStatus": "needs-review",
       "evidenceType": "editorial",
-      "studentRationale": "1位数をかける計算の理解を2位数をかける計算へ広げる候補だよ。"
+      "studentRationale": "1けたの数をかける計算をもとに、2けたの数をかける計算へ進もう。"
     },
     {
       "id": "proposed-math-edge-a-003",
@@ -679,7 +679,7 @@
       "rationale": "表し方の関係から数直線上での比較へ広げる候補。",
       "reviewStatus": "needs-review",
       "evidenceType": "editorial",
-      "studentRationale": "表し方の関係から数直線上での比較へ広げる候補だよ。"
+      "studentRationale": "小数と分数の表し方を比べることは、数直線で大きさを比べる学びにつながるよ。"
     },
     {
       "id": "proposed-math-edge-a-004",
@@ -689,7 +689,7 @@
       "rationale": "□を使った式を表すことから、□に当てはまる数を求める学習へつなぐ候補。",
       "reviewStatus": "needs-review",
       "evidenceType": "editorial",
-      "studentRationale": "□を使った式を表すことから、□に当てはまる数を求める学習へつなぐ候補だよ。"
+      "studentRationale": "□に入る数を求めることから、□を使って数や量の関係を表す学びへ進もう。"
     },
     {
       "id": "proposed-math-edge-a-005",
@@ -739,7 +739,7 @@
       "rationale": "自然条件と災害への備えの関係を具体的な地域事例から考える。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "自然条件と災害への備えの関係を具体的な地域事例から考える。"
+      "studentRationale": "地域の自然のようすと、災害に備える方法がどうつながるか考えよう。"
     },
     {
       "id": "social-edge-002",
@@ -749,7 +749,7 @@
       "rationale": "生活を支える事業について、資源の確保・処理・住民の協力を比べる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "生活を支える事業について、資源の確保・処理・住民の協力を比べる。"
+      "studentRationale": "水やごみなど生活を支えるしくみを比べ、資源の使い方や地域の協力について考えよう。"
     },
     {
       "id": "social-edge-003",
@@ -769,7 +769,7 @@
       "rationale": "情報や統計を多面的に捉え、示された傾向と解釈を区別する。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "統計などの情報をいくつかの見方で調べ、事実と考えを分けてみよう。"
+      "studentRationale": "データなどの情報をいくつかの見方で調べ、事実と考えを分けてみよう。"
     },
     {
       "id": "social-edge-005",
@@ -779,7 +779,7 @@
       "rationale": "身近な地域の位置関係を、都道府県の位置や広がりへと視野を広げる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "身近な地域の位置関係を、都道府県の位置や広がりへと視野を広げる。"
+      "studentRationale": "身近な地域の場所を調べることから、都道府県の場所や広がりへと見方を広げよう。"
     },
     {
       "id": "social-edge-006",
@@ -789,7 +789,7 @@
       "rationale": "地域の生産・販売の工夫と、食料生産の仕組みを比べる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "地域の生産・販売の工夫と、食料生産の仕組みを比べる。"
+      "studentRationale": "地域のお店や仕事の工夫と、食料を生産するしくみを比べてみよう。"
     },
     {
       "id": "social-edge-007",
@@ -799,7 +799,7 @@
       "rationale": "身近な仕事と全国的な工業生産の共通点や違いを比べる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "身近な仕事と全国的な工業生産の共通点や違いを比べる。"
+      "studentRationale": "身近な仕事と工場で物を作る仕事の、同じところやちがいを考えよう。"
     },
     {
       "id": "social-edge-008",
@@ -809,7 +809,7 @@
       "rationale": "地域の変化を年表や過去の資料を使って整理する。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "地域の変化を年表や過去の資料を使って整理する。"
+      "studentRationale": "地域の変化を、年表や昔の写真・資料を使って順番に整理しよう。"
     },
     {
       "id": "social-edge-009",
@@ -819,7 +819,7 @@
       "rationale": "地域の安全を守る機関の役割と連携を比べる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "地域の安全を守る機関の役割と連携を比べる。"
+      "studentRationale": "地域の安全を守る人々の役割と、協力のしかたを比べよう。"
     },
     {
       "id": "social-edge-010",
@@ -829,7 +829,7 @@
       "rationale": "都道府県の特色を、農業や食料生産の具体的な事例と結び付ける。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "都道府県の特色を、農業や食料生産の具体的な事例と結び付ける。"
+      "studentRationale": "都道府県の特徴を調べるとき、農業や食料生産の例と結び付けて考えよう。"
     },
     {
       "id": "social-edge-011",
@@ -839,7 +839,7 @@
       "rationale": "地形・気候の特徴と、人々の暮らしの工夫を関連付ける。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "地形・気候の特徴と、人々の暮らしの工夫を結び付ける。"
+      "studentRationale": "地形や気候の特徴と、人々のくらしの工夫を結び付けて考えよう。"
     },
     {
       "id": "social-edge-012",
@@ -849,7 +849,7 @@
       "rationale": "生産の工夫と、流通・消費を含む生活とのつながりを考える。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "生産の工夫と、流通・消費を含む生活とのつながりを考える。"
+      "studentRationale": "物を作る工夫が、運ぶことや買うこととどうつながるか考えよう。"
     },
     {
       "id": "social-edge-013",
@@ -869,7 +869,7 @@
       "rationale": "自然環境と暮らしの関係を踏まえ、環境を守る社会的な取組を考える。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "自然環境と暮らしの関係を踏まえ、環境を守る社会的な取組を考える。"
+      "studentRationale": "自然環境と人々のくらしの関係を考え、環境を守る取組について調べよう。"
     },
     {
       "id": "social-edge-015",
@@ -879,7 +879,7 @@
       "rationale": "統一後の政治や社会の仕組みを、江戸幕府の成立・安定と比べる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "統一後の政治や社会の仕組みを、江戸幕府の成立・安定と比べる。"
+      "studentRationale": "戦国時代の統一後と江戸幕府の政治を比べ、社会のしくみの変化を調べよう。"
     },
     {
       "id": "social-edge-016",
@@ -889,7 +889,7 @@
       "rationale": "政治や社会の仕組みがどのように変わったかを比較する。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "政治や社会の仕組みがどのように変わったかを比較する。"
+      "studentRationale": "時代ごとの政治や社会のしくみを比べ、何が変わったか考えよう。"
     },
     {
       "id": "social-edge-017",
@@ -899,7 +899,7 @@
       "rationale": "近代国家の形成と戦争・戦後の変化を、資料に基づき因果を単純化せず考える。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "近代国家の形成と戦争・戦後の変化を、資料に基づき因果を単純化せず考える。"
+      "studentRationale": "明治から戦争、戦後へと社会がどう変わったか、資料をもとに考えよう。"
     },
     {
       "id": "social-edge-018",
@@ -909,7 +909,7 @@
       "rationale": "戦後の社会変化と国際社会における日本の役割を結び付ける。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "戦後の社会変化と国際社会における日本の役割を結び付ける。"
+      "studentRationale": "戦後の日本の変化を知り、世界の中で日本が果たす役割を考えよう。"
     },
     {
       "id": "social-edge-019",
@@ -919,7 +919,7 @@
       "rationale": "憲法の原則と、国会が法律を制定する働きを関連付ける。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "憲法の原則と、国会が法律を制定する働きを結び付ける。"
+      "studentRationale": "憲法の考え方と、国会が法律を決める働きのつながりを考えよう。"
     },
     {
       "id": "social-edge-020",
@@ -939,7 +939,7 @@
       "rationale": "地域の課題を複数の立場や資料を基に考え、判断する。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "地域の課題を複数の立場や資料を基に考え、判断する。"
+      "studentRationale": "地域の問題について、いろいろな立場の人の考えや資料を比べて判断しよう。"
     },
     {
       "id": "social-edge-022",
@@ -949,7 +949,7 @@
       "rationale": "歴史的な国際社会との関わりと、現在の国際協力をつなげて考える。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "歴史的な国際社会との関わりと、現在の国際協力をつなげて考える。"
+      "studentRationale": "昔の日本と世界のつながりを、今の国際協力と結び付けて考えよう。"
     },
     {
       "id": "social-edge-023",
@@ -959,7 +959,7 @@
       "rationale": "地図・地球儀を使い、地域の位置や空間的な広がりを調べる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "地図・地球儀を使い、地域の位置や空間的な広がりを調べる。"
+      "studentRationale": "地図や地球儀を使って、地域がどこにあり、どのくらい広がっているか調べよう。"
     },
     {
       "id": "social-edge-024",
@@ -999,7 +999,7 @@
       "rationale": "社会的な問いを調べるためにデータを集め、傾向や結論を検討する。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "社会的な問いを調べるためにデータを集め、傾向や結論を検討する。"
+      "studentRationale": "社会の疑問を調べるためにデータを集め、分かったことから答えを考えよう。"
     },
     {
       "id": "social-edge-028",
@@ -1009,7 +1009,7 @@
       "rationale": "資料の根拠と自分の解釈を分け、データに基づく説明を行う。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "資料の根拠と自分の解釈を分け、データに基づく説明を行う。"
+      "studentRationale": "資料に書かれた事実と自分の考えを分け、数字や記録を根拠に説明しよう。"
     },
     {
       "id": "grade-link-001",
@@ -1039,7 +1039,7 @@
       "rationale": "三角形・四角形の基本的な特徴を、四角形を分類し性質を調べる学習へ広げる。",
       "reviewStatus": "needs-review",
       "evidenceType": "editorial",
-      "studentRationale": "三角形・四角形の基本的な特徴を、四角形を分類し性質を調べる学習へ広げる。"
+      "studentRationale": "三角形や四角形の特徴を知ると、四角形を仲間分けして性質を調べやすいよ。"
     },
     {
       "id": "grade-link-004",
@@ -1059,7 +1059,7 @@
       "rationale": "都道府県の産業の特色を調べた経験を、日本の工業生産や貿易の仕組みと比べる。",
       "reviewStatus": "needs-review",
       "evidenceType": "editorial",
-      "studentRationale": "都道府県の産業の特色を調べた経験を、日本の工業生産や貿易の仕組みと比べる。"
+      "studentRationale": "都道府県の産業を調べた経験は、日本の工業生産や貿易を考えるときにも役立つよ。"
     },
     {
       "id": "grade-link-006",
@@ -1069,7 +1069,7 @@
       "rationale": "古代の国づくりや文化を踏まえ、武士の登場によって政治や社会がどう変化したかを考える。",
       "reviewStatus": "needs-review",
       "evidenceType": "editorial",
-      "studentRationale": "古代の国づくりや文化を踏まえ、武士の登場によって政治や社会がどう変化したかを考える。"
+      "studentRationale": "古代の国づくりや文化を知ると、武士の登場で政治や社会がどう変わったか考えやすいよ。"
     },
     {
       "id": "grade-link-007",
@@ -1089,7 +1089,7 @@
       "rationale": "地図や地球儀を使って、都道府県の位置や地形・広がりを調べる。",
       "reviewStatus": "needs-review",
       "evidenceType": "editorial",
-      "studentRationale": "地図や地球儀を使って、都道府県の位置や地形・広がりを調べる。"
+      "studentRationale": "地図や地球儀の使い方を学ぶと、都道府県の場所や地形を調べられるよ。"
     },
     {
       "id": "grade-link-009",
@@ -1109,7 +1109,7 @@
       "rationale": "加法の意味を具体的な場面で捉えた経験を、交換法則や結合法則を使った計算の工夫へつなげる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "たし算の意味を具体的な場面で捉えた経験を、交換法則や結合法則を使った計算の工夫へつなげる。"
+      "studentRationale": "たし算になる場面を式に表すことから、計算の順番やまとめ方を工夫する学びにつながるよ。"
     },
     {
       "id": "grade-link-114",
@@ -1119,7 +1119,7 @@
       "rationale": "減法の場面を式で表す経験を、□を使って数量の関係を表す学習へつなげる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "ひき算の場面を式で表す経験を、□を使って数や量のつながりを表す学習へつなげる。"
+      "studentRationale": "ひき算になる場面を式に表すことは、□を使って数や量の関係を考えるときに役立つよ。"
     },
     {
       "id": "grade-link-116",
@@ -1129,7 +1129,7 @@
       "rationale": "単位分数や分数の意味を土台に、同じ分母の分数を合わせたり比べたりする計算へ進む。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "分数の1つ分や分数の意味を土台に、同じ分母の分数を合わせたり比べたりする計算へ進む。"
+      "studentRationale": "分数の1つ分や大きさを知ることが、分母が同じ分数の計算につながるよ。"
     },
     {
       "id": "grade-link-117",
@@ -1139,7 +1139,7 @@
       "rationale": "0.1を単位とする小数の見方を、小数の加法・減法で位をそろえる考え方に生かす。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "0.1を単位とする小数の見方を、小数のたし算・ひき算で位をそろえる考え方に生かす。"
+      "studentRationale": "0.1の大きさが分かると、小数のたし算・ひき算で位をそろえる理由も分かるよ。"
     },
     {
       "id": "grade-link-119",
@@ -1149,7 +1149,7 @@
       "rationale": "身の回りの形の特徴に気付く経験を、形を組み合わせたり分解したりする活動へ広げる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "身の回りの形の特徴に気付く経験を、形を組み合わせたり分解したりする活動へ広げる。"
+      "studentRationale": "身の回りの形を見つけた経験は、形を組み合わせたり分けたりするときに役立つよ。"
     },
     {
       "id": "grade-link-120",
@@ -1159,7 +1159,7 @@
       "rationale": "図形の辺や角などの特徴に着目する見方を、四角形の分類や性質の理解にも活用する。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "図形の辺や角などの特徴に着目する見方を、四角形の分類や性質の理解にも使う。"
+      "studentRationale": "辺や角の特徴を見比べると、四角形を仲間分けし、それぞれのきまりを考えられるよ。"
     },
     {
       "id": "grade-link-121",
@@ -1169,7 +1169,7 @@
       "rationale": "身近な地域の様子を調べるために、地図や方位を使って位置関係を表す。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "身近な地域の様子を調べるために、地図や方位を使って位置関係を表す。"
+      "studentRationale": "身近な地域の場所を調べるとき、地図や方位を使って位置を表す方法が役立つよ。"
     },
     {
       "id": "grade-link-122",
@@ -1179,7 +1179,7 @@
       "rationale": "市区町村の移り変わりを捉えたうえで、地域の発展に尽くした人々の働きを調べる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "市区町村の移り変わりを捉えたうえで、地域の発展に尽くした人々の働きを調べる。"
+      "studentRationale": "市や町がどのように変わったか知ると、地域をよくするために働いた人々のことも調べやすいよ。"
     },
     {
       "id": "grade-link-123",
@@ -1189,7 +1189,7 @@
       "rationale": "地域に伝わる文化や年中行事を手がかりに、文化や暮らしが時代とともに変化してきたことを考える。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "地域に伝わる文化や年中行事を手がかりに、文化や暮らしが時代とともに変化してきたことを考える。"
+      "studentRationale": "地域の文化や年中行事を調べると、人々のくらしが時代とともに変わってきたことが分かるよ。"
     },
     {
       "id": "grade-link-124",
@@ -1199,7 +1199,7 @@
       "rationale": "数を数え順序を表す経験を、数の大小を比べて順序づける学習へ広げる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "数を数え順序を表す経験を、数の大小を比べて順序づける学習へ広げる。"
+      "studentRationale": "数を数えて順番を表すことから、数の大きさを比べて順に並べる学びへ進もう。"
     },
     {
       "id": "grade-link-125",
@@ -1209,7 +1209,7 @@
       "rationale": "加法の交換法則・結合法則を使う見方を、分配法則を使った計算の工夫へ広げる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "たし算の順番やまとめ方を変えても答えが変わらないきまりを使う見方を、数を分けて計算するきまりを使った計算の工夫へ広げる。"
+      "studentRationale": "たし算の順番やまとめ方のきまりは、数を分けて計算する工夫にもつながるよ。"
     },
     {
       "id": "grade-link-126",
@@ -1219,7 +1219,7 @@
       "rationale": "□に当てはまる数を求める学習から、複数の数量の関係を式に表す学習へ発展させる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "□に当てはまる数を求める学習から、複数の数や量のつながりを式に表す学習へ発展させる。"
+      "studentRationale": "□に入る数を求めた経験をもとに、いくつかの数や量の関係を式で表そう。"
     },
     {
       "id": "grade-link-127",
@@ -1229,7 +1229,7 @@
       "rationale": "0.1と1/10の関係を、小数と分数の等しい大きさを捉える学習へつなげる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "0.1と1/10の関係を、小数と分数の等しい大きさを考える学習へつなげる。"
+      "studentRationale": "0.1と1/10が同じ大きさだと分かると、小数と分数を比べやすいよ。"
     },
     {
       "id": "grade-link-128",
@@ -1239,7 +1239,7 @@
       "rationale": "分数の大きさや等しい分数の見方を、異分母分数の計算で分母をそろえる必要性の理解に生かす。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "分数の大きさや等しい分数の見方を、分母がちがう分数の計算で分母をそろえる必要性の理解に生かす。"
+      "studentRationale": "分数の大きさや等しい分数を知ると、分母がちがう分数で分母をそろえる理由を考えやすいよ。"
     },
     {
       "id": "grade-link-129",
@@ -1249,7 +1249,7 @@
       "rationale": "式の構造や計算順序の理解を、文字を用いて数量の関係を一般的に表す学習へ広げる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "式の構造や計算順序の理解を、文字を用いて数や量のつながりを一般的に表す学習へ広げる。"
+      "studentRationale": "式の組み立てや計算の順番が分かると、文字を使って数や量の関係を表せるよ。"
     },
     {
       "id": "grade-link-130",
@@ -1259,7 +1259,7 @@
       "rationale": "図形を分割・変形して面積を求める考え方を、円の面積の求め方を考える際にも活用する。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "図形を分割・変形して面積を求める考え方を、円の面積の求め方を考える際にも使う。"
+      "studentRationale": "図形を分けたり形を変えたりして面積を求める考え方は、円の面積を考えるときにも使えるよ。"
     },
     {
       "id": "grade-link-131",
@@ -1269,7 +1269,7 @@
       "rationale": "直方体の体積の求め方を、身の回りの立体のおよその体積を見積もる活動に活用する。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "直方体の体積の求め方を、身の回りの立体のおよその体積を見積もる活動に使う。"
+      "studentRationale": "直方体の体積の求め方を使うと、身の回りの立体の体積もおよそで見積もれるよ。"
     },
     {
       "id": "grade-link-132",
@@ -1279,7 +1279,7 @@
       "rationale": "平均を一つの代表値として捉え、他の視点と比べながらデータの特徴を考える。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "平均を一つの代表値として捉え、他の視点と比べながらデータの特徴を考える。"
+      "studentRationale": "平均でデータ全体の様子を表し、ほかの見方とも比べて特徴を考えよう。"
     },
     {
       "id": "grade-link-133",
@@ -1289,7 +1289,7 @@
       "rationale": "割合を表すグラフを読む経験を、データの特徴を複数の視点から捉える学習へつなげる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "割合を表すグラフを読む経験を、データの特徴を複数の視点から考える学習へつなげる。"
+      "studentRationale": "割合のグラフを読む経験は、データをいくつかの見方で考えるときに役立つよ。"
     },
     {
       "id": "grade-link-134",
@@ -1299,7 +1299,7 @@
       "rationale": "比の見方を、縮図の縮尺から実際の長さを求める学習に活用する。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "比の見方を、縮図の縮尺から実際の長さを求める学習に使う。"
+      "studentRationale": "比の考え方を使うと、縮図から実際の長さを求められるよ。"
     },
     {
       "id": "grade-link-135",
@@ -1309,7 +1309,7 @@
       "rationale": "都道府県ごとの地形や気候の特徴を、日本全体の地形・気候の特色と比べる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "都道府県ごとの地形や気候の特徴を、日本全体の地形・気候の特色と比べる。"
+      "studentRationale": "都道府県ごとの地形や気候を比べると、日本全体の特徴も考えやすいよ。"
     },
     {
       "id": "grade-link-136",
@@ -1319,7 +1319,7 @@
       "rationale": "自然環境と暮らしの関係を踏まえ、環境を守るための社会的な取組を考える。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "自然環境と暮らしの関係を踏まえ、環境を守るための社会的な取組を考える。"
+      "studentRationale": "自然環境とくらしの関係を考えることは、環境を守る取組を考えるときに役立つよ。"
     },
     {
       "id": "grade-link-137",
@@ -1329,7 +1329,7 @@
       "rationale": "森林資源の利用や保全を、環境を守る取組の具体例として捉える。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "森林資源の利用や保全を、環境を守る取組の具体例として考える。"
+      "studentRationale": "森林の使い方や守り方は、環境を守る取組の具体例になるよ。"
     },
     {
       "id": "grade-link-138",
@@ -1339,7 +1339,7 @@
       "rationale": "水産物の生産を、食料供給と私たちの生活とのつながりから考える。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "水産物の生産を、食料供給と私たちの生活とのつながりから考える。"
+      "studentRationale": "水産物がどのように作られ、届けられるかを調べると、食料とくらしの関係が分かるよ。"
     },
     {
       "id": "grade-link-139",
@@ -1349,7 +1349,7 @@
       "rationale": "物流を支える交通網と、情報を集め活用する産業の役割を比べる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "物流を支える交通網と、情報を集め使う産業の役割を比べる。"
+      "studentRationale": "物を運ぶ交通のしくみと、情報を集めて使う産業の役割を比べよう。"
     },
     {
       "id": "grade-link-140",
@@ -1359,7 +1359,7 @@
       "rationale": "国の政治の仕組みを踏まえ、地方公共団体と住民の関係を比べて捉える。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "国の政治の仕組みを踏まえ、地方公共団体と住民の関係を比べて考える。"
+      "studentRationale": "国の政治のしくみを学ぶと、地方公共団体と住民の関係も比べて考えられるよ。"
     },
     {
       "id": "grade-link-141",
@@ -1369,7 +1369,7 @@
       "rationale": "戦後の日本と国際社会の関わりを、現在の国際協力の役割へつなげて考える。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "戦後の日本と国際社会の関わりを、現在の国際協力の役割へつなげて考える。"
+      "studentRationale": "戦後の日本と世界の関わりを知り、今の国際協力の役割について考えよう。"
     },
     {
       "id": "grade-link-039",
@@ -1379,7 +1379,7 @@
       "rationale": "音や文字への気付きが、文字を正しく読み書きする学習の土台になる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "音や文字への気付きが、文字を正しく読み書きする学習の土台になる。"
+      "studentRationale": "音や文字の特徴に気付くことは、文字を正しく読み書きする学びの土台になるよ。"
     },
     {
       "id": "grade-link-040",
@@ -1399,7 +1399,7 @@
       "rationale": "集めて記録した情報を、観点を決めて比べたり分類したりする。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "集めて記録した情報を、観点を決めて比べたり分類したりする。"
+      "studentRationale": "集めて記録した情報を、決めた観点で比べたり仲間分けしたりしよう。"
     },
     {
       "id": "grade-link-042",
@@ -1409,7 +1409,7 @@
       "rationale": "比較・分類の見方を、情報全体の順序や階層を整理することへ広げる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "比較・分類の見方を、情報全体の順序や階層を整理することへ広げる。"
+      "studentRationale": "情報を比べたり仲間分けしたりすることから、全体を順序や階層に整理する学びへ広げよう。"
     },
     {
       "id": "grade-link-043",
@@ -1419,7 +1419,7 @@
       "rationale": "情報の出どころを確かめながら、事実・意見・解釈を区別する。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "情報の出どころを確かめながら、事実・意見・解釈を区別する。"
+      "studentRationale": "情報の出どころを確かめながら、事実・意見・読み取りを区別しよう。"
     },
     {
       "id": "grade-link-044",
@@ -1429,7 +1429,7 @@
       "rationale": "文の組み立てに着目することから、接続語や修飾語が意味をつなぐ働きへ広げる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "文の組み立てに着目することから、接続語や修飾語が意味をつなぐ働きへ広げる。"
+      "studentRationale": "文の組み立てを考えることから、接続語や修飾語の働きにも目を向けよう。"
     },
     {
       "id": "grade-link-045",
@@ -1439,7 +1439,7 @@
       "rationale": "個々の言葉の意味から、語句どうしの関係や構成へと見方を深める。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "個々の言葉の意味から、語句どうしの関係や構成へと見方を深める。"
+      "studentRationale": "言葉の意味を知ることから、言葉どうしのつながりや成り立ちへと考えを広げよう。"
     },
     {
       "id": "grade-link-046",
@@ -1449,7 +1449,7 @@
       "rationale": "声に出して表現を味わう経験と、詩歌の響きやリズムに着目する学びをつなぐ。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "声に出して表現を味わう経験と、詩歌の響きやリズムに着目する学びをつなぐ。"
+      "studentRationale": "声に出して読む経験は、詩の響きやリズムを味わう学びにつながるよ。"
     },
     {
       "id": "grade-link-047",
@@ -1459,7 +1459,7 @@
       "rationale": "回路をつなぐ基本を土台に、電流によって起こる働きを調べる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "回路をつなぐ基本を土台に、電流によって起こる働きを調べる。"
+      "studentRationale": "回路のつなぎ方を知ると、電流がどのような働きをするか調べられるよ。"
     },
     {
       "id": "grade-link-048",
@@ -1469,7 +1469,7 @@
       "rationale": "電流による働きを調べる経験から、電流がつくる磁力の規則性へ発展する。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "電流による働きを調べる経験から、電流がつくる磁力のきまりへ発展する。"
+      "studentRationale": "電流の働きを調べた経験をもとに、電流がつくる磁力のきまりを考えよう。"
     },
     {
       "id": "grade-link-049",
@@ -1479,7 +1479,7 @@
       "rationale": "身近な植物の体のつくりや成長への気付きを、発芽・成長・結実の条件を調べる学習へ広げる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "身近な植物の体のつくりや成長への気付きを、発芽・成長・結実の条件を調べる学習へ広げる。"
+      "studentRationale": "植物の体や育ち方を観察することから、発芽・成長・実に必要な条件を調べよう。"
     },
     {
       "id": "grade-link-050",
@@ -1489,7 +1489,7 @@
       "rationale": "発芽・成長・結実の条件を調べることから、植物の養分や水の通り道へ見方を広げる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "発芽・成長・結実の条件を調べることから、植物の養分や水の通り道へ考え方を広げる。"
+      "studentRationale": "植物の発芽や成長に必要な条件を調べたら、植物の養分や水の通り道にも目を向けよう。"
     },
     {
       "id": "grade-link-051",
@@ -1499,7 +1499,7 @@
       "rationale": "体のつくりと運動の関係から、呼吸・消化・循環など体の働きへと学びを広げる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "体のつくりと運動の関係から、呼吸・消化・循環など体の働きへと学びを広げる。"
+      "studentRationale": "体のつくりと動きの関係を知ることから、呼吸・消化・血液の循環など体の働きへ学びを広げよう。"
     },
     {
       "id": "grade-link-052",
@@ -1509,7 +1509,7 @@
       "rationale": "身近な天気や気温の変化を調べることから、雲の動きと天気の変化を予想する学習へ広げる.",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "身近な天気や気温の変化を調べることから、雲の動きと天気の変化を予想する学習へ広げる."
+      "studentRationale": "天気や気温を続けて調べると、雲の動きから天気の変化を考えやすくなるよ。"
     },
     {
       "id": "grade-link-053",
@@ -1519,7 +1519,7 @@
       "rationale": "語彙を増やす経験から、語句どうしの関係や構成にも目を向ける。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "語彙を増やす経験から、語句どうしの関係や構成にも目を向ける。"
+      "studentRationale": "知っている言葉を増やすことから、言葉どうしのつながりや成り立ちへ考えを広げよう。"
     },
     {
       "id": "grade-link-054",
@@ -1529,7 +1529,7 @@
       "rationale": "情報を集めて記録することから、複数の資料を照合することへ広げる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "情報を集めて記録することから、複数の資料を照合することへ広げる。"
+      "studentRationale": "情報を集めて記録することから、複数の資料を比べて確かめる学びへ進もう。"
     },
     {
       "id": "grade-link-055",
@@ -1539,7 +1539,7 @@
       "rationale": "複数資料を照合することと、情報の出どころや信頼性を確かめることをつなぐ。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "複数資料を照合することと、情報の出どころや信頼性を確かめることをつなぐ。"
+      "studentRationale": "資料を比べるときは、情報の出どころや確かさも確かめよう。"
     },
     {
       "id": "grade-link-056",
@@ -1549,7 +1549,7 @@
       "rationale": "情報の構造を整理する見方を、文章全体の構成を読むことに生かす。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "情報の構造を整理する見方を、文章全体の構成を読むことに生かす。"
+      "studentRationale": "情報を整理する見方を、文章全体の組み立てを読むときにも使おう。"
     },
     {
       "id": "grade-link-057",
@@ -1559,7 +1559,7 @@
       "rationale": "言葉や文を根拠に説明する力を、筆者の主張と根拠を読み取ることに生かす。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "言葉や文を根拠に説明する力を、筆者の主張と根拠を読み取ることに生かす。"
+      "studentRationale": "文章中の言葉を根拠に説明する力は、筆者の主張と理由を読み取るときにも役立つよ。"
     },
     {
       "id": "grade-link-058",
@@ -1579,7 +1579,7 @@
       "rationale": "書く題材を決めて材料を集め、その内容を整理して構成する。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "書く題材を決めて材料を集め、その内容を整理して構成する。"
+      "studentRationale": "書きたいことを決めて材料を集め、伝わりやすい順番に整理しよう。"
     },
     {
       "id": "grade-link-060",
@@ -1589,7 +1589,7 @@
       "rationale": "構成を考えて書いた文章を読み返し、より伝わる表現へ推敲する。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "構成を考えて書いた文章を読み返し、より伝わる表現へ推敲する。"
+      "studentRationale": "文章の組み立てを考えて書いたら、読み返してもっと伝わる表現に直そう。"
     },
     {
       "id": "grade-link-061",
@@ -1599,7 +1599,7 @@
       "rationale": "意見と理由を示す文章に、資料の引用や出典を適切に取り入れる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "意見と理由を示す文章に、資料の引用や出典を適切に取り入れる。"
+      "studentRationale": "意見と理由を書くときに、資料から引用した言葉や出典も示そう。"
     },
     {
       "id": "grade-link-062",
@@ -1619,7 +1619,7 @@
       "rationale": "物の性質を比べる見方を、物が水に溶ける量や条件の観察に生かす。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "物の性質を比べる見方を、物が水に溶ける量や条件の観察に生かす。"
+      "studentRationale": "物の性質を比べる考え方は、物が水に溶ける量や条件を調べるときにも役立つよ。"
     },
     {
       "id": "grade-link-064",
@@ -1629,7 +1629,7 @@
       "rationale": "水の状態変化を、自然界で水が循環する見方へつなげる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "水の状態変化を、自然界で水が循環する見方へつなげる。"
+      "studentRationale": "水が温まったり冷えたりするとどう変わるかを知ると、自然の中での水のめぐりも考えられるよ。"
     },
     {
       "id": "grade-link-065",
@@ -1639,7 +1639,7 @@
       "rationale": "動物の体のつくりへの着目を、人の骨・筋肉と運動の関係を調べる学習につなぐ。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "動物の体のつくりへの着目を、人の骨・筋肉と運動の関係を調べる学習につなぐ。"
+      "studentRationale": "動物の体のつくりに注目することから、人の骨・筋肉と動きの関係を調べよう。"
     },
     {
       "id": "grade-link-066",
@@ -1649,7 +1649,7 @@
       "rationale": "季節による生物の変化を観察することから、生物と環境の関わりを広く考える。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "季節による生物の変化を観察することから、生物と環境の関わりを広く考える。"
+      "studentRationale": "季節による生き物の変化を観察することから、生き物と環境のつながりへ目を向けよう。"
     },
     {
       "id": "grade-link-067",
@@ -1659,7 +1659,7 @@
       "rationale": "流れる水による土地の変化を、土地のつくりと変化の学習に関連付ける。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "流れる水による土地の変化を、土地のつくりと変化の学習に結び付ける。"
+      "studentRationale": "流れる水が土地を変える働きを知ると、土地のでき方や変化も考えやすいよ。"
     },
     {
       "id": "grade-link-068",
@@ -1669,7 +1669,7 @@
       "rationale": "自然事象から問題を見いだし、既習内容や経験を基に予想する。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "自然ことがらから問題を見いだし、既習内容や経験を基に予想する。"
+      "studentRationale": "自然の中の変化やちがいから調べたい問題を見つけ、これまでの経験をもとに予想しよう。"
     },
     {
       "id": "grade-link-069",
@@ -1679,7 +1679,7 @@
       "rationale": "予想を確かめるために、調べ方や条件を計画する。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "予想を確かめるために、調べ方や条件を計画する。"
+      "studentRationale": "予想を確かめるには、何をどう調べるか、どんな条件にするかを計画しよう。"
     },
     {
       "id": "grade-link-070",
@@ -1699,7 +1699,7 @@
       "rationale": "記録・整理した結果を、問題や予想と照らして結論を導くために使う。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "記録・整理した結果を、問題や予想と照らして結論を導くために使う。"
+      "studentRationale": "記録した結果を問題や予想と比べて、何が分かったかをまとめよう."
     }
   ]
 }
