@@ -1,4 +1,4 @@
-const state = { topics: [], dependencies: [], standards: null, selected: null };
+const state = { topics: [], dependencies: [], standards: null, selected: null, guideNoteOpen: false, guideCharacterIndex: -1 };
 const $ = (selector) => document.querySelector(selector);
 const esc = (value) => String(value ?? "").replace(/[&<>"']/g, (c) => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const relationNames = {
@@ -411,6 +411,78 @@ function syncDetailToFilters(scroll = false) {
     $("#detail").innerHTML = '<p class="muted">見つからなかったよ。教科や学年を変えたり、別の言葉で探したりしてみよう。</p>';
   }
 }
+const guideCharacters = [
+  { id: "saku", pose: "reading.png", line: "まずは今の学びを見つけよう。前に習ったことを思い出すと、今の学習が分かりやすくなることがあるよ。" },
+  { id: "kai", pose: "hint.png", line: "「何を使って考えたかな？」と問い直すと、復習するところが見つかるよ。" },
+  { id: "riku", pose: "thinking.png", line: "つながりを見つけたら、なぜそう思ったのかも考えてみよう。" },
+  { id: "sora", pose: "pointing.png", line: "今の学びから出発！前にもどっても、この先に進んでもいいんだ。" },
+  { id: "tsuki", pose: "hint.png", line: "気になったことが見つかったらチャンス！自分で一つ選んで取り組もう。" },
+  { id: "nami", pose: "reading.png", line: "すぐに答えが見つからなくても大丈夫。自分に必要な学びをゆっくり探そう。" }
+];
+function renderSelfStudyGuide(action = "") {
+  const characterBox = $("#guide-character");
+  const message = $("#guide-message");
+  if (!characterBox || !message) return;
+  let options = guideCharacters.map((character, index) => ({ character, index })).filter(item => item.index !== state.guideCharacterIndex);
+  const picked = options[Math.floor(Math.random() * options.length)] || { character: guideCharacters[0], index: 0 };
+  state.guideCharacterIndex = picked.index;
+  const character = picked.character;
+  const topic = state.topics.find(item => item.id === state.selected);
+  const title = topic ? topicTitle(topic) : "";
+  const prior = topic ? relationCandidates(topic, "prior") : [];
+  const future = topic ? relationCandidates(topic, "future") : [];
+  characterBox.innerHTML = '<img src="https://raw.githubusercontent.com/TT-sensei/navi-character-/main/assets/characters/' + character.id + '/fullbody/' + character.pose + '" alt="" loading="lazy" decoding="async"><span>ナビからひとこと</span>';
+  if (!topic) {
+    message.innerHTML = '<strong>' + character.line + '</strong><p>教科・学年・言葉で探して、今の学習に近い項目をタップしてね。</p>';
+  } else if (action === "look-back") {
+    message.innerHTML = '<strong>今見ているのは「' + esc(title) + '」だね。</strong><p>' + (prior.length ? '「先に学ぶとよいこと」に、前に習った学びがあるよ。気になる項目を選んで、どこがつながるか確かめよう。' : '前に習った学びの登録がまだ少ないみたい。教科や言葉を変えて、似た学びを探してもいいよ。') + '</p>';
+  } else if (action === "look-ahead") {
+    message.innerHTML = '<strong>「' + esc(title) + '」の先も見てみよう。</strong><p>' + (future.length ? '「この学びから広がること」にある項目を選んで、今の学びがどんなところで使えるか考えてみよう。' : 'この先につながる学びは、まだ登録されていないこともあるよ。今の学びをどこで使えそうか、自分で予想してみよう。') + '</p>';
+  } else if (action === "notebook") {
+    message.innerHTML = '<strong>自学することは、自分で決めていいんだよ。</strong><p>今の学習で困っているところや、つながりを確かめたいところを一つ選ぼう。</p>';
+  } else {
+    message.innerHTML = '<strong>今見ている学び：「' + esc(title) + '」</strong><p>' + character.line + '</p><p>' + (prior.length ? '前に習った学びが ' + prior.length + ' 件' : '前に習った学びは、まだ登録されていない場合もあるよ') + '。' + (future.length ? 'この先につながる学びも ' + future.length + ' 件見つかったよ。' : 'この先の学びも見てみよう。') + '</p>';
+  }
+  const prompts = $("#guide-notebook-prompts");
+  const noteButton = $('#self-study-guide [data-guide-action="notebook"]');
+  if (prompts) prompts.hidden = !state.guideNoteOpen;
+  if (noteButton) {
+    noteButton.setAttribute("aria-expanded", String(state.guideNoteOpen));
+    noteButton.textContent = state.guideNoteOpen ? "ノートのヒントを閉じる" : "ノートのヒントを開く";
+  }
+}
+function bindSelfStudyGuide() {
+  const guide = $("#self-study-guide");
+  if (!guide || guide.dataset.bound === "true") return;
+  guide.dataset.bound = "true";
+  guide.addEventListener("click", event => {
+    const button = event.target.closest("[data-guide-action]");
+    if (!button) return;
+    const action = button.dataset.guideAction;
+    if (action === "choose") {
+      $("#controls-anchor")?.scrollIntoView({ behavior: "smooth", block: "start" });
+      $("#query")?.focus({ preventScroll: true });
+      renderSelfStudyGuide("choose");
+    } else if (action === "look-back" || action === "look-ahead") {
+      const stage = $("#detail [data-stage='" + (action === "look-back" ? "prior" : "future") + "']");
+      if (!state.selected) {
+        $("#controls-anchor")?.scrollIntoView({ behavior: "smooth", block: "start" });
+        $("#query")?.focus({ preventScroll: true });
+      } else if (stage) {
+        stage.scrollIntoView({ behavior: "smooth", block: "center" });
+        stage.classList.add("guide-stage-focus");
+        window.setTimeout(() => stage.classList.remove("guide-stage-focus"), 1600);
+      } else {
+        $("#detail")?.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+      renderSelfStudyGuide(action);
+    } else if (action === "notebook") {
+      state.guideNoteOpen = !state.guideNoteOpen;
+      renderSelfStudyGuide(action);
+      if (state.guideNoteOpen) $("#guide-notebook-prompts")?.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    }
+  });
+}
 function renderDetail(id, scroll = true) {
   const topic=state.topics.find(item=>item.id===id);
   if(!topic) return;
@@ -430,15 +502,16 @@ function renderDetail(id, scroll = true) {
     '<h2>'+rubyHTML(topicTitle(topic))+'</h2><p class="detail-description">'+rubyHTML(topicText(topic))+'</p>'+
     '<section class="progression-map" aria-label="学びのつながり">'+
       '<div class="progression-title"><span class="progression-mark">'+rubyHTML("学びのつながり")+'</span><p>'+rubyHTML("「先に学ぶ」「関係する」「使って広げる」を分けているよ。必ずこの順番で学ぶという意味ではないよ。")+'</p></div>'+
-      '<div class="progression-stage"><div class="stage-label"><span>01</span><strong>'+rubyHTML("先に学ぶとよいこと")+'</strong></div>'+flowNodes(previous,"先に学ぶとよい項目は、まだ登録されていないよ。ほかにも必要な学びがあるかもしれないね。","prior")+'</div>'+
-      '<div class="progression-stage is-current"><div class="stage-label"><span>02</span><strong>'+rubyHTML("今見ている学び")+'</strong></div>'+
+      '<div class="progression-stage" data-stage="prior"><div class="stage-label"><span>01</span><strong>'+rubyHTML("先に学ぶとよいこと")+'</strong></div>'+flowNodes(previous,"先に学ぶとよい項目は、まだ登録されていないよ。ほかにも必要な学びがあるかもしれないね。","prior")+'</div>'+
+      '<div class="progression-stage is-current" data-stage="current"><div class="stage-label"><span>02</span><strong>'+rubyHTML("今見ている学び")+'</strong></div>'+
         '<div class="flow-current"><span>'+rubyHTML(topic.subject+"・"+gradeLabel(topic))+'</span><strong>'+rubyHTML(topicTitle(topic))+'</strong><small>'+rubyHTML("今、見ている学び")+'</small></div></div>'+
-      '<div class="progression-stage"><div class="stage-label"><span>03</span><strong>'+rubyHTML("関係する学び")+'</strong></div>'+flowNodes(related,"関係する学びは、まだ登録されていないよ。","related")+'</div>'+
-      '<div class="progression-stage"><div class="stage-label"><span>04</span><strong>'+rubyHTML("この学びから広がること")+'</strong></div>'+flowNodes(next,"使ったり、さらに考えを広げたりする学びは、まだ登録されていないよ。","future")+'</div>'+
+      '<div class="progression-stage" data-stage="related"><div class="stage-label"><span>03</span><strong>'+rubyHTML("関係する学び")+'</strong></div>'+flowNodes(related,"関係する学びは、まだ登録されていないよ。","related")+'</div>'+
+      '<div class="progression-stage" data-stage="future"><div class="stage-label"><span>04</span><strong>'+rubyHTML("この学びから広がること")+'</strong></div>'+flowNodes(next,"使ったり、さらに考えを広げたりする学びは、まだ登録されていないよ。","future")+'</div>'+
     '</section>'+
     '<details class="source-details"><summary>先生・保護者向けの確認情報</summary><p class="muted">学びのつながりは確認中です。必ずこの順番で学ぶ、という意味ではありません。</p><ul>'+(sourceLinks||"<li>出典情報は未登録です。</li>")+'</ul></details>';
   $("#detail").querySelectorAll("[data-topic-id]").forEach(button=>button.addEventListener("click",()=>navigateToConnectedTopic(button.dataset.topicId)));
   renderList();
+  renderSelfStudyGuide();
   if (scroll) $("#detail").scrollIntoView({behavior:"smooth",block:"nearest"});
 }
 async function init() {
@@ -450,6 +523,8 @@ async function init() {
     state.dependencies=dependencies.dependencies||[];
     state.standards=standards;
     renderFilters();
+    bindSelfStudyGuide();
+    renderSelfStudyGuide();
     renderList();
     const first=filteredTopics()[0];
     if($("#subject").value && first) renderDetail(first.id);
