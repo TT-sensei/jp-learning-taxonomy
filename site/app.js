@@ -109,7 +109,9 @@ function renderGradeMap(subject) {
     return '<section class="grade-lane"><header class="grade-lane-head"><span>'+grade+'年</span><small>初出候補 '+topics.length+'件</small></header>'+
       [...groups.entries()].map(([domain,items])=>'<div class="grade-lane-group"><h3>'+esc(domain)+'</h3>'+
         items.map(topic=>{
-          const continuing=gradeListLabel(topic.gradePlacement?.candidateContinuingGrades||[]);
+          const candidateGrade=Number(topic.gradePlacement?.candidateFirstIntroductionGrade)||Math.min(...(topic.grades||[99]));
+          const continuingGrades=(topic.gradePlacement?.candidateContinuingGrades||[]).length?topic.gradePlacement.candidateContinuingGrades:(topic.grades||[]).filter(g=>g!==candidateGrade);
+          const continuing=gradeListLabel(continuingGrades);
           return '<button type="button" class="grade-topic'+(state.selected===topic.id?' is-selected':'')+'" data-topic-id="'+esc(topic.id)+'" aria-pressed="'+(state.selected===topic.id)+'">'+
             '<strong>'+esc(topic.name)+'</strong>'+
             (continuing?'<span class="grade-topic-continuation">継続候補：'+esc(continuing)+'</span>':'')+
