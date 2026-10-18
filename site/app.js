@@ -283,10 +283,10 @@ function flowNodes(items, empty, group) {
   return '<div class="flow-nodes">'+items.slice(0,3).map(item=>{
     const topic=item.topic, edge=item.edge;
     return '<button type="button" class="flow-node" data-subject="'+esc(topic.subject)+'" data-topic-id="'+esc(topic.id)+'">'+
-      '<span class="flow-grade">'+esc(topic.subject+"・"+gradeLabel(topic))+'</span>'+
+      '<span class="flow-grade">'+rubyHTML(topic.subject+"・"+gradeLabel(topic))+'</span>'+
       '<strong>'+rubyHTML(topicTitle(topic))+'</strong>'+
-      '<span class="path-kind">'+esc(relationLabel(edge,group))+'</span>'+
-      '<span class="flow-why"><b>どうつながる？</b> '+esc(edge.studentRationale || studentRationale(edge.rationale))+'</span></button>';
+      '<span class="path-kind">'+rubyHTML(relationLabel(edge,group))+'</span>'+
+      '<span class="flow-why"><b>'+rubyHTML("どうつながる？")+'</b> '+rubyHTML(edge.studentRationale || studentRationale(edge.rationale))+'</span></button>';
   }).join("")+'</div>'+
   (items.length>3?'<p class="muted small-note">'+rubyHTML("ほかにも")+(items.length-3)+rubyHTML("件のつながりがあるよ。")+'</p>':'');
 }
@@ -330,12 +330,12 @@ function renderDetail(id, scroll = true) {
     '<p class="detail-grade">'+rubyHTML(gradeLabel(topic))+'　／　'+rubyHTML(topicGroup(topic))+'</p>'+
     '<h2>'+rubyHTML(topicTitle(topic))+'</h2><p class="detail-description">'+rubyHTML(topicText(topic))+'</p>'+
     '<section class="progression-map" aria-label="学びのつながり">'+
-      '<div class="progression-title"><span class="progression-mark">学びのつながり</span><p>「先に学ぶ」「関係する」「使って広げる」を分けているよ。必ずこの順番で学ぶという意味ではないよ。</p></div>'+
-      '<div class="progression-stage"><div class="stage-label"><span>01</span><strong>先に学ぶとよいこと</strong></div>'+flowNodes(previous,"先に学ぶとよい項目は、まだ登録されていないよ。ほかにも必要な学びがあるかもしれないね。","prior")+'</div>'+
-      '<div class="progression-stage is-current"><div class="stage-label"><span>02</span><strong>今見ている学び</strong></div>'+
-        '<div class="flow-current"><span>'+rubyHTML(topic.subject)+"・"+esc(gradeLabel(topic))+'</span><strong>'+rubyHTML(topicTitle(topic))+'</strong><small>今、見ている学び</small></div></div>'+
-      '<div class="progression-stage"><div class="stage-label"><span>03</span><strong>関係する学び</strong></div>'+flowNodes(related,"関係する学びは、まだ登録されていないよ。","related")+'</div>'+
-      '<div class="progression-stage"><div class="stage-label"><span>04</span><strong>この学びから広がること</strong></div>'+flowNodes(next,"使ったり、さらに考えを広げたりする学びは、まだ登録されていないよ。","future")+'</div>'+
+      '<div class="progression-title"><span class="progression-mark">'+rubyHTML("学びのつながり")+'</span><p>'+rubyHTML("「先に学ぶ」「関係する」「使って広げる」を分けているよ。必ずこの順番で学ぶという意味ではないよ。")+'</p></div>'+
+      '<div class="progression-stage"><div class="stage-label"><span>01</span><strong>'+rubyHTML("先に学ぶとよいこと")+'</strong></div>'+flowNodes(previous,"先に学ぶとよい項目は、まだ登録されていないよ。ほかにも必要な学びがあるかもしれないね。","prior")+'</div>'+
+      '<div class="progression-stage is-current"><div class="stage-label"><span>02</span><strong>'+rubyHTML("今見ている学び")+'</strong></div>'+
+        '<div class="flow-current"><span>'+rubyHTML(topic.subject+"・"+gradeLabel(topic))+'</span><strong>'+rubyHTML(topicTitle(topic))+'</strong><small>'+rubyHTML("今、見ている学び")+'</small></div></div>'+
+      '<div class="progression-stage"><div class="stage-label"><span>03</span><strong>'+rubyHTML("関係する学び")+'</strong></div>'+flowNodes(related,"関係する学びは、まだ登録されていないよ。","related")+'</div>'+
+      '<div class="progression-stage"><div class="stage-label"><span>04</span><strong>'+rubyHTML("この学びから広がること")+'</strong></div>'+flowNodes(next,"使ったり、さらに考えを広げたりする学びは、まだ登録されていないよ。","future")+'</div>'+
     '</section>'+
     '<details class="source-details"><summary>先生・保護者向けの確認情報</summary><p class="muted">学びのつながりは確認中です。必ずこの順番で学ぶ、という意味ではありません。</p><ul>'+(sourceLinks||"<li>出典情報は未登録です。</li>")+'</ul></details>';
   $("#detail").querySelectorAll("[data-topic-id]").forEach(button=>button.addEventListener("click",()=>navigateToConnectedTopic(button.dataset.topicId)));
