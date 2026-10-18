@@ -9,25 +9,6 @@ async function loadJson(path) {
   return response.json();
 }
 
-function gradeRangeLabel(grades) {
-  const sorted = [...new Set((grades || []).filter((grade) => Number.isInteger(grade) && grade >= 1 && grade <= 6))].sort((a, b) => a - b);
-  if (!sorted.length) return "";
-  const ranges = [];
-  let start = sorted[0], end = sorted[0];
-  for (const grade of sorted.slice(1)) {
-    if (grade === end + 1) { end = grade; continue; }
-    ranges.push([start, end]); start = end = grade;
-  }
-  ranges.push([start, end]);
-  return ranges.map(([from, to]) => from === to ? `${from}年` : `${from}〜${to}年`).join("・");
-}
-
-function topicGradeLabel(topic) {
-  if (!topic.grades?.length || topic.gradePlacement?.basis === "japanese-taxonomy-draft") return "学年は確認中";
-  const label = gradeRangeLabel(topic.grades);
-  return topic.gradePlacement?.status === "reviewed" ? label : `目安：${label}`;
-}
-
 async function init() {
   try {
     const [modelData, topicData] = await Promise.all([
@@ -60,7 +41,6 @@ async function init() {
             <ul>${relatedTopics.map((topic) => `
               <li>
                 <strong class="model-topic-title">${esc(topic.studentName || topic.name)}</strong>
-                <span class="model-meta">${esc(topicGradeLabel(topic))}</span>
                 <p class="model-topic-description">${esc(topic.studentDescription || topic.description || "")}</p>
               </li>
             `).join("")}</ul>
