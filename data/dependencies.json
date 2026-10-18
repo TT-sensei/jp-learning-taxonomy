@@ -1269,6 +1269,132 @@
       "rationale": "戦後の日本と国際社会の関わりを、現在の国際協力の役割へつなげて考える。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-039",
+      "from": "jp.elem.japanese.sounds-and-characters",
+      "to": "jp.elem.japanese.hiragana-kanji-katakana",
+      "type": "recommended-prerequisite",
+      "rationale": "音や文字への気付きが、文字を正しく読み書きする学習の土台になる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-040",
+      "from": "jp.elem.japanese.word-meaning",
+      "to": "jp.elem.japanese.vocabulary-expansion",
+      "type": "related-learning",
+      "rationale": "言葉の意味を捉える経験を重ね、使える語彙を広げる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-041",
+      "from": "jp.elem.japanese.collecting-and-recording-information",
+      "to": "jp.elem.japanese.compare-and-classify-information",
+      "type": "recommended-prerequisite",
+      "rationale": "集めて記録した情報を、観点を決めて比べたり分類したりする。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-042",
+      "from": "jp.elem.japanese.compare-and-classify-information",
+      "to": "jp.elem.japanese.information-structure",
+      "type": "extension",
+      "rationale": "比較・分類の見方を、情報全体の順序や階層を整理することへ広げる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-043",
+      "from": "jp.elem.japanese.source-and-reliability",
+      "to": "jp.elem.japanese.facts-opinions-and-interpretations",
+      "type": "related-learning",
+      "rationale": "情報の出どころを確かめながら、事実・意見・解釈を区別する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-044",
+      "from": "jp.elem.japanese.sentence-structure",
+      "to": "jp.elem.japanese.connectives-and-modifiers",
+      "type": "extension",
+      "rationale": "文の組み立てに着目することから、接続語や修飾語が意味をつなぐ働きへ広げる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-045",
+      "from": "jp.elem.japanese.word-meaning",
+      "to": "jp.elem.japanese.word-relationships",
+      "type": "extension",
+      "rationale": "個々の言葉の意味から、語句どうしの関係や構成へと見方を深める。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-046",
+      "from": "jp.elem.japanese.reading-aloud-expression",
+      "to": "jp.elem.japanese.poetry-and-rhythm",
+      "type": "related-learning",
+      "rationale": "声に出して表現を味わう経験と、詩歌の響きやリズムに着目する学びをつなぐ。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-047",
+      "from": "jp.elem.science.electricity-circuit",
+      "to": "jp.elem.science.electricity-effects",
+      "type": "recommended-prerequisite",
+      "rationale": "回路をつなぐ基本を土台に、電流によって起こる働きを調べる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-048",
+      "from": "jp.elem.science.electricity-effects",
+      "to": "jp.elem.science.electric-magnetic-force",
+      "type": "extension",
+      "rationale": "電流による働きを調べる経験から、電流がつくる磁力の規則性へ発展する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-049",
+      "from": "jp.elem.science.plants-grow",
+      "to": "jp.elem.science.plants-conditions",
+      "type": "extension",
+      "rationale": "身近な植物の体のつくりや成長への気付きを、発芽・成長・結実の条件を調べる学習へ広げる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-050",
+      "from": "jp.elem.science.plants-conditions",
+      "to": "jp.elem.science.plant-nutrition",
+      "type": "extension",
+      "rationale": "発芽・成長・結実の条件を調べることから、植物の養分や水の通り道へ見方を広げる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-051",
+      "from": "jp.elem.science.human-body-movement",
+      "to": "jp.elem.science.human-body",
+      "type": "extension",
+      "rationale": "体のつくりと運動の関係から、呼吸・消化・循環など体の働きへと学びを広げる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-052",
+      "from": "jp.elem.science.weather",
+      "to": "jp.elem.science.weather-patterns",
+      "type": "extension",
+      "rationale": "身近な天気や気温の変化を調べることから、雲の動きと天気の変化を予想する学習へ広げる.",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
     }
   ]
 }
