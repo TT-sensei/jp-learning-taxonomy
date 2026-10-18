@@ -101,6 +101,17 @@
       "publishedDate": "2026-09-24",
       "usageNote": "小学5年の「図形の角」「変わり方調べ」の有無を確認する参照。",
       "reviewStatus": "content-checked"
+    },
+    {
+      "id": "mext-elementary-social-guideline-2017",
+      "title": "小学校学習指導要領（平成29年告示）解説 社会編",
+      "publisher": "文部科学省",
+      "url": "https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf",
+      "landingPage": "https://www.mext.go.jp/a_menu/shotou/new-cs/1387014.htm",
+      "sourceType": "official-reference",
+      "versionNote": "平成29年告示の解説資料。社会の候補項目・関係は独自の整理であり、公式コードとの対応は未確認。",
+      "reuseNote": "原文・図表の大量転載は行わず、公式の内容構造を参照して独自に要約する。",
+      "reviewStatus": "needs-review"
     }
   ],
   "standards": [
