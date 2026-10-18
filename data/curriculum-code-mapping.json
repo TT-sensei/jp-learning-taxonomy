@@ -115,7 +115,7 @@
       "officialCodes": [],
       "matchStatus": "not-checked",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "分割後の旧項目。公式コード未照合。後継項目: jp.elem.math.multidigit-multiply-one-digit, jp.elem.math.multidigit-multiply-two-digit"
     },
     {
       "topicId": "jp.elem.math.division-meaning",
@@ -213,7 +213,7 @@
       "officialCodes": [],
       "matchStatus": "not-checked",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "分割後の旧項目。公式コード未照合。後継項目: jp.elem.math.choose-calculation-strategy, jp.elem.math.estimate-check-calculation, jp.elem.math.solve-multistep-number-problems"
     },
     {
       "topicId": "jp.elem.math.familiar-shapes",
@@ -549,21 +549,21 @@
       "officialCodes": [],
       "matchStatus": "not-checked",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "分割後の旧項目。公式コード未照合。後継項目: jp.elem.math.unknown-number-box-expression, jp.elem.math.unknown-number-solve, jp.elem.math.unknown-number-relationships"
     },
     {
       "topicId": "jp.elem.math.decimal-fraction-connections",
       "officialCodes": [],
       "matchStatus": "not-checked",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "分割後の旧項目。公式コード未照合。後継項目: jp.elem.math.decimal-fraction-tenths, jp.elem.math.decimal-fraction-numberline, jp.elem.math.decimal-fraction-equivalence"
     },
     {
       "topicId": "jp.elem.math.calculation-properties",
       "officialCodes": [],
       "matchStatus": "not-checked",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "分割後の旧項目。公式コード未照合。後継項目: jp.elem.math.addition-properties, jp.elem.math.distributive-property"
     },
     {
       "topicId": "jp.elem.math.angle-measurement",
@@ -669,6 +669,97 @@
       "matchStatus": "not-checked",
       "matchType": "unconfirmed",
       "note": "公式コード表との照合待ち"
+    },
+    {
+      "topicId": "jp.elem.math.unknown-number-box-expression",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "分割後に追加したプロジェクト独自の学習項目案。82V12公式コード表との照合前。"
+    },
+    {
+      "topicId": "jp.elem.math.unknown-number-solve",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "分割後に追加したプロジェクト独自の学習項目案。82V12公式コード表との照合前。"
+    },
+    {
+      "topicId": "jp.elem.math.unknown-number-relationships",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "分割後に追加したプロジェクト独自の学習項目案。82V12公式コード表との照合前。"
+    },
+    {
+      "topicId": "jp.elem.math.decimal-fraction-tenths",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "分割後に追加したプロジェクト独自の学習項目案。82V12公式コード表との照合前。"
+    },
+    {
+      "topicId": "jp.elem.math.decimal-fraction-numberline",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "分割後に追加したプロジェクト独自の学習項目案。82V12公式コード表との照合前。"
+    },
+    {
+      "topicId": "jp.elem.math.decimal-fraction-equivalence",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "分割後に追加したプロジェクト独自の学習項目案。82V12公式コード表との照合前。"
+    },
+    {
+      "topicId": "jp.elem.math.addition-properties",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "分割後に追加したプロジェクト独自の学習項目案。82V12公式コード表との照合前。"
+    },
+    {
+      "topicId": "jp.elem.math.distributive-property",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "分割後に追加したプロジェクト独自の学習項目案。82V12公式コード表との照合前。"
+    },
+    {
+      "topicId": "jp.elem.math.multidigit-multiply-one-digit",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "分割後に追加したプロジェクト独自の学習項目案。82V12公式コード表との照合前。"
+    },
+    {
+      "topicId": "jp.elem.math.multidigit-multiply-two-digit",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "分割後に追加したプロジェクト独自の学習項目案。82V12公式コード表との照合前。"
+    },
+    {
+      "topicId": "jp.elem.math.choose-calculation-strategy",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "分割後に追加したプロジェクト独自の学習項目案。82V12公式コード表との照合前。"
+    },
+    {
+      "topicId": "jp.elem.math.estimate-check-calculation",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "分割後に追加したプロジェクト独自の学習項目案。82V12公式コード表との照合前。"
+    },
+    {
+      "topicId": "jp.elem.math.solve-multistep-number-problems",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "分割後に追加したプロジェクト独自の学習項目案。82V12公式コード表との照合前。"
     }
   ]
 }
