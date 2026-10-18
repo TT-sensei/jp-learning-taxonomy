@@ -1107,6 +1107,168 @@
       "rationale": "地域に伝わる文化や年中行事を手がかりに、文化や暮らしが時代とともに変化してきたことを考える。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-124",
+      "from": "jp.elem.math.number-counting",
+      "to": "jp.elem.math.compare-order-numbers",
+      "type": "related-learning",
+      "rationale": "数を数え順序を表す経験を、数の大小を比べて順序づける学習へ広げる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-125",
+      "from": "jp.elem.math.addition-properties",
+      "to": "jp.elem.math.distributive-property",
+      "type": "related-learning",
+      "rationale": "加法の交換法則・結合法則を使う見方を、分配法則を使った計算の工夫へ広げる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-126",
+      "from": "jp.elem.math.unknown-number-solve",
+      "to": "jp.elem.math.unknown-number-relationships",
+      "type": "related-learning",
+      "rationale": "□に当てはまる数を求める学習から、複数の数量の関係を式に表す学習へ発展させる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-127",
+      "from": "jp.elem.math.decimal-fraction-tenths",
+      "to": "jp.elem.math.decimal-fraction-equivalence",
+      "type": "related-learning",
+      "rationale": "0.1と1/10の関係を、小数と分数の等しい大きさを捉える学習へつなげる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-128",
+      "from": "jp.elem.math.fractions-compare",
+      "to": "jp.elem.math.fractions-unlike-denominators",
+      "type": "recommended-prerequisite",
+      "rationale": "分数の大きさや等しい分数の見方を、異分母分数の計算で分母をそろえる必要性の理解に生かす。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-129",
+      "from": "jp.elem.math.expressions-parentheses",
+      "to": "jp.elem.math.letter-expressions",
+      "type": "extension",
+      "rationale": "式の構造や計算順序の理解を、文字を用いて数量の関係を一般的に表す学習へ広げる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-130",
+      "from": "jp.elem.math.area-triangle-parallelogram-trapezoid",
+      "to": "jp.elem.math.area-circle",
+      "type": "related-learning",
+      "rationale": "図形を分割・変形して面積を求める考え方を、円の面積の求め方を考える際にも活用する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-131",
+      "from": "jp.elem.math.volume-cuboid",
+      "to": "jp.elem.math.approximate-area-volume",
+      "type": "application",
+      "rationale": "直方体の体積の求め方を、身の回りの立体のおよその体積を見積もる活動に活用する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-132",
+      "from": "jp.elem.math.average",
+      "to": "jp.elem.math.statistical-viewpoints",
+      "type": "related-learning",
+      "rationale": "平均を一つの代表値として捉え、他の視点と比べながらデータの特徴を考える。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-133",
+      "from": "jp.elem.math.percentage-graphs",
+      "to": "jp.elem.math.statistical-viewpoints",
+      "type": "related-learning",
+      "rationale": "割合を表すグラフを読む経験を、データの特徴を複数の視点から捉える学習へつなげる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-134",
+      "from": "jp.elem.math.ratio",
+      "to": "jp.elem.math.scale-and-ratio",
+      "type": "application",
+      "rationale": "比の見方を、縮図の縮尺から実際の長さを求める学習に活用する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-135",
+      "from": "jp.elem.social.prefecture-land",
+      "to": "jp.elem.social.japan-landforms-climate",
+      "type": "related-learning",
+      "rationale": "都道府県ごとの地形や気候の特徴を、日本全体の地形・気候の特色と比べる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-136",
+      "from": "jp.elem.social.natural-environment-life",
+      "to": "jp.elem.social.environment-protection",
+      "type": "related-learning",
+      "rationale": "自然環境と暮らしの関係を踏まえ、環境を守るための社会的な取組を考える。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-137",
+      "from": "jp.elem.social.forestry",
+      "to": "jp.elem.social.environment-protection",
+      "type": "related-learning",
+      "rationale": "森林資源の利用や保全を、環境を守る取組の具体例として捉える。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-138",
+      "from": "jp.elem.social.fisheries",
+      "to": "jp.elem.social.food-life",
+      "type": "related-learning",
+      "rationale": "水産物の生産を、食料供給と私たちの生活とのつながりから考える。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-139",
+      "from": "jp.elem.social.transport-trade",
+      "to": "jp.elem.social.information-industry",
+      "type": "related-learning",
+      "rationale": "物流を支える交通網と、情報を集め活用する産業の役割を比べる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-140",
+      "from": "jp.elem.social.government-courts",
+      "to": "jp.elem.social.local-government",
+      "type": "related-learning",
+      "rationale": "国の政治の仕組みを踏まえ、地方公共団体と住民の関係を比べて捉える。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-141",
+      "from": "jp.elem.social.postwar-japan",
+      "to": "jp.elem.social.international-relations",
+      "type": "related-learning",
+      "rationale": "戦後の日本と国際社会の関わりを、現在の国際協力の役割へつなげて考える。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
     }
   ]
 }
