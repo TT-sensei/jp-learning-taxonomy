@@ -39,11 +39,20 @@ const mappingByTopicId = uniqueMap(codeMappings, "topicId", "code mapping topic 
 const topicTypes = new Set(["concept","skill","practice","expression","appreciation","inquiry","attitude","experience","application","other"]);
 const topicStatuses = new Set(["draft","needs-review","reviewed","published"]);
 const edgeTypes = new Set(["prerequisite","recommended-prerequisite","related-learning","extension","application","recurring-development"]);
+const visibleTopicNames = new Set();
 
 for (const topic of topics) {
   if (!/^[a-z0-9][a-z0-9.-]+$/.test(topic.id ?? "")) errors.push(`不正な topic ID: ${topic.id}`);
   for (const key of ["subject","domain","name","description"]) {
     if (typeof topic[key] !== "string" || !topic[key].trim()) errors.push(`${topic.id}: ${key} が空です。`);
+  }
+  for (const key of ["studentName","studentDescription"]) {
+    if (typeof topic[key] !== "string" || !topic[key].trim()) errors.push(`${topic.id}: 子ども向け表示 ${key} が空です。`);
+  }
+  if (topic.topicLifecycle !== "superseded" && typeof topic.studentName === "string") {
+    const displayKey = `${topic.subject}::${topic.studentName}`;
+    if (visibleTopicNames.has(displayKey)) errors.push(`${topic.id}: 同じ教科に子ども向け表示名が重複しています: ${topic.studentName}`);
+    visibleTopicNames.add(displayKey);
   }
   if (!topicTypes.has(topic.topicType)) errors.push(`${topic.id}: 未定義の topicType ${topic.topicType}`);
   if (!topicStatuses.has(topic.reviewStatus)) errors.push(`${topic.id}: 未定義の reviewStatus ${topic.reviewStatus}`);
@@ -78,6 +87,7 @@ for (const edge of dependencies) {
   if (!edgeTypes.has(edge.type)) errors.push(`${edge.id}: 未定義の relation type ${edge.type}`);
   if (!topicById.has(edge.from)) errors.push(`${edge.id}: from に未登録の topic ID ${edge.from}`);
   if (!topicById.has(edge.to)) errors.push(`${edge.id}: to に未登録の topic ID ${edge.to}`);
+  if (typeof edge.studentRationale !== "string" || !edge.studentRationale.trim()) errors.push(`${edge.id}: 子ども向けの関係説明 studentRationale が空です。`);
 }
 for (const standard of standards) {
   if (!sourceById.has(standard.sourceId)) errors.push(`${standard.id}: 未登録の source ID ${standard.sourceId}`);
@@ -126,6 +136,8 @@ for (const topic of topics) visit(topic.id);
 const byDomain = {};
 for (const topic of topics) byDomain[topic.domain] = (byDomain[topic.domain] ?? 0) + 1;
 report.push(`学習項目: ${topics.length}`);
+report.push(`子ども向け表示名・説明: ${topics.filter(topic => topic.studentName?.trim() && topic.studentDescription?.trim()).length}/${topics.length}`);
+report.push(`子ども向けの関係説明: ${dependencies.filter(edge => edge.studentRationale?.trim()).length}/${dependencies.length}`);
 report.push(`関係: ${dependencies.length}`);
 report.push(`出典: ${sources.length}`);
 report.push(`領域参照: ${standards.length}`);
