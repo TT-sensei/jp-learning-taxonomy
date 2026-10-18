@@ -186,7 +186,7 @@ function relationCards(items, empty, limit=3) {
       '<span class="path-kind">'+esc(relationNames[edge.type]||"関連する学び")+'</span>'+
       '<span class="path-why">'+esc(edge.studentRationale || studentRationale(edge.rationale))+'</span></button>';
   }).join("")+'</div>'+
-  (items.length>limit?'<p class="muted small-note">ほかにも'+(items.length-limit)+'件のつながりがあるよ。</p>':'');
+  (items.length>limit?'<p class="muted small-note">'+rubyHTML("ほかにも")+(items.length-limit)+rubyHTML("件のつながりがあるよ。")+'</p>':'');
 }
 function gradeListLabel(grades) {
   const sorted=[...new Set((grades||[]).filter(g=>Number.isInteger(g)&&g>=1&&g<=6))].sort((a,b)=>a-b);
@@ -219,12 +219,12 @@ function renderGradeMap(subject) {
           const continuing=gradeListLabel(continuingGrades);
           return '<button type="button" class="grade-topic'+(state.selected===topic.id?' is-selected':'')+'" data-subject="'+esc(topic.subject)+'" data-topic-id="'+esc(topic.id)+'" aria-pressed="'+(state.selected===topic.id)+'">'+
             '<strong>'+rubyHTML(topicTitle(topic))+'</strong>'+
-            (continuing?'<span class="grade-topic-continuation">このあとも学ぶかも：'+esc(continuing)+'</span>':'')+
+            (continuing?'<span class="grade-topic-continuation">'+rubyHTML("このあとも学ぶかも")+'：'+rubyHTML(continuing)+'</span>':'')+
             '<span>つながりを見る →</span></button>';
         }).join("")+'</div>').join("")+
       (topics.length?'':'<p class="grade-lane-empty">この学年から学ぶ項目は、まだ登録されていないよ。</p>')+'</section>';
   }).join("");
-  return '<div class="grade-map-intro"><strong>'+rubyHTML(subject)+'の学年マップ</strong><p>それぞれの学びを、学び始める学年の目安に1回ずつ置いています。あとでまた使う学びは、カードに表示しています。項目を選ぶと、前や次につながる学びが見られます。</p><small>学年は見直し中の目安です。必ずこの学年・順番で学ぶという意味ではありません。</small></div>'+
+  return '<div class="grade-map-intro"><strong>'+rubyHTML(subject+"の学年マップ")+'</strong><p>'+rubyHTML("それぞれの学びを、学び始める学年の目安に1回ずつ置いています。あとでまた使う学びは、カードに表示しています。項目を選ぶと、前や次につながる学びが見られます。")+'</p><small>'+rubyHTML("学年は見直し中の目安です。必ずこの学年・順番で学ぶという意味ではありません。")+'</small></div>'+
     '<div class="grade-map-scroll" role="region" aria-label="'+rubyHTML(subject)+'の1年生から6年生までの学びのマップ" tabindex="0">'+lanes+'</div>';
 }
 function renderList() {
@@ -250,7 +250,7 @@ function renderList() {
     return;
   }
   if(!topics.length){
-    list.innerHTML='<p class="empty-note">見つからなかったよ。教科や学年を変えたり、別の言葉で探したりしてみよう。</p>';
+    list.innerHTML='<p class="empty-note">'+rubyHTML("見つからなかったよ。教科や学年を変えたり、別の言葉で探したりしてみよう。")+'</p>';
     return;
   }
   if(filters.subject==="国語" && filters.grade && state.topics.filter(topic=>topic.subject==="国語").every(topic=>topic.gradePlacement?.basis==="japanese-taxonomy-draft")){
@@ -279,7 +279,7 @@ function renderList() {
   list.querySelectorAll("[data-topic-id]").forEach(button=>button.addEventListener("click",()=>renderDetail(button.dataset.topicId)));
 }
 function flowNodes(items, empty, group) {
-  if (!items.length) return '<p class="flow-empty">'+esc(empty)+'</p>';
+  if (!items.length) return '<p class="flow-empty">'+rubyHTML(empty)+'</p>';
   return '<div class="flow-nodes">'+items.slice(0,3).map(item=>{
     const topic=item.topic, edge=item.edge;
     return '<button type="button" class="flow-node" data-subject="'+esc(topic.subject)+'" data-topic-id="'+esc(topic.id)+'">'+
@@ -288,7 +288,7 @@ function flowNodes(items, empty, group) {
       '<span class="path-kind">'+esc(relationLabel(edge,group))+'</span>'+
       '<span class="flow-why"><b>どうつながる？</b> '+esc(edge.studentRationale || studentRationale(edge.rationale))+'</span></button>';
   }).join("")+'</div>'+
-  (items.length>3?'<p class="muted small-note">ほかにも'+(items.length-3)+'件のつながりがあるよ。</p>':'');
+  (items.length>3?'<p class="muted small-note">'+rubyHTML("ほかにも")+(items.length-3)+rubyHTML("件のつながりがあるよ。")+'</p>':'');
 }
 function navigateToConnectedTopic(id) {
   const topic = state.topics.find(item => item.id === id);
@@ -316,6 +316,7 @@ function renderDetail(id, scroll = true) {
   const topic=state.topics.find(item=>item.id===id);
   if(!topic) return;
   state.selected=id;
+  $("#detail").dataset.subject=topic.subject;
   const previous=relationCandidates(topic,"prior");
   const related=relationCandidates(topic,"related");
   const next=relationCandidates(topic,"future");
