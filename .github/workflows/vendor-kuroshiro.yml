@@ -1,0 +1,94 @@
+name: Vendor Kuroshiro for the static learning map
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: vendor-kuroshiro-main
+  cancel-in-progress: false
+
+jobs:
+  vendor-browser-assets:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Check whether local assets are already present
+        id: check
+        shell: bash
+        run: |
+          count=0
+          if [ -d site/vendor/kuroshiro/dict ]; then
+            count=$(find site/vendor/kuroshiro/dict -maxdepth 1 -name '*.dat.gz' | wc -l)
+          fi
+          if [ -f site/vendor/kuroshiro/kuroshiro.min.js ] && [ -f site/vendor/kuroshiro/kuroshiro-analyzer-kuromoji.min.js ] && [ "$count" -eq 12 ]; then
+            echo "complete=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "complete=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Set up Node.js
+        if: steps.check.outputs.complete != 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Download pinned packages for local hosting
+        if: steps.check.outputs.complete != 'true'
+        shell: bash
+        run: |
+          mkdir -p "$RUNNER_TEMP/kuroshiro-packages"
+          cd "$RUNNER_TEMP/kuroshiro-packages"
+          npm init -y
+          npm install --no-save --ignore-scripts --package-lock=false kuroshiro@2.0.0-beta.3 kuroshiro-analyzer-kuromoji@2.0.0-beta.3 kuromoji@0.1.2
+
+      - name: Copy browser bundles, dictionary, and licenses
+        if: steps.check.outputs.complete != 'true'
+        shell: bash
+        run: |
+          packages="$RUNNER_TEMP/kuroshiro-packages/node_modules"
+          mkdir -p site/vendor/kuroshiro/dict
+          cp "$packages/kuroshiro/dist/kuroshiro.min.js" site/vendor/kuroshiro/
+          cp "$packages/kuroshiro-analyzer-kuromoji/dist/kuroshiro-analyzer-kuromoji.min.js" site/vendor/kuroshiro/
+          cp "$packages"/kuromoji/dict/*.dat.gz site/vendor/kuroshiro/dict/
+          cp "$packages/kuromoji/NOTICE.md" site/vendor/kuroshiro/dict/NOTICE.md
+          cp "$packages/kuromoji/LICENSE-2.0.txt" site/vendor/kuroshiro/LICENSE-KUROMOJI-APACHE-2.0.txt
+          find "$packages/kuroshiro" -maxdepth 1 -type f -iname 'license*' -exec cp {} site/vendor/kuroshiro/LICENSE-KUROSHIRO-MIT.txt \;
+          find "$packages/kuroshiro-analyzer-kuromoji" -maxdepth 1 -type f -iname 'license*' -exec cp {} site/vendor/kuroshiro/LICENSE-ANALYZER-MIT.txt \;
+          cat > site/vendor/kuroshiro/THIRD_PARTY_LICENSES.md <<'EOF'
+          # Third-party licenses
+
+          This folder contains locally hosted browser bundles and dictionary data.
+
+          - Kuroshiro 2.0.0-beta.3 — MIT License. See LICENSE-KUROSHIRO-MIT.txt.
+          - Kuroshiro Analyzer for Kuromoji 2.0.0-beta.3 — MIT License. See LICENSE-ANALYZER-MIT.txt.
+          - Kuromoji.js 0.1.2 — Apache License 2.0. See LICENSE-KUROMOJI-APACHE-2.0.txt.
+          - The Kuromoji dictionary is derived from mecab-ipadic and has additional terms and attribution. See dict/NOTICE.md.
+
+          Upstream projects:
+          - https://github.com/hexenq/kuroshiro
+          - https://github.com/hexenq/kuroshiro-analyzer-kuromoji
+          - https://github.com/takuyaa/kuromoji.js
+          EOF
+          test "$(find site/vendor/kuroshiro/dict -maxdepth 1 -name '*.dat.gz' | wc -l)" -eq 12
+
+      - name: Commit local assets
+        if: steps.check.outputs.complete != 'true'
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/vendor/kuroshiro
+          if git diff --cached --quiet; then
+            echo "No vendor changes to commit."
+            exit 0
+          fi
+          git commit -m "Vendor Kuroshiro and local Japanese dictionary"
+          git push
