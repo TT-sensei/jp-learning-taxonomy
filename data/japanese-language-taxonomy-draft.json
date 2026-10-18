@@ -93,6 +93,45 @@
                 "high"
               ],
               "description": "辞書や語句集などを目的に応じて使い、言葉の意味や用法を確かめる。"
+            },
+            {
+              "id": "jp.elem.japanese.kana-orthography",
+              "name": "仮名遣いと表記のきまりを使う",
+              "bands": [
+                "low",
+                "middle",
+                "high"
+              ],
+              "description": "仮名遣い、送り仮名、同音の語などの表記に注意し、文脈に合う表記を選ぶ。"
+            },
+            {
+              "id": "jp.elem.japanese.kanji-meaning-and-usage",
+              "name": "漢字の読み・意味・使い方",
+              "bands": [
+                "low",
+                "middle",
+                "high"
+              ],
+              "description": "学年に応じた漢字の読みや意味を理解し、熟語や文の中で適切に使う。"
+            },
+            {
+              "id": "jp.elem.japanese.idioms-proverbs-and-sayings",
+              "name": "慣用句・ことわざ・故事成語",
+              "bands": [
+                "middle",
+                "high"
+              ],
+              "description": "慣用句、ことわざ、故事成語などの意味や使われ方を知り、表現に生かす。"
+            },
+            {
+              "id": "jp.elem.japanese.onomatopoeia-and-sensory-words",
+              "name": "擬音語・擬態語などの表現",
+              "bands": [
+                "low",
+                "middle",
+                "high"
+              ],
+              "description": "音や様子、感覚を表す言葉の働きに気付き、表現や読解に生かす。"
             }
           ]
         },
@@ -137,6 +176,35 @@
                 "high"
               ],
               "description": "相手や場面に応じた言葉遣いを理解し、目的に応じて使う。"
+            },
+            {
+              "id": "jp.elem.japanese.sentence-types-and-punctuation",
+              "name": "文の種類と文末表現",
+              "bands": [
+                "low",
+                "middle",
+                "high"
+              ],
+              "description": "文末表現や文の形に着目し、伝えたい内容や相手に応じた文を使う。"
+            },
+            {
+              "id": "jp.elem.japanese.connectives-and-modifiers",
+              "name": "接続語や修飾語の働き",
+              "bands": [
+                "middle",
+                "high"
+              ],
+              "description": "接続語や修飾語が文や文章の意味のつながりに果たす役割を捉える。"
+            },
+            {
+              "id": "jp.elem.japanese.language-register-and-context",
+              "name": "場面に応じた言葉遣い",
+              "bands": [
+                "low",
+                "middle",
+                "high"
+              ],
+              "description": "相手、目的、場面に応じて言葉を選び、伝え方を調整する。"
             }
           ]
         }
@@ -187,6 +255,43 @@
                 "high"
               ],
               "description": "目的に応じて図表などを用い、引用元を明らかにして情報を示す。"
+            },
+            {
+              "id": "jp.elem.japanese.facts-opinions-and-interpretations",
+              "name": "事実・意見・解釈を区別する",
+              "bands": [
+                "middle",
+                "high"
+              ],
+              "description": "情報が事実、意見、解釈のどれに当たるかを考え、混同せずに扱う。"
+            },
+            {
+              "id": "jp.elem.japanese.collecting-and-recording-information",
+              "name": "情報を集め、記録する",
+              "bands": [
+                "low",
+                "middle",
+                "high"
+              ],
+              "description": "観察、インタビュー、書籍、ウェブ資料などから目的に合う情報を集め、必要な形で記録する。"
+            },
+            {
+              "id": "jp.elem.japanese.source-and-reliability",
+              "name": "情報の出どころを確かめる",
+              "bands": [
+                "middle",
+                "high"
+              ],
+              "description": "情報の出典や発信者、複数資料との照合に着目し、情報を吟味する。"
+            },
+            {
+              "id": "jp.elem.japanese.media-and-multimodal-information",
+              "name": "文章・図表・写真などを関連付ける",
+              "bands": [
+                "middle",
+                "high"
+              ],
+              "description": "文章と図表、写真、見出しなどを関連付け、複数の表現形式から情報を読み取る。"
             }
           ]
         }
@@ -229,6 +334,25 @@
                 "high"
               ],
               "description": "作品の背景や作者、文学的なつながりに関心をもち、読書に生かす。"
+            },
+            {
+              "id": "jp.elem.japanese.classical-language-and-old-forms",
+              "name": "古典の言葉や表現に親しむ",
+              "bands": [
+                "middle",
+                "high"
+              ],
+              "description": "古文や漢文調の文章などに触れ、現代の言葉との違いや響きを味わう。"
+            },
+            {
+              "id": "jp.elem.japanese.reading-aloud-expression",
+              "name": "音読・朗読で表現を味わう",
+              "bands": [
+                "low",
+                "middle",
+                "high"
+              ],
+              "description": "文章の内容や表現に合わせ、声の大きさ、速さ、間などを工夫して音読・朗読する。"
             }
           ]
         },
@@ -265,6 +389,26 @@
                 "high"
               ],
               "description": "目的や興味に応じて本を選び、読書を通して知識や考えを広げる。"
+            },
+            {
+              "id": "jp.elem.japanese.manuscript-paper-and-layout",
+              "name": "原稿用紙や文書の書式",
+              "bands": [
+                "low",
+                "middle",
+                "high"
+              ],
+              "description": "原稿用紙の使い方や、手紙・報告文などの基本的な書式を理解して使う。"
+            },
+            {
+              "id": "jp.elem.japanese.library-and-book-selection",
+              "name": "図書館や資料を活用する",
+              "bands": [
+                "low",
+                "middle",
+                "high"
+              ],
+              "description": "図書館や資料の分類、目次、索引などを活用して、目的に合う本や資料を選ぶ。"
             }
           ]
         }
@@ -315,6 +459,34 @@
                 "high"
               ],
               "description": "構成や資料、声や話し方を工夫し、相手に伝わるように発表する。"
+            },
+            {
+              "id": "jp.elem.japanese.interview-and-question-design",
+              "name": "目的に応じて質問・取材する",
+              "bands": [
+                "middle",
+                "high"
+              ],
+              "description": "知りたいことを整理して質問し、相手の話から必要な情報を集める。"
+            },
+            {
+              "id": "jp.elem.japanese.prepare-and-organize-speech",
+              "name": "話す内容を選び、構成を考える",
+              "bands": [
+                "low",
+                "middle",
+                "high"
+              ],
+              "description": "目的や相手を意識して話題を選び、伝える順序や要点を整える。"
+            },
+            {
+              "id": "jp.elem.japanese.support-opinion-with-examples",
+              "name": "事例や資料を用いて説明する",
+              "bands": [
+                "middle",
+                "high"
+              ],
+              "description": "考えを支える事例や資料を選び、理由と結び付けて説明する。"
             }
           ]
         },
@@ -350,6 +522,24 @@
                 "high"
               ],
               "description": "複数の意見の共通点や相違点を捉え、自分の考えを広げる。"
+            },
+            {
+              "id": "jp.elem.japanese.take-notes-while-listening",
+              "name": "聞きながら要点をメモする",
+              "bands": [
+                "middle",
+                "high"
+              ],
+              "description": "話の中心や必要な情報を選び、後で使えるように短く記録する。"
+            },
+            {
+              "id": "jp.elem.japanese.summarize-others-viewpoints",
+              "name": "相手の考えを整理して伝え返す",
+              "bands": [
+                "middle",
+                "high"
+              ],
+              "description": "相手の発言の要点を捉え、自分の理解を確かめながら伝え返す。"
             }
           ]
         }
@@ -392,6 +582,34 @@
                 "high"
               ],
               "description": "事実、感想、意見や理由を区別し、関係が分かるように書く。"
+            },
+            {
+              "id": "jp.elem.japanese.write-experiences-and-observations",
+              "name": "経験・観察したことを記録する",
+              "bands": [
+                "low",
+                "middle",
+                "high"
+              ],
+              "description": "経験や観察した事実を、順序や観点を意識して記録する。"
+            },
+            {
+              "id": "jp.elem.japanese.plan-research-and-report",
+              "name": "調べたことを報告する",
+              "bands": [
+                "middle",
+                "high"
+              ],
+              "description": "目的に沿って情報を集め、事実と考察を整理して報告文にまとめる。"
+            },
+            {
+              "id": "jp.elem.japanese.write-opinion-and-argument",
+              "name": "意見文を書き、理由を示す",
+              "bands": [
+                "middle",
+                "high"
+              ],
+              "description": "自分の立場を明確にし、理由や事例を挙げて読み手に伝わるように書く。"
             }
           ]
         },
@@ -437,6 +655,34 @@
                 "high"
               ],
               "description": "互いの文章を読み、よいところや改善点を伝え合って次の表現に生かす。"
+            },
+            {
+              "id": "jp.elem.japanese.write-letters-and-messages",
+              "name": "手紙や依頼文を書く",
+              "bands": [
+                "low",
+                "middle",
+                "high"
+              ],
+              "description": "相手や目的に応じて、必要な情報や適切な言葉遣いを選んで書く。"
+            },
+            {
+              "id": "jp.elem.japanese.summarize-and-paraphrase",
+              "name": "要約したり、自分の言葉で言い換えたりする",
+              "bands": [
+                "middle",
+                "high"
+              ],
+              "description": "文章の中心的な情報を選び、目的に応じて要約や言い換えを行う。"
+            },
+            {
+              "id": "jp.elem.japanese.use-quotes-and-sources-in-writing",
+              "name": "引用と出典を明らかにして書く",
+              "bands": [
+                "middle",
+                "high"
+              ],
+              "description": "他の文章や資料を引用する際に、自分の考えと区別し、出典を示す。"
             }
           ]
         }
@@ -497,6 +743,42 @@
                 "high"
               ],
               "description": "説明文などで事実と意見、主張と理由・事例の関係を捉える。"
+            },
+            {
+              "id": "jp.elem.japanese.read-text-type-and-purpose",
+              "name": "文章の種類や目的に着目して読む",
+              "bands": [
+                "middle",
+                "high"
+              ],
+              "description": "物語、説明文、記録、意見文などの特徴や目的に応じて読み方を考える。"
+            },
+            {
+              "id": "jp.elem.japanese.read-narrator-and-point-of-view",
+              "name": "語り手や視点に着目して読む",
+              "bands": [
+                "middle",
+                "high"
+              ],
+              "description": "語り手や視点、描写の仕方が内容の受け取り方に与える働きを考える。"
+            },
+            {
+              "id": "jp.elem.japanese.read-author-claim-and-evidence",
+              "name": "筆者の主張と根拠を捉える",
+              "bands": [
+                "middle",
+                "high"
+              ],
+              "description": "説明的な文章で筆者の主張、理由、事例、資料の関係を捉える。"
+            },
+            {
+              "id": "jp.elem.japanese.read-figurative-language-and-effects",
+              "name": "表現の工夫とその効果を考える",
+              "bands": [
+                "middle",
+                "high"
+              ],
+              "description": "比喩、反復、言葉選び、描写などの表現の工夫と効果を考える。"
             }
           ]
         },
@@ -541,6 +823,34 @@
                 "high"
               ],
               "description": "読んで感じたことや考えたことを伝え合い、新たな見方や考えをもつ。"
+            },
+            {
+              "id": "jp.elem.japanese.read-between-the-lines",
+              "name": "叙述を結び付けて人物や筆者の意図を考える",
+              "bands": [
+                "middle",
+                "high"
+              ],
+              "description": "複数の叙述を関連付け、明示されていない心情や意図を根拠をもって考える。"
+            },
+            {
+              "id": "jp.elem.japanese.compare-information-across-sources",
+              "name": "複数資料の情報を照合する",
+              "bands": [
+                "middle",
+                "high"
+              ],
+              "description": "複数の文章や資料の情報を照らし合わせ、共通点、違い、補完関係を捉える。"
+            },
+            {
+              "id": "jp.elem.japanese.choose-reading-strategy",
+              "name": "目的に応じて読み方を選ぶ",
+              "bands": [
+                "low",
+                "middle",
+                "high"
+              ],
+              "description": "目的に応じて、詳しく読む、要点を探す、比べて読むなどの方法を選ぶ。"
             }
           ]
         }
@@ -551,6 +861,53 @@
     "これは国語の分類構造と項目候補を検討するためのプロジェクト独自の草案であり、学習指導要領の公式な一覧ではない。",
     "低・中・高学年の区分は見通しのための仮の学年帯。個々の項目の学年配当・継続学年は未照合。",
     "項目名と説明は公式文書の転載ではなく、学習内容を整理するために独自に作成した。",
-    "正式コードの付与、項目の重複・抜けの確認、学年帯の検討、データ構造の共通化は次のレビュー段階で行う。"
+    "正式コードの付与、項目の重複・抜けの確認、学年帯の検討、データ構造の共通化は次のレビュー段階で行う。",
+    "2026-10-18レビュー改善: 言葉・表記、情報の収集と出典、聞き取りメモ、文章の種類、筆者の主張、表現効果、要約・引用、報告・意見文など、初期案で粗かった項目を追加。",
+    "国語編の公式解説を出典候補として登録。分類は公式構成を参考にした独自の整理であり、公式の項目一覧を再現したものではない。",
+    "今後は項目ごとの学年帯を確定せず、学年別内容の記述を確認して初出学年・継続学年・根拠を個別にレビューする。"
+  ],
+  "sources": [
+    {
+      "id": "mext-elementary-japanese-guideline-2017",
+      "title": "小学校学習指導要領（平成29年告示）解説 国語編",
+      "publisher": "文部科学省",
+      "url": "https://www.mext.go.jp/content/20220606-mxt_kyoiku02-100002607_002.pdf",
+      "sourceType": "official-guideline-commentary",
+      "usage": "内容構成と用語の確認に使用。各項目の個別コード・学年配当は未照合。"
+    },
+    {
+      "id": "mext-elementary-guidelines-index",
+      "title": "小学校学習指導要領解説",
+      "publisher": "文部科学省",
+      "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1387014.htm?type=preview",
+      "sourceType": "official-index",
+      "usage": "国語編の公式公開ページを確認するための入口。"
+    }
+  ],
+  "reviewPlan": [
+    {
+      "id": "structure",
+      "label": "領域・まとまりの構成",
+      "status": "initial-review",
+      "note": "公式の内容構成を土台にした独自の整理。知識及び技能の3区分と、話す・聞く／書く／読むを分けている。"
+    },
+    {
+      "id": "topic-coverage",
+      "label": "学習項目の網羅性と重複",
+      "status": "needs-review",
+      "note": "42項目から拡張した候補一覧。学習指導要領解説の学年別内容と照合して不足・重複を確認する。"
+    },
+    {
+      "id": "grade-bands",
+      "label": "低・中・高学年の帯",
+      "status": "needs-review",
+      "note": "学年帯は見通し用の候補。正式な学年配当を示さない。各項目について初出・継続学年を別途確認する。"
+    },
+    {
+      "id": "official-codes",
+      "label": "公式コード",
+      "status": "not-started",
+      "note": "公式コード表の実データと照合できるまでコードを推測登録しない。"
+    }
   ]
 }
