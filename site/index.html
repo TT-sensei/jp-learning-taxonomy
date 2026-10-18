@@ -11,12 +11,12 @@
 <body>
   <header class="top">
     <p class="eyebrow">JP LEARNING TAXONOMY</p>
-    <h1>学びの道すじを見つけよう</h1>
-    <p>前に学んだことは、次の学びにどうつながるのかな？</p>
+    <h1>学びは、どうつながっている？</h1>
+    <p>前に習ったことは、今の学びにどう役立つ？ 次は何につながる？</p>
   </header>
   <main>
     <section class="controls" aria-label="学習内容を選ぶ">
-      <div class="controls-title"><span>どんなことを学ぶ？</span><p>教科や学年を選んでみよう</p></div>
+      <div class="controls-title"><span>見たい学びをさがそう</span><p>教科・学年・言葉から選べます</p></div>
       <label for="subject">教科</label>
       <select id="subject"><option value="">読み込み中</option></select>
       <label for="grade">学年</label>
@@ -26,18 +26,18 @@
         <option value="3">3年生</option><option value="4">4年生</option>
         <option value="5">5年生</option><option value="6">6年生</option>
       </select>
-      <label for="domain">学びのグループ</label>
+      <label for="domain">学習内容のまとまり</label>
       <select id="domain"><option value="">すべて</option></select>
       <label for="query">言葉でさがす</label>
       <input id="query" type="search" placeholder="例：分数、面積、地域">
-      <p class="hint">気になる項目を選ぶと、前や次につながる学びが見られるよ。</p>
+      <p class="hint">項目を選ぶと、前に習ったことや、この先につながる学びが見られます。</p>
     </section>
     <section class="browse" aria-label="学びの項目">
-      <div class="browse-heading"><div><h2>どんな学びがあるかな？</h2><p>気になる項目を選んでみよう。</p></div><span id="count" class="count">読み込み中…</span></div>
+      <div class="browse-heading"><div><h2>学びを見てみよう</h2><p>気になる項目を選ぶと、つながりが分かります。</p></div><span id="count" class="count">読み込み中…</span></div>
       <div id="items" class="items"></div>
     </section>
     <aside id="detail" class="detail" aria-live="polite">
-      <p class="muted">気になる学びを選んでみよう。前や次につながる学びが見られるよ。</p>
+      <p class="muted">教科を選ぶか、言葉で検索してみましょう。学びの項目を選ぶと、前後のつながりが見られます。</p>
     </aside>
   </main>
   <footer><p>試作中 · 学びのつながりは、先生たちが見直しているところです。 <a href="./representations.html">算数の表現モデルマップ</a> · <a href="../README.md">このプロジェクトについて</a></p></footer>
