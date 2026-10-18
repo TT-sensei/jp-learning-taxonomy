@@ -184,3 +184,32 @@ button:focus-visible{outline:3px solid #243f52!important;outline-offset:3px!impo
 #items[aria-busy="true"]{min-height:120px}
 #items[aria-busy="true"]::before{content:"学びの項目を準備しています…";display:block;padding:18px;border:1px solid #e0e7ea;border-radius:12px;background:#fff;color:#647984;font-size:.88rem}
 @media(max-width:700px){.furigana-tools{margin-top:10px}.furigana-test{display:flex;align-items:flex-start;flex-direction:column;gap:6px;margin-left:0}.load-error{padding:16px}}
+
+/* Guided self-study: a compact, child-facing path from current learning to notebook action. */
+.self-study-guide{max-width:1396px;margin:18px auto 0;padding:20px 22px;background:#fff;border:1px solid #dce6e9;border-radius:16px;box-shadow:0 5px 18px rgba(29,60,74,.06)}
+.guide-intro{display:flex;align-items:center;justify-content:space-between;gap:20px;padding-bottom:14px;border-bottom:1px solid #e5ecef}
+.guide-kicker{margin:0 0 5px;color:#5d8290;font-size:.68rem;font-weight:800;letter-spacing:.14em}
+.guide-intro h2{margin:0;font-size:clamp(1.15rem,2.2vw,1.55rem);color:#203f4d}
+.guide-intro p:last-child{margin:6px 0 0;color:#617580;line-height:1.6;font-size:.9rem}
+.guide-character{display:flex;align-items:center;gap:10px;flex:none;max-width:190px;color:#5b707b;font-size:.74rem;font-weight:700}
+.guide-character img{width:78px;height:94px;object-fit:contain;object-position:center bottom}
+.guide-steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-top:15px}
+.guide-step{display:flex;gap:10px;min-width:0;padding:13px;border:1px solid #e1e9ec;border-radius:12px;background:#fbfcfc}
+.guide-step-number{display:grid;place-items:center;flex:none;width:30px;height:30px;border-radius:9px;background:#e5eff2;color:#2e5a6b;font-size:.8rem;font-weight:800}
+.guide-step h3{margin:1px 0 5px;font-size:.88rem;line-height:1.45}
+.guide-step p{margin:0;color:#657781;font-size:.78rem;line-height:1.6}
+.guide-step button{margin-top:10px;min-height:38px;padding:7px 11px;border:1px solid #b9cdd4;border-radius:8px;background:#fff;color:#214f61;font:inherit;font-size:.78rem;font-weight:750;cursor:pointer}
+.guide-step button:hover{background:#edf5f7;border-color:#6d9baa}
+.guide-step button:focus-visible{outline:3px solid #d49b39;outline-offset:2px}
+.guide-message{margin-top:12px;padding:12px 15px;border-left:4px solid #719eab;border-radius:0 9px 9px 0;background:#f1f6f7;color:#314d5a;font-size:.87rem;line-height:1.7}
+.guide-message strong{display:block;margin-bottom:3px}
+.guide-message p{margin:3px 0 0}
+.guide-notebook-prompts{margin-top:10px;padding:14px 17px;border:1px solid #d7e5da;border-radius:10px;background:#f6faf6;color:#304f3b;font-size:.86rem;line-height:1.75}
+.guide-notebook-prompts[hidden]{display:none}
+.guide-note-heading{margin:0 0 5px;font-weight:800}
+.guide-notebook-prompts ul{margin:5px 0;padding-left:1.3rem}
+.guide-notebook-prompts p:last-child{margin:6px 0 0;color:#58705e}
+.guide-stage-focus{animation:guide-stage-pulse 1.5s ease}
+@keyframes guide-stage-pulse{0%,100%{box-shadow:none}35%{box-shadow:0 0 0 4px rgba(87,142,160,.25);background:#f2f8fa}}
+@media(max-width:1000px){.self-study-guide{margin:14px 14px 0;padding:16px}.guide-steps{grid-template-columns:repeat(2,minmax(0,1fr))}main{grid-template-columns:190px minmax(0,1fr)}.detail{grid-column:1/-1}}
+@media(max-width:700px){.self-study-guide{margin:10px 10px 0;padding:14px;border-radius:12px}.guide-intro{align-items:flex-start;gap:8px}.guide-character{flex-direction:column;gap:2px;max-width:76px;text-align:center}.guide-character img{width:65px;height:78px}.guide-intro h2{font-size:1.15rem}.guide-intro p:last-child{font-size:.82rem}.guide-steps{grid-template-columns:1fr;gap:8px}.guide-step{padding:11px}.guide-step p{font-size:.82rem}.guide-step button{min-height:42px}.guide-message{font-size:.84rem}main{display:flex;flex-direction:column;padding:12px}.controls,.browse,.detail{width:100%}.controls{position:static}}
