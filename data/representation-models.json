@@ -21,7 +21,9 @@
         "jp.elem.math.multiplication-meaning",
         "jp.elem.math.division-meaning"
       ],
-      "reviewStatus": "needs-review"
+      "reviewStatus": "needs-review",
+      "studentName": "実物を動かして考える",
+      "studentPurpose": "ブロックや具体物を動かして、数や形、分け方を目で見てたしかめよう。"
     },
     {
       "id": "math-rep-part-whole",
@@ -41,7 +43,9 @@
         "jp.elem.math.unknown-number-box-expression",
         "jp.elem.math.unknown-number-solve"
       ],
-      "reviewStatus": "needs-review"
+      "reviewStatus": "needs-review",
+      "studentName": "全体と部分の図",
+      "studentPurpose": "全体と部分、増えた数やちがいがどうつながるか、図にして考えよう。"
     },
     {
       "id": "math-rep-array-area",
@@ -60,7 +64,9 @@
         "jp.elem.math.addition-properties",
         "jp.elem.math.distributive-property"
       ],
-      "reviewStatus": "needs-review"
+      "reviewStatus": "needs-review",
+      "studentName": "並べ方や長方形の図",
+      "studentPurpose": "ものを行と列に並べたり、長方形を分けたりして、かけ算や面積の考え方を見つけよう。"
     },
     {
       "id": "math-rep-number-line",
@@ -82,7 +88,9 @@
         "jp.elem.math.ratio",
         "jp.elem.math.proportionality"
       ],
-      "reviewStatus": "needs-review"
+      "reviewStatus": "needs-review",
+      "studentName": "数直線に表す",
+      "studentPurpose": "数の順番や大きさ、分数・小数の位置を目盛りで比べよう。"
     },
     {
       "id": "math-rep-tape-diagram",
@@ -101,7 +109,9 @@
         "jp.elem.math.percentage",
         "jp.elem.math.ratio"
       ],
-      "reviewStatus": "needs-review"
+      "reviewStatus": "needs-review",
+      "studentName": "線分図・テープ図で表す",
+      "studentPurpose": "長さの図で、全体・部分・差や割合の関係を見えるようにしよう。"
     },
     {
       "id": "math-rep-table",
@@ -122,7 +132,9 @@
         "jp.elem.math.data-statistical-investigation",
         "jp.elem.math.changing-quantities-patterns"
       ],
-      "reviewStatus": "needs-review"
+      "reviewStatus": "needs-review",
+      "studentName": "表で変わり方を調べる",
+      "studentPurpose": "2つの数がどう対応し、どのように変わるかを表に整理しよう。"
     },
     {
       "id": "math-rep-equation",
@@ -144,7 +156,9 @@
         "jp.elem.math.proportionality",
         "jp.elem.math.letter-expressions"
       ],
-      "reviewStatus": "needs-review"
+      "reviewStatus": "needs-review",
+      "studentName": "式で数の関係を表す",
+      "studentPurpose": "場面を式に表し、分からない数や数のきまりを考えよう。"
     },
     {
       "id": "math-rep-graph",
@@ -162,7 +176,9 @@
         "jp.elem.math.inverse-proportionality",
         "jp.elem.math.data-statistical-investigation"
       ],
-      "reviewStatus": "needs-review"
+      "reviewStatus": "needs-review",
+      "studentName": "グラフで変化を見つける",
+      "studentPurpose": "数や量の変化を見える形にして、ちがいや特徴を比べよう。"
     },
     {
       "id": "math-rep-geometry-sketch",
@@ -182,7 +198,9 @@
         "jp.elem.math.geometric-construction",
         "jp.elem.math.angle-sums-in-polygons"
       ],
-      "reviewStatus": "needs-review"
+      "reviewStatus": "needs-review",
+      "studentName": "形を図に表す",
+      "studentPurpose": "立体をいろいろな向きから見たり、展開図に開いたりして、面や辺のつながりを調べよう。"
     },
     {
       "id": "math-rep-systematic-enumeration",
@@ -201,7 +219,9 @@
         "jp.elem.math.find-patterns",
         "jp.elem.math.data-statistical-investigation"
       ],
-      "reviewStatus": "needs-review"
+      "reviewStatus": "needs-review",
+      "studentName": "樹形図や表で場合を整理する",
+      "studentPurpose": "場合を順番に整理して、ぬけや重なりがないように並べ方や組み合わせを数えよう。"
     }
   ]
 }
