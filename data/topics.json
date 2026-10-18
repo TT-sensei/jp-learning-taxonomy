@@ -125,7 +125,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "詩や短い文の音・リズムを味わおう",
-      "studentDescription": "詩歌や短い文章を音読・朗読し、言葉の響きやリズムを味わう。"
+      "studentDescription": "詩や短い文章を声に出して読み、言葉の音やリズムを楽しもう。"
     },
     {
       "id": "jp.elem.japanese.handwriting",
@@ -167,7 +167,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "文字を読みやすく整えて書こう",
-      "studentDescription": "姿勢や筆記具の持ち方、点画や文字の組み立てに注意して書く。"
+      "studentDescription": "字を書きやすい姿勢や鉛筆の持ち方、点や線の形に気をつけて書こう。"
     },
     {
       "id": "jp.elem.japanese.library-and-book-selection",
@@ -209,7 +209,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "図書館で本や資料を探そう",
-      "studentDescription": "図書館や資料の分類、目次、索引などを活用して、目的に合う本や資料を選ぶ。"
+      "studentDescription": "目次や索引（さくいん）を使って、知りたいことに合う本や資料を選ぼう。"
     },
     {
       "id": "jp.elem.japanese.traditional-language-culture",
@@ -251,7 +251,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "昔話・神話・古典に親しもう",
-      "studentDescription": "昔話、神話・伝承、古典などに触れ、言語文化の特徴やよさを感じ取る。"
+      "studentDescription": "昔話や神話、昔の文章にふれて、今の言葉やくらしとのちがいを見つけよう。"
     },
     {
       "id": "jp.elem.japanese.reading-habits",
@@ -293,7 +293,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "本を選んで読み、考えを広げよう",
-      "studentDescription": "目的や興味に応じて本を選び、読書を通して知識や考えを広げる。"
+      "studentDescription": "興味のある本や知りたいことに合う本を選び、読んで分かったことや考えたことを広げよう。"
     },
     {
       "id": "jp.elem.japanese.hiragana-kanji-katakana",
@@ -335,7 +335,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "ひらがな・カタカナ・漢字を正しく使おう",
-      "studentDescription": "仮名や学年に応じた漢字を読み書きし、語句や文章の中で使う。"
+      "studentDescription": "習ったひらがな・カタカナ・漢字を読んだり書いたりして、文の中で使おう。"
     },
     {
       "id": "jp.elem.japanese.sounds-and-characters",
@@ -368,8 +368,8 @@
         "basis": "japanese-taxonomy-draft",
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
-      "studentName": "言葉の音と文字のきまり",
-      "studentDescription": "音節、文字、表記の特徴に気付き、言葉を正しく読んだり書いたりする。"
+      "studentName": "言葉の音や文字のきまりを知ろう",
+      "studentDescription": "言葉を声に出し、音の区切りや文字の形に注目して、正しく読んだり書いたりしよう。"
     },
     {
       "id": "jp.elem.japanese.kana-orthography",
@@ -411,7 +411,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "送り仮名・かなづかいのきまり",
-      "studentDescription": "仮名遣い、送り仮名、同音の語などの表記に注意し、文脈に合う表記を選ぶ。"
+      "studentDescription": "送り仮名やかなづかい、同じ音でも書き方や意味がちがう言葉に気をつけて書こう。"
     },
     {
       "id": "jp.elem.japanese.kanji-meaning-and-usage",
@@ -621,7 +621,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "知っている言葉を増やして使おう",
-      "studentDescription": "経験や学習に関連する語彙を増やし、表現や理解に生かす。"
+      "studentDescription": "新しい言葉や使える言葉を増やし、話したり書いたりするときに使おう。"
     },
     {
       "id": "jp.elem.japanese.dictionaries-and-reference",
@@ -705,7 +705,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "相手や場面に合う言葉を選ぼう",
-      "studentDescription": "相手、目的、場面に応じて言葉を選び、伝え方を調整する。"
+      "studentDescription": "話す相手や場面に合わせて言葉を選び、伝え方を工夫しよう。"
     },
     {
       "id": "jp.elem.japanese.sentence-types-and-punctuation",
@@ -747,7 +747,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "文の終わり方と文の形",
-      "studentDescription": "文末表現や文の形に注目し、伝えたい内容や相手に応じた文を使う。"
+      "studentDescription": "「〜です」「〜かな」など文の終わり方に注目し、伝えたいことや相手に合わせて文を書こう。"
     },
     {
       "id": "jp.elem.japanese.sentence-structure",
@@ -788,8 +788,8 @@
         "basis": "japanese-taxonomy-draft",
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
-      "studentName": "文の中の言葉どうしのつながり",
-      "studentDescription": "主語と述語、修飾・被修飾の関係など、文の組み立てに着目する。"
+      "studentName": "文の中の言葉の役割を考えよう",
+      "studentDescription": "だれが何をする文なのか、様子をくわしく説明する言葉はどれかを考えよう。"
     },
     {
       "id": "jp.elem.japanese.write-experiences-and-observations",
@@ -915,7 +915,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "書くことを整理して文章を組み立てよう",
-      "studentDescription": "伝えたいことを明確にし、時間・事柄の順序や段落の構成を考える。"
+      "studentDescription": "何を伝えたいかを決め、出来事の順番や段落の分け方を考えて文章を組み立てよう。"
     },
     {
       "id": "jp.elem.japanese.choose-writing-topic",
@@ -1041,7 +1041,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "文章を読み合い、よいところを伝えよう",
-      "studentDescription": "互いの文章を読み、よいところや改善点を伝え合って次の表現に生かす。"
+      "studentDescription": "友だちの文章を読み、よいところや、もっと分かりやすくできそうなところを伝え合おう。"
     },
     {
       "id": "jp.elem.japanese.write-for-purpose",
@@ -1083,7 +1083,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "目的や相手に合う文章を書こう",
-      "studentDescription": "目的や相手に応じて、説明、報告、紹介、意見などの文章を書く。"
+      "studentDescription": "説明・報告・紹介・意見など、何を伝える文章なのかを決め、相手に合う書き方をしよう。"
     },
     {
       "id": "jp.elem.japanese.collecting-and-recording-information",
@@ -1205,7 +1205,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "出来事や場面の順番を読み取ろう",
-      "studentDescription": "出来事の順番や場面の変化をたどって、文章の内容を読み取ろう。"
+      "studentDescription": "出来事の順番や場面の変わり方をたどり、文章に何が書かれているか読み取ろう。"
     },
     {
       "id": "jp.elem.japanese.infer-from-text",
@@ -1372,8 +1372,8 @@
         "basis": "japanese-taxonomy-draft",
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
-      "studentName": "読んで考えたことを伝え合おう",
-      "studentDescription": "読んで感じたことや考えたことを伝え合い、新たな見方や考えをもつ。"
+      "studentName": "読んで思ったことを伝え合おう",
+      "studentDescription": "読んで心に残ったことや考えたことを伝え合い、友だちの考えから新しい気づきを得よう。"
     },
     {
       "id": "jp.elem.japanese.choose-reading-strategy",
@@ -1495,7 +1495,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "質問して、分からないことを確かめよう",
-      "studentDescription": "分からないことを質問し、相手の意図や情報を確かめる。"
+      "studentDescription": "分からないことや、もっと知りたいことを質問して確かめよう。"
     },
     {
       "id": "jp.elem.japanese.listen-for-main-points",
@@ -1579,7 +1579,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "話し合って、考えをまとめよう",
-      "studentDescription": "目的や進め方を意識し、意見を比べたり質問したりして考えをまとめる。"
+      "studentDescription": "おたがいの意見を聞き、質問したり比べたりしながら、みんなの考えをまとめよう。"
     },
     {
       "id": "jp.elem.japanese.prepare-and-organize-speech",
@@ -1621,7 +1621,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "話す内容と順番を考えよう",
-      "studentDescription": "目的や相手を意識して話題を選び、伝える順序や要点を整える。"
+      "studentDescription": "だれに何を伝えるかを考え、話す内容と順番を決めよう。"
     },
     {
       "id": "jp.elem.japanese.classical-language-and-old-forms",
@@ -1697,7 +1697,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "作品や作者について知ろう",
-      "studentDescription": "作品の背景や作者、文学的なつながりに関心をもち、読書に生かす。"
+      "studentDescription": "作品や作者について調べ、作品の時代やほかの作品とのつながりも考えてみよう。"
     },
     {
       "id": "jp.elem.japanese.idioms-proverbs-and-sayings",
@@ -1848,8 +1848,8 @@
         "basis": "japanese-taxonomy-draft",
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
-      "studentName": "言葉どうしのつながりや成り立ち",
-      "studentDescription": "語句のまとまり、語と語の関係、語句の構成や由来などに着目する。"
+      "studentName": "言葉の組み立てやつながりを考えよう",
+      "studentDescription": "言葉がどのように組み合わさっているか、言葉どうしがどんな意味でつながるか考えよう。"
     },
     {
       "id": "jp.elem.japanese.connectives-and-modifiers",
@@ -2153,7 +2153,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "原因と結果などのつながりを見つけよう",
-      "studentDescription": "原因と結果、事実と意見など、情報どうしの関係を考える。"
+      "studentDescription": "「何が原因で、何が起きたのか」など、出来事や情報どうしのつながりを考えよう。"
     },
     {
       "id": "jp.elem.japanese.facts-opinions-and-interpretations",
@@ -2190,8 +2190,8 @@
         "basis": "japanese-taxonomy-draft",
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
-      "studentName": "事実・意見・読み取りを区別しよう",
-      "studentDescription": "情報が事実、意見、解釈のどれに当たるかを考え、混同せずに扱う。"
+      "studentName": "事実・意見・自分の読み取りを分けよう",
+      "studentDescription": "資料に書かれた事実、だれかの意見、自分の読み取りを分けて考えよう。"
     },
     {
       "id": "jp.elem.japanese.information-structure",
@@ -2266,8 +2266,8 @@
         "basis": "japanese-taxonomy-draft",
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
-      "studentName": "情報の出どころや確かさを確かめよう",
-      "studentDescription": "だれが、いつ、何をもとに発信した情報かを確かめ、ほかの資料とも比べよう。"
+      "studentName": "情報がどこから来たか、確かめよう",
+      "studentDescription": "だれが、いつ、何をもとに発信した情報かを確かめ、別の資料とも比べてみよう。"
     },
     {
       "id": "jp.elem.japanese.diagrams-and-tables",
@@ -2343,7 +2343,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "文章・図・写真を組み合わせて読み取ろう",
-      "studentDescription": "文章・図表・写真を見比べて、情報をつなげて読み取ろう。"
+      "studentDescription": "文章・図表・写真を見比べ、同じ情報やちがう情報をつなげて読み取ろう。"
     },
     {
       "id": "jp.elem.japanese.quote-evidence",
@@ -2418,8 +2418,8 @@
         "basis": "japanese-taxonomy-draft",
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
-      "studentName": "語り手や視点に注目して読もう",
-      "studentDescription": "語り手や視点、描写の仕方が内容の受け取り方に与える働きを考える。"
+      "studentName": "だれの目線で書かれているか考えよう",
+      "studentDescription": "だれの立場から語られているか、何に注目して書かれているかを考えよう。"
     },
     {
       "id": "jp.elem.japanese.read-facts-and-opinions",
@@ -2457,7 +2457,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "事実・意見・理由・例のつながりを読もう",
-      "studentDescription": "説明文などで事実と意見、主張と理由・事例の関係を考える。"
+      "studentDescription": "説明文の事実と筆者の意見を分け、意見を支える理由や例を見つけよう。"
     },
     {
       "id": "jp.elem.japanese.read-between-the-lines",
@@ -2533,7 +2533,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "段落や文章全体の組み立てを読み取ろう",
-      "studentDescription": "段落相互の関係や文章全体の構成、論の進め方を考える。"
+      "studentDescription": "段落どうしのつながりや文章全体の組み立てを考え、筆者の説明の進め方を読み取ろう。"
     },
     {
       "id": "jp.elem.japanese.read-author-claim-and-evidence",
@@ -2571,7 +2571,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "筆者の主張と理由・例を見つけよう",
-      "studentDescription": "説明的な文章で筆者の主張、理由、事例、資料の関係を考える。"
+      "studentDescription": "筆者が一番伝えたいことと、その理由や例を見つけて説明しよう。"
     },
     {
       "id": "jp.elem.japanese.read-figurative-language-and-effects",
@@ -2685,7 +2685,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "いくつかの資料を比べて確かめよう",
-      "studentDescription": "複数の文章や資料の情報を照らし合わせ、同じところ、違い、補完関係を考える。"
+      "studentDescription": "いくつかの文章や資料を比べ、同じところ・ちがうところ・一方にしかない情報を確かめよう。"
     },
     {
       "id": "jp.elem.japanese.read-text-type-and-purpose",
@@ -2723,7 +2723,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "文章の種類や目的に合わせて読もう",
-      "studentDescription": "物語、説明文、記録、意見文などの特徴や目的に合わせて読み方を考える。"
+      "studentDescription": "物語・説明文・記録・意見文など、文章の種類に合わせて読み方を工夫しよう。"
     },
     {
       "id": "jp.elem.japanese.compare-viewpoints",
@@ -2799,7 +2799,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "事例や資料を使って説明しよう",
-      "studentDescription": "考えを支える事例や資料を選び、理由と結び付けて説明する。"
+      "studentDescription": "自分の考えを分かってもらえるように、理由や具体的な例、資料を使って説明しよう。"
     },
     {
       "id": "jp.elem.japanese.summarize-others-viewpoints",
@@ -2837,7 +2837,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "相手の考えを整理して伝え返そう",
-      "studentDescription": "相手が話した大事なことを整理して、自分の言葉で伝え返そう。"
+      "studentDescription": "相手が話した大事なことを整理し、自分の言葉で伝え返して理解を確かめよう。"
     },
     {
       "id": "jp.elem.japanese.take-notes-while-listening",
@@ -2875,7 +2875,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "聞きながら大事なことをメモしよう",
-      "studentDescription": "話の中心や必要な情報を選び、後で使えるように短く記録する。"
+      "studentDescription": "話を聞きながら、大事なことや後で使いたいことを短くメモしよう。"
     },
     {
       "id": "jp.elem.japanese.interview-and-question-design",
@@ -2951,7 +2951,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "相手に伝わるように発表しよう",
-      "studentDescription": "構成や資料、声や話し方を工夫し、相手に伝わるように発表する。"
+      "studentDescription": "話す順番や資料、声の大きさ・速さを工夫して、聞く人に伝わるように発表しよう。"
     },
     {
       "id": "jp.elem.japanese.explain-opinion-or-reason",
@@ -2989,7 +2989,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "理由や根拠をはっきりさせて話そう",
-      "studentDescription": "自分の考えと理由・事例の関係を明確にして話す。"
+      "studentDescription": "自分の考えだけでなく、その理由や例もそえて話そう。"
     },
     {
       "id": "jp.elem.math.compose-decompose-to-10",
