@@ -16,6 +16,28 @@
     <h1><ruby>学<rt>まな</rt></ruby>びは、どうつながっている？</h1>
     <p><ruby>前<rt>まえ</rt></ruby>に<ruby>習<rt>なら</rt></ruby>ったことは、<ruby>今<rt>いま</rt></ruby>の<ruby>学<rt>まな</rt></ruby>びにどう<ruby>役立<rt>やくだ</rt></ruby>つ？ <ruby>次<rt>つぎ</rt></ruby>は何につながる？</p>
   </header>
+  <section id="self-study-guide" class="self-study-guide" aria-labelledby="guide-title">
+    <div class="guide-intro">
+      <div><p class="guide-kicker">SELF-STUDY GUIDE</p><h2 id="guide-title">自学のヒントを、ナビと見つけよう</h2><p>今の学習から、前に習ったことや、この先につながることを見つけてみよう。</p></div>
+      <div id="guide-character" class="guide-character" aria-hidden="true"></div>
+    </div>
+    <div class="guide-steps">
+      <article class="guide-step"><span class="guide-step-number">01</span><div><h3>今、学校で学んでいることを選ぶ</h3><p>教科・学年・言葉で探して、今の学習に近い項目をタップ。</p><button type="button" data-guide-action="choose">学びを探す</button></div></article>
+      <article class="guide-step"><span class="guide-step-number">02</span><div><h3>前に習ったことをたどる</h3><p>選んだ項目の「先に学ぶとよいこと」を見て、使えそうな学びを探そう。</p><button type="button" data-guide-action="look-back">前の学びを見る</button></div></article>
+      <article class="guide-step"><span class="guide-step-number">03</span><div><h3>この先の学びも見てみる</h3><p>今の学習が、何に使えたり、どんな学びに広がったりするか見てみよう。</p><button type="button" data-guide-action="look-ahead">この先を見る</button></div></article>
+      <article class="guide-step"><span class="guide-step-number">04</span><div><h3>自分で決めて、学びノートへ</h3><p>見つけたつながりから、今日の自学で取り組むことを一つ決めよう。</p><button type="button" data-guide-action="notebook" aria-expanded="false" aria-controls="guide-notebook-prompts">ノートのヒントを開く</button></div></article>
+    </div>
+    <div id="guide-message" class="guide-message" role="status" aria-live="polite">まずは、今学校で学んでいることに近い項目を選んでみよう。選んだ項目に合わせて、ナビが次の見方を案内するよ。</div>
+    <div id="guide-notebook-prompts" class="guide-notebook-prompts" hidden>
+      <p class="guide-note-heading">学びノートに書くときのヒント</p>
+      <ul>
+        <li>今、学んでいる「＿＿＿＿」には、前に習った「＿＿＿＿」が使えそうだ。</li>
+        <li>そう思ったのは、＿＿＿＿が似ているから／＿＿＿＿を使って考えられるから。</li>
+        <li>今日は「＿＿＿＿」を復習して、今の学習で使えるか確かめよう。</li>
+      </ul>
+      <p>全部をうめなくても大丈夫。自分が確かめたいことを一つ選んで、学びノートに書こう。</p>
+    </div>
+  </section>
   <main>
     <section class="controls" aria-label="学習内容を選ぶ">
       <div class="controls-title"><span><ruby>見<rt>み</rt></ruby>たい<ruby>学<rt>まな</rt></ruby>びをさがそう</span><p><ruby>教科<rt>きょうか</rt></ruby>・<ruby>学年<rt>がくねん</rt></ruby>・<ruby>言葉<rt>ことば</rt></ruby>から<ruby>選<rt>えら</rt></ruby>べます</p></div>
@@ -44,7 +66,7 @@
   </main>
   <footer>
     <p><ruby>学<rt>まな</rt></ruby>びのつながりは、<ruby>見直<rt>みなお</rt></ruby>しながら<ruby>作<rt>つく</rt></ruby>っています。<ruby>学<rt>まな</rt></ruby>ぶ<ruby>順番<rt>じゅんばん</rt></ruby>は<ruby>学校<rt>がっこう</rt></ruby>や<ruby>教科書<rt>きょうかしょ</rt></ruby>によって<ruby>変<rt>か</rt></ruby>わることがあります。</p>
-    <p class="footer-links">先生・保護者向け：<a href="./representations.html">算数の表し方マップ</a> · <a href="https://tt-sensei.github.io/edu-kit/">EDU KIT（先生向け）</a> · <a href="../README.md">この学習マップについて</a></p>
+    <p class="footer-links">ナビキャラ画像：<a href="https://github.com/TT-sensei/navi-character-/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">TT-sensei（CC BY-NC 4.0）</a></p>\n    <p class="footer-links">先生・保護者向け：<a href="./representations.html">算数の表し方マップ</a> · <a href="https://tt-sensei.github.io/edu-kit/">EDU KIT（先生向け）</a> · <a href="../README.md">この学習マップについて</a></p>
     <details class="furigana-tools">
       <summary>ふりがなの自動表示（試験中）</summary>
       <p>選択中の学習項目の読み方を自動で推定します。読み間違いがある場合もあるため、確認用の機能です。</p>
