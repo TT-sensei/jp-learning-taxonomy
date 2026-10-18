@@ -2,12 +2,12 @@ const state = { topics: [], dependencies: [], standards: null, selected: null };
 const $ = (selector) => document.querySelector(selector);
 const esc = (value) => String(value ?? "").replace(/[&<>"']/g, (c) => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const relationNames = {
-  "prerequisite":"先に知っておくといいこと",
-  "recommended-prerequisite":"先にやると分かりやすい",
-  "related-learning":"いっしょに考えられる",
-  "extension":"もっと広げる",
-  "application":"使ってみる",
-  "recurring-development":"くり返し使う力"
+  "prerequisite":"先に身につけたいこと",
+  "recommended-prerequisite":"先に学ぶと分かりやすい",
+  "related-learning":"関係のある学び",
+  "extension":"さらに考えを広げる",
+  "application":"学んだことを使う",
+  "recurring-development":"くり返し使って深める"
 };
 const statusNames = {"draft":"作成中","needs-review":"見直し中","reviewed":"見直し済み","published":"公開中"};
 function gradeLabel(topic) {
@@ -125,7 +125,7 @@ function renderGradeMap(subject) {
 function renderList() {
   const topics=filteredTopics();
   const filters=currentFilters();
-  $("#count").textContent=(!filters.subject&&!filters.grade&&!filters.domain&&!filters.query) ? "4教科" : topics.length+"件";
+  $("#count").textContent=(!filters.subject&&!filters.grade&&!filters.domain&&!filters.query) ? [...new Set(state.topics.map(t=>t.subject))].length+"教科" : topics.length+"件";
   const list=$("#items");
   list.replaceChildren();
   if(filters.subject&&!filters.grade&&!filters.domain&&!filters.query){
@@ -203,7 +203,7 @@ function renderDetail(id) {
       '<div class="flow-arrow" aria-hidden="true">↓</div>'+
       '<div class="progression-stage"><div class="stage-label"><span>03</span><strong>これから学ぶこと</strong></div>'+flowNodes(next,"次につながる学びは、これから調べていくよ。","next")+'</div>'+
     '</section>'+
-    '<details class="source-details"><summary>先生たちの確認メモ</summary><p class="muted">学びのつながりは、今も見直しているところだよ。必ずこの順番で学ぶ、という意味ではないよ。</p><ul>'+(sourceLinks||"<li>出典情報は未登録です。</li>")+'</ul><p class="muted small-note">管理用の番号：'+esc(topic.id)+'</p></details>';
+    '<details class="source-details"><summary>先生たちの確認メモ</summary><p class="muted">学びのつながりは先生たちが確認中です。必ずこの順番で学ぶ、という意味ではありません。</p><ul>'+(sourceLinks||"<li>出典情報は未登録です。</li>")+'</ul><p class="muted small-note">管理用の番号：'+esc(topic.id)+'</p></details>';
   $("#detail").querySelectorAll("[data-topic-id]").forEach(button=>button.addEventListener("click",()=>renderDetail(button.dataset.topicId)));
   renderList();
   $("#detail").scrollIntoView({behavior:"smooth",block:"nearest"});
