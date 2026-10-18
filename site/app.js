@@ -13,7 +13,7 @@ const statusNames = {"draft":"作成中","needs-review":"見直し中","reviewed
 function gradeLabel(topic) {
   const grades = (topic.grades || []).slice().sort((a,b)=>a-b);
   if (!grades.length) return "学年確認中";
-  return grades.map(g=>g+"年").join("・");
+  return gradeListLabel(grades).replace(/年/g,"年生");
 }
 function topicGrade(topic) {
   return Number(topic.gradePlacement?.candidateFirstIntroductionGrade) || Math.min(...(topic.grades || [99]));
@@ -196,12 +196,12 @@ function renderDetail(id) {
     '<h2>'+esc(topic.name)+'</h2><p class="detail-description">'+esc(topic.description||"")+'</p>'+
     '<section class="progression-map" aria-label="学びの道すじ">'+
       '<div class="progression-title"><span class="progression-mark">学びの道すじ</span><p>つながりを選ぶと、その学びを中心に道すじをたどれます。</p></div>'+
-      '<div class="progression-stage"><div class="stage-label"><span>01</span><strong>これまで</strong></div>'+flowNodes(previous,"前の学びは、まだ調べているところだよ。","previous")+'</div>'+
+      '<div class="progression-stage"><div class="stage-label"><span>01</span><strong>これまで</strong></div>'+flowNodes(previous,"前につながる学びは、まだ調べているところだよ。","previous")+'</div>'+
       '<div class="flow-arrow" aria-hidden="true">↓</div>'+
       '<div class="progression-stage is-current"><div class="stage-label"><span>02</span><strong>いま</strong></div>'+
         '<div class="flow-current"><span>'+esc(gradeLabel(topic))+'</span><strong>'+esc(topic.name)+'</strong><small>選択中の学び</small></div></div>'+
       '<div class="flow-arrow" aria-hidden="true">↓</div>'+
-      '<div class="progression-stage"><div class="stage-label"><span>03</span><strong>この先</strong></div>'+flowNodes(next,"次の学びは、これから調べていくよ。","next")+'</div>'+
+      '<div class="progression-stage"><div class="stage-label"><span>03</span><strong>この先</strong></div>'+flowNodes(next,"次につながる学びは、これから調べていくよ。","next")+'</div>'+
     '</section>'+
     '<details class="source-details"><summary>出典・確認状況</summary><p class="muted">学習項目とつながりは確認中の候補です。公式の必修順序を示すものではありません。</p><ul>'+(sourceLinks||"<li>出典情報は未登録です。</li>")+'</ul><p class="muted small-note">項目ID：'+esc(topic.id)+'</p></details>';
   $("#detail").querySelectorAll("[data-topic-id]").forEach(button=>button.addEventListener("click",()=>renderDetail(button.dataset.topicId)));
