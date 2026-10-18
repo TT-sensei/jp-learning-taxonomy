@@ -582,13 +582,10 @@
       "topicId": "jp.elem.math.factors-multiples",
       "topicName": "倍数・約数",
       "currentCandidateGrades": [
-        5,
-        6
+        5
       ],
       "currentCandidateFirstIntroductionGrade": 5,
-      "currentCandidateContinuingGrades": [
-        6
-      ],
+      "currentCandidateContinuingGrades": [],
       "reviewStatus": "reviewed",
       "evidenceSourceIds": [
         "mext-elementary-math-guideline-2017"
@@ -667,14 +664,12 @@
       "currentCandidateGrades": [
         2,
         3,
-        4,
-        5
+        4
       ],
       "currentCandidateFirstIntroductionGrade": 2,
       "currentCandidateContinuingGrades": [
         3,
-        4,
-        5
+        4
       ],
       "reviewStatus": "reviewed",
       "evidenceSourceIds": [
@@ -773,15 +768,10 @@
       "topicId": "jp.elem.math.decimal-add-subtract",
       "topicName": "小数の加法・減法",
       "currentCandidateGrades": [
-        4,
-        5,
-        6
+        4
       ],
       "currentCandidateFirstIntroductionGrade": 4,
-      "currentCandidateContinuingGrades": [
-        5,
-        6
-      ],
+      "currentCandidateContinuingGrades": [],
       "reviewStatus": "reviewed",
       "evidenceSourceIds": [
         "mext-elementary-math-guideline-2017"
@@ -800,13 +790,10 @@
       "topicId": "jp.elem.math.fractions-same-denominator",
       "topicName": "同分母分数の加法・減法",
       "currentCandidateGrades": [
-        4,
-        5
+        4
       ],
       "currentCandidateFirstIntroductionGrade": 4,
-      "currentCandidateContinuingGrades": [
-        5
-      ],
+      "currentCandidateContinuingGrades": [],
       "reviewStatus": "reviewed",
       "evidenceSourceIds": [
         "mext-elementary-math-guideline-2017"
@@ -825,15 +812,10 @@
       "topicId": "jp.elem.math.expressions-parentheses",
       "topicName": "四則の式・かっこと計算順序",
       "currentCandidateGrades": [
-        4,
-        5,
-        6
+        4
       ],
       "currentCandidateFirstIntroductionGrade": 4,
-      "currentCandidateContinuingGrades": [
-        5,
-        6
-      ],
+      "currentCandidateContinuingGrades": [],
       "reviewStatus": "reviewed",
       "evidenceSourceIds": [
         "mext-elementary-math-guideline-2017"
@@ -852,13 +834,10 @@
       "topicId": "jp.elem.math.decimal-multiply-divide",
       "topicName": "小数の乗法・除法",
       "currentCandidateGrades": [
-        5,
-        6
+        5
       ],
       "currentCandidateFirstIntroductionGrade": 5,
-      "currentCandidateContinuingGrades": [
-        6
-      ],
+      "currentCandidateContinuingGrades": [],
       "reviewStatus": "reviewed",
       "evidenceSourceIds": [
         "mext-elementary-math-guideline-2017"
@@ -877,13 +856,10 @@
       "topicId": "jp.elem.math.fractions-unlike-denominators",
       "topicName": "異分母分数の加法・減法",
       "currentCandidateGrades": [
-        5,
-        6
+        5
       ],
       "currentCandidateFirstIntroductionGrade": 5,
-      "currentCandidateContinuingGrades": [
-        6
-      ],
+      "currentCandidateContinuingGrades": [],
       "reviewStatus": "reviewed",
       "evidenceSourceIds": [
         "mext-elementary-math-guideline-2017"
@@ -902,15 +878,10 @@
       "topicId": "jp.elem.math.rounding-estimation",
       "topicName": "概数・四捨五入・見積もり",
       "currentCandidateGrades": [
-        4,
-        5,
-        6
+        4
       ],
       "currentCandidateFirstIntroductionGrade": 4,
-      "currentCandidateContinuingGrades": [
-        5,
-        6
-      ],
+      "currentCandidateContinuingGrades": [],
       "reviewStatus": "reviewed",
       "evidenceSourceIds": [
         "mext-elementary-math-guideline-2017"
