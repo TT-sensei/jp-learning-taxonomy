@@ -51,7 +51,7 @@ for (const topic of topics) {
     errors.push(`${topic.id}: grades は1〜6の整数の配列にしてください。`);
   }
   const placement = topic.gradePlacement;
-  if (!placement || !["candidate","reviewed","verified"].includes(placement.status)) {
+  if (!placement || !["candidate","needs-review","reviewed","verified"].includes(placement.status)) {
     errors.push(`${topic.id}: gradePlacement.status が未定義または不足しています。`);
   } else {
     if (!Number.isInteger(placement.candidateFirstIntroductionGrade) || placement.candidateFirstIntroductionGrade < 1 || placement.candidateFirstIntroductionGrade > 6) {
@@ -60,8 +60,8 @@ for (const topic of topics) {
     if (!Array.isArray(placement.candidateContinuingGrades) || placement.candidateContinuingGrades.some(g => !Number.isInteger(g) || g < 1 || g > 6)) {
       errors.push(`${topic.id}: candidateContinuingGrades は1〜6の整数の配列にしてください。`);
     }
-    if (placement.status === "candidate" && placement.basis !== "current-draft-grades") {
-      errors.push(`${topic.id}: candidate の根拠情報が不足しています。`);
+    if (!placement.basis || typeof placement.basis !== "string") {
+      errors.push(`${topic.id}: gradePlacement.basis の根拠情報が不足しています。`);
     }
   }
   for (const standardId of topic.curriculumStandards ?? []) {
