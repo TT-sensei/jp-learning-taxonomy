@@ -138,10 +138,10 @@
     },
     {
       "id": "math-edge-016",
-      "from": "jp.elem.math.calculation-properties",
+      "from": "jp.elem.math.distributive-property",
       "to": "jp.elem.math.expressions-parentheses",
       "type": "related-learning",
-      "rationale": "計算の性質を式の構造として見直す際に関連する。",
+      "rationale": "分配法則を使って計算を分けて考えることは、式の構造や括弧の意味を捉える学習と関連する。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review"
     },
