@@ -43,8 +43,8 @@ function studentRationale(text) {
     ["数量の関係","数や量のつながり"],["数量","数や量"],["位取り","数字の位のしくみ"],
     ["加法","たし算"],["減法","ひき算"],["乗法","かけ算"],["除法","わり算"],
     ["等分除・包含除","同じ数ずつ分ける場面・何人分あるかを考える場面"],
-    ["叙述","文章中の言葉や文"],["要旨","大事な内容"],["関係を捉える","関係を見つける"],
-    ["関係を捉え","関係を見つけ"],["捉える","見つける"],["把握する","つかむ"],
+    ["叙述","文章中の言葉や文"],["要旨","大事な内容"],["関係を捉える","関係を考える"],
+    ["関係を捉え","関係を考え"],["捉える","考える"],["把握する","つかむ"],
     ["関連付ける","結び付ける"],["活用する","使う"],["理解してから","分かってから"]
   ];
   for (const [from, to] of replacements) value = value.split(from).join(to);
@@ -161,7 +161,7 @@ function renderGradeMap(subject) {
       (topics.length?'':'<p class="grade-lane-empty">この学年から学ぶ項目は、まだ登録されていないよ。</p>')+'</section>';
   }).join("");
   return '<div class="grade-map-intro"><strong>'+esc(subject)+'の学年マップ</strong><p>それぞれの学びを、学び始める学年の目安に1回ずつ置いています。あとでまた使う学びは、カードに表示しています。項目を選ぶと、前や次につながる学びが見られます。</p><small>学年は見直し中の目安です。必ずこの学年・順番で学ぶという意味ではありません。</small></div>'+
-    '<div class="grade-map-scroll" role="region" aria-label="'+esc(subject)+'の1年生から6年生の初出学年候補マップ" tabindex="0">'+lanes+'</div>';
+    '<div class="grade-map-scroll" role="region" aria-label="'+esc(subject)+'の1年生から6年生までの学びのマップ" tabindex="0">'+lanes+'</div>';
 }
 function renderList() {
   const topics=filteredTopics();
@@ -176,7 +176,7 @@ function renderList() {
   }
   if(!filters.subject&&!filters.grade&&!filters.domain&&!filters.query){
     const subjects=[...new Set(state.topics.map(t=>t.subject))].sort((a,b)=>a.localeCompare(b,"ja"));
-    list.innerHTML='<div class="subject-picks">'+subjects.map(subject=>'<button type="button" class="subject-pick" data-subject="'+esc(subject)+'"><span class="subject-pick-label">教科</span><strong>'+esc(subject)+'</strong><span>学びのつながりを見る →</span></button>').join("")+'</div><p class="empty-note">まず教科を選んでみてください。学年や学びのグループを絞り込んで、項目を選ぶと前後の学びをたどれます。</p>';
+    list.innerHTML='<div class="subject-picks">'+subjects.map(subject=>'<button type="button" class="subject-pick" data-subject="'+esc(subject)+'"><span class="subject-pick-label">教科</span><strong>'+esc(subject)+'</strong><span>学びのつながりを見る →</span></button>').join("")+'</div><p class="empty-note">まず教科を選んでみてください。学年や学習内容のまとまりをしぼって、項目を選ぶと前後の学びをたどれます。</p>';
     list.querySelectorAll("[data-subject]").forEach(button=>button.addEventListener("click",()=>{
       $("#subject").value=button.dataset.subject;
       renderDomainOptions();
