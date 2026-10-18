@@ -1395,6 +1395,96 @@
       "rationale": "身近な天気や気温の変化を調べることから、雲の動きと天気の変化を予想する学習へ広げる.",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-053",
+      "from": "jp.elem.japanese.vocabulary-expansion",
+      "to": "jp.elem.japanese.word-relationships",
+      "type": "extension",
+      "rationale": "語彙を増やす経験から、語句どうしの関係や構成にも目を向ける。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-054",
+      "from": "jp.elem.japanese.collecting-and-recording-information",
+      "to": "jp.elem.japanese.compare-information-across-sources",
+      "type": "extension",
+      "rationale": "情報を集めて記録することから、複数の資料を照合することへ広げる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-055",
+      "from": "jp.elem.japanese.compare-information-across-sources",
+      "to": "jp.elem.japanese.source-and-reliability",
+      "type": "related-learning",
+      "rationale": "複数資料を照合することと、情報の出どころや信頼性を確かめることをつなぐ。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-056",
+      "from": "jp.elem.japanese.information-structure",
+      "to": "jp.elem.japanese.read-structure-and-relationships",
+      "type": "application",
+      "rationale": "情報の構造を整理する見方を、文章全体の構成を読むことに生かす。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-057",
+      "from": "jp.elem.japanese.quote-evidence",
+      "to": "jp.elem.japanese.read-author-claim-and-evidence",
+      "type": "application",
+      "rationale": "言葉や文を根拠に説明する力を、筆者の主張と根拠を読み取ることに生かす。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-058",
+      "from": "jp.elem.japanese.read-character-and-setting",
+      "to": "jp.elem.japanese.read-between-the-lines",
+      "type": "extension",
+      "rationale": "登場人物や場面を捉えることから、叙述を結び付けて心情や意図を考えることへ深める。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-059",
+      "from": "jp.elem.japanese.choose-writing-topic",
+      "to": "jp.elem.japanese.organize-writing",
+      "type": "recommended-prerequisite",
+      "rationale": "書く題材を決めて材料を集め、その内容を整理して構成する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-060",
+      "from": "jp.elem.japanese.organize-writing",
+      "to": "jp.elem.japanese.revise-writing",
+      "type": "related-learning",
+      "rationale": "構成を考えて書いた文章を読み返し、より伝わる表現へ推敲する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-061",
+      "from": "jp.elem.japanese.write-opinion-and-argument",
+      "to": "jp.elem.japanese.use-quotes-and-sources-in-writing",
+      "type": "related-learning",
+      "rationale": "意見と理由を示す文章に、資料の引用や出典を適切に取り入れる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-062",
+      "from": "jp.elem.japanese.plan-research-and-report",
+      "to": "jp.elem.japanese.use-quotes-and-sources-in-writing",
+      "type": "application",
+      "rationale": "調べたことを報告するときに、資料の引用と出典の示し方を活用する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
     }
   ]
 }
