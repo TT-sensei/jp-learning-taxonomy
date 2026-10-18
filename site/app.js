@@ -180,7 +180,7 @@ function relationCards(items, empty, limit=3) {
   if (!items.length) return '<p class="empty-note">'+esc(empty)+'</p>';
   return '<div class="path-cards">'+items.slice(0,limit).map(item=>{
     const topic=item.topic, edge=item.edge;
-    return '<button type="button" class="path-card" data-topic-id="'+esc(topic.id)+'">'+
+    return '<button type="button" class="path-card" data-subject="'+esc(topic.subject)+'" data-topic-id="'+esc(topic.id)+'">'+
       '<span class="path-grade">'+esc(gradeLabel(topic))+'</span>'+
       '<strong>'+rubyHTML(topicTitle(topic))+'</strong>'+
       '<span class="path-kind">'+esc(relationNames[edge.type]||"関連する学び")+'</span>'+
@@ -217,7 +217,7 @@ function renderGradeMap(subject) {
           const candidateGrade=Number(topic.gradePlacement?.candidateFirstIntroductionGrade)||Math.min(...(topic.grades||[99]));
           const continuingGrades=(topic.gradePlacement?.candidateContinuingGrades||[]).length?topic.gradePlacement.candidateContinuingGrades:(topic.grades||[]).filter(g=>g!==candidateGrade);
           const continuing=gradeListLabel(continuingGrades);
-          return '<button type="button" class="grade-topic'+(state.selected===topic.id?' is-selected':'')+'" data-topic-id="'+esc(topic.id)+'" aria-pressed="'+(state.selected===topic.id)+'">'+
+          return '<button type="button" class="grade-topic'+(state.selected===topic.id?' is-selected':'')+'" data-subject="'+esc(topic.subject)+'" data-topic-id="'+esc(topic.id)+'" aria-pressed="'+(state.selected===topic.id)+'">'+
             '<strong>'+rubyHTML(topicTitle(topic))+'</strong>'+
             (continuing?'<span class="grade-topic-continuation">このあとも学ぶかも：'+esc(continuing)+'</span>':'')+
             '<span>つながりを見る →</span></button>';
@@ -270,7 +270,7 @@ function renderList() {
     section.className="domain-group";
     section.innerHTML='<div class="domain-heading"><h2>'+rubyHTML(domain)+'</h2><span>'+items.length+'</span></div>'+
       '<div class="topic-grid">'+items.map(topic=>
-        '<button type="button" class="topic-card'+(state.selected===topic.id?' is-selected':'')+'" data-topic-id="'+esc(topic.id)+'" aria-pressed="'+(state.selected===topic.id)+'">'+
+        '<button type="button" class="topic-card'+(state.selected===topic.id?' is-selected':'')+'" data-subject="'+esc(topic.subject)+'" data-topic-id="'+esc(topic.id)+'" aria-pressed="'+(state.selected===topic.id)+'">'+
         '<span class="topic-grade">'+esc(gradeLabel(topic))+'</span><strong>'+rubyHTML(topicTitle(topic))+'</strong>'+
         '<span class="topic-description">'+rubyHTML(topicText(topic))+'</span></button>'
       ).join("")+'</div>';
@@ -282,7 +282,7 @@ function flowNodes(items, empty, group) {
   if (!items.length) return '<p class="flow-empty">'+esc(empty)+'</p>';
   return '<div class="flow-nodes">'+items.slice(0,3).map(item=>{
     const topic=item.topic, edge=item.edge;
-    return '<button type="button" class="flow-node" data-topic-id="'+esc(topic.id)+'">'+
+    return '<button type="button" class="flow-node" data-subject="'+esc(topic.subject)+'" data-topic-id="'+esc(topic.id)+'">'+
       '<span class="flow-grade">'+esc(topic.subject+"・"+gradeLabel(topic))+'</span>'+
       '<strong>'+rubyHTML(topicTitle(topic))+'</strong>'+
       '<span class="path-kind">'+esc(relationLabel(edge,group))+'</span>'+
