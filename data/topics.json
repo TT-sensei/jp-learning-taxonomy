@@ -83,7 +83,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "原稿用紙・手紙・報告文の書き方",
-      "studentDescription": "原稿用紙の使い方や、手紙・報告文などの基本的な書式を理解して使う。"
+      "studentDescription": "原稿用紙の使い方や、手紙・報告文を書くときの形を知って使おう。"
     },
     {
       "id": "jp.elem.japanese.poetry-and-rhythm",
@@ -453,7 +453,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "漢字の読み方・意味・使い方",
-      "studentDescription": "学年に応じた漢字の読みや意味を理解し、熟語や文の中で適切に使う。"
+      "studentDescription": "習った漢字の読み方や意味を知り、熟語や文の中で正しく使おう。"
     },
     {
       "id": "jp.elem.japanese.onomatopoeia-and-sensory-words",
@@ -537,7 +537,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "句読点・かぎかっこ・送り仮名の使い方",
-      "studentDescription": "句読点、かぎ、送り仮名などの表記のきまりを理解して使う。"
+      "studentDescription": "句読点・かぎかっこ・送り仮名のきまりを知り、正しく書こう。"
     },
     {
       "id": "jp.elem.japanese.word-meaning",
@@ -579,7 +579,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "言葉の意味と使い分け",
-      "studentDescription": "言葉の意味や用法、類義語・対義語などを捉え、場面や目的に合わせて使う。"
+      "studentDescription": "言葉の意味や、似た意味・反対の意味を知り、場面に合う言葉を選ぼう。"
     },
     {
       "id": "jp.elem.japanese.vocabulary-expansion",
@@ -663,7 +663,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "辞書を使って言葉を調べよう",
-      "studentDescription": "辞書や語句集などを目的に合わせて使い、言葉の意味や用法を確かめる。"
+      "studentDescription": "辞書や言葉の資料を使って、意味や使い方を調べよう。"
     },
     {
       "id": "jp.elem.japanese.language-register-and-context",
@@ -831,7 +831,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "経験や観察したことを記録しよう",
-      "studentDescription": "経験や観察した事実を、順序や観点を意識して記録する。"
+      "studentDescription": "見たことや経験したことを、順序や見るポイントを決めて記録しよう。"
     },
     {
       "id": "jp.elem.japanese.write-letters-and-messages",
@@ -873,7 +873,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "手紙やお願いの文を書こう",
-      "studentDescription": "相手や目的に合わせて、必要な情報や合った言葉遣いを選んで書く。"
+      "studentDescription": "相手や目的に合わせて、必要なこととふさわしい言葉を選び、手紙やお願いの文を書こう。"
     },
     {
       "id": "jp.elem.japanese.organize-writing",
@@ -957,7 +957,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "書きたいことを見つけて材料を集めよう",
-      "studentDescription": "経験や関心、目的に合わせて題材を選び、必要な事柄を集める。"
+      "studentDescription": "経験や興味から題材を選び、書くための情報を集めよう。"
     },
     {
       "id": "jp.elem.japanese.revise-writing",
@@ -1125,7 +1125,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "必要な情報を集めて記録しよう",
-      "studentDescription": "観察、インタビュー、書籍、ウェブ資料などから目的に合う情報を集め、必要な形で記録する。"
+      "studentDescription": "観察やインタビュー、本、ウェブ資料から必要な情報を集め、後で使えるように記録しよう。"
     },
     {
       "id": "jp.elem.japanese.compare-and-classify-information",
@@ -1167,7 +1167,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "情報を比べて、仲間分けしよう",
-      "studentDescription": "同じところやちがい、観点を明確にして情報を比べたり分類したりする。"
+      "studentDescription": "同じところやちがうところを見つけ、情報を比べたり仲間分けしたりしよう。"
     },
     {
       "id": "jp.elem.japanese.read-sequence-and-events",
@@ -1205,7 +1205,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "出来事や場面の順番を読み取ろう",
-      "studentDescription": "出来事の順序や場面の移り変わりを捉え、内容を理解する。"
+      "studentDescription": "出来事の順番や場面の変化をたどって、文章の内容を読み取ろう。"
     },
     {
       "id": "jp.elem.japanese.infer-from-text",
@@ -1415,7 +1415,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "目的に合う読み方を選ぼう",
-      "studentDescription": "目的に合わせて、詳しく読む、要点を探す、比べて読むなどの方法を選ぶ。"
+      "studentDescription": "何を知りたいかに合わせて、詳しく読む・大事なところを探す・比べて読むなどの方法を選ぼう。"
     },
     {
       "id": "jp.elem.japanese.share-experience",
@@ -1537,7 +1537,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "話の大事なところを聞き取ろう",
-      "studentDescription": "話題や要点を捉え、必要な情報を聞き取る。"
+      "studentDescription": "話の中心や大事なところを聞き取り、必要なことをおさえよう。"
     },
     {
       "id": "jp.elem.japanese.discussion-and-debate",
@@ -1773,7 +1773,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "敬語や丁寧な言葉の使い方",
-      "studentDescription": "相手や場面に応じた言葉遣いを理解し、目的に合わせて使う。"
+      "studentDescription": "相手や場面に合う言葉づかいを知り、使い分けよう。"
     },
     {
       "id": "jp.elem.japanese.parts-of-speech",
@@ -1811,7 +1811,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "言葉の種類と文の中での働き",
-      "studentDescription": "品詞や言葉の働き、文中での役割などに着目する。"
+      "studentDescription": "名詞・動詞など言葉の種類や、文の中での役目を考えよう。"
     },
     {
       "id": "jp.elem.japanese.word-relationships",
@@ -2077,7 +2077,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "調べたことを報告文にまとめよう",
-      "studentDescription": "目的に沿って情報を集め、事実と考察を整理して報告文にまとめる。"
+      "studentDescription": "調べた情報を、事実と自分の考えに分けて報告文にまとめよう。"
     },
     {
       "id": "jp.elem.japanese.summarize-and-paraphrase",
@@ -2115,7 +2115,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "大事なところを要約し、自分の言葉で言い換えよう",
-      "studentDescription": "文章の中心的な情報を選び、目的に合わせて要約や言い換えを行う。"
+      "studentDescription": "文章の大事な情報を選び、短くまとめたり自分の言葉で言い換えたりしよう。"
     },
     {
       "id": "jp.elem.japanese.cause-and-effect",
@@ -2229,7 +2229,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "情報を順序やグループに整理しよう",
-      "studentDescription": "情報を整理し、順序、分類、階層などの構造を捉えて表現に生かす。"
+      "studentDescription": "情報を順番やグループに分け、分かりやすく整理しよう。"
     },
     {
       "id": "jp.elem.japanese.source-and-reliability",
@@ -2305,7 +2305,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "図や表、引用を使って伝えよう",
-      "studentDescription": "目的に合わせて図表などを用い、引用元を明らかにして情報を示す。"
+      "studentDescription": "図や表を使い、引用した資料の出どころを示して伝えよう。"
     },
     {
       "id": "jp.elem.japanese.media-and-multimodal-information",
@@ -2343,7 +2343,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "文章・図・写真を組み合わせて読み取ろう",
-      "studentDescription": "文章と図表、写真、見出しなどを関連付け、複数の表し方から情報を読み取る。"
+      "studentDescription": "文章・図表・写真を見比べて、情報をつなげて読み取ろう。"
     },
     {
       "id": "jp.elem.japanese.quote-evidence",
@@ -2761,7 +2761,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "ちがう意見を比べて聞こう",
-      "studentDescription": "複数の意見の同じところやちがいを捉え、自分の考えを広げる。"
+      "studentDescription": "複数の意見の同じところやちがうところをつかみ、自分の考えを広げよう。"
     },
     {
       "id": "jp.elem.japanese.support-opinion-with-examples",
@@ -2837,7 +2837,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "相手の考えを整理して伝え返そう",
-      "studentDescription": "相手の発言の要点を捉え、自分の理解を確かめながら伝え返す。"
+      "studentDescription": "相手が話した大事なことを整理して、自分の言葉で伝え返そう。"
     },
     {
       "id": "jp.elem.japanese.take-notes-while-listening",
@@ -2913,7 +2913,7 @@
         "note": "学年帯を学年候補に展開した初期草案。正式な学年配当を示すものではない。"
       },
       "studentName": "知りたいことを質問して調べよう",
-      "studentDescription": "知りたいことを整理して質問し、相手の話から必要な情報を集める。"
+      "studentDescription": "知りたいことを整理して質問し、相手の話から必要な情報を集めよう。"
     },
     {
       "id": "jp.elem.japanese.presentation",
@@ -3344,7 +3344,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "身の回りの形を見つけよう",
-      "studentDescription": "身の回りのものから平面や立体の形を見いだし、形の特徴を考える。"
+      "studentDescription": "身の回りのものから、平らな形や立体の形を見つけ、特徴を考えよう。"
     },
     {
       "id": "jp.elem.math.time-reading",
@@ -3443,7 +3443,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "仲間分けして、絵グラフに表そう",
-      "studentDescription": "集めた事柄を観点ごとに分類・整理し、数を絵や記号で表して特徴を読む。"
+      "studentDescription": "データを見るポイントごとに仲間分けし、絵や記号で表してみよう。"
     },
     {
       "id": "jp.elem.math.find-patterns",
@@ -3658,7 +3658,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "生活の中の問題を算数で解決しよう",
-      "studentDescription": "買い物・時間・測定・データなどの場面を数や量化し、結果を実際の場面に戻して解釈する。"
+      "studentDescription": "買い物・時間・測定・データなどの問題を数や量で表し、答えが実際の場面に合っているか確かめよう。"
     },
     {
       "id": "jp.elem.math.understand-problem-structure",
@@ -3701,7 +3701,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "問題から分かっている数や関係を見つけよう",
-      "studentDescription": "文章・図・実物から必要な数や量や関係を見いだし、既習の考えと結びつける。"
+      "studentDescription": "文章・図・実物を見て、分かっている数や量、求めたいことを整理しよう。"
     },
     {
       "id": "jp.elem.math.unknown-number-box-expression",
@@ -3854,7 +3854,7 @@
         "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       },
       "studentName": "2〜4けたのたし算・ひき算",
-      "studentDescription": "位をそろえる意味を理解し、複数の位にわたるたし算・ひき算を計算する。"
+      "studentDescription": "位をそろえる理由を考え、2〜4けたのたし算・ひき算をしよう。"
     },
     {
       "id": "jp.elem.math.addition-properties",
@@ -4275,7 +4275,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "目的に合う単位や測り方を選ぼう",
-      "studentDescription": "測る対象や目的に合わせて単位と測定方法を選び、量を見積もってから確かめる。"
+      "studentDescription": "何を測るかに合わせて単位や測り方を選び、見積もってから測ろう。"
     },
     {
       "id": "jp.elem.math.unknown-number-solve",
@@ -4409,7 +4409,7 @@
         "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       },
       "studentName": "あまりのあるわり算",
-      "studentDescription": "除数と商・あまりの関係を理解し、あまりの意味を場面に合わせて判断する。"
+      "studentDescription": "わる数・商・あまりの関係を考え、あまりが場面で何を表すか判断しよう。"
     },
     {
       "id": "jp.elem.math.calculation-properties",
@@ -4763,7 +4763,7 @@
         "note": "分割設計時の候補学年。公式の学年別内容との照合前であり、確定配当ではない。"
       },
       "studentName": "分けて考えるかけ算のきまり",
-      "studentDescription": "数を分けて考え、分配法則を計算方法の説明や工夫に使う。"
+      "studentDescription": "数を分けて計算するきまりを使って、計算しやすい方法を考えよう。"
     },
     {
       "id": "jp.elem.math.angles",
@@ -4798,7 +4798,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "角の大きさを比べよう",
-      "studentDescription": "角を回転の大きさとして捉え、角の大きさを比べたり測ったりする。"
+      "studentDescription": "角の大きさを回転の量として考え、角を比べたり測ったりしよう。"
     },
     {
       "id": "jp.elem.math.triangles-circles-spheres",
@@ -5004,7 +5004,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "単位の関係と単位の変え方",
-      "studentDescription": "長さ・面積・体積などの単位の仕組みを捉え、目的に合わせて単位を換算する。"
+      "studentDescription": "長さ・面積・体積の単位どうしの関係を調べ、目的に合う単位に変えよう。"
     },
     {
       "id": "jp.elem.math.multidigit-multiply-two-digit",
@@ -5071,7 +5071,7 @@
         "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       },
       "studentName": "四捨五入して、およその数にしよう",
-      "studentDescription": "目的に合わせて数を概数にし、計算結果の見当をつけて妥当性を確かめる。"
+      "studentDescription": "場面に合うおよその数にし、計算の答えが大きくずれていないか確かめよう。"
     },
     {
       "id": "jp.elem.math.estimate-check-calculation",
@@ -5218,7 +5218,7 @@
         "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
       },
       "studentName": "小数の位のしくみと大きさ",
-      "studentDescription": "小数を位ごとに捉え、位の単位や小数の大小の関係を考える。"
+      "studentDescription": "小数を位ごとに分けて、大きさや位のきまりを考えよう。"
     },
     {
       "id": "jp.elem.math.decimal-add-subtract",
@@ -5458,7 +5458,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "長方形・正方形の面積の求め方",
-      "studentDescription": "単位正方形の個数と辺の長さの関係を捉え、面積を公式で求める。"
+      "studentDescription": "1cm²の正方形がいくつ分あるかと辺の長さに注目して、面積を求めよう。"
     },
     {
       "id": "jp.elem.math.angle-measurement",
@@ -5631,7 +5631,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "2つの観点で整理した表",
-      "studentDescription": "複数の観点でデータを整理し、条件に合う数や関係を読み取る。"
+      "studentDescription": "データを2つの見るポイントで整理し、条件に合う数や関係を読み取ろう。"
     },
     {
       "id": "jp.elem.math.data-statistical-investigation",
@@ -6018,7 +6018,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "正多角形の特徴と円周の長さ",
-      "studentDescription": "繰り返す辺の長さや角の大きさに注目して正多角形を捉え、円周の意味を理解する。"
+      "studentDescription": "正多角形の辺や角のきまりを調べ、円周が何を表すか考えよう。"
     },
     {
       "id": "jp.elem.math.volume-units",
@@ -6053,7 +6053,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "体積の単位と単位の変え方",
-      "studentDescription": "体積を表す単位を理解し、立方体・直方体の体積と単位の関係を考える。"
+      "studentDescription": "体積の単位を知り、立方体・直方体の体積と単位のつながりを考えよう。"
     },
     {
       "id": "jp.elem.math.volume-cuboid",
@@ -6085,7 +6085,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "立方体・直方体の体積の求め方",
-      "studentDescription": "単位立方体の個数と辺の長さの関係を捉え、体積を求める。"
+      "studentDescription": "1cm³の立方体がいくつ分かを考え、立方体や直方体の体積を求めよう。"
     },
     {
       "id": "jp.elem.math.percentage",
@@ -6293,7 +6293,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "データをいくつかの見方で考えよう",
-      "studentDescription": "目的に合わせてデータを整理・代表させ、複数の見方を比べながら結論を考える。"
+      "studentDescription": "データを整理し、いくつかの見方を比べて、どんなことが言えるか考えよう。"
     },
     {
       "id": "jp.elem.math.percentage-graphs",
@@ -6363,7 +6363,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "データを度数分布表などに整理しよう",
-      "studentDescription": "データを区間や観点ごとに整理し、データのちらばりの様子や特徴を読み取る。"
+      "studentDescription": "データを区間やグループに分けて表に整理し、集まり方の特徴を読み取ろう。"
     },
     {
       "id": "jp.elem.math.average",
@@ -6398,7 +6398,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "平均を求めて使おう",
-      "studentDescription": "データ全体の特徴を表す量として平均を捉え、目的に合わせて求めて使う。"
+      "studentDescription": "平均を求めてデータ全体の様子を表し、目的に合わせて使おう。"
     },
     {
       "id": "jp.elem.math.fraction-multiply-divide",
@@ -6600,7 +6600,7 @@
         "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
       },
       "studentName": "角柱・円柱の体積の求め方",
-      "studentDescription": "底面積と高さの関係を捉え、角柱や円柱の体積を求める。"
+      "studentDescription": "底面積と高さを使って、角柱や円柱の体積を求めよう。"
     },
     {
       "id": "jp.elem.math.symmetry",
@@ -7192,7 +7192,7 @@
         "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
       },
       "studentName": "表やグラフから特徴を読み取ろう",
-      "studentDescription": "表やグラフから傾向や違いを読み取り、資料の出典や単位にも注意する。"
+      "studentDescription": "表やグラフの数や変化を読み取り、資料の出どころや単位も確かめよう。"
     },
     {
       "id": "jp.elem.social.timeline-sources",
@@ -8550,7 +8550,7 @@
       "conceptualPillarCandidates": [],
       "officialAreaCandidate": "横断的な問題解決の力（公式のA・B区分とは別の整理）",
       "studentName": "観察・実験の結果を記録して整理しよう",
-      "studentDescription": "観察・実験の結果を表、図、文章などで記録し、比較しやすく整理する。"
+      "studentDescription": "観察や実験の結果を表・図・文で記録し、比べやすく整理しよう。"
     },
     {
       "id": "jp.elem.science.communicate",
@@ -9068,7 +9068,7 @@
       ],
       "officialAreaCandidate": "B 生命・地球",
       "studentName": "人の体のつくりと動き",
-      "studentDescription": "骨や筋肉、関節の働きを観察し、人や他の動物の体のつくりと運動との関わりを考える。"
+      "studentDescription": "骨・筋肉・関節の働きを調べ、人や動物の体のつくりと動きの関係を考えよう。"
     },
     {
       "id": "jp.elem.science.water-cycle",
@@ -9316,7 +9316,7 @@
       ],
       "officialAreaCandidate": "B 生命・地球",
       "studentName": "植物の発芽・成長・実に必要な条件",
-      "studentDescription": "発芽や成長、実のでき方に必要な変える条件を決め、それ以外は同じにしてして調べる。"
+      "studentDescription": "発芽・成長・実ができるために必要な条件を調べるときは、変える条件を決め、それ以外は同じにしよう。"
     },
     {
       "id": "jp.elem.science.weather-patterns",
