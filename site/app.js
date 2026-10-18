@@ -69,7 +69,7 @@ function studentRationale(text) {
 }
 function gradeLabel(topic) {
   const grades = (topic.grades || []).slice().sort((a,b)=>a-b);
-  if (!grades.length) return "学年は確認中";
+  if (!grades.length || topic.gradePlacement?.basis === "japanese-taxonomy-draft") return "学年は確認中";
   const label = gradeListLabel(grades).replace(/年/g,"年生");
   return topic.gradePlacement?.status === "reviewed" ? label : "目安：" + label;
 }
@@ -205,6 +205,12 @@ function renderList() {
   if(!topics.length){
     list.innerHTML='<p class="empty-note">見つからなかったよ。教科や学年を変えたり、別の言葉で探したりしてみよう。</p>';
     return;
+  }
+  if(filters.subject==="国語" && filters.grade && state.topics.filter(topic=>topic.subject==="国語").every(topic=>topic.gradePlacement?.basis==="japanese-taxonomy-draft")){
+    const note=document.createElement("p");
+    note.className="empty-note grade-review-note";
+    note.textContent="国語の学年ごとの整理は確認中です。今は学年でしぼらず、学習内容のまとまりや言葉から探してね。";
+    list.append(note);
   }
   const groups=new Map();
   topics.forEach(topic=>{
