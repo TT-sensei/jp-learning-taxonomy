@@ -36,6 +36,24 @@ function domainLabel(domain) {
   };
   return labels[domain] || domain || "まとまり未分類";
 }
+const socialTopicGroups = {
+  "地域のようす": ["municipality-change","local-area","municipality-work","community-predecessors","local-map"],
+  "くらしを支えるしくみ": ["waste-management","water-supply","firefighting","police-safety","disaster-prevention"],
+  "都道府県のようす": ["prefecture-culture","prefecture-land","prefecture-industry"],
+  "日本の国土と自然": ["japan-location","japan-landforms-climate","natural-environment-life"],
+  "産業と環境": ["environment-protection","transport-trade","industrial-production","information-industry","food-life","forestry","fisheries","agriculture"],
+  "歴史のうつりかわり": ["edo-society","unification","war-and-recovery","ancient-japan","postwar-japan","medieval-japan","modernization"],
+  "政治と世界": ["diet","international-relations","local-government","government-courts","constitution"],
+  "資料を使って調べる": ["fieldwork-interview","evidence-explanation","decision-civic","compare-regions","maps-globes","statistics-graphs","timeline-sources"]
+};
+function topicGroup(topic) {
+  if (topic.subject === "社会") {
+    for (const [label, fragments] of Object.entries(socialTopicGroups)) {
+      if (fragments.some(fragment => topic.id.endsWith("." + fragment))) return label;
+    }
+  }
+  return domainLabel(topic.domain);
+}
 function studentRationale(text) {
   let value = String(text || "");
   const replacements = [
@@ -78,19 +96,18 @@ function currentFilters() {
 function filteredTopics() {
   const f = currentFilters();
   return state.topics.filter(topic => {
-    const haystack = [topicTitle(topic),topicText(topic),topic.name,topic.description,domainLabel(topic.domain),topic.domain,topic.subject].join(" ").toLocaleLowerCase("ja");
+    const haystack = [topicTitle(topic),topicText(topic),topic.name,topic.description,topicGroup(topic),domainLabel(topic.domain),topic.domain,topic.subject].join(" ").toLocaleLowerCase("ja");
     return (!f.subject || topic.subject===f.subject) &&
       (!f.grade || (topic.grades||[]).includes(f.grade)) &&
-      (!f.domain || topic.domain===f.domain) &&
+      (!f.domain || topicGroup(topic)===f.domain) &&
       (!f.query || haystack.includes(f.query));
   }).sort((a,b)=>topicGrade(a)-topicGrade(b)||a.domain.localeCompare(b.domain,"ja")||a.name.localeCompare(b.name,"ja"));
 }
 function renderDomainOptions() {
   const subject = $("#subject").value;
-  const relevant = state.topics.filter(t=>!subject||t.subject===subject).map(t=>t.domain);
+  const relevant = state.topics.filter(t=>!subject||t.subject===subject).map(topicGroup);
   const previous = $("#domain").value;
   fillSelect("#domain", relevant, "すべてのまとまり");
-  [...$("#domain").options].forEach((option,index)=>{ if(index>0) option.textContent=domainLabel(option.value); });
   if ([...$("#domain").options].some(o=>o.value===previous)) $("#domain").value=previous;
 }
 function renderFilters() {
@@ -143,7 +160,7 @@ function renderGradeMap(subject) {
       .sort((a,b)=>(a.domain||"").localeCompare(b.domain||"","ja")||a.name.localeCompare(b.name,"ja"));
     const groups=new Map();
     topics.forEach(topic=>{
-      const domain=domainLabel(topic.domain||"領域未分類");
+      const domain=topicGroup(topic)||"まとまり未分類";
       if(!groups.has(domain))groups.set(domain,[]);
       groups.get(domain).push(topic);
     });
@@ -192,7 +209,7 @@ function renderList() {
   }
   const groups=new Map();
   topics.forEach(topic=>{
-    const key=domainLabel(topic.domain||"領域未分類");
+    const key=topicGroup(topic)||"まとまり未分類";
     if(!groups.has(key)) groups.set(key,[]);
     groups.get(key).push(topic);
   });
@@ -233,7 +250,7 @@ function renderDetail(id) {
   }).join("");
   $("#detail").innerHTML=
     '<div class="detail-topline"><span class="subject-chip">'+esc(topic.subject)+'</span></div>'+
-    '<p class="detail-grade">'+esc(gradeLabel(topic))+'　／　'+esc(domainLabel(topic.domain))+'</p>'+
+    '<p class="detail-grade">'+esc(gradeLabel(topic))+'　／　'+esc(topicGroup(topic))+'</p>'+
     '<h2>'+esc(topicTitle(topic))+'</h2><p class="detail-description">'+esc(topicText(topic))+'</p>'+
     '<section class="progression-map" aria-label="学びの道すじ">'+
       '<div class="progression-title"><span class="progression-mark">学びの道すじ</span><p>前や次のカードを選ぶと、学びの道すじをたどれるよ。</p></div>'+
