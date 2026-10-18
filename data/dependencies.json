@@ -76,7 +76,7 @@
     {
       "id": "math-edge-009",
       "from": "jp.elem.math.multiplication-tables",
-      "to": "jp.elem.math.multidigit-multiplication",
+      "to": "jp.elem.math.multidigit-multiply-one-digit",
       "type": "recommended-prerequisite",
       "rationale": "九九を使えることが多桁の乗法の計算を支える。",
       "evidenceType": "editorial",
@@ -138,7 +138,7 @@
     },
     {
       "id": "math-edge-016",
-      "from": "jp.elem.math.multidigit-multiplication",
+      "from": "jp.elem.math.calculation-properties",
       "to": "jp.elem.math.expressions-parentheses",
       "type": "related-learning",
       "rationale": "計算の性質を式の構造として見直す際に関連する。",
@@ -454,7 +454,7 @@
     {
       "id": "math-edge-051",
       "from": "jp.elem.math.fractions-compare",
-      "to": "jp.elem.math.decimal-fraction-connections",
+      "to": "jp.elem.math.decimal-fraction-numberline",
       "type": "related-learning",
       "rationale": "分数と小数の大きさを同じ数直線上で比べる。",
       "evidenceType": "editorial",
@@ -463,7 +463,7 @@
     {
       "id": "math-edge-052",
       "from": "jp.elem.math.decimal-place-value",
-      "to": "jp.elem.math.decimal-fraction-connections",
+      "to": "jp.elem.math.decimal-fraction-tenths",
       "type": "related-learning",
       "rationale": "小数の位取りを、分数の表し方と関連づける。",
       "evidenceType": "editorial",
@@ -472,16 +472,16 @@
     {
       "id": "math-edge-053",
       "from": "jp.elem.math.multiplication-properties",
-      "to": "jp.elem.math.calculation-properties",
-      "type": "related-learning",
-      "rationale": "乗法の性質を、計算方法を工夫する場面で活用する。",
+      "to": "jp.elem.math.choose-calculation-strategy",
+      "type": "application",
+      "rationale": "乗法の性質を、目的に応じた計算方法の選択に活用する。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review"
     },
     {
       "id": "math-edge-054",
       "from": "jp.elem.math.number-sentences",
-      "to": "jp.elem.math.unknown-number-equations",
+      "to": "jp.elem.math.unknown-number-box-expression",
       "type": "related-learning",
       "rationale": "数量の関係を式に表す学習から未知数を含む式へつなぐ。",
       "evidenceType": "editorial",
@@ -603,6 +603,78 @@
       "rationale": "二つの数量の変わり方を調べる経験を、比例関係を表・式・グラフで捉える学習につなげる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review"
+    },
+    {
+      "id": "proposed-math-edge-a-001",
+      "from": "jp.elem.math.multidigit-multiply-one-digit",
+      "to": "jp.elem.math.multidigit-multiply-two-digit",
+      "type": "recommended-prerequisite",
+      "rationale": "1位数をかける計算の理解を2位数をかける計算へ広げる候補。",
+      "reviewStatus": "needs-review",
+      "evidenceType": "editorial"
+    },
+    {
+      "id": "proposed-math-edge-a-002",
+      "from": "jp.elem.math.decimal-place-value",
+      "to": "jp.elem.math.decimal-fraction-tenths",
+      "type": "recommended-prerequisite",
+      "rationale": "小数の位取りを0.1と1/10の関係へつなぐ候補。",
+      "reviewStatus": "needs-review",
+      "evidenceType": "editorial"
+    },
+    {
+      "id": "proposed-math-edge-a-003",
+      "from": "jp.elem.math.decimal-fraction-tenths",
+      "to": "jp.elem.math.decimal-fraction-numberline",
+      "type": "related-learning",
+      "rationale": "表し方の関係から数直線上での比較へ広げる候補。",
+      "reviewStatus": "needs-review",
+      "evidenceType": "editorial"
+    },
+    {
+      "id": "proposed-math-edge-a-004",
+      "from": "jp.elem.math.unknown-number-box-expression",
+      "to": "jp.elem.math.unknown-number-solve",
+      "type": "recommended-prerequisite",
+      "rationale": "□を使った式を表すことから、□に当てはまる数を求める学習へつなぐ候補。",
+      "reviewStatus": "needs-review",
+      "evidenceType": "editorial"
+    },
+    {
+      "id": "proposed-math-edge-a-005",
+      "from": "jp.elem.math.unknown-number-box-expression",
+      "to": "jp.elem.math.unknown-number-relationships",
+      "type": "related-learning",
+      "rationale": "□を使った式から数量の関係を式に表す学習へ広げる候補。",
+      "reviewStatus": "needs-review",
+      "evidenceType": "editorial"
+    },
+    {
+      "id": "proposed-math-edge-a-006",
+      "from": "jp.elem.math.addition-properties",
+      "to": "jp.elem.math.choose-calculation-strategy",
+      "type": "application",
+      "rationale": "加法の性質を計算方法の選択に活用する候補。",
+      "reviewStatus": "needs-review",
+      "evidenceType": "editorial"
+    },
+    {
+      "id": "proposed-math-edge-a-007",
+      "from": "jp.elem.math.distributive-property",
+      "to": "jp.elem.math.choose-calculation-strategy",
+      "type": "application",
+      "rationale": "分配法則を計算の工夫に活用する候補。",
+      "reviewStatus": "needs-review",
+      "evidenceType": "editorial"
+    },
+    {
+      "id": "proposed-math-edge-a-008",
+      "from": "jp.elem.math.estimate-check-calculation",
+      "to": "jp.elem.math.solve-multistep-number-problems",
+      "type": "application",
+      "rationale": "複数の計算を使う問題で、見積もりを結果の確認に活用する候補。",
+      "reviewStatus": "needs-review",
+      "evidenceType": "editorial"
     }
   ]
 }
