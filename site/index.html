@@ -16,24 +16,24 @@
   </header>
   <main>
     <section class="controls" aria-label="学習内容を選ぶ">
-      <div class="controls-title"><span>見たい学びをさがそう</span><p>教科・学年・言葉から選べます</p></div>
-      <label for="subject">教科</label>
+      <div class="controls-title"><span><ruby>見<rt>み</rt></ruby>たい<ruby>学<rt>まな</rt></ruby>びをさがそう</span><p><ruby>教科<rt>きょうか</rt></ruby>・<ruby>学年<rt>がくねん</rt></ruby>・<ruby>言葉<rt>ことば</rt></ruby>から<ruby>選<rt>えら</rt></ruby>べます</p></div>
+      <label for="subject"><ruby>教科<rt>きょうか</rt></ruby></label>
       <select id="subject"><option value="">読み込み中</option></select>
-      <label for="grade">学年</label>
+      <label for="grade"><ruby>学年<rt>がくねん</rt></ruby></label>
       <select id="grade">
         <option value="">全学年</option>
         <option value="1">1年生</option><option value="2">2年生</option>
         <option value="3">3年生</option><option value="4">4年生</option>
         <option value="5">5年生</option><option value="6">6年生</option>
       </select>
-      <label for="domain">学習内容のまとまり</label>
+      <label for="domain"><ruby>学習内容<rt>がくしゅうないよう</rt></ruby>のまとまり</label>
       <select id="domain"><option value="">すべて</option></select>
-      <label for="query">言葉でさがす</label>
+      <label for="query"><ruby>言葉<rt>ことば</rt></ruby>でさがす</label>
       <input id="query" type="search" placeholder="例：分数、面積、地域">
-      <p class="hint">項目を選ぶと、前に習ったことや、この先につながる学びが見られます。</p>
+      <p class="hint"><ruby>項目<rt>こうもく</rt></ruby>を<ruby>選<rt>えら</rt></ruby>ぶと、<ruby>前<rt>まえ</rt></ruby>に<ruby>習<rt>なら</rt></ruby>ったことや、この<ruby>先<rt>さき</rt></ruby>につながる<ruby>学<rt>まな</rt></ruby>びが<ruby>見<rt>み</rt></ruby>られます。<span class="color-key"><i class="key-before"></i>先に学ぶ <i class="key-related"></i>関係する <i class="key-next"></i>使う・広げる</span></p>
     </section>
     <section class="browse" aria-label="学びの項目">
-      <div class="browse-heading"><div><h2>学びを見てみよう</h2><p>気になる項目を選ぶと、つながりが分かります。</p></div><span id="count" class="count">読み込み中…</span></div>
+      <div class="browse-heading"><div><h2><ruby>学<rt>まな</rt></ruby>びを<ruby>見<rt>み</rt></ruby>てみよう</h2><p><ruby>気<rt>き</rt></ruby>になる<ruby>項目<rt>こうもく</rt></ruby>を<ruby>選<rt>えら</rt></ruby>ぶと、つながりが<ruby>分<rt>わ</rt></ruby>かります。</p></div><span id="count" class="count">読み込み中…</span></div>
       <div id="items" class="items"></div>
     </section>
     <aside id="detail" class="detail" aria-live="polite">
