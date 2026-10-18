@@ -1,0 +1,15 @@
+{
+  "schemaVersion": "0.1.0",
+  "title": "算数「数と計算」分割案の移行設計",
+  "updatedAt": "2026-10-18",
+  "status": "proposal-not-applied",
+  "purpose": "分割案の移行先と学習関係を記録する設計案。既存データは変更しない。",
+  "parentMigrations": [],
+  "existingEdgeMigrationCandidates": [],
+  "proposedEdges": [],
+  "checksBeforeApplying": [
+    "子項目のID重複と参照切れを検査する。",
+    "既存関係の移行先と循環を確認する。",
+    "表現モデル・公式コード・サイト参照の移行を確認する。"
+  ]
+}
