@@ -129,3 +129,27 @@ ruby rt{line-height:1}
 .topic-card[data-subject="総合的な学習の時間"],.topic-card[data-subject="特別活動"],.flow-node[data-subject="総合的な学習の時間"],.flow-node[data-subject="特別活動"],.path-card[data-subject="総合的な学習の時間"],.path-card[data-subject="特別活動"],.grade-topic[data-subject="総合的な学習の時間"],.grade-topic[data-subject="特別活動"]{--subject-color:var(--subject-general)}
 .topic-card[data-subject],.flow-node[data-subject],.path-card[data-subject],.grade-topic[data-subject]{border-left:3px solid color-mix(in srgb,var(--subject-color,#9aadb5) 48%,white)}
 .topic-card.is-selected,.grade-topic.is-selected{border-color:var(--subject-color,#39758a);background:color-mix(in srgb,var(--subject-color,#39758a) 9%,white);box-shadow:inset 4px 0 var(--subject-color,#39758a)}
+
+/* Strong current-selection marker and consistent subject-colored detail panel. */
+#detail[data-subject="国語"]{--subject-color:var(--subject-japanese)}
+#detail[data-subject="社会"]{--subject-color:var(--subject-social)}
+#detail[data-subject="算数"]{--subject-color:var(--subject-math)}
+#detail[data-subject="理科"]{--subject-color:var(--subject-science)}
+#detail[data-subject="生活"]{--subject-color:var(--subject-life)}
+#detail[data-subject="音楽"]{--subject-color:var(--subject-music)}
+#detail[data-subject="図画工作"]{--subject-color:var(--subject-art)}
+#detail[data-subject="家庭"]{--subject-color:var(--subject-home)}
+#detail[data-subject="体育"]{--subject-color:var(--subject-pe)}
+#detail[data-subject="外国語"],#detail[data-subject="外国語活動"]{--subject-color:var(--subject-foreign)}
+#detail[data-subject="道徳"]{--subject-color:var(--subject-moral)}
+#detail[data-subject="総合的な学習の時間"],#detail[data-subject="特別活動"]{--subject-color:var(--subject-general)}
+.detail{border-top:4px solid var(--subject-color,#6c7f8b)}
+.subject-chip{background:color-mix(in srgb,var(--subject-color,#6c7f8b) 13%,white);color:var(--subject-color,#385665);border:1px solid color-mix(in srgb,var(--subject-color,#6c7f8b) 32%,white)}
+.topic-card.is-selected,.grade-topic.is-selected{outline:2px solid var(--subject-color,#39758a);outline-offset:1px;border-color:var(--subject-color,#39758a);background:color-mix(in srgb,var(--subject-color,#39758a) 11%,white);box-shadow:inset 4px 0 var(--subject-color,#39758a)}
+.flow-current{border:2px solid var(--subject-color,#39758a);box-shadow:0 0 0 4px color-mix(in srgb,var(--subject-color,#39758a) 15%,transparent)}
+.stage-label strong{line-height:1.7}
+ruby{ruby-position:over;ruby-align:center}
+rt{font-size:.52em;font-weight:500;line-height:1;letter-spacing:0;opacity:.9}
+.topic-card rt,.flow-node rt,.grade-topic rt,.path-card rt{font-size:.55em}
+button:focus-visible{outline:3px solid #243f52!important;outline-offset:3px!important}
+@media(max-width:700px){rt{font-size:.48em}.topic-card rt,.flow-node rt,.grade-topic rt,.path-card rt{font-size:.5em}}
