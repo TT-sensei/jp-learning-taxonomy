@@ -83,12 +83,37 @@ function relationCards(items, empty, limit=3) {
   }).join("")+'</div>'+
   (items.length>limit?'<p class="muted small-note">ほかに'+(items.length-limit)+'件の関係があります。必要なものだけを表示しています。</p>':'');
 }
+function renderGradeMap(subject) {
+  const subjectTopics=state.topics.filter(topic=>topic.subject===subject && topic.topicLifecycle!=="superseded");
+  const lanes=[1,2,3,4,5,6].map(grade=>{
+    const topics=subjectTopics.filter(topic=>(topic.grades||[]).includes(grade))
+      .sort((a,b)=>(a.domain||"").localeCompare(b.domain||"","ja")||a.name.localeCompare(b.name,"ja"));
+    const groups=new Map();
+    topics.forEach(topic=>{
+      const domain=topic.domain||"領域未分類";
+      if(!groups.has(domain))groups.set(domain,[]);
+      groups.get(domain).push(topic);
+    });
+    return '<section class="grade-lane"><header class="grade-lane-head"><span>'+grade+'年</span><small>'+topics.length+'項目</small></header>'+
+      [...groups.entries()].map(([domain,items])=>'<div class="grade-lane-group"><h3>'+esc(domain)+'</h3>'+
+        items.map(topic=>'<button type="button" class="grade-topic'+(state.selected===topic.id?' is-selected':'')+'" data-topic-id="'+esc(topic.id)+'" aria-pressed="'+(state.selected===topic.id)+'">'+
+          '<strong>'+esc(topic.name)+'</strong><span>つながりを見る →</span></button>').join("")+'</div>').join("")+
+      (topics.length?'':'<p class="grade-lane-empty">項目候補はありません</p>')+'</section>';
+  }).join("");
+  return '<div class="grade-map-intro"><strong>'+esc(subject)+'の学年マップ</strong><p>左右に進むと、学年ごとの学習項目を見比べられます。項目を選ぶと、前後のつながりが右側に表示されます。</p><small>学年は確認中の候補です。公式の配当を確定したものではありません。</small></div>'+
+    '<div class="grade-map-scroll" role="region" aria-label="'+esc(subject)+'の1年生から6年生の学習項目" tabindex="0">'+lanes+'</div>';
+}
 function renderList() {
   const topics=filteredTopics();
   const filters=currentFilters();
   $("#count").textContent=(!filters.subject&&!filters.grade&&!filters.domain&&!filters.query) ? "4教科" : topics.length+"件";
   const list=$("#items");
   list.replaceChildren();
+  if(filters.subject&&!filters.grade&&!filters.domain&&!filters.query){
+    list.innerHTML=renderGradeMap(filters.subject);
+    list.querySelectorAll("[data-topic-id]").forEach(button=>button.addEventListener("click",()=>renderDetail(button.dataset.topicId)));
+    return;
+  }
   if(!filters.subject&&!filters.grade&&!filters.domain&&!filters.query){
     const subjects=[...new Set(state.topics.map(t=>t.subject))].sort((a,b)=>a.localeCompare(b,"ja"));
     list.innerHTML='<div class="subject-picks">'+subjects.map(subject=>'<button type="button" class="subject-pick" data-subject="'+esc(subject)+'"><span class="subject-pick-label">教科</span><strong>'+esc(subject)+'</strong><span>学びのつながりを見る →</span></button>').join("")+'</div><p class="empty-note">まず教科を選んでみてください。学年や学習のまとまりを絞り込んで、項目を選ぶと前後の学びをたどれます。</p>';
