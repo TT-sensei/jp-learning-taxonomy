@@ -1,0 +1,1082 @@
+{
+  "schemaVersion": "0.1.0",
+  "subject": "理科",
+  "status": "draft",
+  "updatedAt": "2026-10-18",
+  "designPrinciples": [
+    "学年別の学習内容と、学年を越える概念の柱を分けて記録する。",
+    "公式の内容構成A・Bと、科学的な問題解決の過程を混同しない。",
+    "エネルギー・粒子・生命・地球は学年横断の見方として記録し、公式の学年別内容そのものと同一視しない。",
+    "学年は照合前の候補として扱い、正式な学年配当や公式コードを推測で確定しない。",
+    "項目名と説明はプロジェクト独自の表現で記述し、公式文や図表を大量転載しない。"
+  ],
+  "gradeBands": [
+    {
+      "id": "low",
+      "name": "低学年",
+      "grades": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "middle",
+      "name": "中学年",
+      "grades": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "high",
+      "name": "高学年",
+      "grades": [
+        5,
+        6
+      ]
+    }
+  ],
+  "officialFramework": {
+    "sourceBasis": "小学校学習指導要領（平成29年告示）解説 理科編",
+    "areas": [
+      {
+        "id": "A",
+        "label": "A 物質・エネルギー",
+        "note": "観察・実験で性質や働き、規則性を調べる内容区分。"
+      },
+      {
+        "id": "B",
+        "label": "B 生命・地球",
+        "note": "生命現象、地球・気象・天体などを扱う内容区分。"
+      }
+    ],
+    "crossGradeConceptualPillars": [
+      {
+        "id": "energy",
+        "label": "エネルギー",
+        "subconcepts": [
+          "エネルギーの捉え方",
+          "エネルギーの変換と保存",
+          "エネルギー資源の有効利用"
+        ]
+      },
+      {
+        "id": "particles",
+        "label": "粒子",
+        "subconcepts": [
+          "粒子の存在",
+          "粒子の結合",
+          "粒子の保存性",
+          "粒子のもつエネルギー"
+        ]
+      },
+      {
+        "id": "life",
+        "label": "生命",
+        "subconcepts": [
+          "生物の構造と機能",
+          "生命の連続性",
+          "生物と環境の関わり"
+        ]
+      },
+      {
+        "id": "earth",
+        "label": "地球",
+        "subconcepts": [
+          "地球の内部と表面",
+          "地球の大気と水",
+          "地球と天体の運動"
+        ]
+      }
+    ],
+    "caution": "柱は小中高を通じた概念の系統性を考えるための整理。各トピックへの正式な対応は未照合。"
+  },
+  "domains": [
+    {
+      "id": "matter-energy",
+      "name": "A 物質・エネルギー",
+      "conceptualPillars": [
+        "粒子",
+        "エネルギー"
+      ],
+      "topicIds": [
+        "jp.elem.science.matter",
+        "jp.elem.science.air-properties",
+        "jp.elem.science.water-state",
+        "jp.elem.science.metal-water-air-temperature",
+        "jp.elem.science.dissolving",
+        "jp.elem.science.combustion",
+        "jp.elem.science.electricity-circuit",
+        "jp.elem.science.electricity-effects",
+        "jp.elem.science.electric-magnetic-force",
+        "jp.elem.science.electric-energy-use",
+        "jp.elem.science.light",
+        "jp.elem.science.sound",
+        "jp.elem.science.magnet",
+        "jp.elem.science.pendulum",
+        "jp.elem.science.lever",
+        "jp.elem.science.force-motion"
+      ]
+    },
+    {
+      "id": "life-earth",
+      "name": "B 生命・地球",
+      "conceptualPillars": [
+        "生命",
+        "地球"
+      ],
+      "topicIds": [
+        "jp.elem.science.plants-grow",
+        "jp.elem.science.animals",
+        "jp.elem.science.plants-conditions",
+        "jp.elem.science.animal-birth",
+        "jp.elem.science.human-body",
+        "jp.elem.science.plant-nutrition",
+        "jp.elem.science.organism-environment",
+        "jp.elem.science.seasonal-change",
+        "jp.elem.science.ecosystem",
+        "jp.elem.science.sun-shadow",
+        "jp.elem.science.weather",
+        "jp.elem.science.moon-stars",
+        "jp.elem.science.weather-patterns",
+        "jp.elem.science.river-land",
+        "jp.elem.science.land-formation",
+        "jp.elem.science.moon-sun",
+        "jp.elem.science.water-cycle",
+        "jp.elem.science.earth-disasters"
+      ]
+    },
+    {
+      "id": "scientific-inquiry",
+      "name": "問題解決の力・科学的な探究",
+      "conceptualPillars": [],
+      "topicIds": [
+        "jp.elem.science.observe",
+        "jp.elem.science.question",
+        "jp.elem.science.prediction",
+        "jp.elem.science.experiment-plan",
+        "jp.elem.science.compare",
+        "jp.elem.science.relate",
+        "jp.elem.science.control-conditions",
+        "jp.elem.science.multiple-perspectives",
+        "jp.elem.science.record-data",
+        "jp.elem.science.conclusion",
+        "jp.elem.science.communicate"
+      ]
+    }
+  ],
+  "clusters": [
+    {
+      "id": "matter-energy-properties",
+      "name": "物質の性質・状態変化",
+      "topicIds": [
+        "jp.elem.science.matter",
+        "jp.elem.science.air-properties",
+        "jp.elem.science.water-state",
+        "jp.elem.science.metal-water-air-temperature",
+        "jp.elem.science.dissolving",
+        "jp.elem.science.combustion"
+      ]
+    },
+    {
+      "id": "electricity-magnetism",
+      "name": "電気・磁石・力・運動",
+      "topicIds": [
+        "jp.elem.science.electricity-circuit",
+        "jp.elem.science.electricity-effects",
+        "jp.elem.science.electric-magnetic-force",
+        "jp.elem.science.electric-energy-use",
+        "jp.elem.science.magnet",
+        "jp.elem.science.pendulum",
+        "jp.elem.science.lever",
+        "jp.elem.science.force-motion"
+      ]
+    },
+    {
+      "id": "light-sound",
+      "name": "光・音",
+      "topicIds": [
+        "jp.elem.science.light",
+        "jp.elem.science.sound"
+      ]
+    },
+    {
+      "id": "life-and-organisms",
+      "name": "生物の体・成長・環境",
+      "topicIds": [
+        "jp.elem.science.plants-grow",
+        "jp.elem.science.animals",
+        "jp.elem.science.plants-conditions",
+        "jp.elem.science.animal-birth",
+        "jp.elem.science.human-body",
+        "jp.elem.science.plant-nutrition",
+        "jp.elem.science.organism-environment",
+        "jp.elem.science.seasonal-change",
+        "jp.elem.science.ecosystem"
+      ]
+    },
+    {
+      "id": "earth-and-space",
+      "name": "地球・天気・天体・土地",
+      "topicIds": [
+        "jp.elem.science.sun-shadow",
+        "jp.elem.science.weather",
+        "jp.elem.science.moon-stars",
+        "jp.elem.science.weather-patterns",
+        "jp.elem.science.river-land",
+        "jp.elem.science.land-formation",
+        "jp.elem.science.moon-sun",
+        "jp.elem.science.water-cycle",
+        "jp.elem.science.earth-disasters"
+      ]
+    },
+    {
+      "id": "inquiry-process",
+      "name": "観察・問題解決の過程",
+      "topicIds": [
+        "jp.elem.science.observe",
+        "jp.elem.science.question",
+        "jp.elem.science.prediction",
+        "jp.elem.science.experiment-plan",
+        "jp.elem.science.compare",
+        "jp.elem.science.relate",
+        "jp.elem.science.control-conditions",
+        "jp.elem.science.multiple-perspectives",
+        "jp.elem.science.record-data",
+        "jp.elem.science.conclusion",
+        "jp.elem.science.communicate"
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "id": "jp.elem.science.matter",
+      "name": "物の性質と見分け方",
+      "domain": "物質・エネルギー",
+      "description": "物を比較して、形・手触り・重さなどの性質に着目し、分類や説明を行う。",
+      "candidateGrades": [
+        3
+      ],
+      "gradePlacementStatus": "needs-review",
+      "topicType": "concept",
+      "reviewStatus": "needs-review",
+      "officialAreaCandidate": "A 物質・エネルギー",
+      "conceptualPillarCandidates": [
+        "粒子"
+      ],
+      "sourceBasis": "mext-commentary-framework-not-item-verified"
+    },
+    {
+      "id": "jp.elem.science.air-properties",
+      "name": "空気の性質",
+      "domain": "物質・エネルギー",
+      "description": "空気を閉じ込めたときの体積や押し返す働きを調べ、空気の性質を捉える。",
+      "candidateGrades": [
+        4
+      ],
+      "gradePlacementStatus": "needs-review",
+      "topicType": "concept",
+      "reviewStatus": "needs-review",
+      "officialAreaCandidate": "A 物質・エネルギー",
+      "conceptualPillarCandidates": [
+        "粒子"
+      ],
+      "sourceBasis": "mext-commentary-framework-not-item-verified"
+    },
+    {
+      "id": "jp.elem.science.water-state",
+      "name": "水の状態変化",
+      "domain": "物質・エネルギー",
+      "description": "水を熱したり冷やしたりして、温度と状態の変化を関係付ける。",
+      "candidateGrades": [
+        4
+      ],
+      "gradePlacementStatus": "needs-review",
+      "topicType": "concept",
+      "reviewStatus": "needs-review",
+      "officialAreaCandidate": "A 物質・エネルギー",
+      "conceptualPillarCandidates": [
+        "粒子"
+      ],
+      "sourceBasis": "mext-commentary-framework-not-item-verified"
+    },
+    {
+      "id": "jp.elem.science.metal-water-air-temperature",
+      "name": "金属・水・空気と温度",
+      "domain": "物質・エネルギー",
+      "description": "温めたり冷やしたりしたときの温度変化や体積変化を比較する。",
+      "candidateGrades": [
+        4
+      ],
+      "gradePlacementStatus": "needs-review",
+      "topicType": "concept",
+      "reviewStatus": "needs-review",
+      "officialAreaCandidate": "A 物質・エネルギー",
+      "conceptualPillarCandidates": [
+        "粒子"
+      ],
+      "sourceBasis": "mext-commentary-framework-not-item-verified"
+    },
+    {
+      "id": "jp.elem.science.dissolving",
+      "name": "物の溶け方",
+      "domain": "物質・エネルギー",
+      "description": "物が水に溶ける量や様子を、温度や水の量などの条件と関係付けて調べる。",
+      "candidateGrades": [
+        5
+      ],
+      "gradePlacementStatus": "needs-review",
+      "topicType": "concept",
+      "reviewStatus": "needs-review",
+      "officialAreaCandidate": "A 物質・エネルギー",
+      "conceptualPillarCandidates": [
+        "粒子"
+      ],
+      "sourceBasis": "mext-commentary-framework-not-item-verified"
+    },
+    {
+      "id": "jp.elem.science.combustion",
+      "name": "燃焼の仕組み",
+      "domain": "物質・エネルギー",
+      "description": "物が燃えるときの空気の働きや燃焼前後の変化を調べる。",
+      "candidateGrades": [
+        6
+      ],
+      "gradePlacementStatus": "needs-review",
+      "topicType": "concept",
+      "reviewStatus": "needs-review",
+      "officialAreaCandidate": "A 物質・エネルギー",
+      "conceptualPillarCandidates": [
+        "粒子"
+      ],
+      "sourceBasis": "mext-commentary-framework-not-item-verified"
+    },
+    {
+      "id": "jp.elem.science.electricity-circuit",
+      "name": "電気の通り道と回路",
+      "domain": "物質・エネルギー",
+      "description": "電気を通す物と通さない物を調べ、回路ができる条件を捉える。",
+      "candidateGrades": [
+        3
+      ],
+      "gradePlacementStatus": "needs-review",
+      "topicType": "concept",
+      "reviewStatus": "needs-review",
+      "officialAreaCandidate": "A 物質・エネルギー",
+      "conceptualPillarCandidates": [
+        "エネルギー"
+      ],
+      "sourceBasis": "mext-commentary-framework-not-item-verified"
+    },
+    {
+      "id": "jp.elem.science.electricity-effects",
+      "name": "電気の働き",
+      "domain": "物質・エネルギー",
+      "description": "乾電池のつなぎ方や電流の働きを調べ、電気の利用につなげる。",
+      "candidateGrades": [
+        4
+      ],
+      "gradePlacementStatus": "needs-review",
+      "topicType": "concept",
+      "reviewStatus": "needs-review",
+      "officialAreaCandidate": "A 物質・エネルギー",
+      "conceptualPillarCandidates": [
+        "エネルギー"
+      ],
+      "sourceBasis": "mext-commentary-framework-not-item-verified"
+    },
+    {
+      "id": "jp.elem.science.electric-magnetic-force",
+      "name": "電流がつくる磁力",
+      "domain": "物質・エネルギー",
+      "description": "電流の大きさや向き、コイルの巻数などと磁力の関係を調べる。",
+      "candidateGrades": [
+        5
+      ],
+      "gradePlacementStatus": "needs-review",
+      "topicType": "concept",
+      "reviewStatus": "needs-review",
+      "officialAreaCandidate": "A 物質・エネルギー",
+      "conceptualPillarCandidates": [
+        "エネルギー"
+      ],
+      "sourceBasis": "mext-commentary-framework-not-item-verified"
+    },
+    {
+      "id": "jp.elem.science.electric-energy-use",
+      "name": "電気の利用と変換",
+      "domain": "物質・エネルギー",
+      "description": "電気が光・音・熱・運動などに変わることや、電気の効率的な利用を捉える。",
+      "candidateGrades": [
+        6
+      ],
+      "gradePlacementStatus": "needs-review",
+      "topicType": "concept",
+      "reviewStatus": "needs-review",
+      "officialAreaCandidate": "A 物質・エネルギー",
+      "conceptualPillarCandidates": [
+        "エネルギー"
+      ],
+      "sourceBasis": "mext-commentary-framework-not-item-verified"
+    },
+    {
+      "id": "jp.elem.science.light",
+      "name": "光の進み方と性質",
+      "domain": "物質・エネルギー",
+      "description": "光を当てたときの明るさや影、反射の様子を調べる。",
+      "candidateGrades": [
+        3
+      ],
+      "gradePlacementStatus": "needs-review",
+      "topicType": "concept",
+      "reviewStatus": "needs-review",
+      "officialAreaCandidate": "A 物質・エネルギー",
+      "conceptualPillarCandidates": [
+        "エネルギー"
+      ],
+      "sourceBasis": "mext-commentary-framework-not-item-verified"
+    },
+    {
+      "id": "jp.elem.science.sound",
+      "name": "音の性質",
+      "domain": "物質・エネルギー",
+      "description": "音が出るときの物の震えや、音の大きさと震え方の関係を調べる。",
+      "candidateGrades": [
+        3
+      ],
+      "gradePlacementStatus": "needs-review",
+      "topicType": "concept",
+      "reviewStatus": "needs-review",
+      "officialAreaCandidate": "A 物質・エネルギー",
+      "conceptualPillarCandidates": [
+        "エネルギー"
+      ],
+      "sourceBasis": "mext-commentary-framework-not-item-verified"
+    },
+    {
+      "id": "jp.elem.science.magnet",
+      "name": "磁石の性質",
+      "domain": "物質・エネルギー",
+      "description": "磁石に引き付けられる物や極の性質を調べる。",
+      "candidateGrades": [
+        3
+      ],
+      "gradePlacementStatus": "needs-review",
+      "topicType": "concept",
+      "reviewStatus": "needs-review",
+      "officialAreaCandidate": "A 物質・エネルギー",
+      "conceptualPillarCandidates": [
+        "粒子"
+      ],
+      "sourceBasis": "mext-commentary-framework-not-item-verified"
+    },
+    {
+      "id": "jp.elem.science.pendulum",
+      "name": "振り子の運動",
+      "domain": "物質・エネルギー",
+      "description": "振り子が1往復する時間と、おもりの重さや振れ幅、長さとの関係を調べる。",
+      "candidateGrades": [
+        5
+      ],
+      "gradePlacementStatus": "needs-review",
+      "topicType": "concept",
+      "reviewStatus": "needs-review",
+      "officialAreaCandidate": "A 物質・エネルギー",
+      "conceptualPillarCandidates": [
+        "エネルギー"
+      ],
+      "sourceBasis": "mext-commentary-framework-not-item-verified"
+    },
+    {
+      "id": "jp.elem.science.lever",
+      "name": "てこの規則性",
+      "domain": "物質・エネルギー",
+      "description": "力を加える位置や大きさと、物を持ち上げる働きの関係を調べる。",
+      "candidateGrades": [
+        6
+      ],
+      "gradePlacementStatus": "needs-review",
+      "topicType": "concept",
+      "reviewStatus": "needs-review",
+      "officialAreaCandidate": "A 物質・エネルギー",
+      "conceptualPillarCandidates": [
+        "エネルギー"
+      ],
+      "sourceBasis": "mext-commentary-framework-not-item-verified"
+    },
+    {
+      "id": "jp.elem.science.force-motion",
+      "name": "力と物の動きの基礎",
+      "domain": "物質・エネルギー",
+      "description": "物に力を加えたときの動きや変化を、観察・実験を通して捉える。",
+      "candidateGrades": [
+        3,
+        4
+      ],
+      "gradePlacementStatus": "needs-review",
+      "topicType": "concept",
+      "reviewStatus": "needs-review",
+      "officialAreaCandidate": "A 物質・エネルギー",
+      "conceptualPillarCandidates": [
+        "エネルギー"
+      ],
+      "sourceBasis": "mext-commentary-framework-not-item-verified"
+    },
+    {
+      "id": "jp.elem.science.plants-grow",
+      "name": "植物の育ち方と体のつくり",
+      "domain": "生命・地球",
+      "description": "植物の成長や体のつくりを観察し、共通点や差異を捉える。",
+      "candidateGrades": [
+        3
+      ],
+      "gradePlacementStatus": "needs-review",
+      "topicType": "concept",
+      "reviewStatus": "needs-review",
+      "officialAreaCandidate": "B 生命・地球",
+      "conceptualPillarCandidates": [
+        "生命"
+      ],
+      "sourceBasis": "mext-commentary-framework-not-item-verified"
+    },
+    {
+      "id": "jp.elem.science.animals",
+      "name": "身近な動物の体のつくりと活動",
+      "domain": "生命・地球",
+      "description": "動物の体のつくりや活動を観察し、生活の仕方と関係付ける。",
+      "candidateGrades": [
+        3
+      ],
+      "gradePlacementStatus": "needs-review",
+      "topicType": "concept",
+      "reviewStatus": "needs-review",
+      "officialAreaCandidate": "B 生命・地球",
+      "conceptualPillarCandidates": [
+        "生命"
+      ],
+      "sourceBasis": "mext-commentary-framework-not-item-verified"
+    },
+    {
+      "id": "jp.elem.science.plants-conditions",
+      "name": "植物の発芽・成長・結実",
+      "domain": "生命・地球",
+      "description": "発芽や成長、実のでき方に必要な条件を制御して調べる。",
+      "candidateGrades": [
+        5
+      ],
+      "gradePlacementStatus": "needs-review",
+      "topicType": "concept",
+      "reviewStatus": "needs-review",
+      "officialAreaCandidate": "B 生命・地球",
+      "conceptualPillarCandidates": [
+        "生命"
+      ],
+      "sourceBasis": "mext-commentary-framework-not-item-verified"
+    },
+    {
+      "id": "jp.elem.science.animal-birth",
+      "name": "動物の誕生と成長",
+      "domain": "生命・地球",
+      "description": "魚や人などの発生・成長を資料や観察を通して時間の経過と関係付ける。",
+      "candidateGrades": [
+        5
+      ],
+      "gradePlacementStatus": "needs-review",
+      "topicType": "concept",
+      "reviewStatus": "needs-review",
+      "officialAreaCandidate": "B 生命・地球",
+      "conceptualPillarCandidates": [
+        "生命"
+      ],
+      "sourceBasis": "mext-commentary-framework-not-item-verified"
+    },
+    {
+      "id": "jp.elem.science.human-body",
+      "name": "人の体のつくりと働き",
+      "domain": "生命・地球",
+      "description": "呼吸、消化・吸収、血液の循環などを体のつくりと関係付ける。",
+      "candidateGrades": [
+        6
+      ],
+      "gradePlacementStatus": "needs-review",
+      "topicType": "concept",
+      "reviewStatus": "needs-review",
+      "officialAreaCandidate": "B 生命・地球",
+      "conceptualPillarCandidates": [
+        "生命"
+      ],
+      "sourceBasis": "mext-commentary-framework-not-item-verified"
+    },
+    {
+      "id": "jp.elem.science.plant-nutrition",
+      "name": "植物と日光・養分",
+      "domain": "生命・地球",
+      "description": "植物が日光と関わって養分をつくることなどを調べる。",
+      "candidateGrades": [
+        6
+      ],
+      "gradePlacementStatus": "needs-review",
+      "topicType": "concept",
+      "reviewStatus": "needs-review",
+      "officialAreaCandidate": "B 生命・地球",
+      "conceptualPillarCandidates": [
+        "生命"
+      ],
+      "sourceBasis": "mext-commentary-framework-not-item-verified"
+    },
+    {
+      "id": "jp.elem.science.organism-environment",
+      "name": "生物と環境の関わり",
+      "domain": "生命・地球",
+      "description": "生物どうしや、生物と水・空気などの環境との関係を捉える。",
+      "candidateGrades": [
+        6
+      ],
+      "gradePlacementStatus": "needs-review",
+      "topicType": "concept",
+      "reviewStatus": "needs-review",
+      "officialAreaCandidate": "B 生命・地球",
+      "conceptualPillarCandidates": [
+        "生命"
+      ],
+      "sourceBasis": "mext-commentary-framework-not-item-verified"
+    },
+    {
+      "id": "jp.elem.science.seasonal-change",
+      "name": "季節と生物の変化",
+      "domain": "生命・地球",
+      "description": "季節による生物の様子の変化を継続観察し、環境との関係を捉える。",
+      "candidateGrades": [
+        4
+      ],
+      "gradePlacementStatus": "needs-review",
+      "topicType": "concept",
+      "reviewStatus": "needs-review",
+      "officialAreaCandidate": "B 生命・地球",
+      "conceptualPillarCandidates": [
+        "生命"
+      ],
+      "sourceBasis": "mext-commentary-framework-not-item-verified"
+    },
+    {
+      "id": "jp.elem.science.ecosystem",
+      "name": "食べ物を通した生物の関係",
+      "domain": "生命・地球",
+      "description": "生物が食べる・食べられる関係を通して、環境中でのつながりを捉える。",
+      "candidateGrades": [
+        6
+      ],
+      "gradePlacementStatus": "needs-review",
+      "topicType": "concept",
+      "reviewStatus": "needs-review",
+      "officialAreaCandidate": "B 生命・地球",
+      "conceptualPillarCandidates": [
+        "生命"
+      ],
+      "sourceBasis": "mext-commentary-framework-not-item-verified"
+    },
+    {
+      "id": "jp.elem.science.sun-shadow",
+      "name": "太陽と影の動き",
+      "domain": "地球",
+      "description": "影の向きや長さを時間と関係付け、太陽の位置の変化を捉える。",
+      "candidateGrades": [
+        3
+      ],
+      "gradePlacementStatus": "needs-review",
+      "topicType": "concept",
+      "reviewStatus": "needs-review",
+      "officialAreaCandidate": "B 生命・地球",
+      "conceptualPillarCandidates": [
+        "地球"
+      ],
+      "sourceBasis": "mext-commentary-framework-not-item-verified"
+    },
+    {
+      "id": "jp.elem.science.weather",
+      "name": "天気と気温の変化",
+      "domain": "地球",
+      "description": "天気や気温を継続して観測し、変化の特徴を捉える。",
+      "candidateGrades": [
+        4
+      ],
+      "gradePlacementStatus": "needs-review",
+      "topicType": "concept",
+      "reviewStatus": "needs-review",
+      "officialAreaCandidate": "B 生命・地球",
+      "conceptualPillarCandidates": [
+        "地球"
+      ],
+      "sourceBasis": "mext-commentary-framework-not-item-verified"
+    },
+    {
+      "id": "jp.elem.science.moon-stars",
+      "name": "月と星の見え方",
+      "domain": "地球",
+      "description": "月や星の位置・明るさ・並び方を観察し、時間による変化を捉える。",
+      "candidateGrades": [
+        4
+      ],
+      "gradePlacementStatus": "needs-review",
+      "topicType": "concept",
+      "reviewStatus": "needs-review",
+      "officialAreaCandidate": "B 生命・地球",
+      "conceptualPillarCandidates": [
+        "地球"
+      ],
+      "sourceBasis": "mext-commentary-framework-not-item-verified"
+    },
+    {
+      "id": "jp.elem.science.weather-patterns",
+      "name": "天気の変化と雲",
+      "domain": "地球",
+      "description": "雲の量や動き、気象情報と天気の変化を関係付ける。",
+      "candidateGrades": [
+        5
+      ],
+      "gradePlacementStatus": "needs-review",
+      "topicType": "concept",
+      "reviewStatus": "needs-review",
+      "officialAreaCandidate": "B 生命・地球",
+      "conceptualPillarCandidates": [
+        "地球"
+      ],
+      "sourceBasis": "mext-commentary-framework-not-item-verified"
+    },
+    {
+      "id": "jp.elem.science.river-land",
+      "name": "流れる水の働きと土地の変化",
+      "domain": "地球",
+      "description": "水の量や速さと、侵食・運搬・堆積などの働きを関係付ける。",
+      "candidateGrades": [
+        5
+      ],
+      "gradePlacementStatus": "needs-review",
+      "topicType": "concept",
+      "reviewStatus": "needs-review",
+      "officialAreaCandidate": "B 生命・地球",
+      "conceptualPillarCandidates": [
+        "地球"
+      ],
+      "sourceBasis": "mext-commentary-framework-not-item-verified"
+    },
+    {
+      "id": "jp.elem.science.land-formation",
+      "name": "土地のつくりと変化",
+      "domain": "地球",
+      "description": "地層や岩石、土地の変化について資料や観察を通して捉える。",
+      "candidateGrades": [
+        6
+      ],
+      "gradePlacementStatus": "needs-review",
+      "topicType": "concept",
+      "reviewStatus": "needs-review",
+      "officialAreaCandidate": "B 生命・地球",
+      "conceptualPillarCandidates": [
+        "地球"
+      ],
+      "sourceBasis": "mext-commentary-framework-not-item-verified"
+    },
+    {
+      "id": "jp.elem.science.moon-sun",
+      "name": "月の形と太陽の位置",
+      "domain": "地球",
+      "description": "月の形の見え方と太陽の位置との関係を捉える。",
+      "candidateGrades": [
+        6
+      ],
+      "gradePlacementStatus": "needs-review",
+      "topicType": "concept",
+      "reviewStatus": "needs-review",
+      "officialAreaCandidate": "B 生命・地球",
+      "conceptualPillarCandidates": [
+        "地球"
+      ],
+      "sourceBasis": "mext-commentary-framework-not-item-verified"
+    },
+    {
+      "id": "jp.elem.science.water-cycle",
+      "name": "水の循環",
+      "domain": "地球",
+      "description": "水の状態変化や移動を通して、自然界での水の循環を捉える。",
+      "candidateGrades": [
+        4,
+        5,
+        6
+      ],
+      "gradePlacementStatus": "needs-review",
+      "topicType": "concept",
+      "reviewStatus": "needs-review",
+      "officialAreaCandidate": "B 生命・地球",
+      "conceptualPillarCandidates": [
+        "地球"
+      ],
+      "sourceBasis": "mext-commentary-framework-not-item-verified"
+    },
+    {
+      "id": "jp.elem.science.earth-disasters",
+      "name": "自然災害と土地・気象",
+      "domain": "地球",
+      "description": "土地や気象の変化と自然災害との関係を資料を通して考える。",
+      "candidateGrades": [
+        4,
+        5,
+        6
+      ],
+      "gradePlacementStatus": "needs-review",
+      "topicType": "concept",
+      "reviewStatus": "needs-review",
+      "officialAreaCandidate": "B 生命・地球",
+      "conceptualPillarCandidates": [
+        "地球"
+      ],
+      "sourceBasis": "mext-commentary-framework-not-item-verified"
+    },
+    {
+      "id": "jp.elem.science.observe",
+      "name": "目的に応じた観察",
+      "domain": "問題解決の力・科学的な探究",
+      "description": "調べたいことに応じて観察対象や方法を選び、記録する。",
+      "candidateGrades": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "gradePlacementStatus": "needs-review",
+      "topicType": "skill",
+      "reviewStatus": "needs-review",
+      "officialAreaCandidate": "横断的な問題解決の力（公式のA・B区分とは別の整理）",
+      "conceptualPillarCandidates": [],
+      "sourceBasis": "mext-commentary-framework-not-item-verified"
+    },
+    {
+      "id": "jp.elem.science.question",
+      "name": "自然事象から問題を見いだす",
+      "domain": "問題解決の力・科学的な探究",
+      "description": "自然の事物・現象の差異や変化に気付き、調べる問題を設定する。",
+      "candidateGrades": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "gradePlacementStatus": "needs-review",
+      "topicType": "skill",
+      "reviewStatus": "needs-review",
+      "officialAreaCandidate": "横断的な問題解決の力（公式のA・B区分とは別の整理）",
+      "conceptualPillarCandidates": [],
+      "sourceBasis": "mext-commentary-framework-not-item-verified"
+    },
+    {
+      "id": "jp.elem.science.prediction",
+      "name": "予想や仮説を立てる",
+      "domain": "問題解決の力・科学的な探究",
+      "description": "既習経験や観察した事実を基に、結果を予想し理由を説明する。",
+      "candidateGrades": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "gradePlacementStatus": "needs-review",
+      "topicType": "skill",
+      "reviewStatus": "needs-review",
+      "officialAreaCandidate": "横断的な問題解決の力（公式のA・B区分とは別の整理）",
+      "conceptualPillarCandidates": [],
+      "sourceBasis": "mext-commentary-framework-not-item-verified"
+    },
+    {
+      "id": "jp.elem.science.experiment-plan",
+      "name": "調べ方を計画する",
+      "domain": "問題解決の力・科学的な探究",
+      "description": "問題に合った観察・実験の方法を考え、必要な器具や手順を選ぶ。",
+      "candidateGrades": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "gradePlacementStatus": "needs-review",
+      "topicType": "skill",
+      "reviewStatus": "needs-review",
+      "officialAreaCandidate": "横断的な問題解決の力（公式のA・B区分とは別の整理）",
+      "conceptualPillarCandidates": [],
+      "sourceBasis": "mext-commentary-framework-not-item-verified"
+    },
+    {
+      "id": "jp.elem.science.compare",
+      "name": "比較して考える",
+      "domain": "問題解決の力・科学的な探究",
+      "description": "複数の対象や結果を比べ、差異や共通点から問題を解決する。",
+      "candidateGrades": [
+        3
+      ],
+      "gradePlacementStatus": "needs-review",
+      "topicType": "skill",
+      "reviewStatus": "needs-review",
+      "officialAreaCandidate": "横断的な問題解決の力（公式のA・B区分とは別の整理）",
+      "conceptualPillarCandidates": [],
+      "sourceBasis": "mext-commentary-framework-not-item-verified"
+    },
+    {
+      "id": "jp.elem.science.relate",
+      "name": "関係付けて考える",
+      "domain": "問題解決の力・科学的な探究",
+      "description": "複数の事象や条件の関係に着目して、結果を説明する。",
+      "candidateGrades": [
+        4
+      ],
+      "gradePlacementStatus": "needs-review",
+      "topicType": "skill",
+      "reviewStatus": "needs-review",
+      "officialAreaCandidate": "横断的な問題解決の力（公式のA・B区分とは別の整理）",
+      "conceptualPillarCandidates": [],
+      "sourceBasis": "mext-commentary-framework-not-item-verified"
+    },
+    {
+      "id": "jp.elem.science.control-conditions",
+      "name": "条件を制御して調べる",
+      "domain": "問題解決の力・科学的な探究",
+      "description": "変える条件と同じにする条件を区別し、条件を制御して確かめる。",
+      "candidateGrades": [
+        5
+      ],
+      "gradePlacementStatus": "needs-review",
+      "topicType": "skill",
+      "reviewStatus": "needs-review",
+      "officialAreaCandidate": "横断的な問題解決の力（公式のA・B区分とは別の整理）",
+      "conceptualPillarCandidates": [],
+      "sourceBasis": "mext-commentary-framework-not-item-verified"
+    },
+    {
+      "id": "jp.elem.science.multiple-perspectives",
+      "name": "多面的に考えて説明する",
+      "domain": "問題解決の力・科学的な探究",
+      "description": "複数の要因や資料、観察・実験結果を基に、より妥当な説明を考える。",
+      "candidateGrades": [
+        6
+      ],
+      "gradePlacementStatus": "needs-review",
+      "topicType": "skill",
+      "reviewStatus": "needs-review",
+      "officialAreaCandidate": "横断的な問題解決の力（公式のA・B区分とは別の整理）",
+      "conceptualPillarCandidates": [],
+      "sourceBasis": "mext-commentary-framework-not-item-verified"
+    },
+    {
+      "id": "jp.elem.science.record-data",
+      "name": "結果を記録・整理する",
+      "domain": "問題解決の力・科学的な探究",
+      "description": "観察・実験の結果を表、図、文章などで記録し、比較しやすく整理する。",
+      "candidateGrades": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "gradePlacementStatus": "needs-review",
+      "topicType": "skill",
+      "reviewStatus": "needs-review",
+      "officialAreaCandidate": "横断的な問題解決の力（公式のA・B区分とは別の整理）",
+      "conceptualPillarCandidates": [],
+      "sourceBasis": "mext-commentary-framework-not-item-verified"
+    },
+    {
+      "id": "jp.elem.science.conclusion",
+      "name": "結果から結論を導く",
+      "domain": "問題解決の力・科学的な探究",
+      "description": "結果を予想や問題と照らし合わせ、根拠を示して結論をまとめる。",
+      "candidateGrades": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "gradePlacementStatus": "needs-review",
+      "topicType": "skill",
+      "reviewStatus": "needs-review",
+      "officialAreaCandidate": "横断的な問題解決の力（公式のA・B区分とは別の整理）",
+      "conceptualPillarCandidates": [],
+      "sourceBasis": "mext-commentary-framework-not-item-verified"
+    },
+    {
+      "id": "jp.elem.science.communicate",
+      "name": "根拠を基に説明・共有する",
+      "domain": "問題解決の力・科学的な探究",
+      "description": "観察・実験の事実や記録を根拠として、自分の考えを説明し他者と検討する。",
+      "candidateGrades": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "gradePlacementStatus": "needs-review",
+      "topicType": "skill",
+      "reviewStatus": "needs-review",
+      "officialAreaCandidate": "横断的な問題解決の力（公式のA・B区分とは別の整理）",
+      "conceptualPillarCandidates": [],
+      "sourceBasis": "mext-commentary-framework-not-item-verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "mext-elementary-science-guideline-2017",
+      "title": "小学校学習指導要領（平成29年告示）解説 理科編",
+      "publisher": "文部科学省",
+      "url": "https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf",
+      "landingPage": "https://www.mext.go.jp/a_menu/shotou/new-cs/1387014.htm",
+      "sourceType": "official-reference",
+      "reviewStatus": "framework-checked",
+      "note": "公式の内容構成と概念の柱を確認。個々の候補項目と学年配当の照合は未完了。"
+    },
+    {
+      "id": "mext-elementary-curriculum-codes-82V12",
+      "title": "小学校学習指導要領コード（平成29年告示）版コード表 82V12",
+      "publisher": "文部科学省",
+      "url": "https://www.mext.go.jp/a_menu/other/data_00001.htm",
+      "sourceType": "official-code-table",
+      "reviewStatus": "not-started",
+      "note": "理科の各項目とのコード対応は未確認。"
+    }
+  ],
+  "reviewPlan": [
+    {
+      "id": "framework",
+      "label": "公式の内容構成と概念の柱",
+      "status": "initial-review",
+      "note": "A・B区分と4つの概念の柱を登録。"
+    },
+    {
+      "id": "coverage",
+      "label": "学習項目の網羅性と粒度",
+      "status": "needs-review",
+      "note": "42項目の初期候補。学年別の内容と照合し不足・重複を確認する。"
+    },
+    {
+      "id": "grade-placement",
+      "label": "初出学年・継続学年",
+      "status": "needs-review",
+      "note": "candidateGradesは候補にすぎず、正式な学年配当ではない。"
+    },
+    {
+      "id": "official-codes",
+      "label": "公式コード",
+      "status": "not-started",
+      "note": "コード表の実データと照合するまで推測登録しない。"
+    },
+    {
+      "id": "relationships",
+      "label": "前提・関連・発展の関係",
+      "status": "not-started",
+      "note": "各項目の内容照合後に関係を提案する。"
+    }
+  ],
+  "notes": [
+    "理科タクソノミーの初期草案。全項目を網羅した確定版ではない。",
+    "candidateGradesはレビュー開始用の仮候補であり、公式の学年配当を示さない。",
+    "概念の柱は学年横断の整理であり、公式コードや個々の内容項目との対応を意味しない。",
+    "観察・実験や問題解決の力はA・Bの内容区分と混同しないよう、横断的な候補群として別に整理する。",
+    "2026-10-18: 文部科学省の理科編解説で内容構成と概念の柱を確認し、42項目の初期候補を作成。個々の項目との照合は未完了。"
+  ]
+}
