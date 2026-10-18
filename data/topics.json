@@ -3326,9 +3326,8 @@
       "reviewStatus": "needs-review",
       "gradePlacement": {
         "status": "candidate",
-        "candidateFirstIntroductionGrade": 0,
+        "candidateFirstIntroductionGrade": 1,
         "candidateContinuingGrades": [
-          1,
           2,
           3,
           4,
@@ -3370,9 +3369,8 @@
       "reviewStatus": "needs-review",
       "gradePlacement": {
         "status": "candidate",
-        "candidateFirstIntroductionGrade": 0,
+        "candidateFirstIntroductionGrade": 1,
         "candidateContinuingGrades": [
-          1,
           2,
           3,
           4,
@@ -3414,9 +3412,8 @@
       "reviewStatus": "needs-review",
       "gradePlacement": {
         "status": "candidate",
-        "candidateFirstIntroductionGrade": 0,
+        "candidateFirstIntroductionGrade": 1,
         "candidateContinuingGrades": [
-          1,
           2,
           3,
           4,
@@ -3458,9 +3455,8 @@
       "reviewStatus": "needs-review",
       "gradePlacement": {
         "status": "candidate",
-        "candidateFirstIntroductionGrade": 0,
+        "candidateFirstIntroductionGrade": 1,
         "candidateContinuingGrades": [
-          1,
           2,
           3,
           4,
@@ -3502,9 +3498,8 @@
       "reviewStatus": "needs-review",
       "gradePlacement": {
         "status": "candidate",
-        "candidateFirstIntroductionGrade": 0,
+        "candidateFirstIntroductionGrade": 1,
         "candidateContinuingGrades": [
-          1,
           2,
           3,
           4,
@@ -3546,9 +3541,8 @@
       "reviewStatus": "needs-review",
       "gradePlacement": {
         "status": "candidate",
-        "candidateFirstIntroductionGrade": 0,
+        "candidateFirstIntroductionGrade": 1,
         "candidateContinuingGrades": [
-          1,
           2,
           3,
           4,
@@ -3809,7 +3803,10 @@
       "gradePlacement": {
         "status": "reviewed",
         "candidateFirstIntroductionGrade": 2,
-        "candidateContinuingGrades": [],
+        "candidateContinuingGrades": [
+          3,
+          4
+        ],
         "basis": "mext-commentary-initial-review",
         "note": "第2学年で乗法の交換法則を扱い、第3学年以降は計算方法や性質を用いた工夫へ発展する。第4学年までの継続は概念の活用を含むプロジェクト上の整理で、公式な同一単元の再配当を意味しない。 学年フィルターは、この内容を新しく学ぶ学年を示すよう整理。後の学年での活用は、同じ学習項目を再配当する意味ではないため含めない。",
         "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
@@ -4118,9 +4115,8 @@
       "reviewStatus": "needs-review",
       "gradePlacement": {
         "status": "candidate",
-        "candidateFirstIntroductionGrade": 0,
+        "candidateFirstIntroductionGrade": 1,
         "candidateContinuingGrades": [
-          1,
           2,
           3,
           4,
@@ -4850,9 +4846,8 @@
       "reviewStatus": "needs-review",
       "gradePlacement": {
         "status": "candidate",
-        "candidateFirstIntroductionGrade": 0,
+        "candidateFirstIntroductionGrade": 1,
         "candidateContinuingGrades": [
-          1,
           2,
           3,
           4,
