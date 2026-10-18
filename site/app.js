@@ -403,18 +403,18 @@ function navigateToConnectedTopic(id) {
 function syncDetailToFilters(scroll = false) {
   const visible = filteredTopics();
   const current = visible.find(topic => topic.id === state.selected);
-  const next = current || visible[0];
+  const next = current || (state.selected ? visible[0] : null);
   if (next) {
     renderDetail(next.id, scroll);
   } else {
     state.selected = null;
-    $("#detail").innerHTML = '<p class="muted">見つからなかったよ。教科や学年を変えたり、別の言葉で探したりしてみよう。</p>';
+    $("#detail").innerHTML = visible.length ? '<p class="muted">気になる学びを選ぶと、前に習ったことやこの先につながる学びが見られるよ。</p>' : '<p class="muted">見つからなかったよ。教科や学年を変えたり、別の言葉で探したりしてみよう。</p>';
   }
 }
 const guideCharacters = [
   { id: "saku", pose: "reading.png", line: "まずは今の学びを見つけよう。前に習ったことを思い出すと、今の学習が分かりやすくなることがあるよ。" },
   { id: "kai", pose: "hint.png", line: "「何を使って考えたかな？」と問い直すと、復習するところが見つかるよ。" },
-  { id: "riku", pose: "thinking.png", line: "つながりを見つけたら、なぜそう思ったのかも考えてみよう。" },
+  { id: "riku", pose: "hint.png", line: "つながりを見つけたら、なぜそう思ったのかも考えてみよう。" },
   { id: "sora", pose: "hint.png", line: "今の学びから出発！前にもどっても、この先に進んでもいいんだ。" },
   { id: "tsuki", pose: "hint.png", line: "気になったことが見つかったらチャンス！自分で一つ選んで取り組もう。" },
   { id: "nami", pose: "reading.png", line: "すぐに答えが見つからなくても大丈夫。自分に必要な学びをゆっくり探そう。" }
@@ -526,8 +526,8 @@ async function init() {
     bindSelfStudyGuide();
     renderSelfStudyGuide();
     renderList();
-    const first=filteredTopics()[0];
-    if($("#subject").value && first) renderDetail(first.id);
+    // 最初から項目を決めつけず、子どもが「今の学び」を自分で選べるようにする。
+    renderSelfStudyGuide();
     $("#subject").addEventListener("change",()=>{renderDomainOptions();renderList();syncDetailToFilters(false);});
     $("#grade").addEventListener("change",()=>{renderList();syncDetailToFilters(false);});
     $("#domain").addEventListener("change",()=>{renderList();syncDetailToFilters(false);});
