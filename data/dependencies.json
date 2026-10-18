@@ -927,6 +927,87 @@
       "rationale": "資料の根拠と自分の解釈を分け、データに基づく説明を行う。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review"
+    },
+    {
+      "id": "grade-link-001",
+      "from": "jp.elem.math.numbers-to-10000",
+      "to": "jp.elem.math.numbers-and-place-value",
+      "type": "recommended-prerequisite",
+      "rationale": "第2学年で扱う1万までの数を土台に、さらに大きな数の位取りへと範囲を広げる。",
+      "reviewStatus": "needs-review",
+      "evidenceType": "editorial"
+    },
+    {
+      "id": "grade-link-002",
+      "from": "jp.elem.math.decimal-fraction-numberline",
+      "to": "jp.elem.math.decimal-fraction-equivalence",
+      "type": "related-learning",
+      "rationale": "数直線上で大きさを比べる経験を、小数と分数の等しい大きさを捉える学習につなげる。",
+      "reviewStatus": "needs-review",
+      "evidenceType": "editorial"
+    },
+    {
+      "id": "grade-link-003",
+      "from": "jp.elem.math.triangles-quadrilaterals",
+      "to": "jp.elem.math.quadrilateral-properties",
+      "type": "related-learning",
+      "rationale": "三角形・四角形の基本的な特徴を、四角形を分類し性質を調べる学習へ広げる。",
+      "reviewStatus": "needs-review",
+      "evidenceType": "editorial"
+    },
+    {
+      "id": "grade-link-004",
+      "from": "jp.elem.social.prefecture-land",
+      "to": "jp.elem.social.japan-location",
+      "type": "related-learning",
+      "rationale": "都道府県の位置や広がりを捉える学習から、日本全体の国土の位置や広がりへ視野を広げる。",
+      "reviewStatus": "needs-review",
+      "evidenceType": "editorial"
+    },
+    {
+      "id": "grade-link-005",
+      "from": "jp.elem.social.prefecture-industry",
+      "to": "jp.elem.social.industrial-production",
+      "type": "related-learning",
+      "rationale": "都道府県の産業の特色を調べた経験を、日本の工業生産や貿易の仕組みと比べる。",
+      "reviewStatus": "needs-review",
+      "evidenceType": "editorial"
+    },
+    {
+      "id": "grade-link-006",
+      "from": "jp.elem.social.ancient-japan",
+      "to": "jp.elem.social.medieval-japan",
+      "type": "extension",
+      "rationale": "古代の国づくりや文化を踏まえ、武士の登場によって政治や社会がどう変化したかを考える。",
+      "reviewStatus": "needs-review",
+      "evidenceType": "editorial"
+    },
+    {
+      "id": "grade-link-007",
+      "from": "jp.elem.social.medieval-japan",
+      "to": "jp.elem.social.unification",
+      "type": "extension",
+      "rationale": "武士の政治や社会の変化を踏まえ、戦国の世が統一へ向かう過程を捉える。",
+      "reviewStatus": "needs-review",
+      "evidenceType": "editorial"
+    },
+    {
+      "id": "grade-link-008",
+      "from": "jp.elem.social.maps-globes",
+      "to": "jp.elem.social.prefecture-land",
+      "type": "application",
+      "rationale": "地図や地球儀を使って、都道府県の位置や地形・広がりを調べる。",
+      "reviewStatus": "needs-review",
+      "evidenceType": "editorial"
+    },
+    {
+      "id": "grade-link-009",
+      "from": "jp.elem.social.fieldwork-interview",
+      "to": "jp.elem.social.prefecture-industry",
+      "type": "application",
+      "rationale": "観察や聞き取りで地域の特色を調べる方法を、都道府県の産業の調査にも活用する。",
+      "reviewStatus": "needs-review",
+      "evidenceType": "editorial"
     }
   ]
 }
