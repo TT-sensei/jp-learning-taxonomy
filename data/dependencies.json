@@ -675,6 +675,42 @@
       "rationale": "複数の計算を使う問題で、見積もりを結果の確認に活用する候補。",
       "reviewStatus": "needs-review",
       "evidenceType": "editorial"
+    },
+    {
+      "id": "social-edge-001",
+      "from": "jp.elem.social.disaster-prevention",
+      "to": "jp.elem.social.japan-landforms-climate",
+      "type": "related-learning",
+      "rationale": "自然条件と災害への備えの関係を具体的な地域事例から考える。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "social-edge-002",
+      "from": "jp.elem.social.water-supply",
+      "to": "jp.elem.social.waste-management",
+      "type": "related-learning",
+      "rationale": "生活を支える事業について、資源の確保・処理・住民の協力を比べる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "social-edge-003",
+      "from": "jp.elem.social.information-industry",
+      "to": "jp.elem.math.data-based-reasoning",
+      "type": "related-learning",
+      "rationale": "情報が社会で活用される仕組みと、データを根拠に説明する技能を結び付ける。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "social-edge-004",
+      "from": "jp.elem.social.information-industry",
+      "to": "jp.elem.math.statistical-viewpoints",
+      "type": "application",
+      "rationale": "情報や統計を多面的に捉え、示された傾向と解釈を区別する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review"
     }
   ]
 }
