@@ -3,13 +3,183 @@
   "title": "算数「数と計算」分割案の移行設計",
   "updatedAt": "2026-10-18",
   "status": "proposal-not-applied",
-  "purpose": "分割案の移行先と学習関係を記録する設計案。既存データは変更しない。",
-  "parentMigrations": [],
-  "existingEdgeMigrationCandidates": [],
-  "proposedEdges": [],
+  "purpose": "分割案の移行先と学習関係を記録する設計案。topics.json と dependencies.json は変更しない。",
+  "principles": [
+    "既存IDは利用側の参照確認前に削除しない。",
+    "親の関係を子へ機械的に複製しない。",
+    "前提・関連・活用を区別する。",
+    "関係はプロジェクト独自の候補で、公式の学習順序を意味しない。"
+  ],
+  "parentMigrations": [
+    {
+      "parentTopicId": "jp.elem.math.unknown-number-equations",
+      "childTopicIds": [
+        "jp.elem.math.unknown-number-box-expression",
+        "jp.elem.math.unknown-number-solve",
+        "jp.elem.math.unknown-number-relationships"
+      ],
+      "note": "式の表現からの関係は、まず□を使った式の表現へ移す候補。"
+    },
+    {
+      "parentTopicId": "jp.elem.math.decimal-fraction-connections",
+      "childTopicIds": [
+        "jp.elem.math.decimal-fraction-tenths",
+        "jp.elem.math.decimal-fraction-numberline",
+        "jp.elem.math.decimal-fraction-equivalence"
+      ],
+      "note": "小数の位取り・分数の大小比較からの関係を、内容に合う子に限定する。"
+    },
+    {
+      "parentTopicId": "jp.elem.math.calculation-properties",
+      "childTopicIds": [
+        "jp.elem.math.addition-properties",
+        "jp.elem.math.distributive-property"
+      ],
+      "preserveExistingTopicIds": [
+        "jp.elem.math.multiplication-properties"
+      ],
+      "note": "乗法の性質は既存項目を再利用し、重複を作らない。"
+    },
+    {
+      "parentTopicId": "jp.elem.math.multidigit-multiplication",
+      "childTopicIds": [
+        "jp.elem.math.multidigit-multiply-one-digit",
+        "jp.elem.math.multidigit-multiply-two-digit"
+      ],
+      "note": "九九からの関係は1位数をかける計算へ接続し、2位数への関係は別途検討する。"
+    },
+    {
+      "parentTopicId": "jp.elem.math.mixed-calculations",
+      "childTopicIds": [
+        "jp.elem.math.choose-calculation-strategy",
+        "jp.elem.math.estimate-check-calculation",
+        "jp.elem.math.solve-multistep-number-problems"
+      ],
+      "note": "横断的な活用項目のため、単一の前提に固定しない。"
+    }
+  ],
+  "existingEdgeMigrationCandidates": [
+    {
+      "edgeId": "math-edge-009",
+      "from": "jp.elem.math.multiplication-tables",
+      "oldTo": "jp.elem.math.multidigit-multiplication",
+      "proposedTo": "jp.elem.math.multidigit-multiply-one-digit",
+      "action": "retarget",
+      "reason": "九九は1位数をかける多桁計算の直接的な前提候補。"
+    },
+    {
+      "edgeId": "math-edge-016",
+      "oldFrom": "jp.elem.math.multidigit-multiplication",
+      "to": "jp.elem.math.expressions-parentheses",
+      "action": "review",
+      "reason": "式の構造との関係が、乗法の分割項目か計算の性質の項目に属するか再確認する。"
+    },
+    {
+      "edgeId": "math-edge-051",
+      "from": "jp.elem.math.fractions-compare",
+      "oldTo": "jp.elem.math.decimal-fraction-connections",
+      "proposedTo": "jp.elem.math.decimal-fraction-numberline",
+      "action": "retarget",
+      "reason": "分数と小数を同じ数直線上で比べる内容に近い。"
+    },
+    {
+      "edgeId": "math-edge-052",
+      "from": "jp.elem.math.decimal-place-value",
+      "oldTo": "jp.elem.math.decimal-fraction-connections",
+      "proposedTo": "jp.elem.math.decimal-fraction-tenths",
+      "action": "retarget",
+      "reason": "小数の位取りから0.1と1/10の関係へつなぐ候補。"
+    },
+    {
+      "edgeId": "math-edge-053",
+      "from": "jp.elem.math.multiplication-properties",
+      "oldTo": "jp.elem.math.calculation-properties",
+      "proposedTo": [
+        "jp.elem.math.distributive-property",
+        "jp.elem.math.choose-calculation-strategy"
+      ],
+      "action": "review",
+      "reason": "既存の乗法の性質を維持し、重複しない移行先を確認する。"
+    },
+    {
+      "edgeId": "math-edge-054",
+      "from": "jp.elem.math.number-sentences",
+      "oldTo": "jp.elem.math.unknown-number-equations",
+      "proposedTo": "jp.elem.math.unknown-number-box-expression",
+      "action": "retarget",
+      "reason": "式の表現から□を使った式の表現へつなぐ候補。"
+    }
+  ],
+  "proposedEdges": [
+    {
+      "id": "proposed-math-edge-a-001",
+      "from": "jp.elem.math.multidigit-multiply-one-digit",
+      "to": "jp.elem.math.multidigit-multiply-two-digit",
+      "type": "recommended-prerequisite",
+      "rationale": "1位数をかける計算の理解を2位数をかける計算へ広げる候補。",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "proposed-math-edge-a-002",
+      "from": "jp.elem.math.decimal-place-value",
+      "to": "jp.elem.math.decimal-fraction-tenths",
+      "type": "recommended-prerequisite",
+      "rationale": "小数の位取りを0.1と1/10の関係へつなぐ候補。",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "proposed-math-edge-a-003",
+      "from": "jp.elem.math.decimal-fraction-tenths",
+      "to": "jp.elem.math.decimal-fraction-numberline",
+      "type": "related-learning",
+      "rationale": "表し方の関係から数直線上での比較へ広げる候補。",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "proposed-math-edge-a-004",
+      "from": "jp.elem.math.unknown-number-box-expression",
+      "to": "jp.elem.math.unknown-number-solve",
+      "type": "recommended-prerequisite",
+      "rationale": "□を使った式を表すことから、□に当てはまる数を求める学習へつなぐ候補。",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "proposed-math-edge-a-005",
+      "from": "jp.elem.math.unknown-number-box-expression",
+      "to": "jp.elem.math.unknown-number-relationships",
+      "type": "related-learning",
+      "rationale": "□を使った式から数量の関係を式に表す学習へ広げる候補。",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "proposed-math-edge-a-006",
+      "from": "jp.elem.math.addition-properties",
+      "to": "jp.elem.math.choose-calculation-strategy",
+      "type": "application",
+      "rationale": "加法の性質を計算方法の選択に活用する候補。",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "proposed-math-edge-a-007",
+      "from": "jp.elem.math.distributive-property",
+      "to": "jp.elem.math.choose-calculation-strategy",
+      "type": "application",
+      "rationale": "分配法則を計算の工夫に活用する候補。",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "proposed-math-edge-a-008",
+      "from": "jp.elem.math.estimate-check-calculation",
+      "to": "jp.elem.math.solve-multistep-number-problems",
+      "type": "application",
+      "rationale": "複数の計算を使う問題で、見積もりを結果の確認に活用する候補。",
+      "reviewStatus": "needs-review"
+    }
+  ],
   "checksBeforeApplying": [
-    "子項目のID重複と参照切れを検査する。",
-    "既存関係の移行先と循環を確認する。",
-    "表現モデル・公式コード・サイト参照の移行を確認する。"
+    "子項目の登録後にID重複・参照切れを検査する。",
+    "既存関係の移行後に循環と意味の整合性を確認する。",
+    "表現モデル・公式コード対応・サイト側参照の移行を確認する。",
+    "提案関係は dependencies.json に未登録のままとする。"
   ]
 }
