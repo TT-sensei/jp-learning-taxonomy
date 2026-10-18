@@ -64,3 +64,6 @@
   .flow-node{padding:12px}
   .footer-links{margin-left:0}
 }
+
+/* Keep links readable on the dark masthead (used on the math representations page). */
+.top a{color:#dce8ed;text-decoration:underline;text-underline-offset:2px}.top a:hover{color:#fff}
