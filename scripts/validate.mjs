@@ -98,6 +98,7 @@ for (const source of sources) {
 const representedTopicIds = new Set(representationModels.flatMap(model => model.topicIds ?? []));
 for (const model of representationModels) {
   if (!model.name || !model.purpose) errors.push(`${model.id}: 表現モデルの name / purpose が不足しています。`);
+  if (typeof model.studentName !== "string" || !model.studentName.trim() || typeof model.studentPurpose !== "string" || !model.studentPurpose.trim()) errors.push(`${model.id}: 子ども向け表示 studentName / studentPurpose が不足しています。`);
   for (const topicId of model.topicIds ?? []) {
     if (!topicById.has(topicId)) errors.push(`${model.id}: 未登録の topic ID ${topicId}`);
   }
@@ -142,6 +143,7 @@ report.push(`関係: ${dependencies.length}`);
 report.push(`出典: ${sources.length}`);
 report.push(`領域参照: ${standards.length}`);
 report.push(`表現モデル: ${representationModels.length}`);
+report.push(`子ども向け表し方の説明: ${representationModels.filter(model => model.studentName?.trim() && model.studentPurpose?.trim()).length}/${representationModels.length}`);
 report.push(`表現モデルに関連づけられた学習項目: ${representedTopicIds.size}/${topics.length}`);
 report.push(`公式コード未照合の項目: ${codeMappings.filter(item => item.matchStatus === "not-checked").length}/${topics.length}`);
 report.push(`学年配当が候補状態の項目: ${topics.filter(topic => topic.gradePlacement?.status === "candidate").length}/${topics.length}`);
