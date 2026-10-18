@@ -198,8 +198,7 @@ function renderList() {
       $("#subject").value=button.dataset.subject;
       renderDomainOptions();
       renderList();
-      const first=filteredTopics()[0];
-      if(first)renderDetail(first.id);
+      syncDetailToFilters(false);
     }));
     return;
   }
@@ -237,7 +236,18 @@ function flowNodes(items, empty, direction) {
   }).join("")+'</div>'+
   (items.length>3?'<p class="muted small-note">ほかにも'+(items.length-3)+'件のつながりがあるよ。</p>':'');
 }
-function renderDetail(id) {
+function syncDetailToFilters(scroll = false) {
+  const visible = filteredTopics();
+  const current = visible.find(topic => topic.id === state.selected);
+  const next = current || visible[0];
+  if (next) {
+    renderDetail(next.id, scroll);
+  } else {
+    state.selected = null;
+    $("#detail").innerHTML = '<p class="muted">見つからなかったよ。教科や学年を変えたり、別の言葉で探したりしてみよう。</p>';
+  }
+}
+function renderDetail(id, scroll = true) {
   const topic=state.topics.find(item=>item.id===id);
   if(!topic) return;
   state.selected=id;
@@ -264,7 +274,7 @@ function renderDetail(id) {
     '<details class="source-details"><summary>先生・保護者向けの確認情報</summary><p class="muted">学びのつながりは確認中です。必ずこの順番で学ぶ、という意味ではありません。</p><ul>'+(sourceLinks||"<li>出典情報は未登録です。</li>")+'</ul></details>';
   $("#detail").querySelectorAll("[data-topic-id]").forEach(button=>button.addEventListener("click",()=>renderDetail(button.dataset.topicId)));
   renderList();
-  $("#detail").scrollIntoView({behavior:"smooth",block:"nearest"});
+  if (scroll) $("#detail").scrollIntoView({behavior:"smooth",block:"nearest"});
 }
 async function init() {
   try {
@@ -278,10 +288,10 @@ async function init() {
     renderList();
     const first=filteredTopics()[0];
     if($("#subject").value && first) renderDetail(first.id);
-    $("#subject").addEventListener("change",()=>{renderDomainOptions();renderList();const first=filteredTopics()[0];if(first)renderDetail(first.id);});
-    $("#grade").addEventListener("change",()=>{renderList();const first=filteredTopics()[0];if(first)renderDetail(first.id);});
-    $("#domain").addEventListener("change",()=>{renderList();const first=filteredTopics()[0];if(first)renderDetail(first.id);});
-    $("#query").addEventListener("input",()=>{renderList();});
+    $("#subject").addEventListener("change",()=>{renderDomainOptions();renderList();syncDetailToFilters(false);});
+    $("#grade").addEventListener("change",()=>{renderList();syncDetailToFilters(false);});
+    $("#domain").addEventListener("change",()=>{renderList();syncDetailToFilters(false);});
+    $("#query").addEventListener("input",()=>{renderList();syncDetailToFilters(false);});
   } catch(error) {
     $("#count").textContent="読み込みエラー";
     $("#items").textContent=error.message+" GitHub Pages またはローカル HTTP サーバーで開いてください。";
