@@ -121,7 +121,7 @@ function relationCards(items, empty, limit=3) {
       '<span class="path-grade">'+esc(gradeLabel(topic))+'</span>'+
       '<strong>'+esc(topicTitle(topic))+'</strong>'+
       '<span class="path-kind">'+esc(relationNames[edge.type]||"関連する学び")+'</span>'+
-      '<span class="path-why">'+esc(studentRationale(edge.rationale))+'</span></button>';
+      '<span class="path-why">'+esc(edge.studentRationale || studentRationale(edge.rationale))+'</span></button>';
   }).join("")+'</div>'+
   (items.length>limit?'<p class="muted small-note">ほかにも'+(items.length-limit)+'件のつながりがあるよ。</p>':'');
 }
@@ -217,7 +217,7 @@ function flowNodes(items, empty, direction) {
     return '<button type="button" class="flow-node" data-topic-id="'+esc(topic.id)+'">'+
       '<span class="flow-grade">'+esc(gradeLabel(topic))+'</span>'+
       '<strong>'+esc(topicTitle(topic))+'</strong>'+
-      '<span class="flow-why"><b>どうつながる？</b> '+esc(studentRationale(edge.rationale))+'</span></button>';
+      '<span class="flow-why"><b>どうつながる？</b> '+esc(edge.studentRationale || studentRationale(edge.rationale))+'</span></button>';
   }).join("")+'</div>'+
   (items.length>3?'<p class="muted small-note">ほかにも'+(items.length-3)+'件のつながりがあるよ。</p>':'');
 }
