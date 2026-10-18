@@ -1,0 +1,556 @@
+{
+  "schemaVersion": "0.1.0",
+  "subject": "国語",
+  "status": "draft",
+  "updatedAt": "2026-10-18",
+  "designPrinciples": [
+    "学年別の一覧を最初の分類軸にせず、学習内容のまとまりを主軸にする。",
+    "低学年（1・2年）、中学年（3・4年）、高学年（5・6年）を見通しのための区分として使う。",
+    "学年帯は現段階の整理候補であり、正式な学年配当を確定するものではない。",
+    "教材名ではなく、教材を通して身に付ける力・知識・技能を学習項目にする。",
+    "項目間の関係は、前提・関連・活用・発展を区別し、根拠なく一律の順序にしない。",
+    "公式の学習指導要領コードは、公式データとの照合が完了するまで推測で登録しない。"
+  ],
+  "gradeBands": [
+    {
+      "id": "low",
+      "label": "低学年",
+      "grades": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "middle",
+      "label": "中学年",
+      "grades": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "high",
+      "label": "高学年",
+      "grades": [
+        5,
+        6
+      ]
+    }
+  ],
+  "strands": [
+    {
+      "id": "knowledge-language",
+      "label": "言葉の特徴や使い方に関する事項",
+      "framework": "知識及び技能",
+      "clusters": [
+        {
+          "id": "sounds-characters-words",
+          "label": "音・文字・語彙",
+          "topics": [
+            {
+              "id": "jp.elem.japanese.sounds-and-characters",
+              "name": "音や文字の特徴に気付く",
+              "bands": [
+                "low"
+              ],
+              "description": "音節、文字、表記の特徴に気付き、言葉を正しく読んだり書いたりする。"
+            },
+            {
+              "id": "jp.elem.japanese.word-meaning",
+              "name": "言葉の意味や使い方",
+              "bands": [
+                "low",
+                "middle",
+                "high"
+              ],
+              "description": "言葉の意味や用法、類義語・対義語などを捉え、場面や目的に応じて使う。"
+            },
+            {
+              "id": "jp.elem.japanese.vocabulary-expansion",
+              "name": "語彙を広げ、使い分ける",
+              "bands": [
+                "low",
+                "middle",
+                "high"
+              ],
+              "description": "経験や学習に関連する語彙を増やし、表現や理解に生かす。"
+            },
+            {
+              "id": "jp.elem.japanese.word-relationships",
+              "name": "語句のまとまりや関係",
+              "bands": [
+                "middle",
+                "high"
+              ],
+              "description": "語句のまとまり、語と語の関係、語句の構成や由来などに着目する。"
+            },
+            {
+              "id": "jp.elem.japanese.dictionaries-and-reference",
+              "name": "辞書などを使って言葉を調べる",
+              "bands": [
+                "low",
+                "middle",
+                "high"
+              ],
+              "description": "辞書や語句集などを目的に応じて使い、言葉の意味や用法を確かめる。"
+            }
+          ]
+        },
+        {
+          "id": "sentence-grammar",
+          "label": "文・文法・表記",
+          "topics": [
+            {
+              "id": "jp.elem.japanese.sentence-structure",
+              "name": "文の組み立てを捉える",
+              "bands": [
+                "low",
+                "middle",
+                "high"
+              ],
+              "description": "主語と述語、修飾・被修飾の関係など、文の組み立てに着目する。"
+            },
+            {
+              "id": "jp.elem.japanese.punctuation-and-notation",
+              "name": "句読点や表記のきまり",
+              "bands": [
+                "low",
+                "middle",
+                "high"
+              ],
+              "description": "句読点、かぎ、送り仮名などの表記のきまりを理解して使う。"
+            },
+            {
+              "id": "jp.elem.japanese.parts-of-speech",
+              "name": "言葉の働きや活用",
+              "bands": [
+                "middle",
+                "high"
+              ],
+              "description": "品詞や言葉の働き、文中での役割などに着目する。"
+            },
+            {
+              "id": "jp.elem.japanese.polite-language",
+              "name": "敬体と常体・敬語",
+              "bands": [
+                "middle",
+                "high"
+              ],
+              "description": "相手や場面に応じた言葉遣いを理解し、目的に応じて使う。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "information-handling",
+      "label": "情報の扱い方に関する事項",
+      "framework": "知識及び技能",
+      "clusters": [
+        {
+          "id": "organizing-information",
+          "label": "情報の整理と関係付け",
+          "topics": [
+            {
+              "id": "jp.elem.japanese.compare-and-classify-information",
+              "name": "情報を比べ、分類する",
+              "bands": [
+                "low",
+                "middle",
+                "high"
+              ],
+              "description": "共通点や相違点、観点を明確にして情報を比べたり分類したりする。"
+            },
+            {
+              "id": "jp.elem.japanese.cause-and-effect",
+              "name": "原因と結果などの関係",
+              "bands": [
+                "middle",
+                "high"
+              ],
+              "description": "原因と結果、事実と意見など、情報どうしの関係を捉える。"
+            },
+            {
+              "id": "jp.elem.japanese.information-structure",
+              "name": "情報のまとまりと構造",
+              "bands": [
+                "middle",
+                "high"
+              ],
+              "description": "情報を整理し、順序、分類、階層などの構造を捉えて表現に生かす。"
+            },
+            {
+              "id": "jp.elem.japanese.diagrams-and-tables",
+              "name": "図表や引用を使って情報を示す",
+              "bands": [
+                "middle",
+                "high"
+              ],
+              "description": "目的に応じて図表などを用い、引用元を明らかにして情報を示す。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "language-culture",
+      "label": "我が国の言語文化に関する事項",
+      "framework": "知識及び技能",
+      "clusters": [
+        {
+          "id": "oral-tradition-and-literature",
+          "label": "伝統的な言語文化・文学",
+          "topics": [
+            {
+              "id": "jp.elem.japanese.traditional-language-culture",
+              "name": "昔話や伝統的な言語文化に親しむ",
+              "bands": [
+                "low",
+                "middle",
+                "high"
+              ],
+              "description": "昔話、神話・伝承、古典などに触れ、言語文化の特徴やよさを感じ取る。"
+            },
+            {
+              "id": "jp.elem.japanese.poetry-and-rhythm",
+              "name": "詩歌や言葉の響き・リズム",
+              "bands": [
+                "low",
+                "middle",
+                "high"
+              ],
+              "description": "詩歌や短い文章を音読・朗読し、言葉の響きやリズムを味わう。"
+            },
+            {
+              "id": "jp.elem.japanese.author-and-work",
+              "name": "作品や作者について知る",
+              "bands": [
+                "middle",
+                "high"
+              ],
+              "description": "作品の背景や作者、文学的なつながりに関心をもち、読書に生かす。"
+            }
+          ]
+        },
+        {
+          "id": "reading-writing-culture",
+          "label": "文字・書写・読書",
+          "topics": [
+            {
+              "id": "jp.elem.japanese.hiragana-kanji-katakana",
+              "name": "文字を正しく読み書きする",
+              "bands": [
+                "low",
+                "middle",
+                "high"
+              ],
+              "description": "仮名や学年に応じた漢字を読み書きし、語句や文章の中で使う。"
+            },
+            {
+              "id": "jp.elem.japanese.handwriting",
+              "name": "書写の基本と文字の整え方",
+              "bands": [
+                "low",
+                "middle",
+                "high"
+              ],
+              "description": "姿勢や筆記具の持ち方、点画や文字の組み立てに注意して書く。"
+            },
+            {
+              "id": "jp.elem.japanese.reading-habits",
+              "name": "読書に親しみ、読書生活を広げる",
+              "bands": [
+                "low",
+                "middle",
+                "high"
+              ],
+              "description": "目的や興味に応じて本を選び、読書を通して知識や考えを広げる。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "speaking-listening",
+      "label": "話すこと・聞くこと",
+      "framework": "思考力、判断力、表現力等",
+      "clusters": [
+        {
+          "id": "oral-expression",
+          "label": "話題を決め、考えを伝える",
+          "topics": [
+            {
+              "id": "jp.elem.japanese.share-experience",
+              "name": "経験や出来事を順序立てて話す",
+              "bands": [
+                "low",
+                "middle"
+              ],
+              "description": "伝えたいことを選び、順序や相手を意識して分かりやすく話す。"
+            },
+            {
+              "id": "jp.elem.japanese.explain-opinion-or-reason",
+              "name": "理由や根拠を明確にして話す",
+              "bands": [
+                "middle",
+                "high"
+              ],
+              "description": "自分の考えと理由・事例の関係を明確にして話す。"
+            },
+            {
+              "id": "jp.elem.japanese.discussion-and-debate",
+              "name": "話し合い、考えをまとめる",
+              "bands": [
+                "low",
+                "middle",
+                "high"
+              ],
+              "description": "目的や進め方を意識し、意見を比べたり質問したりして考えをまとめる。"
+            },
+            {
+              "id": "jp.elem.japanese.presentation",
+              "name": "目的や相手に応じて発表する",
+              "bands": [
+                "middle",
+                "high"
+              ],
+              "description": "構成や資料、声や話し方を工夫し、相手に伝わるように発表する。"
+            }
+          ]
+        },
+        {
+          "id": "listening-and-response",
+          "label": "聞いて理解し、応答する",
+          "topics": [
+            {
+              "id": "jp.elem.japanese.listen-for-main-points",
+              "name": "大事なことを落とさずに聞く",
+              "bands": [
+                "low",
+                "middle",
+                "high"
+              ],
+              "description": "話題や要点を捉え、必要な情報を聞き取る。"
+            },
+            {
+              "id": "jp.elem.japanese.ask-and-clarify",
+              "name": "質問して確かめ、理解を深める",
+              "bands": [
+                "low",
+                "middle",
+                "high"
+              ],
+              "description": "分からないことを質問し、相手の意図や情報を確かめる。"
+            },
+            {
+              "id": "jp.elem.japanese.compare-viewpoints",
+              "name": "異なる意見を比べて聞く",
+              "bands": [
+                "middle",
+                "high"
+              ],
+              "description": "複数の意見の共通点や相違点を捉え、自分の考えを広げる。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "writing",
+      "label": "書くこと",
+      "framework": "思考力、判断力、表現力等",
+      "clusters": [
+        {
+          "id": "writing-purpose-and-content",
+          "label": "題材を決め、内容を考える",
+          "topics": [
+            {
+              "id": "jp.elem.japanese.choose-writing-topic",
+              "name": "題材を選び、書くことを集める",
+              "bands": [
+                "low",
+                "middle",
+                "high"
+              ],
+              "description": "経験や関心、目的に応じて題材を選び、必要な事柄を集める。"
+            },
+            {
+              "id": "jp.elem.japanese.organize-writing",
+              "name": "書く内容を整理し、構成する",
+              "bands": [
+                "low",
+                "middle",
+                "high"
+              ],
+              "description": "伝えたいことを明確にし、時間・事柄の順序や段落の構成を考える。"
+            },
+            {
+              "id": "jp.elem.japanese.facts-and-opinions-writing",
+              "name": "事実と考えを区別して書く",
+              "bands": [
+                "middle",
+                "high"
+              ],
+              "description": "事実、感想、意見や理由を区別し、関係が分かるように書く。"
+            }
+          ]
+        },
+        {
+          "id": "writing-expression-and-revision",
+          "label": "文章に表し、推敲する",
+          "topics": [
+            {
+              "id": "jp.elem.japanese.write-for-purpose",
+              "name": "目的や相手に合う文章を書く",
+              "bands": [
+                "low",
+                "middle",
+                "high"
+              ],
+              "description": "目的や相手に応じて、説明、報告、紹介、意見などの文章を書く。"
+            },
+            {
+              "id": "jp.elem.japanese.paragraphs-and-connectors",
+              "name": "段落や接続語を使ってつなぐ",
+              "bands": [
+                "middle",
+                "high"
+              ],
+              "description": "段落相互の関係や接続語に気を付け、文章のつながりを整える。"
+            },
+            {
+              "id": "jp.elem.japanese.revise-writing",
+              "name": "読み返して推敲する",
+              "bands": [
+                "low",
+                "middle",
+                "high"
+              ],
+              "description": "内容、順序、語句、文や表記を読み返し、より伝わる文章に直す。"
+            },
+            {
+              "id": "jp.elem.japanese.share-writing",
+              "name": "文章を読み合い、よさを伝える",
+              "bands": [
+                "low",
+                "middle",
+                "high"
+              ],
+              "description": "互いの文章を読み、よいところや改善点を伝え合って次の表現に生かす。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "label": "読むこと",
+      "framework": "思考力、判断力、表現力等",
+      "clusters": [
+        {
+          "id": "reading-comprehension",
+          "label": "内容や構成を捉える",
+          "topics": [
+            {
+              "id": "jp.elem.japanese.read-sequence-and-events",
+              "name": "出来事や場面の順序を捉える",
+              "bands": [
+                "low",
+                "middle"
+              ],
+              "description": "出来事の順序や場面の移り変わりを捉え、内容を理解する。"
+            },
+            {
+              "id": "jp.elem.japanese.read-main-idea",
+              "name": "中心となる内容や要旨を捉える",
+              "bands": [
+                "low",
+                "middle",
+                "high"
+              ],
+              "description": "文章の中心的な内容や筆者の要旨を捉える。"
+            },
+            {
+              "id": "jp.elem.japanese.read-character-and-setting",
+              "name": "登場人物や場面、心情を捉える",
+              "bands": [
+                "low",
+                "middle",
+                "high"
+              ],
+              "description": "叙述を基に、登場人物の行動や気持ち、場面の様子を捉える。"
+            },
+            {
+              "id": "jp.elem.japanese.read-structure-and-relationships",
+              "name": "段落や文章全体の構成を捉える",
+              "bands": [
+                "middle",
+                "high"
+              ],
+              "description": "段落相互の関係や文章全体の構成、論の進め方を捉える。"
+            },
+            {
+              "id": "jp.elem.japanese.read-facts-and-opinions",
+              "name": "事実と意見、理由と例を捉える",
+              "bands": [
+                "middle",
+                "high"
+              ],
+              "description": "説明文などで事実と意見、主張と理由・事例の関係を捉える。"
+            }
+          ]
+        },
+        {
+          "id": "interpretation-and-response",
+          "label": "叙述を基に考え、読書へ広げる",
+          "topics": [
+            {
+              "id": "jp.elem.japanese.infer-from-text",
+              "name": "叙述を基に想像し、推論する",
+              "bands": [
+                "low",
+                "middle",
+                "high"
+              ],
+              "description": "文章中の言葉や描写を根拠に、書かれていることや書かれていないことを考える。"
+            },
+            {
+              "id": "jp.elem.japanese.quote-evidence",
+              "name": "言葉や文を根拠にして説明する",
+              "bands": [
+                "middle",
+                "high"
+              ],
+              "description": "考えの根拠となる叙述を選び、引用や要約を用いて説明する。"
+            },
+            {
+              "id": "jp.elem.japanese.compare-texts",
+              "name": "複数の文章を比べて読む",
+              "bands": [
+                "middle",
+                "high"
+              ],
+              "description": "複数の文章や資料を比べ、内容・表現・構成の共通点や相違点を捉える。"
+            },
+            {
+              "id": "jp.elem.japanese.read-and-reflect",
+              "name": "読んで考えたことを交流する",
+              "bands": [
+                "low",
+                "middle",
+                "high"
+              ],
+              "description": "読んで感じたことや考えたことを伝え合い、新たな見方や考えをもつ。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "これは国語の分類構造と項目候補を検討するためのプロジェクト独自の草案であり、学習指導要領の公式な一覧ではない。",
+    "低・中・高学年の区分は見通しのための仮の学年帯。個々の項目の学年配当・継続学年は未照合。",
+    "項目名と説明は公式文書の転載ではなく、学習内容を整理するために独自に作成した。",
+    "正式コードの付与、項目の重複・抜けの確認、学年帯の検討、データ構造の共通化は次のレビュー段階で行う。"
+  ]
+}
