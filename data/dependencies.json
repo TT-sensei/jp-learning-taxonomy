@@ -1730,6 +1730,36 @@
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
       "studentRationale": "整数のたし算・ひき算で使った位をそろえる考え方を、小数の計算にも生かそう。"
+    },
+    {
+      "id": "math-edge-174",
+      "from": "jp.elem.math.division-meaning",
+      "to": "jp.elem.math.division-algorithm",
+      "type": "recommended-prerequisite",
+      "rationale": "等分除・包含除の意味を理解した経験を、筆算の計算方法を考える土台にする。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "わり算になる場面を考えたことを、筆算のしかたを考えるときにも生かそう。"
+    },
+    {
+      "id": "math-edge-175",
+      "from": "jp.elem.math.multiplication-tables",
+      "to": "jp.elem.math.division-algorithm",
+      "type": "recommended-prerequisite",
+      "rationale": "九九の関係を、筆算で商を立てたり計算結果を確かめたりする際に活用する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "九九を使って、わり算の筆算の商を考えたり、答えを確かめたりしよう。"
+    },
+    {
+      "id": "math-edge-176",
+      "from": "jp.elem.math.division-remainders",
+      "to": "jp.elem.math.division-algorithm",
+      "type": "related-learning",
+      "rationale": "あまりの意味を踏まえ、筆算の結果に現れるあまりを場面に合わせて解釈する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "あまりの意味を考えたことを、筆算の答えを読み取るときにも生かそう。"
     }
   ]
 }
