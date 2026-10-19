@@ -213,3 +213,7 @@ button:focus-visible{outline:3px solid #243f52!important;outline-offset:3px!impo
 @keyframes guide-stage-pulse{0%,100%{box-shadow:none}35%{box-shadow:0 0 0 4px rgba(87,142,160,.25);background:#f2f8fa}}
 @media(max-width:1000px){.self-study-guide{margin:14px 14px 0;padding:16px}.guide-steps{grid-template-columns:repeat(2,minmax(0,1fr))}main{grid-template-columns:190px minmax(0,1fr)}.detail{grid-column:1/-1}}
 @media(max-width:700px){.self-study-guide{margin:10px 10px 0;padding:14px;border-radius:12px}.guide-intro{align-items:flex-start;gap:8px}.guide-character{flex-direction:column;gap:2px;max-width:76px;text-align:center}.guide-character img{width:65px;height:78px}.guide-intro h2{font-size:1.15rem}.guide-intro p:last-child{font-size:.82rem}.guide-steps{grid-template-columns:1fr;gap:8px}.guide-step{padding:11px}.guide-step p{font-size:.82rem}.guide-step button{min-height:42px}.guide-message{font-size:.84rem}main{display:flex;flex-direction:column;padding:12px}.controls,.browse,.detail{width:100%}.controls{position:static}}
+
+
+/* Entry link to the simplified learning pathways view */
+.main-pathway-link{max-width:1120px;margin:0 auto;padding:0 22px;color:#4c5c68;font-size:.9rem}.main-pathway-link p{margin:10px 0 14px}.main-pathway-link a{color:#235b7a;text-underline-offset:3px;font-weight:650}@media(max-width:760px){.main-pathway-link{padding:0 14px}}
