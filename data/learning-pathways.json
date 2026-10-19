@@ -1,0 +1,172 @@
+{
+  "schemaVersion": "0.1.0",
+  "title": "整数計算の学びの道すじ",
+  "scope": "小学校1〜6年の整数を中心とする数・計算",
+  "status": "整理案",
+  "designPrinciples": [
+    "子どもや先生がまず見るのは、学びの大きなまとまり。",
+    "細かな学習項目は、必要なときに開く詳しい情報としてまとめる。",
+    "矢印は一本道の必修順序ではなく、学びが支え合う関係を示す。",
+    "問題ごとのつまずきや復習メニューは、タクソノミーの項目を増やすのではなく別の診断データで扱う。"
+  ],
+  "pathways": [
+    {
+      "id": "number-structure",
+      "title": "数のしくみをつかむ",
+      "question": "数をどう分け、どうまとめて見る？",
+      "summary": "数のまとまりや位のしくみが分かると、筆算で位をそろえる理由や、大きな数の計算が見えやすくなる。",
+      "stages": [
+        {
+          "label": "数える・分ける・合わせる",
+          "grades": "1年ごろ",
+          "topicIds": [
+            "jp.elem.math.number-counting",
+            "jp.elem.math.compose-decompose-to-10"
+          ]
+        },
+        {
+          "label": "位のしくみで大きな数を見る",
+          "grades": "2〜6年ごろ",
+          "topicIds": [
+            "jp.elem.math.numbers-to-10000",
+            "jp.elem.math.numbers-and-place-value"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "addition-subtraction",
+      "title": "たし算・ひき算",
+      "question": "数を合わせる・ちがいを求める",
+      "summary": "計算の意味と小さな数の計算を土台に、位をそろえた多けたの計算へつながる。",
+      "stages": [
+        {
+          "label": "意味を知り、20までの計算をする",
+          "grades": "1〜2年ごろ",
+          "topicIds": [
+            "jp.elem.math.addition-meaning",
+            "jp.elem.math.subtraction-meaning",
+            "jp.elem.math.addition-within-20",
+            "jp.elem.math.subtraction-within-20"
+          ]
+        },
+        {
+          "label": "位をそろえて計算する",
+          "grades": "2〜4年ごろ",
+          "topicIds": [
+            "jp.elem.math.multidigit-add-subtract"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "multiplication",
+      "title": "かけ算",
+      "question": "同じ数のまとまりを使う",
+      "summary": "かけ算の意味と九九を使い、かける数やかけられる数のけた数を広げていく。",
+      "stages": [
+        {
+          "label": "かけ算の意味と九九",
+          "grades": "2年ごろ",
+          "topicIds": [
+            "jp.elem.math.multiplication-meaning",
+            "jp.elem.math.multiplication-tables"
+          ]
+        },
+        {
+          "label": "けた数の多いかけ算",
+          "grades": "3〜4年ごろ",
+          "topicIds": [
+            "jp.elem.math.multidigit-multiply-one-digit",
+            "jp.elem.math.multidigit-multiply-two-digit"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "division",
+      "title": "わり算",
+      "question": "分ける・いくつ分かを考える",
+      "summary": "かけ算や九九とのつながりを使って商を考え、あまりがある場合にも意味を広げる。",
+      "stages": [
+        {
+          "label": "わり算の意味と答えを考える",
+          "grades": "3〜4年ごろ",
+          "topicIds": [
+            "jp.elem.math.division-meaning",
+            "jp.elem.math.multiplication-tables"
+          ]
+        },
+        {
+          "label": "あまりの意味を考える",
+          "grades": "3年ごろ",
+          "topicIds": [
+            "jp.elem.math.division-remainders"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "use-and-check",
+      "title": "計算を工夫し、確かめる",
+      "question": "どの方法を使う？ 答えは確か？",
+      "summary": "計算のきまりや見積もりを使い、目的に合う方法を選び、いくつかの計算を組み合わせて問題を解く。",
+      "stages": [
+        {
+          "label": "計算のきまりや式の順序を使う",
+          "grades": "2〜5年ごろ",
+          "topicIds": [
+            "jp.elem.math.addition-properties",
+            "jp.elem.math.multiplication-properties",
+            "jp.elem.math.distributive-property",
+            "jp.elem.math.expressions-parentheses"
+          ]
+        },
+        {
+          "label": "見積もり、確かめ、活用する",
+          "grades": "4〜6年ごろ",
+          "topicIds": [
+            "jp.elem.math.rounding-estimation",
+            "jp.elem.math.estimate-check-calculation",
+            "jp.elem.math.estimate-and-check",
+            "jp.elem.math.choose-calculation-strategy",
+            "jp.elem.math.solve-multistep-number-problems"
+          ]
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "from": "数のしくみ",
+      "to": "たし算・ひき算、かけ算",
+      "label": "位取りが筆算を支える",
+      "description": "位のまとまりが分かると、位をそろえたり、数の大きさに気をつけたりして計算できる。"
+    },
+    {
+      "from": "かけ算",
+      "to": "わり算",
+      "label": "九九をわり算に使う",
+      "description": "九九の中から合う積を探すことが、わり算の商を考える手がかりになる。"
+    },
+    {
+      "from": "たし算・ひき算、かけ算、わり算",
+      "to": "計算を工夫し、確かめる",
+      "label": "どの計算にもつながる",
+      "description": "見積もり、計算のきまり、答えの確かめは、1つの計算だけでなく複数の計算を使う問題にも役立つ。"
+    }
+  ],
+  "gaps": [
+    {
+      "id": "integer-division-written-method",
+      "title": "わり算の筆算・計算方法",
+      "status": "既存データの不足候補",
+      "note": "現在の topics.json には「わり算の意味」「あまりのある除法」はあるが、わり算の筆算や計算方法をまとめて参照できる独立項目が見当たらない。学年別の公式資料と照合してから、必要な粒度で登録する。"
+    }
+  ],
+  "notes": [
+    "「ごろ」と表記した学年は、現在の項目データから見た候補であり、公式配当の確定を意味しない。",
+    "既存の学習項目IDは削除・改名せず、この道すじの中から詳しい説明へ進むための参照として使う。",
+    "学習の道すじは授業や教材の配列を一つに固定するものではない。"
+  ]
+}
