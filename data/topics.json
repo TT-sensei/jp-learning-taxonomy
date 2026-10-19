@@ -6790,13 +6790,13 @@
       "name": "地域の発展に尽くした先人",
       "description": "地域の暮らしや発展を支えた先人の働きや願いを、資料や聞き取りなどから捉える。",
       "grades": [
-        3
+        4
       ],
       "topicType": "concept",
       "evidence": [
         {
           "sourceId": "mext-elementary-social-guideline-2017",
-          "note": "文部科学省の社会編解説を参照したプロジェクト独自の候補。学年・公式内容との対応は確認中。"
+          "note": "文部科学省解説の第4学年内容構成「県内の伝統や文化，先人の働き」に対応する候補。個別の公式コードとの照合は未完了。"
         }
       ],
       "curriculumStandards": [],
@@ -6805,10 +6805,10 @@
       "reviewStatus": "needs-review",
       "gradePlacement": {
         "status": "candidate",
-        "candidateFirstIntroductionGrade": 3,
+        "candidateFirstIntroductionGrade": 4,
         "candidateContinuingGrades": [],
-        "basis": "current-draft-grades",
-        "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
+        "basis": "mext-2017-social-content-structure-review-2026-10-20",
+        "note": "文部科学省解説の第4学年内容構成「県内の伝統や文化，先人の働き」に対応する候補。個別の公式コードとの照合は未完了。"
       },
       "studentName": "地域をよくするために働いた人々",
       "studentDescription": "地域のために働いた人の願いや工夫を、昔の資料や話から調べよう。"
@@ -7141,13 +7141,13 @@
       "name": "火災から地域を守る",
       "description": "消防の施設・人々の働きと、関係機関や地域住民の協力を捉える。",
       "grades": [
-        4
+        3
       ],
       "topicType": "concept",
       "evidence": [
         {
           "sourceId": "mext-elementary-social-guideline-2017",
-          "note": "文部科学省の社会編解説を参照したプロジェクト独自の候補。学年・公式内容との対応は確認中。"
+          "note": "文部科学省解説の第3学年内容構成「地域の安全を守る働き」に対応する下位項目候補。個別の公式コードとの照合は未完了。"
         }
       ],
       "curriculumStandards": [],
@@ -7156,10 +7156,10 @@
       "reviewStatus": "needs-review",
       "gradePlacement": {
         "status": "candidate",
-        "candidateFirstIntroductionGrade": 4,
+        "candidateFirstIntroductionGrade": 3,
         "candidateContinuingGrades": [],
-        "basis": "current-draft-grades",
-        "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
+        "basis": "mext-2017-social-content-structure-review-2026-10-20",
+        "note": "文部科学省解説の第3学年内容構成「地域の安全を守る働き」に対応する下位項目候補。個別の公式コードとの照合は未完了。"
       },
       "studentName": "火事から地域を守るしくみ",
       "studentDescription": "消防署や消防団、地域の人たちが、火事を防いだり、起きたときに協力して消火したりする方法を調べよう。"
@@ -7171,13 +7171,13 @@
       "name": "事故や事件から地域を守る",
       "description": "警察などの関係機関の働きや、地域の安全を守る仕組みを調べる。",
       "grades": [
-        4
+        3
       ],
       "topicType": "concept",
       "evidence": [
         {
           "sourceId": "mext-elementary-social-guideline-2017",
-          "note": "文部科学省の社会編解説を参照したプロジェクト独自の候補。学年・公式内容との対応は確認中。"
+          "note": "文部科学省解説の第3学年内容構成「地域の安全を守る働き」に対応する下位項目候補。個別の公式コードとの照合は未完了。"
         }
       ],
       "curriculumStandards": [],
@@ -7186,10 +7186,10 @@
       "reviewStatus": "needs-review",
       "gradePlacement": {
         "status": "candidate",
-        "candidateFirstIntroductionGrade": 4,
+        "candidateFirstIntroductionGrade": 3,
         "candidateContinuingGrades": [],
-        "basis": "current-draft-grades",
-        "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
+        "basis": "mext-2017-social-content-structure-review-2026-10-20",
+        "note": "文部科学省解説の第3学年内容構成「地域の安全を守る働き」に対応する下位項目候補。個別の公式コードとの照合は未完了。"
       },
       "studentName": "事故や事件から地域を守るしくみ",
       "studentDescription": "警察や地域の人たちが、事故や事件を防ぎ、安全を守るためにどんなことをしているか調べよう。"
