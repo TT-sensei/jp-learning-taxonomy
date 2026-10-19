@@ -1760,6 +1760,26 @@
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
       "studentRationale": "あまりの意味を考えたことを、筆算の答えを読み取るときにも生かそう。"
+    },
+    {
+      "id": "math-edge-177",
+      "from": "jp.elem.math.multidigit-add-subtract",
+      "to": "jp.elem.math.division-algorithm",
+      "type": "recommended-prerequisite",
+      "rationale": "わり算の筆算では、商を立てた後に積を引いて余りを求めるため、位をそろえた多けたのひき算が支えになる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "わり算の筆算では、かけ算だけでなく、位をそろえてひき算する力も使うよ。"
+    },
+    {
+      "id": "math-edge-178",
+      "from": "jp.elem.math.numbers-and-place-value",
+      "to": "jp.elem.math.division-algorithm",
+      "type": "recommended-prerequisite",
+      "rationale": "商の見当をつけ、位ごとに計算するには、整数の位取りと数の大きさの理解が役立つ。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "数の位や大きさが分かると、わり算の筆算で商を考えやすくなるよ。"
     }
   ]
 }
