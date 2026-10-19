@@ -1,11 +1,11 @@
 {
   "schemaVersion": "0.1.0",
   "title": "算数「数と計算」分割案の移行設計",
-  "updatedAt": "2026-10-18",
+  "updatedAt": "2026-10-19",
   "status": "applied-with-legacy-parents",
-  "purpose": "分割案の移行先と学習関係を記録する設計案。topics.json と dependencies.json は変更しない。",
+  "purpose": "分割案の移行先と学習関係を記録する。分割対象の子項目と関係の一部は topics.json / dependencies.json に反映済み。旧親IDは互換性のため維持する。",
   "principles": [
-    "既存IDは利用側の参照確認前に削除しない。",
+    "既存IDは利用側の参照を確認したうえで扱い、旧親IDは当面互換性のため保持する。",
     "親の関係を子へ機械的に複製しない。",
     "前提・関連・活用を区別する。",
     "関係はプロジェクト独自の候補で、公式の学習順序を意味しない。"
