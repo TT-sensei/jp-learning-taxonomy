@@ -132,6 +132,18 @@
       "versionNote": "公式の内容構成と概念の柱を参照。個々の候補項目と学年配当の照合は未完了。",
       "reuseNote": "公式資料の原文・図表を転載せず、学習項目は独自の表現で整理する。",
       "reviewStatus": "needs-review"
+    },
+    {
+      "id": "mext-next-curriculum-deliberation-summary-2026-10-05",
+      "title": "次期学習指導要領等に向けた審議まとめ",
+      "publisher": "文部科学省・中央教育審議会 教育課程部会",
+      "url": "https://www.mext.go.jp/b_menu/shingi/chukyo/chukyo3/004/gaiyou/mext_00022.html",
+      "sourceType": "official-policy-deliberation",
+      "publishedDate": "2026-10-05",
+      "versionNote": "次期学習指導要領の改善方向を示す審議段階の資料。現行の学習指導要領本文・解説や、将来告示される新要領と同一視しない。",
+      "usageNote": "改訂動向の監視に用いる。現在の学習項目の公式対応、学年配当、コードを確定する根拠としては使わず、正式な告示後に差分確認する。",
+      "publicCommentPeriod": "2026-10-06/2026-11-05",
+      "reviewStatus": "needs-review"
     }
   ],
   "standards": [
