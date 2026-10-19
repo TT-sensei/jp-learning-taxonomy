@@ -9685,6 +9685,39 @@
       "officialAreaCandidate": "横断的な問題解決の力（公式のA・B区分とは別の整理）",
       "studentName": "いくつかの結果や見方から説明しよう",
       "studentDescription": "いくつかの結果や資料を比べ、いちばん納得できる説明を考えよう。"
+    },
+    {
+      "id": "jp.elem.math.division-algorithm",
+      "subject": "算数",
+      "domain": "A 数と計算",
+      "name": "わり算の筆算",
+      "description": "除数が1位数や2位数、被除数が2位数や3位数の場合の計算を、既習の除法を基に考え、筆算で計算し、商とあまりの関係を使って確かめる。",
+      "grades": [
+        4
+      ],
+      "topicType": "skill",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-math-guideline-2017",
+          "note": "第4学年の除法の筆算に関する文部科学省の算数編解説および指導資料を参照。項目名・説明はプロジェクト独自の要約。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-math-area-A"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review",
+      "gradePlacement": {
+        "status": "reviewed",
+        "candidateFirstIntroductionGrade": 4,
+        "candidateContinuingGrades": [],
+        "basis": "mext-commentary-initial-review",
+        "note": "第4学年では、除数が1位数や2位数、被除数が2位数や3位数の場合の計算と筆算の仕方を扱う。公式コードとの項目単位の対応は別途照合する。",
+        "sourceUrl": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf"
+      },
+      "studentName": "わり算の筆算をしよう",
+      "studentDescription": "わる数やわられる数の位に注目して筆算をし、答えをかけ算とあまりで確かめよう。"
     }
   ]
 }
