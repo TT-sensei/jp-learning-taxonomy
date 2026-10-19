@@ -529,6 +529,18 @@ async function init() {
     bindSelfStudyGuide();
     renderSelfStudyGuide();
     renderList();
+    // 学びの道すじページから来た場合は、指定された詳しい項目を開く。
+    const linkedTopicId = new URLSearchParams(window.location.search).get("topic");
+    const linkedTopic = linkedTopicId ? state.topics.find(topic => topic.id === linkedTopicId) : null;
+    if (linkedTopic) {
+      $("#subject").value = linkedTopic.subject;
+      renderDomainOptions();
+      $("#grade").value = "";
+      $("#domain").value = topicGroup(linkedTopic);
+      $("#query").value = "";
+      renderList();
+      renderDetail(linkedTopic.id, false);
+    }
     // 最初から項目を決めつけず、子どもが「今の学び」を自分で選べるようにする。
     renderSelfStudyGuide();
     $("#subject").addEventListener("change",()=>{renderDomainOptions();renderList();syncDetailToFilters(false);});
