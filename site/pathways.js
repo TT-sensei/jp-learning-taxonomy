@@ -13,7 +13,7 @@ async function load(path) {
   if(!response.ok) throw new Error(path+" の読み込みに失敗しました");
   return response.json();
 }
-function topicHref(id) { return "./index.html?topic="+encodeURIComponent(id); }
+function topicHref(id) { return "./details.html?topic="+encodeURIComponent(id); }
 function stageHtml(stage, topicMap) {
   const records=(stage.topicIds||[]).map(id=>topicMap.get(id)).filter(Boolean);
   const absent=(stage.topicIds||[]).filter(id=>!topicMap.has(id));
