@@ -93,8 +93,7 @@
           "label": "わり算の意味と答えを考える",
           "grades": "3〜4年ごろ",
           "topicIds": [
-            "jp.elem.math.division-meaning",
-            "jp.elem.math.multiplication-tables"
+            "jp.elem.math.division-meaning"
           ]
         },
         {
