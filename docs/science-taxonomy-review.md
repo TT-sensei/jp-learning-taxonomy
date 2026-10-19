@@ -1,7 +1,7 @@
 # 理科タクソノミー 初期レビュー記録
 
 更新日：2026-10-18  
-対象：`data/science-taxonomy-draft.json`（45項目の初期候補）
+対象：`data/science-taxonomy-draft.json`（47項目の初期候補。旧版に残っていた45項目という記載を修正。）
 
 ## 設計の考え方
 
