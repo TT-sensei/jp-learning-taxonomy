@@ -1700,6 +1700,36 @@
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
       "studentRationale": "記録した結果を問題や予想と比べて、何が分かったかをまとめよう。"
+    },
+    {
+      "id": "math-edge-171",
+      "from": "jp.elem.math.addition-within-20",
+      "to": "jp.elem.math.multidigit-add-subtract",
+      "type": "recommended-prerequisite",
+      "rationale": "1位数どうしの加法で計算の意味や数のまとまりを捉えた経験を、2～4桁の加法・減法へ広げる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "小さな数のたし算を土台に、もっと大きな数のたし算やひき算へ進もう。"
+    },
+    {
+      "id": "math-edge-172",
+      "from": "jp.elem.math.subtraction-within-20",
+      "to": "jp.elem.math.multidigit-add-subtract",
+      "type": "recommended-prerequisite",
+      "rationale": "1位数どうしの減法で計算の意味や数のまとまりを捉えた経験を、2～4桁の加法・減法へ広げる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "小さな数のひき算を土台に、もっと大きな数のたし算やひき算へ進もう。"
+    },
+    {
+      "id": "math-edge-173",
+      "from": "jp.elem.math.multidigit-add-subtract",
+      "to": "jp.elem.math.decimal-add-subtract",
+      "type": "recommended-prerequisite",
+      "rationale": "整数の加法・減法で位をそろえて計算する考えを、小数の加法・減法で小数点の位置をそろえる学習へつなぐ。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "整数のたし算・ひき算で使った位をそろえる考え方を、小数の計算にも生かそう。"
     }
   ]
 }
