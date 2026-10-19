@@ -1958,6 +1958,13 @@
       "verifiedCode": null,
       "sourceId": "mext-elementary-social-guideline-2017",
       "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+    },
+    {
+      "topicId": "jp.elem.math.division-algorithm",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "公式コード表との照合待ち。第4学年の除法の筆算に関する項目候補。"
     }
   ]
 }
