@@ -184,15 +184,19 @@ function topicGroup(topic) {
   }
   if (topic.subject === "国語") {
     const grade = Number(topic.gradePlacement?.candidateFirstIntroductionGrade) || Number(topic.grades?.[0]) || 1;
-    return grade <= 2 ? "1・2年生のまとまり" : grade <= 4 ? "3・4年生のまとまり" : "5・6年生のまとまり";
+    return grade <= 2 ? "1・2年生のまとまり" : "3〜6年生のまとまり（細分化を確認中）";
   }
   if (topic.subject === "理科") {
-    const source = [topic.domain, topic.cluster, topic.name, topic.studentName, topic.studentDescription].join(" ");
-    if (/生物|生命|植物|動物|人の体|成長/.test(source)) return "生命";
+    const cluster = String(topic.cluster || "");
+    const source = [topic.name, topic.studentName, topic.studentDescription].join(" ");
+    if (/生物|生命|植物|動物|人の体|成長|環境/.test(cluster)) return "生命";
+    if (/地球|天気|天体|土地/.test(cluster)) return "地球";
+    if (/物質|状態変化/.test(cluster)) return "粒子";
+    if (/光・音|電気|磁石|力|運動/.test(cluster)) return "エネルギー";
+    if (/生物|生命|植物|動物|人の体|成長|環境/.test(source)) return "生命";
     if (/地球|天気|天体|月|星|土地|地層|太陽|気温|季節/.test(source)) return "地球";
     if (/物質|材料|状態変化|水のすがた|空気|金属|溶ける|溶解/.test(source)) return "粒子";
-    if (/エネルギー|電気|磁石|力|運動|光|音|熱/.test(source)) return "エネルギー";
-    if (/環境/.test(source)) return "環境と生き物";
+    if (/電気|磁石|力|運動|光|音|熱/.test(source)) return "エネルギー";
     return "調べ方・科学的な探究";
   }
   return domainLabel(topic.domain);
