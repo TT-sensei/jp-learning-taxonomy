@@ -11,7 +11,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「話すこと・聞くこと」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102A321000000",
+      "candidateCode": "82102A3210000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -21,7 +21,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「我が国の言語文化に関する事項」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102C313000000",
+      "candidateCode": "82102C3130000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -31,7 +31,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「情報の扱い方に関する事項」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102C312000000",
+      "candidateCode": "82102C3120000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -41,7 +41,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「読むこと」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102A323000000",
+      "candidateCode": "82102A3230000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -51,7 +51,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「書くこと」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102A322000000",
+      "candidateCode": "82102A3220000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -61,7 +61,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「我が国の言語文化に関する事項」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102C313000000",
+      "candidateCode": "82102C3130000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -71,7 +71,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「情報の扱い方に関する事項」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102A312000000",
+      "candidateCode": "82102A3120000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -81,7 +81,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「情報の扱い方に関する事項」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102A312000000",
+      "candidateCode": "82102A3120000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -91,7 +91,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「読むこと」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102C323000000",
+      "candidateCode": "82102C3230000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -101,7 +101,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「読むこと」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102C323000000",
+      "candidateCode": "82102C3230000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -111,7 +111,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「話すこと・聞くこと」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102C321000000",
+      "candidateCode": "82102C3210000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -121,7 +121,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「言葉の特徴や使い方に関する事項」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102C311000000",
+      "candidateCode": "82102C3110000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -131,7 +131,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「情報の扱い方に関する事項」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102C312000000",
+      "candidateCode": "82102C3120000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -141,7 +141,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「言葉の特徴や使い方に関する事項」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102A311000000",
+      "candidateCode": "82102A3110000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -151,7 +151,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「話すこと・聞くこと」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102A321000000",
+      "candidateCode": "82102A3210000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -161,7 +161,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「話すこと・聞くこと」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102C321000000",
+      "candidateCode": "82102C3210000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -171,7 +171,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「書くこと」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102C322000000",
+      "candidateCode": "82102C3220000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -181,7 +181,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「情報の扱い方に関する事項」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102C312000000",
+      "candidateCode": "82102C3120000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -191,7 +191,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「我が国の言語文化に関する事項」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102A313000000",
+      "candidateCode": "82102A3130000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -201,7 +201,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「我が国の言語文化に関する事項」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102A313000000",
+      "candidateCode": "82102A3130000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -211,7 +211,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「言葉の特徴や使い方に関する事項」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102C311000000",
+      "candidateCode": "82102C3110000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -221,7 +221,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「読むこと」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102A323000000",
+      "candidateCode": "82102A3230000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -231,7 +231,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「情報の扱い方に関する事項」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102C312000000",
+      "candidateCode": "82102C3120000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -241,7 +241,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「話すこと・聞くこと」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102C321000000",
+      "candidateCode": "82102C3210000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -251,7 +251,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「言葉の特徴や使い方に関する事項」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102A311000000",
+      "candidateCode": "82102A3110000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -261,7 +261,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「言葉の特徴や使い方に関する事項」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102A311000000",
+      "candidateCode": "82102A3110000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -271,7 +271,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「言葉の特徴や使い方に関する事項」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102A311000000",
+      "candidateCode": "82102A3110000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -281,7 +281,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「我が国の言語文化に関する事項」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102A313000000",
+      "candidateCode": "82102A3130000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -291,7 +291,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「話すこと・聞くこと」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102A321000000",
+      "candidateCode": "82102A3210000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -301,7 +301,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「我が国の言語文化に関する事項」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102A313000000",
+      "candidateCode": "82102A3130000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -311,7 +311,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「情報の扱い方に関する事項」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102C312000000",
+      "candidateCode": "82102C3120000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -321,7 +321,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「言葉の特徴や使い方に関する事項」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102A311000000",
+      "candidateCode": "82102A3110000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -331,7 +331,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「書くこと」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102A322000000",
+      "candidateCode": "82102A3220000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -341,7 +341,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「書くこと」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102C322000000",
+      "candidateCode": "82102C3220000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -351,7 +351,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「言葉の特徴や使い方に関する事項」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102C311000000",
+      "candidateCode": "82102C3110000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -361,7 +361,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「書くこと」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102C322000000",
+      "candidateCode": "82102C3220000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -371,7 +371,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「我が国の言語文化に関する事項」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102A313000000",
+      "candidateCode": "82102A3130000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -381,7 +381,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「言葉の特徴や使い方に関する事項」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102C311000000",
+      "candidateCode": "82102C3110000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -391,7 +391,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「話すこと・聞くこと」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102A321000000",
+      "candidateCode": "82102A3210000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -401,7 +401,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「話すこと・聞くこと」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102C321000000",
+      "candidateCode": "82102C3210000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -411,7 +411,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「言葉の特徴や使い方に関する事項」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102A311000000",
+      "candidateCode": "82102A3110000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -421,7 +421,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「読むこと」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102C323000000",
+      "candidateCode": "82102C3230000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -431,7 +431,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「読むこと」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102A323000000",
+      "candidateCode": "82102A3230000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -441,7 +441,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「読むこと」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102C323000000",
+      "candidateCode": "82102C3230000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -451,7 +451,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「読むこと」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102C323000000",
+      "candidateCode": "82102C3230000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -461,7 +461,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「読むこと」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102A323000000",
+      "candidateCode": "82102A3230000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -471,7 +471,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「読むこと」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102C323000000",
+      "candidateCode": "82102C3230000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -481,7 +481,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「読むこと」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102C323000000",
+      "candidateCode": "82102C3230000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -491,7 +491,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「読むこと」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102A323000000",
+      "candidateCode": "82102A3230000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -501,7 +501,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「読むこと」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102C323000000",
+      "candidateCode": "82102C3230000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -511,7 +511,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「読むこと」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102A323000000",
+      "candidateCode": "82102A3230000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -521,7 +521,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「読むこと」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102C323000000",
+      "candidateCode": "82102C3230000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -531,7 +531,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「読むこと」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102C323000000",
+      "candidateCode": "82102C3230000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -541,7 +541,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「我が国の言語文化に関する事項」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102A313000000",
+      "candidateCode": "82102A3130000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -551,7 +551,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「我が国の言語文化に関する事項」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102A313000000",
+      "candidateCode": "82102A3130000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -561,7 +561,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「書くこと」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102A322000000",
+      "candidateCode": "82102A3220000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -571,7 +571,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「言葉の特徴や使い方に関する事項」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102A311000000",
+      "candidateCode": "82102A3110000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -581,7 +581,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「言葉の特徴や使い方に関する事項」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102A311000000",
+      "candidateCode": "82102A3110000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -591,7 +591,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「話すこと・聞くこと」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102A321000000",
+      "candidateCode": "82102A3210000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -601,7 +601,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「書くこと」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102A322000000",
+      "candidateCode": "82102A3220000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -611,7 +611,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「言葉の特徴や使い方に関する事項」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102A311000000",
+      "candidateCode": "82102A3110000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -621,7 +621,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「情報の扱い方に関する事項」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102C312000000",
+      "candidateCode": "82102C3120000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -631,7 +631,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「書くこと」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102C322000000",
+      "candidateCode": "82102C3220000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -641,7 +641,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「話すこと・聞くこと」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102C321000000",
+      "candidateCode": "82102C3210000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -651,7 +651,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「話すこと・聞くこと」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102C321000000",
+      "candidateCode": "82102C3210000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -661,7 +661,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「話すこと・聞くこと」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102C321000000",
+      "candidateCode": "82102C3210000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -671,7 +671,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「我が国の言語文化に関する事項」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102A313000000",
+      "candidateCode": "82102A3130000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -681,7 +681,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「書くこと」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102C322000000",
+      "candidateCode": "82102C3220000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -691,7 +691,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「言葉の特徴や使い方に関する事項」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102A311000000",
+      "candidateCode": "82102A3110000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -701,7 +701,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「言葉の特徴や使い方に関する事項」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102A311000000",
+      "candidateCode": "82102A3110000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -711,7 +711,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「言葉の特徴や使い方に関する事項」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102C311000000",
+      "candidateCode": "82102C3110000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -721,7 +721,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「書くこと」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102A322000000",
+      "candidateCode": "82102A3220000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -731,7 +731,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「書くこと」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102A322000000",
+      "candidateCode": "82102A3220000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -741,7 +741,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「書くこと」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102A322000000",
+      "candidateCode": "82102A3220000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
@@ -751,7 +751,7 @@
       "matchStatus": "candidate",
       "matchType": "unconfirmed",
       "note": "国語「書くこと」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
-      "candidateCode": "82102C322000000",
+      "candidateCode": "82102C3220000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
