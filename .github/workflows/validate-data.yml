@@ -23,3 +23,5 @@ jobs:
         run: node --check scripts/validate.mjs
       - name: Validate dataset
         run: node scripts/validate.mjs
+      - name: Check candidate codes against official 82V12 CSV
+        run: node scripts/check-official-curriculum-codes.mjs
