@@ -1790,6 +1790,26 @@
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
       "studentRationale": "地域で災害に備える方法と、日本全体で自然災害から国土を守る取組はつながっているよ。"
+    },
+    {
+      "id": "grade-link-143",
+      "from": "jp.elem.science.rainwater-land-surface",
+      "to": "jp.elem.science.river-land",
+      "type": "related-learning",
+      "rationale": "第4学年で調べる雨水の流れ方・しみ込み方と、第5学年で調べる流れる水による土地の変化をつなぐ。地表の雨水の行方を扱う学習から、流れる水の侵食・運搬・堆積へ見方を広げる。",
+      "evidenceType": "official-explicit",
+      "reviewStatus": "needs-review",
+      "studentRationale": "雨水が地面を流れたりしみこんだりすることを調べたら、川の水が土地をけずったり、土を運んだりする働きにもつなげて考えよう。"
+    },
+    {
+      "id": "grade-link-144",
+      "from": "jp.elem.science.rainwater-land-surface",
+      "to": "jp.elem.science.land-formation",
+      "type": "related-learning",
+      "rationale": "第4学年B(3)の雨水の行方と地面の様子は、第6学年B(4)の土地のつくりと変化にもつながると文部科学省解説に記されている。地表の水の動きと、地層・土地の成り立ちを区別しながら関連づける。",
+      "evidenceType": "official-explicit",
+      "reviewStatus": "needs-review",
+      "studentRationale": "雨水の流れ方やしみこみ方を調べたことを、地層や土地のでき方、土地の変化を考えるときにもつなげよう。"
     }
   ]
 }
