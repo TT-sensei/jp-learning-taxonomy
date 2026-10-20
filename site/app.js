@@ -351,7 +351,7 @@ function renderList() {
   $("#count").textContent=(!filters.subject&&!filters.grade&&!filters.domain&&!filters.query) ? [...new Set(state.topics.map(t=>t.subject))].length+"教科" : topics.length+"件";
   const list=$("#items");
   list.replaceChildren();
-  if(filters.subject&&!filters.grade&&!filters.domain&&!filters.query && !(filters.subject==="国語" && state.topics.filter(topic=>topic.subject==="国語").every(topic=>topic.gradePlacement?.basis==="japanese-taxonomy-draft"))){
+  if(filters.subject&&!filters.grade&&!filters.domain&&!filters.query && !document.body.dataset.fixedSubject && !(filters.subject==="国語" && state.topics.filter(topic=>topic.subject==="国語").every(topic=>topic.gradePlacement?.basis==="japanese-taxonomy-draft"))){
     list.innerHTML=renderGradeMap(filters.subject);
     list.querySelectorAll("[data-topic-id]").forEach(button=>button.addEventListener("click",()=>renderDetail(button.dataset.topicId)));
     return;
@@ -544,15 +544,15 @@ async function init() {
     const pageSubject = ({ "japanese.html":"国語", "social.html":"社会", "science.html":"理科" })[window.location.pathname.split("/").pop()] || "";
     const fixedSubject = new URLSearchParams(window.location.search).get("subject") || pageSubject;
     renderFilters(fixedSubject);
-    bindSelfStudyGuide();
-    renderSelfStudyGuide();
-    renderList();
-    // 教科専用ページでは、選んだ教科だけを表示する。
+    // 教科専用ページでは、一覧の初回描画より前に教科を固定する。
     if (fixedSubject && $("#subject").value) {
       document.body.dataset.fixedSubject = fixedSubject;
       const pageTitles = { "国語":"国語の学びマップ", "社会":"社会の学びマップ", "理科":"理科の学びマップ" };
       if (pageTitles[fixedSubject]) { document.title = pageTitles[fixedSubject]; const h1 = document.querySelector(".top h1"); if (h1) h1.textContent = pageTitles[fixedSubject]; }
     }
+    bindSelfStudyGuide();
+    renderSelfStudyGuide();
+    renderList();
     // 学びの道すじページから来た場合は、指定された詳しい項目を開く。
     const linkedTopicId = new URLSearchParams(window.location.search).get("topic");
     const linkedTopic = linkedTopicId ? state.topics.find(topic => topic.id === linkedTopicId) : null;
