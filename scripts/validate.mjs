@@ -190,6 +190,29 @@ if (codeMappings.length !== topics.length) errors.push("curriculum-code-mapping.
 for (const item of codeMappings) {
   if (!topicById.has(item.topicId)) errors.push(`コード対応表に未登録の topic ID ${item.topicId}`);
   if (!["not-checked","candidate","verified","no-direct-match"].includes(item.matchStatus)) errors.push(`${item.topicId}: 未定義の matchStatus ${item.matchStatus}`);
+
+  const candidateCodes = [
+    ...(item.candidateCode ? [item.candidateCode] : []),
+    ...(Array.isArray(item.candidateCodes) ? item.candidateCodes : [])
+  ];
+  const verifiedCodes = [
+    ...(item.verifiedCode ? [item.verifiedCode] : []),
+    ...(Array.isArray(item.verifiedCodes) ? item.verifiedCodes : [])
+  ];
+  for (const code of [...candidateCodes, ...verifiedCodes, ...(item.officialCodes ?? [])]) {
+    if (typeof code !== "string" || !/^[0-9A-Z]{16}$/.test(code)) {
+      errors.push(`${item.topicId}: コード形式が不正です (${String(code)})`);
+    }
+  }
+  if (item.matchStatus === "verified" && verifiedCodes.length === 0 && !(item.officialCodes ?? []).length) {
+    errors.push(`${item.topicId}: verified ですが確定コードがありません。`);
+  }
+  if (item.matchStatus === "no-direct-match" && (candidateCodes.length || verifiedCodes.length)) {
+    errors.push(`${item.topicId}: no-direct-match なのに候補・確定コードが登録されています。`);
+  }
+  if (item.verifiedCode && item.candidateCode && item.verifiedCode !== item.candidateCode) {
+    report.push(`${item.topicId}: verifiedCode と candidateCode が異なるため要確認`);
+  }
 }
 report.push(`教科・領域別: ${JSON.stringify(byDomain)}`);
 if (errors.length) {
