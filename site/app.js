@@ -541,11 +541,19 @@ async function init() {
     state.topics=(topics.topics||[]).filter(topic=>topic.topicLifecycle!=="superseded");
     state.dependencies=dependencies.dependencies||[];
     state.standards=standards;
-    const pageSubject = ({ "japanese.html":"国語", "social.html":"社会", "science.html":"理科" })[window.location.pathname.split("/").pop()] || "";\n    const fixedSubject = new URLSearchParams(window.location.search).get("subject") || pageSubject;\n    renderFilters(fixedSubject);
+    const pageSubject = ({ "japanese.html":"国語", "social.html":"社会", "science.html":"理科" })[window.location.pathname.split("/").pop()] || "";
+    const fixedSubject = new URLSearchParams(window.location.search).get("subject") || pageSubject;
+    renderFilters(fixedSubject);
     bindSelfStudyGuide();
     renderSelfStudyGuide();
     renderList();
-    // 教科専用ページでは、選んだ教科だけを表示する。\n    if (fixedSubject && $("#subject").value) {\n      document.body.dataset.fixedSubject = fixedSubject;\n      const pageTitles = { "国語":"国語の学びマップ", "社会":"社会の学びマップ", "理科":"理科の学びマップ" };\n      if (pageTitles[fixedSubject]) { document.title = pageTitles[fixedSubject]; const h1 = document.querySelector(".top h1"); if (h1) h1.textContent = pageTitles[fixedSubject]; }\n    }\n    // 学びの道すじページから来た場合は、指定された詳しい項目を開く。
+    // 教科専用ページでは、選んだ教科だけを表示する。
+    if (fixedSubject && $("#subject").value) {
+      document.body.dataset.fixedSubject = fixedSubject;
+      const pageTitles = { "国語":"国語の学びマップ", "社会":"社会の学びマップ", "理科":"理科の学びマップ" };
+      if (pageTitles[fixedSubject]) { document.title = pageTitles[fixedSubject]; const h1 = document.querySelector(".top h1"); if (h1) h1.textContent = pageTitles[fixedSubject]; }
+    }
+    // 学びの道すじページから来た場合は、指定された詳しい項目を開く。
     const linkedTopicId = new URLSearchParams(window.location.search).get("topic");
     const linkedTopic = linkedTopicId ? state.topics.find(topic => topic.id === linkedTopicId) : null;
     if (linkedTopic) {
