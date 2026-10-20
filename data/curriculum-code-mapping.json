@@ -1856,6 +1856,14 @@
       "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
     },
     {
+      "topicId": "jp.elem.social.national-disaster-prevention",
+      "matchStatus": "not-checked",
+      "candidateCode": null,
+      "verifiedCode": null,
+      "sourceId": "mext-elementary-social-guideline-2017",
+      "note": "社会の候補項目。文部科学省解説第5学年内容（5）の自然災害・国土保全に関する学習に対応する候補。公式コード表の実データとの照合は未実施。"
+    },
+    {
       "topicId": "jp.elem.social.natural-environment-life",
       "matchStatus": "not-checked",
       "candidateCode": null,
