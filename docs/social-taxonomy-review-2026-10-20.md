@@ -29,7 +29,7 @@
 | (2) 人々の健康や生活環境を支える事業 | `jp.elem.social.water-supply`、`jp.elem.social.waste-management` | 対応候補。公式内容に含まれる事業の範囲と、項目を分ける粒度を確認 |
 | (3) 自然災害から人々を守る活動 | `jp.elem.social.disaster-prevention` | 対応候補。社会科としての行政・関係機関・地域の備えと、理科の自然事象を区別 |
 | (4) 県内の伝統や文化，先人の働き | `jp.elem.social.prefecture-culture`、`jp.elem.social.community-predecessors` | 対応候補。文化・年中行事と先人の働きは別々の学習項目として整理 |
-| (5) 県内の特色ある地域の様子 | `jp.elem.social.prefecture-industry` | **不足・範囲の確認が必要。** 現行の「産業と特色」だけで公式内容を十分に覆うか未確認。伝統技術を生かした地場産業、国際交流、地域資源の保護・活用などの観点を確認する |
+| (5) 県内の特色ある地域の様子 | `jp.elem.social.prefecture-industry` | 第2回照合で項目名・説明を修正。地場産業、国際交流、自然・伝統文化などの地域資源の保護・活用、まちづくりや観光産業、人々の協力関係を明示。詳細な授業事例の網羅確認は継続する |
 
 **実施した修正：** `jp.elem.social.community-predecessors` の `grades`・`gradePlacement.candidateFirstIntroductionGrade` を3年から4年に移動した。
 
@@ -101,6 +101,9 @@
 - `jp.elem.social.police-safety`：第4学年候補 → 第3学年候補
 - `jp.elem.social.community-predecessors`：第3学年候補 → 第4学年候補
 - 3項目の `gradePlacement.basis` を `mext-2017-social-content-structure-review-2026-10-20` に変更し、文科省解説の該当する公式内容構成を `evidence` と `gradePlacement.note` に記録。
+- 第4学年の都道府県・特色ある地域の説明範囲を再整理し、第5学年の自然災害・国土保全の候補項目を追加。
+- 第6学年の歴史的事象と国際協力の説明文を具体化し、戦争・戦後の出発・国際協力の役割を区別。
+- 学年変更後に古いままだった3項目の `domain` 表示を修正。
 
 変更は候補学年の位置合わせであり、3項目の `reviewStatus` は `needs-review` のまま。公式コードは推測で登録していない。
 
