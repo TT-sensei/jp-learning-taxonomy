@@ -7,3 +7,24 @@ header{background:#fff;border:1px solid var(--line);border-radius:16px;padding:2
 footer{margin-top:22px;border-top:1px solid var(--line);padding-top:12px;font-size:.85rem;color:var(--muted)}footer p{margin:5px 0}
 @media(max-width:720px){.page{padding:12px}.strands,.connection-grid{grid-template-columns:1fr}.strand:last-child{grid-column:auto}header{padding:18px}.strand{padding:15px}}
 @media print{body{background:#fff;font-size:10pt}.page{padding:0}.topline a{display:none}.strand,.connection,header{break-inside:avoid}.strands{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.strand:last-child{grid-column:1/-1}.strand{padding:11px}.connection-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}.connection{padding:8px}.topics summary{display:none}.topics:not([open]) .topic-links{display:flex}.topic-links a{font-size:8pt;padding:2px 4px}}
+
+
+/* Tablet-first reading layout: avoid squeezed multi-column cards. */
+@media (max-width: 900px) {
+  .page { padding: 16px 14px 32px; }
+  .strands { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .strand { padding: 15px; }
+  .connection-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .topline { align-items: flex-start; }
+  .topline a { min-height: 40px; display: inline-flex; align-items: center; }
+}
+@media (max-width: 640px) {
+  .page { padding: 10px 9px 26px; }
+  .topline { font-size: .82rem; }
+  header { padding: 17px 15px; border-radius: 13px; }
+  .notice { line-height: 1.75; }
+  .strands, .connection-grid { grid-template-columns: minmax(0, 1fr); }
+  .strand:last-child { grid-column: auto; }
+  .strand { padding: 14px; }
+  .topic-links a { min-height: 40px; display: inline-flex; align-items: center; }
+}
