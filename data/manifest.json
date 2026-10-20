@@ -3,12 +3,12 @@
   "version": "0.9.0-draft",
   "schemaVersion": "0.2.0",
   "status": "prototype",
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "counts": {
     "topics": 276,
     "dependencies": 179,
     "curriculumStandards": 6,
-    "sources": 14,
+    "sources": 15,
     "resources": 0,
     "byArea": {
       "A 数と計算": 48,
