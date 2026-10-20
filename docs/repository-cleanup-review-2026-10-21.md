@@ -105,3 +105,11 @@ README が長くなり、同じ話題が何度も現れるうえ、過去の作�
 - 草案ファイルは学習項目 ID の二重管理になっていたため削除。ただし、説明文・学年配当・領域ラベル等の内容がすべて一致することを意味しない。現行の学習項目は `data/topics.json` を正とし、公式コード対応の状態は `data/curriculum-code-mapping.json` を参照する。
 - 分類設計、重複候補、公式資料との照合履歴は `docs/japanese-language-taxonomy-review.md`、`docs/social-studies-taxonomy-review.md`、`docs/science-taxonomy-review.md` に残した。国語・理科のレビュー記録には、独立した草案JSONを整理した旨を追記した。
 - 次の作業は、項目 ID の有無の確認ではなく、現行データの説明・学年配当とレビュー記録の指摘を照合し、必要な修正だけを共通データへ反映すること。
+
+
+## 算数の関係点検（2026-10-21・追加）
+
+- 分割後の新規関係8件について、矢印の方向・関係タイプ・学年候補・児童向け説明を点検した。結果は `docs/math-relationship-review-2026-10-21.md` に記録した。
+- `proposed-math-edge-a-004` の児童向け説明が関係の向きと逆だったため修正した。
+- `proposed-math-edge-a-002` は既存関係と同じ項目ペアのため、現行データには存在しないことを確認した。重複して再追加しない。
+- この点検は内部整合性の確認であり、公式資料による学年配当・内容の確認は未完了。8件の `reviewStatus` は `needs-review` のまま維持する。
