@@ -61,6 +61,53 @@ for (const mapping of mappingData.mappings ?? []) {
 const codes = [...codeToTopics.keys()].sort();
 const found = codes.filter(code => officialCodes.has(code));
 const missing = codes.filter(code => !officialCodes.has(code));
+const topicMappings = (mappingData.mappings ?? []).map(mapping => {
+  const topic = topicById.get(mapping.topicId);
+  const candidateCodes = [...new Set([mapping.candidateCode, ...(mapping.candidateCodes ?? [])].filter(Boolean))];
+  return {
+    topicId: mapping.topicId,
+    topicName: topic?.name ?? "(学習項目名なし)",
+    subject: topic?.subject ?? "(教科不明)",
+    grades: topic?.grades ?? [],
+    description: topic?.description ?? "",
+    matchStatus: mapping.matchStatus ?? "unknown",
+    matchType: mapping.matchType ?? "unknown",
+    candidateCode: mapping.candidateCode ?? null,
+    candidateCodes: mapping.candidateCodes ?? [],
+    verifiedCode: mapping.verifiedCode ?? null,
+    officialCodes: mapping.officialCodes ?? [],
+    note: mapping.note ?? "",
+    candidateChecks: candidateCodes.map(code => {
+      const record = officialRecords.get(code) ?? null;
+      const expectedSubject = topic?.subject ?? null;
+      const officialSubject = record?.["教科等"] ?? null;
+      const gradeMarker = code[5];
+      const codeGrades = expectedSubject === "国語"
+        ? ({ A: [1, 2], C: [3, 4], D: [5, 6] }[gradeMarker] ?? [])
+        : (["社会", "算数", "理科"].includes(expectedSubject) && /^[1-6]$/.test(gradeMarker) ? [Number(gradeMarker)] : []);
+      const gradeMatch = codeGrades.length === 0 || codeGrades.some(grade => (topic?.grades ?? []).includes(grade));
+      const prefix = code.replace(/0+$/, "");
+      const text = record?.["学習指導要領テキスト"] ?? "";
+      const level = /^[Ａ-ＤA-D][　 ]/.test(text)
+        ? "領域見出し"
+        : /^\\([1-9]\\)/.test(text) || /^[（(][1-9][）)]/.test(text)
+          ? "内容区分見出し"
+          : "項目";
+      return {
+        code,
+        existsInOfficialCsv: officialCodes.has(code),
+        officialSubject,
+        subjectMatch: !record || !officialSubject || !expectedSubject || officialSubject === expectedSubject,
+        codeGrades,
+        gradeMatch,
+        mappingLevel: level,
+        officialText: text,
+        relatedPrefix: prefix,
+        relatedOfficialRecordCount: [...officialRecords.keys()].filter(other => other !== code && other.startsWith(prefix)).length
+      };
+    })
+  };
+});
 const report = {
   officialVersion: "82V12",
   sourceUrl: url,
@@ -72,8 +119,35 @@ const report = {
   missingCount: missing.length,
   exactMatchCodes: found,
   missingCodes: missing,
+  subjectGradeChecks: {
+    checkedAssociations: topicMappings.reduce((sum, item) => sum + item.candidateChecks.length, 0),
+    subjectMismatchCount: topicMappings.reduce((sum, item) => sum + item.candidateChecks.filter(check => !check.subjectMatch).length, 0),
+    gradeMismatchCount: topicMappings.reduce((sum, item) => sum + item.candidateChecks.filter(check => !check.gradeMatch).length, 0)
+  },
   semanticReviewRequired: true,
-  codes: codes.map(code => ({ code, existsInOfficialCsv: officialCodes.has(code), officialRecord: officialRecords.get(code) ?? null, topics: codeToTopics.get(code) }))
+  topicMappings,
+  codes: codes.map(code => {
+    const officialRecord = officialRecords.get(code) ?? null;
+    const prefix = code.replace(/0+$/, "");
+    const relatedOfficialRecords = [...officialRecords.entries()]
+      .filter(([other]) => other !== code && other.startsWith(prefix))
+      .map(([relatedCode, record]) => ({
+        code: relatedCode,
+        subject: record["教科等"] ?? "",
+        no: record["No"] ?? "",
+        text: record["学習指導要領テキスト"] ?? ""
+      }))
+      .sort((a, b) => Number(a.no || 0) - Number(b.no || 0) || a.code.localeCompare(b.code));
+    return {
+      code,
+      existsInOfficialCsv: officialCodes.has(code),
+      officialRecord,
+      subtreePrefix: prefix,
+      relatedOfficialRecordCount: relatedOfficialRecords.length,
+      relatedOfficialRecords,
+      topics: codeToTopics.get(code)
+    };
+  })
 };
 fs.mkdirSync("reports", { recursive: true });
 fs.writeFileSync("reports/official-code-audit.json", JSON.stringify(report, null, 2) + "\n");
@@ -88,7 +162,11 @@ const lines = [
   `- 公式CSVに完全一致：${report.exactMatches}`,
   `- 公式CSVに見つからない：${report.missingCount}`,
   "",
-  "> 注意：存在一致はコードの実在確認にすぎません。学習項目との意味的な対応は、教科・学年・内容を見て別途確認してください。",
+  `- コード候補と学習項目の関連付け：${report.subjectGradeChecks.checkedAssociations}件`,
+  `- 教科不一致：${report.subjectGradeChecks.subjectMismatchCount}件`,
+  `- 学年不一致：${report.subjectGradeChecks.gradeMismatchCount}件`,
+  "",
+  "> 注意：存在一致と教科・学年一致は機械検査です。候補コードが領域見出し・内容区分見出しの場合、学習項目との直接一致を意味しません。各候補の下位コード・公式本文を確認してください。",
   "",
   "## コードごとの照合結果",
   ""
@@ -96,6 +174,8 @@ const lines = [
 for (const item of report.codes) {
   lines.push(`### ${item.existsInOfficialCsv ? "一致" : "要確認"}：${item.code}`);
   if (item.officialRecord) lines.push(`- 公式表の項目：${Object.entries(item.officialRecord).filter(([key]) => !key.includes("コード")).map(([key, value]) => `${key}=${value}`).join(" / ")}`);
+  lines.push(`- 下位・関連コード候補：${item.relatedOfficialRecordCount}件（接頭部 ${item.subtreePrefix}）`);
+  for (const related of item.relatedOfficialRecords) lines.push(`  - ${related.code} / No.${related.no} / ${related.text}`);
   for (const topic of item.topics) lines.push(`- ${topic.subject}・${topic.grades.join("・")}年：${topic.name}（${topic.topicId}）`);
   lines.push("");
 }
@@ -104,5 +184,7 @@ console.log(`公式コード表: 82V12 / CSV行数: ${report.csvDataRows}`);
 console.log(`候補コード（重複除外）: ${report.uniqueCandidateCodeCount}`);
 console.log(`公式CSVに完全一致: ${report.exactMatches}`);
 console.log(`公式CSVに見つからない: ${report.missingCount}`);
+console.log(`教科不一致: ${report.subjectGradeChecks.subjectMismatchCount}`);
+console.log(`学年不一致: ${report.subjectGradeChecks.gradeMismatchCount}`);
 console.log("詳細レポート: reports/official-code-audit.md と reports/official-code-audit.json");
 console.log("注意: コードの存在一致だけでは、学習項目との意味的な対応が確定したことにはなりません。");
