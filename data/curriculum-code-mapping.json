@@ -1634,7 +1634,7 @@
     {
       "topicId": "jp.elem.social.community-predecessors",
       "matchStatus": "candidate",
-      "candidateCode": "8220242400000000",
+      "candidateCode": "8220243400000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
       "note": "第4学年内容(4)の親項目コード候補。LODの出典版は82V11で、82V12コードとしては未確定。 82V12公式CSV/Excelとの最終照合前の候補。verifiedCodeには登録しない。"
@@ -1674,7 +1674,7 @@
     {
       "topicId": "jp.elem.social.disaster-prevention",
       "matchStatus": "candidate",
-      "candidateCode": "8220242300000000",
+      "candidateCode": "8220243300000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
       "note": "第4学年内容(3)の親項目コード候補。LODの出典版は82V11で、82V12コードとしては未確定。 82V12公式CSV/Excelとの最終照合前の候補。verifiedCodeには登録しない。"
@@ -1714,7 +1714,7 @@
     {
       "topicId": "jp.elem.social.firefighting",
       "matchStatus": "candidate",
-      "candidateCode": "8220232300000000",
+      "candidateCode": "8220233300000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
       "note": "第3学年内容(3)「地域の安全を守る働き」の親項目コード候補。消防への細分化はプロジェクト独自。LOD出典版82V11。 82V12公式CSV/Excelとの最終照合前の候補。verifiedCodeには登録しない。"
@@ -1794,7 +1794,7 @@
     {
       "topicId": "jp.elem.social.local-area",
       "matchStatus": "candidate",
-      "candidateCode": "8220232100000000",
+      "candidateCode": "8220233100000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
       "note": "第3学年内容(1)の親項目コード候補。LODの出典版は82V11で、82V12コードとしては未確定。 82V12公式CSV/Excelとの最終照合前の候補。verifiedCodeには登録しない。"
@@ -1842,7 +1842,7 @@
     {
       "topicId": "jp.elem.social.municipality-change",
       "matchStatus": "candidate",
-      "candidateCode": "8220232400000000",
+      "candidateCode": "8220233400000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
       "note": "第3学年内容(4)の親項目コード候補。LODの出典版は82V11で、82V12コードとしては未確定。 82V12公式CSV/Excelとの最終照合前の候補。verifiedCodeには登録しない。"
@@ -1850,7 +1850,7 @@
     {
       "topicId": "jp.elem.social.municipality-work",
       "matchStatus": "candidate",
-      "candidateCode": "8220232200000000",
+      "candidateCode": "8220233200000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
       "note": "第3学年内容(2)の親項目コード候補。LODの出典版は82V11で、82V12コードとしては未確定。 82V12公式CSV/Excelとの最終照合前の候補。verifiedCodeには登録しない。"
@@ -1874,7 +1874,7 @@
     {
       "topicId": "jp.elem.social.police-safety",
       "matchStatus": "candidate",
-      "candidateCode": "8220232300000000",
+      "candidateCode": "8220233300000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
       "note": "第3学年内容(3)「地域の安全を守る働き」の親項目コード候補。事故・防犯への細分化はプロジェクト独自。LOD出典版82V11。 82V12公式CSV/Excelとの最終照合前の候補。verifiedCodeには登録しない。"
@@ -1890,7 +1890,7 @@
     {
       "topicId": "jp.elem.social.prefecture-culture",
       "matchStatus": "candidate",
-      "candidateCode": "8220242400000000",
+      "candidateCode": "8220243400000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
       "note": "第4学年内容(4)の親項目コード候補。文化・年中行事への細分化は独自。LOD出典版82V11。 82V12公式CSV/Excelとの最終照合前の候補。verifiedCodeには登録しない。"
@@ -1898,7 +1898,7 @@
     {
       "topicId": "jp.elem.social.prefecture-industry",
       "matchStatus": "candidate",
-      "candidateCode": "8220242500000000",
+      "candidateCode": "8220243500000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
       "note": "第4学年内容(5)の親項目コード候補。LODの出典版は82V11で、82V12コードとしては未確定。 82V12公式CSV/Excelとの最終照合前の候補。verifiedCodeには登録しない。"
@@ -1906,7 +1906,7 @@
     {
       "topicId": "jp.elem.social.prefecture-land",
       "matchStatus": "candidate",
-      "candidateCode": "8220242100000000",
+      "candidateCode": "8220243100000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
       "note": "第4学年内容(1)の親項目コード候補。LODの出典版は82V11で、82V12コードとしては未確定。 82V12公式CSV/Excelとの最終照合前の候補。verifiedCodeには登録しない。"
@@ -1954,7 +1954,7 @@
     {
       "topicId": "jp.elem.social.waste-management",
       "matchStatus": "candidate",
-      "candidateCode": "8220242200000000",
+      "candidateCode": "8220243200000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
       "note": "第4学年内容(2)「人々の健康や生活環境を支える事業」の親項目コード候補。廃棄物処理への細分化は独自。LOD出典版82V11。 82V12公式CSV/Excelとの最終照合前の候補。verifiedCodeには登録しない。"
@@ -1962,7 +1962,7 @@
     {
       "topicId": "jp.elem.social.water-supply",
       "matchStatus": "candidate",
-      "candidateCode": "8220242200000000",
+      "candidateCode": "8220243200000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
       "note": "第4学年内容(2)「人々の健康や生活環境を支える事業」の親項目コード候補。供給事業への細分化は独自。LOD出典版82V11。 82V12公式CSV/Excelとの最終照合前の候補。verifiedCodeには登録しない。"
