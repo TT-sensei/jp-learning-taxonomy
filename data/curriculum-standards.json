@@ -30,7 +30,10 @@
       "version": "82V12",
       "publishedDate": "2022-03-14",
       "sourceType": "official-code-table",
-      "usageNote": "公式コードの照合元。コード表のデータを確認してから各学習項目との対応を登録する。現時点で個別コードの照合は未完了。"
+      "usageNote": "公式CSV・Excelを候補コードの照合元として使用する。コードが公式表に存在することと、個々のプロジェクト項目に意味的に対応することを区別する。",
+      "officialCsvUrl": "https://www.mext.go.jp/content/20230901-mxt_syoto01-000010374_27.csv",
+      "officialExcelUrl": "https://www.mext.go.jp/content/20230901-mxt_syoto01-000010374_28.xlsx",
+      "versionNote": "文部科学省公式の小学校学習指導要領コード表82V12（バージョン1.2、2022-03-14公表）。個別コードの存在確認は自動監査で行い、学習項目との意味的な対応は別途レビューする。"
     },
     {
       "id": "keirinkan-math-sequence-support",
