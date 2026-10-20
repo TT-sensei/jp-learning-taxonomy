@@ -144,6 +144,17 @@
       "usageNote": "改訂動向の監視に用いる。現在の学習項目の公式対応、学年配当、コードを確定する根拠としては使わず、正式な告示後に差分確認する。",
       "publicCommentPeriod": "2026-10-06/2026-11-05",
       "reviewStatus": "needs-review"
+    },
+    {
+      "id": "jp-cos-elementary-curriculum-lod-82v11",
+      "title": "学習指導要領LOD：小学校学習指導要領（平成29年告示）版",
+      "publisher": "学習指導要領LOD",
+      "url": "https://jp-cos.github.io/Elementary/2017/社会",
+      "version": "82V11（LOD掲載の小学校コード出典版）",
+      "sourceType": "secondary-structured-reference",
+      "versionNote": "文部科学省の公式82V12そのものではなく、LOD上で確認できた82V11由来の構造化データ。公式コード候補の探索にのみ使用し、82V12との最終照合前にverifiedCodeへ移さない。",
+      "usageNote": "社会科の内容項目とコード候補の探索に使用。候補コードは親項目レベルを含み、各プロジェクト項目との一対一対応を保証しない。",
+      "reviewStatus": "needs-review"
     }
   ],
   "standards": [
