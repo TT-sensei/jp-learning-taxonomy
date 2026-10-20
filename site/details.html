@@ -42,20 +42,22 @@
   <main>
     <section id="controls-anchor" class="controls" aria-label="学習内容を選ぶ">
       <div class="controls-title"><span><ruby>見<rt>み</rt></ruby>たい<ruby>学<rt>まな</rt></ruby>びをさがそう</span><p><ruby>教科<rt>きょうか</rt></ruby>・<ruby>学年<rt>がくねん</rt></ruby>・<ruby>言葉<rt>ことば</rt></ruby>から<ruby>選<rt>えら</rt></ruby>べます</p></div>
-      <label for="subject"><ruby>教科<rt>きょうか</rt></ruby></label>
-      <select id="subject"><option value="">読み込み中</option></select>
-      <label for="grade"><ruby>学年<rt>がくねん</rt></ruby></label>
-      <select id="grade">
-        <option value="">全学年</option>
-        <option value="1">1年生</option><option value="2">2年生</option>
-        <option value="3">3年生</option><option value="4">4年生</option>
-        <option value="5">5年生</option><option value="6">6年生</option>
-      </select>
-      <label for="domain"><ruby>学習内容<rt>がくしゅうないよう</rt></ruby>のまとまり</label>
-      <select id="domain"><option value="">すべて</option></select>
-      <label for="query"><ruby>言葉<rt>ことば</rt></ruby>でさがす</label>
-      <input id="query" type="search" placeholder="例：分数、面積、地域">
-      <p class="hint"><ruby>項目<rt>こうもく</rt></ruby>を<ruby>選<rt>えら</rt></ruby>ぶと、<ruby>前<rt>まえ</rt></ruby>に<ruby>習<rt>なら</rt></ruby>ったことや、この<ruby>先<rt>さき</rt></ruby>につながる<ruby>学<rt>まな</rt></ruby>びが<ruby>見<rt>み</rt></ruby>られます。<span class="color-key"><i class="key-before"></i><ruby>先<rt>さき</rt></ruby>に<ruby>学<rt>まな</rt></ruby>ぶ <i class="key-related"></i><ruby>関係<rt>かんけい</rt></ruby>する <i class="key-next"></i><ruby>使<rt>つか</rt></ruby>う・<ruby>広<rt>ひろ</rt></ruby>げる</span></p>
+      <div class="filter-grid">
+        <label for="subject"><ruby>教科<rt>きょうか</rt></ruby></label>
+        <select id="subject"><option value="">読み込み中</option></select>
+        <label for="grade"><ruby>学年<rt>がくねん</rt></ruby></label>
+        <select id="grade">
+          <option value="">全学年</option>
+          <option value="1">1年生</option><option value="2">2年生</option>
+          <option value="3">3年生</option><option value="4">4年生</option>
+          <option value="5">5年生</option><option value="6">6年生</option>
+        </select>
+        <label for="domain"><ruby>学習内容<rt>がくしゅうないよう</rt></ruby>のまとまり</label>
+        <select id="domain"><option value="">すべて</option></select>
+        <label for="query"><ruby>言葉<rt>ことば</rt></ruby>でさがす</label>
+        <input id="query" type="search" placeholder="例：分数、面積、地域">
+        <p class="hint"><ruby>項目<rt>こうもく</rt></ruby>を<ruby>選<rt>えら</rt></ruby>ぶと、<ruby>前<rt>まえ</rt></ruby>に<ruby>習<rt>なら</rt></ruby>ったことや、この<ruby>先<rt>さき</rt></ruby>につながる<ruby>学<rt>まな</rt></ruby>びが<ruby>見<rt>み</rt></ruby>られます。<span class="color-key"><i class="key-before"></i><ruby>先<rt>さき</rt></ruby>に<ruby>学<rt>まな</rt></ruby>ぶ <i class="key-related"></i><ruby>関係<rt>かんけい</rt></ruby>する <i class="key-next"></i><ruby>使<rt>つか</rt></ruby>う・<ruby>広<rt>ひろ</rt></ruby>げる</span></p>
+      </div>
     </section>
     <section class="browse" aria-label="学びの項目">
       <div class="browse-heading"><div><h2><ruby>学<rt>まな</rt></ruby>びを<ruby>見<rt>み</rt></ruby>てみよう</h2><p><ruby>気<rt>き</rt></ruby>になる<ruby>項目<rt>こうもく</rt></ruby>を<ruby>選<rt>えら</rt></ruby>ぶと、つながりが<ruby>分<rt>わ</rt></ruby>かります。</p></div><span id="count" class="count" aria-live="polite">読み込み中…</span></div>
@@ -67,7 +69,8 @@
   </main>
   <footer>
     <p><ruby>学<rt>まな</rt></ruby>びのつながりは、<ruby>見直<rt>みなお</rt></ruby>しながら<ruby>作<rt>つく</rt></ruby>っています。<ruby>学<rt>まな</rt></ruby>ぶ<ruby>順番<rt>じゅんばん</rt></ruby>は<ruby>学校<rt>がっこう</rt></ruby>や<ruby>教科書<rt>きょうかしょ</rt></ruby>によって<ruby>変<rt>か</rt></ruby>わることがあります。</p>
-    <p class="footer-links">ナビキャラ画像：<a href="https://github.com/TT-sensei/navi-character-/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">TT-sensei（CC BY-NC 4.0）</a></p>\n    <p class="footer-links">先生・保護者向け：<a href="./representations.html">算数の表し方マップ</a> · <a href="https://tt-sensei.github.io/edu-kit/">EDU KIT（先生向け）</a> · <a href="../README.md">この学習マップについて</a></p>
+    <p class="footer-links">ナビキャラ画像：<a href="https://github.com/TT-sensei/navi-character-/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">TT-sensei（CC BY-NC 4.0）</a></p>
+    <p class="footer-links">先生・保護者向け：<a href="./representations.html">算数の表し方マップ</a> · <a href="https://tt-sensei.github.io/edu-kit/">EDU KIT（先生向け）</a> · <a href="../README.md">この学習マップについて</a></p>
     <details class="furigana-tools">
       <summary>ふりがなの自動表示（試験中）</summary>
       <p>選択中の学習項目の読み方を自動で推定します。読み間違いがある場合もあるため、確認用の機能です。</p>
