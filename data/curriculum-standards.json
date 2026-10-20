@@ -149,7 +149,7 @@
       "id": "jp-cos-elementary-curriculum-lod-82v11",
       "title": "学習指導要領LOD：小学校学習指導要領（平成29年告示）版",
       "publisher": "学習指導要領LOD",
-      "url": "https://jp-cos.github.io/Elementary/2017/社会",
+      "url": "https://jp-cos.github.io/Dataset",
       "version": "82V11（LOD掲載の小学校コード出典版）",
       "sourceType": "secondary-structured-reference",
       "versionNote": "文部科学省の公式82V12そのものではなく、LOD上で確認できた82V11由来の構造化データ。公式コード候補の探索にのみ使用し、82V12との最終照合前にverifiedCodeへ移さない。",
