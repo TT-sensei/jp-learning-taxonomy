@@ -1973,6 +1973,13 @@
       "matchStatus": "not-checked",
       "matchType": "unconfirmed",
       "note": "公式コード表との照合待ち。第4学年の除法の筆算に関する項目候補。"
+    },
+    {
+      "topicId": "jp.elem.science.rainwater-land-surface",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "unconfirmed",
+      "note": "第4学年B(3)「雨水の行方と地面の様子」との内容対応候補。公式コード表82V12の実データ照合は未実施。"
     }
   ]
 }
