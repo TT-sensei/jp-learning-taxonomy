@@ -44,7 +44,7 @@ if (!officialCodes.size) throw new Error("公式コード列からコードを�
 
 const codeToTopics = new Map();
 for (const mapping of mappingData.mappings ?? []) {
-  const codes = new Set([mapping.candidateCode, ...(mapping.candidateCodes ?? []), mapping.verifiedCode, ...(mapping.verifiedCodes ?? []), ...(mapping.officialCodes ?? []), ...(mapping.relatedParentCodes ?? [])].filter(Boolean));
+  const codes = new Set([mapping.candidateCode, ...(mapping.candidateCodes ?? []), mapping.verifiedCode, ...(mapping.verifiedCodes ?? []), ...(mapping.officialCodes ?? []), ...(mapping.relatedParentCodes ?? []), ...(mapping.relatedOfficialCodes ?? [])].filter(Boolean));
   const topic = topicById.get(mapping.topicId);
   for (const code of codes) {
     if (!codeToTopics.has(code)) codeToTopics.set(code, []);
@@ -66,7 +66,7 @@ const found = codes.filter(code => officialCodes.has(code));
 const missing = codes.filter(code => !officialCodes.has(code));
 const topicMappings = (mappingData.mappings ?? []).map(mapping => {
   const topic = topicById.get(mapping.topicId);
-  const candidateCodes = [...new Set([mapping.candidateCode, ...(mapping.candidateCodes ?? [])].filter(Boolean))];
+  const allCodes = [...new Set([mapping.candidateCode, ...(mapping.candidateCodes ?? []), mapping.verifiedCode, ...(mapping.verifiedCodes ?? []), ...(mapping.officialCodes ?? []), ...(mapping.relatedParentCodes ?? []), ...(mapping.relatedOfficialCodes ?? [])].filter(Boolean))];
   return {
     topicId: mapping.topicId,
     topicName: topic?.name ?? "(学習項目名なし)",
@@ -101,7 +101,8 @@ const topicMappings = (mappingData.mappings ?? []).map(mapping => {
         referenceRoles: [
           ...([mapping.candidateCode, ...(mapping.candidateCodes ?? [])].includes(code) ? ["candidate"] : []),
           ...([mapping.verifiedCode, ...(mapping.verifiedCodes ?? []), ...(mapping.officialCodes ?? [])].includes(code) ? ["verified"] : []),
-          ...((mapping.relatedParentCodes ?? []).includes(code) ? ["related-parent"] : [])
+          ...((mapping.relatedParentCodes ?? []).includes(code) ? ["related-parent"] : []),
+          ...((mapping.relatedOfficialCodes ?? []).includes(code) ? ["related-official"] : [])
         ],
         existsInOfficialCsv: officialCodes.has(code),
         officialSubject,
