@@ -179,6 +179,21 @@ function topicGroup(topic) {
     for (const [label, fragments] of Object.entries(socialTopicGroups)) {
       if (fragments.some(fragment => topic.id.endsWith("." + fragment))) return label;
     }
+    const grade = Number(topic.gradePlacement?.candidateFirstIntroductionGrade) || Number(topic.grades?.[0]) || 0;
+    return ({3:"3年生：地域のくらし",4:"4年生：地域と都道府県",5:"5年生：国土・産業",6:"6年生：歴史・政治"})[grade] || "社会の学び";
+  }
+  if (topic.subject === "国語") {
+    const grade = Number(topic.gradePlacement?.candidateFirstIntroductionGrade) || Number(topic.grades?.[0]) || 1;
+    return grade <= 2 ? "1・2年生のまとまり" : grade <= 4 ? "3・4年生のまとまり" : "5・6年生のまとまり";
+  }
+  if (topic.subject === "理科") {
+    const source = [topic.domain, topic.cluster, topic.name, topic.studentName, topic.studentDescription].join(" ");
+    if (/生物|生命|植物|動物|人の体|成長/.test(source)) return "生命";
+    if (/地球|天気|天体|月|星|土地|地層|太陽|気温|季節/.test(source)) return "地球";
+    if (/物質|材料|状態変化|水のすがた|空気|金属|溶ける|溶解/.test(source)) return "粒子";
+    if (/エネルギー|電気|磁石|力|運動|光|音|熱/.test(source)) return "エネルギー";
+    if (/環境/.test(source)) return "環境と生き物";
+    return "調べ方・科学的な探究";
   }
   return domainLabel(topic.domain);
 }
@@ -238,9 +253,10 @@ function renderDomainOptions() {
   fillSelect("#domain", relevant, "すべてのまとまり");
   if ([...$("#domain").options].some(o=>o.value===previous)) $("#domain").value=previous;
 }
-function renderFilters() {
+function renderFilters(fixedSubject = "") {
   fillSelect("#subject", state.topics.map(t=>t.subject), "すべての教科");
-  $("#subject").value = "";
+  $("#subject").value = fixedSubject && [...$("#subject").options].some(option => option.value === fixedSubject) ? fixedSubject : "";
+  $("#subject").disabled = Boolean($("#subject").value);
   renderDomainOptions();
 }
 function relationCandidates(topic, group) {
@@ -525,11 +541,11 @@ async function init() {
     state.topics=(topics.topics||[]).filter(topic=>topic.topicLifecycle!=="superseded");
     state.dependencies=dependencies.dependencies||[];
     state.standards=standards;
-    renderFilters();
+    const fixedSubject = new URLSearchParams(window.location.search).get("subject") || "";\n    renderFilters(fixedSubject);
     bindSelfStudyGuide();
     renderSelfStudyGuide();
     renderList();
-    // 学びの道すじページから来た場合は、指定された詳しい項目を開く。
+    // 教科専用ページでは、選んだ教科だけを表示する。\n    if (fixedSubject && $("#subject").value) {\n      document.body.dataset.fixedSubject = fixedSubject;\n      const pageTitles = { "国語":"国語の学びマップ", "社会":"社会の学びマップ", "理科":"理科の学びマップ" };\n      if (pageTitles[fixedSubject]) { document.title = pageTitles[fixedSubject]; const h1 = document.querySelector(".top h1"); if (h1) h1.textContent = pageTitles[fixedSubject]; }\n    }\n    // 学びの道すじページから来た場合は、指定された詳しい項目を開く。
     const linkedTopicId = new URLSearchParams(window.location.search).get("topic");
     const linkedTopic = linkedTopicId ? state.topics.find(topic => topic.id === linkedTopicId) : null;
     if (linkedTopic) {
