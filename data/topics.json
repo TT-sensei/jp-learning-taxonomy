@@ -8875,7 +8875,7 @@
     {
       "id": "jp.elem.science.earth-disasters",
       "subject": "理科",
-      "domain": "B 生命・地球",
+      "domain": "横断的な見方・関連概念",
       "cluster": "地球・天気・天体・土地",
       "name": "自然災害と土地・気象（横断的な見方）",
       "description": "大雨による増水、台風や降雨、地震や火山噴火による土地の変化などを、該当する理科の学習と関連付けて考える横断的な整理項目。自然災害全般を独立した公式の理科内容項目としたり、社会科で扱う防災行政や地域の備えと混同したりしない。",
@@ -8908,7 +8908,7 @@
       "conceptualPillarCandidates": [
         "地球"
       ],
-      "officialAreaCandidate": "B 生命・地球",
+      "officialAreaCandidate": "横断概念（独立した公式内容項目ではない）",
       "studentName": "土地や天気の学びを自然災害とつなげよう",
       "studentDescription": "大雨・台風・地震・火山などと土地や天気の変化を、学んだこととつなげて考えよう。地域の備えや行政の働きは社会科の学びとも区別して考えよう。"
     },
@@ -8950,7 +8950,7 @@
     {
       "id": "jp.elem.science.water-cycle",
       "subject": "理科",
-      "domain": "B 生命・地球",
+      "domain": "横断的な見方・関連概念",
       "cluster": "地球・天気・天体・土地",
       "name": "自然界の水の循環（横断的な見方）",
       "description": "蒸発・雲・降水など自然界の水の状態や行方を、天気の学習や生物と環境の学習に結び付けて捉える横断的な整理項目。単独の学年別公式内容項目として扱わない。",
@@ -8983,7 +8983,7 @@
       "conceptualPillarCandidates": [
         "地球"
       ],
-      "officialAreaCandidate": "B 生命・地球",
+      "officialAreaCandidate": "横断概念（独立した公式内容項目ではない）",
       "studentName": "自然の中で水はどうめぐる？",
       "studentDescription": "水の状態や動きを、天気や生き物と環境の学びにつなげて考えよう。"
     },
