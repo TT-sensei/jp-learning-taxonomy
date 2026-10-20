@@ -541,7 +541,7 @@ async function init() {
     state.topics=(topics.topics||[]).filter(topic=>topic.topicLifecycle!=="superseded");
     state.dependencies=dependencies.dependencies||[];
     state.standards=standards;
-    const fixedSubject = new URLSearchParams(window.location.search).get("subject") || "";\n    renderFilters(fixedSubject);
+    const pageSubject = ({ "japanese.html":"国語", "social.html":"社会", "science.html":"理科" })[window.location.pathname.split("/").pop()] || "";\n    const fixedSubject = new URLSearchParams(window.location.search).get("subject") || pageSubject;\n    renderFilters(fixedSubject);
     bindSelfStudyGuide();
     renderSelfStudyGuide();
     renderList();
