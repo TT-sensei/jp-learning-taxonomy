@@ -9,7 +9,7 @@ node scripts/validate.mjs
 node scripts/check-official-curriculum-codes.mjs
 ```
 
-GitHub Actions の「Validate learning data」でも、push・pull request・手動実行時に同じ検査を行います。
+GitHub Actions の「Validate learning data」でも、push・pull request・手動実行時に同じ検査を行います。実行できた場合は、詳細レポート `official-code-audit-report` を Actions の Artifacts から取得できます。レポートにはコードごとの一致判定と関連する学習項目が含まれます。
 
 ## 結果の読み方
 
