@@ -1312,16 +1312,6 @@
       "studentRationale": "都道府県ごとの地形や気候を比べると、日本全体の特徴も考えやすいよ。"
     },
     {
-      "id": "grade-link-136",
-      "from": "jp.elem.social.natural-environment-life",
-      "to": "jp.elem.social.environment-protection",
-      "type": "related-learning",
-      "rationale": "自然環境と暮らしの関係を踏まえ、環境を守るための社会的な取組を考える。",
-      "evidenceType": "editorial",
-      "reviewStatus": "needs-review",
-      "studentRationale": "自然環境とくらしの関係を考えることは、環境を守る取組を考えるときに役立つよ。"
-    },
-    {
       "id": "grade-link-137",
       "from": "jp.elem.social.forestry",
       "to": "jp.elem.social.environment-protection",
@@ -1360,16 +1350,6 @@
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
       "studentRationale": "国の政治のしくみを学ぶと、地方公共団体と住民の関係も比べて考えられるよ。"
-    },
-    {
-      "id": "grade-link-141",
-      "from": "jp.elem.social.postwar-japan",
-      "to": "jp.elem.social.international-relations",
-      "type": "related-learning",
-      "rationale": "戦後の日本と国際社会の関わりを、現在の国際協力の役割へつなげて考える。",
-      "evidenceType": "editorial",
-      "reviewStatus": "needs-review",
-      "studentRationale": "戦後の日本と世界の関わりを知り、今の国際協力の役割について考えよう。"
     },
     {
       "id": "grade-link-039",
