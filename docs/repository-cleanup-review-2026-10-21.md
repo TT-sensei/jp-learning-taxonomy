@@ -57,7 +57,7 @@ README が長くなり、同じ話題が何度も現れるうえ、過去の作�
 - `docs/social-studies-audit-2026-10-20.md` を削除した。社会科の初期監査メモで、後続の `docs/social-taxonomy-review-2026-10-20.md` と `docs/social-studies-relationship-review.md` に、内容照合・学年修正・関係重複整理の情報がより詳しく記録されているため。
 - `data/resources.json` は空配列だが、現在の `scripts/validate.mjs` が必須ファイルとして読み込み、参照整合性も検査しているため削除しない。
 - `docs/curriculum-code-table-check-2026-10-20.md` は古い記録を含むが、82V11と82V12の違い・修正コードの注意点などの履歴があるため、現時点では削除しない。
-- `data/grade-placement-review-math-a.json`、`data/topic-split-migration-math-a.json`、`data/topic-split-proposals-math-a.json` は移行・分割案のため、依存関係を完全に確認するまでは残す。
+- `data/grade-placement-review-math-a.json` は学年配当の根拠を残すため維持する。`data/topic-split-migration-math-a.json` は親子ID・関係移行・分割理由を集約した現行の移行記録として維持する。重複していた `data/topic-split-proposals-math-a.json` は、分割理由を移行記録へ移したうえで削除する。
 
 ## 削除後の確認
 
@@ -69,12 +69,12 @@ README が長くなり、同じ話題が何度も現れるうえ、過去の作�
 - `data/manifest.json` にも、日時付き履歴と現在のコード照合状況を混同しないための注記を追加した。
 - 共通データと manifest の件数を再計算して比較した。学習項目276、現行項目271、旧項目5、関係179、出典15、領域参照6、表現モデル10、resources 0で、総件数・教科別件数・学年別件数は一致している。
 - コード対応表276行の状態は、本文との対応確認済み27、候補218、直接対応なし31、未確認0。社会科44項目は確認済み27・候補7・直接対応なし10。これらはコード対応の状態であり、全教科の学習内容レビュー完了を意味しない。
-- 数学の分割・移行提案ファイルは、コード検索で参照の有無を確実に判断できなかったため削除していない。検索結果が空であることだけを根拠に削除せず、次回はサイト・スクリプトからの参照を直接確認する。
+- 数学の分割提案JSONは、現行 `topics.json` に13件の子項目、`dependencies.json` に移行済みの関係が存在することを確認した。分割理由を `data/topic-split-migration-math-a.json` に集約し、古い「まだ未反映」とする記述を `docs/math-coverage-review.md` で訂正した。
 
 ## 次に行う作業
 
 1. Markdown 内部リンクとサイト内の JSON 参照を全ファイル横断で検査し、切れた参照を修正する。
-2. 数学の分割提案3ファイルは、共通データへの反映と設計上の価値を確認してから整理する。
+2. 数学の分割提案ファイルは、子項目・関係の反映と理由の保存を確認してから整理する。
 3. 現行 `data/topics.json` と教科別レビュー記録を照合し、確認できた内容上の誤りだけを修正する。
 4. `scripts/validate.mjs` と `scripts/check-official-curriculum-codes.mjs` の実行結果を確認する。実行結果を確認するまでは、検証が通ったとは扱わない。
 
@@ -83,7 +83,7 @@ README が長くなり、同じ話題が何度も現れるうえ、過去の作�
 - GitHub 上の最新 JSON を直接読み、項目 ID の重複、学習関係の参照先、公式領域・出典・教材リソース参照、表現モデルの項目参照、コード対応表の項目参照、前提関係と `prerequisiteIds` の一致、manifest の主要件数を独立に再計算した。今回確認した範囲では不一致・未解決参照は0件。
 - `data/math-learning-map.json` の学習項目 ID 参照50件はすべて存在した。`data/learning-pathways.json` も項目 ID の参照先を確認した。文章中に含まれる ID 文字列を機械的に ID 参照と誤認しないよう、実際の配列値を確認した。
 - `docs/math-coverage-review.md` に、本文が2026-10-18時点の記録であり、分割案の一部はその後共通データに反映済みであることを追記した。
-- 数学の分割提案・移行設計・学年配当レビューは、移行理由・親子 ID・学年照合根拠を保持しているため、不要ファイルとは判断せず残した。
+- 数学の移行記録には、親子ID、分割理由、既存関係6件の移行結果、新規関係8件の登録状況を集約した。学年配当レビューも根拠記録として維持し、重複する分割提案JSONのみ整理した。
 - この環境では GitHub からリポジトリを clone できず、`node scripts/validate.mjs` と公式CSV照合スクリプトを実行したとは言えない。GitHub Actions の push 実行結果も、この接続からは取得できていない。したがって、上記は取得した JSON に対する独立点検結果であり、ワークフロー全体の成功判定ではない。
 
 ## 未完了
