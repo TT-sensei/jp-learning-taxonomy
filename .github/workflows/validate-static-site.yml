@@ -23,6 +23,8 @@ jobs:
         run: |
           node --check site/app.js
           node --check site/representations.js
+      - name: Check local Markdown and static-site references
+        run: node scripts/check-internal-links.mjs
       - name: Validate learning data
         run: node scripts/validate.mjs
       - name: Check local furigana assets and license notices
