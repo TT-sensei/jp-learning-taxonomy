@@ -217,3 +217,34 @@ button:focus-visible{outline:3px solid #243f52!important;outline-offset:3px!impo
 
 /* Entry link to the simplified learning pathways view */
 .main-pathway-link{max-width:1120px;margin:0 auto;padding:0 22px;color:#4c5c68;font-size:.9rem}.main-pathway-link p{margin:10px 0 14px}.main-pathway-link a{color:#235b7a;text-underline-offset:3px;font-weight:650}@media(max-width:760px){.main-pathway-link{padding:0 14px}}
+
+
+/* Tablet-first layout: filters stay together, results get the available width. */
+@media (max-width: 1024px) {
+  .self-study-guide { margin-left: 14px; margin-right: 14px; }
+  main { grid-template-columns: minmax(0, 1fr); gap: 14px; padding: 16px; }
+  .controls, .browse, .detail { grid-column: 1; width: 100%; position: static; max-height: none; }
+  .controls { padding: 16px; }
+  .filter-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 7px 14px; align-items: center; }
+  .filter-grid label { margin: 0; align-self: end; }
+  .filter-grid select, .filter-grid input { min-width: 0; }
+  .filter-grid .hint { grid-column: 1 / -1; margin-top: 4px; }
+  .controls-title { margin-bottom: 10px; }
+  .items { grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; }
+  .detail { scroll-margin-top: 12px; }
+}
+@media (max-width: 700px) {
+  main { padding: 10px; gap: 10px; }
+  .filter-grid { grid-template-columns: minmax(0, 1fr); gap: 5px; }
+  .filter-grid label { margin-top: 6px; }
+  .filter-grid .hint { grid-column: 1; }
+  .items { grid-template-columns: minmax(0, 1fr); }
+  .controls-title { padding-bottom: 9px; }
+  .controls-title span { font-size: 1.02rem; }
+  .topic-card { min-height: 64px; }
+  .detail { overflow: visible; }
+}
+@media (min-width: 701px) and (max-width: 1024px) {
+  .detail { padding: 18px; }
+  .topic-card { min-height: 70px; }
+}
