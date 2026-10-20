@@ -1780,6 +1780,16 @@
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
       "studentRationale": "数の位や大きさが分かると、わり算の筆算で商を考えやすくなるよ。"
+    },
+    {
+      "id": "grade-link-142",
+      "from": "jp.elem.social.disaster-prevention",
+      "to": "jp.elem.social.national-disaster-prevention",
+      "type": "related-learning",
+      "rationale": "第4学年では地域の行政・関係機関・住民による備えを、第5学年では自然条件と国土保全に関わる対策を扱うため、地域から国土全体へ視野を広げる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "地域で災害に備える方法と、日本全体で自然災害から国土を守る取組はつながっているよ。"
     }
   ]
 }
