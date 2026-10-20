@@ -2,7 +2,7 @@
   "schemaVersion": "0.1.0",
   "subject": "社会",
   "status": "draft",
-  "updatedAt": "2026-10-18",
+  "updatedAt": "2026-10-20",
   "designPrinciples": [
     "公式の学年別内容を骨格とし、プロジェクト独自の細分化は別の項目として識別する。",
     "地理的な見方、歴史的な見方、政治・国際理解などの横断的な観点と、学年別内容を混同しない。",
@@ -66,8 +66,9 @@
         "jp.elem.social.local-area",
         "jp.elem.social.municipality-work",
         "jp.elem.social.municipality-change",
-        "jp.elem.social.community-predecessors",
-        "jp.elem.social.local-map"
+        "jp.elem.social.local-map",
+        "jp.elem.social.firefighting",
+        "jp.elem.social.police-safety"
       ]
     },
     {
@@ -79,12 +80,11 @@
       "topicIds": [
         "jp.elem.social.prefecture-land",
         "jp.elem.social.disaster-prevention",
-        "jp.elem.social.firefighting",
-        "jp.elem.social.police-safety",
         "jp.elem.social.water-supply",
         "jp.elem.social.waste-management",
         "jp.elem.social.prefecture-industry",
-        "jp.elem.social.prefecture-culture"
+        "jp.elem.social.prefecture-culture",
+        "jp.elem.social.community-predecessors"
       ]
     },
     {
@@ -104,7 +104,8 @@
         "jp.elem.social.information-industry",
         "jp.elem.social.transport-trade",
         "jp.elem.social.food-life",
-        "jp.elem.social.environment-protection"
+        "jp.elem.social.environment-protection",
+        "jp.elem.social.national-disaster-prevention"
       ]
     },
     {
@@ -162,7 +163,7 @@
     },
     {
       "id": "regional-life-safety",
-      "name": "地域の生活・安全・文化",
+      "name": "地域のくらし・安全・文化・先人",
       "topicIds": [
         "jp.elem.social.disaster-prevention",
         "jp.elem.social.firefighting",
@@ -170,7 +171,8 @@
         "jp.elem.social.water-supply",
         "jp.elem.social.waste-management",
         "jp.elem.social.prefecture-culture",
-        "jp.elem.social.prefecture-industry"
+        "jp.elem.social.prefecture-industry",
+        "jp.elem.social.community-predecessors"
       ]
     },
     {
@@ -180,7 +182,8 @@
         "jp.elem.social.prefecture-land",
         "jp.elem.social.japan-location",
         "jp.elem.social.japan-landforms-climate",
-        "jp.elem.social.natural-environment-life"
+        "jp.elem.social.natural-environment-life",
+        "jp.elem.social.national-disaster-prevention"
       ]
     },
     {
@@ -244,7 +247,7 @@
       "candidateGrades": [
         3
       ],
-      "gradePlacementStatus": "needs-review",
+      "gradePlacementStatus": "candidate",
       "topicType": "concept",
       "reviewStatus": "needs-review",
       "officialAreaCandidate": "第3学年の公式内容候補",
@@ -261,7 +264,7 @@
       "candidateGrades": [
         3
       ],
-      "gradePlacementStatus": "needs-review",
+      "gradePlacementStatus": "candidate",
       "topicType": "concept",
       "reviewStatus": "needs-review",
       "officialAreaCandidate": "第3学年の公式内容候補",
@@ -278,7 +281,7 @@
       "candidateGrades": [
         3
       ],
-      "gradePlacementStatus": "needs-review",
+      "gradePlacementStatus": "candidate",
       "topicType": "concept",
       "reviewStatus": "needs-review",
       "officialAreaCandidate": "第3学年の公式内容候補",
@@ -290,12 +293,12 @@
     {
       "id": "jp.elem.social.community-predecessors",
       "name": "地域の発展に尽くした先人",
-      "domain": "第3学年",
-      "description": "地域の暮らしや発展を支えた先人の働きや願いを、資料や聞き取りなどから捉える。",
+      "domain": "第4学年",
+      "description": "県内の暮らしや地域の発展に貢献した先人の具体的な働き・願い・苦心を、資料や聞き取りなどから捉える。",
       "candidateGrades": [
-        3
+        4
       ],
-      "gradePlacementStatus": "needs-review",
+      "gradePlacementStatus": "candidate",
       "topicType": "concept",
       "reviewStatus": "needs-review",
       "officialAreaCandidate": "第3学年の公式内容候補（内容(3)）",
@@ -312,7 +315,7 @@
       "candidateGrades": [
         3
       ],
-      "gradePlacementStatus": "needs-review",
+      "gradePlacementStatus": "candidate",
       "topicType": "concept",
       "reviewStatus": "needs-review",
       "officialAreaCandidate": "第3学年の公式内容候補",
@@ -323,13 +326,13 @@
     },
     {
       "id": "jp.elem.social.prefecture-land",
-      "name": "都道府県の位置と地形・気候",
+      "name": "都道府県の位置・地形と交通・主な産業",
       "domain": "第4学年",
-      "description": "都道府県の位置や地形、気候の特色を地図や資料から捉える。",
+      "description": "自分たちの都道府県の位置と47都道府県の名称・位置、県全体の地形や主な産業、交通網、主な都市の位置を地図や資料から捉える。",
       "candidateGrades": [
         4
       ],
-      "gradePlacementStatus": "needs-review",
+      "gradePlacementStatus": "candidate",
       "topicType": "concept",
       "reviewStatus": "needs-review",
       "officialAreaCandidate": "第4学年の公式内容候補",
@@ -346,7 +349,7 @@
       "candidateGrades": [
         4
       ],
-      "gradePlacementStatus": "needs-review",
+      "gradePlacementStatus": "candidate",
       "topicType": "concept",
       "reviewStatus": "needs-review",
       "officialAreaCandidate": "第4学年の公式内容候補",
@@ -358,12 +361,12 @@
     {
       "id": "jp.elem.social.firefighting",
       "name": "火災から地域を守る",
-      "domain": "第4学年",
+      "domain": "第3学年",
       "description": "消防の施設・人々の働きと、関係機関や地域住民の協力を捉える。",
       "candidateGrades": [
-        4
+        3
       ],
-      "gradePlacementStatus": "needs-review",
+      "gradePlacementStatus": "candidate",
       "topicType": "concept",
       "reviewStatus": "needs-review",
       "officialAreaCandidate": "第4学年の公式内容候補",
@@ -375,12 +378,12 @@
     {
       "id": "jp.elem.social.police-safety",
       "name": "事故や事件から地域を守る",
-      "domain": "第4学年",
+      "domain": "第3学年",
       "description": "警察などの関係機関の働きや、地域の安全を守る仕組みを調べる。",
       "candidateGrades": [
-        4
+        3
       ],
-      "gradePlacementStatus": "needs-review",
+      "gradePlacementStatus": "candidate",
       "topicType": "concept",
       "reviewStatus": "needs-review",
       "officialAreaCandidate": "第4学年の公式内容候補",
@@ -391,13 +394,13 @@
     },
     {
       "id": "jp.elem.social.water-supply",
-      "name": "飲料水を届ける仕組み",
+      "name": "飲料水・電気・ガスの供給",
       "domain": "第4学年",
-      "description": "水源から浄水・配水までの仕組みと、関係する人々の工夫を捉える。",
+      "description": "飲料水・電気・ガスを届ける事業について、供給の仕組みや経路、関係機関や県内外の人々の協力を調べ、地域の人々の健康な生活や生活環境を支える役割を捉える。学習指導要領の内容の取扱いでは、この三つから一つを選んで取り上げるため、すべてを各地域で個別に扱う必須項目とはしない。",
       "candidateGrades": [
         4
       ],
-      "gradePlacementStatus": "needs-review",
+      "gradePlacementStatus": "candidate",
       "topicType": "concept",
       "reviewStatus": "needs-review",
       "officialAreaCandidate": "第4学年の公式内容候補",
@@ -408,13 +411,13 @@
     },
     {
       "id": "jp.elem.social.waste-management",
-      "name": "ごみの処理と利用",
+      "name": "廃棄物の処理と再利用",
       "domain": "第4学年",
-      "description": "ごみの収集・処理・再利用の仕組みと、生活環境を守る工夫を調べる。",
+      "description": "ごみや下水などの廃棄物を安全・衛生的に処理する仕組み、再利用、関係機関や県内外の人々の協力を調べ、生活環境を支える役割を捉える。学習指導要領の内容の取扱いでは、ごみ・下水のいずれかを選んで取り上げるため、地域で選択される事例の違いを認める。",
       "candidateGrades": [
         4
       ],
-      "gradePlacementStatus": "needs-review",
+      "gradePlacementStatus": "candidate",
       "topicType": "concept",
       "reviewStatus": "needs-review",
       "officialAreaCandidate": "第4学年の公式内容候補",
@@ -425,13 +428,13 @@
     },
     {
       "id": "jp.elem.social.prefecture-industry",
-      "name": "都道府県の産業と特色",
+      "name": "県内の特色ある地域とまちづくり",
       "domain": "第4学年",
-      "description": "地域の産業や土地利用、交通との関係を資料から捉える。",
+      "description": "県内の特色ある地域を選び、地場産業や国際交流、自然・伝統文化などの地域資源の保護・活用、観光などの産業を通したまちづくりを調べる。地域の位置・自然環境・産業の歴史的背景や人々の協力関係から、その地域の特色を捉える。",
       "candidateGrades": [
         4
       ],
-      "gradePlacementStatus": "needs-review",
+      "gradePlacementStatus": "candidate",
       "topicType": "concept",
       "reviewStatus": "needs-review",
       "officialAreaCandidate": "第4学年の公式内容候補",
@@ -444,11 +447,11 @@
       "id": "jp.elem.social.prefecture-culture",
       "name": "地域に伝わる文化・年中行事",
       "domain": "第4学年",
-      "description": "地域の文化財や年中行事を調べ、地域の発展や人々の願いとの関係を捉える。",
+      "description": "県内に受け継がれてきた文化財や年中行事が、どのように守られ、伝えられてきたかを資料から捉える。文化や行事を受け継ぐ人々の願いや工夫に焦点を置き、特色ある地域の資源活用や観光との重複を抑える。",
       "candidateGrades": [
         4
       ],
-      "gradePlacementStatus": "needs-review",
+      "gradePlacementStatus": "candidate",
       "topicType": "concept",
       "reviewStatus": "needs-review",
       "officialAreaCandidate": "第4学年の公式内容候補",
@@ -461,11 +464,11 @@
       "id": "jp.elem.social.japan-location",
       "name": "日本の国土の位置と広がり",
       "domain": "第5学年",
-      "description": "世界の中での日本の位置、国土の構成、領土の範囲を地図や地球儀で捉える。",
+      "description": "世界の主な大陸・海洋や主な国の位置、日本の位置と領土・国土の構成を地図や地球儀から捉える。",
       "candidateGrades": [
         5
       ],
-      "gradePlacementStatus": "needs-review",
+      "gradePlacementStatus": "candidate",
       "topicType": "concept",
       "reviewStatus": "needs-review",
       "officialAreaCandidate": "第5学年の公式内容候補",
@@ -482,7 +485,7 @@
       "candidateGrades": [
         5
       ],
-      "gradePlacementStatus": "needs-review",
+      "gradePlacementStatus": "candidate",
       "topicType": "concept",
       "reviewStatus": "needs-review",
       "officialAreaCandidate": "第5学年の公式内容候補",
@@ -499,7 +502,7 @@
       "candidateGrades": [
         5
       ],
-      "gradePlacementStatus": "needs-review",
+      "gradePlacementStatus": "candidate",
       "topicType": "concept",
       "reviewStatus": "needs-review",
       "officialAreaCandidate": "第5学年の公式内容候補",
@@ -516,7 +519,7 @@
       "candidateGrades": [
         5
       ],
-      "gradePlacementStatus": "needs-review",
+      "gradePlacementStatus": "candidate",
       "topicType": "concept",
       "reviewStatus": "needs-review",
       "officialAreaCandidate": "第5学年の公式内容候補",
@@ -533,7 +536,7 @@
       "candidateGrades": [
         5
       ],
-      "gradePlacementStatus": "needs-review",
+      "gradePlacementStatus": "candidate",
       "topicType": "concept",
       "reviewStatus": "needs-review",
       "officialAreaCandidate": "第5学年の公式内容候補",
@@ -550,7 +553,7 @@
       "candidateGrades": [
         5
       ],
-      "gradePlacementStatus": "needs-review",
+      "gradePlacementStatus": "candidate",
       "topicType": "concept",
       "reviewStatus": "needs-review",
       "officialAreaCandidate": "第5学年の公式内容候補",
@@ -567,7 +570,7 @@
       "candidateGrades": [
         5
       ],
-      "gradePlacementStatus": "needs-review",
+      "gradePlacementStatus": "candidate",
       "topicType": "concept",
       "reviewStatus": "needs-review",
       "officialAreaCandidate": "第5学年の公式内容候補",
@@ -584,7 +587,7 @@
       "candidateGrades": [
         5
       ],
-      "gradePlacementStatus": "needs-review",
+      "gradePlacementStatus": "candidate",
       "topicType": "concept",
       "reviewStatus": "needs-review",
       "officialAreaCandidate": "第5学年の公式内容候補",
@@ -597,11 +600,11 @@
       "id": "jp.elem.social.transport-trade",
       "name": "交通網と物流",
       "domain": "第5学年",
-      "description": "交通網や物流が生産・販売・地域間のつながりを支える様子を捉える。",
+      "description": "交通網や物流が、地域間の人・原材料・製品の移動を支え、生産・販売や地域どうしのつながりを生み出す様子を捉える横断的な候補。工場内の生産工程や工業生産の工夫は「工業生産と貿易」を中心に扱い、重複を避ける。",
       "candidateGrades": [
         5
       ],
-      "gradePlacementStatus": "needs-review",
+      "gradePlacementStatus": "candidate",
       "topicType": "concept",
       "reviewStatus": "needs-review",
       "officialAreaCandidate": "第5学年の公式内容候補",
@@ -614,11 +617,11 @@
       "id": "jp.elem.social.food-life",
       "name": "食料生産とわたしたちの生活",
       "domain": "第5学年",
-      "description": "食料の生産・輸入・消費をつなげ、食生活と産業の関係を考える。",
+      "description": "食料の生産・輸入・流通・消費をつなげ、食生活と食料生産の関係を捉えるまとめ項目。農業や水産業など個別の生産方法・工夫は、それぞれの項目で詳しく扱う。",
       "candidateGrades": [
         5
       ],
-      "gradePlacementStatus": "needs-review",
+      "gradePlacementStatus": "candidate",
       "topicType": "concept",
       "reviewStatus": "needs-review",
       "officialAreaCandidate": "第5学年の公式内容候補",
@@ -635,7 +638,7 @@
       "candidateGrades": [
         5
       ],
-      "gradePlacementStatus": "needs-review",
+      "gradePlacementStatus": "candidate",
       "topicType": "concept",
       "reviewStatus": "needs-review",
       "officialAreaCandidate": "第5学年の公式内容候補",
@@ -648,11 +651,11 @@
       "id": "jp.elem.social.ancient-japan",
       "name": "日本の国の形成と古代の文化",
       "domain": "第6学年",
-      "description": "遺跡や史料を基に、国の形成や大陸との関係、古代文化を捉える。",
+      "description": "狩猟・採集から農耕、大和政権による国土統一、大陸文化の受容、大化の改新・大仏造営、貴族の生活や日本風の文化などを手掛かりに、国の形成と古代の政治・文化を捉える。",
       "candidateGrades": [
         6
       ],
-      "gradePlacementStatus": "needs-review",
+      "gradePlacementStatus": "candidate",
       "topicType": "concept",
       "reviewStatus": "needs-review",
       "officialAreaCandidate": "第6学年の公式内容候補",
@@ -665,11 +668,11 @@
       "id": "jp.elem.social.medieval-japan",
       "name": "武士の政治と社会の変化",
       "domain": "第6学年",
-      "description": "武士の登場から中世の政治・社会の変化を、主な人物や出来事を手掛かりに捉える。",
+      "description": "源平の戦い・鎌倉幕府の始まり・元との戦い、室町幕府のころの代表的な建物や絵画などを手掛かりに、武士の政治や社会の変化と室町文化を捉える。",
       "candidateGrades": [
         6
       ],
-      "gradePlacementStatus": "needs-review",
+      "gradePlacementStatus": "candidate",
       "topicType": "concept",
       "reviewStatus": "needs-review",
       "officialAreaCandidate": "第6学年の公式内容候補",
@@ -682,11 +685,11 @@
       "id": "jp.elem.social.unification",
       "name": "戦国の世の統一",
       "domain": "第6学年",
-      "description": "戦国時代から天下統一へ向かう動きを、人物の働きや社会の変化と関連付ける。",
+      "description": "キリスト教の伝来や織田信長・豊臣秀吉による天下統一を手掛かりに、戦国の世が統一されていく過程を捉える。",
       "candidateGrades": [
         6
       ],
-      "gradePlacementStatus": "needs-review",
+      "gradePlacementStatus": "candidate",
       "topicType": "concept",
       "reviewStatus": "needs-review",
       "officialAreaCandidate": "第6学年の公式内容候補",
@@ -699,11 +702,11 @@
       "id": "jp.elem.social.edo-society",
       "name": "江戸幕府と社会の安定",
       "domain": "第6学年",
-      "description": "幕府の政治や身分・産業・文化の様子を資料から捉える。",
+      "description": "江戸幕府の始まり、参勤交代や鎖国などの政策、身分制を手掛かりに政治の安定を捉える。歌舞伎・浮世絵などの町人文化や国学・蘭学などの新しい学問も、江戸時代の社会の特色として関連づける。",
       "candidateGrades": [
         6
       ],
-      "gradePlacementStatus": "needs-review",
+      "gradePlacementStatus": "candidate",
       "topicType": "concept",
       "reviewStatus": "needs-review",
       "officialAreaCandidate": "第6学年の公式内容候補",
@@ -714,13 +717,13 @@
     },
     {
       "id": "jp.elem.social.modernization",
-      "name": "明治の国づくりと近代化",
+      "name": "明治の改革と近代日本の発展",
       "domain": "第6学年",
-      "description": "明治政府の改革や近代国家への変化を、制度・産業・生活の変化から捉える。",
+      "description": "黒船の来航から明治維新・諸改革・文明開化を経て、大日本帝国憲法の発布、日清・日露戦争、条約改正や科学の発展までを手掛かりに、近代国家の形成と国際的地位の変化を捉える。",
       "candidateGrades": [
         6
       ],
-      "gradePlacementStatus": "needs-review",
+      "gradePlacementStatus": "candidate",
       "topicType": "concept",
       "reviewStatus": "needs-review",
       "officialAreaCandidate": "第6学年の公式内容候補",
@@ -731,13 +734,13 @@
     },
     {
       "id": "jp.elem.social.war-and-recovery",
-      "name": "戦争と人々の暮らし、戦後の復興",
+      "name": "戦争と人々の暮らし",
       "domain": "第6学年",
-      "description": "戦争の広がりと国民生活、戦後の改革や復興を資料に基づいて考える。",
+      "description": "日中戦争や日本が関わった第二次世界大戦などを手掛かりに、戦争が広がった時代の社会や人々の暮らしへの影響を資料から捉える。戦後の改革や国民生活の向上は、関連する別項目「戦後の日本の出発とくらしの向上」で扱う。",
       "candidateGrades": [
         6
       ],
-      "gradePlacementStatus": "needs-review",
+      "gradePlacementStatus": "candidate",
       "topicType": "concept",
       "reviewStatus": "needs-review",
       "officialAreaCandidate": "第6学年の公式内容候補",
@@ -748,13 +751,13 @@
     },
     {
       "id": "jp.elem.social.postwar-japan",
-      "name": "日本の発展と国際社会",
+      "name": "戦後の日本の出発とくらしの向上",
       "domain": "第6学年",
-      "description": "戦後の社会変化と国際社会における日本の役割を捉える。",
+      "description": "日本国憲法の制定など戦後の改革を経て、日本が民主的な国家として出発し、国民生活が向上してきたことを、オリンピック・パラリンピックの開催なども手掛かりに捉える。国際交流や国際協力の詳しい扱いは「つながりの深い国々のくらしと日本の国際協力」と関連づける。",
       "candidateGrades": [
         6
       ],
-      "gradePlacementStatus": "needs-review",
+      "gradePlacementStatus": "candidate",
       "topicType": "concept",
       "reviewStatus": "needs-review",
       "officialAreaCandidate": "第6学年の公式内容候補",
@@ -771,7 +774,7 @@
       "candidateGrades": [
         6
       ],
-      "gradePlacementStatus": "needs-review",
+      "gradePlacementStatus": "candidate",
       "topicType": "concept",
       "reviewStatus": "needs-review",
       "officialAreaCandidate": "第6学年の公式内容候補",
@@ -788,7 +791,7 @@
       "candidateGrades": [
         6
       ],
-      "gradePlacementStatus": "needs-review",
+      "gradePlacementStatus": "candidate",
       "topicType": "concept",
       "reviewStatus": "needs-review",
       "officialAreaCandidate": "第6学年の公式内容候補",
@@ -805,7 +808,7 @@
       "candidateGrades": [
         6
       ],
-      "gradePlacementStatus": "needs-review",
+      "gradePlacementStatus": "candidate",
       "topicType": "concept",
       "reviewStatus": "needs-review",
       "officialAreaCandidate": "第6学年の公式内容候補",
@@ -822,7 +825,7 @@
       "candidateGrades": [
         6
       ],
-      "gradePlacementStatus": "needs-review",
+      "gradePlacementStatus": "candidate",
       "topicType": "concept",
       "reviewStatus": "needs-review",
       "officialAreaCandidate": "第6学年の公式内容候補",
@@ -833,13 +836,13 @@
     },
     {
       "id": "jp.elem.social.international-relations",
-      "name": "世界の国々と日本の国際協力",
+      "name": "つながりの深い国々のくらしと日本の国際協力",
       "domain": "第6学年",
-      "description": "国際連合や国際協力、日本と世界のつながりを資料から捉える。",
+      "description": "日本と経済や文化などの面でつながりが深い国々の人々の生活の多様性、文化・習慣の違いを尊重すること、国際交流、国際連合の働きや日本の国際協力を資料から捉える。",
       "candidateGrades": [
         6
       ],
-      "gradePlacementStatus": "needs-review",
+      "gradePlacementStatus": "candidate",
       "topicType": "concept",
       "reviewStatus": "needs-review",
       "officialAreaCandidate": "第6学年の公式内容候補",
@@ -860,7 +863,7 @@
         5,
         6
       ],
-      "gradePlacementStatus": "needs-review",
+      "gradePlacementStatus": "candidate",
       "topicType": "skill",
       "reviewStatus": "needs-review",
       "officialAreaCandidate": "横断的な資料活用・調査技能",
@@ -880,7 +883,7 @@
         5,
         6
       ],
-      "gradePlacementStatus": "needs-review",
+      "gradePlacementStatus": "candidate",
       "topicType": "skill",
       "reviewStatus": "needs-review",
       "officialAreaCandidate": "横断的な資料活用・調査技能",
@@ -900,7 +903,7 @@
         5,
         6
       ],
-      "gradePlacementStatus": "needs-review",
+      "gradePlacementStatus": "candidate",
       "topicType": "skill",
       "reviewStatus": "needs-review",
       "officialAreaCandidate": "横断的な資料活用・調査技能",
@@ -920,7 +923,7 @@
         5,
         6
       ],
-      "gradePlacementStatus": "needs-review",
+      "gradePlacementStatus": "candidate",
       "topicType": "skill",
       "reviewStatus": "needs-review",
       "officialAreaCandidate": "横断的な資料活用・調査技能",
@@ -940,7 +943,7 @@
         5,
         6
       ],
-      "gradePlacementStatus": "needs-review",
+      "gradePlacementStatus": "candidate",
       "topicType": "skill",
       "reviewStatus": "needs-review",
       "officialAreaCandidate": "横断的な資料活用・調査技能",
@@ -960,7 +963,7 @@
         5,
         6
       ],
-      "gradePlacementStatus": "needs-review",
+      "gradePlacementStatus": "candidate",
       "topicType": "skill",
       "reviewStatus": "needs-review",
       "officialAreaCandidate": "横断的な資料活用・調査技能",
@@ -980,12 +983,29 @@
         5,
         6
       ],
-      "gradePlacementStatus": "needs-review",
+      "gradePlacementStatus": "candidate",
       "topicType": "skill",
       "reviewStatus": "needs-review",
       "officialAreaCandidate": "横断的な資料活用・調査技能",
       "perspectiveCandidates": [
         "inquiry"
+      ],
+      "sourceBasis": "mext-commentary-grade-content-candidate"
+    },
+    {
+      "id": "jp.elem.social.national-disaster-prevention",
+      "name": "自然災害と国土の保全",
+      "domain": "第5学年",
+      "description": "地震・津波・風水害などの自然災害と国土の自然条件との関係、国や都道府県が進める対策や事業を資料から捉える。第4学年の地域の備えを扱う項目とは、国土全体の自然条件と保全に焦点を置いて区別する。",
+      "candidateGrades": [
+        5
+      ],
+      "gradePlacementStatus": "candidate",
+      "topicType": "concept",
+      "reviewStatus": "needs-review",
+      "officialAreaCandidate": "第5学年内容（5）「我が国の国土の自然環境と国民生活との関連」の下位候補",
+      "perspectiveCandidates": [
+        "geography"
       ],
       "sourceBasis": "mext-commentary-grade-content-candidate"
     }
@@ -1016,13 +1036,13 @@
       "id": "framework",
       "label": "公式の学年別内容と教科構造",
       "status": "partial-review",
-      "note": "文部科学省解説の学年別内容の大枠と照合を開始。第3学年の内容(3)「地域の発展に尽くした先人」を追加したが、全候補の一対一照合は継続中。"
+      "note": "初期案で第3学年に置いていた「地域の発展に尽くした先人」は、再照合により第4学年内容（4）「県内の伝統や文化，先人の働き」に対応する候補として修正。第3学年内容（3）「地域の安全を守る働き」に対応する消防・警察の候補学年も第3学年に修正。"
     },
     {
       "id": "coverage",
       "label": "学習項目の網羅性と粒度",
       "status": "partial-review",
-      "note": "第3学年の公式内容(3)に対応する候補の欠落を発見して追加。第5学年の食料生産・工業生産・情報と産業、第6学年の歴史・政治・国際関係の粒度を引き続き整理する。"
+      "note": "第4学年の県内の特色ある地域の説明範囲を具体化し、第5学年内容（5）の自然災害・国土保全に関する候補項目を追加。第6学年の歴史・国際理解の範囲を説明文に明記。各内容への詳細な照合とコード確認は継続する。"
     },
     {
       "id": "grade-placement",
@@ -1054,6 +1074,7 @@
     "項目名・説明・候補学年は照合用の仮案であり、正式な公式コードや学年配当を示さない。",
     "地図・年表・統計・写真・聞き取り等の資料活用は、単元知識と区別して横断的な技能候補として整理する。",
     "地域学習の具体的な対象は自治体・都道府県によって異なるため、全国共通の枠組みと地域教材を混同しない。",
-    "2026-10-18の公式解説との初回照合で、第3学年の「地域の発展に尽くした先人」に相当する候補の欠落を確認し、項目を追加。"
+    "2026-10-18の公式解説との初回照合で、第3学年の「地域の発展に尽くした先人」に相当する候補の欠落を確認し、項目を追加。",
+    "2026-10-20の第2回照合で、学年候補の表示ずれを修正し、第4学年の供給事業（飲料水・電気・ガスから1つ）と廃棄物処理（ごみ・下水から1つ）の選択条件を明記。第5学年の自然災害・国土保全の候補を追加し、第6学年の歴史・国際理解の説明を具体化。"
   ]
 }
