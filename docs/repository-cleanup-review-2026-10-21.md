@@ -50,3 +50,15 @@ README が長くなり、同じ話題が何度も現れるうえ、過去の作�
 ## 検証ステータス
 
 この記録の作成時点では README を更新し、整理方針を明文化した段階。リポジトリ全体のリンク切れ検査、未参照ファイルの機械的な検査、公開サイトのブラウザ確認はまだ完了扱いにしない。
+
+
+## 実施済みの整理（2026-10-21）
+
+- `docs/social-studies-audit-2026-10-20.md` を削除した。社会科の初期監査メモで、後続の `docs/social-taxonomy-review-2026-10-20.md` と `docs/social-studies-relationship-review.md` に、内容照合・学年修正・関係重複整理の情報がより詳しく記録されているため。
+- `data/resources.json` は空配列だが、現在の `scripts/validate.mjs` が必須ファイルとして読み込み、参照整合性も検査しているため削除しない。
+- `docs/curriculum-code-table-check-2026-10-20.md` は古い記録を含むが、82V11と82V12の違い・修正コードの注意点などの履歴があるため、現時点では削除しない。
+- `data/grade-placement-review-math-a.json`、`data/topic-split-migration-math-a.json`、`data/topic-split-proposals-math-a.json` は移行・分割案のため、依存関係を完全に確認するまでは残す。
+
+## 削除後の確認
+
+削除した社会科初期監査メモは、より詳しい社会科レビュー記録を残したうえで整理した。リポジトリ全体のリンク切れ検査と自動検証は、引き続き実行して確認する。
