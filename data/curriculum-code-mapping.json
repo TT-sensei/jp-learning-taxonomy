@@ -3,1617 +3,2795 @@
   "status": "mapping-in-progress",
   "sourceId": "mext-elementary-curriculum-code-table-82v12",
   "officialVersion": "82V12",
-  "description": "プロジェクト独自の学習項目と文部科学省の学習指導要領コードを対応付ける表。candidateCodeは学習指導要領LOD（82V11）等から得た候補で、82V12公式表との最終照合前。verifiedCodeのみを確認済みコードとして扱う。独自の技能・横断項目には無理にコードを付けない。",
+  "description": "プロジェクト独自の学習項目と文部科学省の学習指導要領コードを対応付ける表。candidateCode/candidateCodesは学習指導要領LOD（82V11）由来の親項目候補で、82V12公式表との最終照合前。verifiedCodeのみを確認済みコードとして扱う。独自の技能・横断項目には無理にコードを付けない。",
   "mappings": [
     {
       "topicId": "jp.elem.japanese.ask-and-clarify",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「話すこと・聞くこと」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102A321000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.author-and-work",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「我が国の言語文化に関する事項」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102C313000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.cause-and-effect",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「情報の扱い方に関する事項」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102C312000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.choose-reading-strategy",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「読むこと」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102A323000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.choose-writing-topic",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「書くこと」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102A322000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.classical-language-and-old-forms",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「我が国の言語文化に関する事項」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102C313000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.collecting-and-recording-information",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「情報の扱い方に関する事項」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102A312000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.compare-and-classify-information",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「情報の扱い方に関する事項」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102A312000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.compare-information-across-sources",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「読むこと」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102C323000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.compare-texts",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「読むこと」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102C323000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.compare-viewpoints",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「話すこと・聞くこと」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102C321000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.connectives-and-modifiers",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「言葉の特徴や使い方に関する事項」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102C311000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.diagrams-and-tables",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「情報の扱い方に関する事項」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102C312000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.dictionaries-and-reference",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「言葉の特徴や使い方に関する事項」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102A311000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.discussion-and-debate",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「話すこと・聞くこと」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102A321000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.explain-opinion-or-reason",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「話すこと・聞くこと」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102C321000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.facts-and-opinions-writing",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「書くこと」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102C322000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.facts-opinions-and-interpretations",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「情報の扱い方に関する事項」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102C312000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.handwriting",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「我が国の言語文化に関する事項」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102A313000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.hiragana-kanji-katakana",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「我が国の言語文化に関する事項」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102A313000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.idioms-proverbs-and-sayings",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「言葉の特徴や使い方に関する事項」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102C311000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.infer-from-text",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「読むこと」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102A323000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.information-structure",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「情報の扱い方に関する事項」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102C312000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.interview-and-question-design",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「話すこと・聞くこと」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102C321000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.kana-orthography",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「言葉の特徴や使い方に関する事項」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102A311000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.kanji-meaning-and-usage",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「言葉の特徴や使い方に関する事項」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102A311000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.language-register-and-context",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「言葉の特徴や使い方に関する事項」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102A311000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.library-and-book-selection",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「我が国の言語文化に関する事項」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102A313000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.listen-for-main-points",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「話すこと・聞くこと」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102A321000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.manuscript-paper-and-layout",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「我が国の言語文化に関する事項」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102A313000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.media-and-multimodal-information",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「情報の扱い方に関する事項」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102C312000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.onomatopoeia-and-sensory-words",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「言葉の特徴や使い方に関する事項」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102A311000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.organize-writing",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「書くこと」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102A322000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.paragraphs-and-connectors",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「書くこと」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102C322000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.parts-of-speech",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「言葉の特徴や使い方に関する事項」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102C311000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.plan-research-and-report",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「書くこと」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102C322000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.poetry-and-rhythm",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「我が国の言語文化に関する事項」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102A313000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.polite-language",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「言葉の特徴や使い方に関する事項」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102C311000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.prepare-and-organize-speech",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「話すこと・聞くこと」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102A321000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.presentation",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「話すこと・聞くこと」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102C321000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.punctuation-and-notation",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「言葉の特徴や使い方に関する事項」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102A311000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.quote-evidence",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「読むこと」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102C323000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.read-and-reflect",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「読むこと」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102A323000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.read-author-claim-and-evidence",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「読むこと」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102C323000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.read-between-the-lines",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「読むこと」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102C323000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.read-character-and-setting",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「読むこと」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102A323000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.read-facts-and-opinions",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「読むこと」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102C323000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.read-figurative-language-and-effects",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「読むこと」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102C323000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.read-main-idea",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「読むこと」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102A323000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.read-narrator-and-point-of-view",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「読むこと」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102C323000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.read-sequence-and-events",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「読むこと」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102A323000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.read-structure-and-relationships",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「読むこと」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102C323000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.read-text-type-and-purpose",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「読むこと」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102C323000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.reading-aloud-expression",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「我が国の言語文化に関する事項」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102A313000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.reading-habits",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「我が国の言語文化に関する事項」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102A313000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.revise-writing",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「書くこと」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102A322000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.sentence-structure",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「言葉の特徴や使い方に関する事項」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102A311000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.sentence-types-and-punctuation",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「言葉の特徴や使い方に関する事項」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102A311000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.share-experience",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「話すこと・聞くこと」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102A321000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.share-writing",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「書くこと」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102A322000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.sounds-and-characters",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「言葉の特徴や使い方に関する事項」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102A311000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.source-and-reliability",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「情報の扱い方に関する事項」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102C312000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.summarize-and-paraphrase",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「書くこと」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102C322000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.summarize-others-viewpoints",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「話すこと・聞くこと」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102C321000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.support-opinion-with-examples",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「話すこと・聞くこと」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102C321000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.take-notes-while-listening",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「話すこと・聞くこと」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102C321000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.traditional-language-culture",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「我が国の言語文化に関する事項」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102A313000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.use-quotes-and-sources-in-writing",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「書くこと」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102C322000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.vocabulary-expansion",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「言葉の特徴や使い方に関する事項」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102A311000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.word-meaning",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「言葉の特徴や使い方に関する事項」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102A311000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.word-relationships",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「言葉の特徴や使い方に関する事項」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102C311000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.write-experiences-and-observations",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「書くこと」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102A322000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.write-for-purpose",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「書くこと」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102A322000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.write-letters-and-messages",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「書くこと」の公式内容区分コード候補。学年帯第1・2学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102A322000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.japanese.write-opinion-and-argument",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "国語「書くこと」の公式内容区分コード候補。学年帯第3・4学年の親項目。プロジェクト独自の細分化項目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "82102C322000000",
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.addition-meaning",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「A 数と計算」の公式領域コード候補。候補コードは対象学年（1・2年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250013100000000",
+      "candidateCodes": [
+        "8250013100000000",
+        "8250023100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.addition-properties",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "分割後に追加したプロジェクト独自の学習項目案。82V12公式コード表との照合前。"
+      "note": "算数「A 数と計算」の公式領域コード候補。候補コードは対象学年（2・3年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250023100000000",
+      "candidateCodes": [
+        "8250023100000000",
+        "8250033100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.addition-within-20",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「A 数と計算」の公式領域コード候補。候補コードは対象学年（1年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250013100000000",
+      "candidateCodes": [
+        "8250013100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.angle-measurement",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「B 図形」の公式領域コード候補。候補コードは対象学年（4年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250043200000000",
+      "candidateCodes": [
+        "8250043200000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.angle-sums-in-polygons",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「B 図形」の公式領域コード候補。候補コードは対象学年（5年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250053200000000",
+      "candidateCodes": [
+        "8250053200000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.angles",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「B 図形」の公式領域コード候補。候補コードは対象学年（3・4年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250033200000000",
+      "candidateCodes": [
+        "8250033200000000",
+        "8250043200000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.approximate-area-volume",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「B 図形」の公式領域コード候補。候補コードは対象学年（6年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250063200000000",
+      "candidateCodes": [
+        "8250063200000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.area-circle",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「B 図形」の公式領域コード候補。候補コードは対象学年（6年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250063200000000",
+      "candidateCodes": [
+        "8250063200000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.area-rectangle-square",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「B 図形」の公式領域コード候補。候補コードは対象学年（4年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250043200000000",
+      "candidateCodes": [
+        "8250043200000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.area-triangle-parallelogram-trapezoid",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「B 図形」の公式領域コード候補。候補コードは対象学年（5年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250053200000000",
+      "candidateCodes": [
+        "8250053200000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.area-units",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「B 図形」の公式領域コード候補。候補コードは対象学年（4・5・6年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250043200000000",
+      "candidateCodes": [
+        "8250043200000000",
+        "8250053200000000",
+        "8250063200000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.arrangements-combinations",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「D データの活用」の公式領域コード候補。候補コードは対象学年（6年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250063400000000",
+      "candidateCodes": [
+        "8250063400000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.average",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「D データの活用」の公式領域コード候補。候補コードは対象学年（5・6年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250053400000000",
+      "candidateCodes": [
+        "8250053400000000",
+        "8250063400000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.bar-graphs",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「D データの活用」の公式領域コード候補。候補コードは対象学年（3年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250033400000000",
+      "candidateCodes": [
+        "8250033400000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.boxes-and-faces",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「B 図形」の公式領域コード候補。候補コードは対象学年（2・4・5年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250023200000000",
+      "candidateCodes": [
+        "8250023200000000",
+        "8250043200000000",
+        "8250053200000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.calculation-properties",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "分割後の旧項目。公式コード未照合。後継項目: jp.elem.math.addition-properties, jp.elem.math.distributive-property"
+      "note": "算数「A 数と計算」の公式領域コード候補。候補コードは対象学年（3・4・5・6年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250033100000000",
+      "candidateCodes": [
+        "8250033100000000",
+        "8250043100000000",
+        "8250053100000000",
+        "8250063100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.capacity-units",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「C 測定（第1〜3学年を中心とする）」の公式領域コード候補。候補コードは対象学年（2年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250023300000000",
+      "candidateCodes": [
+        "8250023300000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.changing-quantities-patterns",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「C 変化と関係（第4〜6学年を中心とする）」の公式領域コード候補。候補コードは対象学年（5年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250053300000000",
+      "candidateCodes": [
+        "8250053300000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.choose-calculation-strategy",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "分割後に追加したプロジェクト独自の学習項目案。82V12公式コード表との照合前。"
+      "note": "算数「A 数と計算」の公式領域コード候補。候補コードは対象学年（5・6年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250053100000000",
+      "candidateCodes": [
+        "8250053100000000",
+        "8250063100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.classify-count-pictograph",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「D データの活用」の公式領域コード候補。候補コードは対象学年（1年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250013400000000",
+      "candidateCodes": [
+        "8250013400000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.compare-order-numbers",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「A 数と計算」の公式領域コード候補。候補コードは対象学年（1・2・3年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250013100000000",
+      "candidateCodes": [
+        "8250013100000000",
+        "8250023100000000",
+        "8250033100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.compose-decompose-shapes",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「B 図形」の公式領域コード候補。候補コードは対象学年（1・2年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250013200000000",
+      "candidateCodes": [
+        "8250013200000000",
+        "8250023200000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.compose-decompose-to-10",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「A 数と計算」の公式領域コード候補。候補コードは対象学年（1年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250013100000000",
+      "candidateCodes": [
+        "8250013100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.congruent-figures",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「B 図形」の公式領域コード候補。候補コードは対象学年（5年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250053200000000",
+      "candidateCodes": [
+        "8250053200000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.data-based-reasoning",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「D データの活用」の公式領域コード候補。候補コードは対象学年（3・4・5・6年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250033400000000",
+      "candidateCodes": [
+        "8250033400000000",
+        "8250043400000000",
+        "8250053400000000",
+        "8250063400000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.data-frequency-tables",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「D データの活用」の公式領域コード候補。候補コードは対象学年（5・6年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250053400000000",
+      "candidateCodes": [
+        "8250053400000000",
+        "8250063400000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.data-statistical-investigation",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「D データの活用」の公式領域コード候補。候補コードは対象学年（4・5・6年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250043400000000",
+      "candidateCodes": [
+        "8250043400000000",
+        "8250053400000000",
+        "8250063400000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.decimal-add-subtract",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「A 数と計算」の公式領域コード候補。候補コードは対象学年（4年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250043100000000",
+      "candidateCodes": [
+        "8250043100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.decimal-fraction-connections",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "分割後の旧項目。公式コード未照合。後継項目: jp.elem.math.decimal-fraction-tenths, jp.elem.math.decimal-fraction-numberline, jp.elem.math.decimal-fraction-equivalence"
+      "note": "算数「A 数と計算」の公式領域コード候補。候補コードは対象学年（3・4・5・6年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250033100000000",
+      "candidateCodes": [
+        "8250033100000000",
+        "8250043100000000",
+        "8250053100000000",
+        "8250063100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.decimal-fraction-equivalence",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "分割後に追加したプロジェクト独自の学習項目案。82V12公式コード表との照合前。"
+      "note": "算数「A 数と計算」の公式領域コード候補。候補コードは対象学年（4・5・6年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250043100000000",
+      "candidateCodes": [
+        "8250043100000000",
+        "8250053100000000",
+        "8250063100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.decimal-fraction-numberline",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "分割後に追加したプロジェクト独自の学習項目案。82V12公式コード表との照合前。"
+      "note": "算数「A 数と計算」の公式領域コード候補。候補コードは対象学年（3・4年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250033100000000",
+      "candidateCodes": [
+        "8250033100000000",
+        "8250043100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.decimal-fraction-tenths",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "分割後に追加したプロジェクト独自の学習項目案。82V12公式コード表との照合前。"
+      "note": "算数「A 数と計算」の公式領域コード候補。候補コードは対象学年（3年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250033100000000",
+      "candidateCodes": [
+        "8250033100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.decimal-multiply-divide",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「A 数と計算」の公式領域コード候補。候補コードは対象学年（5年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250053100000000",
+      "candidateCodes": [
+        "8250053100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.decimal-place-value",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「A 数と計算」の公式領域コード候補。候補コードは対象学年（4・5・6年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250043100000000",
+      "candidateCodes": [
+        "8250043100000000",
+        "8250053100000000",
+        "8250063100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.decimals-tenths",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「A 数と計算」の公式領域コード候補。候補コードは対象学年（3年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250033100000000",
+      "candidateCodes": [
+        "8250033100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.direct-measurement",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「C 測定（第1〜3学年を中心とする）」の公式領域コード候補。候補コードは対象学年（1年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250013300000000",
+      "candidateCodes": [
+        "8250013300000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.distance-kilometer",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「C 測定（第1〜3学年を中心とする）」の公式領域コード候補。候補コードは対象学年（3年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250033300000000",
+      "candidateCodes": [
+        "8250033300000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.distributive-property",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "分割後に追加したプロジェクト独自の学習項目案。82V12公式コード表との照合前。"
+      "note": "算数「A 数と計算」の公式領域コード候補。候補コードは対象学年（3・4・5年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250033100000000",
+      "candidateCodes": [
+        "8250033100000000",
+        "8250043100000000",
+        "8250053100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.division-meaning",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「A 数と計算」の公式領域コード候補。候補コードは対象学年（3・4年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250033100000000",
+      "candidateCodes": [
+        "8250033100000000",
+        "8250043100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.division-remainders",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「A 数と計算」の公式領域コード候補。候補コードは対象学年（3年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250033100000000",
+      "candidateCodes": [
+        "8250033100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.elapsed-time",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「C 測定（第1〜3学年を中心とする）」の公式領域コード候補。候補コードは対象学年（2・3年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250023300000000",
+      "candidateCodes": [
+        "8250023300000000",
+        "8250033300000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.enlargement-reduction",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「B 図形」の公式領域コード候補。候補コードは対象学年（6年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250063200000000",
+      "candidateCodes": [
+        "8250063200000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.estimate-and-check",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "no-direct-match",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "複数学年・領域を横断するプロジェクト独自の数学的活動。公式の独立した内容区分と一対一対応させず、関連する公式内容項目を個別に結び付ける。",
+      "candidateCode": null,
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.estimate-check-calculation",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "分割後に追加したプロジェクト独自の学習項目案。82V12公式コード表との照合前。"
+      "note": "算数「A 数と計算」の公式領域コード候補。候補コードは対象学年（4・5・6年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250043100000000",
+      "candidateCodes": [
+        "8250043100000000",
+        "8250053100000000",
+        "8250063100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.explain-reasoning",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "no-direct-match",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "複数学年・領域を横断するプロジェクト独自の数学的活動。公式の独立した内容区分と一対一対応させず、関連する公式内容項目を個別に結び付ける。",
+      "candidateCode": null,
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.expressions-parentheses",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「A 数と計算」の公式領域コード候補。候補コードは対象学年（4年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250043100000000",
+      "candidateCodes": [
+        "8250043100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.factors-multiples",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「A 数と計算」の公式領域コード候補。候補コードは対象学年（5年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250053100000000",
+      "candidateCodes": [
+        "8250053100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.familiar-shapes",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「B 図形」の公式領域コード候補。候補コードは対象学年（1年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250013200000000",
+      "candidateCodes": [
+        "8250013200000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.find-patterns",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "no-direct-match",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "複数学年・領域を横断するプロジェクト独自の数学的活動。公式の独立した内容区分と一対一対応させず、関連する公式内容項目を個別に結び付ける。",
+      "candidateCode": null,
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.fraction-multiply-divide",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「A 数と計算」の公式領域コード候補。候補コードは対象学年（6年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250063100000000",
+      "candidateCodes": [
+        "8250063100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.fractions-compare",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「A 数と計算」の公式領域コード候補。候補コードは対象学年（3・4・5・6年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250033100000000",
+      "candidateCodes": [
+        "8250033100000000",
+        "8250043100000000",
+        "8250053100000000",
+        "8250063100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.fractions-same-denominator",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「A 数と計算」の公式領域コード候補。候補コードは対象学年（4年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250043100000000",
+      "candidateCodes": [
+        "8250043100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.fractions-unlike-denominators",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「A 数と計算」の公式領域コード候補。候補コードは対象学年（5年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250053100000000",
+      "candidateCodes": [
+        "8250053100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.geometric-construction",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「B 図形」の公式領域コード候補。候補コードは対象学年（4・5年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250043200000000",
+      "candidateCodes": [
+        "8250043200000000",
+        "8250053200000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.inverse-proportionality",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「C 変化と関係（第4〜6学年を中心とする）」の公式領域コード候補。候補コードは対象学年（6年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250063300000000",
+      "candidateCodes": [
+        "8250063300000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.length-units-cm-mm-m",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「C 測定（第1〜3学年を中心とする）」の公式領域コード候補。候補コードは対象学年（2年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250023300000000",
+      "candidateCodes": [
+        "8250023300000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.letter-expressions",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「A 数と計算」の公式領域コード候補。候補コードは対象学年（6年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250063100000000",
+      "candidateCodes": [
+        "8250063100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.line-graphs",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「D データの活用」の公式領域コード候補。候補コードは対象学年（4年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250043400000000",
+      "candidateCodes": [
+        "8250043400000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.mass-units",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「C 測定（第1〜3学年を中心とする）」の公式領域コード候補。候補コードは対象学年（3年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250033300000000",
+      "candidateCodes": [
+        "8250033300000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.math-in-daily-life",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "no-direct-match",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "複数学年・領域を横断するプロジェクト独自の数学的活動。公式の独立した内容区分と一対一対応させず、関連する公式内容項目を個別に結び付ける。",
+      "candidateCode": null,
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.meaning-of-proportion",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「C 変化と関係（第4〜6学年を中心とする）」の公式領域コード候補。候補コードは対象学年（5・6年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250053300000000",
+      "candidateCodes": [
+        "8250053300000000",
+        "8250063300000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.meaning-of-ratio",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「C 変化と関係（第4〜6学年を中心とする）」の公式領域コード候補。候補コードは対象学年（6年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250063300000000",
+      "candidateCodes": [
+        "8250063300000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.measurement-choice",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "no-direct-match",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "複数学年・領域を横断するプロジェクト独自の数学的活動。公式の独立した内容区分と一対一対応させず、関連する公式内容項目を個別に結び付ける。",
+      "candidateCode": null,
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.mixed-calculations",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "分割後の旧項目。公式コード未照合。後継項目: jp.elem.math.choose-calculation-strategy, jp.elem.math.estimate-check-calculation, jp.elem.math.solve-multistep-number-problems"
+      "note": "算数「A 数と計算」の公式領域コード候補。候補コードは対象学年（5・6年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250053100000000",
+      "candidateCodes": [
+        "8250053100000000",
+        "8250063100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.multidigit-add-subtract",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「A 数と計算」の公式領域コード候補。候補コードは対象学年（2・3・4年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250023100000000",
+      "candidateCodes": [
+        "8250023100000000",
+        "8250033100000000",
+        "8250043100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.multidigit-multiplication",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "分割後の旧項目。公式コード未照合。後継項目: jp.elem.math.multidigit-multiply-one-digit, jp.elem.math.multidigit-multiply-two-digit"
+      "note": "算数「A 数と計算」の公式領域コード候補。候補コードは対象学年（3・4年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250033100000000",
+      "candidateCodes": [
+        "8250033100000000",
+        "8250043100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.multidigit-multiply-one-digit",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "分割後に追加したプロジェクト独自の学習項目案。82V12公式コード表との照合前。"
+      "note": "算数「A 数と計算」の公式領域コード候補。候補コードは対象学年（3年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250033100000000",
+      "candidateCodes": [
+        "8250033100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.multidigit-multiply-two-digit",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "分割後に追加したプロジェクト独自の学習項目案。82V12公式コード表との照合前。"
+      "note": "算数「A 数と計算」の公式領域コード候補。候補コードは対象学年（4年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250043100000000",
+      "candidateCodes": [
+        "8250043100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.multiplication-meaning",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「A 数と計算」の公式領域コード候補。候補コードは対象学年（2年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250023100000000",
+      "candidateCodes": [
+        "8250023100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.multiplication-properties",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「A 数と計算」の公式領域コード候補。候補コードは対象学年（2・3・4年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250023100000000",
+      "candidateCodes": [
+        "8250023100000000",
+        "8250033100000000",
+        "8250043100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.multiplication-tables",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「A 数と計算」の公式領域コード候補。候補コードは対象学年（2年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250023100000000",
+      "candidateCodes": [
+        "8250023100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.number-counting",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「A 数と計算」の公式領域コード候補。候補コードは対象学年（1年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250013100000000",
+      "candidateCodes": [
+        "8250013100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.number-sentences",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「A 数と計算」の公式領域コード候補。候補コードは対象学年（1・2・3・4年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250013100000000",
+      "candidateCodes": [
+        "8250013100000000",
+        "8250023100000000",
+        "8250033100000000",
+        "8250043100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.numbers-and-place-value",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「A 数と計算」の公式領域コード候補。候補コードは対象学年（3・4・5・6年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250033100000000",
+      "candidateCodes": [
+        "8250033100000000",
+        "8250043100000000",
+        "8250053100000000",
+        "8250063100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.numbers-to-10000",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「A 数と計算」の公式領域コード候補。候補コードは対象学年（2年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250023100000000",
+      "candidateCodes": [
+        "8250023100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.percentage",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「C 変化と関係（第4〜6学年を中心とする）」の公式領域コード候補。候補コードは対象学年（5・6年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250053300000000",
+      "candidateCodes": [
+        "8250053300000000",
+        "8250063300000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.percentage-graphs",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「D データの活用」の公式領域コード候補。候補コードは対象学年（5・6年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250053400000000",
+      "candidateCodes": [
+        "8250053400000000",
+        "8250063400000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.perpendicular-parallel",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「B 図形」の公式領域コード候補。候補コードは対象学年（4年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250043200000000",
+      "candidateCodes": [
+        "8250043200000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.proportionality",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「C 変化と関係（第4〜6学年を中心とする）」の公式領域コード候補。候補コードは対象学年（6年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250063300000000",
+      "candidateCodes": [
+        "8250063300000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.quadrilateral-properties",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「B 図形」の公式領域コード候補。候補コードは対象学年（4・5年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250043200000000",
+      "candidateCodes": [
+        "8250043200000000",
+        "8250053200000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.ratio",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「C 変化と関係（第4〜6学年を中心とする）」の公式領域コード候補。候補コードは対象学年（6年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250063300000000",
+      "candidateCodes": [
+        "8250063300000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.regular-polygons-circumference",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「B 図形」の公式領域コード候補。候補コードは対象学年（5年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250053200000000",
+      "candidateCodes": [
+        "8250053200000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.represent-with-diagrams-tables",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "no-direct-match",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "複数学年・領域を横断するプロジェクト独自の数学的活動。公式の独立した内容区分と一対一対応させず、関連する公式内容項目を個別に結び付ける。",
+      "candidateCode": null,
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.rounding-estimation",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「A 数と計算」の公式領域コード候補。候補コードは対象学年（4年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250043100000000",
+      "candidateCodes": [
+        "8250043100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.scale-and-ratio",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「C 変化と関係（第4〜6学年を中心とする）」の公式領域コード候補。候補コードは対象学年（6年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250063300000000",
+      "candidateCodes": [
+        "8250063300000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.solids-nets",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「B 図形」の公式領域コード候補。候補コードは対象学年（4・5・6年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250043200000000",
+      "candidateCodes": [
+        "8250043200000000",
+        "8250053200000000",
+        "8250063200000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.solve-multistep-number-problems",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "分割後に追加したプロジェクト独自の学習項目案。82V12公式コード表との照合前。"
+      "note": "算数「A 数と計算」の公式領域コード候補。候補コードは対象学年（5・6年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250053100000000",
+      "candidateCodes": [
+        "8250053100000000",
+        "8250063100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.speed",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「C 変化と関係（第4〜6学年を中心とする）」の公式領域コード候補。候補コードは対象学年（5・6年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250053300000000",
+      "candidateCodes": [
+        "8250053300000000",
+        "8250063300000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.statistical-viewpoints",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「D データの活用」の公式領域コード候補。候補コードは対象学年（5・6年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250053400000000",
+      "candidateCodes": [
+        "8250053400000000",
+        "8250063400000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.subtraction-meaning",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「A 数と計算」の公式領域コード候補。候補コードは対象学年（1・2年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250013100000000",
+      "candidateCodes": [
+        "8250013100000000",
+        "8250023100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.subtraction-within-20",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「A 数と計算」の公式領域コード候補。候補コードは対象学年（1年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250013100000000",
+      "candidateCodes": [
+        "8250013100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.symmetry",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「B 図形」の公式領域コード候補。候補コードは対象学年（6年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250063200000000",
+      "candidateCodes": [
+        "8250063200000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.tables-multiple-viewpoints",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「D データの活用」の公式領域コード候補。候補コードは対象学年（4・5年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250043400000000",
+      "candidateCodes": [
+        "8250043400000000",
+        "8250053400000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.tables-simple-graphs",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「D データの活用」の公式領域コード候補。候補コードは対象学年（2年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250023400000000",
+      "candidateCodes": [
+        "8250023400000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.time-reading",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「C 測定（第1〜3学年を中心とする）」の公式領域コード候補。候補コードは対象学年（1・2年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250013300000000",
+      "candidateCodes": [
+        "8250013300000000",
+        "8250023300000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.triangles-circles-spheres",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「B 図形」の公式領域コード候補。候補コードは対象学年（3年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250033200000000",
+      "candidateCodes": [
+        "8250033200000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.triangles-quadrilaterals",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「B 図形」の公式領域コード候補。候補コードは対象学年（2年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250023200000000",
+      "candidateCodes": [
+        "8250023200000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.understand-problem-structure",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "no-direct-match",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "複数学年・領域を横断するプロジェクト独自の数学的活動。公式の独立した内容区分と一対一対応させず、関連する公式内容項目を個別に結び付ける。",
+      "candidateCode": null,
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.unit-conversion-length-area-volume",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "no-direct-match",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "複数学年・領域を横断するプロジェクト独自の数学的活動。公式の独立した内容区分と一対一対応させず、関連する公式内容項目を個別に結び付ける。",
+      "candidateCode": null,
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.unit-fractions",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「A 数と計算」の公式領域コード候補。候補コードは対象学年（2・3・4年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250023100000000",
+      "candidateCodes": [
+        "8250023100000000",
+        "8250033100000000",
+        "8250043100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.unit-quantity",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「C 変化と関係（第4〜6学年を中心とする）」の公式領域コード候補。候補コードは対象学年（5年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250053300000000",
+      "candidateCodes": [
+        "8250053300000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.unknown-number-box-expression",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "分割後に追加したプロジェクト独自の学習項目案。82V12公式コード表との照合前。"
+      "note": "算数「A 数と計算」の公式領域コード候補。候補コードは対象学年（2・3年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250023100000000",
+      "candidateCodes": [
+        "8250023100000000",
+        "8250033100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.unknown-number-equations",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "分割後の旧項目。公式コード未照合。後継項目: jp.elem.math.unknown-number-box-expression, jp.elem.math.unknown-number-solve, jp.elem.math.unknown-number-relationships"
+      "note": "算数「A 数と計算」の公式領域コード候補。候補コードは対象学年（2・3・4・5・6年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250023100000000",
+      "candidateCodes": [
+        "8250023100000000",
+        "8250033100000000",
+        "8250043100000000",
+        "8250053100000000",
+        "8250063100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.unknown-number-relationships",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "分割後に追加したプロジェクト独自の学習項目案。82V12公式コード表との照合前。"
+      "note": "算数「A 数と計算」の公式領域コード候補。候補コードは対象学年（4・5年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250043100000000",
+      "candidateCodes": [
+        "8250043100000000",
+        "8250053100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.unknown-number-solve",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "分割後に追加したプロジェクト独自の学習項目案。82V12公式コード表との照合前。"
+      "note": "算数「A 数と計算」の公式領域コード候補。候補コードは対象学年（3・4年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250033100000000",
+      "candidateCodes": [
+        "8250033100000000",
+        "8250043100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.volume-cuboid",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「B 図形」の公式領域コード候補。候補コードは対象学年（5年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250053200000000",
+      "candidateCodes": [
+        "8250053200000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.volume-prisms-cylinders",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「B 図形」の公式領域コード候補。候補コードは対象学年（6年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250063200000000",
+      "candidateCodes": [
+        "8250063200000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.math.volume-units",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち"
+      "note": "算数「B 図形」の公式領域コード候補。候補コードは対象学年（5・6年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250053200000000",
+      "candidateCodes": [
+        "8250053200000000",
+        "8250063200000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.science.air-properties",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "理科「A 物質・エネルギー」の公式領域コード候補。候補コードは対象学年（4年）の領域親コードで、個別の学習内容との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8260043100000000",
+      "candidateCodes": [
+        "8260043100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.science.animal-birth",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "理科「B 生命・地球」の公式領域コード候補。候補コードは対象学年（5年）の領域親コードで、個別の学習内容との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8260053200000000",
+      "candidateCodes": [
+        "8260053200000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.science.animals",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "理科「B 生命・地球」の公式領域コード候補。候補コードは対象学年（3年）の領域親コードで、個別の学習内容との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8260033200000000",
+      "candidateCodes": [
+        "8260033200000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.science.combustion",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "理科「A 物質・エネルギー」の公式領域コード候補。候補コードは対象学年（6年）の領域親コードで、個別の学習内容との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8260063100000000",
+      "candidateCodes": [
+        "8260063100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.science.communicate",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "no-direct-match",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "科学的な探究の力または学年・領域横断のプロジェクト独自項目。公式の内容領域A/Bに独立した一対一対応を設定せず、関係する理科内容に横断リンクする。",
+      "candidateCode": null,
+      "candidateCodes": [],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.science.compare",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "no-direct-match",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "科学的な探究の力または学年・領域横断のプロジェクト独自項目。公式の内容領域A/Bに独立した一対一対応を設定せず、関係する理科内容に横断リンクする。",
+      "candidateCode": null,
+      "candidateCodes": [],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.science.conclusion",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "no-direct-match",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "科学的な探究の力または学年・領域横断のプロジェクト独自項目。公式の内容領域A/Bに独立した一対一対応を設定せず、関係する理科内容に横断リンクする。",
+      "candidateCode": null,
+      "candidateCodes": [],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.science.control-conditions",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "no-direct-match",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "科学的な探究の力または学年・領域横断のプロジェクト独自項目。公式の内容領域A/Bに独立した一対一対応を設定せず、関係する理科内容に横断リンクする。",
+      "candidateCode": null,
+      "candidateCodes": [],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.science.dissolving",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "理科「A 物質・エネルギー」の公式領域コード候補。候補コードは対象学年（5年）の領域親コードで、個別の学習内容との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8260053100000000",
+      "candidateCodes": [
+        "8260053100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.science.earth-disasters",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "no-direct-match",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "科学的な探究の力または学年・領域横断のプロジェクト独自項目。公式の内容領域A/Bに独立した一対一対応を設定せず、関係する理科内容に横断リンクする。",
+      "candidateCode": null,
+      "candidateCodes": [],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.science.ecosystem",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "理科「B 生命・地球」の公式領域コード候補。候補コードは対象学年（6年）の領域親コードで、個別の学習内容との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8260063200000000",
+      "candidateCodes": [
+        "8260063200000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.science.electric-energy-use",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "理科「A 物質・エネルギー」の公式領域コード候補。候補コードは対象学年（6年）の領域親コードで、個別の学習内容との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8260063100000000",
+      "candidateCodes": [
+        "8260063100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.science.electric-magnetic-force",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "理科「A 物質・エネルギー」の公式領域コード候補。候補コードは対象学年（5年）の領域親コードで、個別の学習内容との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8260053100000000",
+      "candidateCodes": [
+        "8260053100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.science.electricity-circuit",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "理科「A 物質・エネルギー」の公式領域コード候補。候補コードは対象学年（3年）の領域親コードで、個別の学習内容との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8260033100000000",
+      "candidateCodes": [
+        "8260033100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.science.electricity-effects",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "理科「A 物質・エネルギー」の公式領域コード候補。候補コードは対象学年（4年）の領域親コードで、個別の学習内容との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8260043100000000",
+      "candidateCodes": [
+        "8260043100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.science.experiment-plan",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "no-direct-match",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "科学的な探究の力または学年・領域横断のプロジェクト独自項目。公式の内容領域A/Bに独立した一対一対応を設定せず、関係する理科内容に横断リンクする。",
+      "candidateCode": null,
+      "candidateCodes": [],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.science.force-motion",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "理科「A 物質・エネルギー」の公式領域コード候補。候補コードは対象学年（3年）の領域親コードで、個別の学習内容との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8260033100000000",
+      "candidateCodes": [
+        "8260033100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.science.human-body",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "理科「B 生命・地球」の公式領域コード候補。候補コードは対象学年（6年）の領域親コードで、個別の学習内容との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8260063200000000",
+      "candidateCodes": [
+        "8260063200000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.science.human-body-movement",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "理科「B 生命・地球」の公式領域コード候補。候補コードは対象学年（4年）の領域親コードで、個別の学習内容との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8260043200000000",
+      "candidateCodes": [
+        "8260043200000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.science.land-formation",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "理科「B 生命・地球」の公式領域コード候補。候補コードは対象学年（6年）の領域親コードで、個別の学習内容との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8260063200000000",
+      "candidateCodes": [
+        "8260063200000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.science.lever",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "理科「A 物質・エネルギー」の公式領域コード候補。候補コードは対象学年（6年）の領域親コードで、個別の学習内容との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8260063100000000",
+      "candidateCodes": [
+        "8260063100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.science.light",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "理科「A 物質・エネルギー」の公式領域コード候補。候補コードは対象学年（3年）の領域親コードで、個別の学習内容との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8260033100000000",
+      "candidateCodes": [
+        "8260033100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.science.magnet",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "理科「A 物質・エネルギー」の公式領域コード候補。候補コードは対象学年（3年）の領域親コードで、個別の学習内容との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8260033100000000",
+      "candidateCodes": [
+        "8260033100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.science.matter",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "理科「A 物質・エネルギー」の公式領域コード候補。候補コードは対象学年（3年）の領域親コードで、個別の学習内容との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8260033100000000",
+      "candidateCodes": [
+        "8260033100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.science.metal-water-air-temperature",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "理科「A 物質・エネルギー」の公式領域コード候補。候補コードは対象学年（4年）の領域親コードで、個別の学習内容との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8260043100000000",
+      "candidateCodes": [
+        "8260043100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.science.moon-stars",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "理科「B 生命・地球」の公式領域コード候補。候補コードは対象学年（4年）の領域親コードで、個別の学習内容との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8260043200000000",
+      "candidateCodes": [
+        "8260043200000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.science.moon-sun",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "理科「B 生命・地球」の公式領域コード候補。候補コードは対象学年（6年）の領域親コードで、個別の学習内容との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8260063200000000",
+      "candidateCodes": [
+        "8260063200000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.science.multiple-perspectives",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "no-direct-match",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "科学的な探究の力または学年・領域横断のプロジェクト独自項目。公式の内容領域A/Bに独立した一対一対応を設定せず、関係する理科内容に横断リンクする。",
+      "candidateCode": null,
+      "candidateCodes": [],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.science.observe",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "no-direct-match",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "科学的な探究の力または学年・領域横断のプロジェクト独自項目。公式の内容領域A/Bに独立した一対一対応を設定せず、関係する理科内容に横断リンクする。",
+      "candidateCode": null,
+      "candidateCodes": [],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.science.organism-environment",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "理科「B 生命・地球」の公式領域コード候補。候補コードは対象学年（6年）の領域親コードで、個別の学習内容との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8260063200000000",
+      "candidateCodes": [
+        "8260063200000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.science.pendulum",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "理科「A 物質・エネルギー」の公式領域コード候補。候補コードは対象学年（5年）の領域親コードで、個別の学習内容との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8260053100000000",
+      "candidateCodes": [
+        "8260053100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.science.plant-nutrition",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "理科「B 生命・地球」の公式領域コード候補。候補コードは対象学年（6年）の領域親コードで、個別の学習内容との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8260063200000000",
+      "candidateCodes": [
+        "8260063200000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.science.plants-conditions",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "理科「B 生命・地球」の公式領域コード候補。候補コードは対象学年（5年）の領域親コードで、個別の学習内容との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8260053200000000",
+      "candidateCodes": [
+        "8260053200000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.science.plants-grow",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "理科「B 生命・地球」の公式領域コード候補。候補コードは対象学年（3年）の領域親コードで、個別の学習内容との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8260033200000000",
+      "candidateCodes": [
+        "8260033200000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.science.prediction",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "no-direct-match",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "科学的な探究の力または学年・領域横断のプロジェクト独自項目。公式の内容領域A/Bに独立した一対一対応を設定せず、関係する理科内容に横断リンクする。",
+      "candidateCode": null,
+      "candidateCodes": [],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.science.question",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "no-direct-match",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "科学的な探究の力または学年・領域横断のプロジェクト独自項目。公式の内容領域A/Bに独立した一対一対応を設定せず、関係する理科内容に横断リンクする。",
+      "candidateCode": null,
+      "candidateCodes": [],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.science.record-data",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "no-direct-match",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "科学的な探究の力または学年・領域横断のプロジェクト独自項目。公式の内容領域A/Bに独立した一対一対応を設定せず、関係する理科内容に横断リンクする。",
+      "candidateCode": null,
+      "candidateCodes": [],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.science.relate",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "no-direct-match",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "科学的な探究の力または学年・領域横断のプロジェクト独自項目。公式の内容領域A/Bに独立した一対一対応を設定せず、関係する理科内容に横断リンクする。",
+      "candidateCode": null,
+      "candidateCodes": [],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.science.river-land",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "理科「B 生命・地球」の公式領域コード候補。候補コードは対象学年（5年）の領域親コードで、個別の学習内容との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8260053200000000",
+      "candidateCodes": [
+        "8260053200000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.science.seasonal-change",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "理科「B 生命・地球」の公式領域コード候補。候補コードは対象学年（4年）の領域親コードで、個別の学習内容との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8260043200000000",
+      "candidateCodes": [
+        "8260043200000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.science.solution-properties",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "理科「A 物質・エネルギー」の公式領域コード候補。候補コードは対象学年（6年）の領域親コードで、個別の学習内容との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8260063100000000",
+      "candidateCodes": [
+        "8260063100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.science.sound",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "理科「A 物質・エネルギー」の公式領域コード候補。候補コードは対象学年（3年）の領域親コードで、個別の学習内容との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8260033100000000",
+      "candidateCodes": [
+        "8260033100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.science.sun-shadow",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "理科「B 生命・地球」の公式領域コード候補。候補コードは対象学年（3年）の領域親コードで、個別の学習内容との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8260033200000000",
+      "candidateCodes": [
+        "8260033200000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.science.water-cycle",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "no-direct-match",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "科学的な探究の力または学年・領域横断のプロジェクト独自項目。公式の内容領域A/Bに独立した一対一対応を設定せず、関係する理科内容に横断リンクする。",
+      "candidateCode": null,
+      "candidateCodes": [],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.science.water-state",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "理科「A 物質・エネルギー」の公式領域コード候補。候補コードは対象学年（4年）の領域親コードで、個別の学習内容との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8260043100000000",
+      "candidateCodes": [
+        "8260043100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.science.weather",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "理科「B 生命・地球」の公式領域コード候補。候補コードは対象学年（4年）の領域親コードで、個別の学習内容との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8260043200000000",
+      "candidateCodes": [
+        "8260043200000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.science.weather-patterns",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。公式内容との直接対応も未確認。"
+      "note": "理科「B 生命・地球」の公式領域コード候補。候補コードは対象学年（5年）の領域親コードで、個別の学習内容との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8260053200000000",
+      "candidateCodes": [
+        "8260053200000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.social.agriculture",
@@ -1970,16 +3148,28 @@
     {
       "topicId": "jp.elem.math.division-algorithm",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "公式コード表との照合待ち。第4学年の除法の筆算に関する項目候補。"
+      "note": "算数「A 数と計算」の公式領域コード候補。候補コードは対象学年（4年）の領域親コードで、学習項目の細目との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8250043100000000",
+      "candidateCodes": [
+        "8250043100000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     },
     {
       "topicId": "jp.elem.science.rainwater-land-surface",
       "officialCodes": [],
-      "matchStatus": "not-checked",
+      "matchStatus": "candidate",
       "matchType": "unconfirmed",
-      "note": "第4学年B(3)「雨水の行方と地面の様子」との内容対応候補。公式コード表82V12の実データ照合は未実施。"
+      "note": "理科「B 生命・地球」の公式領域コード候補。候補コードは対象学年（4年）の領域親コードで、個別の学習内容との一対一対応は未確定。LOD出典版82V11、公式82V12との最終照合前。",
+      "candidateCode": "8260043200000000",
+      "candidateCodes": [
+        "8260043200000000"
+      ],
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11"
     }
   ]
 }
