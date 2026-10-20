@@ -143,8 +143,6 @@
         "jp.elem.science.river-land",
         "jp.elem.science.land-formation",
         "jp.elem.science.moon-sun",
-        "jp.elem.science.water-cycle",
-        "jp.elem.science.earth-disasters",
         "jp.elem.science.human-body-movement"
       ]
     },
@@ -164,6 +162,17 @@
         "jp.elem.science.record-data",
         "jp.elem.science.conclusion",
         "jp.elem.science.communicate"
+      ]
+    },
+    {
+      "id": "crosscutting-concepts",
+      "name": "横断的な見方・関連概念",
+      "conceptualPillars": [
+        "地球"
+      ],
+      "topicIds": [
+        "jp.elem.science.water-cycle",
+        "jp.elem.science.earth-disasters"
       ]
     }
   ],
@@ -230,7 +239,8 @@
         "jp.elem.science.land-formation",
         "jp.elem.science.moon-sun",
         "jp.elem.science.water-cycle",
-        "jp.elem.science.earth-disasters"
+        "jp.elem.science.earth-disasters",
+        "jp.elem.science.rainwater-land-surface"
       ]
     },
     {
@@ -261,9 +271,9 @@
   "topics": [
     {
       "id": "jp.elem.science.matter",
-      "name": "物の性質と見分け方",
+      "name": "物の形・体積と重さ",
       "domain": "物質・エネルギー",
-      "description": "物を比較して、形・手触り・重さなどの性質に着目し、分類や説明を行う。",
+      "description": "物の形を変えたときの重さや、体積が同じでも物によって重さが違うことを、比較して調べる。形や体積と重さとの関係を捉える。",
       "candidateGrades": [
         3
       ],
@@ -278,9 +288,9 @@
     },
     {
       "id": "jp.elem.science.air-properties",
-      "name": "空気の性質",
+      "name": "空気と水の性質",
       "domain": "物質・エネルギー",
-      "description": "空気を閉じ込めたときの体積や押し返す働きを調べ、空気の性質を捉える。",
+      "description": "閉じ込めた空気を押すと体積が小さくなり、押し返す力が大きくなることや、水は押しても体積がほとんど変わらず圧し縮められないことを、比較して調べる。",
       "candidateGrades": [
         4
       ],
@@ -295,9 +305,9 @@
     },
     {
       "id": "jp.elem.science.water-state",
-      "name": "水の状態変化",
+      "name": "水の温度と状態の変化",
       "domain": "物質・エネルギー",
-      "description": "水を熱したり冷やしたりして、温度と状態の変化を関係付ける。",
+      "description": "水を温めたり冷やしたりしたとき、水蒸気や氷に変わることや、水が氷になると体積が増えることを調べる。自然界で水が蒸発・凝結する学習とは関連づけるが、同じ項目として混同しない。",
       "candidateGrades": [
         4
       ],
@@ -314,7 +324,7 @@
       "id": "jp.elem.science.metal-water-air-temperature",
       "name": "金属・水・空気と温度",
       "domain": "物質・エネルギー",
-      "description": "温めたり冷やしたりしたときの温度変化や体積変化を比較する。",
+      "description": "金属・水・空気を温めたり冷やしたりしたときの体積の変化の違いや、金属と水・空気の温まり方の違いを、温度の変化と関係付けて調べる。",
       "candidateGrades": [
         4
       ],
@@ -533,9 +543,9 @@
     },
     {
       "id": "jp.elem.science.plants-grow",
-      "name": "植物の育ち方と体のつくり",
+      "name": "身近な植物の体のつくりと育ち方",
       "domain": "生命・地球",
-      "description": "植物の成長や体のつくりを観察し、共通点や差異を捉える。",
+      "description": "身近な植物を育てたり観察したりして、根・茎・葉などの体のつくり、成長の過程、周りの環境との関わりを比較する。",
       "candidateGrades": [
         3
       ],
@@ -550,9 +560,9 @@
     },
     {
       "id": "jp.elem.science.animals",
-      "name": "身近な動物の体のつくりと活動",
+      "name": "昆虫など身近な動物の体と育ち方",
       "domain": "生命・地球",
-      "description": "動物の体のつくりや活動を観察し、生活の仕方と関係付ける。",
+      "description": "昆虫など身近な動物の体のつくりや育ち方を観察し、成長の過程や周りの環境との関わりを捉える。季節による動物の活動は第4学年の内容と関連づけて区別する。",
       "candidateGrades": [
         3
       ],
@@ -618,9 +628,9 @@
     },
     {
       "id": "jp.elem.science.plant-nutrition",
-      "name": "植物と日光・養分",
+      "name": "植物の養分と水の通り道",
       "domain": "生命・地球",
-      "description": "植物が日光と関わって養分をつくることなどを調べる。",
+      "description": "葉に日光が当たるとでんぷんができることや、根から取り入れられた水が茎を通って葉などに運ばれることを調べ、植物の体のつくりと働きを捉える。",
       "candidateGrades": [
         6
       ],
@@ -686,9 +696,9 @@
     },
     {
       "id": "jp.elem.science.sun-shadow",
-      "name": "太陽と影の動き",
+      "name": "太陽と地面の様子",
       "domain": "地球",
-      "description": "影の向きや長さを時間と関係付け、太陽の位置の変化を捉える。",
+      "description": "日なたと日陰の地面の様子や影の向き・長さに着目し、時間による太陽の位置の変化と関係付けて比較する。",
       "candidateGrades": [
         3
       ],
@@ -703,9 +713,9 @@
     },
     {
       "id": "jp.elem.science.weather",
-      "name": "天気と気温の変化",
+      "name": "天気と気温、自然界の水の様子",
       "domain": "地球",
-      "description": "天気や気温を継続して観測し、変化の特徴を捉える。",
+      "description": "天気や1日の気温の変化を観測するとともに、自然界の水の行方や状態変化と天気との関係を調べる。",
       "candidateGrades": [
         4
       ],
@@ -739,7 +749,7 @@
       "id": "jp.elem.science.weather-patterns",
       "name": "天気の変化と雲",
       "domain": "地球",
-      "description": "雲の量や動き、気象情報と天気の変化を関係付ける。",
+      "description": "雲の量や動きと天気の変化を観察し、気象情報を使って天気を予想する。台風の進路や台風と降雨との関係、雨による災害にも関連付けて捉える。",
       "candidateGrades": [
         5
       ],
@@ -756,7 +766,7 @@
       "id": "jp.elem.science.river-land",
       "name": "流れる水の働きと土地の変化",
       "domain": "地球",
-      "description": "水の量や速さと、侵食・運搬・堆積などの働きを関係付ける。",
+      "description": "流れる水の量や速さと、土地をけずる・運ぶ・積もらせる働きの関係を調べる。上流と下流の土地の様子や、雨が多いときの水量の増加にも着目し、流れる水による土地の変化を捉える。",
       "candidateGrades": [
         5
       ],
@@ -773,7 +783,7 @@
       "id": "jp.elem.science.land-formation",
       "name": "土地のつくりと変化",
       "domain": "地球",
-      "description": "地層や岩石、土地の変化について資料や観察を通して捉える。",
+      "description": "れき・砂・泥・火山灰などからできた地層や化石を観察し、地層が流れる水の働きや火山の噴火によってできることを調べる。また、火山の噴火や地震によって土地が変化することを捉える。",
       "candidateGrades": [
         6
       ],
@@ -790,7 +800,7 @@
       "id": "jp.elem.science.moon-sun",
       "name": "月の形と太陽の位置",
       "domain": "地球",
-      "description": "月の形の見え方と太陽の位置との関係を捉える。",
+      "description": "月の輝いている側に太陽があることや、月の形の見え方が月と太陽の位置関係によって変わることを、月と太陽の位置に着目して調べる。",
       "candidateGrades": [
         6
       ],
@@ -805,9 +815,9 @@
     },
     {
       "id": "jp.elem.science.water-cycle",
-      "name": "水の循環",
-      "domain": "地球",
-      "description": "水の状態変化や移動を通して、自然界での水の循環を捉える。",
+      "name": "自然界の水の循環（横断的な見方）",
+      "domain": "横断的な見方・関連概念",
+      "description": "蒸発・雲・降水など自然界の水の状態や行方を、天気の学習や生物と環境の学習に結び付けて捉える横断的な整理項目。単独の学年別公式内容項目として扱わない。",
       "candidateGrades": [
         4,
         5,
@@ -824,9 +834,9 @@
     },
     {
       "id": "jp.elem.science.earth-disasters",
-      "name": "自然災害と土地・気象",
-      "domain": "地球",
-      "description": "土地や気象の変化と自然災害との関係を資料を通して考える。",
+      "name": "自然災害と土地・気象（横断的な見方）",
+      "domain": "横断的な見方・関連概念",
+      "description": "大雨による増水、台風や降雨、地震や火山噴火による土地の変化などを、該当する理科の学習と関連付けて考える横断的な整理項目。自然災害全般を独立した公式の理科内容項目としたり、社会科で扱う防災行政や地域の備えと混同したりしない。",
       "candidateGrades": [
         4,
         5,
@@ -1060,6 +1070,24 @@
         "生命"
       ],
       "sourceBasis": "mext-commentary-grade-content-candidate"
+    },
+    {
+      "id": "jp.elem.science.rainwater-land-surface",
+      "name": "雨水の行方と地面の様子",
+      "domain": "生命・地球",
+      "description": "雨水の流れる方向やしみ込み方を観察し、地面の傾きや土の粒の大きさと関係付けて調べる。",
+      "candidateGrades": [
+        4
+      ],
+      "gradePlacementStatus": "needs-review",
+      "topicType": "concept",
+      "reviewStatus": "needs-review",
+      "officialAreaCandidate": "B(3)「雨水の行方と地面の様子」",
+      "conceptualPillarCandidates": [
+        "地球"
+      ],
+      "sourceBasis": "mext-elementary-science-guideline-2017",
+      "designNote": "公式の学年別内容に対応する候補。公式コードは未照合。"
     }
   ],
   "sources": [
