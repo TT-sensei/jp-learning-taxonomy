@@ -153,7 +153,7 @@
       "version": "82V11（LOD掲載の小学校コード出典版）",
       "sourceType": "secondary-structured-reference",
       "versionNote": "文部科学省の公式82V12そのものではなく、LOD上で確認できた82V11由来の構造化データ。公式コード候補の探索にのみ使用し、82V12との最終照合前にverifiedCodeへ移さない。",
-      "usageNote": "社会科の内容項目とコード候補の探索に使用。候補コードは親項目レベルを含み、各プロジェクト項目との一対一対応を保証しない。",
+      "usageNote": "国語・算数・理科・社会の公式内容区分コード候補の探索に使用。候補コードは親項目レベルを含み、プロジェクト項目との一対一対応を保証しない。82V12公式表との最終照合前にverifiedCodeへ移さない。",
       "reviewStatus": "needs-review"
     }
   ],
