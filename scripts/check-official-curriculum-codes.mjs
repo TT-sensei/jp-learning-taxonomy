@@ -44,7 +44,7 @@ if (!officialCodes.size) throw new Error("公式コード列からコードを�
 
 const codeToTopics = new Map();
 for (const mapping of mappingData.mappings ?? []) {
-  const codes = new Set([mapping.candidateCode, ...(mapping.candidateCodes ?? [])].filter(Boolean));
+  const codes = new Set([mapping.candidateCode, ...(mapping.candidateCodes ?? []), mapping.verifiedCode, ...(mapping.verifiedCodes ?? []), ...(mapping.officialCodes ?? []), ...(mapping.relatedParentCodes ?? [])].filter(Boolean));
   const topic = topicById.get(mapping.topicId);
   for (const code of codes) {
     if (!codeToTopics.has(code)) codeToTopics.set(code, []);
@@ -59,6 +59,9 @@ for (const mapping of mappingData.mappings ?? []) {
   }
 }
 const codes = [...codeToTopics.keys()].sort();
+const candidateCodes = new Set((mappingData.mappings ?? []).flatMap(mapping => [mapping.candidateCode, ...(mapping.candidateCodes ?? [])]).filter(Boolean));
+const verifiedCodes = new Set((mappingData.mappings ?? []).flatMap(mapping => [mapping.verifiedCode, ...(mapping.verifiedCodes ?? []), ...(mapping.officialCodes ?? [])]).filter(Boolean));
+const relatedParentCodes = new Set((mappingData.mappings ?? []).flatMap(mapping => mapping.relatedParentCodes ?? []).filter(Boolean));
 const found = codes.filter(code => officialCodes.has(code));
 const missing = codes.filter(code => !officialCodes.has(code));
 const topicMappings = (mappingData.mappings ?? []).map(mapping => {
@@ -77,7 +80,7 @@ const topicMappings = (mappingData.mappings ?? []).map(mapping => {
     verifiedCode: mapping.verifiedCode ?? null,
     officialCodes: mapping.officialCodes ?? [],
     note: mapping.note ?? "",
-    candidateChecks: candidateCodes.map(code => {
+    candidateChecks: allCodes.map(code => {
       const record = officialRecords.get(code) ?? null;
       const expectedSubject = topic?.subject ?? null;
       const officialSubject = record?.["教科等"] ?? null;
@@ -95,6 +98,11 @@ const topicMappings = (mappingData.mappings ?? []).map(mapping => {
           : "項目";
       return {
         code,
+        referenceRoles: [
+          ...([mapping.candidateCode, ...(mapping.candidateCodes ?? [])].includes(code) ? ["candidate"] : []),
+          ...([mapping.verifiedCode, ...(mapping.verifiedCodes ?? []), ...(mapping.officialCodes ?? [])].includes(code) ? ["verified"] : []),
+          ...((mapping.relatedParentCodes ?? []).includes(code) ? ["related-parent"] : [])
+        ],
         existsInOfficialCsv: officialCodes.has(code),
         officialSubject,
         subjectMatch: !record || !officialSubject || !expectedSubject || officialSubject === expectedSubject,
@@ -114,7 +122,10 @@ const report = {
   generatedAt: new Date().toISOString(),
   csvDataRows: rows.length - headerIndex - 1,
   officialCodeCount: officialCodes.size,
-  uniqueCandidateCodeCount: codes.length,
+  uniqueCandidateCodeCount: candidateCodes.size,
+  uniqueVerifiedCodeCount: verifiedCodes.size,
+  uniqueRelatedParentCodeCount: relatedParentCodes.size,
+  uniqueReferencedCodeCount: codes.length,
   exactMatches: found.length,
   missingCount: missing.length,
   exactMatchCodes: found,
@@ -159,6 +170,9 @@ const lines = [
   `- 公式CSVのデータ行数：${report.csvDataRows}`,
   `- 公式コード数：${report.officialCodeCount}`,
   `- 候補コード（重複除外）：${report.uniqueCandidateCodeCount}`,
+  `- 確定コード参照（重複除外）：${report.uniqueVerifiedCodeCount}`,
+  `- 関連する親コード（重複除外）：${report.uniqueRelatedParentCodeCount}`,
+  `- 全参照コード（重複除外）：${report.uniqueReferencedCodeCount}`,
   `- 公式CSVに完全一致：${report.exactMatches}`,
   `- 公式CSVに見つからない：${report.missingCount}`,
   "",
