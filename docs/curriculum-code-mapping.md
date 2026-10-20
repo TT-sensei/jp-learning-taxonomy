@@ -27,4 +27,15 @@
 
 ## 対応表
 
-[`data/curriculum-code-mapping.json`](../data/curriculum-code-mapping.json) にプロジェクト独自の学習項目IDと公式コードの対応を記録する。現在は全項目が `not-checked` であり、公式コードとの対応が完了したという意味ではない。
+[`data/curriculum-code-mapping.json`](../data/curriculum-code-mapping.json) にプロジェクト独自の学習項目IDと公式コードの対応を記録する。2026年10月21日の状態は、276項目中、本文との対応確認済み27、候補218、直接対応なし31。候補・直接対応なしの項目は、公式コードが存在していても個別の意味対応が確定したとは扱わない。
+
+## 追加の監査フィールド
+
+- `relatedParentCodes`: 関連する公式の親内容区分。直接対応として確定したコードと区別して保持する。
+- `relatedOfficialCodes`: プロジェクト独自の下位分割や横断項目に関連する公式の具体的な記述。直接対応コードではなく、参照・根拠確認のためのリンク情報。
+- `officialAudit`: 参照版、確認日、コード存在の確認、教科・学年の整合、意味対応の判定といった監査記録。
+- `verifiedCodes`: 一つの学習項目が複数の公式コードの内容にまたがる場合に使う確認済みコードの配列。
+
+## 検証方法
+
+`scripts/validate.mjs` はデータ構造・コード形式・参照の整合性を確認する。`scripts/check-official-curriculum-codes.mjs` は文部科学省の82V12公式CSVを取得し、候補・確認済み・関連コードの存在と公式記述を検査して監査レポートを生成する。コードの存在や教科・学年の一致を確認しても、学習項目と意味的に一致するかは別の判断として記録する。詳細な社会科照合結果は [社会科コード照合記録](social-studies-code-crosswalk-draft-2026-10-20.md) を参照。
