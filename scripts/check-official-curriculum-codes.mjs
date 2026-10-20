@@ -34,7 +34,12 @@ const headerIndex = rows.findIndex(row => row.some(cell => cell.replace(/^\uFEFF
 if (headerIndex < 0) throw new Error("CSV内に「学習指導要領コード」列を見つけられません。列名を確認してください。");
 const headers = rows[headerIndex].map(v => v.replace(/^\uFEFF/, "").trim());
 const codeIndex = headers.findIndex(v => v.includes("学習指導要領コード"));
-const officialCodes = new Set(rows.slice(headerIndex + 1).map(row => (row[codeIndex] ?? "").trim()).filter(Boolean));
+const officialRecords = new Map();
+for (const row of rows.slice(headerIndex + 1)) {
+  const code = (row[codeIndex] ?? "").trim();
+  if (code) officialRecords.set(code, Object.fromEntries(headers.map((header, index) => [header, (row[index] ?? "").trim()]).filter(([header, value]) => header && value)));
+}
+const officialCodes = new Set(officialRecords.keys());
 if (!officialCodes.size) throw new Error("公式コード列からコードを読み取れませんでした。CSV形式を確認してください。");
 
 const codeToTopics = new Map();
@@ -68,7 +73,7 @@ const report = {
   exactMatchCodes: found,
   missingCodes: missing,
   semanticReviewRequired: true,
-  codes: codes.map(code => ({ code, existsInOfficialCsv: officialCodes.has(code), topics: codeToTopics.get(code) }))
+  codes: codes.map(code => ({ code, existsInOfficialCsv: officialCodes.has(code), officialRecord: officialRecords.get(code) ?? null, topics: codeToTopics.get(code) }))
 };
 fs.mkdirSync("reports", { recursive: true });
 fs.writeFileSync("reports/official-code-audit.json", JSON.stringify(report, null, 2) + "\n");
@@ -90,6 +95,7 @@ const lines = [
 ];
 for (const item of report.codes) {
   lines.push(`### ${item.existsInOfficialCsv ? "一致" : "要確認"}：${item.code}`);
+  if (item.officialRecord) lines.push(`- 公式表の項目：${Object.entries(item.officialRecord).filter(([key]) => !key.includes("コード")).map(([key, value]) => `${key}=${value}`).join(" / ")}`);
   for (const topic of item.topics) lines.push(`- ${topic.subject}・${topic.grades.join("・")}年：${topic.name}（${topic.topicId}）`);
   lines.push("");
 }
