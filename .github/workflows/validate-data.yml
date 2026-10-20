@@ -25,3 +25,10 @@ jobs:
         run: node scripts/validate.mjs
       - name: Check candidate codes against official 82V12 CSV
         run: node scripts/check-official-curriculum-codes.mjs
+      - name: Upload official code audit report
+        if: ${{ always() && hashFiles('reports/official-code-audit.*') != '' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: official-code-audit-report
+          path: reports/official-code-audit.*
+          if-no-files-found: error
