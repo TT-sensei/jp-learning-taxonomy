@@ -62,6 +62,7 @@ const codes = [...codeToTopics.keys()].sort();
 const candidateCodes = new Set((mappingData.mappings ?? []).flatMap(mapping => [mapping.candidateCode, ...(mapping.candidateCodes ?? [])]).filter(Boolean));
 const verifiedCodes = new Set((mappingData.mappings ?? []).flatMap(mapping => [mapping.verifiedCode, ...(mapping.verifiedCodes ?? []), ...(mapping.officialCodes ?? [])]).filter(Boolean));
 const relatedParentCodes = new Set((mappingData.mappings ?? []).flatMap(mapping => mapping.relatedParentCodes ?? []).filter(Boolean));
+const relatedOfficialCodes = new Set((mappingData.mappings ?? []).flatMap(mapping => mapping.relatedOfficialCodes ?? []).filter(Boolean));
 const found = codes.filter(code => officialCodes.has(code));
 const missing = codes.filter(code => !officialCodes.has(code));
 const topicMappings = (mappingData.mappings ?? []).map(mapping => {
@@ -78,7 +79,10 @@ const topicMappings = (mappingData.mappings ?? []).map(mapping => {
     candidateCode: mapping.candidateCode ?? null,
     candidateCodes: mapping.candidateCodes ?? [],
     verifiedCode: mapping.verifiedCode ?? null,
+    verifiedCodes: mapping.verifiedCodes ?? [],
     officialCodes: mapping.officialCodes ?? [],
+    relatedParentCodes: mapping.relatedParentCodes ?? [],
+    relatedOfficialCodes: mapping.relatedOfficialCodes ?? [],
     note: mapping.note ?? "",
     candidateChecks: allCodes.map(code => {
       const record = officialRecords.get(code) ?? null;
@@ -126,6 +130,7 @@ const report = {
   uniqueCandidateCodeCount: candidateCodes.size,
   uniqueVerifiedCodeCount: verifiedCodes.size,
   uniqueRelatedParentCodeCount: relatedParentCodes.size,
+  uniqueRelatedOfficialCodeCount: relatedOfficialCodes.size,
   uniqueReferencedCodeCount: codes.length,
   exactMatches: found.length,
   missingCount: missing.length,
@@ -173,6 +178,7 @@ const lines = [
   `- 候補コード（重複除外）：${report.uniqueCandidateCodeCount}`,
   `- 確定コード参照（重複除外）：${report.uniqueVerifiedCodeCount}`,
   `- 関連する親コード（重複除外）：${report.uniqueRelatedParentCodeCount}`,
+  `- 関連する具体的な公式コード（重複除外）：${report.uniqueRelatedOfficialCodeCount}`,
   `- 全参照コード（重複除外）：${report.uniqueReferencedCodeCount}`,
   `- 公式CSVに完全一致：${report.exactMatches}`,
   `- 公式CSVに見つからない：${report.missingCount}`,
@@ -199,6 +205,8 @@ console.log(`公式コード表: 82V12 / CSV行数: ${report.csvDataRows}`);
 console.log(`候補コード（重複除外）: ${report.uniqueCandidateCodeCount}`);
 console.log(`公式CSVに完全一致: ${report.exactMatches}`);
 console.log(`公式CSVに見つからない: ${report.missingCount}`);
+console.log(`関連する公式本文コード: ${report.uniqueRelatedOfficialCodeCount}`);
+console.log(`公式コード全参照数: ${report.uniqueReferencedCodeCount}`);
 console.log(`教科不一致: ${report.subjectGradeChecks.subjectMismatchCount}`);
 console.log(`学年不一致: ${report.subjectGradeChecks.gradeMismatchCount}`);
 console.log("詳細レポート: reports/official-code-audit.md と reports/official-code-audit.json");
