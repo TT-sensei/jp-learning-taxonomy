@@ -348,6 +348,30 @@ function renderGradeMap(subject) {
   return '<div class="grade-map-intro"><strong>'+rubyHTML(subject+"の学年マップ")+'</strong><p>'+rubyHTML("それぞれの学びを、学び始める学年の目安に1回ずつ置いています。あとでまた使う学びは、カードに表示しています。項目を選ぶと、前や次につながる学びが見られます。")+'</p><small>'+rubyHTML("学年は見直し中の目安です。必ずこの学年・順番で学ぶという意味ではありません。")+'</small></div>'+
     '<div class="grade-map-scroll" role="region" aria-label="'+rubyHTML(subject)+'の1年生から6年生までの学びのマップ" tabindex="0">'+lanes+'</div>'+crossCuttingPanel;
 }
+function renderJapaneseGradeBands() {
+  const topics = state.topics.filter(topic => topic.subject === "国語" && topic.topicLifecycle !== "superseded");
+  const bands = [
+    { label: "1・2年生", grades: [1, 2], note: "言葉や文字の基礎を身につける" },
+    { label: "3・4年生", grades: [3, 4], note: "学び方や表現を広げる" },
+    { label: "5・6年生", grades: [5, 6], note: "学びを深め、目的に応じて使う" }
+  ];
+  return '<div class="grade-map-intro"><strong>国語の学びを、学年のまとまりで見る</strong><p>学年帯をまたいで続く学びもあります。今の項目を選ぶと、前後の学びとのつながりを確認できます。</p><small>3・4年生と5・6年生の項目は、現在のデータでは分けきれていないものがあるため、同じ項目が両方に表示されることがあります。個別の学年配当を確定した表示ではありません。</small></div>' +
+    '<div class="japanese-grade-bands">' + bands.map(band => {
+      const items = topics.filter(topic => (topic.grades || []).some(grade => band.grades.includes(Number(grade))))
+        .sort((a, b) => (a.cluster || "").localeCompare(b.cluster || "", "ja") || a.name.localeCompare(b.name, "ja"));
+      const groups = new Map();
+      items.forEach(topic => {
+        const key = topic.cluster || "国語の学び";
+        if (!groups.has(key)) groups.set(key, []);
+        groups.get(key).push(topic);
+      });
+      return '<section class="grade-lane"><header class="grade-lane-head"><span>' + band.label + '</span><small>' + items.length + '項目</small></header><p class="grade-band-note">' + band.note + '</p>' +
+        [...groups.entries()].map(([group, groupItems]) => '<div class="grade-lane-group"><h3>' + rubyHTML(group) + '</h3><div class="topic-grid">' +
+          groupItems.map(topic => '<button type="button" class="topic-card' + (state.selected === topic.id ? ' is-selected' : '') + '" data-subject="国語" data-topic-id="' + esc(topic.id) + '" aria-pressed="' + (state.selected === topic.id) + '">' +
+            '<span class="topic-grade">' + rubyHTML(gradeLabel(topic)) + '</span><strong>' + rubyHTML(topicTitle(topic)) + '</strong><span class="topic-description">' + rubyHTML(topicText(topic)) + '</span></button>').join("") +
+          '</div></div>').join("") + '</section>';
+    }).join("") + '</div>';
+}
 function renderList() {
   $("#items").setAttribute("aria-busy","false");
   const topics=filteredTopics();
@@ -355,6 +379,11 @@ function renderList() {
   $("#count").textContent=(!filters.subject&&!filters.grade&&!filters.domain&&!filters.query) ? [...new Set(state.topics.map(t=>t.subject))].length+"教科" : topics.length+"件";
   const list=$("#items");
   list.replaceChildren();
+  if (filters.subject === "国語" && document.body.dataset.fixedSubject === "国語" && !filters.grade && !filters.domain && !filters.query) {
+    list.innerHTML = renderJapaneseGradeBands();
+    list.querySelectorAll("[data-topic-id]").forEach(button => button.addEventListener("click", () => renderDetail(button.dataset.topicId)));
+    return;
+  }
   if(filters.subject&&!filters.grade&&!filters.domain&&!filters.query && !document.body.dataset.fixedSubject && !(filters.subject==="国語" && state.topics.filter(topic=>topic.subject==="国語").every(topic=>topic.gradePlacement?.basis==="japanese-taxonomy-draft"))){
     list.innerHTML=renderGradeMap(filters.subject);
     list.querySelectorAll("[data-topic-id]").forEach(button=>button.addEventListener("click",()=>renderDetail(button.dataset.topicId)));
