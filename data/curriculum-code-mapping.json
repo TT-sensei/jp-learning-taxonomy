@@ -6287,16 +6287,28 @@
       "candidateCode": null,
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
-      "note": "プロジェクト独自の技能・横断項目または複数内容を結ぶ項目。公式の独立した内容項目との一対一対応は想定せず、直接対応する公式コードは付けない。",
+      "note": "プロジェクト独自の技能・横断項目または複数内容を結ぶ項目。公式の独立した内容項目との一対一対応は想定せず、直接対応する公式コードは付けない。 関連する公式本文の参照コードは relatedOfficialCodes に記録し、直接対応コードとは区別する。",
       "relatedParentCodes": [],
       "officialAudit": {
         "officialVersion": "82V12",
         "checkedAt": "2026-10-21",
         "codeExistence": "not-applicable",
         "subjectGradeCheck": "not-applicable",
-        "semanticStatus": "no-single-direct-code",
-        "relatedParentCodes": []
-      }
+        "semanticStatus": "no-direct-item-code",
+        "relatedParentCodes": [],
+        "relatedOfficialCodes": [
+          "8220233121000000",
+          "8220243521000000",
+          "8220253122000000",
+          "8220263221000000"
+        ]
+      },
+      "relatedOfficialCodes": [
+        "8220233121000000",
+        "8220243521000000",
+        "8220253122000000",
+        "8220263221000000"
+      ]
     },
     {
       "topicId": "jp.elem.social.constitution",
@@ -6338,16 +6350,22 @@
       "candidateCode": null,
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
-      "note": "プロジェクト独自の技能・横断項目または複数内容を結ぶ項目。公式の独立した内容項目との一対一対応は想定せず、直接対応する公式コードは付けない。",
+      "note": "プロジェクト独自の技能・横断項目または複数内容を結ぶ項目。公式の独立した内容項目との一対一対応は想定せず、直接対応する公式コードは付けない。 関連する公式本文の参照コードは relatedOfficialCodes に記録し、直接対応コードとは区別する。",
       "relatedParentCodes": [],
       "officialAudit": {
         "officialVersion": "82V12",
         "checkedAt": "2026-10-21",
         "codeExistence": "not-applicable",
         "subjectGradeCheck": "not-applicable",
-        "semanticStatus": "no-single-direct-code",
-        "relatedParentCodes": []
-      }
+        "semanticStatus": "no-direct-item-code",
+        "relatedParentCodes": [],
+        "relatedOfficialCodes": [
+          "8220263122000000"
+        ]
+      },
+      "relatedOfficialCodes": [
+        "8220263122000000"
+      ]
     },
     {
       "topicId": "jp.elem.social.diet",
@@ -6486,16 +6504,28 @@
       "candidateCode": null,
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
-      "note": "プロジェクト独自の技能・横断項目または複数内容を結ぶ項目。公式の独立した内容項目との一対一対応は想定せず、直接対応する公式コードは付けない。",
+      "note": "プロジェクト独自の技能・横断項目または複数内容を結ぶ項目。公式の独立した内容項目との一対一対応は想定せず、直接対応する公式コードは付けない。 関連する公式本文の参照コードは relatedOfficialCodes に記録し、直接対応コードとは区別する。",
       "relatedParentCodes": [],
       "officialAudit": {
         "officialVersion": "82V12",
         "checkedAt": "2026-10-21",
         "codeExistence": "not-applicable",
         "subjectGradeCheck": "not-applicable",
-        "semanticStatus": "no-single-direct-code",
-        "relatedParentCodes": []
-      }
+        "semanticStatus": "no-direct-item-code",
+        "relatedParentCodes": [],
+        "relatedOfficialCodes": [
+          "8220233121000000",
+          "8220243521000000",
+          "8220253221000000",
+          "8220263221000000"
+        ]
+      },
+      "relatedOfficialCodes": [
+        "8220233121000000",
+        "8220243521000000",
+        "8220253221000000",
+        "8220263221000000"
+      ]
     },
     {
       "topicId": "jp.elem.social.fieldwork-interview",
@@ -6503,16 +6533,36 @@
       "candidateCode": null,
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
-      "note": "プロジェクト独自の技能・横断項目または複数内容を結ぶ項目。公式の独立した内容項目との一対一対応は想定せず、直接対応する公式コードは付けない。",
+      "note": "プロジェクト独自の技能・横断項目または複数内容を結ぶ項目。公式の独立した内容項目との一対一対応は想定せず、直接対応する公式コードは付けない。 関連する公式本文の参照コードは relatedOfficialCodes に記録し、直接対応コードとは区別する。",
       "relatedParentCodes": [],
       "officialAudit": {
         "officialVersion": "82V12",
         "checkedAt": "2026-10-21",
         "codeExistence": "not-applicable",
         "subjectGradeCheck": "not-applicable",
-        "semanticStatus": "no-single-direct-code",
-        "relatedParentCodes": []
-      }
+        "semanticStatus": "no-direct-item-code",
+        "relatedParentCodes": [],
+        "relatedOfficialCodes": [
+          "8220233112000000",
+          "8220233213000000",
+          "8220243112000000",
+          "8220243213000000",
+          "8220243312000000",
+          "8220243413000000",
+          "8220253413000000",
+          "8220263113000000"
+        ]
+      },
+      "relatedOfficialCodes": [
+        "8220233112000000",
+        "8220233213000000",
+        "8220243112000000",
+        "8220243213000000",
+        "8220243312000000",
+        "8220243413000000",
+        "8220253413000000",
+        "8220263113000000"
+      ]
     },
     {
       "topicId": "jp.elem.social.firefighting",
@@ -6582,7 +6632,7 @@
       "candidateCode": null,
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
-      "note": "複数の公式内容区分を横断してつなぐプロジェクト独自の整理項目。単一の公式学習指導要領コードを直接割り当てない。関係する公式区分は参考情報としてのみ記録する。",
+      "note": "複数の公式内容区分を横断してつなぐプロジェクト独自の整理項目。単一の公式学習指導要領コードを直接割り当てない。関係する公式区分は参考情報としてのみ記録する。 関連する公式本文の参照コードは relatedOfficialCodes に記録し、直接対応コードとは区別する。",
       "candidateCodes": [],
       "verifiedCodes": [],
       "officialCodes": [],
@@ -6590,19 +6640,33 @@
         "8220253200000000",
         "8220253300000000"
       ],
-      "relatedOfficialCodes": [],
+      "relatedOfficialCodes": [
+        "8220253211000000",
+        "8220253212000000",
+        "8220253221000000",
+        "8220253222000000",
+        "8220253313000000",
+        "8220253323000000"
+      ],
       "matchType": "cross-content-synthesis",
       "officialAudit": {
         "officialVersion": "82V12",
         "checkedAt": "2026-10-21",
         "codeExistence": "related-parent-codes-confirmed",
         "subjectGradeCheck": "passed-for-related-codes",
-        "semanticStatus": "no-single-direct-code",
+        "semanticStatus": "no-direct-item-code",
         "relatedParentCodes": [
           "8220253200000000",
           "8220253300000000"
         ],
-        "relatedOfficialCodes": []
+        "relatedOfficialCodes": [
+          "8220253211000000",
+          "8220253212000000",
+          "8220253221000000",
+          "8220253222000000",
+          "8220253313000000",
+          "8220253323000000"
+        ]
       }
     },
     {
@@ -6929,16 +6993,22 @@
       "candidateCode": null,
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
-      "note": "プロジェクト独自の技能・横断項目または複数内容を結ぶ項目。公式の独立した内容項目との一対一対応は想定せず、直接対応する公式コードは付けない。",
+      "note": "プロジェクト独自の技能・横断項目または複数内容を結ぶ項目。公式の独立した内容項目との一対一対応は想定せず、直接対応する公式コードは付けない。 関連する公式本文の参照コードは relatedOfficialCodes に記録し、直接対応コードとは区別する。",
       "relatedParentCodes": [],
       "officialAudit": {
         "officialVersion": "82V12",
         "checkedAt": "2026-10-21",
         "codeExistence": "not-applicable",
         "subjectGradeCheck": "not-applicable",
-        "semanticStatus": "no-single-direct-code",
-        "relatedParentCodes": []
-      }
+        "semanticStatus": "no-direct-item-code",
+        "relatedParentCodes": [],
+        "relatedOfficialCodes": [
+          "8220233112000000"
+        ]
+      },
+      "relatedOfficialCodes": [
+        "8220233112000000"
+      ]
     },
     {
       "topicId": "jp.elem.social.maps-globes",
@@ -6946,16 +7016,30 @@
       "candidateCode": null,
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
-      "note": "プロジェクト独自の技能・横断項目または複数内容を結ぶ項目。公式の独立した内容項目との一対一対応は想定せず、直接対応する公式コードは付けない。",
+      "note": "プロジェクト独自の技能・横断項目または複数内容を結ぶ項目。公式の独立した内容項目との一対一対応は想定せず、直接対応する公式コードは付けない。 関連する公式本文の参照コードは relatedOfficialCodes に記録し、直接対応コードとは区別する。",
       "relatedParentCodes": [],
       "officialAudit": {
         "officialVersion": "82V12",
         "checkedAt": "2026-10-21",
         "codeExistence": "not-applicable",
         "subjectGradeCheck": "not-applicable",
-        "semanticStatus": "no-single-direct-code",
-        "relatedParentCodes": []
-      }
+        "semanticStatus": "no-direct-item-code",
+        "relatedParentCodes": [],
+        "relatedOfficialCodes": [
+          "8220233112000000",
+          "8220243112000000",
+          "8220253113000000",
+          "822026321C000000",
+          "8220263313000000"
+        ]
+      },
+      "relatedOfficialCodes": [
+        "8220233112000000",
+        "8220243112000000",
+        "8220253113000000",
+        "822026321C000000",
+        "8220263313000000"
+      ]
     },
     {
       "topicId": "jp.elem.social.medieval-japan",
@@ -7205,9 +7289,7 @@
         "8220263200000000"
       ],
       "candidateCodes": [],
-      "relatedOfficialCodes": [
-        "822026321B000000"
-      ],
+      "relatedOfficialCodes": [],
       "officialAudit": {
         "officialVersion": "82V12",
         "checkedAt": "2026-10-21",
@@ -7217,9 +7299,7 @@
         "relatedParentCodes": [
           "8220263200000000"
         ],
-        "relatedOfficialCodes": [
-          "822026321B000000"
-        ]
+        "relatedOfficialCodes": []
       }
     },
     {
@@ -7330,16 +7410,34 @@
       "candidateCode": null,
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
-      "note": "プロジェクト独自の技能・横断項目または複数内容を結ぶ項目。公式の独立した内容項目との一対一対応は想定せず、直接対応する公式コードは付けない。",
+      "note": "プロジェクト独自の技能・横断項目または複数内容を結ぶ項目。公式の独立した内容項目との一対一対応は想定せず、直接対応する公式コードは付けない。 関連する公式本文の参照コードは relatedOfficialCodes に記録し、直接対応コードとは区別する。",
       "relatedParentCodes": [],
       "officialAudit": {
         "officialVersion": "82V12",
         "checkedAt": "2026-10-21",
         "codeExistence": "not-applicable",
         "subjectGradeCheck": "not-applicable",
-        "semanticStatus": "no-single-direct-code",
-        "relatedParentCodes": []
-      }
+        "semanticStatus": "no-direct-item-code",
+        "relatedParentCodes": [],
+        "relatedOfficialCodes": [
+          "8220233112000000",
+          "8220243112000000",
+          "8220253213000000",
+          "8220253314000000",
+          "8220253413000000",
+          "8220253514000000",
+          "822026321C000000"
+        ]
+      },
+      "relatedOfficialCodes": [
+        "8220233112000000",
+        "8220243112000000",
+        "8220253213000000",
+        "8220253314000000",
+        "8220253413000000",
+        "8220253514000000",
+        "822026321C000000"
+      ]
     },
     {
       "topicId": "jp.elem.social.timeline-sources",
@@ -7347,16 +7445,24 @@
       "candidateCode": null,
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
-      "note": "プロジェクト独自の技能・横断項目または複数内容を結ぶ項目。公式の独立した内容項目との一対一対応は想定せず、直接対応する公式コードは付けない。",
+      "note": "プロジェクト独自の技能・横断項目または複数内容を結ぶ項目。公式の独立した内容項目との一対一対応は想定せず、直接対応する公式コードは付けない。 関連する公式本文の参照コードは relatedOfficialCodes に記録し、直接対応コードとは区別する。",
       "relatedParentCodes": [],
       "officialAudit": {
         "officialVersion": "82V12",
         "checkedAt": "2026-10-21",
         "codeExistence": "not-applicable",
         "subjectGradeCheck": "not-applicable",
-        "semanticStatus": "no-single-direct-code",
-        "relatedParentCodes": []
-      }
+        "semanticStatus": "no-direct-item-code",
+        "relatedParentCodes": [],
+        "relatedOfficialCodes": [
+          "8220233412000000",
+          "822026321C000000"
+        ]
+      },
+      "relatedOfficialCodes": [
+        "8220233412000000",
+        "822026321C000000"
+      ]
     },
     {
       "topicId": "jp.elem.social.transport-trade",
@@ -7364,7 +7470,7 @@
       "candidateCode": null,
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
-      "note": "複数の公式内容区分を横断してつなぐプロジェクト独自の整理項目。単一の公式学習指導要領コードを直接割り当てない。関係する公式区分は参考情報としてのみ記録する。",
+      "note": "複数の公式内容区分を横断してつなぐプロジェクト独自の整理項目。単一の公式学習指導要領コードを直接割り当てない。関係する公式区分は参考情報としてのみ記録する。 関連する公式本文の参照コードは relatedOfficialCodes に記録し、直接対応コードとは区別する。",
       "candidateCodes": [],
       "verifiedCodes": [],
       "officialCodes": [],
@@ -7373,6 +7479,9 @@
         "8220253300000000"
       ],
       "relatedOfficialCodes": [
+        "8220253212000000",
+        "8220253221000000",
+        "8220253222000000",
         "8220253313000000",
         "8220253323000000"
       ],
@@ -7382,12 +7491,15 @@
         "checkedAt": "2026-10-21",
         "codeExistence": "related-parent-codes-confirmed",
         "subjectGradeCheck": "passed-for-related-codes",
-        "semanticStatus": "no-single-direct-code",
+        "semanticStatus": "no-direct-item-code",
         "relatedParentCodes": [
           "8220253200000000",
           "8220253300000000"
         ],
         "relatedOfficialCodes": [
+          "8220253212000000",
+          "8220253221000000",
+          "8220253222000000",
           "8220253313000000",
           "8220253323000000"
         ]
@@ -7434,9 +7546,7 @@
         "8220263200000000"
       ],
       "candidateCodes": [],
-      "relatedOfficialCodes": [
-        "822026321B000000"
-      ],
+      "relatedOfficialCodes": [],
       "officialAudit": {
         "officialVersion": "82V12",
         "checkedAt": "2026-10-21",
@@ -7446,9 +7556,7 @@
         "relatedParentCodes": [
           "8220263200000000"
         ],
-        "relatedOfficialCodes": [
-          "822026321B000000"
-        ]
+        "relatedOfficialCodes": []
       }
     },
     {
