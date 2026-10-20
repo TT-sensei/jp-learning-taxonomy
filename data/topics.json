@@ -6706,7 +6706,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-social-guideline-2017",
-          "note": "文部科学省の社会編解説を参照したプロジェクト独自の候補。学年・公式内容との対応は確認中。"
+          "note": "文部科学省解説の第3学年内容（4）「市の様子の移り変わり」に対応する学習項目候補。個別の公式コードとの照合は未完了。"
         }
       ],
       "curriculumStandards": [],
@@ -6717,8 +6717,8 @@
         "status": "candidate",
         "candidateFirstIntroductionGrade": 3,
         "candidateContinuingGrades": [],
-        "basis": "current-draft-grades",
-        "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
+        "basis": "mext-2017-social-content-structure-review-2026-10-20",
+        "note": "文部科学省解説の第3学年内容（4）「市の様子の移り変わり」に対応する学習項目候補。個別の公式コードとの照合は未完了。"
       },
       "studentName": "市や町のようすの変化",
       "studentDescription": "昔の写真や資料と今のようすを比べ、交通・人口・建物・土地の使われ方がどう変わったか調べよう。"
@@ -6736,7 +6736,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-social-guideline-2017",
-          "note": "文部科学省の社会編解説を参照したプロジェクト独自の候補。学年・公式内容との対応は確認中。"
+          "note": "文部科学省解説の第3学年内容（1）「身近な地域や市区町村の様子」に対応する学習項目候補。細かな学習内容・学習指導要領コードの照合は未完了。"
         }
       ],
       "curriculumStandards": [],
@@ -6747,8 +6747,8 @@
         "status": "candidate",
         "candidateFirstIntroductionGrade": 3,
         "candidateContinuingGrades": [],
-        "basis": "current-draft-grades",
-        "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
+        "basis": "mext-2017-social-content-structure-review-2026-10-20",
+        "note": "文部科学省解説の第3学年内容（1）「身近な地域や市区町村の様子」に対応する学習項目候補。細かな学習内容・学習指導要領コードの照合は未完了。"
       },
       "studentName": "身近な地域や市町村のようす",
       "studentDescription": "地図や現地調査を使って、地域の地形、土地の使われ方、主な施設や交通、場所どうしのつながりを調べよう。"
@@ -6766,7 +6766,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-social-guideline-2017",
-          "note": "文部科学省の社会編解説を参照したプロジェクト独自の候補。学年・公式内容との対応は確認中。"
+          "note": "文部科学省解説の第3学年内容（2）「地域に見られる生産や販売の仕事」に対応する学習項目候補。具体的な生産・販売の事例は内容の取扱いに沿って整理し、公式コードの照合は未完了。"
         }
       ],
       "curriculumStandards": [],
@@ -6777,8 +6777,8 @@
         "status": "candidate",
         "candidateFirstIntroductionGrade": 3,
         "candidateContinuingGrades": [],
-        "basis": "current-draft-grades",
-        "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
+        "basis": "mext-2017-social-content-structure-review-2026-10-20",
+        "note": "文部科学省解説の第3学年内容（2）「地域に見られる生産や販売の仕事」に対応する学習項目候補。具体的な生産・販売の事例は内容の取扱いに沿って整理し、公式コードの照合は未完了。"
       },
       "studentName": "地域の人々の仕事と、生産・販売の工夫",
       "studentDescription": "農家やお店など、地域の人々がどんな仕事をし、どんな工夫をしているか調べよう。"
@@ -6796,7 +6796,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-social-guideline-2017",
-          "note": "文部科学省解説の第4学年内容構成「県内の伝統や文化，先人の働き」に対応する候補。個別の公式コードとの照合は未完了。"
+          "note": "文部科学省解説の第4学年内容（4）「県内の伝統や文化，先人の働き」に対応する候補。個別の公式コードとの照合は未完了。"
         }
       ],
       "curriculumStandards": [],
@@ -6808,7 +6808,7 @@
         "candidateFirstIntroductionGrade": 4,
         "candidateContinuingGrades": [],
         "basis": "mext-2017-social-content-structure-review-2026-10-20",
-        "note": "文部科学省解説の第4学年内容構成「県内の伝統や文化，先人の働き」に対応する候補。個別の公式コードとの照合は未完了。"
+        "note": "文部科学省解説の第4学年内容（4）「県内の伝統や文化，先人の働き」に対応する候補。個別の公式コードとの照合は未完了。"
       },
       "studentName": "地域をよくするために働いた人々",
       "studentDescription": "地域のために働いた人の願いや工夫、苦労を、昔の資料や話から調べよう。"
@@ -6826,7 +6826,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-social-guideline-2017",
-          "note": "文部科学省の社会編解説を参照したプロジェクト独自の候補。学年・公式内容との対応は確認中。"
+          "note": "内容の取扱いに示される方位・地図記号等を含め、第3学年内容（1）を支える技能の候補。独立した公式内容項目そのものとは区別し、公式コードを直接割り当てない。"
         }
       ],
       "curriculumStandards": [],
@@ -6837,8 +6837,8 @@
         "status": "candidate",
         "candidateFirstIntroductionGrade": 3,
         "candidateContinuingGrades": [],
-        "basis": "current-draft-grades",
-        "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
+        "basis": "mext-2017-social-content-structure-review-2026-10-20",
+        "note": "内容の取扱いに示される方位・地図記号等を含め、第3学年内容（1）を支える技能の候補。独立した公式内容項目そのものとは区別し、公式コードを直接割り当てない。"
       },
       "studentName": "地図記号や方位を使って地域を表そう",
       "studentDescription": "地図記号や方位を使って、身近な地域のようすや場所を地図に表そう。"
@@ -6859,7 +6859,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-social-guideline-2017",
-          "note": "文部科学省の社会編解説を参照したプロジェクト独自の候補。学年・公式内容との対応は確認中。"
+          "note": "文部科学省の社会編解説に示される観察・調査、地図・統計・年表等の資料活用を参考にしたプロジェクト独自の横断技能候補。公式内容項目との一対一対応ではない。"
         }
       ],
       "curriculumStandards": [],
@@ -6870,8 +6870,8 @@
         "status": "candidate",
         "candidateFirstIntroductionGrade": 3,
         "candidateContinuingGrades": [],
-        "basis": "current-draft-grades",
-        "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
+        "basis": "project-cross-grade-skill-review-2026-10-20",
+        "note": "第3〜6学年の社会科で使う横断的な調査・資料活用・比較・説明の技能候補。公式の学年別内容項目そのものではないため、独立した公式内容コードは直接割り当てない。各学年での扱い方は継続確認する。"
       },
       "studentName": "現地を調べ、人に話を聞こう",
       "studentDescription": "何を調べたいかを決め、現地を観察したり人に質問したりして、分かったことを記録しよう。"
@@ -6892,7 +6892,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-social-guideline-2017",
-          "note": "文部科学省の社会編解説を参照したプロジェクト独自の候補。学年・公式内容との対応は確認中。"
+          "note": "文部科学省の社会編解説に示される観察・調査、地図・統計・年表等の資料活用を参考にしたプロジェクト独自の横断技能候補。公式内容項目との一対一対応ではない。"
         }
       ],
       "curriculumStandards": [],
@@ -6903,8 +6903,8 @@
         "status": "candidate",
         "candidateFirstIntroductionGrade": 3,
         "candidateContinuingGrades": [],
-        "basis": "current-draft-grades",
-        "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
+        "basis": "project-cross-grade-skill-review-2026-10-20",
+        "note": "第3〜6学年の社会科で使う横断的な調査・資料活用・比較・説明の技能候補。公式の学年別内容項目そのものではないため、独立した公式内容コードは直接割り当てない。各学年での扱い方は継続確認する。"
       },
       "studentName": "資料を根拠にして説明しよう",
       "studentDescription": "資料のどこからそう考えたのかを示し、分かった事実と自分の考えを分けて説明しよう。"
@@ -6925,7 +6925,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-social-guideline-2017",
-          "note": "文部科学省の社会編解説を参照したプロジェクト独自の候補。学年・公式内容との対応は確認中。"
+          "note": "文部科学省の社会編解説に示される観察・調査、地図・統計・年表等の資料活用を参考にしたプロジェクト独自の横断技能候補。公式内容項目との一対一対応ではない。"
         }
       ],
       "curriculumStandards": [],
@@ -6936,8 +6936,8 @@
         "status": "candidate",
         "candidateFirstIntroductionGrade": 3,
         "candidateContinuingGrades": [],
-        "basis": "current-draft-grades",
-        "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
+        "basis": "project-cross-grade-skill-review-2026-10-20",
+        "note": "第3〜6学年の社会科で使う横断的な調査・資料活用・比較・説明の技能候補。公式の学年別内容項目そのものではないため、独立した公式内容コードは直接割り当てない。各学年での扱い方は継続確認する。"
       },
       "studentName": "社会の課題について考え、理由を伝えよう",
       "studentDescription": "社会の問題について、いろいろな立場の人の考えや資料を比べ、自分の考えと理由をまとめよう。"
@@ -6958,7 +6958,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-social-guideline-2017",
-          "note": "文部科学省の社会編解説を参照したプロジェクト独自の候補。学年・公式内容との対応は確認中。"
+          "note": "文部科学省の社会編解説に示される観察・調査、地図・統計・年表等の資料活用を参考にしたプロジェクト独自の横断技能候補。公式内容項目との一対一対応ではない。"
         }
       ],
       "curriculumStandards": [],
@@ -6969,8 +6969,8 @@
         "status": "candidate",
         "candidateFirstIntroductionGrade": 3,
         "candidateContinuingGrades": [],
-        "basis": "current-draft-grades",
-        "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
+        "basis": "project-cross-grade-skill-review-2026-10-20",
+        "note": "第3〜6学年の社会科で使う横断的な調査・資料活用・比較・説明の技能候補。公式の学年別内容項目そのものではないため、独立した公式内容コードは直接割り当てない。各学年での扱い方は継続確認する。"
       },
       "studentName": "地域や時代の共通点・ちがいを比べよう",
       "studentDescription": "いくつかの地域や時代を比べ、同じところ・ちがうところと、その理由を考えよう。"
@@ -6991,7 +6991,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-social-guideline-2017",
-          "note": "文部科学省の社会編解説を参照したプロジェクト独自の候補。学年・公式内容との対応は確認中。"
+          "note": "文部科学省の社会編解説に示される観察・調査、地図・統計・年表等の資料活用を参考にしたプロジェクト独自の横断技能候補。公式内容項目との一対一対応ではない。"
         }
       ],
       "curriculumStandards": [],
@@ -7002,8 +7002,8 @@
         "status": "candidate",
         "candidateFirstIntroductionGrade": 3,
         "candidateContinuingGrades": [],
-        "basis": "current-draft-grades",
-        "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
+        "basis": "project-cross-grade-skill-review-2026-10-20",
+        "note": "第3〜6学年の社会科で使う横断的な調査・資料活用・比較・説明の技能候補。公式の学年別内容項目そのものではないため、独立した公式内容コードは直接割り当てない。各学年での扱い方は継続確認する。"
       },
       "studentName": "地図や地球儀から情報を読み取ろう",
       "studentDescription": "方位・縮尺・地図記号・場所どうしの位置関係に注目し、地図や地球儀から必要な情報を読み取ろう。"
@@ -7024,7 +7024,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-social-guideline-2017",
-          "note": "文部科学省の社会編解説を参照したプロジェクト独自の候補。学年・公式内容との対応は確認中。"
+          "note": "文部科学省の社会編解説に示される観察・調査、地図・統計・年表等の資料活用を参考にしたプロジェクト独自の横断技能候補。公式内容項目との一対一対応ではない。"
         }
       ],
       "curriculumStandards": [],
@@ -7035,8 +7035,8 @@
         "status": "candidate",
         "candidateFirstIntroductionGrade": 3,
         "candidateContinuingGrades": [],
-        "basis": "current-draft-grades",
-        "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
+        "basis": "project-cross-grade-skill-review-2026-10-20",
+        "note": "第3〜6学年の社会科で使う横断的な調査・資料活用・比較・説明の技能候補。公式の学年別内容項目そのものではないため、独立した公式内容コードは直接割り当てない。各学年での扱い方は継続確認する。"
       },
       "studentName": "表やグラフから特徴を読み取ろう",
       "studentDescription": "表やグラフの数や変化を読み取り、何が分かるかを説明しよう。資料の出どころや単位も確かめよう。"
@@ -7057,7 +7057,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-social-guideline-2017",
-          "note": "文部科学省の社会編解説を参照したプロジェクト独自の候補。学年・公式内容との対応は確認中。"
+          "note": "文部科学省の社会編解説に示される観察・調査、地図・統計・年表等の資料活用を参考にしたプロジェクト独自の横断技能候補。公式内容項目との一対一対応ではない。"
         }
       ],
       "curriculumStandards": [],
@@ -7068,8 +7068,8 @@
         "status": "candidate",
         "candidateFirstIntroductionGrade": 3,
         "candidateContinuingGrades": [],
-        "basis": "current-draft-grades",
-        "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
+        "basis": "project-cross-grade-skill-review-2026-10-20",
+        "note": "第3〜6学年の社会科で使う横断的な調査・資料活用・比較・説明の技能候補。公式の学年別内容項目そのものではないため、独立した公式内容コードは直接割り当てない。各学年での扱い方は継続確認する。"
       },
       "studentName": "年表や歴史資料から変化を読み取ろう",
       "studentDescription": "年表や昔の写真・絵・文書を比べ、いつ、どんな変化があったのか説明しよう。"
@@ -7087,7 +7087,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-social-guideline-2017",
-          "note": "文部科学省の社会編解説を参照したプロジェクト独自の候補。学年・公式内容との対応は確認中。"
+          "note": "文部科学省解説の第4学年内容（2）「人々の健康や生活環境を支える事業」に対応する候補。内容の取扱いにより廃棄物処理はごみ・下水から一つを選ぶため、地域で選択する事例の違いを認める。公式コード照合は未完了。"
         }
       ],
       "curriculumStandards": [],
@@ -7098,8 +7098,8 @@
         "status": "candidate",
         "candidateFirstIntroductionGrade": 4,
         "candidateContinuingGrades": [],
-        "basis": "current-draft-grades",
-        "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
+        "basis": "mext-2017-social-content-structure-review-2026-10-20",
+        "note": "文部科学省解説の第4学年内容（2）「人々の健康や生活環境を支える事業」に対応する候補。内容の取扱いにより廃棄物処理はごみ・下水から一つを選ぶため、地域で選択する事例の違いを認める。公式コード照合は未完了。"
       },
       "studentName": "ごみや下水はどう処理される？",
       "studentDescription": "地域で学ぶごみ・下水の処理について、選んだ事業がどのような仕組みで進み、資源の再利用や町の環境を守ることにつながるのか調べよう。"
@@ -7117,7 +7117,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-social-guideline-2017",
-          "note": "文部科学省の社会編解説を参照したプロジェクト独自の候補。学年・公式内容との対応は確認中。"
+          "note": "文部科学省解説の第4学年内容（2）「人々の健康や生活環境を支える事業」に対応する候補。内容の取扱いにより供給事業は飲料水・電気・ガスから一つを選ぶため、すべてを各地域で個別に扱う必須項目とはしない。公式コード照合は未完了。"
         }
       ],
       "curriculumStandards": [],
@@ -7128,8 +7128,8 @@
         "status": "candidate",
         "candidateFirstIntroductionGrade": 4,
         "candidateContinuingGrades": [],
-        "basis": "current-draft-grades",
-        "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
+        "basis": "mext-2017-social-content-structure-review-2026-10-20",
+        "note": "文部科学省解説の第4学年内容（2）「人々の健康や生活環境を支える事業」に対応する候補。内容の取扱いにより供給事業は飲料水・電気・ガスから一つを選ぶため、すべてを各地域で個別に扱う必須項目とはしない。公式コード照合は未完了。"
       },
       "studentName": "水・電気・ガスはどのように届く？",
       "studentDescription": "地域で学ぶ水・電気・ガスの供給のうち、選んだ事業について、どんな仕組みや経路で届けられ、人々がどう協力しているのか調べよう。"
@@ -7147,7 +7147,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-social-guideline-2017",
-          "note": "文部科学省解説の第3学年内容構成「地域の安全を守る働き」に対応する下位項目候補。個別の公式コードとの照合は未完了。"
+          "note": "文部科学省解説の第3学年内容（3）「地域の安全を守る働き」に対応する下位項目候補。消防の働きはプロジェクト独自の細分化であり、個別の公式コードとの照合は未完了。"
         }
       ],
       "curriculumStandards": [],
@@ -7159,7 +7159,7 @@
         "candidateFirstIntroductionGrade": 3,
         "candidateContinuingGrades": [],
         "basis": "mext-2017-social-content-structure-review-2026-10-20",
-        "note": "文部科学省解説の第3学年内容構成「地域の安全を守る働き」に対応する下位項目候補。個別の公式コードとの照合は未完了。"
+        "note": "文部科学省解説の第3学年内容（3）「地域の安全を守る働き」に対応する下位項目候補。消防の働きはプロジェクト独自の細分化であり、個別の公式コードとの照合は未完了。"
       },
       "studentName": "火事から地域を守るしくみ",
       "studentDescription": "消防署や消防団、地域の人たちが、火事を防いだり、起きたときに協力して消火したりする方法を調べよう。"
@@ -7177,7 +7177,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-social-guideline-2017",
-          "note": "文部科学省解説の第3学年内容構成「地域の安全を守る働き」に対応する下位項目候補。個別の公式コードとの照合は未完了。"
+          "note": "文部科学省解説の第3学年内容（3）「地域の安全を守る働き」に対応する下位項目候補。事故防止・防犯や関係機関の働きを整理するプロジェクト独自の細分化であり、個別の公式コードとの照合は未完了。"
         }
       ],
       "curriculumStandards": [],
@@ -7189,7 +7189,7 @@
         "candidateFirstIntroductionGrade": 3,
         "candidateContinuingGrades": [],
         "basis": "mext-2017-social-content-structure-review-2026-10-20",
-        "note": "文部科学省解説の第3学年内容構成「地域の安全を守る働き」に対応する下位項目候補。個別の公式コードとの照合は未完了。"
+        "note": "文部科学省解説の第3学年内容（3）「地域の安全を守る働き」に対応する下位項目候補。事故防止・防犯や関係機関の働きを整理するプロジェクト独自の細分化であり、個別の公式コードとの照合は未完了。"
       },
       "studentName": "事故や事件から地域を守るしくみ",
       "studentDescription": "警察や地域の人たちが、事故や事件を防ぎ、安全を守るためにどんなことをしているか調べよう。"
@@ -7207,7 +7207,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-social-guideline-2017",
-          "note": "文部科学省の社会編解説を参照したプロジェクト独自の候補。学年・公式内容との対応は確認中。"
+          "note": "文部科学省解説の第4学年内容（3）「自然災害から人々を守る活動」に対応する候補。地域の関係機関・住民による対処や備えを中心とし、第5学年の国土の自然条件と災害を扱う候補とは区別する。公式コード照合は未完了。"
         }
       ],
       "curriculumStandards": [],
@@ -7218,8 +7218,8 @@
         "status": "candidate",
         "candidateFirstIntroductionGrade": 4,
         "candidateContinuingGrades": [],
-        "basis": "current-draft-grades",
-        "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
+        "basis": "mext-2017-social-content-structure-review-2026-10-20",
+        "note": "文部科学省解説の第4学年内容（3）「自然災害から人々を守る活動」に対応する候補。地域の関係機関・住民による対処や備えを中心とし、第5学年の国土の自然条件と災害を扱う候補とは区別する。公式コード照合は未完了。"
       },
       "studentName": "自然災害から地域を守る備え",
       "studentDescription": "市や町、消防、地域の人たちが、災害が起きる前や起きたときにどのように備え、助け合うか調べよう。"
@@ -7237,7 +7237,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-social-guideline-2017",
-          "note": "文部科学省の社会編解説を参照したプロジェクト独自の候補。学年・公式内容との対応は確認中。"
+          "note": "文部科学省解説の第4学年内容（4）「県内の伝統や文化，先人の働き」に対応するうち、文化財・年中行事の継承を扱う下位項目候補。公式コード照合は未完了。"
         }
       ],
       "curriculumStandards": [],
@@ -7248,8 +7248,8 @@
         "status": "candidate",
         "candidateFirstIntroductionGrade": 4,
         "candidateContinuingGrades": [],
-        "basis": "current-draft-grades",
-        "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
+        "basis": "mext-2017-social-content-structure-review-2026-10-20",
+        "note": "文部科学省解説の第4学年内容（4）「県内の伝統や文化，先人の働き」に対応するうち、文化財・年中行事の継承を扱う下位項目候補。公式コード照合は未完了。"
       },
       "studentName": "地域に伝わる文化や年中行事",
       "studentDescription": "地域のお祭りや昔から伝わる建物・道具などを調べ、どんな人たちが、どんな願いで受け継いできたのか考えよう。"
@@ -7267,7 +7267,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-social-guideline-2017",
-          "note": "文部科学省の社会編解説を参照したプロジェクト独自の候補。学年・公式内容との対応は確認中。"
+          "note": "文部科学省解説の第4学年内容（1）「都道府県の様子」に対応する候補。県の位置・地形・主な産業・交通網・主な都市などを扱う。個別の公式コードとの照合は未完了。"
         }
       ],
       "curriculumStandards": [],
@@ -7278,8 +7278,8 @@
         "status": "candidate",
         "candidateFirstIntroductionGrade": 4,
         "candidateContinuingGrades": [],
-        "basis": "current-draft-grades",
-        "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
+        "basis": "mext-2017-social-content-structure-review-2026-10-20",
+        "note": "文部科学省解説の第4学年内容（1）「都道府県の様子」に対応する候補。県の位置・地形・主な産業・交通網・主な都市などを扱う。個別の公式コードとの照合は未完了。"
       },
       "studentName": "都道府県の位置・地形と交通・産業",
       "studentDescription": "自分たちの都道府県が日本のどこにあり、どんな地形・産業・交通網・主な都市があるかを、地図や資料で調べよう。47都道府県の名前と位置も確かめよう。"
@@ -7327,7 +7327,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-social-guideline-2017",
-          "note": "文部科学省の社会編解説を参照したプロジェクト独自の候補。学年・公式内容との対応は確認中。"
+          "note": "文部科学省解説の第5学年内容（5）「我が国の国土の自然環境と国民生活との関連」のうち、公害の防止や生活環境の改善に対応する候補。公式コード照合は未完了。"
         }
       ],
       "curriculumStandards": [],
@@ -7338,8 +7338,8 @@
         "status": "candidate",
         "candidateFirstIntroductionGrade": 5,
         "candidateContinuingGrades": [],
-        "basis": "current-draft-grades",
-        "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
+        "basis": "mext-2017-social-content-structure-review-2026-10-20",
+        "note": "文部科学省解説の第5学年内容（5）「我が国の国土の自然環境と国民生活との関連」のうち、公害の防止や生活環境の改善に対応する候補。公式コード照合は未完了。"
       },
       "studentName": "環境を守るための取組",
       "studentDescription": "水や空気、自然を守るために、地域の人々や会社、自治体がどんな工夫をしているか調べよう。"
@@ -7357,7 +7357,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-social-guideline-2017",
-          "note": "文部科学省の社会編解説を参照したプロジェクト独自の候補。学年・公式内容との対応は確認中。"
+          "note": "文部科学省解説の第5学年内容（2）の運輸等と内容（3）の貿易・運輸の働きを横断してつなぐ候補。独立した公式内容項目ではなく、複数内容を結ぶ編集上の整理である。"
         }
       ],
       "curriculumStandards": [],
@@ -7368,8 +7368,8 @@
         "status": "candidate",
         "candidateFirstIntroductionGrade": 5,
         "candidateContinuingGrades": [],
-        "basis": "current-draft-grades",
-        "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
+        "basis": "mext-2017-social-content-structure-review-2026-10-20",
+        "note": "文部科学省解説の第5学年内容（2）の運輸等と内容（3）の貿易・運輸の働きを横断してつなぐ候補。独立した公式内容項目ではなく、複数内容を結ぶ編集上の整理である。"
       },
       "studentName": "交通や物流で地域はどうつながる？",
       "studentDescription": "交通や物流が、人・材料・製品をどのようにつなぎ、くらしや産業を支えているか考えよう。"
@@ -7387,7 +7387,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-social-guideline-2017",
-          "note": "文部科学省の社会編解説を参照したプロジェクト独自の候補。学年・公式内容との対応は確認中。"
+          "note": "文部科学省解説の第5学年内容（3）「我が国の工業生産」に対応する候補。製造・工業地域・工夫・貿易や運輸の扱いを継続確認する。公式コード照合は未完了。"
         }
       ],
       "curriculumStandards": [],
@@ -7398,8 +7398,8 @@
         "status": "candidate",
         "candidateFirstIntroductionGrade": 5,
         "candidateContinuingGrades": [],
-        "basis": "current-draft-grades",
-        "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
+        "basis": "mext-2017-social-content-structure-review-2026-10-20",
+        "note": "文部科学省解説の第5学年内容（3）「我が国の工業生産」に対応する候補。製造・工業地域・工夫・貿易や運輸の扱いを継続確認する。公式コード照合は未完了。"
       },
       "studentName": "工業製品はどう作られ、運ばれる？",
       "studentDescription": "材料がどのように製品になり、工場から店や使う人のもとへ運ばれるのか調べよう。"
@@ -7417,7 +7417,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-social-guideline-2017",
-          "note": "文部科学省解説の第5学年内容（5）「我が国の国土の自然環境と国民生活との関連」の自然災害に関する内容に対応する候補。公式コードとの照合は未完了。"
+          "note": "文部科学省解説の第5学年内容（5）「我が国の国土の自然環境と国民生活との関連」の自然災害に関する内容に対応する候補。第4学年の地域の対処・備えとは対象範囲を分ける。公式コード照合は未完了。"
         }
       ],
       "curriculumStandards": [],
@@ -7429,7 +7429,7 @@
         "candidateFirstIntroductionGrade": 5,
         "candidateContinuingGrades": [],
         "basis": "mext-2017-social-content-structure-review-2026-10-20",
-        "note": "文部科学省解説の第5学年内容（5）の自然災害と国土保全に関する内容に対応する候補。第4学年の地域防災とは対象範囲を分ける。公式コード照合は未完了。"
+        "note": "文部科学省解説の第5学年内容（5）「我が国の国土の自然環境と国民生活との関連」の自然災害に関する内容に対応する候補。第4学年の地域の対処・備えとは対象範囲を分ける。公式コード照合は未完了。"
       },
       "studentName": "自然災害から国土を守る取組",
       "studentDescription": "日本ではどんな自然災害が起こり、国や都道府県はどのように備えているのかを調べ、地形や気候などの自然の条件とのつながりを考えよう。"
@@ -7447,7 +7447,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-social-guideline-2017",
-          "note": "文部科学省の社会編解説を参照したプロジェクト独自の候補。学年・公式内容との対応は確認中。"
+          "note": "文部科学省解説の第5学年内容（1）「我が国の国土の様子と国民生活」に対応する候補。自然条件と人々の生活の関係を扱うプロジェクト独自のまとめ項目であり、公式コード照合は未完了。"
         }
       ],
       "curriculumStandards": [],
@@ -7458,8 +7458,8 @@
         "status": "candidate",
         "candidateFirstIntroductionGrade": 5,
         "candidateContinuingGrades": [],
-        "basis": "current-draft-grades",
-        "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
+        "basis": "mext-2017-social-content-structure-review-2026-10-20",
+        "note": "文部科学省解説の第5学年内容（1）「我が国の国土の様子と国民生活」に対応する候補。自然条件と人々の生活の関係を扱うプロジェクト独自のまとめ項目であり、公式コード照合は未完了。"
       },
       "studentName": "自然のようすと人々のくらし",
       "studentDescription": "地形や気候、自然の特徴と、人々の仕事や住まい方の工夫を地域ごとに比べよう。"
@@ -7477,7 +7477,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-social-guideline-2017",
-          "note": "文部科学省の社会編解説を参照したプロジェクト独自の候補。学年・公式内容との対応は確認中。"
+          "note": "文部科学省解説の第5学年内容（4）「我が国の情報産業や情報化した社会の様子」に対応する候補。情報産業と国民生活の関係・範囲を継続確認する。公式コード照合は未完了。"
         }
       ],
       "curriculumStandards": [],
@@ -7488,8 +7488,8 @@
         "status": "candidate",
         "candidateFirstIntroductionGrade": 5,
         "candidateContinuingGrades": [],
-        "basis": "current-draft-grades",
-        "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
+        "basis": "mext-2017-social-content-structure-review-2026-10-20",
+        "note": "文部科学省解説の第5学年内容（4）「我が国の情報産業や情報化した社会の様子」に対応する候補。情報産業と国民生活の関係・範囲を継続確認する。公式コード照合は未完了。"
       },
       "studentName": "情報はどのように作られ、届けられる？",
       "studentDescription": "新聞・テレビ・インターネットなどで情報がどのように集められ、確かめられ、人々に届けられるか調べよう。"
@@ -7507,7 +7507,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-social-guideline-2017",
-          "note": "文部科学省の社会編解説を参照したプロジェクト独自の候補。学年・公式内容との対応は確認中。"
+          "note": "文部科学省解説の第5学年内容（2）をつなぐプロジェクト独自のまとめ項目。食料生産と食生活の関係を整理するもので、公式の独立した内容項目とは区別し、コード照合は未完了。"
         }
       ],
       "curriculumStandards": [],
@@ -7518,8 +7518,8 @@
         "status": "candidate",
         "candidateFirstIntroductionGrade": 5,
         "candidateContinuingGrades": [],
-        "basis": "current-draft-grades",
-        "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
+        "basis": "mext-2017-social-content-structure-review-2026-10-20",
+        "note": "文部科学省解説の第5学年内容（2）をつなぐプロジェクト独自のまとめ項目。食料生産と食生活の関係を整理するもので、公式の独立した内容項目とは区別し、コード照合は未完了。"
       },
       "studentName": "食料生産とわたしたちのくらし",
       "studentDescription": "食べ物が生産され、運ばれ、わたしたちの食卓に届くまでをつなげて考えよう。"
@@ -7537,7 +7537,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-social-guideline-2017",
-          "note": "文部科学省の社会編解説を参照したプロジェクト独自の候補。学年・公式内容との対応は確認中。"
+          "note": "文部科学省解説の第5学年内容（5）「我が国の国土の自然環境と国民生活との関連」のうち、森林資源の働き・国土保全に対応する候補。公式コード照合は未完了。"
         }
       ],
       "curriculumStandards": [],
@@ -7548,8 +7548,8 @@
         "status": "candidate",
         "candidateFirstIntroductionGrade": 5,
         "candidateContinuingGrades": [],
-        "basis": "current-draft-grades",
-        "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
+        "basis": "mext-2017-social-content-structure-review-2026-10-20",
+        "note": "文部科学省解説の第5学年内容（5）「我が国の国土の自然環境と国民生活との関連」のうち、森林資源の働き・国土保全に対応する候補。公式コード照合は未完了。"
       },
       "studentName": "森林の働きと林業",
       "studentDescription": "森林が水や生き物、くらしを支える働きと、木を育てて使いながら森を守る工夫を考えよう。"
@@ -7567,7 +7567,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-social-guideline-2017",
-          "note": "文部科学省の社会編解説を参照したプロジェクト独自の候補。学年・公式内容との対応は確認中。"
+          "note": "文部科学省解説の第5学年内容（2）「我が国の農業や水産業」に対応する候補。水産業の生産と生産者の工夫を扱う。公式コード照合は未完了。"
         }
       ],
       "curriculumStandards": [],
@@ -7578,8 +7578,8 @@
         "status": "candidate",
         "candidateFirstIntroductionGrade": 5,
         "candidateContinuingGrades": [],
-        "basis": "current-draft-grades",
-        "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
+        "basis": "mext-2017-social-content-structure-review-2026-10-20",
+        "note": "文部科学省解説の第5学年内容（2）「我が国の農業や水産業」に対応する候補。水産業の生産と生産者の工夫を扱う。公式コード照合は未完了。"
       },
       "studentName": "水産物はどう生産され、届けられる？",
       "studentDescription": "魚や水産物がどのようにとられたり育てられたりし、加工・運搬されるのか調べ、資源を守る工夫も考えよう。"
@@ -7597,7 +7597,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-social-guideline-2017",
-          "note": "文部科学省の社会編解説を参照したプロジェクト独自の候補。学年・公式内容との対応は確認中。"
+          "note": "文部科学省解説の第5学年内容（1）「我が国の国土の様子と国民生活」に対応する候補。世界の主な大陸・海洋や国、日本の位置・領土を扱う。公式コード照合は未完了。"
         }
       ],
       "curriculumStandards": [],
@@ -7608,8 +7608,8 @@
         "status": "candidate",
         "candidateFirstIntroductionGrade": 5,
         "candidateContinuingGrades": [],
-        "basis": "current-draft-grades",
-        "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
+        "basis": "mext-2017-social-content-structure-review-2026-10-20",
+        "note": "文部科学省解説の第5学年内容（1）「我が国の国土の様子と国民生活」に対応する候補。世界の主な大陸・海洋や国、日本の位置・領土を扱う。公式コード照合は未完了。"
       },
       "studentName": "世界の中の日本と国土の広がり",
       "studentDescription": "世界地図や地球儀で大陸や海洋、主な国の位置を確かめ、日本の位置や島々・領土の広がりを調べよう。"
@@ -7627,7 +7627,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-social-guideline-2017",
-          "note": "文部科学省の社会編解説を参照したプロジェクト独自の候補。学年・公式内容との対応は確認中。"
+          "note": "文部科学省解説の第5学年内容（1）「我が国の国土の様子と国民生活」に対応する候補。国土の地形・気候と自然条件から見た地域の暮らしを扱う。公式コード照合は未完了。"
         }
       ],
       "curriculumStandards": [],
@@ -7638,8 +7638,8 @@
         "status": "candidate",
         "candidateFirstIntroductionGrade": 5,
         "candidateContinuingGrades": [],
-        "basis": "current-draft-grades",
-        "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
+        "basis": "mext-2017-social-content-structure-review-2026-10-20",
+        "note": "文部科学省解説の第5学年内容（1）「我が国の国土の様子と国民生活」に対応する候補。国土の地形・気候と自然条件から見た地域の暮らしを扱う。公式コード照合は未完了。"
       },
       "studentName": "日本の地形・気候と人々のくらし",
       "studentDescription": "日本の山地・平野・川や気候の特徴を調べ、人々のくらしとのつながりを考えよう。"
@@ -7657,7 +7657,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-social-guideline-2017",
-          "note": "文部科学省の社会編解説を参照したプロジェクト独自の候補。学年・公式内容との対応は確認中。"
+          "note": "文部科学省解説の第5学年内容（2）「我が国の農業や水産業」に対応する候補。農業の具体的な生産活動や生産者の工夫を扱う。公式コード照合は未完了。"
         }
       ],
       "curriculumStandards": [],
@@ -7668,8 +7668,8 @@
         "status": "candidate",
         "candidateFirstIntroductionGrade": 5,
         "candidateContinuingGrades": [],
-        "basis": "current-draft-grades",
-        "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
+        "basis": "mext-2017-social-content-structure-review-2026-10-20",
+        "note": "文部科学省解説の第5学年内容（2）「我が国の農業や水産業」に対応する候補。農業の具体的な生産活動や生産者の工夫を扱う。公式コード照合は未完了。"
       },
       "studentName": "農業の工夫と食料生産",
       "studentDescription": "農家がどのように作物を育て、機械や工夫を使い、収穫したものを届けているか調べよう。"
@@ -7687,7 +7687,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-social-guideline-2017",
-          "note": "文部科学省の社会編解説を参照したプロジェクト独自の候補。学年・公式内容との対応は確認中。"
+          "note": "文部科学省解説の第6学年内容（1）「我が国の歴史上の主な事象」に対応する時代別の候補。幕府の政策、町人文化、新しい学問などを扱うプロジェクト独自の分類であり、コード照合は未完了。"
         }
       ],
       "curriculumStandards": [],
@@ -7698,8 +7698,8 @@
         "status": "candidate",
         "candidateFirstIntroductionGrade": 6,
         "candidateContinuingGrades": [],
-        "basis": "current-draft-grades",
-        "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
+        "basis": "mext-2017-social-content-structure-review-2026-10-20",
+        "note": "文部科学省解説の第6学年内容（1）「我が国の歴史上の主な事象」に対応する時代別の候補。幕府の政策、町人文化、新しい学問などを扱うプロジェクト独自の分類であり、コード照合は未完了。"
       },
       "studentName": "江戸幕府の政治と人々のくらし",
       "studentDescription": "江戸幕府が政治を安定させた工夫や、参勤交代・鎖国などの政策、町人の文化や新しい学問を資料から調べよう。"
@@ -7717,7 +7717,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-social-guideline-2017",
-          "note": "文部科学省の社会編解説を参照したプロジェクト独自の候補。学年・公式内容との対応は確認中。"
+          "note": "文部科学省解説の第6学年内容（2）「我が国の政治の働き」に対応する候補。国会や法律の働きを扱うプロジェクト独自の細分化であり、公式コード照合は未完了。"
         }
       ],
       "curriculumStandards": [],
@@ -7728,8 +7728,8 @@
         "status": "candidate",
         "candidateFirstIntroductionGrade": 6,
         "candidateContinuingGrades": [],
-        "basis": "current-draft-grades",
-        "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
+        "basis": "mext-2017-social-content-structure-review-2026-10-20",
+        "note": "文部科学省解説の第6学年内容（2）「我が国の政治の働き」に対応する候補。国会や法律の働きを扱うプロジェクト独自の細分化であり、公式コード照合は未完了。"
       },
       "studentName": "国会はどんな働きをしている？",
       "studentDescription": "国会が法律を作ったり、国のお金の使い方を決めたりする働きを調べよう。"
@@ -7747,7 +7747,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-social-guideline-2017",
-          "note": "文部科学省の社会編解説を参照したプロジェクト独自の候補。学年・公式内容との対応は確認中。"
+          "note": "文部科学省解説の第6学年内容（3）「グローバル化する世界と日本の役割」に対応する候補。国々の生活や文化の違いの尊重、国際交流、国連と日本の国際協力を扱う。公式コード照合は未完了。"
         }
       ],
       "curriculumStandards": [],
@@ -7758,8 +7758,8 @@
         "status": "candidate",
         "candidateFirstIntroductionGrade": 6,
         "candidateContinuingGrades": [],
-        "basis": "current-draft-grades",
-        "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
+        "basis": "mext-2017-social-content-structure-review-2026-10-20",
+        "note": "文部科学省解説の第6学年内容（3）「グローバル化する世界と日本の役割」に対応する候補。国々の生活や文化の違いの尊重、国際交流、国連と日本の国際協力を扱う。公式コード照合は未完了。"
       },
       "studentName": "日本とつながりの深い国々のくらしと国際協力",
       "studentDescription": "日本とつながりの深い国の人々のくらしや文化を調べ、ちがいを尊重し合うこと、国際連合や日本の国際協力が平和な世界にどうつながるか考えよう。"
@@ -7777,7 +7777,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-social-guideline-2017",
-          "note": "文部科学省の社会編解説を参照したプロジェクト独自の候補。学年・公式内容との対応は確認中。"
+          "note": "文部科学省解説の第6学年内容（1）「我が国の歴史上の主な事象」に対応する時代別の候補。公式の独立した内容番号ではなく、キリスト教の伝来や天下統一などの事象をつなぐプロジェクト独自の分類であり、コード照合は未完了。"
         }
       ],
       "curriculumStandards": [],
@@ -7788,8 +7788,8 @@
         "status": "candidate",
         "candidateFirstIntroductionGrade": 6,
         "candidateContinuingGrades": [],
-        "basis": "current-draft-grades",
-        "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
+        "basis": "mext-2017-social-content-structure-review-2026-10-20",
+        "note": "文部科学省解説の第6学年内容（1）「我が国の歴史上の主な事象」に対応する時代別の候補。公式の独立した内容番号ではなく、キリスト教の伝来や天下統一などの事象をつなぐプロジェクト独自の分類であり、コード照合は未完了。"
       },
       "studentName": "戦国時代から全国統一へ",
       "studentDescription": "キリスト教が伝わったころ、織田信長や豊臣秀吉などがどのように戦国の世をまとめていったのか調べよう。"
@@ -7807,7 +7807,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-social-guideline-2017",
-          "note": "文部科学省の社会編解説を参照したプロジェクト独自の候補。学年・公式内容との対応は確認中。"
+          "note": "文部科学省解説の第6学年内容（1）「我が国の歴史上の主な事象」に対応する候補。戦争期の社会と人々の暮らしに焦点を置くプロジェクト独自の分類であり、戦後の改革は別項目として扱う。コード照合は未完了。"
         }
       ],
       "curriculumStandards": [],
@@ -7818,8 +7818,8 @@
         "status": "candidate",
         "candidateFirstIntroductionGrade": 6,
         "candidateContinuingGrades": [],
-        "basis": "current-draft-grades",
-        "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
+        "basis": "mext-2017-social-content-structure-review-2026-10-20",
+        "note": "文部科学省解説の第6学年内容（1）「我が国の歴史上の主な事象」に対応する候補。戦争期の社会と人々の暮らしに焦点を置くプロジェクト独自の分類であり、戦後の改革は別項目として扱う。コード照合は未完了。"
       },
       "studentName": "戦争と人々のくらし",
       "studentDescription": "戦争が広がった時代、人々のくらしがどう変わったのかを、写真や記録などの資料から考えよう。戦後の変化は、次の学習とつなげて考えよう。"
@@ -7837,7 +7837,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-social-guideline-2017",
-          "note": "文部科学省の社会編解説を参照したプロジェクト独自の候補。学年・公式内容との対応は確認中。"
+          "note": "文部科学省解説の第6学年内容（2）「我が国の政治の働き」に関連する候補。地方公共団体と住民の関係を扱う独自の整理であり、公式内容との細かな対応とコード照合は未完了。"
         }
       ],
       "curriculumStandards": [],
@@ -7848,8 +7848,8 @@
         "status": "candidate",
         "candidateFirstIntroductionGrade": 6,
         "candidateContinuingGrades": [],
-        "basis": "current-draft-grades",
-        "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
+        "basis": "mext-2017-social-content-structure-review-2026-10-20",
+        "note": "文部科学省解説の第6学年内容（2）「我が国の政治の働き」に関連する候補。地方公共団体と住民の関係を扱う独自の整理であり、公式内容との細かな対応とコード照合は未完了。"
       },
       "studentName": "地方公共団体と住民のくらし",
       "studentDescription": "市や町などの自治体がどんな仕事をし、地域のことを決めるとき住民がどう関わるか調べよう。"
@@ -7867,7 +7867,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-social-guideline-2017",
-          "note": "文部科学省の社会編解説を参照したプロジェクト独自の候補。学年・公式内容との対応は確認中。"
+          "note": "文部科学省解説の第6学年内容（2）「我が国の政治の働き」に対応する候補。内閣・行政・裁判所の役割を整理するプロジェクト独自の細分化であり、公式コード照合は未完了。"
         }
       ],
       "curriculumStandards": [],
@@ -7878,8 +7878,8 @@
         "status": "candidate",
         "candidateFirstIntroductionGrade": 6,
         "candidateContinuingGrades": [],
-        "basis": "current-draft-grades",
-        "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
+        "basis": "mext-2017-social-content-structure-review-2026-10-20",
+        "note": "文部科学省解説の第6学年内容（2）「我が国の政治の働き」に対応する候補。内閣・行政・裁判所の役割を整理するプロジェクト独自の細分化であり、公式コード照合は未完了。"
       },
       "studentName": "内閣・裁判所などの働きと役割",
       "studentDescription": "内閣が政治を進め、裁判所が争いを判断するなど、国の政治がどのような仕組みで進むのか調べよう。"
@@ -7897,7 +7897,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-social-guideline-2017",
-          "note": "文部科学省の社会編解説を参照したプロジェクト独自の候補。学年・公式内容との対応は確認中。"
+          "note": "文部科学省解説の第6学年内容（1）「我が国の歴史上の主な事象」に対応する時代別の候補。公式の独立した内容番号ではなく、代表的な歴史的事象・人物・文化をつなぐプロジェクト独自の分類であり、コード照合は未完了。"
         }
       ],
       "curriculumStandards": [],
@@ -7908,8 +7908,8 @@
         "status": "candidate",
         "candidateFirstIntroductionGrade": 6,
         "candidateContinuingGrades": [],
-        "basis": "current-draft-grades",
-        "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
+        "basis": "mext-2017-social-content-structure-review-2026-10-20",
+        "note": "文部科学省解説の第6学年内容（1）「我が国の歴史上の主な事象」に対応する時代別の候補。公式の独立した内容番号ではなく、代表的な歴史的事象・人物・文化をつなぐプロジェクト独自の分類であり、コード照合は未完了。"
       },
       "studentName": "日本の国の始まりと古代の文化",
       "studentDescription": "昔の道具や遺跡、人物、文化財から、日本の国ができたころや大陸から伝わった文化、古代の人々のくらしを調べよう。"
@@ -7927,7 +7927,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-social-guideline-2017",
-          "note": "文部科学省の社会編解説を参照したプロジェクト独自の候補。学年・公式内容との対応は確認中。"
+          "note": "文部科学省解説の第6学年内容（1）「我が国の歴史上の主な事象」に対応する候補。戦後の改革・日本国憲法・国民生活の向上を扱うプロジェクト独自の分類であり、公式の独立内容項目とは区別し、コード照合は未完了。"
         }
       ],
       "curriculumStandards": [],
@@ -7938,8 +7938,8 @@
         "status": "candidate",
         "candidateFirstIntroductionGrade": 6,
         "candidateContinuingGrades": [],
-        "basis": "current-draft-grades",
-        "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
+        "basis": "mext-2017-social-content-structure-review-2026-10-20",
+        "note": "文部科学省解説の第6学年内容（1）「我が国の歴史上の主な事象」に対応する候補。戦後の改革・日本国憲法・国民生活の向上を扱うプロジェクト独自の分類であり、公式の独立内容項目とは区別し、コード照合は未完了。"
       },
       "studentName": "戦後の日本とくらしの変化",
       "studentDescription": "戦後、日本国憲法ができて社会やくらしがどう変わったかを調べよう。オリンピックなどの出来事も手掛かりに、日本の発展を考えよう。"
@@ -7957,7 +7957,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-social-guideline-2017",
-          "note": "文部科学省の社会編解説を参照したプロジェクト独自の候補。学年・公式内容との対応は確認中。"
+          "note": "文部科学省解説の第6学年内容（2）「我が国の政治の働き」に対応する候補。憲法の基本原則を政治の仕組みと関連づけるプロジェクト独自の細分化であり、公式コード照合は未完了。"
         }
       ],
       "curriculumStandards": [],
@@ -7968,8 +7968,8 @@
         "status": "candidate",
         "candidateFirstIntroductionGrade": 6,
         "candidateContinuingGrades": [],
-        "basis": "current-draft-grades",
-        "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
+        "basis": "mext-2017-social-content-structure-review-2026-10-20",
+        "note": "文部科学省解説の第6学年内容（2）「我が国の政治の働き」に対応する候補。憲法の基本原則を政治の仕組みと関連づけるプロジェクト独自の細分化であり、公式コード照合は未完了。"
       },
       "studentName": "日本国憲法と、くらしを支える政治",
       "studentDescription": "日本国憲法が大切にしている考え方と、それが国の政治や私たちのくらしにどう関わるか考えよう。"
@@ -7987,7 +7987,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-social-guideline-2017",
-          "note": "文部科学省の社会編解説を参照したプロジェクト独自の候補。学年・公式内容との対応は確認中。"
+          "note": "文部科学省解説の第6学年内容（1）「我が国の歴史上の主な事象」に対応する時代別の候補。公式の独立した内容番号ではなく、代表的な歴史的事象・人物・文化をつなぐプロジェクト独自の分類であり、コード照合は未完了。"
         }
       ],
       "curriculumStandards": [],
@@ -7998,8 +7998,8 @@
         "status": "candidate",
         "candidateFirstIntroductionGrade": 6,
         "candidateContinuingGrades": [],
-        "basis": "current-draft-grades",
-        "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
+        "basis": "mext-2017-social-content-structure-review-2026-10-20",
+        "note": "文部科学省解説の第6学年内容（1）「我が国の歴史上の主な事象」に対応する時代別の候補。公式の独立した内容番号ではなく、代表的な歴史的事象・人物・文化をつなぐプロジェクト独自の分類であり、コード照合は未完了。"
       },
       "studentName": "武士の登場と政治・社会の変化",
       "studentDescription": "源平の戦いや鎌倉幕府、元との戦い、室町時代の建物や絵画などを調べ、武士の政治や文化がどう変わったか考えよう。"
@@ -8017,7 +8017,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-social-guideline-2017",
-          "note": "文部科学省の社会編解説を参照したプロジェクト独自の候補。学年・公式内容との対応は確認中。"
+          "note": "文部科学省解説の第6学年内容（1）「我が国の歴史上の主な事象」に対応する時代別の候補。明治の改革、憲法制定、対外戦争、条約改正などを扱うプロジェクト独自の分類であり、コード照合は未完了。"
         }
       ],
       "curriculumStandards": [],
@@ -8028,8 +8028,8 @@
         "status": "candidate",
         "candidateFirstIntroductionGrade": 6,
         "candidateContinuingGrades": [],
-        "basis": "current-draft-grades",
-        "note": "社会タクソノミー草案の候補学年。公式の学年配当と内容項目への照合は継続中。"
+        "basis": "mext-2017-social-content-structure-review-2026-10-20",
+        "note": "文部科学省解説の第6学年内容（1）「我が国の歴史上の主な事象」に対応する時代別の候補。明治の改革、憲法制定、対外戦争、条約改正などを扱うプロジェクト独自の分類であり、コード照合は未完了。"
       },
       "studentName": "明治の改革と近代日本の発展",
       "studentDescription": "黒船の来航から明治維新・文明開化への変化や、憲法の制定、日清・日露戦争、条約改正、科学の発展を調べ、日本の国づくりと世界との関わりを考えよう。"
