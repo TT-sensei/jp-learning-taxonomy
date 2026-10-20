@@ -3,7 +3,7 @@
   "status": "mapping-in-progress",
   "sourceId": "mext-elementary-curriculum-code-table-82v12",
   "officialVersion": "82V12",
-  "description": "プロジェクト独自の学習項目と文部科学省の学習指導要領コードを対応付けるための表。公式コードを実データと照合するまでは未確認のコードを推測で記入しない。",
+  "description": "プロジェクト独自の学習項目と文部科学省の学習指導要領コードを対応付ける表。candidateCodeは学習指導要領LOD（82V11）等から得た候補で、82V12公式表との最終照合前。verifiedCodeのみを確認済みコードとして扱う。独自の技能・横断項目には無理にコードを付けない。",
   "mappings": [
     {
       "topicId": "jp.elem.japanese.ask-and-clarify",
@@ -1617,355 +1617,355 @@
     },
     {
       "topicId": "jp.elem.social.agriculture",
-      "matchStatus": "not-checked",
-      "candidateCode": null,
+      "matchStatus": "candidate",
+      "candidateCode": "8220253200000000",
       "verifiedCode": null,
-      "sourceId": "mext-elementary-social-guideline-2017",
-      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
+      "note": "第5学年内容(2)の親項目コード候補。農業・食料生産への対応候補。LOD出典版82V11。 82V12公式CSV/Excelとの最終照合前の候補。verifiedCodeには登録しない。"
     },
     {
       "topicId": "jp.elem.social.ancient-japan",
-      "matchStatus": "not-checked",
-      "candidateCode": null,
+      "matchStatus": "candidate",
+      "candidateCode": "8220263200000000",
       "verifiedCode": null,
-      "sourceId": "mext-elementary-social-guideline-2017",
-      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
+      "note": "第6学年内容(2)の親項目コード候補。古代の内容は独自の時代別整理。LOD出典版82V11。 82V12公式CSV/Excelとの最終照合前の候補。verifiedCodeには登録しない。"
     },
     {
       "topicId": "jp.elem.social.community-predecessors",
-      "matchStatus": "not-checked",
-      "candidateCode": null,
+      "matchStatus": "candidate",
+      "candidateCode": "8220242400000000",
       "verifiedCode": null,
-      "sourceId": "mext-elementary-social-guideline-2017",
-      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
+      "note": "第4学年内容(4)の親項目コード候補。LODの出典版は82V11で、82V12コードとしては未確定。 82V12公式CSV/Excelとの最終照合前の候補。verifiedCodeには登録しない。"
     },
     {
       "topicId": "jp.elem.social.compare-regions",
-      "matchStatus": "not-checked",
+      "matchStatus": "no-direct-match",
       "candidateCode": null,
       "verifiedCode": null,
-      "sourceId": "mext-elementary-social-guideline-2017",
-      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
+      "note": "プロジェクト独自の技能・横断項目または複数内容を結ぶ項目。公式の独立した内容項目との一対一対応は想定せず、直接対応する公式コードは付けない。"
     },
     {
       "topicId": "jp.elem.social.constitution",
-      "matchStatus": "not-checked",
-      "candidateCode": null,
+      "matchStatus": "candidate",
+      "candidateCode": "8220263100000000",
       "verifiedCode": null,
-      "sourceId": "mext-elementary-social-guideline-2017",
-      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
+      "note": "第6学年内容(1)の親項目コード候補。憲法への細分化は独自。LOD出典版82V11。 82V12公式CSV/Excelとの最終照合前の候補。verifiedCodeには登録しない。"
     },
     {
       "topicId": "jp.elem.social.decision-civic",
-      "matchStatus": "not-checked",
+      "matchStatus": "no-direct-match",
       "candidateCode": null,
       "verifiedCode": null,
-      "sourceId": "mext-elementary-social-guideline-2017",
-      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
+      "note": "プロジェクト独自の技能・横断項目または複数内容を結ぶ項目。公式の独立した内容項目との一対一対応は想定せず、直接対応する公式コードは付けない。"
     },
     {
       "topicId": "jp.elem.social.diet",
-      "matchStatus": "not-checked",
-      "candidateCode": null,
+      "matchStatus": "candidate",
+      "candidateCode": "8220263100000000",
       "verifiedCode": null,
-      "sourceId": "mext-elementary-social-guideline-2017",
-      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
+      "note": "第6学年内容(1)の親項目コード候補。国会・選挙の細分化は独自。LOD出典版82V11。 82V12公式CSV/Excelとの最終照合前の候補。verifiedCodeには登録しない。"
     },
     {
       "topicId": "jp.elem.social.disaster-prevention",
-      "matchStatus": "not-checked",
-      "candidateCode": null,
+      "matchStatus": "candidate",
+      "candidateCode": "8220242300000000",
       "verifiedCode": null,
-      "sourceId": "mext-elementary-social-guideline-2017",
-      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
+      "note": "第4学年内容(3)の親項目コード候補。LODの出典版は82V11で、82V12コードとしては未確定。 82V12公式CSV/Excelとの最終照合前の候補。verifiedCodeには登録しない。"
     },
     {
       "topicId": "jp.elem.social.edo-society",
-      "matchStatus": "not-checked",
-      "candidateCode": null,
+      "matchStatus": "candidate",
+      "candidateCode": "8220263200000000",
       "verifiedCode": null,
-      "sourceId": "mext-elementary-social-guideline-2017",
-      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
+      "note": "第6学年内容(2)の親項目コード候補。江戸時代の項目はプロジェクト独自の時代別整理。LOD出典版82V11。 82V12公式CSV/Excelとの最終照合前の候補。verifiedCodeには登録しない。"
     },
     {
       "topicId": "jp.elem.social.environment-protection",
-      "matchStatus": "not-checked",
-      "candidateCode": null,
+      "matchStatus": "candidate",
+      "candidateCode": "8220253500000000",
       "verifiedCode": null,
-      "sourceId": "mext-elementary-social-guideline-2017",
-      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
+      "note": "第5学年内容(5)の親項目コード候補。公害防止・生活環境への対応候補で、森林資源等の別項目とは分離要。LOD出典版82V11。 82V12公式CSV/Excelとの最終照合前の候補。verifiedCodeには登録しない。"
     },
     {
       "topicId": "jp.elem.social.evidence-explanation",
-      "matchStatus": "not-checked",
+      "matchStatus": "no-direct-match",
       "candidateCode": null,
       "verifiedCode": null,
-      "sourceId": "mext-elementary-social-guideline-2017",
-      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
+      "note": "プロジェクト独自の技能・横断項目または複数内容を結ぶ項目。公式の独立した内容項目との一対一対応は想定せず、直接対応する公式コードは付けない。"
     },
     {
       "topicId": "jp.elem.social.fieldwork-interview",
-      "matchStatus": "not-checked",
+      "matchStatus": "no-direct-match",
       "candidateCode": null,
       "verifiedCode": null,
-      "sourceId": "mext-elementary-social-guideline-2017",
-      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
+      "note": "プロジェクト独自の技能・横断項目または複数内容を結ぶ項目。公式の独立した内容項目との一対一対応は想定せず、直接対応する公式コードは付けない。"
     },
     {
       "topicId": "jp.elem.social.firefighting",
-      "matchStatus": "not-checked",
-      "candidateCode": null,
+      "matchStatus": "candidate",
+      "candidateCode": "8220232300000000",
       "verifiedCode": null,
-      "sourceId": "mext-elementary-social-guideline-2017",
-      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
+      "note": "第3学年内容(3)「地域の安全を守る働き」の親項目コード候補。消防への細分化はプロジェクト独自。LOD出典版82V11。 82V12公式CSV/Excelとの最終照合前の候補。verifiedCodeには登録しない。"
     },
     {
       "topicId": "jp.elem.social.fisheries",
-      "matchStatus": "not-checked",
-      "candidateCode": null,
+      "matchStatus": "candidate",
+      "candidateCode": "8220253200000000",
       "verifiedCode": null,
-      "sourceId": "mext-elementary-social-guideline-2017",
-      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
+      "note": "第5学年内容(2)の親項目コード候補。水産業は選択事例の一つであり、独立した公式項目との対応は未確定。LOD出典版82V11。 82V12公式CSV/Excelとの最終照合前の候補。verifiedCodeには登録しない。"
     },
     {
       "topicId": "jp.elem.social.food-life",
-      "matchStatus": "not-checked",
-      "candidateCode": null,
+      "matchStatus": "candidate",
+      "candidateCode": "8220253200000000",
       "verifiedCode": null,
-      "sourceId": "mext-elementary-social-guideline-2017",
-      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
+      "note": "第5学年内容(2)をまとめる独自項目。親項目コード候補であり、一対一の公式項目ではない。LOD出典版82V11。 82V12公式CSV/Excelとの最終照合前の候補。verifiedCodeには登録しない。"
     },
     {
       "topicId": "jp.elem.social.forestry",
-      "matchStatus": "not-checked",
-      "candidateCode": null,
+      "matchStatus": "candidate",
+      "candidateCode": "8220253500000000",
       "verifiedCode": null,
-      "sourceId": "mext-elementary-social-guideline-2017",
-      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
+      "note": "第5学年内容(5)の親項目コード候補。森林資源の下位内容に対応する候補。LOD出典版82V11。 82V12公式CSV/Excelとの最終照合前の候補。verifiedCodeには登録しない。"
     },
     {
       "topicId": "jp.elem.social.government-courts",
-      "matchStatus": "not-checked",
-      "candidateCode": null,
+      "matchStatus": "candidate",
+      "candidateCode": "8220263100000000",
       "verifiedCode": null,
-      "sourceId": "mext-elementary-social-guideline-2017",
-      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
+      "note": "第6学年内容(1)の親項目コード候補。三権の細分化は独自。LOD出典版82V11。 82V12公式CSV/Excelとの最終照合前の候補。verifiedCodeには登録しない。"
     },
     {
       "topicId": "jp.elem.social.industrial-production",
-      "matchStatus": "not-checked",
-      "candidateCode": null,
+      "matchStatus": "candidate",
+      "candidateCode": "8220253300000000",
       "verifiedCode": null,
-      "sourceId": "mext-elementary-social-guideline-2017",
-      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
+      "note": "第5学年内容(3)「我が国の工業生産」の親項目コード候補。LOD出典版82V11。 82V12公式CSV/Excelとの最終照合前の候補。verifiedCodeには登録しない。"
     },
     {
       "topicId": "jp.elem.social.information-industry",
-      "matchStatus": "not-checked",
-      "candidateCode": null,
+      "matchStatus": "candidate",
+      "candidateCode": "8220253400000000",
       "verifiedCode": null,
-      "sourceId": "mext-elementary-social-guideline-2017",
-      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
+      "note": "第5学年内容(4)の親項目コード候補。LOD出典版82V11。 82V12公式CSV/Excelとの最終照合前の候補。verifiedCodeには登録しない。"
     },
     {
       "topicId": "jp.elem.social.international-relations",
-      "matchStatus": "not-checked",
-      "candidateCode": null,
+      "matchStatus": "candidate",
+      "candidateCode": "8220263300000000",
       "verifiedCode": null,
-      "sourceId": "mext-elementary-social-guideline-2017",
-      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
+      "note": "第6学年内容(3)の親項目コード候補。LOD出典版82V11。 82V12公式CSV/Excelとの最終照合前の候補。verifiedCodeには登録しない。"
     },
     {
       "topicId": "jp.elem.social.japan-landforms-climate",
-      "matchStatus": "not-checked",
-      "candidateCode": null,
+      "matchStatus": "candidate",
+      "candidateCode": "8220253100000000",
       "verifiedCode": null,
-      "sourceId": "mext-elementary-social-guideline-2017",
-      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
+      "note": "第5学年内容(1)の親項目コード候補。地形・気候の下位項目への対応候補。LOD出典版82V11。 82V12公式CSV/Excelとの最終照合前の候補。verifiedCodeには登録しない。"
     },
     {
       "topicId": "jp.elem.social.japan-location",
-      "matchStatus": "not-checked",
-      "candidateCode": null,
+      "matchStatus": "candidate",
+      "candidateCode": "8220253100000000",
       "verifiedCode": null,
-      "sourceId": "mext-elementary-social-guideline-2017",
-      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
+      "note": "第5学年内容(1)の親項目コード候補。国土の位置・構成の下位項目への対応候補。LOD出典版82V11。 82V12公式CSV/Excelとの最終照合前の候補。verifiedCodeには登録しない。"
     },
     {
       "topicId": "jp.elem.social.local-area",
-      "matchStatus": "not-checked",
-      "candidateCode": null,
+      "matchStatus": "candidate",
+      "candidateCode": "8220232100000000",
       "verifiedCode": null,
-      "sourceId": "mext-elementary-social-guideline-2017",
-      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
+      "note": "第3学年内容(1)の親項目コード候補。LODの出典版は82V11で、82V12コードとしては未確定。 82V12公式CSV/Excelとの最終照合前の候補。verifiedCodeには登録しない。"
     },
     {
       "topicId": "jp.elem.social.local-government",
-      "matchStatus": "not-checked",
-      "candidateCode": null,
+      "matchStatus": "candidate",
+      "candidateCode": "8220263100000000",
       "verifiedCode": null,
-      "sourceId": "mext-elementary-social-guideline-2017",
-      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
+      "note": "第6学年内容(1)の親項目コード候補。政治の働きの細分化は独自。LOD出典版82V11。 82V12公式CSV/Excelとの最終照合前の候補。verifiedCodeには登録しない。"
     },
     {
       "topicId": "jp.elem.social.local-map",
-      "matchStatus": "not-checked",
+      "matchStatus": "no-direct-match",
       "candidateCode": null,
       "verifiedCode": null,
-      "sourceId": "mext-elementary-social-guideline-2017",
-      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
+      "note": "プロジェクト独自の技能・横断項目または複数内容を結ぶ項目。公式の独立した内容項目との一対一対応は想定せず、直接対応する公式コードは付けない。"
     },
     {
       "topicId": "jp.elem.social.maps-globes",
-      "matchStatus": "not-checked",
+      "matchStatus": "no-direct-match",
       "candidateCode": null,
       "verifiedCode": null,
-      "sourceId": "mext-elementary-social-guideline-2017",
-      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
+      "note": "プロジェクト独自の技能・横断項目または複数内容を結ぶ項目。公式の独立した内容項目との一対一対応は想定せず、直接対応する公式コードは付けない。"
     },
     {
       "topicId": "jp.elem.social.medieval-japan",
-      "matchStatus": "not-checked",
-      "candidateCode": null,
+      "matchStatus": "candidate",
+      "candidateCode": "8220263200000000",
       "verifiedCode": null,
-      "sourceId": "mext-elementary-social-guideline-2017",
-      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
+      "note": "第6学年内容(2)の親項目コード候補。中世の内容は独自の時代別整理。LOD出典版82V11。 82V12公式CSV/Excelとの最終照合前の候補。verifiedCodeには登録しない。"
     },
     {
       "topicId": "jp.elem.social.modernization",
-      "matchStatus": "not-checked",
-      "candidateCode": null,
+      "matchStatus": "candidate",
+      "candidateCode": "8220263200000000",
       "verifiedCode": null,
-      "sourceId": "mext-elementary-social-guideline-2017",
-      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
+      "note": "第6学年内容(2)の親項目コード候補。近代の内容は独自の時代別整理。LOD出典版82V11. 82V12公式CSV/Excelとの最終照合前の候補。verifiedCodeには登録しない。"
     },
     {
       "topicId": "jp.elem.social.municipality-change",
-      "matchStatus": "not-checked",
-      "candidateCode": null,
+      "matchStatus": "candidate",
+      "candidateCode": "8220232400000000",
       "verifiedCode": null,
-      "sourceId": "mext-elementary-social-guideline-2017",
-      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
+      "note": "第3学年内容(4)の親項目コード候補。LODの出典版は82V11で、82V12コードとしては未確定。 82V12公式CSV/Excelとの最終照合前の候補。verifiedCodeには登録しない。"
     },
     {
       "topicId": "jp.elem.social.municipality-work",
-      "matchStatus": "not-checked",
-      "candidateCode": null,
+      "matchStatus": "candidate",
+      "candidateCode": "8220232200000000",
       "verifiedCode": null,
-      "sourceId": "mext-elementary-social-guideline-2017",
-      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
+      "note": "第3学年内容(2)の親項目コード候補。LODの出典版は82V11で、82V12コードとしては未確定。 82V12公式CSV/Excelとの最終照合前の候補。verifiedCodeには登録しない。"
     },
     {
       "topicId": "jp.elem.social.national-disaster-prevention",
-      "matchStatus": "not-checked",
-      "candidateCode": null,
+      "matchStatus": "candidate",
+      "candidateCode": "8220253500000000",
       "verifiedCode": null,
-      "sourceId": "mext-elementary-social-guideline-2017",
-      "note": "社会の候補項目。文部科学省解説第5学年内容（5）の自然災害・国土保全に関する学習に対応する候補。公式コード表の実データとの照合は未実施。"
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
+      "note": "第5学年内容(5)の親項目コード候補。自然災害・国土保全への対応候補。LOD出典版82V11。 82V12公式CSV/Excelとの最終照合前の候補。verifiedCodeには登録しない。"
     },
     {
       "topicId": "jp.elem.social.natural-environment-life",
-      "matchStatus": "not-checked",
-      "candidateCode": null,
+      "matchStatus": "candidate",
+      "candidateCode": "8220253100000000",
       "verifiedCode": null,
-      "sourceId": "mext-elementary-social-guideline-2017",
-      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
+      "note": "第5学年内容(1)をまとめる独自項目。親項目コードの候補であり、一対一の公式項目ではない。LOD出典版82V11。 82V12公式CSV/Excelとの最終照合前の候補。verifiedCodeには登録しない。"
     },
     {
       "topicId": "jp.elem.social.police-safety",
-      "matchStatus": "not-checked",
-      "candidateCode": null,
+      "matchStatus": "candidate",
+      "candidateCode": "8220232300000000",
       "verifiedCode": null,
-      "sourceId": "mext-elementary-social-guideline-2017",
-      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
+      "note": "第3学年内容(3)「地域の安全を守る働き」の親項目コード候補。事故・防犯への細分化はプロジェクト独自。LOD出典版82V11。 82V12公式CSV/Excelとの最終照合前の候補。verifiedCodeには登録しない。"
     },
     {
       "topicId": "jp.elem.social.postwar-japan",
-      "matchStatus": "not-checked",
-      "candidateCode": null,
+      "matchStatus": "candidate",
+      "candidateCode": "8220263200000000",
       "verifiedCode": null,
-      "sourceId": "mext-elementary-social-guideline-2017",
-      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
+      "note": "第6学年内容(2)の親項目コード候補。戦後の出発への対応候補。LOD出典版82V11。 82V12公式CSV/Excelとの最終照合前の候補。verifiedCodeには登録しない。"
     },
     {
       "topicId": "jp.elem.social.prefecture-culture",
-      "matchStatus": "not-checked",
-      "candidateCode": null,
+      "matchStatus": "candidate",
+      "candidateCode": "8220242400000000",
       "verifiedCode": null,
-      "sourceId": "mext-elementary-social-guideline-2017",
-      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
+      "note": "第4学年内容(4)の親項目コード候補。文化・年中行事への細分化は独自。LOD出典版82V11。 82V12公式CSV/Excelとの最終照合前の候補。verifiedCodeには登録しない。"
     },
     {
       "topicId": "jp.elem.social.prefecture-industry",
-      "matchStatus": "not-checked",
-      "candidateCode": null,
+      "matchStatus": "candidate",
+      "candidateCode": "8220242500000000",
       "verifiedCode": null,
-      "sourceId": "mext-elementary-social-guideline-2017",
-      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
+      "note": "第4学年内容(5)の親項目コード候補。LODの出典版は82V11で、82V12コードとしては未確定。 82V12公式CSV/Excelとの最終照合前の候補。verifiedCodeには登録しない。"
     },
     {
       "topicId": "jp.elem.social.prefecture-land",
-      "matchStatus": "not-checked",
-      "candidateCode": null,
+      "matchStatus": "candidate",
+      "candidateCode": "8220242100000000",
       "verifiedCode": null,
-      "sourceId": "mext-elementary-social-guideline-2017",
-      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
+      "note": "第4学年内容(1)の親項目コード候補。LODの出典版は82V11で、82V12コードとしては未確定。 82V12公式CSV/Excelとの最終照合前の候補。verifiedCodeには登録しない。"
     },
     {
       "topicId": "jp.elem.social.statistics-graphs",
-      "matchStatus": "not-checked",
+      "matchStatus": "no-direct-match",
       "candidateCode": null,
       "verifiedCode": null,
-      "sourceId": "mext-elementary-social-guideline-2017",
-      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
+      "note": "プロジェクト独自の技能・横断項目または複数内容を結ぶ項目。公式の独立した内容項目との一対一対応は想定せず、直接対応する公式コードは付けない。"
     },
     {
       "topicId": "jp.elem.social.timeline-sources",
-      "matchStatus": "not-checked",
+      "matchStatus": "no-direct-match",
       "candidateCode": null,
       "verifiedCode": null,
-      "sourceId": "mext-elementary-social-guideline-2017",
-      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
+      "note": "プロジェクト独自の技能・横断項目または複数内容を結ぶ項目。公式の独立した内容項目との一対一対応は想定せず、直接対応する公式コードは付けない。"
     },
     {
       "topicId": "jp.elem.social.transport-trade",
-      "matchStatus": "not-checked",
+      "matchStatus": "no-direct-match",
       "candidateCode": null,
       "verifiedCode": null,
-      "sourceId": "mext-elementary-social-guideline-2017",
-      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
+      "note": "プロジェクト独自の技能・横断項目または複数内容を結ぶ項目。公式の独立した内容項目との一対一対応は想定せず、直接対応する公式コードは付けない。"
     },
     {
       "topicId": "jp.elem.social.unification",
-      "matchStatus": "not-checked",
-      "candidateCode": null,
+      "matchStatus": "candidate",
+      "candidateCode": "8220263200000000",
       "verifiedCode": null,
-      "sourceId": "mext-elementary-social-guideline-2017",
-      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
+      "note": "第6学年内容(2)の親項目コード候補。戦国の世の統一は独自の時代別整理。LOD出典版82V11。 82V12公式CSV/Excelとの最終照合前の候補。verifiedCodeには登録しない。"
     },
     {
       "topicId": "jp.elem.social.war-and-recovery",
-      "matchStatus": "not-checked",
-      "candidateCode": null,
+      "matchStatus": "candidate",
+      "candidateCode": "8220263200000000",
       "verifiedCode": null,
-      "sourceId": "mext-elementary-social-guideline-2017",
-      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
+      "note": "第6学年内容(2)の親項目コード候補。戦争と人々の暮らしは独自の時代別整理。LOD出典版82V11。 82V12公式CSV/Excelとの最終照合前の候補。verifiedCodeには登録しない。"
     },
     {
       "topicId": "jp.elem.social.waste-management",
-      "matchStatus": "not-checked",
-      "candidateCode": null,
+      "matchStatus": "candidate",
+      "candidateCode": "8220242200000000",
       "verifiedCode": null,
-      "sourceId": "mext-elementary-social-guideline-2017",
-      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
+      "note": "第4学年内容(2)「人々の健康や生活環境を支える事業」の親項目コード候補。廃棄物処理への細分化は独自。LOD出典版82V11。 82V12公式CSV/Excelとの最終照合前の候補。verifiedCodeには登録しない。"
     },
     {
       "topicId": "jp.elem.social.water-supply",
-      "matchStatus": "not-checked",
-      "candidateCode": null,
+      "matchStatus": "candidate",
+      "candidateCode": "8220242200000000",
       "verifiedCode": null,
-      "sourceId": "mext-elementary-social-guideline-2017",
-      "note": "社会の候補項目。公式コード表の実データとの照合は未実施。"
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
+      "note": "第4学年内容(2)「人々の健康や生活環境を支える事業」の親項目コード候補。供給事業への細分化は独自。LOD出典版82V11。 82V12公式CSV/Excelとの最終照合前の候補。verifiedCodeには登録しない。"
     },
     {
       "topicId": "jp.elem.math.division-algorithm",
