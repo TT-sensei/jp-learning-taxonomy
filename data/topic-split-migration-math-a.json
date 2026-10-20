@@ -1,7 +1,7 @@
 {
   "schemaVersion": "0.1.0",
   "title": "算数「数と計算」分割案の移行設計",
-  "updatedAt": "2026-10-19",
+  "updatedAt": "2026-10-21",
   "status": "applied-with-legacy-parents",
   "purpose": "分割案の移行先と学習関係を記録する。分割対象の子項目と関係の一部は topics.json / dependencies.json に反映済み。旧親IDは互換性のため維持する。",
   "principles": [
@@ -18,7 +18,8 @@
         "jp.elem.math.unknown-number-solve",
         "jp.elem.math.unknown-number-relationships"
       ],
-      "note": "式の表現からの関係は、まず□を使った式の表現へ移す候補。"
+      "note": "式の表現からの関係は、まず□を使った式の表現へ移す候補。",
+      "rationale": "分割理由：学年により式の意味、数量関係の表現、未知数の求め方が異なる。第6学年の文字式は既存の別項目として分けておく。"
     },
     {
       "parentTopicId": "jp.elem.math.decimal-fraction-connections",
@@ -27,7 +28,8 @@
         "jp.elem.math.decimal-fraction-numberline",
         "jp.elem.math.decimal-fraction-equivalence"
       ],
-      "note": "小数の位取り・分数の大小比較からの関係を、内容に合う子に限定する。"
+      "note": "小数の位取り・分数の大小比較からの関係を、内容に合う子に限定する。",
+      "rationale": "分割理由：小数と分数の初歩的な関係、数直線上での位置、同値表現は学年や意味が異なる。"
     },
     {
       "parentTopicId": "jp.elem.math.calculation-properties",
@@ -38,7 +40,8 @@
       "preserveExistingTopicIds": [
         "jp.elem.math.multiplication-properties"
       ],
-      "note": "乗法の性質は既存項目を再利用し、重複を作らない。"
+      "note": "乗法の性質は既存項目を再利用し、重複を作らない。",
+      "rationale": "分割理由：交換法則・結合法則・分配法則は扱う学年と計算への適用が異なる。乗法の性質は既存項目を再利用して重複を避ける。"
     },
     {
       "parentTopicId": "jp.elem.math.multidigit-multiplication",
@@ -46,7 +49,8 @@
         "jp.elem.math.multidigit-multiply-one-digit",
         "jp.elem.math.multidigit-multiply-two-digit"
       ],
-      "note": "九九からの関係は1位数をかける計算へ接続し、2位数への関係は別途検討する。"
+      "note": "九九からの関係は1位数をかける計算へ接続し、2位数への関係は別途検討する。",
+      "rationale": "分割理由：第3学年の1位数をかける計算と、第4学年の2位数をかける計算を分けると、技能の進行と依存関係を表しやすい。"
     },
     {
       "parentTopicId": "jp.elem.math.mixed-calculations",
@@ -55,7 +59,8 @@
         "jp.elem.math.estimate-check-calculation",
         "jp.elem.math.solve-multistep-number-problems"
       ],
-      "note": "横断的な活用項目のため、単一の前提に固定しない。"
+      "note": "横断的な活用項目のため、単一の前提に固定しない。",
+      "rationale": "分割理由：複数の数の種類を一括した横断項目であり、単一の公式内容として対応づけにくい。計算技能の単元ではなく、方法選択・見積もり・複数計算の活用に分ける。"
     }
   ],
   "existingEdgeMigrationCandidates": [
@@ -210,11 +215,12 @@
       "applicationStatus": "added-to-dependencies"
     }
   ],
-  "checksBeforeApplying": [
-    "子項目の登録後にID重複・参照切れを検査する。",
-    "既存関係の移行後に循環と意味の整合性を確認する。",
-    "表現モデル・公式コード対応・サイト側参照の移行を確認する。",
-    "提案関係は dependencies.json に未登録のままとする。"
-  ],
-  "appliedAt": "2026-10-18"
+  "appliedAt": "2026-10-18",
+  "postMigrationChecks": [
+    "分割した子項目IDが data/topics.json に存在することを確認する。",
+    "旧親項目は topicLifecycle=superseded と replacementTopicIds で後継を示し、互換性のため維持する。",
+    "既存関係の移行先は appliedTarget と data/dependencies.json を照合する。",
+    "新規8関係は data/dependencies.json に登録済みだが、reviewStatus=needs-review の関係は意味の妥当性を継続確認する。",
+    "学年候補・公式コード・項目粒度は確定扱いにせず、grade-placement-review-math-a.json と公式資料で継続確認する。"
+  ]
 }
