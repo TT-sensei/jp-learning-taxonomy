@@ -17,7 +17,8 @@
     "resourceIds",
     "reviewStatus",
     "studentName",
-    "studentDescription"
+    "studentDescription",
+    "gradePlacement"
   ],
   "properties": {
     "id": {
@@ -130,6 +131,77 @@
       "type": "string",
       "minLength": 1,
       "description": "Child-facing explanation in direct, accessible Japanese."
+    },
+    "cluster": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Optional project-specific cluster for grouping related topic candidates."
+    },
+    "gradePlacement": {
+      "type": "object",
+      "required": [
+        "status",
+        "candidateFirstIntroductionGrade",
+        "candidateContinuingGrades",
+        "basis",
+        "note"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "candidate",
+            "needs-review",
+            "reviewed",
+            "verified"
+          ]
+        },
+        "candidateFirstIntroductionGrade": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 6
+        },
+        "candidateContinuingGrades": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 6
+          },
+          "uniqueItems": true
+        },
+        "basis": {
+          "type": "string",
+          "minLength": 1
+        },
+        "note": {
+          "type": "string"
+        },
+        "sourceUrl": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "additionalProperties": false,
+      "description": "Candidate placement and its evidence status; this is not automatically an official grade assignment."
+    },
+    "conceptualPillarCandidates": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "粒子",
+          "エネルギー",
+          "生命",
+          "地球"
+        ]
+      },
+      "uniqueItems": true,
+      "description": "Optional project-specific science conceptual-pillar candidates; not an official curriculum code."
+    },
+    "officialAreaCandidate": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Optional editorially assigned official-area candidate or explicit note that the topic is crosscutting."
     }
   },
   "additionalProperties": false
