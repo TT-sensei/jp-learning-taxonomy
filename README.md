@@ -18,7 +18,7 @@
 
 国語・社会・算数・理科を中心に分類と学習項目の草案を作り、共通の学習マップへ統合しています。生活、音楽、図画工作、家庭、体育、外国語活動、外国語、道徳、総合的な学習の時間、特別活動も対象候補ですが、全教科の内容が完成した状態ではありません。
 
-学習指導要領コードの対応は、コードが公式表に存在すること、教科・学年が一致すること、項目の意味が対応することを分けて扱います。候補コードを自動的に確定扱いにしません。最新の判定は [コード対応表](data/curriculum-code-mapping.json) と [コード候補・登録状況の記録](docs/curriculum-code-candidates-2026-10-21.md) を確認してください。社会科の対応確認記録は [社会科コード照合記録](docs/social-studies-code-crosswalk-draft-2026-10-20.md) です。算数の学年配当・公式内容の確認状況は [算数学年配当監査メモ](docs/math-grade-placement-audit-2026-10-21.md) と [学年配当の根拠データ](data/grade-placement-review-math-a.json) を参照してください。
+学習指導要領コードの対応は、コードが公式表に存在すること、教科・学年が一致すること、項目の意味が対応することを分けて扱います。候補コードを自動的に確定扱いにしません。最新の判定は [コード対応表](data/curriculum-code-mapping.json) と [コード候補・登録状況の記録](docs/curriculum-code-candidates-2026-10-21.md) を確認してください。社会科の対応確認記録は [社会科コード照合記録](docs/social-studies-code-crosswalk-draft-2026-10-20.md) です。算数の学年配当・公式内容の確認状況は [算数学年配当監査メモ](docs/math-grade-placement-audit-2026-10-21.md)、[分割後13項目の照合結果](docs/math-split-topics-grade-crosscheck-2026-10-21.md)、[学年配当の根拠データ](data/grade-placement-review-math-a.json) を参照してください。
 
 ## まず見るファイル
 
