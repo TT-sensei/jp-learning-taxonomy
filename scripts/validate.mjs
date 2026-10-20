@@ -152,6 +152,40 @@ if (manifestData.counts?.dependencies !== dependencies.length) errors.push("mani
 if (manifestData.counts?.representationModels !== representationModels.length) errors.push("manifest.json の representationModels 件数が実データと一致しません。");
 if (manifestData.counts?.sources !== sources.length) errors.push("manifest.json の sources 件数が実データと一致しません。");
 if (manifestData.counts?.curriculumStandards !== standards.length) errors.push("manifest.json の curriculumStandards 件数が実データと一致しません。");
+if (manifestData.counts?.resources !== resources.length) errors.push("manifest.json の resources 件数が実データと一致しません。");
+const activeTopics = topics.filter(topic => topic.topicLifecycle !== "superseded");
+const supersededTopics = topics.filter(topic => topic.topicLifecycle === "superseded");
+if (manifestData.counts?.activeTopics !== activeTopics.length) errors.push("manifest.json の activeTopics 件数が実データと一致しません。");
+if (manifestData.counts?.supersededTopics !== supersededTopics.length) errors.push("manifest.json の supersededTopics 件数が実データと一致しません。");
+const compareCounts = (actual, expected, label) => {
+  const keys = new Set([...Object.keys(actual ?? {}), ...Object.keys(expected ?? {})]);
+  for (const key of keys) {
+    if ((actual?.[key] ?? 0) !== (expected?.[key] ?? 0)) errors.push("manifest.json の " + label + "[" + key + "] が実データと一致しません。");
+  }
+};
+const allByGrade = {};
+const activeByGrade = {};
+for (let grade = 1; grade <= 6; grade += 1) {
+  const key = String(grade);
+  allByGrade[key] = topics.filter(topic => topic.grades?.includes(grade)).length;
+  activeByGrade[key] = activeTopics.filter(topic => topic.grades?.includes(grade)).length;
+}
+compareCounts(manifestData.counts?.byGrade, allByGrade, "byGrade");
+compareCounts(manifestData.counts?.activeByGrade, activeByGrade, "activeByGrade");
+const bySubject = {};
+const bySubjectGrade = {};
+for (const topic of activeTopics) {
+  bySubject[topic.subject] = (bySubject[topic.subject] ?? 0) + 1;
+  bySubjectGrade[topic.subject] ??= {};
+  for (const grade of topic.grades ?? []) {
+    const key = String(grade);
+    bySubjectGrade[topic.subject][key] = (bySubjectGrade[topic.subject][key] ?? 0) + 1;
+  }
+}
+compareCounts(manifestData.counts?.bySubject, bySubject, "bySubject");
+for (const subject of new Set([...Object.keys(manifestData.counts?.bySubjectGrade ?? {}), ...Object.keys(bySubjectGrade)])) {
+  compareCounts(manifestData.counts?.bySubjectGrade?.[subject], bySubjectGrade[subject] ?? {}, "bySubjectGrade." + subject);
+}
 if (codeMappings.length !== topics.length) errors.push("curriculum-code-mapping.json の対応枠数が topics.json の項目数と一致しません。");
 for (const item of codeMappings) {
   if (!topicById.has(item.topicId)) errors.push(`コード対応表に未登録の topic ID ${item.topicId}`);
