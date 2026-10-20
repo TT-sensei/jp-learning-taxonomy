@@ -221,6 +221,7 @@
     "旧親項目は topicLifecycle=superseded と replacementTopicIds で後継を示し、互換性のため維持する。",
     "既存関係の移行先は appliedTarget と data/dependencies.json を照合する。",
     "新規8関係は data/dependencies.json に登録済みだが、reviewStatus=needs-review の関係は意味の妥当性を継続確認する。",
-    "学年候補・公式コード・項目粒度は確定扱いにせず、grade-placement-review-math-a.json と公式資料で継続確認する。"
+    "学年候補・公式コード・項目粒度は確定扱いにせず、grade-placement-review-math-a.json と公式資料で継続確認する。",
+    "8件の新規関係を、矢印の向き・関係タイプ・子項目の学年候補・児童向け説明の整合性という観点で再点検した。proposed-math-edge-a-004 の児童向け説明が矢印と逆向きだったため修正。公式資料との照合は未完了なので、8件の reviewStatus は needs-review のまま維持する。"
   ]
 }
