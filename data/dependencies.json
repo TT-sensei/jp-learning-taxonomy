@@ -803,13 +803,13 @@
     },
     {
       "id": "social-edge-008",
-      "from": "jp.elem.social.municipality-change",
-      "to": "jp.elem.social.timeline-sources",
+      "from": "jp.elem.social.timeline-sources",
+      "to": "jp.elem.social.municipality-change",
       "type": "application",
-      "rationale": "地域の変化を年表や過去の資料を使って整理する。",
+      "rationale": "年表や過去の写真・地図などの資料を使い、市区町村の移り変わりを時期に沿って整理する。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "地域の変化を、年表や昔の写真・資料を使って順番に整理しよう。"
+      "studentRationale": "年表や昔の写真・地図を使って、市や町のようすがいつ、どのように変わったかを整理しよう。"
     },
     {
       "id": "social-edge-009",
@@ -933,13 +933,13 @@
     },
     {
       "id": "social-edge-021",
-      "from": "jp.elem.social.local-government",
-      "to": "jp.elem.social.decision-civic",
+      "from": "jp.elem.social.decision-civic",
+      "to": "jp.elem.social.local-government",
       "type": "application",
-      "rationale": "地域の課題を複数の立場や資料を基に考え、判断する。",
+      "rationale": "国や地方公共団体の取組を調べる際に、複数の立場や資料を踏まえて考え、理由をもって判断する技能を活用する。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "地域の問題について、いろいろな立場の人の考えや資料を比べて判断しよう。"
+      "studentRationale": "国や市町村の取組を調べるとき、いろいろな立場の人の考えや資料を比べ、自分の考えと理由をまとめよう。"
     },
     {
       "id": "social-edge-022",
@@ -1163,13 +1163,13 @@
     },
     {
       "id": "grade-link-121",
-      "from": "jp.elem.social.local-area",
-      "to": "jp.elem.social.local-map",
+      "from": "jp.elem.social.local-map",
+      "to": "jp.elem.social.local-area",
       "type": "application",
-      "rationale": "身近な地域の様子を調べるために、地図や方位を使って位置関係を表す。",
+      "rationale": "地図記号や方位を使う技能を、身近な地域の位置・土地利用・施設・交通などを調べる学習に活用する。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "身近な地域の場所を調べるとき、地図や方位を使って位置を表す方法が役立つよ。"
+      "studentRationale": "地図記号や方位を使って、身近な地域の場所や土地の使われ方、施設、交通のようすを調べよう。"
     },
     {
       "id": "grade-link-122",
