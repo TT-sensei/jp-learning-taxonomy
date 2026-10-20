@@ -46,3 +46,26 @@ footer p{margin:6px 0}
 .status{font-size:.85rem;color:var(--muted)}
 @media(max-width:760px){.page{padding:14px 12px 32px}.path-grid,.connections,.design-grid{grid-template-columns:1fr}.pathway:last-child{grid-column:auto}header{padding:20px}.pathway{padding:16px}}
 @media print{body{background:#fff;font-size:10pt}.page{max-width:none;padding:0}.topline a{display:none}header,.pathway,.connection,.gap-section,.design-section{break-inside:avoid;border-color:#bbb;box-shadow:none}header{padding:15px}.path-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.pathway:last-child{grid-column:1/-1}.pathway{padding:12px}.connections{grid-template-columns:repeat(3,minmax(0,1fr));gap:7px}.connection{padding:9px}.notice{margin:8px 0}.topic-details summary{display:none}.topic-details:not([open]) .topic-links{display:flex}.topic-links a{padding:2px 4px;font-size:8pt}footer{font-size:8pt}}
+
+
+/* Tablet and touch improvements for the learning-path overview. */
+@media (max-width: 900px) {
+  .page { padding: 18px 16px 36px; }
+  .path-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+  .pathway { padding: 16px; }
+  .connections { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .pathway:last-child { grid-column: 1 / -1; }
+  .topline nav { display: flex; flex-wrap: wrap; gap: 8px; }
+  .topline nav a { min-height: 40px; display: inline-flex; align-items: center; }
+}
+@media (max-width: 640px) {
+  .page { padding: 12px 10px 28px; }
+  .topline { align-items: flex-start; font-size: .82rem; }
+  header { padding: 18px 16px; border-radius: 13px; }
+  .notice { font-size: .86rem; line-height: 1.75; margin: 12px 2px 16px; }
+  .path-grid, .connections, .design-grid { grid-template-columns: minmax(0, 1fr); }
+  .pathway:last-child { grid-column: auto; }
+  .pathway { padding: 15px; border-radius: 13px; }
+  .topic-links a { min-height: 40px; display: inline-flex; align-items: center; }
+  .stage { padding: 12px; }
+}
