@@ -248,3 +248,45 @@ button:focus-visible{outline:3px solid #243f52!important;outline-offset:3px!impo
   .detail { padding: 18px; }
   .topic-card { min-height: 70px; }
 }
+
+
+/* 学びのつながりを一覧でも見つけやすくする */
+.relation-summary {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px;
+  margin-top: 9px;
+  min-width: 0;
+}
+.relation-count {
+  display: inline-flex;
+  align-items: center;
+  min-height: 23px;
+  padding: 3px 7px;
+  border-radius: 6px;
+  font-size: .7rem;
+  font-weight: 750;
+  line-height: 1.35;
+  white-space: nowrap;
+}
+.relation-before { background: #e5f2eb; color: #28694f; }
+.relation-related { background: #e8eef9; color: #365b91; }
+.relation-next { background: #fff0dc; color: #89571b; }
+.relation-summary.is-empty { color: #7b858c; font-size: .68rem; }
+.relation-summary.is-empty span { padding: 2px 0; }
+.grade-topic .relation-summary { margin-top: 8px; }
+.grade-topic-open {
+  display: block;
+  margin-top: 7px;
+  color: #315e70;
+  font-size: .75rem;
+  font-weight: 800;
+}
+.topic-card .relation-summary { margin-top: 8px; }
+.topic-card .relation-count { font-size: .68rem; }
+@media (max-width: 700px) {
+  .relation-summary { gap: 4px; }
+  .relation-count { min-height: 25px; padding: 4px 7px; font-size: .72rem; }
+  .grade-topic-open { font-size: .8rem; }
+}
