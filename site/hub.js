@@ -76,22 +76,31 @@
       .sort((a, b) => a - b);
   }
 
-  function gradeLabel(topic) {
-    const grades = gradeValues(topic);
-    if (!grades.length) return "学年の目安";
+  function formatGradeRanges(values) {
+    const grades = [...new Set((values || []).map(Number).filter(n => Number.isInteger(n) && n >= 1 && n <= 6))]
+      .sort((a, b) => a - b);
+    if (!grades.length) return "";
     const ranges = [];
     let start = grades[0];
     let end = grades[0];
     grades.slice(1).forEach(grade => {
-      if (grade === end + 1) {
-        end = grade;
-      } else {
-        ranges.push([start, end]);
-        start = end = grade;
-      }
+      if (grade === end + 1) end = grade;
+      else { ranges.push([start, end]); start = end = grade; }
     });
     ranges.push([start, end]);
     return ranges.map(([a, b]) => a === b ? a + "年" : a + "〜" + b + "年").join("・");
+  }
+
+  function gradeLabel(topic) {
+    const placement = topic.gradePlacement || {};
+    const first = Number(placement.candidateFirstIntroductionGrade);
+    const continuing = (placement.candidateContinuingGrades || []).filter(g => Number(g) > first);
+    if (Number.isInteger(first) && first >= 1 && first <= 6) {
+      const label = "初出候補 " + first + "年";
+      const ongoing = formatGradeRanges(continuing);
+      return ongoing ? label + " · 継続候補 " + ongoing : label;
+    }
+    return formatGradeRanges(gradeValues(topic)) || "学年の目安";
   }
 
   function normalizeSearchText(value) {
