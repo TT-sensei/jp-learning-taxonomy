@@ -372,18 +372,17 @@
       : "左から右へ、1年生から6年生へ。カードを押すと、学びのつながりを詳しく見られます。";
     count.textContent = isFiltered ? filtered.length + "項目" : allTopics.length + "項目・" + subjectsWithItems.length + "教科";
 
-    if (!filtered.length) {
-      results.innerHTML = emptyState("見つかりませんでした", "学年や教科を変えるか、検索する言葉を少し変えてみてください。");
-      results.setAttribute("aria-busy", "false");
-      return;
-    }
-
-    // Keep the six-grade overview visible when a year is selected; the selected
-    // column is highlighted so learners can still see where it leads next.
+    // The year control highlights a column rather than hiding the other years.
+    // Subject and text search narrow the board; the full progression stays visible.
     const boardData = allTopics.filter(topic =>
       (!state.subject || topic.subject === state.subject) &&
       matchesQuery(topic, state.query)
     );
+    if (!boardData.length) {
+      results.innerHTML = emptyState("見つかりませんでした", "教科を変えるか、検索する言葉を少し変えてみてください。");
+      results.setAttribute("aria-busy", "false");
+      return;
+    }
     count.textContent = boardData.length + "項目";
     if (state.grade && !state.query.trim()) {
       description.textContent = state.grade + "年生の列を強調しています。ほかの学年と見比べながら、学びのつながりをたどれます。";
