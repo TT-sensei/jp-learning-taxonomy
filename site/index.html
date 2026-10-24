@@ -3,111 +3,26 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="description" content="小学校の国語・算数・社会・理科の学習内容を、教科や学年をこえて探せる学びの地図。">
-  <title>学びの地図｜JP Learning Taxonomy</title>
+  <meta name="description" content="小学校1〜6年生の学習内容を、教科・学年・つながりから探せる学びの地図。">
+  <title>学びの地図｜小学校1〜6年</title>
   <link rel="stylesheet" href="./hub.css">
   <script src="./hub.js" defer></script>
 </head>
 <body>
-  <header class="site-header">
+  <header class="page-head wrap">
     <a class="brand" href="./index.html" aria-label="学びの地図 トップ">
       <span class="brand-mark" aria-hidden="true">学</span>
-      <span><strong>学びの地図</strong><small>JP LEARNING TAXONOMY</small></span>
+      <span class="brand-text"><strong>小学校 学びの地図</strong><small>1〜6年生の学びをつなぐ</small></span>
     </a>
-    <nav class="header-nav" aria-label="ページ内ナビゲーション">
-      <a href="#subjects">教科から探す</a>
-      <a href="#maps">大きなまとまりを見る</a>
-      <a href="#explorer">学習内容を探す</a>
-    </nav>
+    <div class="subject-stripe" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+    <p class="page-lead">今の学びから、前に学んだことや、この先につながる学びを見つけよう。</p>
   </header>
 
-  <main>
-    <section class="hero" aria-labelledby="page-title">
-      <div class="hero-copy">
-        <p class="eyebrow">小学校 1〜6年生の学びをつなぐ</p>
-        <h1 id="page-title">学びを、<br class="desktop-break">学年をこえて見わたそう。</h1>
-        <p class="hero-lead">今、学んでいることから。気になる教科から。<br>前に学んだことや、この先につながる学びを見つけよう。</p>
-        <a class="hero-cta" href="#explorer">学習内容を探す <span aria-hidden="true">↓</span></a>
-      </div>
-      <div class="hero-visual" aria-hidden="true">
-        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
-        <span class="orbit-dot dot-one">言</span><span class="orbit-dot dot-two">数</span>
-        <span class="orbit-dot dot-three">社</span><span class="orbit-dot dot-four">理</span>
-        <div class="center-mark"><span>学</span><small>つながる</small></div>
-      </div>
-      <div class="hero-note"><span class="note-icon" aria-hidden="true">i</span><p>学年や学習のつながりには、整理中の候補が含まれます。正式な学習順序を決めるものではありません。</p></div>
-    </section>
-
-    <section id="subjects" class="section-block" aria-labelledby="subjects-title">
-      <div class="section-heading">
-        <div><p class="section-kicker">01 / SUBJECTS</p><h2 id="subjects-title">教科から入る</h2></div>
-        <p>教科を選ぶと、関係する学習項目をまとめて探せます。</p>
-      </div>
-      <div class="subject-grid">
-        <article class="subject-card subject-japanese">
-          <button type="button" class="subject-pick" data-subject-pick="国語">
-            <span class="subject-card-top"><span class="subject-glyph" aria-hidden="true">言</span><span class="subject-count" data-subject-count="国語">読み込み中…</span></span>
-            <strong>国語</strong><span class="subject-description">読む・書く・話す・聞く。言葉や文字の学びをつなぐ。</span>
-            <span class="card-action">この教科の項目を探す <span aria-hidden="true">→</span></span>
-          </button>
-          <a class="map-link" href="./japanese.html">国語の学びマップを見る ↗</a>
-        </article>
-        <article class="subject-card subject-math">
-          <button type="button" class="subject-pick" data-subject-pick="算数">
-            <span class="subject-card-top"><span class="subject-glyph" aria-hidden="true">数</span><span class="subject-count" data-subject-count="算数">読み込み中…</span></span>
-            <strong>算数</strong><span class="subject-description">数や図形、変化、データ。領域をこえた学びをつかむ。</span>
-            <span class="card-action">この教科の項目を探す <span aria-hidden="true">→</span></span>
-          </button>
-          <a class="map-link" href="./math-map.html">算数全体の見取り図を見る ↗</a>
-        </article>
-        <article class="subject-card subject-social">
-          <button type="button" class="subject-pick" data-subject-pick="社会">
-            <span class="subject-card-top"><span class="subject-glyph" aria-hidden="true">社</span><span class="subject-count" data-subject-count="社会">読み込み中…</span></span>
-            <strong>社会</strong><span class="subject-description">地域のくらしから、国土・産業・歴史・政治へ。</span>
-            <span class="card-action">この教科の項目を探す <span aria-hidden="true">→</span></span>
-          </button>
-          <a class="map-link" href="./social.html">社会の学びマップを見る ↗</a>
-        </article>
-        <article class="subject-card subject-science">
-          <button type="button" class="subject-pick" data-subject-pick="理科">
-            <span class="subject-card-top"><span class="subject-glyph" aria-hidden="true">理</span><span class="subject-count" data-subject-count="理科">読み込み中…</span></span>
-            <strong>理科</strong><span class="subject-description">生命・地球・粒子・エネルギーの視点で学びをつなぐ。</span>
-            <span class="card-action">この教科の項目を探す <span aria-hidden="true">→</span></span>
-          </button>
-          <a class="map-link" href="./science.html">理科の学びマップを見る ↗</a>
-        </article>
-      </div>
-    </section>
-
-    <section id="maps" class="section-block map-section" aria-labelledby="maps-title">
-      <div class="section-heading">
-        <div><p class="section-kicker">02 / LEARNING MAPS</p><h2 id="maps-title">大きなまとまりから見る</h2></div>
-        <p>細かな項目を一つずつ見る前に、学びの全体像をつかもう。</p>
-      </div>
-      <div class="map-link-grid">
-        <a class="map-feature" href="./math-map.html"><span class="map-feature-label">算数・1〜6年</span><strong>算数の学びの見取り図</strong><span>大きな学びのまとまりと、領域をこえた関係を見る。</span><span class="map-arrow" aria-hidden="true">↗</span></a>
-        <a class="map-feature" href="./pathways.html"><span class="map-feature-label">算数・数と計算</span><strong>整数計算の学びの道すじ</strong><span>数のしくみから、たし算・ひき算・かけ算・わり算へ。</span><span class="map-arrow" aria-hidden="true">↗</span></a>
-        <a class="map-feature map-feature-detail" href="./details.html"><span class="map-feature-label">教科をこえて</span><strong>学びのつながりをたどる</strong><span>前に学んだこと、関係する学び、この先の広がりを確かめる。</span><span class="map-arrow" aria-hidden="true">↗</span></a>
-      </div>
-    </section>
-
-    <section id="explorer" class="explorer-section" aria-labelledby="explorer-title">
-      <div class="explorer-intro">
-        <p class="section-kicker">03 / FIND LEARNING</p>
-        <h2 id="explorer-title">学習内容を探す</h2>
-        <p>教科・学年・言葉を組み合わせて探せます。教科を選ばずに学年を指定すると、複数の教科を横断して見られます。</p>
-      </div>
-      <div class="filter-panel">
-        <label class="search-label" for="topic-search">言葉で探す</label>
-        <div class="search-row"><span class="search-icon" aria-hidden="true">⌕</span><input id="topic-search" type="search" placeholder="例：分数、地図、植物、文章" autocomplete="off" aria-describedby="search-help"><button id="clear-filters" type="button" class="clear-button">条件をリセット</button></div><p id="search-help" class="search-help">複数の言葉も入力できます。例：「分数 わり算」なら、両方に関係する項目を探します。</p><div class="quick-searches" aria-label="検索例"><span>すぐに探す：</span><button type="button" data-query-pick="分数">分数</button><button type="button" data-query-pick="植物">植物</button><button type="button" data-query-pick="地図">地図</button><button type="button" data-query-pick="文章">文章</button></div>
-        <div class="filter-group"><span class="filter-label">教科</span><div id="subject-filters" class="chip-row" role="group" aria-label="教科を選ぶ">
-          <button type="button" class="filter-chip is-active" data-subject-filter="" aria-pressed="true">すべて</button>
-          <button type="button" class="filter-chip" data-subject-filter="国語" aria-pressed="false">国語</button>
-          <button type="button" class="filter-chip" data-subject-filter="算数" aria-pressed="false">算数</button>
-          <button type="button" class="filter-chip" data-subject-filter="社会" aria-pressed="false">社会</button>
-          <button type="button" class="filter-chip" data-subject-filter="理科" aria-pressed="false">理科</button>
-        </div></div>
-        <div class="filter-group"><span class="filter-label">学年</span><div id="grade-filters" class="chip-row" role="group" aria-label="学年を選ぶ">
+  <section class="filter-bar" aria-label="学習内容をしぼりこむ">
+    <div class="wrap filter-inner">
+      <div class="filter-row">
+        <span class="filter-label">学年</span>
+        <div id="grade-filters" class="chip-row" role="group" aria-label="学年を選ぶ">
           <button type="button" class="filter-chip is-active" data-grade-filter="" aria-pressed="true">全学年</button>
           <button type="button" class="filter-chip" data-grade-filter="1" aria-pressed="false">1年</button>
           <button type="button" class="filter-chip" data-grade-filter="2" aria-pressed="false">2年</button>
@@ -115,30 +30,56 @@
           <button type="button" class="filter-chip" data-grade-filter="4" aria-pressed="false">4年</button>
           <button type="button" class="filter-chip" data-grade-filter="5" aria-pressed="false">5年</button>
           <button type="button" class="filter-chip" data-grade-filter="6" aria-pressed="false">6年</button>
-        </div></div>
+        </div>
       </div>
+      <div class="filter-row">
+        <span class="filter-label">教科</span>
+        <div id="subject-filters" class="chip-row" role="group" aria-label="教科を選ぶ">
+          <button type="button" class="filter-chip is-active" data-subject-filter="" aria-pressed="true">すべて <span class="chip-count" data-subject-count="すべて"></span></button>
+          <button type="button" class="filter-chip subject-japanese" data-subject-filter="国語" aria-pressed="false">国語 <span class="chip-count" data-subject-count="国語"></span></button>
+          <button type="button" class="filter-chip subject-math" data-subject-filter="算数" aria-pressed="false">算数 <span class="chip-count" data-subject-count="算数"></span></button>
+          <button type="button" class="filter-chip subject-social" data-subject-filter="社会" aria-pressed="false">社会 <span class="chip-count" data-subject-count="社会"></span></button>
+          <button type="button" class="filter-chip subject-science" data-subject-filter="理科" aria-pressed="false">理科 <span class="chip-count" data-subject-count="理科"></span></button>
+        </div>
+      </div>
+      <div class="search-row">
+        <label class="search-label" for="topic-search">言葉で探す</label>
+        <div class="search-input-wrap">
+          <span class="search-icon" aria-hidden="true">⌕</span>
+          <input id="topic-search" type="search" placeholder="例：分数、植物、地図、文章" autocomplete="off">
+          <button id="clear-filters" type="button" class="clear-button">リセット</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main class="wrap">
+    <div class="relationship-key" aria-label="つながりの見方">
+      <span class="key-title">カードの見方</span>
+      <span class="key-before">← 前に学ぶ</span>
+      <span class="key-related">↔ 関係する</span>
+      <span class="key-next">この先 →</span>
+      <span class="key-note">項目名を押すと、説明とつながりを詳しく見られます。</span>
+    </div>
+
+    <section class="results-section" aria-labelledby="results-title">
       <div class="results-toolbar">
-        <div class="results-heading"><div><h3 id="results-title">学びを見つけよう</h3><p id="results-description">まずは教科・学年・言葉のどれかを選んでみてください。</p></div><span id="results-count" class="results-count" aria-live="polite">未選択</span></div>
-        <label class="sort-control" for="results-sort">並び順
-          <select id="results-sort">
-            <option value="subject">教科順</option>
-            <option value="grade">学年順</option>
-            <option value="cluster">学習のまとまり順</option>
-            <option value="relevance">検索との関連順</option>
-          </select>
-        </label>
-      </div><div id="active-filters" class="active-filters" aria-live="polite"></div>
-      <div id="results" class="results" aria-live="polite" aria-busy="true">
-        <div class="empty-state"><span class="empty-state-mark" aria-hidden="true">？</span><strong>どこから探してみる？</strong><p>上の教科カードを選ぶか、学年や言葉で検索してください。項目を開くと、前提や関連する学びをたどれます。</p><button id="show-all-topics" type="button" class="secondary-button">全教科の項目をすべて見る</button></div>
+        <div>
+          <h1 id="results-title">学びの一覧</h1>
+          <p id="results-description">教科を開いて、学びのつながりを見てみよう。</p>
+        </div>
+        <span id="results-count" class="results-count" aria-live="polite">読み込み中…</span>
       </div>
-      <p class="data-note"><span aria-hidden="true">※</span> 表示される学年やつながりは、現在のデータに基づく整理案です。内容を確認・更新している途中の項目もあります。</p>
+      <div id="active-filters" class="active-filters" aria-live="polite" hidden></div>
+      <div id="results" class="results" aria-live="polite" aria-busy="true">
+        <div class="loading-state">学習内容を読み込んでいます…</div>
+      </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <a class="footer-home" href="./index.html">学びの地図</a>
-    <nav aria-label="関連ページ"><a href="./details.html">学びのつながりをたどる</a><a href="./representations.html">算数の表し方マップ</a><a href="https://tt-sensei.github.io/edu-kit/">EDU KIT（先生向け）</a><a href="../README.md">このサイトについて</a></nav>
-    <p>日本の小学校の学習内容をもとに、学びのまとまりとつながりを整理しています。学習内容や学年の整理は、今後も点検・更新していきます。</p>
+    <p>学年は学びを見渡すための目安です。実際の学習順序は、学校や教科書によって異なることがあります。</p>
+    <a href="../README.md">この学びの地図について</a>
   </footer>
 </body>
 </html>
