@@ -378,6 +378,8 @@ main.wrap { padding-top: 16px; padding-bottom: 42px; }
 .connection-before .connection-label { background: #e4f2e9; color: #27684e; }
 .connection-related .connection-label { background: #e8eef9; color: #365b91; }
 .connection-future .connection-label { background: #fff0dc; color: #89571b; }
+.connection-application .connection-label { background: #f2e8f7; color: #704080; }
+.connection-applied .connection-label { background: #e4edf7; color: #365b91; }
 .connection-items { display: flex; flex-wrap: wrap; align-items: center; gap: 5px; min-width: 0; }
 .connection-link {
   display: inline-flex;
