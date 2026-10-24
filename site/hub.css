@@ -657,3 +657,39 @@ main.wrap { padding-top: 16px; padding-bottom: 42px; }
   .grade-board { min-width: 990px; grid-template-columns: repeat(6, minmax(158px, 1fr)); }
   .grade-board-wrap::after { content: "右へスワイプして、学年ごとの学びを見比べよう →"; }
 }
+
+
+/* Landscape layout: fit all six year columns on screen when space permits. */
+@media (orientation: landscape) and (min-width: 700px) and (max-width: 1099px) {
+  .grade-board {
+    min-width: 0;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 5px;
+  }
+  .grade-column-heading {
+    grid-template-columns: 30px minmax(0, 1fr);
+    column-gap: 5px;
+    min-height: 58px;
+    padding: 6px 5px;
+  }
+  .grade-number {
+    width: 30px;
+    height: 30px;
+    border-radius: 7px;
+    font-size: 1.15rem;
+  }
+  .grade-word { font-size: .78rem; }
+  .grade-column-heading small { font-size: .62rem; }
+  .map-subject-lane { padding: 4px; }
+  .map-subject-heading { gap: 3px; font-size: .68rem; }
+  .map-subject-heading > span { flex-basis: 18px; width: 18px; height: 18px; }
+  .map-topic { padding: 5px 4px; }
+  .map-topic-title { font-size: .68rem; line-height: 1.4; }
+  .map-link { font-size: .58rem; padding: 3px; }
+  .map-topic-meta { font-size: .57rem; }
+  .grade-board-wrap::after { content: "横向き表示：6学年を一度に見比べられます。カードを押すと詳細を開けます。"; }
+}
+@media (orientation: landscape) and (max-width: 699px) {
+  .grade-board { min-width: 900px; }
+  .grade-board-wrap::after { content: "右へスワイプして、学年ごとの学びを見比べよう →"; }
+}
