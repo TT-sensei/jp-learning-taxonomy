@@ -1,37 +1,164 @@
 (() => {
   "use strict";
-  const DATA_URL = "../data/topics.json";
+
+  const TOPICS_URL = "../data/topics.json";
+  const RELATIONS_URL = "../data/dependencies.json";
   const SUBJECTS = ["国語", "算数", "社会", "理科"];
+  const SUBJECT_MARKS = { "国語": "言", "算数": "数", "社会": "社", "理科": "理" };
+  const SUBJECT_DESCRIPTIONS = {
+    "国語": "言葉・文字・読む・書く",
+    "算数": "数・図形・変化・データ",
+    "社会": "地域・国土・産業・歴史",
+    "理科": "生命・地球・粒子・エネルギー"
+  };
   const $ = (selector, root = document) => root.querySelector(selector);
   const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
-  const esc = value => String(value ?? "").replace(/[&<>"']/g, ch => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch]));
-  const state = { topics: [], subject: "", grade: "", query: "", sort: "subject", showAll: false, visible: 36 };
-  const subjectOrder = new Map(SUBJECTS.map((name, index) => [name, index]));
+  const esc = value => String(value ?? "").replace(/[&<>"']/g, ch => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+  }[ch]));
+
+  const state = {
+    topics: [],
+    dependencies: [],
+    topicById: new Map(),
+    connections: new Map(),
+    subject: "",
+    grade: "",
+    query: ""
+  };
 
   function isActiveTopic(topic) {
     return topic && topic.topicLifecycle !== "superseded" && topic.status !== "superseded";
   }
 
-  function gradeLabel(grades) {
-    const values = [...new Set((grades || []).map(Number).filter(n => n >= 1 && n <= 6))].sort((a, b) => a - b);
-    if (!values.length) return "学年確認中";
+  function titleOf(topic) {
+    return topic.studentName || topic.name || "学習項目";
+  }
+
+  function descriptionOf(topic) {
+    return topic.studentDescription || topic.description || "";
+  }
+
+  function groupOf(topic) {
+    return String(topic.cluster || topic.domain || topic.area || "学びのまとまり");
+  }
+
+  function gradeValues(topic) {
+    return [...new Set((topic.grades || []).map(Number).filter(n => n >= 1 && n <= 6))]
+      .sort((a, b) => a - b);
+  }
+
+  function gradeLabel(topic) {
+    const grades = gradeValues(topic);
+    if (!grades.length) return "学年の目安";
     const ranges = [];
-    let start = values[0], end = values[0];
-    values.slice(1).forEach(n => {
-      if (n === end + 1) { end = n; return; }
-      ranges.push([start, end]);
-      start = end = n;
+    let start = grades[0];
+    let end = grades[0];
+    grades.slice(1).forEach(grade => {
+      if (grade === end + 1) {
+        end = grade;
+      } else {
+        ranges.push([start, end]);
+        start = end = grade;
+      }
     });
     ranges.push([start, end]);
-    return ranges.map(([a, b]) => a === b ? a + "年の目安" : a + "〜" + b + "年の目安").join("・");
+    return ranges.map(([a, b]) => a === b ? a + "年" : a + "〜" + b + "年").join("・");
+  }
+
+  function normalizeSearchText(value) {
+    return String(value ?? "")
+      .normalize("NFKC")
+      .toLocaleLowerCase("ja")
+      .replace(/[\s　、，。・：:;；「」『』（）()【】［］]/g, "");
+  }
+
+  function addConnection(topicId, kind, otherId) {
+    if (!topicId || !otherId || topicId === otherId) return;
+    const other = state.topicById.get(otherId);
+    if (!other) return;
+    if (!state.connections.has(topicId)) {
+      state.connections.set(topicId, { before: new Map(), related: new Map(), future: new Map() });
+    }
+    state.connections.get(topicId)[kind].set(otherId, other);
+  }
+
+  function buildConnections() {
+    state.connections.clear();
+    const beforeTypes = new Set(["prerequisite", "recommended-prerequisite"]);
+    const futureTypes = new Set(["prerequisite", "recommended-prerequisite", "extension", "application"]);
+    const relatedTypes = new Set(["related-learning", "recurring-development"]);
+
+    state.dependencies.forEach(edge => {
+      const from = state.topicById.get(edge.from);
+      const to = state.topicById.get(edge.to);
+      if (!from || !to) return;
+
+      if (beforeTypes.has(edge.type)) addConnection(edge.to, "before", edge.from);
+      if (futureTypes.has(edge.type)) addConnection(edge.from, "future", edge.to);
+
+      if (relatedTypes.has(edge.type)) {
+        addConnection(edge.from, "related", edge.to);
+        addConnection(edge.to, "related", edge.from);
+      }
+    });
+
+    state.connections.forEach(groups => {
+      Object.keys(groups).forEach(kind => {
+        const sorted = [...groups[kind].values()].sort((a, b) => {
+          const gradeA = Math.min(...(gradeValues(a).length ? gradeValues(a) : [99]));
+          const gradeB = Math.min(...(gradeValues(b).length ? gradeValues(b) : [99]));
+          return gradeA - gradeB || titleOf(a).localeCompare(titleOf(b), "ja");
+        });
+        groups[kind] = sorted;
+      });
+    });
+  }
+
+  function connectionsFor(topic, kind) {
+    return state.connections.get(topic.id)?.[kind] || [];
+  }
+
+  function matchesQuery(topic, query) {
+    if (!query) return true;
+    const terms = query.trim().split(/[\s　、，,]+/).map(normalizeSearchText).filter(Boolean);
+    if (!terms.length) return true;
+    const linkedNames = ["before", "related", "future"]
+      .flatMap(kind => connectionsFor(topic, kind).map(titleOf));
+    const haystack = normalizeSearchText([
+      topic.id, topic.name, topic.studentName, topic.description, topic.studentDescription,
+      topic.subject, topic.domain, topic.cluster, topic.area, topic.keywords, linkedNames
+    ].flat(Infinity).filter(Boolean).join(" "));
+    return terms.every(term => haystack.includes(term));
+  }
+
+  function getFilteredTopics() {
+    return state.topics.filter(topic => {
+      if (state.subject && topic.subject !== state.subject) return false;
+      if (state.grade && !gradeValues(topic).includes(Number(state.grade))) return false;
+      return matchesQuery(topic, state.query);
+    }).sort((a, b) => {
+      const subjectA = SUBJECTS.indexOf(a.subject);
+      const subjectB = SUBJECTS.indexOf(b.subject);
+      const rankA = subjectA < 0 ? 99 : subjectA;
+      const rankB = subjectB < 0 ? 99 : subjectB;
+      const gradeA = Math.min(...(gradeValues(a).length ? gradeValues(a) : [99]));
+      const gradeB = Math.min(...(gradeValues(b).length ? gradeValues(b) : [99]));
+      return rankA - rankB ||
+        groupOf(a).localeCompare(groupOf(b), "ja") ||
+        gradeA - gradeB ||
+        titleOf(a).localeCompare(titleOf(b), "ja");
+    });
   }
 
   function updateSubjectCounts() {
-    SUBJECTS.forEach(subject => {
-      const count = state.topics.filter(topic => topic.subject === subject).length;
-      $$("[data-subject-count]").filter(node => node.dataset.subjectCount === subject).forEach(node => {
-        node.textContent = count + "項目";
-      });
+    const counts = new Map();
+    state.topics.forEach(topic => counts.set(topic.subject, (counts.get(topic.subject) || 0) + 1));
+    $$("[data-subject-count]").forEach(node => {
+      const subject = node.dataset.subjectCount;
+      node.textContent = subject === "すべて"
+        ? String(state.topics.length)
+        : String(counts.get(subject) || 0);
     });
   }
 
@@ -46,90 +173,91 @@
       button.classList.toggle("is-active", active);
       button.setAttribute("aria-pressed", String(active));
     });
-    $$("[data-subject-pick]").forEach(button => {
-      const active = button.dataset.subjectPick === state.subject;
-      button.classList.toggle("is-selected", active);
-      button.setAttribute("aria-pressed", String(active));
-    });
     const search = $("#topic-search");
     if (search && search.value !== state.query) search.value = state.query;
   }
 
-  function normalizeSearchText(value) {
-    return String(value ?? "").normalize("NFKC").toLocaleLowerCase("ja").replace(/[\s　、，。・：:;；「」『』（）()【】［］]/g, "");
-  }
-
-  function matchesQuery(topic, query) {
-    if (!query) return true;
-    const evidenceNotes = (topic.evidence || []).map(item => [item.sourceId, item.note]);
-    const haystack = normalizeSearchText([
-      topic.id, topic.name, topic.studentName, topic.description, topic.studentDescription,
-      topic.subject, topic.domain, topic.cluster, topic.area, topic.keywords,
-      topic.topicType, topic.reviewStatus, topic.gradePlacement?.note, evidenceNotes
-    ].flat(Infinity).filter(Boolean).join(" "));
-    const terms = query.trim().split(/[\s　、，,]+/).map(normalizeSearchText).filter(Boolean);
-    return terms.every(term => haystack.includes(term));
-  }
-
-  function getFilteredTopics() {
-    return state.topics.filter(topic => {
-      if (state.subject && topic.subject !== state.subject) return false;
-      if (state.grade && !(topic.grades || []).map(Number).includes(Number(state.grade))) return false;
-      return matchesQuery(topic, state.query.trim());
-    }).sort((a, b) => {
-      const gradeA = Math.min(...((a.grades || []).length ? a.grades.map(Number) : [99]));
-      const gradeB = Math.min(...((b.grades || []).length ? b.grades.map(Number) : [99]));
-      const subjectDiff = (subjectOrder.get(a.subject) ?? 99) - (subjectOrder.get(b.subject) ?? 99);
-      const clusterA = String(a.cluster || a.domain || a.area || "まとまり確認中");
-      const clusterB = String(b.cluster || b.domain || b.area || "まとまり確認中");
-      const titleA = String(a.studentName || a.name || "");
-      const titleB = String(b.studentName || b.name || "");
-      if (state.sort === "grade") {
-        return gradeA - gradeB || subjectDiff || titleA.localeCompare(titleB, "ja");
-      }
-      if (state.sort === "cluster") {
-        return subjectDiff || clusterA.localeCompare(clusterB, "ja") || gradeA - gradeB || titleA.localeCompare(titleB, "ja");
-      }
-      if (state.sort === "relevance" && state.query.trim()) {
-        const terms = state.query.trim().split(/[\s　、，,]+/).map(normalizeSearchText).filter(Boolean);
-        const score = topic => {
-          const title = normalizeSearchText([topic.studentName, topic.name].filter(Boolean).join(" "));
-          return terms.reduce((sum, term) => sum + (title.includes(term) ? 5 : 0), 0);
-        };
-        const relevance = score(b) - score(a);
-        if (relevance) return relevance;
-      }
-      return subjectDiff || gradeA - gradeB || titleA.localeCompare(titleB, "ja");
-    });
+  function relationRow(topic, kind, label, cssClass, arrow, limit = 2) {
+    const items = connectionsFor(topic, kind);
+    if (!items.length) return "";
+    const shown = items.slice(0, limit).map(item => {
+      const url = "./details.html?topic=" + encodeURIComponent(item.id);
+      return '<a class="connection-link" href="' + esc(url) + '" title="' + esc(titleOf(item)) + '">' +
+        esc(titleOf(item)) + '</a>';
+    }).join("");
+    const extra = items.length > limit
+      ? '<span class="connection-more">ほか' + (items.length - limit) + '件</span>'
+      : "";
+    return '<div class="connection-row ' + cssClass + '">' +
+      '<span class="connection-label">' + arrow + esc(label) + '</span>' +
+      '<div class="connection-items">' + shown + extra + '</div></div>';
   }
 
   function topicCard(topic) {
-    const label = topic.studentName || topic.name || "名前のない学習項目";
-    const description = topic.studentDescription || topic.description || "詳しい説明は確認中です。";
-    const grades = gradeLabel(topic.grades);
-    const domain = topic.cluster || topic.domain || topic.area || "";
+    const title = titleOf(topic);
+    const description = descriptionOf(topic);
     const url = "./details.html?topic=" + encodeURIComponent(topic.id || "");
-    return '<article class="result-card"><a class="result-link" href="' + esc(url) + '" aria-label="' + esc(label + "の詳しい学びを見る") + '">' +
-      '<span class="result-meta"><span class="result-subject">' + esc(topic.subject || "教科確認中") + '</span><span class="result-grade">' + esc(grades) + '</span>' +
-      (domain ? '<span class="result-domain">' + esc(domain) + '</span>' : '') + '</span>' +
-      '<strong class="result-title">' + esc(label) + '</strong><span class="result-description">' + esc(description) + '</span><span class="result-open">詳しい学びとつながりを見る →</span></a></article>';
+    const domain = groupOf(topic);
+    const relations = [
+      relationRow(topic, "before", "前に学ぶ", "connection-before", "← "),
+      relationRow(topic, "related", "関係する", "connection-related", "↔ "),
+      relationRow(topic, "future", "この先", "connection-future", "→ ")
+    ].join("");
+
+    return '<article class="topic-card" data-subject="' + esc(topic.subject || "") + '">' +
+      '<a class="topic-main" href="' + esc(url) + '">' +
+        '<span class="topic-meta"><span class="topic-subject">' + esc(topic.subject || "教科") + '</span>' +
+        '<span class="topic-grade">' + esc(gradeLabel(topic)) + '</span>' +
+        '<span class="topic-domain">' + esc(domain) + '</span></span>' +
+        '<strong class="topic-title">' + esc(title) + '</strong>' +
+        (description ? '<span class="topic-description">' + esc(description) + '</span>' : '') +
+        '<span class="topic-open">くわしく見る <span aria-hidden="true">→</span></span>' +
+      '</a>' +
+      (relations ? '<div class="topic-connections" aria-label="この学びのつながり">' + relations + '</div>' : '') +
+    '</article>';
   }
 
-  function emptyState(title, description, buttonLabel) {
-    return '<div class="empty-state"><span class="empty-state-mark" aria-hidden="true">？</span><strong>' + esc(title) + '</strong><p>' + esc(description) + '</p>' +
-      (buttonLabel ? '<button id="show-all-topics" type="button" class="secondary-button">' + esc(buttonLabel) + '</button>' : '') + '</div>';
+  function groupTopicsByCluster(topics) {
+    const groups = new Map();
+    topics.forEach(topic => {
+      const key = groupOf(topic);
+      if (!groups.has(key)) groups.set(key, []);
+      groups.get(key).push(topic);
+    });
+    return [...groups.entries()].sort((a, b) => a[0].localeCompare(b[0], "ja"));
   }
 
-  function resultGroupLabel(topic) {
-    if (state.sort === "grade") {
-      const grades = [...new Set((topic.grades || []).map(Number).filter(n => n >= 1 && n <= 6))].sort((a, b) => a - b);
-      return grades.length ? grades[0] + "年ごろの学び" : "学年確認中";
-    }
-    if (state.sort === "cluster") {
-      return (topic.subject || "教科確認中") + "｜" + (topic.cluster || topic.domain || topic.area || "まとまり確認中");
-    }
-    if (state.sort === "relevance" && state.query.trim()) return "検索との関連が高い順";
-    return topic.subject || "教科確認中";
+  function renderSubjectSection(subject, topics, open) {
+    const count = topics.length;
+    const mark = SUBJECT_MARKS[subject] || subject.slice(0, 1);
+    const desc = SUBJECT_DESCRIPTIONS[subject] || "学習内容とつながり";
+    const content = groupTopicsByCluster(topics).map(([cluster, items]) => {
+      return '<section class="cluster-section">' +
+        '<h3 class="cluster-heading"><span>' + esc(cluster) + '</span><span class="cluster-count">' + items.length + '項目</span></h3>' +
+        '<div class="topic-list">' + items.map(topicCard).join("") + '</div>' +
+      '</section>';
+    }).join("");
+
+    return '<details class="subject-sheet subject-' + esc(subjectClass(subject)) + '"' +
+      (open ? ' open' : '') + '>' +
+      '<summary class="subject-summary">' +
+        '<span class="subject-mark" aria-hidden="true">' + esc(mark) + '</span>' +
+        '<span class="subject-summary-text"><strong>' + esc(subject) + '</strong><small>' + esc(desc) + '</small></span>' +
+        '<span class="subject-summary-count">' + count + '<small>項目</small></span>' +
+        '<span class="subject-chevron" aria-hidden="true">›</span>' +
+      '</summary>' +
+      '<div class="subject-content">' + (content || '<p class="empty-note">この条件に合う学習項目はありません。</p>') + '</div>' +
+    '</details>';
+  }
+
+  function subjectClass(subject) {
+    return ({ "国語": "japanese", "算数": "math", "社会": "social", "理科": "science" })[subject] || "other";
+  }
+
+  function emptyState(title, description) {
+    return '<div class="empty-state"><span class="empty-mark" aria-hidden="true">？</span>' +
+      '<strong>' + esc(title) + '</strong><p>' + esc(description) + '</p>' +
+      '<button type="button" id="reset-from-empty" class="secondary-button">条件をリセットする</button></div>';
   }
 
   function renderResults() {
@@ -137,69 +265,63 @@
     const count = $("#results-count");
     const title = $("#results-title");
     const description = $("#results-description");
-    if (!results || !count) return;
+    if (!results || !count || !title || !description) return;
 
-    const hasFilter = Boolean(state.subject || state.grade || state.query.trim() || state.showAll);
+    const filtered = getFilteredTopics();
+    const isFiltered = Boolean(state.subject || state.grade || state.query.trim());
+    const allSubjects = [...new Set([...SUBJECTS, ...state.topics.map(topic => topic.subject)])];
+    const subjectOrder = allSubjects.filter((subject, index) => allSubjects.indexOf(subject) === index);
+    const subjectsWithItems = isFiltered
+      ? subjectOrder.filter(subject => filtered.some(topic => topic.subject === subject))
+      : subjectOrder.filter(subject => state.topics.some(topic => topic.subject === subject));
+
+    const filterParts = [];
+    if (state.subject) filterParts.push(state.subject);
+    if (state.grade) filterParts.push(state.grade + "年");
+    if (state.query.trim()) filterParts.push("「" + state.query.trim() + "」");
+
     const active = [];
     if (state.subject) active.push(["教科：" + state.subject, "subject"]);
     if (state.grade) active.push(["学年：" + state.grade + "年", "grade"]);
     if (state.query.trim()) active.push(["言葉：" + state.query.trim(), "query"]);
-    $("#active-filters").innerHTML = active.map(([label, type]) => '<button type="button" class="active-filter" data-remove-filter="' + type + '">' + esc(label) + ' <span aria-hidden="true">×</span></button>').join("");
+    $("#active-filters").innerHTML = active.map(([label, type]) =>
+      '<button type="button" class="active-filter" data-remove-filter="' + type + '">' +
+      esc(label) + '<span aria-hidden="true">×</span></button>').join("");
     $("#active-filters").hidden = active.length === 0;
-    if (!hasFilter) {
-      count.textContent = "未選択";
-      title.textContent = "学びを見つけよう";
-      description.textContent = "まずは教科・学年・言葉のどれかを選んでみてください。";
-      results.innerHTML = emptyState("どこから探してみる？", "上の教科カードを選ぶか、学年や言葉で検索してください。項目を開くと、前提や関連する学びをたどれます。", "全教科の項目をすべて見る");
+
+    title.textContent = isFiltered ? "学びの一覧" : "学びの一覧";
+    description.textContent = filterParts.length
+      ? filterParts.join("・") + "に合う学びと、その前後のつながりを表示しています。"
+      : "教科を開くと、学びの一覧と前後のつながりが見られます。";
+
+    count.textContent = isFiltered
+      ? filtered.length + "項目"
+      : state.topics.length + "項目・" + subjectsWithItems.length + "教科";
+
+    if (!filtered.length) {
+      results.innerHTML = emptyState("見つかりませんでした", "学年や教科を変えるか、検索する言葉を少し変えてみてください。");
       results.setAttribute("aria-busy", "false");
       return;
     }
 
-    const list = getFilteredTopics();
-    count.textContent = list.length + "項目";
-    title.textContent = state.subject ? state.subject + "の学習項目" : (state.grade ? state.grade + "年生の学び" : (state.query.trim() ? "検索結果" : "全教科の学習項目"));
-    const criteria = [];
-    if (state.subject) criteria.push(state.subject);
-    if (state.grade) criteria.push(state.grade + "年");
-    if (state.query.trim()) criteria.push("「" + state.query.trim() + "」");
-    description.textContent = criteria.length ? criteria.join("・") + "に合う項目です。気になる項目を開くと、学びのつながりをたどれます。" : "教科をこえて、登録されている学習項目を表示しています。";
-    if (!list.length) {
-      results.innerHTML = emptyState("見つかりませんでした", "条件を少し変えるか、別の言葉で探してみてください。", "");
-      results.setAttribute("aria-busy", "false");
-      return;
-    }
-
-    const visible = list.slice(0, state.visible);
     let html = "";
-    let previousGroup = "";
-    visible.forEach(topic => {
-      const group = resultGroupLabel(topic);
-      if (group !== previousGroup) {
-        html += '<h4 class="result-group-heading">' + esc(group) + '</h4>';
-        previousGroup = group;
-      }
-      html += topicCard(topic);
+    subjectsWithItems.forEach(subject => {
+      const topics = filtered.filter(topic => topic.subject === subject);
+      const open = isFiltered && (!state.subject || state.subject === subject);
+      html += renderSubjectSection(subject, topics, open);
     });
-    if (visible.length < list.length) {
-      html += '<div class="more-row"><button type="button" id="show-more-topics" class="more-button">さらに見る（あと' + (list.length - visible.length) + '項目）</button></div>';
-    }
     results.innerHTML = html;
     results.setAttribute("aria-busy", "false");
   }
 
-  function chooseSubject(subject, shouldScroll) {
+  function setSubject(subject) {
     state.subject = subject;
-    state.showAll = false;
-    state.visible = 36;
     syncFilterUI();
     renderResults();
-    if (shouldScroll) $("#explorer").scrollIntoView({ behavior: "smooth", block: "start" });
   }
 
-  function chooseGrade(grade) {
+  function setGrade(grade) {
     state.grade = grade;
-    state.showAll = false;
-    state.visible = 36;
     syncFilterUI();
     renderResults();
   }
@@ -208,8 +330,14 @@
     state.subject = "";
     state.grade = "";
     state.query = "";
-    state.showAll = false;
-    state.visible = 36;
+    syncFilterUI();
+    renderResults();
+  }
+
+  function removeFilter(type) {
+    if (type === "subject") state.subject = "";
+    if (type === "grade") state.grade = "";
+    if (type === "query") state.query = "";
     syncFilterUI();
     renderResults();
   }
@@ -217,78 +345,56 @@
   function bindEvents() {
     $("#subject-filters").addEventListener("click", event => {
       const button = event.target.closest("[data-subject-filter]");
-      if (!button) return;
-      chooseSubject(button.dataset.subjectFilter || "", false);
+      if (button) setSubject(button.dataset.subjectFilter || "");
     });
     $("#grade-filters").addEventListener("click", event => {
       const button = event.target.closest("[data-grade-filter]");
-      if (!button) return;
-      chooseGrade(button.dataset.gradeFilter || "");
-    });
-    $$("[data-subject-pick]").forEach(button => {
-      button.addEventListener("click", () => chooseSubject(button.dataset.subjectPick || "", true));
+      if (button) setGrade(button.dataset.gradeFilter || "");
     });
     $("#topic-search").addEventListener("input", event => {
       state.query = event.target.value || "";
-      state.showAll = false;
-      state.visible = 36;
-      renderResults();
-    });
-    $("#results-sort").addEventListener("change", event => {
-      state.sort = event.target.value || "subject";
-      state.visible = 36;
       renderResults();
     });
     $("#clear-filters").addEventListener("click", resetFilters);
-    $("[data-query-pick]").forEach(button => button.addEventListener("click", () => {
-      state.query = button.dataset.queryPick || "";
-      state.showAll = false;
-      state.visible = 36;
-      syncFilterUI();
-      renderResults();
-      $("#explorer").scrollIntoView({ behavior: "smooth", block: "start" });
-    }));
     $("#active-filters").addEventListener("click", event => {
       const button = event.target.closest("[data-remove-filter]");
-      if (!button) return;
-      if (button.dataset.removeFilter === "subject") state.subject = "";
-      if (button.dataset.removeFilter === "grade") state.grade = "";
-      if (button.dataset.removeFilter === "query") state.query = "";
-      state.showAll = false;
-      state.visible = 36;
-      syncFilterUI();
-      renderResults();
+      if (button) removeFilter(button.dataset.removeFilter);
     });
     $("#results").addEventListener("click", event => {
-      if (event.target.closest("#show-all-topics")) {
-        state.showAll = true;
-        state.visible = 36;
-        renderResults();
-      } else if (event.target.closest("#show-more-topics")) {
-        state.visible += 36;
-        renderResults();
-      }
+      if (event.target.closest("#reset-from-empty")) resetFilters();
     });
   }
 
   async function init() {
     try {
-      const response = await fetch(DATA_URL);
-      if (!response.ok) throw new Error("学習データを読み込めませんでした。");
-      const data = await response.json();
-      state.topics = (data.topics || []).filter(isActiveTopic);
+      const [topicsResponse, relationsResponse] = await Promise.all([
+        fetch(TOPICS_URL),
+        fetch(RELATIONS_URL).catch(() => null)
+      ]);
+      if (!topicsResponse.ok) throw new Error("topics.json could not be loaded.");
+
+      const topicsData = await topicsResponse.json();
+      let relationsData = { dependencies: [] };
+      if (relationsResponse && relationsResponse.ok) {
+        try { relationsData = await relationsResponse.json(); } catch (_) { relationsData = { dependencies: [] }; }
+      }
+
+      state.topics = (topicsData.topics || []).filter(isActiveTopic);
+      state.dependencies = relationsData.dependencies || [];
+      state.topicById = new Map(state.topics.map(topic => [topic.id, topic]));
+      buildConnections();
       updateSubjectCounts();
       bindEvents();
       syncFilterUI();
       renderResults();
     } catch (error) {
-      console.error("学びの地図の初期化に失敗しました。", error);
-      $("#results-count").textContent = "読み込み失敗";
-      $("#results-title").textContent = "学習データを読み込めませんでした";
-      $("#results-description").textContent = "通信状態を確認して、もう一度お試しください。";
-      $("#results").innerHTML = '<div class="load-error"><strong>学習項目を表示できませんでした。</strong><p>ページを再読み込みしてください。問題が続く場合は、詳しい学習マップから探すこともできます。</p><a href="./details.html">詳しい学習マップを開く →</a></div>';
+      console.error("学習内容の読み込みに失敗しました。", error);
+      $("#results-count").textContent = "読込失敗";
+      $("#results-title").textContent = "学習内容を読み込めませんでした";
+      $("#results-description").textContent = "ページを再読み込みしてみてください。";
+      $("#results").innerHTML = '<div class="load-error"><strong>学習内容を表示できませんでした。</strong><p>通信状態を確認して、もう一度お試しください。</p><button type="button" id="retry-load" class="secondary-button">もう一度読み込む</button></div>';
       $("#results").setAttribute("aria-busy", "false");
-      $$("[data-subject-count]").forEach(node => node.textContent = "読込失敗");
+      $("#results").addEventListener("click", () => window.location.reload(), { once: true });
     }
   }
 
