@@ -542,16 +542,6 @@
       "studentRationale": "比例の関係を表・式・グラフで表すと、同じ関係をいろいろな方法で見られるよ。"
     },
     {
-      "id": "math-edge-056",
-      "from": "jp.elem.math.ratio",
-      "to": "jp.elem.math.meaning-of-ratio",
-      "type": "related-learning",
-      "rationale": "比の表し方を、比の値や等しい比の理解へ広げる。",
-      "evidenceType": "editorial",
-      "reviewStatus": "needs-review",
-      "studentRationale": "比の表し方を学んだら、比の値や等しい比も考えてみよう。"
-    },
-    {
       "id": "math-edge-057",
       "from": "jp.elem.math.tables-multiple-viewpoints",
       "to": "jp.elem.math.data-frequency-tables",
@@ -1460,16 +1450,6 @@
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
       "studentRationale": "天気や気温を続けて調べると、雲の動きから天気の変化を考えやすくなるよ。"
-    },
-    {
-      "id": "grade-link-053",
-      "from": "jp.elem.japanese.word-meaning",
-      "to": "jp.elem.japanese.word-relationships",
-      "type": "extension",
-      "rationale": "語彙を増やす経験から、語句どうしの関係や構成にも目を向ける。",
-      "evidenceType": "editorial",
-      "reviewStatus": "needs-review",
-      "studentRationale": "知っている言葉を増やすことから、言葉どうしのつながりや成り立ちへ考えを広げよう。"
     },
     {
       "id": "grade-link-054",
