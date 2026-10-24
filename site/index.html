@@ -99,7 +99,7 @@
       </div>
       <div class="filter-panel">
         <label class="search-label" for="topic-search">言葉で探す</label>
-        <div class="search-row"><span class="search-icon" aria-hidden="true">⌕</span><input id="topic-search" type="search" placeholder="例：分数、地図、植物、文章" autocomplete="off"><button id="clear-filters" type="button" class="clear-button">条件をリセット</button></div>
+        <div class="search-row"><span class="search-icon" aria-hidden="true">⌕</span><input id="topic-search" type="search" placeholder="例：分数、地図、植物、文章" autocomplete="off" aria-describedby="search-help"><button id="clear-filters" type="button" class="clear-button">条件をリセット</button></div><p id="search-help" class="search-help">複数の言葉も入力できます。例：「分数 わり算」なら、両方に関係する項目を探します。</p><div class="quick-searches" aria-label="検索例"><span>すぐに探す：</span><button type="button" data-query-pick="分数">分数</button><button type="button" data-query-pick="植物">植物</button><button type="button" data-query-pick="地図">地図</button><button type="button" data-query-pick="文章">文章</button></div>
         <div class="filter-group"><span class="filter-label">教科</span><div id="subject-filters" class="chip-row" role="group" aria-label="教科を選ぶ">
           <button type="button" class="filter-chip is-active" data-subject-filter="" aria-pressed="true">すべて</button>
           <button type="button" class="filter-chip" data-subject-filter="国語" aria-pressed="false">国語</button>
@@ -117,7 +117,7 @@
           <button type="button" class="filter-chip" data-grade-filter="6" aria-pressed="false">6年</button>
         </div></div>
       </div>
-      <div class="results-heading"><div><h3 id="results-title">学びを見つけよう</h3><p id="results-description">まずは教科・学年・言葉のどれかを選んでみてください。</p></div><span id="results-count" class="results-count" aria-live="polite">未選択</span></div>
+      <div class="results-heading"><div><h3 id="results-title">学びを見つけよう</h3><p id="results-description">まずは教科・学年・言葉のどれかを選んでみてください。</p></div><span id="results-count" class="results-count" aria-live="polite">未選択</span></div><div id="active-filters" class="active-filters" aria-live="polite"></div>
       <div id="results" class="results" aria-live="polite" aria-busy="true">
         <div class="empty-state"><span class="empty-state-mark" aria-hidden="true">？</span><strong>どこから探してみる？</strong><p>上の教科カードを選ぶか、学年や言葉で検索してください。項目を開くと、前提や関連する学びをたどれます。</p><button id="show-all-topics" type="button" class="secondary-button">全教科の項目をすべて見る</button></div>
       </div>
