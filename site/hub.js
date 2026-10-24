@@ -40,15 +40,18 @@
   }
 
   const socialTopicGroups = {
-    "地域のようす": ["municipality-change", "local-area", "municipality-work", "community-predecessors", "local-map"],
-    "くらしを支えるしくみ": ["waste-management", "water-supply", "firefighting", "police-safety", "disaster-prevention"],
-    "都道府県のようす": ["prefecture-culture", "prefecture-land", "prefecture-industry"],
-    "日本の国土と自然": ["japan-location", "japan-landforms-climate", "natural-environment-life"],
-    "産業と環境": ["environment-protection", "transport-trade", "industrial-production", "information-industry", "food-life", "forestry", "fisheries", "agriculture"],
-    "歴史のうつりかわり": ["edo-society", "unification", "war-and-recovery", "ancient-japan", "postwar-japan", "medieval-japan", "modernization"],
-    "政治と世界": ["diet", "international-relations", "local-government", "government-courts", "constitution"],
-    "資料を使って調べる": ["fieldwork-interview", "evidence-explanation", "decision-civic", "compare-regions", "maps-globes", "statistics-graphs", "timeline-sources"]
+    "地域のようす・地図": ["jp.elem.social.municipality-change", "jp.elem.social.local-area", "jp.elem.social.municipality-work", "jp.elem.social.local-map"],
+    "くらしを支えるしくみ": ["jp.elem.social.waste-management", "jp.elem.social.water-supply", "jp.elem.social.firefighting", "jp.elem.social.police-safety", "jp.elem.social.disaster-prevention"],
+    "都道府県の特色と地域づくり": ["jp.elem.social.community-predecessors", "jp.elem.social.prefecture-culture", "jp.elem.social.prefecture-land", "jp.elem.social.prefecture-industry"],
+    "日本の国土と自然": ["jp.elem.social.national-disaster-prevention", "jp.elem.social.natural-environment-life", "jp.elem.social.japan-location", "jp.elem.social.japan-landforms-climate"],
+    "産業・情報・環境": ["jp.elem.social.environment-protection", "jp.elem.social.transport-trade", "jp.elem.social.industrial-production", "jp.elem.social.information-industry", "jp.elem.social.food-life", "jp.elem.social.forestry", "jp.elem.social.fisheries", "jp.elem.social.agriculture"],
+    "歴史のうつりかわり": ["jp.elem.social.edo-society", "jp.elem.social.unification", "jp.elem.social.war-and-recovery", "jp.elem.social.ancient-japan", "jp.elem.social.postwar-japan", "jp.elem.social.medieval-japan", "jp.elem.social.modernization"],
+    "政治と世界": ["jp.elem.social.diet", "jp.elem.social.international-relations", "jp.elem.social.local-government", "jp.elem.social.government-courts", "jp.elem.social.constitution"],
+    "資料を使って調べる": ["jp.elem.social.fieldwork-interview", "jp.elem.social.evidence-explanation", "jp.elem.social.decision-civic", "jp.elem.social.compare-regions", "jp.elem.social.maps-globes", "jp.elem.social.statistics-graphs", "jp.elem.social.timeline-sources"]
   };
+  const socialTopicGroupById = new Map(
+    Object.entries(socialTopicGroups).flatMap(([group, ids]) => ids.map(id => [id, group]))
+  );
 
   const scienceTopicGroups = {
     "エネルギー": [
@@ -82,12 +85,8 @@
 
   function groupOf(topic) {
     if (topic.subject === "社会") {
-      for (const [label, fragments] of Object.entries(socialTopicGroups)) {
-        if (fragments.some(fragment => String(topic.id || "").endsWith("." + fragment))) return label;
-      }
-      const grades = gradeValues(topic);
-      const firstGrade = grades.length ? grades[0] : 0;
-      return ({ 3: "地域のくらし", 4: "地域と都道府県", 5: "国土・産業", 6: "歴史・政治" })[firstGrade] || "社会の学び";
+      // 社会科も学習項目IDで分類を固定し、トップ一覧と教科マップを一致させる。
+      return socialTopicGroupById.get(topic.id) || "分類を確認中";
     }
     if (topic.subject === "理科") {
       // IDで分類を固定し、キーワードの偶然の一致による分類ずれを防ぐ。
