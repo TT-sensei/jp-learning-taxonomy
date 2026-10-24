@@ -292,9 +292,9 @@ function relationSummary(topic) {
     return '<span class="relation-summary is-empty"><span>つながりを確認中</span></span>';
   }
   return '<span class="relation-summary" aria-label="学びのつながり">' +
-    (prior ? '<span class="relation-count relation-before">← 前 ' + prior + '</span>' : '') +
-    (related ? '<span class="relation-count relation-related">↔ 関連 ' + related + '</span>' : '') +
-    (future ? '<span class="relation-count relation-next">次 ' + future + ' →</span>' : '') +
+    (prior ? '<span class="relation-count relation-before">← 前に学ぶ ' + prior + '</span>' : '') +
+    (related ? '<span class="relation-count relation-related">↔ 関係する ' + related + '</span>' : '') +
+    (future ? '<span class="relation-count relation-next">この先 ' + future + ' →</span>' : '') +
     '</span>';
 }
 function relationLabel(edge, group) {
