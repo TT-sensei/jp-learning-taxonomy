@@ -18,7 +18,38 @@
       "question": "数のしくみを知り、計算を使いこなす",
       "summary": "数の表し方、整数の四則計算、計算の順序やきまり、式の表現を学ぶ。",
       "flow": "数のしくみ → 計算の意味と方法 → 式・計算の工夫・問題解決",
-      "topicIds": []
+      "topicIds": [
+        "jp.elem.math.number-counting",
+        "jp.elem.math.numbers-to-10000",
+        "jp.elem.math.numbers-and-place-value",
+        "jp.elem.math.compose-decompose-to-10",
+        "jp.elem.math.addition-within-20",
+        "jp.elem.math.subtraction-within-20",
+        "jp.elem.math.addition-meaning",
+        "jp.elem.math.subtraction-meaning",
+        "jp.elem.math.number-sentences",
+        "jp.elem.math.compare-order-numbers",
+        "jp.elem.math.multidigit-add-subtract",
+        "jp.elem.math.addition-properties",
+        "jp.elem.math.multiplication-meaning",
+        "jp.elem.math.multiplication-properties",
+        "jp.elem.math.multiplication-tables",
+        "jp.elem.math.multidigit-multiply-one-digit",
+        "jp.elem.math.multidigit-multiply-two-digit",
+        "jp.elem.math.division-meaning",
+        "jp.elem.math.division-remainders",
+        "jp.elem.math.division-algorithm",
+        "jp.elem.math.distributive-property",
+        "jp.elem.math.rounding-estimation",
+        "jp.elem.math.expressions-parentheses",
+        "jp.elem.math.unknown-number-box-expression",
+        "jp.elem.math.unknown-number-solve",
+        "jp.elem.math.unknown-number-relationships",
+        "jp.elem.math.letter-expressions",
+        "jp.elem.math.solve-multistep-number-problems",
+        "jp.elem.math.choose-calculation-strategy",
+        "jp.elem.math.estimate-check-calculation"
+      ]
     },
     {
       "id": "multiples-factors",
@@ -26,7 +57,9 @@
       "question": "数のきまりを見つけ、数を整理する",
       "summary": "倍数・約数、公倍数・公約数、最小公倍数・最大公約数など、整数の性質を調べる。",
       "flow": "倍数・約数 → 公倍数・公約数 → 約分・通分などへの活用",
-      "topicIds": []
+      "topicIds": [
+        "jp.elem.math.factors-multiples"
+      ]
     },
     {
       "id": "decimal-calculation",
@@ -34,7 +67,15 @@
       "question": "小数のしくみを理解し、計算に使う",
       "summary": "小数の意味や位取りから、たし算・ひき算・かけ算・わり算へ。分数との関係も確かめる。",
       "flow": "小数の意味・位取り → 小数の四則計算 → 分数・整数とのつながり",
-      "topicIds": []
+      "topicIds": [
+        "jp.elem.math.decimal-fraction-tenths",
+        "jp.elem.math.decimals-tenths",
+        "jp.elem.math.decimal-place-value",
+        "jp.elem.math.decimal-add-subtract",
+        "jp.elem.math.decimal-multiply-divide",
+        "jp.elem.math.decimal-fraction-numberline",
+        "jp.elem.math.decimal-fraction-equivalence"
+      ]
     },
     {
       "id": "fraction-calculation",
@@ -42,7 +83,13 @@
       "question": "分数の大きさや計算のしくみをつかむ",
       "summary": "分数の意味、等しい分数、約分・通分、分数のたし算・ひき算・かけ算・わり算を学ぶ。",
       "flow": "分数の意味・大きさ → 等しい分数・通分 → 分数の四則計算",
-      "topicIds": []
+      "topicIds": [
+        "jp.elem.math.unit-fractions",
+        "jp.elem.math.fractions-compare",
+        "jp.elem.math.fractions-same-denominator",
+        "jp.elem.math.fractions-unlike-denominators",
+        "jp.elem.math.fraction-multiply-divide"
+      ]
     },
     {
       "id": "plane-geometry-basics",
@@ -50,7 +97,21 @@
       "question": "図形の特徴を見つけ、面積を求める",
       "summary": "身の回りの形、三角形・四角形・円、角や直線の関係、面積の求め方を整理する。",
       "flow": "形の特徴 → 角・直線・図形の性質 → 面積と単位",
-      "topicIds": []
+      "topicIds": [
+        "jp.elem.math.compose-decompose-shapes",
+        "jp.elem.math.familiar-shapes",
+        "jp.elem.math.triangles-quadrilaterals",
+        "jp.elem.math.triangles-circles-spheres",
+        "jp.elem.math.angles",
+        "jp.elem.math.angle-measurement",
+        "jp.elem.math.perpendicular-parallel",
+        "jp.elem.math.geometric-construction",
+        "jp.elem.math.quadrilateral-properties",
+        "jp.elem.math.area-rectangle-square",
+        "jp.elem.math.area-triangle-parallelogram-trapezoid",
+        "jp.elem.math.area-circle",
+        "jp.elem.math.area-units"
+      ]
     },
     {
       "id": "plane-geometry-properties",
@@ -58,7 +119,14 @@
       "question": "図形の性質や変化を見つける",
       "summary": "合同、角の性質、正多角形、円周、対称、拡大図・縮図などを通して図形の見方を深める。",
       "flow": "図形を比べる → 性質を見つける → 拡大・縮小や対称で捉える",
-      "topicIds": []
+      "topicIds": [
+        "jp.elem.math.congruent-figures",
+        "jp.elem.math.angle-sums-in-polygons",
+        "jp.elem.math.regular-polygons-circumference",
+        "jp.elem.math.enlargement-reduction",
+        "jp.elem.math.symmetry",
+        "jp.elem.math.scale-and-ratio"
+      ]
     },
     {
       "id": "solid-geometry",
@@ -66,7 +134,14 @@
       "question": "立体の形を捉え、面積や体積を考える",
       "summary": "箱の形や面・辺・頂点、見取図・展開図、体積の単位と求め方を学ぶ。",
       "flow": "立体の特徴 → 見取図・展開図 → 体積とおよその量",
-      "topicIds": []
+      "topicIds": [
+        "jp.elem.math.boxes-and-faces",
+        "jp.elem.math.solids-nets",
+        "jp.elem.math.volume-cuboid",
+        "jp.elem.math.volume-units",
+        "jp.elem.math.volume-prisms-cylinders",
+        "jp.elem.math.approximate-area-volume"
+      ]
     },
     {
       "id": "measurement-units",
@@ -74,7 +149,17 @@
       "question": "量を比べ、単位を使って表す",
       "summary": "長さ・かさ・重さ・時間・面積・体積などを、目的に合った単位や方法で測る。",
       "flow": "直接比べる → 単位で測る → 単位換算・測り方の選択",
-      "topicIds": []
+      "topicIds": [
+        "jp.elem.math.time-reading",
+        "jp.elem.math.direct-measurement",
+        "jp.elem.math.capacity-units",
+        "jp.elem.math.elapsed-time",
+        "jp.elem.math.length-units-cm-mm-m",
+        "jp.elem.math.mass-units",
+        "jp.elem.math.distance-kilometer",
+        "jp.elem.math.measurement-choice",
+        "jp.elem.math.unit-conversion-length-area-volume"
+      ]
     },
     {
       "id": "unit-quantity-average-speed",
@@ -82,7 +167,11 @@
       "question": "量をそろえて比べ、関係を考える",
       "summary": "1つ分にそろえる考え方、平均、速さ・道のり・時間の関係を生活場面にも活用する。",
       "flow": "量をそろえて比べる → 平均・単位量あたり → 速さと道のり・時間",
-      "topicIds": []
+      "topicIds": [
+        "jp.elem.math.unit-quantity",
+        "jp.elem.math.average",
+        "jp.elem.math.speed"
+      ]
     },
     {
       "id": "percentage-ratio",
@@ -90,7 +179,11 @@
       "question": "数量の関係を割合や比で表す",
       "summary": "もとにする量と比べる量、割合・百分率、割合を表すグラフ、比の表し方を学ぶ。",
       "flow": "数量を比べる → 割合・百分率 → 比で表し、活用する",
-      "topicIds": []
+      "topicIds": [
+        "jp.elem.math.percentage",
+        "jp.elem.math.percentage-graphs",
+        "jp.elem.math.ratio"
+      ]
     },
     {
       "id": "proportion",
@@ -98,7 +191,12 @@
       "question": "2つの量の変わり方を調べる",
       "summary": "数量の変化を表・式・グラフで捉え、比例・反比例の関係を考える。",
       "flow": "2つの量の変化 → 比例を表す → 反比例と比べる",
-      "topicIds": []
+      "topicIds": [
+        "jp.elem.math.changing-quantities-patterns",
+        "jp.elem.math.meaning-of-proportion",
+        "jp.elem.math.proportionality",
+        "jp.elem.math.inverse-proportionality"
+      ]
     },
     {
       "id": "counting-cases",
@@ -106,7 +204,9 @@
       "question": "落ちや重なりがないように数える",
       "summary": "並べ方や組み合わせ方を、図や表などを使って順序よく調べる。",
       "flow": "条件を整理する → 並べ方を調べる → 組み合わせ方を調べる",
-      "topicIds": []
+      "topicIds": [
+        "jp.elem.math.arrangements-combinations"
+      ]
     },
     {
       "id": "data-use",
@@ -114,7 +214,17 @@
       "question": "表やグラフから根拠を見つける",
       "summary": "データの分類・整理、表やグラフ、平均、データの特徴や集め方を考える学び。",
       "flow": "分類・表・グラフ → 特徴を比べる → データを根拠に判断する",
-      "topicIds": []
+      "topicIds": [
+        "jp.elem.math.classify-count-pictograph",
+        "jp.elem.math.tables-simple-graphs",
+        "jp.elem.math.bar-graphs",
+        "jp.elem.math.line-graphs",
+        "jp.elem.math.tables-multiple-viewpoints",
+        "jp.elem.math.data-based-reasoning",
+        "jp.elem.math.data-statistical-investigation",
+        "jp.elem.math.data-frequency-tables",
+        "jp.elem.math.statistical-viewpoints"
+      ]
     },
     {
       "id": "mathematical-thinking",
@@ -122,7 +232,14 @@
       "question": "考えを表し、説明し、確かめる",
       "summary": "きまりを見つける、見積もる、図・表・式で表す、考え方を説明するなど、領域を横断して使う力。",
       "flow": "問題の関係を捉える → 表現・説明する → 方法や結果を確かめる",
-      "topicIds": []
+      "topicIds": [
+        "jp.elem.math.find-patterns",
+        "jp.elem.math.estimate-and-check",
+        "jp.elem.math.explain-reasoning",
+        "jp.elem.math.represent-with-diagrams-tables",
+        "jp.elem.math.math-in-daily-life",
+        "jp.elem.math.understand-problem-structure"
+      ]
     }
   ],
   "connections": [
