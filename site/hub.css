@@ -489,3 +489,171 @@ main.wrap { padding-top: 16px; padding-bottom: 42px; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; }
 }
+
+
+/* Horizontal grade progression board, designed for tablet use first. */
+.grade-board-wrap {
+  width: 100%;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  padding: 2px 2px 12px;
+  scrollbar-width: auto;
+  scrollbar-color: #aebfb2 #e7eee9;
+  -webkit-overflow-scrolling: touch;
+}
+.grade-board-wrap::after {
+  content: "横にスクロールして、1年生から6年生まで見られます →";
+  display: block;
+  padding: 7px 3px 0;
+  color: var(--muted);
+  font-size: .75rem;
+}
+.grade-board {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(150px, 1fr));
+  gap: 8px;
+  min-width: 1010px;
+  align-items: stretch;
+}
+.grade-column {
+  min-width: 0;
+  overflow: clip;
+  border: 1px solid #d8e2da;
+  border-radius: 12px;
+  background: #edf2ee;
+  transition: border-color .15s, background .15s, box-shadow .15s;
+}
+.grade-column.is-selected {
+  border: 2px solid var(--accent);
+  background: #e8f1e9;
+  box-shadow: 0 0 0 3px rgb(46 106 78 / 10%);
+}
+.grade-column-heading {
+  position: relative;
+  display: grid;
+  grid-template-columns: 42px minmax(0, 1fr);
+  grid-template-rows: auto auto;
+  align-items: center;
+  column-gap: 8px;
+  width: 100%;
+  min-height: 67px;
+  padding: 9px;
+  border: 0;
+  border-bottom: 1px solid #d8e2da;
+  background: #fff;
+  color: var(--ink);
+  text-align: left;
+  cursor: pointer;
+}
+.grade-column-heading:hover { background: #f4faf5; }
+.grade-column.is-selected .grade-column-heading { background: #e0eee3; }
+.grade-number {
+  grid-row: 1 / 3;
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 11px;
+  background: var(--accent);
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 850;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+.grade-word { align-self: end; font-size: .9rem; font-weight: 850; line-height: 1.2; }
+.grade-column-heading small { align-self: start; margin-top: 2px; color: var(--muted); font-size: .69rem; }
+.grade-column.is-selected .grade-number { background: #183e2c; }
+.map-subject-lane { padding: 7px; }
+.map-subject-lane + .map-subject-lane { border-top: 1px dashed #cbd8ce; }
+.map-subject-heading {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 0 0 6px;
+  color: var(--subject-color, var(--accent));
+  font-size: .77rem;
+  line-height: 1.4;
+  font-weight: 850;
+}
+.map-subject-heading > span {
+  display: grid;
+  place-items: center;
+  flex: 0 0 22px;
+  width: 22px;
+  height: 22px;
+  border-radius: 6px;
+  background: color-mix(in srgb, var(--subject-color, var(--accent)) 14%, white);
+  font-size: .75rem;
+}
+.map-subject-heading small {
+  margin-left: auto;
+  color: var(--muted);
+  font-size: .66rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+.map-topic-stack { display: grid; gap: 5px; }
+.map-topic {
+  min-width: 0;
+  padding: 7px 7px 6px;
+  border: 1px solid #dbe4dd;
+  border-left: 3px solid var(--subject-color, var(--accent));
+  border-radius: 7px;
+  background: #fff;
+  box-shadow: 0 1px 2px rgb(29 39 34 / 3%);
+}
+.map-topic-title {
+  display: block;
+  color: #1d3024;
+  font-size: .77rem;
+  font-weight: 800;
+  line-height: 1.45;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+.map-topic-title:hover { color: var(--accent-dark); text-decoration: underline; text-underline-offset: 2px; }
+.map-topic-links { display: grid; gap: 3px; margin-top: 5px; }
+.map-link {
+  display: block;
+  padding: 3px 4px;
+  border-radius: 4px;
+  font-size: .65rem;
+  line-height: 1.4;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+.map-link:hover { text-decoration: underline; text-underline-offset: 2px; }
+.map-before { background: #e4f2e9; color: #27684e; }
+.map-related { background: #e8eef9; color: #365b91; }
+.map-future { background: #fff0dc; color: #89571b; }
+.map-topic-meta {
+  display: block;
+  margin-top: 4px;
+  color: #6b786f;
+  font-size: .62rem;
+  line-height: 1.35;
+}
+.map-empty { margin: 0; padding: 10px 7px; color: #7b8980; font-size: .72rem; }
+.subject-japanese { --subject-color: var(--japanese); }
+.subject-math { --subject-color: var(--math); }
+.subject-social { --subject-color: var(--social); }
+.subject-science { --subject-color: var(--science); }
+@media (min-width: 1100px) {
+  .grade-board { min-width: 0; grid-template-columns: repeat(6, minmax(0, 1fr)); }
+  .grade-board-wrap::after { content: "各カードを押すと、説明と学びのつながりを詳しく見られます。"; }
+}
+@media (max-width: 760px) {
+  html { scroll-padding-top: 220px; }
+  .grade-board { min-width: 1020px; gap: 7px; }
+  .grade-column-heading { min-height: 62px; padding: 7px; grid-template-columns: 36px minmax(0,1fr); gap: 6px; }
+  .grade-number { width: 36px; height: 36px; border-radius: 9px; font-size: 1.3rem; }
+  .map-subject-lane { padding: 6px; }
+  .map-topic { padding: 7px 6px 6px; }
+  .map-topic-title { font-size: .76rem; }
+  .map-link { font-size: .65rem; min-height: 28px; display: flex; align-items: center; }
+}
+@media (max-width: 430px) {
+  .grade-board { min-width: 990px; grid-template-columns: repeat(6, minmax(158px, 1fr)); }
+  .grade-board-wrap::after { content: "右へスワイプして、学年ごとの学びを見比べよう →"; }
+}
