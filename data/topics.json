@@ -8285,7 +8285,7 @@
         "note": "候補学年は初期レビュー段階。公式な学年配当や学習順序を確定したものではない。"
       },
       "conceptualPillarCandidates": [
-        "粒子"
+        "エネルギー"
       ],
       "officialAreaCandidate": "A 物質・エネルギー",
       "studentName": "磁石につく物・N極とS極のきまり",
@@ -8330,7 +8330,7 @@
       "id": "jp.elem.science.force-motion",
       "subject": "理科",
       "domain": "A 物質・エネルギー",
-      "cluster": "力の働き",
+      "cluster": "電気・磁石・力・運動",
       "name": "風やゴムの力の働き",
       "description": "風やゴムの力で物が動く様子を調べ、力の働きと物の動きの関係を捉える。",
       "grades": [
