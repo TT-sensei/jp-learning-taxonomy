@@ -284,6 +284,19 @@ function relationCandidates(topic, group) {
       return (a.topic.domain||"").localeCompare(b.topic.domain||"","ja");
     });
 }
+function relationSummary(topic) {
+  const prior = relationCandidates(topic, "prior").length;
+  const related = relationCandidates(topic, "related").length;
+  const future = relationCandidates(topic, "future").length;
+  if (!prior && !related && !future) {
+    return '<span class="relation-summary is-empty"><span>つながりを確認中</span></span>';
+  }
+  return '<span class="relation-summary" aria-label="学びのつながり">' +
+    (prior ? '<span class="relation-count relation-before">← 前 ' + prior + '</span>' : '') +
+    (related ? '<span class="relation-count relation-related">↔ 関連 ' + related + '</span>' : '') +
+    (future ? '<span class="relation-count relation-next">次 ' + future + ' →</span>' : '') +
+    '</span>';
+}
 function relationLabel(edge, group) {
   if (group === "prior") return edge.type === "prerequisite" ? "先に身につけたいこと" : "先に学ぶと分かりやすい";
   if (group === "future") {
@@ -340,7 +353,8 @@ function renderGradeMap(subject) {
           return '<button type="button" class="grade-topic'+(state.selected===topic.id?' is-selected':'')+'" data-subject="'+esc(topic.subject)+'" data-topic-id="'+esc(topic.id)+'" aria-pressed="'+(state.selected===topic.id)+'">'+
             '<strong>'+rubyHTML(topicTitle(topic))+'</strong>'+
             (continuing?'<span class="grade-topic-continuation">'+rubyHTML("このあとも学ぶかも")+'：'+rubyHTML(continuing)+'</span>':'')+
-            '<span>つながりを見る →</span></button>';
+            relationSummary(topic)+
+            '<span class="grade-topic-open">詳しく見る →</span></button>';
         }).join("")+'</div>').join("")+
       (topics.length?'':'<p class="grade-lane-empty">この学年から学ぶ項目は、まだ登録されていないよ。</p>')+'</section>';
   }).join("");
@@ -423,7 +437,7 @@ function renderList() {
       '<div class="topic-grid">'+items.map(topic=>
         '<button type="button" class="topic-card'+(state.selected===topic.id?' is-selected':'')+'" data-subject="'+esc(topic.subject)+'" data-topic-id="'+esc(topic.id)+'" aria-pressed="'+(state.selected===topic.id)+'">'+
         '<span class="topic-grade">'+rubyHTML(gradeLabel(topic))+'</span><strong>'+rubyHTML(topicTitle(topic))+'</strong>'+
-        '<span class="topic-description">'+rubyHTML(topicText(topic))+'</span></button>'
+        '<span class="topic-description">'+rubyHTML(topicText(topic))+'</span>'+relationSummary(topic)+'</button>'
       ).join("")+'</div>';
     list.append(section);
   }
