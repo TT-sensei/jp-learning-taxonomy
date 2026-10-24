@@ -184,7 +184,7 @@ function topicGroup(topic) {
   }
   if (topic.subject === "国語") {
     const grade = Number(topic.gradePlacement?.candidateFirstIntroductionGrade) || Number(topic.grades?.[0]) || 1;
-    return grade <= 2 ? "1・2年生のまとまり" : "3〜6年生のまとまり（細分化を確認中）";
+    return grade <= 2 ? "1・2年生の学び" : "3〜6年生の学び";
   }
   if (topic.subject === "理科") {
     const cluster = String(topic.cluster || "");
