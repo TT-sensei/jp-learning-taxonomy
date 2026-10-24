@@ -3647,28 +3647,15 @@
     {
       "topicId": "jp.elem.math.meaning-of-ratio",
       "officialCodes": [],
-      "matchStatus": "candidate",
-      "matchType": "parent-section-candidate",
-      "note": "82V12公式CSVでコードの存在、教科・学年帯との整合を確認済み。学習項目と個別の公式記述との意味的な対応は未確定のため、候補として保持する。元の候補：8250263300000000.",
-      "candidateCode": "8250263300000000",
-      "candidateCodes": [
-        "8250263300000000"
-      ],
+      "matchStatus": "not-checked",
+      "matchType": "superseded-topic",
+      "note": "この旧項目は jp.elem.math.ratio（比の表し方・比の値・等しい比）へ統合。公式コード候補は後継項目側で確認する。",
+      "candidateCode": null,
+      "candidateCodes": [],
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
-      "relatedParentCodes": [
-        "8250263300000000"
-      ],
-      "officialAudit": {
-        "officialVersion": "82V12",
-        "checkedAt": "2026-10-21",
-        "codeExistence": "confirmed",
-        "subjectGradeCheck": "passed",
-        "semanticStatus": "needs-semantic-review",
-        "relatedParentCodes": [
-          "8250263300000000"
-        ]
-      }
+      "relatedParentCodes": [],
+      "officialAudit": null
     },
     {
       "topicId": "jp.elem.math.measurement-choice",
