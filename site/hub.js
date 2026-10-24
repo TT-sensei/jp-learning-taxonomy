@@ -288,6 +288,59 @@
       '<button type="button" id="reset-from-empty" class="secondary-button">条件をリセットする</button></div>';
   }
 
+  function boardTopicCard(topic) {
+    const title = titleOf(topic);
+    const url = "./details.html?topic=" + encodeURIComponent(topic.id || "");
+    const links = [];
+    const before = connectionsFor(topic, "before");
+    const future = connectionsFor(topic, "future");
+    const related = connectionsFor(topic, "related");
+    if (before.length) {
+      const item = before[0];
+      links.push('<a class="map-link map-before" href="./details.html?topic=' + encodeURIComponent(item.id) + '" title="前に学ぶ：' + esc(titleOf(item)) + '">← ' + esc(titleOf(item)) + '</a>');
+    }
+    if (future.length) {
+      const item = future[0];
+      links.push('<a class="map-link map-future" href="./details.html?topic=' + encodeURIComponent(item.id) + '" title="この先：' + esc(titleOf(item)) + '">' + esc(titleOf(item)) + ' →</a>');
+    }
+    if (!before.length && !future.length && related.length) {
+      const item = related[0];
+      links.push('<a class="map-link map-related" href="./details.html?topic=' + encodeURIComponent(item.id) + '" title="関係する：' + esc(titleOf(item)) + '">↔ ' + esc(titleOf(item)) + '</a>');
+    }
+    const relCount = before.length + future.length + related.length;
+    return '<article class="map-topic subject-' + esc(subjectClass(topic.subject)) + '">' +
+      '<a class="map-topic-title" href="' + esc(url) + '">' + esc(title) + '</a>' +
+      (links.length ? '<div class="map-topic-links">' + links.join("") + '</div>' : '') +
+      '<span class="map-topic-meta">' + esc(gradeLabel(topic)) + (relCount ? ' · <span aria-label="つながり ' + relCount + '件">↔ ' + relCount + '</span>' : '') + '</span>' +
+    '</article>';
+  }
+
+  function renderGradeBoard(topics, filtered) {
+    const grades = [1, 2, 3, 4, 5, 6];
+    const boardTopics = new Map(grades.map(grade => [grade, topics.filter(topic => gradeValues(topic).includes(grade))]));
+    const subjects = state.subject ? [state.subject] : SUBJECTS;
+    const cells = grades.map(grade => {
+      const gradeTopics = boardTopics.get(grade);
+      const gradeSubjects = subjects.filter(subject => gradeTopics.some(topic => topic.subject === subject));
+      const content = gradeSubjects.map(subject => {
+        const items = gradeTopics.filter(topic => topic.subject === subject)
+          .sort((a,b) => groupOf(a).localeCompare(groupOf(b),"ja") || titleOf(a).localeCompare(titleOf(b),"ja"));
+        return '<section class="map-subject-lane subject-' + esc(subjectClass(subject)) + '">' +
+          '<h3 class="map-subject-heading"><span>' + esc(SUBJECT_MARKS[subject] || subject.slice(0,1)) + '</span>' + esc(subject) + '<small>' + items.length + '</small></h3>' +
+          '<div class="map-topic-stack">' + items.map(boardTopicCard).join("") + '</div>' +
+        '</section>';
+      }).join("");
+      const selected = state.grade === String(grade);
+      return '<section class="grade-column' + (selected ? ' is-selected' : '') + '" aria-label="' + grade + '年生">' +
+        '<button type="button" class="grade-column-heading" data-grade-filter="' + grade + '" aria-pressed="' + selected + '">' +
+          '<span class="grade-number">' + grade + '</span><span class="grade-word">年生</span><small>' + gradeTopics.length + '項目</small>' +
+        '</button>' +
+        (content || '<p class="map-empty">この学年の項目はありません</p>') +
+      '</section>';
+    }).join("");
+    return '<div class="grade-board-wrap"><div class="grade-board" aria-label="1年生から6年生への学習の見通し">' + cells + '</div></div>';
+  }
+
   function renderResults() {
     const results = $("#results");
     const count = $("#results-count");
@@ -297,12 +350,8 @@
 
     const filtered = getFilteredTopics();
     const isFiltered = Boolean(state.subject || state.grade || state.query.trim());
-    const allSubjects = [...new Set([...SUBJECTS, ...state.topics.map(topic => topic.subject)])];
-    const subjectOrder = allSubjects.filter((subject, index) => allSubjects.indexOf(subject) === index);
-    const subjectsWithItems = isFiltered
-      ? subjectOrder.filter(subject => filtered.some(topic => topic.subject === subject))
-      : subjectOrder.filter(subject => state.topics.some(topic => topic.subject === subject));
-
+    const allTopics = state.topics;
+    const subjectsWithItems = SUBJECTS.filter(subject => allTopics.some(topic => topic.subject === subject));
     const filterParts = [];
     if (state.subject) filterParts.push(state.subject);
     if (state.grade) filterParts.push(state.grade + "年");
@@ -317,14 +366,11 @@
       esc(label) + '<span aria-hidden="true">×</span></button>').join("");
     $("#active-filters").hidden = active.length === 0;
 
-    title.textContent = isFiltered ? "学びの一覧" : "学びの一覧";
-    description.textContent = filterParts.length
-      ? filterParts.join("・") + "に合う学びと、その前後のつながりを表示しています。"
-      : "教科を開くと、学びの一覧と前後のつながりが見られます。";
-
-    count.textContent = isFiltered
-      ? filtered.length + "項目"
-      : state.topics.length + "項目・" + subjectsWithItems.length + "教科";
+    title.textContent = "学年ごとの学びのつながり";
+    description.textContent = isFiltered
+      ? filterParts.join("・") + "に合う項目を表示しています。学年の見出しから、ほかの学年へ移動できます。"
+      : "左から右へ、1年生から6年生へ。カードを押すと、学びのつながりを詳しく見られます。";
+    count.textContent = isFiltered ? filtered.length + "項目" : allTopics.length + "項目・" + subjectsWithItems.length + "教科";
 
     if (!filtered.length) {
       results.innerHTML = emptyState("見つかりませんでした", "学年や教科を変えるか、検索する言葉を少し変えてみてください。");
@@ -332,16 +378,10 @@
       return;
     }
 
-    let html = "";
-    subjectsWithItems.forEach(subject => {
-      const topics = filtered.filter(topic => topic.subject === subject);
-      const open = isFiltered && (!state.subject || state.subject === subject);
-      html += renderSubjectSection(subject, topics, open);
-    });
-    results.innerHTML = html;
+    const boardData = isFiltered ? filtered : allTopics;
+    results.innerHTML = renderGradeBoard(boardData, isFiltered);
     results.setAttribute("aria-busy", "false");
   }
-
   function setSubject(subject) {
     state.subject = subject;
     syncFilterUI();
