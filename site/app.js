@@ -559,22 +559,25 @@ function renderDetail(id, scroll = true) {
   const next=relationCandidates(topic,"future");
   const sourceLinks=(topic.evidence||[]).map(evidence=>{
     const source=(state.standards?.sources||[]).find(s=>s.id===evidence.sourceId);
-    const link=source?'<a href="'+esc(source.url)+'" target="_blank" rel="noopener noreferrer">'+esc(source.title)+'</a>':esc(evidence.sourceId);
-    return '<li>'+link+'<span class="source-note">'+esc(evidence.note||"")+'</span></li>';
-  }).join("");
+    if(!source) return "";
+    return '<li><a href="'+esc(source.url)+'" target="_blank" rel="noopener noreferrer">'+esc(source.title)+'</a></li>';
+  }).filter(Boolean).join("");
+  const topicFocus = new URLSearchParams(window.location.search).has("topic");
+  const backLink = topicFocus ? '<a class="detail-back-link" href="./index.html">← 学びの一覧へ戻る</a>' : "";
   $("#detail").innerHTML=
+    backLink+
     '<div class="detail-topline"><span class="subject-chip" data-subject="'+esc(topic.subject)+'">'+rubyHTML(topic.subject)+'</span></div>'+
     '<p class="detail-grade">'+rubyHTML(gradeLabel(topic))+'　／　'+rubyHTML(topicGroup(topic))+'</p>'+
     '<h2>'+rubyHTML(topicTitle(topic))+'</h2><p class="detail-description">'+rubyHTML(topicText(topic))+'</p>'+
     '<section class="progression-map" aria-label="学びのつながり">'+
-      '<div class="progression-title"><span class="progression-mark">'+rubyHTML("学びのつながり")+'</span><p>'+rubyHTML("「先に学ぶ」「関係する」「使って広げる」を分けているよ。必ずこの順番で学ぶという意味ではないよ。")+'</p></div>'+
-      '<div class="progression-stage" data-stage="prior"><div class="stage-label"><span>01</span><strong>'+rubyHTML("先に学ぶとよいこと")+'</strong></div>'+flowNodes(previous,"先に学ぶとよい項目は、まだ登録されていないよ。ほかにも必要な学びがあるかもしれないね。","prior")+'</div>'+
+      '<div class="progression-title"><span class="progression-mark">'+rubyHTML("学びのつながり")+'</span><p>'+rubyHTML("今の学びを中心に、前に学んだこと・関係する学び・この先の活用や発展を見渡せます。")+'</p></div>'+
+      '<div class="progression-stage" data-stage="prior"><div class="stage-label"><span>01</span><strong>'+rubyHTML("先に学ぶとよいこと")+'</strong></div>'+flowNodes(previous,"直接つながる前の学びはありません。","prior")+'</div>'+
       '<div class="progression-stage is-current" data-stage="current"><div class="stage-label"><span>02</span><strong>'+rubyHTML("今見ている学び")+'</strong></div>'+
         '<div class="flow-current"><span>'+rubyHTML(topic.subject+"・"+gradeLabel(topic))+'</span><strong>'+rubyHTML(topicTitle(topic))+'</strong><small>'+rubyHTML("今、見ている学び")+'</small></div></div>'+
-      '<div class="progression-stage" data-stage="related"><div class="stage-label"><span>03</span><strong>'+rubyHTML("関係する学び")+'</strong></div>'+flowNodes(related,"関係する学びは、まだ登録されていないよ。","related")+'</div>'+
-      '<div class="progression-stage" data-stage="future"><div class="stage-label"><span>04</span><strong>'+rubyHTML("この学びから広がること")+'</strong></div>'+flowNodes(next,"使ったり、さらに考えを広げたりする学びは、まだ登録されていないよ。","future")+'</div>'+
+      '<div class="progression-stage" data-stage="related"><div class="stage-label"><span>03</span><strong>'+rubyHTML("関係する学び")+'</strong></div>'+flowNodes(related,"直接つながる関連項目はありません。","related")+'</div>'+
+      '<div class="progression-stage" data-stage="future"><div class="stage-label"><span>04</span><strong>'+rubyHTML("この学びから広がること")+'</strong></div>'+flowNodes(next,"直接つながる次の学びはありません。","future")+'</div>'+
     '</section>'+
-    '<details class="source-details"><summary>先生・保護者向けの確認情報</summary><p class="muted">学びのつながりは確認中です。必ずこの順番で学ぶ、という意味ではありません。</p><ul>'+(sourceLinks||"<li>出典情報は未登録です。</li>")+'</ul></details>';
+    (sourceLinks ? '<details class="source-details"><summary>参考にした資料</summary><ul>'+sourceLinks+'</ul></details>' : '');
   $("#detail").querySelectorAll("[data-topic-id]").forEach(button=>button.addEventListener("click",()=>navigateToConnectedTopic(button.dataset.topicId)));
   renderList();
   renderSelfStudyGuide();
@@ -604,6 +607,7 @@ async function init() {
     const linkedTopicId = new URLSearchParams(window.location.search).get("topic");
     const linkedTopic = linkedTopicId ? state.topics.find(topic => topic.id === linkedTopicId) : null;
     if (linkedTopic) {
+      document.body.classList.add("topic-focus-view");
       $("#subject").value = linkedTopic.subject;
       renderDomainOptions();
       $("#grade").value = "";
@@ -611,6 +615,7 @@ async function init() {
       $("#query").value = "";
       renderList();
       renderDetail(linkedTopic.id, false);
+      $("#detail").scrollIntoView({ behavior: "auto", block: "start" });
     }
     // 最初から項目を決めつけず、子どもが「今の学び」を自分で選べるようにする。
     renderSelfStudyGuide();
