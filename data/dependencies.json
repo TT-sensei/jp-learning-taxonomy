@@ -1362,16 +1362,6 @@
       "studentRationale": "音や文字の特徴に気付くことは、文字を正しく読み書きする学びの土台になるよ。"
     },
     {
-      "id": "grade-link-040",
-      "from": "jp.elem.japanese.word-meaning",
-      "to": "jp.elem.japanese.vocabulary-expansion",
-      "type": "related-learning",
-      "rationale": "言葉の意味を捉える経験を重ね、使える語彙を広げる。",
-      "evidenceType": "editorial",
-      "reviewStatus": "needs-review",
-      "studentRationale": "言葉の意味を考える経験を重ねると、使える言葉が増えていくよ。"
-    },
-    {
       "id": "grade-link-041",
       "from": "jp.elem.japanese.collecting-and-recording-information",
       "to": "jp.elem.japanese.compare-and-classify-information",
@@ -1382,16 +1372,6 @@
       "studentRationale": "集めて記録した情報を、決めた観点で比べたり仲間分けしたりしよう。"
     },
     {
-      "id": "grade-link-042",
-      "from": "jp.elem.japanese.compare-and-classify-information",
-      "to": "jp.elem.japanese.information-structure",
-      "type": "extension",
-      "rationale": "比較・分類の見方を、情報全体の順序や階層を整理することへ広げる。",
-      "evidenceType": "editorial",
-      "reviewStatus": "needs-review",
-      "studentRationale": "情報を比べたり仲間分けしたりすることから、全体を順番やまとまりに整理する学びへ広げよう。"
-    },
-    {
       "id": "grade-link-043",
       "from": "jp.elem.japanese.source-and-reliability",
       "to": "jp.elem.japanese.facts-opinions-and-interpretations",
@@ -1400,16 +1380,6 @@
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
       "studentRationale": "情報の出どころを確かめながら、事実・意見・読み取りを区別しよう。"
-    },
-    {
-      "id": "grade-link-044",
-      "from": "jp.elem.japanese.sentence-structure",
-      "to": "jp.elem.japanese.connectives-and-modifiers",
-      "type": "extension",
-      "rationale": "文の組み立てに着目することから、接続語や修飾語が意味をつなぐ働きへ広げる。",
-      "evidenceType": "editorial",
-      "reviewStatus": "needs-review",
-      "studentRationale": "文の組み立てを考えることから、接続語や修飾語の働きにも目を向けよう。"
     },
     {
       "id": "grade-link-045",
@@ -1493,7 +1463,7 @@
     },
     {
       "id": "grade-link-053",
-      "from": "jp.elem.japanese.vocabulary-expansion",
+      "from": "jp.elem.japanese.word-meaning",
       "to": "jp.elem.japanese.word-relationships",
       "type": "extension",
       "rationale": "語彙を増やす経験から、語句どうしの関係や構成にも目を向ける。",
@@ -1504,7 +1474,7 @@
     {
       "id": "grade-link-054",
       "from": "jp.elem.japanese.collecting-and-recording-information",
-      "to": "jp.elem.japanese.compare-information-across-sources",
+      "to": "jp.elem.japanese.compare-texts",
       "type": "extension",
       "rationale": "情報を集めて記録することから、複数の資料を照合することへ広げる。",
       "evidenceType": "editorial",
@@ -1513,7 +1483,7 @@
     },
     {
       "id": "grade-link-055",
-      "from": "jp.elem.japanese.compare-information-across-sources",
+      "from": "jp.elem.japanese.compare-texts",
       "to": "jp.elem.japanese.source-and-reliability",
       "type": "related-learning",
       "rationale": "複数資料を照合することと、情報の出どころや信頼性を確かめることをつなぐ。",
@@ -1523,7 +1493,7 @@
     },
     {
       "id": "grade-link-056",
-      "from": "jp.elem.japanese.information-structure",
+      "from": "jp.elem.japanese.compare-and-classify-information",
       "to": "jp.elem.japanese.read-structure-and-relationships",
       "type": "application",
       "rationale": "情報の構造を整理する見方を、文章全体の構成を読むことに生かす。",

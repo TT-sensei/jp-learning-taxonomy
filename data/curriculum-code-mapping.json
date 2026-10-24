@@ -223,35 +223,6 @@
       }
     },
     {
-      "topicId": "jp.elem.japanese.compare-information-across-sources",
-      "officialCodes": [],
-      "matchStatus": "candidate",
-      "matchType": "parent-section-candidate",
-      "note": "82V12公式CSVでコードの存在、教科・学年帯との整合を確認済み。学習項目と個別の公式記述との意味的な対応は未確定のため、候補として保持する。元の候補：82102C3230000000, 82102D3230000000.",
-      "candidateCode": "82102C3230000000",
-      "verifiedCode": null,
-      "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
-      "candidateCodes": [
-        "82102C3230000000",
-        "82102D3230000000"
-      ],
-      "relatedParentCodes": [
-        "82102C3230000000",
-        "82102D3230000000"
-      ],
-      "officialAudit": {
-        "officialVersion": "82V12",
-        "checkedAt": "2026-10-21",
-        "codeExistence": "confirmed",
-        "subjectGradeCheck": "passed",
-        "semanticStatus": "needs-semantic-review",
-        "relatedParentCodes": [
-          "82102C3230000000",
-          "82102D3230000000"
-        ]
-      }
-    },
-    {
       "topicId": "jp.elem.japanese.compare-texts",
       "officialCodes": [],
       "matchStatus": "candidate",
@@ -310,7 +281,7 @@
       }
     },
     {
-      "topicId": "jp.elem.japanese.connectives-and-modifiers",
+      "topicId": "jp.elem.japanese.sentence-structure",
       "officialCodes": [],
       "matchStatus": "candidate",
       "matchType": "parent-section-candidate",
@@ -588,7 +559,7 @@
       }
     },
     {
-      "topicId": "jp.elem.japanese.infer-from-text",
+      "topicId": "jp.elem.japanese.read-between-the-lines",
       "officialCodes": [],
       "matchStatus": "candidate",
       "matchType": "parent-section-candidate",
@@ -610,35 +581,6 @@
         "semanticStatus": "needs-semantic-review",
         "relatedParentCodes": [
           "82102A3230000000"
-        ]
-      }
-    },
-    {
-      "topicId": "jp.elem.japanese.information-structure",
-      "officialCodes": [],
-      "matchStatus": "candidate",
-      "matchType": "parent-section-candidate",
-      "note": "82V12公式CSVでコードの存在、教科・学年帯との整合を確認済み。学習項目と個別の公式記述との意味的な対応は未確定のため、候補として保持する。元の候補：82102C3120000000, 82102D3120000000.",
-      "candidateCode": "82102C3120000000",
-      "verifiedCode": null,
-      "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
-      "candidateCodes": [
-        "82102C3120000000",
-        "82102D3120000000"
-      ],
-      "relatedParentCodes": [
-        "82102C3120000000",
-        "82102D3120000000"
-      ],
-      "officialAudit": {
-        "officialVersion": "82V12",
-        "checkedAt": "2026-10-21",
-        "codeExistence": "confirmed",
-        "subjectGradeCheck": "passed",
-        "semanticStatus": "needs-semantic-review",
-        "relatedParentCodes": [
-          "82102C3120000000",
-          "82102D3120000000"
         ]
       }
     },
@@ -672,7 +614,7 @@
       }
     },
     {
-      "topicId": "jp.elem.japanese.kana-orthography",
+      "topicId": "jp.elem.japanese.punctuation-and-notation",
       "officialCodes": [],
       "matchStatus": "candidate",
       "matchType": "parent-section-candidate",
@@ -1106,32 +1048,6 @@
       }
     },
     {
-      "topicId": "jp.elem.japanese.punctuation-and-notation",
-      "officialCodes": [],
-      "matchStatus": "candidate",
-      "matchType": "parent-section-candidate",
-      "note": "82V12公式CSVでコードの存在、教科・学年帯との整合を確認済み。学習項目と個別の公式記述との意味的な対応は未確定のため、候補として保持する。元の候補：82102A3110000000.",
-      "candidateCode": "82102A3110000000",
-      "verifiedCode": null,
-      "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
-      "candidateCodes": [
-        "82102A3110000000"
-      ],
-      "relatedParentCodes": [
-        "82102A3110000000"
-      ],
-      "officialAudit": {
-        "officialVersion": "82V12",
-        "checkedAt": "2026-10-21",
-        "codeExistence": "confirmed",
-        "subjectGradeCheck": "passed",
-        "semanticStatus": "needs-semantic-review",
-        "relatedParentCodes": [
-          "82102A3110000000"
-        ]
-      }
-    },
-    {
       "topicId": "jp.elem.japanese.quote-evidence",
       "officialCodes": [],
       "matchStatus": "candidate",
@@ -1188,35 +1104,6 @@
     },
     {
       "topicId": "jp.elem.japanese.read-author-claim-and-evidence",
-      "officialCodes": [],
-      "matchStatus": "candidate",
-      "matchType": "parent-section-candidate",
-      "note": "82V12公式CSVでコードの存在、教科・学年帯との整合を確認済み。学習項目と個別の公式記述との意味的な対応は未確定のため、候補として保持する。元の候補：82102C3230000000, 82102D3230000000.",
-      "candidateCode": "82102C3230000000",
-      "verifiedCode": null,
-      "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
-      "candidateCodes": [
-        "82102C3230000000",
-        "82102D3230000000"
-      ],
-      "relatedParentCodes": [
-        "82102C3230000000",
-        "82102D3230000000"
-      ],
-      "officialAudit": {
-        "officialVersion": "82V12",
-        "checkedAt": "2026-10-21",
-        "codeExistence": "confirmed",
-        "subjectGradeCheck": "passed",
-        "semanticStatus": "needs-semantic-review",
-        "relatedParentCodes": [
-          "82102C3230000000",
-          "82102D3230000000"
-        ]
-      }
-    },
-    {
-      "topicId": "jp.elem.japanese.read-between-the-lines",
       "officialCodes": [],
       "matchStatus": "candidate",
       "matchType": "parent-section-candidate",
@@ -1546,32 +1433,6 @@
       }
     },
     {
-      "topicId": "jp.elem.japanese.sentence-structure",
-      "officialCodes": [],
-      "matchStatus": "candidate",
-      "matchType": "parent-section-candidate",
-      "note": "82V12公式CSVでコードの存在、教科・学年帯との整合を確認済み。学習項目と個別の公式記述との意味的な対応は未確定のため、候補として保持する。元の候補：82102A3110000000.",
-      "candidateCode": "82102A3110000000",
-      "verifiedCode": null,
-      "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
-      "candidateCodes": [
-        "82102A3110000000"
-      ],
-      "relatedParentCodes": [
-        "82102A3110000000"
-      ],
-      "officialAudit": {
-        "officialVersion": "82V12",
-        "checkedAt": "2026-10-21",
-        "codeExistence": "confirmed",
-        "subjectGradeCheck": "passed",
-        "semanticStatus": "needs-semantic-review",
-        "relatedParentCodes": [
-          "82102A3110000000"
-        ]
-      }
-    },
-    {
       "topicId": "jp.elem.japanese.sentence-types-and-punctuation",
       "officialCodes": [],
       "matchStatus": "candidate",
@@ -1872,32 +1733,6 @@
         "relatedParentCodes": [
           "82102C3220000000",
           "82102D3220000000"
-        ]
-      }
-    },
-    {
-      "topicId": "jp.elem.japanese.vocabulary-expansion",
-      "officialCodes": [],
-      "matchStatus": "candidate",
-      "matchType": "parent-section-candidate",
-      "note": "82V12公式CSVでコードの存在、教科・学年帯との整合を確認済み。学習項目と個別の公式記述との意味的な対応は未確定のため、候補として保持する。元の候補：82102A3110000000.",
-      "candidateCode": "82102A3110000000",
-      "verifiedCode": null,
-      "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
-      "candidateCodes": [
-        "82102A3110000000"
-      ],
-      "relatedParentCodes": [
-        "82102A3110000000"
-      ],
-      "officialAudit": {
-        "officialVersion": "82V12",
-        "checkedAt": "2026-10-21",
-        "codeExistence": "confirmed",
-        "subjectGradeCheck": "passed",
-        "semanticStatus": "needs-semantic-review",
-        "relatedParentCodes": [
-          "82102A3110000000"
         ]
       }
     },

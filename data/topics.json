@@ -402,8 +402,12 @@
         "basis": "mext-japanese-grade-band-provisional-review-2026-10-24",
         "note": "文部科学省「小学校学習指導要領解説 国語編」の第1・2学年の内容を起点にした暫定候補。個別の学年配当を公式に確定したものではなく、基礎的な文字・言語活動を主な手掛かりに設定。継続学年は学習の発展・活用を含む編集上の候補。"
       },
-      "studentName": "送り仮名・かなづかいのきまり",
-      "studentDescription": "送り仮名やかなづかい、同じ音でも書き方や意味がちがう言葉に気をつけて書こう。"
+      "studentName": "統合済み：句読点・送り仮名・かなづかいのきまりを使おう",
+      "studentDescription": "この内容は「句読点・送り仮名・かなづかいのきまりを使おう」にまとめました。",
+      "topicLifecycle": "superseded",
+      "replacementTopicIds": [
+        "jp.elem.japanese.punctuation-and-notation"
+      ]
     },
     {
       "id": "jp.elem.japanese.kanji-meaning-and-usage",
@@ -486,8 +490,8 @@
       "subject": "国語",
       "domain": "言葉の特徴や使い方に関する事項",
       "cluster": "文・文法・表記",
-      "name": "句読点や表記のきまり",
-      "description": "句読点、かぎ、送り仮名などの表記のきまりを理解して使う。",
+      "name": "文字・表記のきまりを使う",
+      "description": "句読点、かぎかっこ、仮名遣い、送り仮名などの表記のきまりを理解し、文脈に合うように使う。漢字そのものの読みや意味・用法は別項目で扱う。",
       "grades": [
         1,
         2,
@@ -517,10 +521,10 @@
           5,
           6
         ],
-        "basis": "mext-japanese-grade-band-provisional-review-2026-10-24",
-        "note": "文部科学省「小学校学習指導要領解説 国語編」の第1・2学年の内容を起点にした暫定候補。個別の学年配当を公式に確定したものではなく、基礎的な文字・言語活動を主な手掛かりに設定。継続学年は学習の発展・活用を含む編集上の候補。"
+        "basis": "merged-japanese-topic-candidate-review-2026-10-24",
+        "note": "関連する学習内容の重複を減らすため、統合元項目の内容を含めた編集上の統合候補。学年配当と公式記述への対応は引き続き確認中。"
       },
-      "studentName": "句読点・かぎかっこ・送り仮名の使い方",
+      "studentName": "句読点・送り仮名・かなづかいのきまりを使おう",
       "studentDescription": "句読点・かぎかっこ・送り仮名のきまりを知り、正しく書こう。"
     },
     {
@@ -528,8 +532,8 @@
       "subject": "国語",
       "domain": "言葉の特徴や使い方に関する事項",
       "cluster": "音・文字・語彙",
-      "name": "言葉の意味や使い方",
-      "description": "言葉の意味や用法、類義語・対義語などを捉え、場面や目的に応じて使う。",
+      "name": "言葉の意味・語彙を広げて使う",
+      "description": "言葉の意味や使い方を確かめ、似た意味・反対の意味の言葉、経験や学習に関わる語彙を増やして、場面や目的に応じて使う。語彙を増やすことと意味を使い分けることを一つの学びとして扱う。",
       "grades": [
         1,
         2,
@@ -559,10 +563,10 @@
           5,
           6
         ],
-        "basis": "mext-japanese-grade-band-provisional-review-2026-10-24",
-        "note": "文部科学省「小学校学習指導要領解説 国語編」の第1・2学年の内容を起点にした暫定候補。個別の学年配当を公式に確定したものではなく、基礎的な文字・言語活動を主な手掛かりに設定。継続学年は学習の発展・活用を含む編集上の候補。"
+        "basis": "merged-japanese-topic-candidate-review-2026-10-24",
+        "note": "関連する学習内容の重複を減らすため、統合元項目の内容を含めた編集上の統合候補。学年配当と公式記述への対応は引き続き確認中。"
       },
-      "studentName": "言葉の意味と使い分け",
+      "studentName": "言葉の意味を知り、使える言葉を増やそう",
       "studentDescription": "言葉の意味や、似た意味・反対の意味を知り、場面に合う言葉を選ぼう。"
     },
     {
@@ -604,8 +608,12 @@
         "basis": "mext-japanese-grade-band-provisional-review-2026-10-24",
         "note": "文部科学省「小学校学習指導要領解説 国語編」の第1・2学年の内容を起点にした暫定候補。個別の学年配当を公式に確定したものではなく、基礎的な文字・言語活動を主な手掛かりに設定。継続学年は学習の発展・活用を含む編集上の候補。"
       },
-      "studentName": "知っている言葉を増やして使おう",
-      "studentDescription": "新しい言葉や使える言葉を増やし、話したり書いたりするときに使おう。"
+      "studentName": "統合済み：言葉の意味を知り、使える言葉を増やそう",
+      "studentDescription": "この内容は「言葉の意味を知り、使える言葉を増やそう」にまとめました。",
+      "topicLifecycle": "superseded",
+      "replacementTopicIds": [
+        "jp.elem.japanese.word-meaning"
+      ]
     },
     {
       "id": "jp.elem.japanese.dictionaries-and-reference",
@@ -730,8 +738,8 @@
       "subject": "国語",
       "domain": "言葉の特徴や使い方に関する事項",
       "cluster": "文・文法・表記",
-      "name": "文の組み立てを捉える",
-      "description": "主語と述語、修飾・被修飾の関係など、文の組み立てに着目する。",
+      "name": "文の組み立てと言葉のつながり",
+      "description": "主語と述語、修飾・被修飾の関係、接続語などに着目し、言葉どうしが文の意味や文章のつながりをどのようにつくるかを捉える。",
       "grades": [
         1,
         2,
@@ -761,10 +769,10 @@
           5,
           6
         ],
-        "basis": "mext-japanese-grade-band-provisional-review-2026-10-24",
-        "note": "文部科学省「小学校学習指導要領解説 国語編」の第1・2学年の内容を起点にした暫定候補。個別の学年配当を公式に確定したものではなく、基礎的な文字・言語活動を主な手掛かりに設定。継続学年は学習の発展・活用を含む編集上の候補。"
+        "basis": "merged-japanese-topic-candidate-review-2026-10-24",
+        "note": "関連する学習内容の重複を減らすため、統合元項目の内容を含めた編集上の統合候補。学年配当と公式記述への対応は引き続き確認中。"
       },
-      "studentName": "文の中の言葉の役割を考えよう",
+      "studentName": "文の中の言葉の役割やつながりを考えよう",
       "studentDescription": "だれが何をする文なのか、様子をくわしく説明する言葉はどれかを考えよう。"
     },
     {
@@ -1108,8 +1116,8 @@
       "subject": "国語",
       "domain": "情報の扱い方に関する事項",
       "cluster": "情報の整理と関係付け",
-      "name": "情報を比べ、分類する",
-      "description": "共通点や相違点、観点を明確にして情報を比べたり分類したりする。",
+      "name": "情報を比べ、整理する",
+      "description": "情報の共通点や相違点、順序、分類、まとまりなどを捉え、目的に応じて比較・分類・整理する。情報を構造的に整理する活動もここにまとめる。",
       "grades": [
         1,
         2,
@@ -1139,10 +1147,10 @@
           5,
           6
         ],
-        "basis": "mext-japanese-grade-band-provisional-review-2026-10-24",
-        "note": "文部科学省「小学校学習指導要領解説 国語編」の第1・2学年の内容を起点にした暫定候補。個別の学年配当を公式に確定したものではなく、基礎的な文字・言語活動を主な手掛かりに設定。継続学年は学習の発展・活用を含む編集上の候補。"
+        "basis": "merged-japanese-topic-candidate-review-2026-10-24",
+        "note": "関連する学習内容の重複を減らすため、統合元項目の内容を含めた編集上の統合候補。学年配当と公式記述への対応は引き続き確認中。"
       },
-      "studentName": "情報を比べて、仲間分けしよう",
+      "studentName": "情報を比べて、分けたり順序よく整理したりしよう",
       "studentDescription": "同じところやちがうところを見つけ、情報を比べたり仲間分けしたりしよう。"
     },
     {
@@ -1218,8 +1226,12 @@
         "basis": "mext-japanese-grade-band-provisional-review-2026-10-24",
         "note": "文部科学省「小学校学習指導要領解説 国語編」の第1・2学年の内容を起点にした暫定候補。個別の学年配当を公式に確定したものではなく、基礎的な文字・言語活動を主な手掛かりに設定。継続学年は学習の発展・活用を含む編集上の候補。"
       },
-      "studentName": "文章の言葉を手がかりに想像しよう",
-      "studentDescription": "文章に書かれた言葉を根拠にして、気持ちや様子を想像しよう。"
+      "studentName": "統合済み：文章の言葉を結び付けて、書かれていないことも考えよう",
+      "studentDescription": "この内容は「文章の言葉を結び付けて、書かれていないことも考えよう」にまとめました。",
+      "topicLifecycle": "superseded",
+      "replacementTopicIds": [
+        "jp.elem.japanese.read-between-the-lines"
+      ]
     },
     {
       "id": "jp.elem.japanese.read-main-idea",
@@ -1838,8 +1850,12 @@
         "basis": "mext-japanese-grade-band-provisional-review-2026-10-24",
         "note": "文部科学省「小学校学習指導要領解説 国語編」の第3・4学年の内容を起点にした暫定候補。個別の学年配当を公式に確定したものではなく、語句・文章構成・情報活用などの発展を主な手掛かりに設定。継続学年は学習の発展・活用を含む編集上の候補。"
       },
-      "studentName": "接続語・修飾語で文のつながりを考えよう",
-      "studentDescription": "「だから」「しかし」などの接続語や、様子をくわしくする修飾語が文の意味をどうつなぐか考えよう。"
+      "studentName": "統合済み：文の中の言葉の役割やつながりを考えよう",
+      "studentDescription": "この内容は「文の中の言葉の役割やつながりを考えよう」にまとめました。",
+      "topicLifecycle": "superseded",
+      "replacementTopicIds": [
+        "jp.elem.japanese.sentence-structure"
+      ]
     },
     {
       "id": "jp.elem.japanese.write-opinion-and-argument",
@@ -2172,8 +2188,12 @@
         "basis": "mext-japanese-grade-band-provisional-review-2026-10-24",
         "note": "文部科学省「小学校学習指導要領解説 国語編」の第3・4学年の内容を起点にした暫定候補。個別の学年配当を公式に確定したものではなく、語句・文章構成・情報活用などの発展を主な手掛かりに設定。継続学年は学習の発展・活用を含む編集上の候補。"
       },
-      "studentName": "情報を順序やグループに整理しよう",
-      "studentDescription": "情報を順番やグループに分け、分かりやすく整理しよう。"
+      "studentName": "統合済み：情報を比べて、分けたり順序よく整理したりしよう",
+      "studentDescription": "この内容は「情報を比べて、分けたり順序よく整理したりしよう」にまとめました。",
+      "topicLifecycle": "superseded",
+      "replacementTopicIds": [
+        "jp.elem.japanese.compare-and-classify-information"
+      ]
     },
     {
       "id": "jp.elem.japanese.source-and-reliability",
@@ -2400,9 +2420,11 @@
       "subject": "国語",
       "domain": "読むこと",
       "cluster": "叙述を基に考え、読書へ広げる",
-      "name": "叙述を結び付けて人物や筆者の意図を考える",
-      "description": "複数の叙述を関連付け、明示されていない心情や意図を根拠をもって考える。",
+      "name": "文章の叙述を結び付けて想像・推論する",
+      "description": "文章中の言葉や描写を根拠に、明示されている内容を捉えたり、複数の叙述を関連付けて登場人物の心情や筆者の意図などを考えたりする。低学年の想像から高学年の推論まで、学年に応じた発展を含む。",
       "grades": [
+        1,
+        2,
         3,
         4,
         5,
@@ -2421,16 +2443,18 @@
       "reviewStatus": "needs-review",
       "gradePlacement": {
         "status": "needs-review",
-        "candidateFirstIntroductionGrade": 3,
+        "candidateFirstIntroductionGrade": 1,
         "candidateContinuingGrades": [
+          2,
+          3,
           4,
           5,
           6
         ],
-        "basis": "mext-japanese-grade-band-provisional-review-2026-10-24",
-        "note": "文部科学省「小学校学習指導要領解説 国語編」の第3・4学年の内容を起点にした暫定候補。個別の学年配当を公式に確定したものではなく、語句・文章構成・情報活用などの発展を主な手掛かりに設定。継続学年は学習の発展・活用を含む編集上の候補。"
+        "basis": "merged-japanese-topic-candidate-review-2026-10-24",
+        "note": "関連する学習内容の重複を減らすため、統合元項目の内容を含めた編集上の統合候補。学年配当と公式記述への対応は引き続き確認中。"
       },
-      "studentName": "文章の言葉を結び付けて、気持ちや意図を考えよう",
+      "studentName": "文章の言葉を結び付けて、書かれていないことも考えよう",
       "studentDescription": "いくつかの言葉や文を結び付けて、直接書かれていない気持ちや意図を考えよう。"
     },
     {
@@ -2548,8 +2572,8 @@
       "subject": "国語",
       "domain": "読むこと",
       "cluster": "叙述を基に考え、読書へ広げる",
-      "name": "複数の文章を比べて読む",
-      "description": "複数の文章や資料を比べ、内容・表現・構成の共通点や相違点を捉える。",
+      "name": "複数の文章・資料を比べて読む",
+      "description": "複数の文章や資料を照らし合わせ、内容・表現・構成の共通点や相違点、情報の一致・不足・補完関係を捉える。文章同士の比較と資料間の情報照合を、目的に応じた比較読みにまとめる。",
       "grades": [
         5,
         6
@@ -2571,10 +2595,10 @@
         "candidateContinuingGrades": [
           6
         ],
-        "basis": "mext-japanese-grade-band-provisional-review-2026-10-24",
-        "note": "文部科学省「小学校学習指導要領解説 国語編」の第5・6学年の内容を起点にした暫定候補。個別の学年配当を公式に確定したものではなく、複数資料の照合・根拠の吟味・論証などの高度化を主な手掛かりに設定。継続学年は学習の発展・活用を含む編集上の候補。"
+        "basis": "merged-japanese-topic-candidate-review-2026-10-24",
+        "note": "関連する学習内容の重複を減らすため、統合元項目の内容を含めた編集上の統合候補。学年配当と公式記述への対応は引き続き確認中。"
       },
-      "studentName": "複数の文章を比べて読もう",
+      "studentName": "いくつかの文章や資料を比べて、情報を確かめよう",
       "studentDescription": "複数の文章や資料を比べ、内容・表現・構成の同じところやちがいを考える。"
     },
     {
@@ -2608,8 +2632,12 @@
         "basis": "mext-japanese-grade-band-provisional-review-2026-10-24",
         "note": "文部科学省「小学校学習指導要領解説 国語編」の第5・6学年の内容を起点にした暫定候補。個別の学年配当を公式に確定したものではなく、複数資料の照合・根拠の吟味・論証などの高度化を主な手掛かりに設定。継続学年は学習の発展・活用を含む編集上の候補。"
       },
-      "studentName": "いくつかの資料を比べて確かめよう",
-      "studentDescription": "いくつかの文章や資料を比べ、同じところ・ちがうところ・一方にしかない情報を確かめよう。"
+      "studentName": "統合済み：いくつかの文章や資料を比べて、情報を確かめよう",
+      "studentDescription": "この内容は「いくつかの文章や資料を比べて、情報を確かめよう」にまとめました。",
+      "topicLifecycle": "superseded",
+      "replacementTopicIds": [
+        "jp.elem.japanese.compare-texts"
+      ]
     },
     {
       "id": "jp.elem.japanese.read-text-type-and-purpose",
