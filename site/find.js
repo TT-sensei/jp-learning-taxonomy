@@ -3,6 +3,10 @@
 const $=s=>document.querySelector(s);
 const query=$("#query"),subject=$("#subject"),grade=$("#grade"),results=$("#results"),count=$("#count"),empty=$("#empty");
 let topics=[];
+const params=new URLSearchParams(window.location.search);
+query.value=params.get("q")||"";
+subject.value=params.get("subject")||"";
+grade.value=params.get("grade")||"";
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const name=t=>t.studentName||t.name||"学習項目";
 const desc=t=>t.studentDescription||t.description||"";
