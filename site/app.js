@@ -176,6 +176,9 @@ const socialTopicGroups = {
 };
 function topicGroup(topic) {
   if (topic.subject === "社会") {
+    // 社会科のまとまりは topics.json の cluster を正本にする。
+    // 古いデータや cluster 未設定の項目は、下の ID 対応表で補う。
+    if (topic.cluster) return topic.cluster;
     for (const [label, fragments] of Object.entries(socialTopicGroups)) {
       if (fragments.some(fragment => topic.id.endsWith("." + fragment))) return label;
     }
@@ -189,6 +192,8 @@ function topicGroup(topic) {
   if (topic.subject === "理科") {
     const cluster = String(topic.cluster || "");
     const source = [topic.name, topic.studentName, topic.studentDescription].join(" ");
+    if (topic.domain === "横断的な見方・関連概念") return "分野をつなぐ見方";
+    if (topic.domain === "問題解決の力・科学的な探究") return "調べ方・科学的な探究";
     if (/生物|生命|植物|動物|人の体|成長|環境/.test(cluster)) return "生命";
     if (/地球|天気|天体|土地/.test(cluster)) return "地球";
     if (/物質|状態変化/.test(cluster)) return "粒子";
