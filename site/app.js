@@ -174,6 +174,35 @@ const socialTopicGroups = {
   "政治と世界": ["diet","international-relations","local-government","government-courts","constitution"],
   "資料を使って調べる": ["fieldwork-interview","evidence-explanation","decision-civic","compare-regions","maps-globes","statistics-graphs","timeline-sources"]
 };
+const scienceTopicGroups = {
+  "エネルギー": [
+    "sound", "light", "magnet", "electricity-circuit", "force-motion",
+    "electricity-effects", "pendulum", "electric-magnetic-force", "lever", "electric-energy-use"
+  ],
+  "粒子": [
+    "matter", "metal-water-air-temperature", "air-properties", "water-state",
+    "dissolving", "solution-properties", "combustion"
+  ],
+  "生命": [
+    "plants-grow", "animals", "seasonal-change", "human-body-movement",
+    "plants-conditions", "animal-birth", "plant-nutrition", "ecosystem",
+    "human-body", "organism-environment"
+  ],
+  "地球": [
+    "sun-shadow", "moon-stars", "rainwater-land-surface", "weather",
+    "weather-patterns", "river-land", "moon-sun", "land-formation"
+  ],
+  "調べ方・科学的な探究": [
+    "conclusion", "record-data", "communicate", "question", "experiment-plan",
+    "compare", "observe", "prediction", "relate", "control-conditions", "multiple-perspectives"
+  ],
+  "分野をつなぐ見方": ["earth-disasters", "water-cycle"]
+};
+const scienceTopicGroupById = new Map(
+  Object.entries(scienceTopicGroups).flatMap(([group, ids]) =>
+    ids.map(id => ["jp.elem.science." + id, group])
+  )
+);
 function topicGroup(topic) {
   if (topic.subject === "社会") {
     // 社会科のまとまりは topics.json の cluster を正本にする。
@@ -190,19 +219,9 @@ function topicGroup(topic) {
     return grade <= 2 ? "1・2年生の学び" : "3〜6年生の学び";
   }
   if (topic.subject === "理科") {
-    const cluster = String(topic.cluster || "");
-    const source = [topic.name, topic.studentName, topic.studentDescription].join(" ");
-    if (topic.domain === "横断的な見方・関連概念") return "分野をつなぐ見方";
-    if (topic.domain === "問題解決の力・科学的な探究") return "調べ方・科学的な探究";
-    if (/生物|生命|植物|動物|人の体|成長|環境/.test(cluster)) return "生命";
-    if (/地球|天気|天体|土地/.test(cluster)) return "地球";
-    if (/物質|状態変化/.test(cluster)) return "粒子";
-    if (/光・音|電気|磁石|力|運動/.test(cluster)) return "エネルギー";
-    if (/生物|生命|植物|動物|人の体|成長|環境/.test(source)) return "生命";
-    if (/地球|天気|天体|月|星|土地|地層|太陽|気温|季節/.test(source)) return "地球";
-    if (/物質|材料|状態変化|水のすがた|空気|金属|溶ける|溶解/.test(source)) return "粒子";
-    if (/電気|磁石|力|運動|光|音|熱/.test(source)) return "エネルギー";
-    return "調べ方・科学的な探究";
+    // 理科はキーワードの偶然の一致で分類せず、学習項目IDで分類を固定する。
+    // 探究の方法・横断的な見方は、4つの内容領域と混ぜず独立して示す。
+    return scienceTopicGroupById.get(topic.id) || "分類を確認中";
   }
   return domainLabel(topic.domain);
 }
