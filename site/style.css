@@ -437,3 +437,5 @@ body.topic-focus-view {
   .topic-focus-view .progression-stage { padding: 10px; }
   .topic-focus-view footer { padding-inline: 11px; }
 }
+
+.topic-focus-view .furigana-tools { display: none !important; }
