@@ -132,8 +132,8 @@ h1, h2, h3, p { overflow-wrap: anywhere; }
   .map-feature { min-height: 0; }
 }
 @media (max-width: 680px) {
-  .site-header { align-items: flex-start; padding-block: 12px; }
-  .header-nav { gap: 8px 12px; justify-content: flex-end; }
+  .site-header { align-items: flex-start; padding-block: 12px; flex-wrap: wrap; }
+  .header-nav { width: 100%; gap: 8px 14px; justify-content: flex-start; }
   .header-nav a { font-size: .73rem; }
   .brand-mark { width: 38px; height: 38px; }
   .brand strong { font-size: .9rem; }
