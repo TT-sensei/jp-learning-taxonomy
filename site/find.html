@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="小学校の学習内容を一覧で見渡し、詳しい説明や関連する学びへ進めます。">
+<title>学びを探す｜小学校 学びの地図</title>
+<link rel="stylesheet" href="./find.css">
+<script src="./find.js" defer></script>
+</head>
+<body>
+<header class="masthead"><a href="./index.html" class="brand">小学校 <strong>学びの地図</strong></a><a class="portal-link" href="https://tt-sensei.github.io/learning-portal/">教材・学習サイト一覧へ ↗</a></header>
+<main>
+<section class="intro">
+<p class="eyebrow">小学校の学びを見渡す</p>
+<h1>まず一覧で見つけよう。</h1>
+<p>教科や学年から学習内容を見渡して、気になる項目を開くと詳しい説明を読めます。</p>
+</section>
+<section class="browse-panel" aria-label="教科を選ぶ">
+<h2>1. 教科を選ぶ</h2>
+<div class="subject-list" id="subject-list">
+<button type="button" data-subject="" class="subject-choice active"><span>すべて</span><small>全教科の学習内容</small></button>
+<button type="button" data-subject="国語" class="subject-choice"><span>国語</span><small>読む・書く・言葉</small></button>
+<button type="button" data-subject="算数" class="subject-choice"><span>算数</span><small>数・計算・図形</small></button>
+<button type="button" data-subject="理科" class="subject-choice"><span>理科</span><small>生命・地球・物質・エネルギー</small></button>
+<button type="button" data-subject="社会" class="subject-choice"><span>社会</span><small>地域・歴史・政治・国際</small></button>
+</div>
+<h2 class="grade-heading">2. 学年を選ぶ <span>（あとから変更できます）</span></h2>
+<div class="grade-list" id="grade-list" aria-label="学年を選ぶ">
+<button type="button" data-grade="" class="grade-choice active">全学年</button>
+<button type="button" data-grade="1" class="grade-choice">1年</button><button type="button" data-grade="2" class="grade-choice">2年</button><button type="button" data-grade="3" class="grade-choice">3年</button><button type="button" data-grade="4" class="grade-choice">4年</button><button type="button" data-grade="5" class="grade-choice">5年</button><button type="button" data-grade="6" class="grade-choice">6年</button>
+</div>
+<div class="search-tools"><label for="query">言葉から探す <span>（使わなくてもOK）</span></label><div class="search-row"><input id="query" type="search" placeholder="例：分数、台風、江戸時代、説明文" autocomplete="off"><button id="clear" type="button" class="quiet">条件をクリア</button></div></div>
+</section>
+<section class="results-head"><div><p class="eyebrow">学習項目一覧</p><h2 id="list-title">すべての教科</h2></div><p id="count" role="status">読み込み中…</p></section>
+<div id="results" class="results" aria-live="polite"></div>
+<p id="empty" class="empty" hidden>この条件に合う項目はありません。教科や学年を変えてみてください。</p>
+<p class="note">学年表示は学習内容を探すための目安です。学校や教科書によって学習する時期が異なることがあります。各項目を開くと、詳しい説明や関連する学びを確認できます。</p>
+</main>
+<footer><a href="./index.html">学びの地図トップへ</a> · <a href="https://tt-sensei.github.io/learning-portal/">教材・学習サイトを探す</a></footer>
+</body>
+</html>
