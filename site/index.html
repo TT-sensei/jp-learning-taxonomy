@@ -117,7 +117,17 @@
           <button type="button" class="filter-chip" data-grade-filter="6" aria-pressed="false">6年</button>
         </div></div>
       </div>
-      <div class="results-heading"><div><h3 id="results-title">学びを見つけよう</h3><p id="results-description">まずは教科・学年・言葉のどれかを選んでみてください。</p></div><span id="results-count" class="results-count" aria-live="polite">未選択</span></div><div id="active-filters" class="active-filters" aria-live="polite"></div>
+      <div class="results-toolbar">
+        <div class="results-heading"><div><h3 id="results-title">学びを見つけよう</h3><p id="results-description">まずは教科・学年・言葉のどれかを選んでみてください。</p></div><span id="results-count" class="results-count" aria-live="polite">未選択</span></div>
+        <label class="sort-control" for="results-sort">並び順
+          <select id="results-sort">
+            <option value="subject">教科順</option>
+            <option value="grade">学年順</option>
+            <option value="cluster">学習のまとまり順</option>
+            <option value="relevance">検索との関連順</option>
+          </select>
+        </label>
+      </div><div id="active-filters" class="active-filters" aria-live="polite"></div>
       <div id="results" class="results" aria-live="polite" aria-busy="true">
         <div class="empty-state"><span class="empty-state-mark" aria-hidden="true">？</span><strong>どこから探してみる？</strong><p>上の教科カードを選ぶか、学年や言葉で検索してください。項目を開くと、前提や関連する学びをたどれます。</p><button id="show-all-topics" type="button" class="secondary-button">全教科の項目をすべて見る</button></div>
       </div>
