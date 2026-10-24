@@ -695,3 +695,12 @@ main.wrap { padding-top: 16px; padding-bottom: 42px; }
   .grade-board { min-width: 900px; }
   .grade-board-wrap::after { content: "右へスワイプして、学年ごとの学びを見比べよう →"; }
 }
+
+
+/* Keep the draft/review status visible without competing with the learning map. */
+.review-note {
+  margin: 7px 0 0;
+  color: var(--muted);
+  font-size: .76rem;
+  line-height: 1.5;
+}
