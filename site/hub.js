@@ -39,7 +39,35 @@
     return topic.studentDescription || topic.description || "";
   }
 
+  const socialTopicGroups = {
+    "地域のようす": ["municipality-change", "local-area", "municipality-work", "community-predecessors", "local-map"],
+    "くらしを支えるしくみ": ["waste-management", "water-supply", "firefighting", "police-safety", "disaster-prevention"],
+    "都道府県のようす": ["prefecture-culture", "prefecture-land", "prefecture-industry"],
+    "日本の国土と自然": ["japan-location", "japan-landforms-climate", "natural-environment-life"],
+    "産業と環境": ["environment-protection", "transport-trade", "industrial-production", "information-industry", "food-life", "forestry", "fisheries", "agriculture"],
+    "歴史のうつりかわり": ["edo-society", "unification", "war-and-recovery", "ancient-japan", "postwar-japan", "medieval-japan", "modernization"],
+    "政治と世界": ["diet", "international-relations", "local-government", "government-courts", "constitution"],
+    "資料を使って調べる": ["fieldwork-interview", "evidence-explanation", "decision-civic", "compare-regions", "maps-globes", "statistics-graphs", "timeline-sources"]
+  };
+
   function groupOf(topic) {
+    if (topic.subject === "社会") {
+      for (const [label, fragments] of Object.entries(socialTopicGroups)) {
+        if (fragments.some(fragment => String(topic.id || "").endsWith("." + fragment))) return label;
+      }
+      const grades = gradeValues(topic);
+      const firstGrade = grades.length ? grades[0] : 0;
+      return ({ 3: "地域のくらし", 4: "地域と都道府県", 5: "国土・産業", 6: "歴史・政治" })[firstGrade] || "社会の学び";
+    }
+    if (topic.subject === "算数") {
+      const domain = String(topic.domain || "");
+      if (domain === "A 数と計算") return "数と計算";
+      if (domain === "B 図形") return "図形";
+      if (domain.startsWith("C 測定")) return "長さ・かさ・時間を測る";
+      if (domain.startsWith("C 変化と関係")) return "割合・速さ・変わり方";
+      if (domain === "D データの活用") return "表・グラフ・データ";
+      if (domain.includes("横断的な数学的活動")) return "考え方・問題解決";
+    }
     return String(topic.cluster || topic.domain || topic.area || "学びのまとまり");
   }
 
