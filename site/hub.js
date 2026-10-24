@@ -55,13 +55,20 @@
     if (search && search.value !== state.query) search.value = state.query;
   }
 
+  function normalizeSearchText(value) {
+    return String(value ?? "").normalize("NFKC").toLocaleLowerCase("ja").replace(/[\\s　、，。・：:;；「」『』（）()【】［］]/g, "");
+  }
+
   function matchesQuery(topic, query) {
     if (!query) return true;
-    const haystack = [
-      topic.name, topic.studentName, topic.description, topic.studentDescription,
-      topic.subject, topic.domain, topic.cluster, topic.area, topic.keywords
-    ].flat().filter(Boolean).join(" ").toLocaleLowerCase("ja");
-    return haystack.includes(query.toLocaleLowerCase("ja"));
+    const evidenceNotes = (topic.evidence || []).map(item => [item.sourceId, item.note]);
+    const haystack = normalizeSearchText([
+      topic.id, topic.name, topic.studentName, topic.description, topic.studentDescription,
+      topic.subject, topic.domain, topic.cluster, topic.area, topic.keywords,
+      topic.topicType, topic.reviewStatus, topic.gradePlacement?.note, evidenceNotes
+    ].flat(Infinity).filter(Boolean).join(" "));
+    const terms = query.trim().split(/[\\s　、，,]+/).map(normalizeSearchText).filter(Boolean);
+    return terms.every(term => haystack.includes(term));
   }
 
   function getFilteredTopics() {
@@ -70,6 +77,15 @@
       if (state.grade && !(topic.grades || []).map(Number).includes(Number(state.grade))) return false;
       return matchesQuery(topic, state.query.trim());
     }).sort((a, b) => {
+      if (state.query.trim()) {
+        const terms = state.query.trim().split(/[\\s　、，,]+/).map(normalizeSearchText).filter(Boolean);
+        const score = topic => {
+          const title = normalizeSearchText([topic.studentName, topic.name].filter(Boolean).join(" "));
+          return terms.reduce((sum, term) => sum + (title.includes(term) ? 5 : 0), 0);
+        };
+        const relevance = score(b) - score(a);
+        if (relevance) return relevance;
+      }
       const subjectDiff = (subjectOrder.get(a.subject) ?? 99) - (subjectOrder.get(b.subject) ?? 99);
       if (subjectDiff) return subjectDiff;
       const gradeA = Math.min(...((a.grades || []).length ? a.grades.map(Number) : [99]));
@@ -104,6 +120,12 @@
     if (!results || !count) return;
 
     const hasFilter = Boolean(state.subject || state.grade || state.query.trim() || state.showAll);
+    const active = [];
+    if (state.subject) active.push(["教科：" + state.subject, "subject"]);
+    if (state.grade) active.push(["学年：" + state.grade + "年", "grade"]);
+    if (state.query.trim()) active.push(["言葉：" + state.query.trim(), "query"]);
+    $("#active-filters").innerHTML = active.map(([label, type]) => '<button type="button" class="active-filter" data-remove-filter="' + type + '">' + esc(label) + ' <span aria-hidden="true">×</span></button>').join("");
+    $("#active-filters").hidden = active.length === 0;
     if (!hasFilter) {
       count.textContent = "未選択";
       title.textContent = "学びを見つけよう";
@@ -192,6 +214,25 @@
       renderResults();
     });
     $("#clear-filters").addEventListener("click", resetFilters);
+    $("[data-query-pick]").forEach(button => button.addEventListener("click", () => {
+      state.query = button.dataset.queryPick || "";
+      state.showAll = false;
+      state.visible = 36;
+      syncFilterUI();
+      renderResults();
+      $("#explorer").scrollIntoView({ behavior: "smooth", block: "start" });
+    }));
+    $("#active-filters").addEventListener("click", event => {
+      const button = event.target.closest("[data-remove-filter]");
+      if (!button) return;
+      if (button.dataset.removeFilter === "subject") state.subject = "";
+      if (button.dataset.removeFilter === "grade") state.grade = "";
+      if (button.dataset.removeFilter === "query") state.query = "";
+      state.showAll = false;
+      state.visible = 36;
+      syncFilterUI();
+      renderResults();
+    });
     $("#results").addEventListener("click", event => {
       if (event.target.closest("#show-all-topics")) {
         state.showAll = true;
