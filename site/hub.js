@@ -106,7 +106,7 @@
     const other = state.topicById.get(otherId);
     if (!other) return;
     if (!state.connections.has(topicId)) {
-      state.connections.set(topicId, { before: new Map(), related: new Map(), future: new Map() });
+      state.connections.set(topicId, { before: new Map(), related: new Map(), future: new Map(), application: new Map(), applied: new Map() });
     }
     state.connections.get(topicId)[kind].set(otherId, other);
   }
@@ -114,7 +114,7 @@
   function buildConnections() {
     state.connections.clear();
     const beforeTypes = new Set(["prerequisite", "recommended-prerequisite"]);
-    const futureTypes = new Set(["prerequisite", "recommended-prerequisite", "extension", "application"]);
+    const futureTypes = new Set(["prerequisite", "recommended-prerequisite", "extension"]);
     const relatedTypes = new Set(["related-learning", "recurring-development"]);
 
     state.dependencies.forEach(edge => {
@@ -128,6 +128,13 @@
       if (relatedTypes.has(edge.type)) {
         addConnection(edge.from, "related", edge.to);
         addConnection(edge.to, "related", edge.from);
+      }
+
+      // Application links point from a learning item to a context where it is used.
+      // Show the two directions with different labels so neither is mistaken for a prerequisite.
+      if (edge.type === "application") {
+        addConnection(edge.from, "application", edge.to);
+        addConnection(edge.to, "applied", edge.from);
       }
     });
 
@@ -151,7 +158,7 @@
     if (!query) return true;
     const terms = query.trim().split(/[\s　、，,]+/).map(normalizeSearchText).filter(Boolean);
     if (!terms.length) return true;
-    const linkedNames = ["before", "related", "future"]
+    const linkedNames = ["before", "related", "future", "application", "applied"]
       .flatMap(kind => connectionsFor(topic, kind).map(titleOf));
     const haystack = normalizeSearchText([
       topic.id, topic.name, topic.studentName, topic.description, topic.studentDescription,
@@ -229,7 +236,9 @@
     const relations = [
       relationRow(topic, "before", "前に学ぶ", "connection-before", "← "),
       relationRow(topic, "related", "関係する", "connection-related", "↔ "),
-      relationRow(topic, "future", "この先", "connection-future", "→ ")
+      relationRow(topic, "future", "この先", "connection-future", "→ "),
+      relationRow(topic, "application", "使う場面", "connection-application", "↗ "),
+      relationRow(topic, "applied", "ここで使う学び", "connection-applied", "↙ ")
     ].join("");
 
     return '<article class="topic-card" data-subject="' + esc(topic.subject || "") + '">' +
