@@ -39,10 +39,11 @@
     return topic.studentDescription || topic.description || "";
   }
 
-  const socialTopicGroups = {
-    "地域のようす・地図": ["jp.elem.social.municipality-change", "jp.elem.social.local-area", "jp.elem.social.municipality-work", "jp.elem.social.local-map"],
-    "くらしを支えるしくみ": ["jp.elem.social.waste-management", "jp.elem.social.water-supply", "jp.elem.social.firefighting", "jp.elem.social.police-safety", "jp.elem.social.disaster-prevention"],
-    "都道府県の特色と地域づくり": ["jp.elem.social.community-predecessors", "jp.elem.social.prefecture-culture", "jp.elem.social.prefecture-land", "jp.elem.social.prefecture-industry"],
+    const socialTopicGroups = {
+    "地域のようすと地図": ["jp.elem.social.municipality-change", "jp.elem.social.local-area", "jp.elem.social.local-map"],
+    "地域の仕事と安全": ["jp.elem.social.municipality-work", "jp.elem.social.firefighting", "jp.elem.social.police-safety"],
+    "くらしを支える事業": ["jp.elem.social.waste-management", "jp.elem.social.water-supply", "jp.elem.social.disaster-prevention"],
+    "都道府県と地域づくり": ["jp.elem.social.community-predecessors", "jp.elem.social.prefecture-culture", "jp.elem.social.prefecture-land", "jp.elem.social.prefecture-industry"],
     "日本の国土と自然": ["jp.elem.social.national-disaster-prevention", "jp.elem.social.natural-environment-life", "jp.elem.social.japan-location", "jp.elem.social.japan-landforms-climate"],
     "産業・情報・環境": ["jp.elem.social.environment-protection", "jp.elem.social.transport-trade", "jp.elem.social.industrial-production", "jp.elem.social.information-industry", "jp.elem.social.food-life", "jp.elem.social.forestry", "jp.elem.social.fisheries", "jp.elem.social.agriculture"],
     "歴史のうつりかわり": ["jp.elem.social.edo-society", "jp.elem.social.unification", "jp.elem.social.war-and-recovery", "jp.elem.social.ancient-japan", "jp.elem.social.postwar-japan", "jp.elem.social.medieval-japan", "jp.elem.social.modernization"],
