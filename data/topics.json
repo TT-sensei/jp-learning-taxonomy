@@ -52,9 +52,7 @@
       "description": "原稿用紙の使い方や、手紙・報告文などの基本的な書式を理解して使う。",
       "grades": [
         3,
-        4,
-        5,
-        6
+        4
       ],
       "topicType": "concept",
       "evidence": [
@@ -71,9 +69,7 @@
         "status": "needs-review",
         "candidateFirstIntroductionGrade": 3,
         "candidateContinuingGrades": [
-          4,
-          5,
-          6
+          4
         ],
         "basis": "mext-japanese-grade-band-provisional-review-2026-10-24",
         "note": "文部科学省「小学校学習指導要領解説 国語編」の第3・4学年の内容を起点にした暫定候補。個別の学年配当を公式に確定したものではなく、語句・文章構成・情報活用などの発展を主な手掛かりに設定。継続学年は学習の発展・活用を含む編集上の候補。"
@@ -342,11 +338,7 @@
       "description": "音節や文字の形・対応など、音や文字そのものの特徴に気付く。仮名・漢字を文や語句の中で読み書きする練習全体ではなく、音と文字の特徴を捉える項目。",
       "grades": [
         1,
-        2,
-        3,
-        4,
-        5,
-        6
+        2
       ],
       "topicType": "concept",
       "evidence": [
@@ -363,11 +355,7 @@
         "status": "needs-review",
         "candidateFirstIntroductionGrade": 1,
         "candidateContinuingGrades": [
-          2,
-          3,
-          4,
-          5,
-          6
+          2
         ],
         "basis": "mext-japanese-grade-band-provisional-review-2026-10-24",
         "note": "文部科学省「小学校学習指導要領解説 国語編」の第1・2学年の内容を起点にした暫定候補。個別の学年配当を公式に確定したものではなく、基礎的な文字・言語活動を主な手掛かりに設定。継続学年は学習の発展・活用を含む編集上の候補。"
@@ -468,9 +456,7 @@
       "description": "音や様子、感覚を表す言葉の働きに気付き、表現や読解に生かす。",
       "grades": [
         3,
-        4,
-        5,
-        6
+        4
       ],
       "topicType": "concept",
       "evidence": [
@@ -487,9 +473,7 @@
         "status": "needs-review",
         "candidateFirstIntroductionGrade": 3,
         "candidateContinuingGrades": [
-          4,
-          5,
-          6
+          4
         ],
         "basis": "mext-japanese-grade-band-provisional-review-2026-10-24",
         "note": "文部科学省「小学校学習指導要領解説 国語編」の第3・4学年の内容を起点にした暫定候補。個別の学年配当を公式に確定したものではなく、語句・文章構成・情報活用などの発展を主な手掛かりに設定。継続学年は学習の発展・活用を含む編集上の候補。"
@@ -716,11 +700,7 @@
       "description": "文末表現や文の形に着目し、伝えたい内容や相手に応じた文を使う。",
       "grades": [
         1,
-        2,
-        3,
-        4,
-        5,
-        6
+        2
       ],
       "topicType": "concept",
       "evidence": [
@@ -737,11 +717,7 @@
         "status": "needs-review",
         "candidateFirstIntroductionGrade": 1,
         "candidateContinuingGrades": [
-          2,
-          3,
-          4,
-          5,
-          6
+          2
         ],
         "basis": "mext-japanese-grade-band-provisional-review-2026-10-24",
         "note": "文部科学省「小学校学習指導要領解説 国語編」の第1・2学年の内容を起点にした暫定候補。個別の学年配当を公式に確定したものではなく、基礎的な文字・言語活動を主な手掛かりに設定。継続学年は学習の発展・活用を含む編集上の候補。"
@@ -1178,11 +1154,7 @@
       "description": "出来事の順序や場面の移り変わりを捉え、内容を理解する。",
       "grades": [
         1,
-        2,
-        3,
-        4,
-        5,
-        6
+        2
       ],
       "topicType": "concept",
       "evidence": [
@@ -1199,11 +1171,7 @@
         "status": "needs-review",
         "candidateFirstIntroductionGrade": 1,
         "candidateContinuingGrades": [
-          2,
-          3,
-          4,
-          5,
-          6
+          2
         ],
         "basis": "mext-japanese-grade-band-provisional-review-2026-10-24",
         "note": "文部科学省「小学校学習指導要領解説 国語編」の第1・2学年の内容を起点にした暫定候補。個別の学年配当を公式に確定したものではなく、基礎的な文字・言語活動を主な手掛かりに設定。継続学年は学習の発展・活用を含む編集上の候補。"
@@ -1430,11 +1398,7 @@
       "description": "伝えたいことを選び、順序や相手を意識して分かりやすく話す。",
       "grades": [
         1,
-        2,
-        3,
-        4,
-        5,
-        6
+        2
       ],
       "topicType": "concept",
       "evidence": [
@@ -1451,11 +1415,7 @@
         "status": "needs-review",
         "candidateFirstIntroductionGrade": 1,
         "candidateContinuingGrades": [
-          2,
-          3,
-          4,
-          5,
-          6
+          2
         ],
         "basis": "mext-japanese-grade-band-provisional-review-2026-10-24",
         "note": "文部科学省「小学校学習指導要領解説 国語編」の第1・2学年の内容を起点にした暫定候補。個別の学年配当を公式に確定したものではなく、基礎的な文字・言語活動を主な手掛かりに設定。継続学年は学習の発展・活用を含む編集上の候補。"
@@ -1514,11 +1474,7 @@
       "description": "話題や要点を捉え、必要な情報を聞き取る。",
       "grades": [
         1,
-        2,
-        3,
-        4,
-        5,
-        6
+        2
       ],
       "topicType": "concept",
       "evidence": [
@@ -1535,11 +1491,7 @@
         "status": "needs-review",
         "candidateFirstIntroductionGrade": 1,
         "candidateContinuingGrades": [
-          2,
-          3,
-          4,
-          5,
-          6
+          2
         ],
         "basis": "mext-japanese-grade-band-provisional-review-2026-10-24",
         "note": "文部科学省「小学校学習指導要領解説 国語編」の第1・2学年の内容を起点にした暫定候補。個別の学年配当を公式に確定したものではなく、基礎的な文字・言語活動を主な手掛かりに設定。継続学年は学習の発展・活用を含む編集上の候補。"
@@ -1640,9 +1592,7 @@
       "description": "古文や漢文調の文章などに触れ、昔の言葉の響きや現代の言葉との違いを味わう。昔話・神話・伝承などの文化内容全般を扱う項目とは、言葉や文章の特徴に焦点を分ける。",
       "grades": [
         3,
-        4,
-        5,
-        6
+        4
       ],
       "topicType": "concept",
       "evidence": [
@@ -1659,9 +1609,7 @@
         "status": "needs-review",
         "candidateFirstIntroductionGrade": 3,
         "candidateContinuingGrades": [
-          4,
-          5,
-          6
+          4
         ],
         "basis": "mext-japanese-grade-band-provisional-review-2026-10-24",
         "note": "文部科学省「小学校学習指導要領解説 国語編」の第3・4学年の内容を起点にした暫定候補。個別の学年配当を公式に確定したものではなく、語句・文章構成・情報活用などの発展を主な手掛かりに設定。継続学年は学習の発展・活用を含む編集上の候補。"
@@ -1792,9 +1740,7 @@
       "description": "品詞や言葉の働き、文中での役割などに着目する。",
       "grades": [
         3,
-        4,
-        5,
-        6
+        4
       ],
       "topicType": "concept",
       "evidence": [
@@ -1811,9 +1757,7 @@
         "status": "needs-review",
         "candidateFirstIntroductionGrade": 3,
         "candidateContinuingGrades": [
-          4,
-          5,
-          6
+          4
         ],
         "basis": "mext-japanese-grade-band-provisional-review-2026-10-24",
         "note": "文部科学省「小学校学習指導要領解説 国語編」の第3・4学年の内容を起点にした暫定候補。個別の学年配当を公式に確定したものではなく、語句・文章構成・情報活用などの発展を主な手掛かりに設定。継続学年は学習の発展・活用を含む編集上の候補。"
@@ -2388,9 +2332,7 @@
       "description": "語り手や視点、描写の仕方が内容の受け取り方に与える働きを考える。",
       "grades": [
         3,
-        4,
-        5,
-        6
+        4
       ],
       "topicType": "concept",
       "evidence": [
@@ -2407,9 +2349,7 @@
         "status": "needs-review",
         "candidateFirstIntroductionGrade": 3,
         "candidateContinuingGrades": [
-          4,
-          5,
-          6
+          4
         ],
         "basis": "mext-japanese-grade-band-provisional-review-2026-10-24",
         "note": "文部科学省「小学校学習指導要領解説 国語編」の第3・4学年の内容を起点にした暫定候補。個別の学年配当を公式に確定したものではなく、語句・文章構成・情報活用などの発展を主な手掛かりに設定。継続学年は学習の発展・活用を含む編集上の候補。"
