@@ -378,7 +378,16 @@
       return;
     }
 
-    const boardData = isFiltered ? filtered : allTopics;
+    // Keep the six-grade overview visible when a year is selected; the selected
+    // column is highlighted so learners can still see where it leads next.
+    const boardData = allTopics.filter(topic =>
+      (!state.subject || topic.subject === state.subject) &&
+      matchesQuery(topic, state.query)
+    );
+    count.textContent = boardData.length + "項目";
+    if (state.grade && !state.query.trim()) {
+      description.textContent = state.grade + "年生の列を強調しています。ほかの学年と見比べながら、学びのつながりをたどれます。";
+    }
     results.innerHTML = renderGradeBoard(boardData, isFiltered);
     results.setAttribute("aria-busy", "false");
   }
