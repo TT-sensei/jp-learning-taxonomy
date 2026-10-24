@@ -114,5 +114,5 @@
 
 現行の理科48項目について照合し、未分類ID・データに存在しないID・複数分類への重複登録はいずれも0件。学習項目のID、説明、学年候補、関係データは変更していない。これは表示分類の構造検査であり、公式内容・学年配当の確認が完了したという意味ではない。
 
-実装：`site/app.js` の `scienceTopicGroups` と `scienceTopicGroupById`。
+実装：`site/app.js` と `site/hub.js` の `scienceTopicGroups`／`scienceTopicGroupById`。トップの学び一覧と、教科別マップの両方で同じ分類を使う。
 
