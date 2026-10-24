@@ -1,139 +1,172 @@
 {
-  "schemaVersion": "0.1.0",
+  "schemaVersion": "0.2.0",
   "title": "算数の学びの見取り図",
   "scope": "小学校1〜6年生の算数",
   "status": "整理案",
-  "note": "学びの大きなまとまりをつかむための編集上の見取り図です。流れや学年は公式の必修順序を示すものではありません。",
+  "note": "参考となる学習分類と小学校学習指導要領の領域を組み合わせた編集上の見取り図です。分類・流れ・学年は公式の単元名や必修順序を示すものではありません。詳しい学習内容は各項目の詳細ページに残し、領域をこえるつながりも示します。",
   "principles": [
-    "まず大きな学びのまとまりを見せ、詳しい項目は必要なときだけ開く。",
-    "5つの内容領域と、領域を横断して使う数学的な考え方を分けて示す。",
-    "同じ学びが複数の場面で役立つことを認め、すべてを一本道にしない。",
-    "つまずき診断や復習プリントは、学習項目の分類とは別のデータで扱う。"
+    "子どもや先生が学習内容を見つけやすい大きなまとまりを示し、詳しい項目は必要なときに開く。",
+    "数と計算、小数、分数、図形、測定、変化と関係、データ活用をバランスよく扱う。",
+    "単位・測定、データ活用、場合の数、数学的な考え方を独立して探せるようにする。",
+    "同じ学びが複数の場面で役立つことを認め、関連項目を無理に一つに統合しない。",
+    "項目の統合や分類変更によって、詳しい説明・学年差・学習項目間の関係を失わない。"
   ],
   "strands": [
     {
       "id": "number-calculation",
       "title": "数と計算",
       "question": "数のしくみを知り、計算を使いこなす",
-      "summary": "数の表し方から整数の計算、小数・分数、割合につながる。",
-      "flow": "数のしくみ → 計算の意味と方法 → 小数・分数・計算の活用",
-      "topicIds": [
-        "jp.elem.math.number-counting",
-        "jp.elem.math.numbers-and-place-value",
-        "jp.elem.math.multidigit-add-subtract",
-        "jp.elem.math.multiplication-tables",
-        "jp.elem.math.division-meaning",
-        "jp.elem.math.division-algorithm",
-        "jp.elem.math.decimals-tenths",
-        "jp.elem.math.fractions-compare",
-        "jp.elem.math.decimal-multiply-divide",
-        "jp.elem.math.fraction-multiply-divide"
-      ]
+      "summary": "数の表し方、整数の四則計算、計算の順序やきまり、式の表現を学ぶ。",
+      "flow": "数のしくみ → 計算の意味と方法 → 式・計算の工夫・問題解決",
+      "topicIds": []
     },
     {
-      "id": "geometry",
-      "title": "図形",
-      "question": "形の特徴を見つけ、作図や計算に使う",
-      "summary": "身の回りの形から、図形の性質、面積・体積、図形の見方へ広がる。",
-      "flow": "形を見つける・つくる → 性質を調べる・作図する → 面積・体積・図形の見方",
-      "topicIds": [
-        "jp.elem.math.familiar-shapes",
-        "jp.elem.math.compose-decompose-shapes",
-        "jp.elem.math.triangles-quadrilaterals",
-        "jp.elem.math.perpendicular-parallel",
-        "jp.elem.math.area-rectangle-square",
-        "jp.elem.math.congruent-figures",
-        "jp.elem.math.volume-cuboid",
-        "jp.elem.math.area-circle",
-        "jp.elem.math.symmetry"
-      ]
+      "id": "multiples-factors",
+      "title": "倍数と約数",
+      "question": "数のきまりを見つけ、数を整理する",
+      "summary": "倍数・約数、公倍数・公約数、最小公倍数・最大公約数など、整数の性質を調べる。",
+      "flow": "倍数・約数 → 公倍数・公約数 → 約分・通分などへの活用",
+      "topicIds": []
     },
     {
-      "id": "measurement",
-      "title": "量と測定",
+      "id": "decimal-calculation",
+      "title": "小数の計算",
+      "question": "小数のしくみを理解し、計算に使う",
+      "summary": "小数の意味や位取りから、たし算・ひき算・かけ算・わり算へ。分数との関係も確かめる。",
+      "flow": "小数の意味・位取り → 小数の四則計算 → 分数・整数とのつながり",
+      "topicIds": []
+    },
+    {
+      "id": "fraction-calculation",
+      "title": "分数の計算",
+      "question": "分数の大きさや計算のしくみをつかむ",
+      "summary": "分数の意味、等しい分数、約分・通分、分数のたし算・ひき算・かけ算・わり算を学ぶ。",
+      "flow": "分数の意味・大きさ → 等しい分数・通分 → 分数の四則計算",
+      "topicIds": []
+    },
+    {
+      "id": "plane-geometry-basics",
+      "title": "平面図形①　形と面積",
+      "question": "図形の特徴を見つけ、面積を求める",
+      "summary": "身の回りの形、三角形・四角形・円、角や直線の関係、面積の求め方を整理する。",
+      "flow": "形の特徴 → 角・直線・図形の性質 → 面積と単位",
+      "topicIds": []
+    },
+    {
+      "id": "plane-geometry-properties",
+      "title": "平面図形②　図形の性質と広がり",
+      "question": "図形の性質や変化を見つける",
+      "summary": "合同、角の性質、正多角形、円周、対称、拡大図・縮図などを通して図形の見方を深める。",
+      "flow": "図形を比べる → 性質を見つける → 拡大・縮小や対称で捉える",
+      "topicIds": []
+    },
+    {
+      "id": "solid-geometry",
+      "title": "立体図形",
+      "question": "立体の形を捉え、面積や体積を考える",
+      "summary": "箱の形や面・辺・頂点、見取図・展開図、体積の単位と求め方を学ぶ。",
+      "flow": "立体の特徴 → 見取図・展開図 → 体積とおよその量",
+      "topicIds": []
+    },
+    {
+      "id": "measurement-units",
+      "title": "単位と測定",
       "question": "量を比べ、単位を使って表す",
-      "summary": "直接比べることから単位で測ることへ。量の関係や単位換算は他の学習にもつながる。",
-      "flow": "直接比べる → 単位で測る → 単位を換算し、目的に合う方法を選ぶ",
-      "topicIds": [
-        "jp.elem.math.direct-measurement",
-        "jp.elem.math.time-reading",
-        "jp.elem.math.length-units-cm-mm-m",
-        "jp.elem.math.capacity-units",
-        "jp.elem.math.mass-units",
-        "jp.elem.math.elapsed-time",
-        "jp.elem.math.area-units",
-        "jp.elem.math.volume-units"
-      ]
+      "summary": "長さ・かさ・重さ・時間・面積・体積などを、目的に合った単位や方法で測る。",
+      "flow": "直接比べる → 単位で測る → 単位換算・測り方の選択",
+      "topicIds": []
     },
     {
-      "id": "change-relationships",
-      "title": "変化と関係",
-      "question": "2つの量の関係を見つけ、比べる",
-      "summary": "1つ分にそろえる考え方や割合から、比・比例・反比例などの関係へつながる。",
-      "flow": "量を比べる → 1つ分・割合で捉える → 比・比例・反比例で関係を表す",
-      "topicIds": [
-        "jp.elem.math.unit-quantity",
-        "jp.elem.math.percentage",
-        "jp.elem.math.speed",
-        "jp.elem.math.meaning-of-proportion",
-        "jp.elem.math.proportionality",
-        "jp.elem.math.inverse-proportionality",
-        "jp.elem.math.ratio",
-        "jp.elem.math.meaning-of-ratio"
-      ]
+      "id": "unit-quantity-average-speed",
+      "title": "単位量あたり・平均・速さ",
+      "question": "量をそろえて比べ、関係を考える",
+      "summary": "1つ分にそろえる考え方、平均、速さ・道のり・時間の関係を生活場面にも活用する。",
+      "flow": "量をそろえて比べる → 平均・単位量あたり → 速さと道のり・時間",
+      "topicIds": []
     },
     {
-      "id": "data",
+      "id": "percentage-ratio",
+      "title": "割合・比",
+      "question": "数量の関係を割合や比で表す",
+      "summary": "もとにする量と比べる量、割合・百分率、割合を表すグラフ、比の表し方を学ぶ。",
+      "flow": "数量を比べる → 割合・百分率 → 比で表し、活用する",
+      "topicIds": []
+    },
+    {
+      "id": "proportion",
+      "title": "比例・反比例",
+      "question": "2つの量の変わり方を調べる",
+      "summary": "数量の変化を表・式・グラフで捉え、比例・反比例の関係を考える。",
+      "flow": "2つの量の変化 → 比例を表す → 反比例と比べる",
+      "topicIds": []
+    },
+    {
+      "id": "counting-cases",
+      "title": "場合の数",
+      "question": "落ちや重なりがないように数える",
+      "summary": "並べ方や組み合わせ方を、図や表などを使って順序よく調べる。",
+      "flow": "条件を整理する → 並べ方を調べる → 組み合わせ方を調べる",
+      "topicIds": []
+    },
+    {
+      "id": "data-use",
       "title": "データの活用",
-      "question": "集めた情報を整理し、根拠をもって考える",
-      "summary": "仲間分けや表・グラフから、データを多面的に見て結論を考える学びへ。",
-      "flow": "分類・表・グラフ → 特徴を比べる → データを集め、根拠をもって判断する",
-      "topicIds": [
-        "jp.elem.math.classify-count-pictograph",
-        "jp.elem.math.tables-simple-graphs",
-        "jp.elem.math.bar-graphs",
-        "jp.elem.math.line-graphs",
-        "jp.elem.math.average",
-        "jp.elem.math.data-frequency-tables",
-        "jp.elem.math.statistical-viewpoints",
-        "jp.elem.math.data-statistical-investigation"
-      ]
+      "question": "表やグラフから根拠を見つける",
+      "summary": "データの分類・整理、表やグラフ、平均、データの特徴や集め方を考える学び。",
+      "flow": "分類・表・グラフ → 特徴を比べる → データを根拠に判断する",
+      "topicIds": []
     },
     {
       "id": "mathematical-thinking",
-      "title": "学びを横断して使う",
-      "question": "図・表・式で表し、考え方を説明する",
-      "summary": "問題の数量関係を捉え、きまりを見つけ、方法を選び、結果を確かめる力は各領域で使われる。",
-      "flow": "問題の関係を捉える → 表現・説明する → 方法を選び、結果を確かめる",
-      "topicIds": [
-        "jp.elem.math.understand-problem-structure",
-        "jp.elem.math.represent-with-diagrams-tables",
-        "jp.elem.math.find-patterns",
-        "jp.elem.math.explain-reasoning",
-        "jp.elem.math.choose-calculation-strategy",
-        "jp.elem.math.estimate-and-check",
-        "jp.elem.math.math-in-daily-life"
-      ]
+      "title": "数学的な考え方・問題解決",
+      "question": "考えを表し、説明し、確かめる",
+      "summary": "きまりを見つける、見積もる、図・表・式で表す、考え方を説明するなど、領域を横断して使う力。",
+      "flow": "問題の関係を捉える → 表現・説明する → 方法や結果を確かめる",
+      "topicIds": []
     }
   ],
   "connections": [
     {
       "from": "数と計算",
-      "to": "量と測定・変化と関係",
-      "label": "数で量や関係を表す",
-      "description": "単位換算、割合、速さなどでは、数と計算の理解を使って量や2つの量の関係を考える。"
+      "to": "小数の計算・分数の計算",
+      "label": "数のしくみを広げる",
+      "description": "整数で学んだ位取りや計算のきまりを、小数や分数の意味・計算へつなげる。"
+    },
+    {
+      "from": "倍数と約数",
+      "to": "分数の計算",
+      "label": "等しい分数を考える",
+      "description": "公倍数・公約数の見方は、通分や約分を考えるときに役立つ。"
     },
     {
       "from": "図形",
-      "to": "量と測定",
-      "label": "形の特徴を量で捉える",
-      "description": "面積や体積は、図形の形と量の見方を結びつけて考える。"
+      "to": "単位と測定",
+      "label": "形を量で捉える",
+      "description": "面積や体積では、図形の性質と単位の考え方を結びつけて考える。"
+    },
+    {
+      "from": "単位と測定",
+      "to": "単位量あたり・平均・速さ",
+      "label": "単位をそろえて比べる",
+      "description": "単位換算や量の測定は、単位量あたりの大きさや速さを理解する土台になる。"
+    },
+    {
+      "from": "割合・比",
+      "to": "比例・反比例",
+      "label": "数量の関係を表す",
+      "description": "割合や比で数量を比べる見方は、2つの量の関係を表・式・グラフで捉える学びとつながる。"
     },
     {
       "from": "データの活用",
-      "to": "学びを横断して使う",
+      "to": "数学的な考え方・問題解決",
       "label": "根拠を集めて説明する",
       "description": "表やグラフを読み、根拠を示して説明し、結論が妥当かを確かめる。"
+    },
+    {
+      "from": "数と計算",
+      "to": "場合の数",
+      "label": "数え方を工夫する",
+      "description": "条件を整理し、重なりや数え落としを防ぐために、式や表などの表現を活用する。"
     }
   ]
 }
