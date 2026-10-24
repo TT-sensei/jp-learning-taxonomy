@@ -704,3 +704,30 @@ main.wrap { padding-top: 16px; padding-bottom: 42px; }
   font-size: .76rem;
   line-height: 1.5;
 }
+
+.site-shortcuts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-top: 10px;
+}
+.site-shortcuts a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
+  padding: 6px 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgb(255 255 255 / 90%);
+  color: var(--accent-dark);
+  font-size: .78rem;
+  font-weight: 750;
+  text-decoration: none;
+}
+.site-shortcuts a:hover {
+  border-color: #9bb7a2;
+  background: var(--accent-soft);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.site-shortcuts a:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
