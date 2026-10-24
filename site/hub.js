@@ -56,7 +56,7 @@
   }
 
   function normalizeSearchText(value) {
-    return String(value ?? "").normalize("NFKC").toLocaleLowerCase("ja").replace(/[\\s　、，。・：:;；「」『』（）()【】［］]/g, "");
+    return String(value ?? "").normalize("NFKC").toLocaleLowerCase("ja").replace(/[\s　、，。・：:;；「」『』（）()【】［］]/g, "");
   }
 
   function matchesQuery(topic, query) {
@@ -67,7 +67,7 @@
       topic.subject, topic.domain, topic.cluster, topic.area, topic.keywords,
       topic.topicType, topic.reviewStatus, topic.gradePlacement?.note, evidenceNotes
     ].flat(Infinity).filter(Boolean).join(" "));
-    const terms = query.trim().split(/[\\s　、，,]+/).map(normalizeSearchText).filter(Boolean);
+    const terms = query.trim().split(/[\s　、，,]+/).map(normalizeSearchText).filter(Boolean);
     return terms.every(term => haystack.includes(term));
   }
 
