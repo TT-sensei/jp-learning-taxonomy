@@ -50,6 +50,36 @@
     "資料を使って調べる": ["fieldwork-interview", "evidence-explanation", "decision-civic", "compare-regions", "maps-globes", "statistics-graphs", "timeline-sources"]
   };
 
+  const scienceTopicGroups = {
+    "エネルギー": [
+      "sound", "light", "magnet", "electricity-circuit", "force-motion",
+      "electricity-effects", "pendulum", "electric-magnetic-force", "lever", "electric-energy-use"
+    ],
+    "粒子": [
+      "matter", "metal-water-air-temperature", "air-properties", "water-state",
+      "dissolving", "solution-properties", "combustion"
+    ],
+    "生命": [
+      "plants-grow", "animals", "seasonal-change", "human-body-movement",
+      "plants-conditions", "animal-birth", "plant-nutrition", "ecosystem",
+      "human-body", "organism-environment"
+    ],
+    "地球": [
+      "sun-shadow", "moon-stars", "rainwater-land-surface", "weather",
+      "weather-patterns", "river-land", "moon-sun", "land-formation"
+    ],
+    "調べ方・科学的な探究": [
+      "conclusion", "record-data", "communicate", "question", "experiment-plan",
+      "compare", "observe", "prediction", "relate", "control-conditions", "multiple-perspectives"
+    ],
+    "分野をつなぐ見方": ["earth-disasters", "water-cycle"]
+  };
+  const scienceTopicGroupById = new Map(
+    Object.entries(scienceTopicGroups).flatMap(([group, ids]) =>
+      ids.map(id => ["jp.elem.science." + id, group])
+    )
+  );
+
   function groupOf(topic) {
     if (topic.subject === "社会") {
       for (const [label, fragments] of Object.entries(socialTopicGroups)) {
@@ -58,6 +88,10 @@
       const grades = gradeValues(topic);
       const firstGrade = grades.length ? grades[0] : 0;
       return ({ 3: "地域のくらし", 4: "地域と都道府県", 5: "国土・産業", 6: "歴史・政治" })[firstGrade] || "社会の学び";
+    }
+    if (topic.subject === "理科") {
+      // IDで分類を固定し、キーワードの偶然の一致による分類ずれを防ぐ。
+      return scienceTopicGroupById.get(topic.id) || "分類を確認中";
     }
     if (topic.subject === "算数") {
       const domain = String(topic.domain || "");
