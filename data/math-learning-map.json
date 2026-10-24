@@ -124,8 +124,7 @@
         "jp.elem.math.angle-sums-in-polygons",
         "jp.elem.math.regular-polygons-circumference",
         "jp.elem.math.enlargement-reduction",
-        "jp.elem.math.symmetry",
-        "jp.elem.math.scale-and-ratio"
+        "jp.elem.math.symmetry"
       ]
     },
     {
@@ -169,7 +168,6 @@
       "flow": "量をそろえて比べる → 平均・単位量あたり → 速さと道のり・時間",
       "topicIds": [
         "jp.elem.math.unit-quantity",
-        "jp.elem.math.average",
         "jp.elem.math.speed"
       ]
     },
@@ -181,8 +179,8 @@
       "flow": "数量を比べる → 割合・百分率 → 比で表し、活用する",
       "topicIds": [
         "jp.elem.math.percentage",
-        "jp.elem.math.percentage-graphs",
-        "jp.elem.math.ratio"
+        "jp.elem.math.ratio",
+        "jp.elem.math.scale-and-ratio"
       ]
     },
     {
@@ -223,7 +221,8 @@
         "jp.elem.math.data-based-reasoning",
         "jp.elem.math.data-statistical-investigation",
         "jp.elem.math.data-frequency-tables",
-        "jp.elem.math.statistical-viewpoints"
+        "jp.elem.math.statistical-viewpoints",
+        "jp.elem.math.average"
       ]
     },
     {
@@ -256,8 +255,8 @@
       "description": "公倍数・公約数の見方は、通分や約分を考えるときに役立つ。"
     },
     {
-      "from": "図形",
-      "to": "単位と測定",
+      "from": "平面図形①　形と面積",
+      "to": "単位と測定・立体図形",
       "label": "形を量で捉える",
       "description": "面積や体積では、図形の性質と単位の考え方を結びつけて考える。"
     },
@@ -284,6 +283,18 @@
       "to": "場合の数",
       "label": "数え方を工夫する",
       "description": "条件を整理し、重なりや数え落としを防ぐために、式や表などの表現を活用する。"
+    },
+    {
+      "from": "単位量あたり・平均・速さ",
+      "to": "データの活用",
+      "label": "平均を使って特徴を捉える",
+      "description": "平均はデータを代表する値として使い、単位量あたりの大きさとは目的に応じて使い分ける。"
+    },
+    {
+      "from": "平面図形②　図形の性質と広がり",
+      "to": "割合・比",
+      "label": "縮尺で実際の長さを考える",
+      "description": "拡大図・縮図や縮尺では、図形の対応と比の見方を結びつけて実際の長さを求める。"
     }
   ]
 }
