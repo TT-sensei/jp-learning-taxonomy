@@ -437,6 +437,11 @@
       if (button) removeFilter(button.dataset.removeFilter);
     });
     $("#results").addEventListener("click", event => {
+      const gradeButton = event.target.closest("[data-grade-filter]");
+      if (gradeButton) {
+        setGrade(gradeButton.dataset.gradeFilter || "");
+        return;
+      }
       if (event.target.closest("#reset-from-empty")) resetFilters();
     });
   }
