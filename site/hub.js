@@ -5,7 +5,7 @@
   const $ = (selector, root = document) => root.querySelector(selector);
   const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
   const esc = value => String(value ?? "").replace(/[&<>"']/g, ch => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch]));
-  const state = { topics: [], subject: "", grade: "", query: "", showAll: false, visible: 36 };
+  const state = { topics: [], subject: "", grade: "", query: "", sort: "subject", showAll: false, visible: 36 };
   const subjectOrder = new Map(SUBJECTS.map((name, index) => [name, index]));
 
   function isActiveTopic(topic) {
@@ -77,8 +77,21 @@
       if (state.grade && !(topic.grades || []).map(Number).includes(Number(state.grade))) return false;
       return matchesQuery(topic, state.query.trim());
     }).sort((a, b) => {
-      if (state.query.trim()) {
-        const terms = state.query.trim().split(/[\\s　、，,]+/).map(normalizeSearchText).filter(Boolean);
+      const gradeA = Math.min(...((a.grades || []).length ? a.grades.map(Number) : [99]));
+      const gradeB = Math.min(...((b.grades || []).length ? b.grades.map(Number) : [99]));
+      const subjectDiff = (subjectOrder.get(a.subject) ?? 99) - (subjectOrder.get(b.subject) ?? 99);
+      const clusterA = String(a.cluster || a.domain || a.area || "まとまり確認中");
+      const clusterB = String(b.cluster || b.domain || b.area || "まとまり確認中");
+      const titleA = String(a.studentName || a.name || "");
+      const titleB = String(b.studentName || b.name || "");
+      if (state.sort === "grade") {
+        return gradeA - gradeB || subjectDiff || titleA.localeCompare(titleB, "ja");
+      }
+      if (state.sort === "cluster") {
+        return subjectDiff || clusterA.localeCompare(clusterB, "ja") || gradeA - gradeB || titleA.localeCompare(titleB, "ja");
+      }
+      if (state.sort === "relevance" && state.query.trim()) {
+        const terms = state.query.trim().split(/[\s　、，,]+/).map(normalizeSearchText).filter(Boolean);
         const score = topic => {
           const title = normalizeSearchText([topic.studentName, topic.name].filter(Boolean).join(" "));
           return terms.reduce((sum, term) => sum + (title.includes(term) ? 5 : 0), 0);
@@ -86,12 +99,7 @@
         const relevance = score(b) - score(a);
         if (relevance) return relevance;
       }
-      const subjectDiff = (subjectOrder.get(a.subject) ?? 99) - (subjectOrder.get(b.subject) ?? 99);
-      if (subjectDiff) return subjectDiff;
-      const gradeA = Math.min(...((a.grades || []).length ? a.grades.map(Number) : [99]));
-      const gradeB = Math.min(...((b.grades || []).length ? b.grades.map(Number) : [99]));
-      if (gradeA !== gradeB) return gradeA - gradeB;
-      return String(a.studentName || a.name || "").localeCompare(String(b.studentName || b.name || ""), "ja");
+      return subjectDiff || gradeA - gradeB || titleA.localeCompare(titleB, "ja");
     });
   }
 
@@ -110,6 +118,18 @@
   function emptyState(title, description, buttonLabel) {
     return '<div class="empty-state"><span class="empty-state-mark" aria-hidden="true">？</span><strong>' + esc(title) + '</strong><p>' + esc(description) + '</p>' +
       (buttonLabel ? '<button id="show-all-topics" type="button" class="secondary-button">' + esc(buttonLabel) + '</button>' : '') + '</div>';
+  }
+
+  function resultGroupLabel(topic) {
+    if (state.sort === "grade") {
+      const grades = [...new Set((topic.grades || []).map(Number).filter(n => n >= 1 && n <= 6))].sort((a, b) => a - b);
+      return grades.length ? grades[0] + "年ごろの学び" : "学年確認中";
+    }
+    if (state.sort === "cluster") {
+      return (topic.subject || "教科確認中") + "｜" + (topic.cluster || topic.domain || topic.area || "まとまり確認中");
+    }
+    if (state.sort === "relevance" && state.query.trim()) return "検索との関連が高い順";
+    return topic.subject || "教科確認中";
   }
 
   function renderResults() {
@@ -151,11 +171,12 @@
 
     const visible = list.slice(0, state.visible);
     let html = "";
-    let previousSubject = "";
+    let previousGroup = "";
     visible.forEach(topic => {
-      if (!state.subject && previousSubject !== topic.subject) {
-        html += '<h4 class="result-group-heading">' + esc(topic.subject || "教科確認中") + '</h4>';
-        previousSubject = topic.subject;
+      const group = resultGroupLabel(topic);
+      if (group !== previousGroup) {
+        html += '<h4 class="result-group-heading">' + esc(group) + '</h4>';
+        previousGroup = group;
       }
       html += topicCard(topic);
     });
@@ -210,6 +231,11 @@
     $("#topic-search").addEventListener("input", event => {
       state.query = event.target.value || "";
       state.showAll = false;
+      state.visible = 36;
+      renderResults();
+    });
+    $("#results-sort").addEventListener("change", event => {
+      state.sort = event.target.value || "subject";
       state.visible = 36;
       renderResults();
     });
