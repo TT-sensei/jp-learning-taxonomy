@@ -215,11 +215,11 @@
       "id": "math-edge-022",
       "from": "jp.elem.math.fractions-unlike-denominators",
       "to": "jp.elem.math.fraction-multiply-divide",
-      "type": "related-learning",
-      "rationale": "分数の大きさと単位分数の見方を、乗法・除法にも活用する。",
+      "type": "recommended-prerequisite",
+      "rationale": "異分母の加減まで身に付けた分数の意味理解が、分数の乗法・除法への土台になる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "分数の大きさや分数の1つ分を考える見方は、分数のかけ算・わり算にも役立つよ。"
+      "studentRationale": "分数のたし算・ひき算まで学んだことが、かけ算・わり算の助けになるよ。"
     },
     {
       "id": "math-edge-023",
@@ -245,11 +245,11 @@
       "id": "math-edge-025",
       "from": "jp.elem.math.regular-polygons-circumference",
       "to": "jp.elem.math.area-circle",
-      "type": "related-learning",
-      "rationale": "円の特徴と半径に着目する見方が円の計量でも生かされる。",
+      "type": "recommended-prerequisite",
+      "rationale": "円周と直径の関係（円周率）の理解が、円の面積の求め方につながる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "円の特徴や半径の見方は、円の面積を求めるときにも使えるよ。"
+      "studentRationale": "円周の学びが、円の面積を考える助けになるよ。"
     },
     {
       "id": "math-edge-026",
@@ -265,11 +265,11 @@
       "id": "math-edge-027",
       "from": "jp.elem.math.length-units-cm-mm-m",
       "to": "jp.elem.math.distance-kilometer",
-      "type": "related-learning",
-      "rationale": "既習の長さの単位と距離の単位を関連づける。",
+      "type": "recommended-prerequisite",
+      "rationale": "mまでの長さの単位の理解が、kmという大きな単位への拡張の土台になる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "長さの単位で学んだことは、kmのような長い距離の単位にもつながるよ。"
+      "studentRationale": "長さの単位の学びが、kmの助けになるよ。"
     },
     {
       "id": "math-edge-028",
@@ -305,21 +305,21 @@
       "id": "math-edge-031",
       "from": "jp.elem.math.unit-quantity",
       "to": "jp.elem.math.speed",
-      "type": "related-learning",
-      "rationale": "1単位当たりの大きさという見方を速さに適用する。",
+      "type": "recommended-prerequisite",
+      "rationale": "単位量当たりで比べる考えが、そのまま速さ（単位時間当たりの道のり）の理解につながる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "「1つ分の大きさ」で比べる考え方は、速さを考えるときにも使えるよ。"
+      "studentRationale": "単位量あたりの考えが、速さを考える助けになるよ。"
     },
     {
       "id": "math-edge-032",
       "from": "jp.elem.math.percentage",
       "to": "jp.elem.math.ratio",
-      "type": "related-learning",
-      "rationale": "割合を基準量と比較量の関係として捉える見方を比へつなげる。",
+      "type": "recommended-prerequisite",
+      "rationale": "割合の考えが、比という別の表し方で数量の関係を捉える土台になる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "もとにする量と比べる量の関係を考えることは、比を学ぶときにも役立つよ。"
+      "studentRationale": "割合の学びが、比を考える助けになるよ。"
     },
     {
       "id": "math-edge-033",
@@ -375,11 +375,11 @@
       "id": "math-edge-038",
       "from": "jp.elem.math.bar-graphs",
       "to": "jp.elem.math.line-graphs",
-      "type": "related-learning",
-      "rationale": "項目の比較から、時間に沿った変化の表示へ見方を広げる。",
+      "type": "recommended-prerequisite",
+      "rationale": "棒グラフで量を比べる読み方が、変化を表す折れ線グラフの読み方へ広がる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "項目を比べるグラフから、時間とともに変わる様子を表すグラフへと考え方を広げよう。"
+      "studentRationale": "棒グラフの学びが、折れ線グラフを読む助けになるよ。"
     },
     {
       "id": "math-edge-039",
@@ -475,11 +475,11 @@
       "id": "math-edge-049",
       "from": "jp.elem.math.boxes-and-faces",
       "to": "jp.elem.math.solids-nets",
-      "type": "related-learning",
-      "rationale": "立体の面や辺の理解を、展開図での表現につなげる。",
+      "type": "recommended-prerequisite",
+      "rationale": "箱の面・辺・頂点の理解が、立体の見取図・展開図を読みかく学習の土台になる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "立体の面や辺のつながりを知ると、展開図を考えやすいよ。"
+      "studentRationale": "箱の形の学びが、展開図を考える助けになるよ。"
     },
     {
       "id": "math-edge-050",
@@ -605,11 +605,11 @@
       "id": "math-edge-063",
       "from": "jp.elem.math.congruent-figures",
       "to": "jp.elem.math.enlargement-reduction",
-      "type": "related-learning",
-      "rationale": "合同な図形と拡大図・縮図を比べ、形と大きさの関係を捉える。",
+      "type": "recommended-prerequisite",
+      "rationale": "合同は倍率1の拡大・縮小とみることができ、拡大図・縮図の理解の土台になる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "合同な図形と拡大図・縮図を比べると、形と大きさの関係が分かるよ。"
+      "studentRationale": "合同の学びが、拡大図や縮図を考える助けになるよ。"
     },
     {
       "id": "math-edge-064",
@@ -645,11 +645,11 @@
       "id": "math-edge-067",
       "from": "jp.elem.math.changing-quantities-patterns",
       "to": "jp.elem.math.meaning-of-proportion",
-      "type": "related-learning",
-      "rationale": "二つの数量の変わり方を調べる経験を、比例関係を表・式・グラフで捉える学習につなげる。",
+      "type": "recommended-prerequisite",
+      "rationale": "表に整理して伴って変わる関係を見る経験が、比例を表・式・グラフで表す学習の土台になる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "2つの量の変わり方を調べた経験は、比例を表・式・グラフで考えるときに役立つよ。"
+      "studentRationale": "変わり方を表に表したことが、比例を表す助けになるよ。"
     },
     {
       "id": "proposed-math-edge-a-001",
@@ -665,11 +665,11 @@
       "id": "proposed-math-edge-a-003",
       "from": "jp.elem.math.decimal-fraction-tenths",
       "to": "jp.elem.math.decimal-fraction-numberline",
-      "type": "related-learning",
-      "rationale": "表し方の関係から数直線上での比較へ広げる候補。",
+      "type": "recommended-prerequisite",
+      "rationale": "0.1と1/10の関係を使うと、小数・分数を数直線の同じ位置に表せる。",
       "reviewStatus": "needs-review",
       "evidenceType": "editorial",
-      "studentRationale": "小数と分数の表し方を比べることは、数直線で大きさを比べる学びにつながるよ。"
+      "studentRationale": "0.1と1/10の関係が分かると、数直線に表しやすくなるよ。"
     },
     {
       "id": "proposed-math-edge-a-004",
@@ -685,11 +685,11 @@
       "id": "proposed-math-edge-a-005",
       "from": "jp.elem.math.unknown-number-box-expression",
       "to": "jp.elem.math.unknown-number-relationships",
-      "type": "related-learning",
-      "rationale": "□を使った式から数量の関係を式に表す学習へ広げる候補。",
+      "type": "recommended-prerequisite",
+      "rationale": "□の式で関係を表す経験が、数量の関係を式に表す学習へ発展する。",
       "reviewStatus": "needs-review",
       "evidenceType": "editorial",
-      "studentRationale": "□を使った式から、数や量の関係を式に表す学びへつながる候補だよ。"
+      "studentRationale": "□の式の学びが、数量の関係を式に表す助けになるよ。"
     },
     {
       "id": "proposed-math-edge-a-006",
@@ -1105,11 +1105,11 @@
       "id": "grade-link-114",
       "from": "jp.elem.math.subtraction-meaning",
       "to": "jp.elem.math.unknown-number-box-expression",
-      "type": "related-learning",
-      "rationale": "減法の場面を式で表す経験を、□を使って数量の関係を表す学習へつなげる。",
+      "type": "recommended-prerequisite",
+      "rationale": "ひき算の場面を式で表す経験が、□を使って数量の関係を表す学習につながる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "ひき算になる場面を式に表すことは、□を使って数や量の関係を考えるときに役立つよ。"
+      "studentRationale": "ひき算を式に表したことが、□の式を考える助けになるよ。"
     },
     {
       "id": "grade-link-116",
@@ -1135,11 +1135,11 @@
       "id": "grade-link-119",
       "from": "jp.elem.math.familiar-shapes",
       "to": "jp.elem.math.compose-decompose-shapes",
-      "type": "related-learning",
-      "rationale": "身の回りの形の特徴に気付く経験を、形を組み合わせたり分解したりする活動へ広げる。",
+      "type": "recommended-prerequisite",
+      "rationale": "身の回りの形の特徴に気づくことが、形を組み合わせたり分けたりする活動の土台になる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "身の回りの形を見つけた経験は、形を組み合わせたり分けたりするときに役立つよ。"
+      "studentRationale": "形の特徴に気づいたことが、形づくりの助けになるよ。"
     },
     {
       "id": "grade-link-120",
@@ -1215,11 +1215,11 @@
       "id": "grade-link-127",
       "from": "jp.elem.math.decimal-fraction-tenths",
       "to": "jp.elem.math.decimal-fraction-equivalence",
-      "type": "related-learning",
-      "rationale": "0.1と1/10の関係を、小数と分数の等しい大きさを捉える学習へつなげる。",
+      "type": "recommended-prerequisite",
+      "rationale": "0.1＝1/10の関係が、小数と分数の等しい大きさを関連づける土台になる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "0.1と1/10が同じ大きさだと分かると、小数と分数を比べやすいよ。"
+      "studentRationale": "0.1と1/10の関係が、小数と分数をつなぐ助けになるよ。"
     },
     {
       "id": "grade-link-128",
@@ -1885,11 +1885,11 @@
       "id": "math-edge-193",
       "from": "jp.elem.math.congruent-figures",
       "to": "jp.elem.math.symmetry",
-      "type": "related-learning",
-      "rationale": "合同な図形の対応関係を調べることと、対称な図形で対応する部分を見つけることは、形の対応に着目する点で関連する。",
+      "type": "recommended-prerequisite",
+      "rationale": "合同（ぴったり重なる）という見方が、対称な図形の対応を捉える土台になる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "対応する辺や角を見つける見方を、対称な図形にも生かそう。"
+      "studentRationale": "合同な図形の学びが、対称な図形の助けになるよ。"
     },
     {
       "id": "math-edge-194",
@@ -1955,11 +1955,11 @@
       "id": "math-edge-200",
       "from": "jp.elem.math.tables-simple-graphs",
       "to": "jp.elem.math.tables-multiple-viewpoints",
-      "type": "related-learning",
-      "rationale": "簡単な表に整理した経験を、二つの観点でデータを分類・整理する学習へ広げる。",
+      "type": "recommended-prerequisite",
+      "rationale": "表に整理する力が、二つの観点で整理した表（二次元表）へ発展する。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "表に整理した経験を生かして、二つの観点でデータを見よう。"
+      "studentRationale": "表に整理したことが、二つの見方で分ける表の助けになるよ。"
     },
     {
       "id": "math-edge-201",
@@ -2005,11 +2005,11 @@
       "id": "math-edge-205",
       "from": "jp.elem.math.meaning-of-proportion",
       "to": "jp.elem.math.inverse-proportionality",
-      "type": "related-learning",
-      "rationale": "比例の関係を表・式・グラフで捉えた経験は、反比例の変化の特徴と比べる際に役立つ。",
+      "type": "recommended-prerequisite",
+      "rationale": "比例の関係を表・式・グラフで捉えた経験が、反比例との対比で理解を深める土台になる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "比例の表やグラフと比べながら、反比例の特徴を調べよう。"
+      "studentRationale": "比例を学んだことが、反比例とのちがいを考える助けになるよ。"
     },
     {
       "id": "math-edge-206",
@@ -3820,6 +3820,226 @@
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
       "studentRationale": "目標に向かう努力と、よりよく生きる喜びを結び付けよう。"
+    },
+    {
+      "id": "math-edge-217",
+      "from": "jp.elem.math.number-counting",
+      "to": "jp.elem.math.addition-meaning",
+      "type": "recommended-prerequisite",
+      "rationale": "数を数えることが、合わせる・増える場面を量として捉える土台になる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "数を数える学びが、たし算の意味を分かる助けになるよ。"
+    },
+    {
+      "id": "math-edge-218",
+      "from": "jp.elem.math.addition-meaning",
+      "to": "jp.elem.math.unknown-number-box-expression",
+      "type": "recommended-prerequisite",
+      "rationale": "たし算の場面を式で表す経験が、□を使って数量の関係を表す学習につながる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "たし算を式に表したことが、□の式を考える助けになるよ。"
+    },
+    {
+      "id": "math-edge-219",
+      "from": "jp.elem.math.multiplication-meaning",
+      "to": "jp.elem.math.multiplication-properties",
+      "type": "recommended-prerequisite",
+      "rationale": "乗法の意味（同数累加・まとまりの数）の理解が、交換・結合・分配の性質を見つける土台になる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "かけ算の意味が分かると、かけ算のきまりを見つけやすくなるよ。"
+    },
+    {
+      "id": "math-edge-220",
+      "from": "jp.elem.math.multiplication-tables",
+      "to": "jp.elem.math.distributive-property",
+      "type": "recommended-prerequisite",
+      "rationale": "九九を分けて使う経験が、分配法則を使った計算の工夫につながる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "九九を分けて考えたことが、計算の工夫の助けになるよ。"
+    },
+    {
+      "id": "math-edge-221",
+      "from": "jp.elem.math.decimals-tenths",
+      "to": "jp.elem.math.decimal-fraction-tenths",
+      "type": "recommended-prerequisite",
+      "rationale": "0.1の意味の理解が、0.1と1/10が等しいことを捉える土台になる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "0.1の学びが、0.1と1/10の関係を考える助けになるよ。"
+    },
+    {
+      "id": "math-edge-222",
+      "from": "jp.elem.math.numbers-and-place-value",
+      "to": "jp.elem.math.decimal-place-value",
+      "type": "recommended-prerequisite",
+      "rationale": "整数の位取り（10倍・1/10）の見方が、小数の位取りと大小の理解に広がる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "整数の位取りの考えが、小数の位取りにも使えるよ。"
+    },
+    {
+      "id": "math-edge-223",
+      "from": "jp.elem.math.decimal-fraction-equivalence",
+      "to": "jp.elem.math.fractions-unlike-denominators",
+      "type": "recommended-prerequisite",
+      "rationale": "小数・分数の等しい大きさの理解が、通分（等しい分数への変形）の土台になる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "等しい大きさの分数の学びが、通分の助けになるよ。"
+    },
+    {
+      "id": "math-edge-224",
+      "from": "jp.elem.math.factors-multiples",
+      "to": "jp.elem.math.fraction-multiply-divide",
+      "type": "recommended-prerequisite",
+      "rationale": "約分は約数の理解を使っており、分数の乗法・除法の計算を支える。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "約数の学びが、分数のかけ算・わり算の約分の助けになるよ。"
+    },
+    {
+      "id": "math-edge-225",
+      "from": "jp.elem.math.unknown-number-solve",
+      "to": "jp.elem.math.letter-expressions",
+      "type": "recommended-prerequisite",
+      "rationale": "□に入る数を求めた経験が、文字を用いた式への橋渡しになる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "□の数を求めたことが、文字の式を考える助けになるよ。"
+    },
+    {
+      "id": "math-edge-226",
+      "from": "jp.elem.math.expressions-parentheses",
+      "to": "jp.elem.math.choose-calculation-strategy",
+      "type": "recommended-prerequisite",
+      "rationale": "四則の式と計算順序の理解が、目的に応じて計算方法を選ぶ判断を支える。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "計算の順序の学びが、計算の選び方の助けになるよ。"
+    },
+    {
+      "id": "math-edge-227",
+      "from": "jp.elem.math.expressions-parentheses",
+      "to": "jp.elem.math.solve-multistep-number-problems",
+      "type": "recommended-prerequisite",
+      "rationale": "かっこや計算順序を含む式の理解が、複数の計算を使う問題解決の土台になる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "式の表し方の学びが、いくつかの計算を使う問題の助けになるよ。"
+    },
+    {
+      "id": "math-edge-228",
+      "from": "jp.elem.math.division-meaning",
+      "to": "jp.elem.math.unit-quantity",
+      "type": "recommended-prerequisite",
+      "rationale": "等分する・いくつ分かを求める除法の意味が、単位量当たりの大きさの考えの土台になる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "わり算の意味が、単位量あたりの大きさを考える助けになるよ。"
+    },
+    {
+      "id": "math-edge-229",
+      "from": "jp.elem.math.decimal-multiply-divide",
+      "to": "jp.elem.math.percentage",
+      "type": "recommended-prerequisite",
+      "rationale": "小数倍の考え（小数の乗法・除法）が、割合を小数で表して比べる理解につながる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "小数の計算の学びが、割合を考える助けになるよ。"
+    },
+    {
+      "id": "math-edge-230",
+      "from": "jp.elem.math.familiar-shapes",
+      "to": "jp.elem.math.triangles-quadrilaterals",
+      "type": "recommended-prerequisite",
+      "rationale": "身の回りの形を見分ける経験が、三角形・四角形の特徴を調べる学習につながる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "身の回りの形の学びが、三角形や四角形の助けになるよ。"
+    },
+    {
+      "id": "math-edge-231",
+      "from": "jp.elem.math.triangles-quadrilaterals",
+      "to": "jp.elem.math.boxes-and-faces",
+      "type": "recommended-prerequisite",
+      "rationale": "三角形・四角形の理解が、箱の面の形を捉える学習の土台になる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "四角形の学びが、箱の面を考える助けになるよ。"
+    },
+    {
+      "id": "math-edge-232",
+      "from": "jp.elem.math.triangles-quadrilaterals",
+      "to": "jp.elem.math.triangles-circles-spheres",
+      "type": "recommended-prerequisite",
+      "rationale": "三角形・四角形の性質の理解が、三角形・円・球の性質へ広がる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "三角形や四角形の学びが、円や球の学びの助けになるよ。"
+    },
+    {
+      "id": "math-edge-233",
+      "from": "jp.elem.math.angle-measurement",
+      "to": "jp.elem.math.angle-sums-in-polygons",
+      "type": "recommended-prerequisite",
+      "rationale": "角を測る技能と角の大きさの理解が、三角形や四角形の角の性質を調べる土台になる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "分度器で角をはかったことが、図形の角の性質の助けになるよ。"
+    },
+    {
+      "id": "math-edge-234",
+      "from": "jp.elem.math.area-units",
+      "to": "jp.elem.math.volume-units",
+      "type": "recommended-prerequisite",
+      "rationale": "面積の単位の仕組み（単位の正方形の並び）の理解が、体積の単位の理解につながる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "面積の単位の考えが、体積の単位の助けになるよ。"
+    },
+    {
+      "id": "math-edge-235",
+      "from": "jp.elem.math.direct-measurement",
+      "to": "jp.elem.math.mass-units",
+      "type": "recommended-prerequisite",
+      "rationale": "量を比べて表す経験が、重さを単位で表す学習の土台になる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "量を比べた経験が、重さの単位の助けになるよ。"
+    },
+    {
+      "id": "math-edge-236",
+      "from": "jp.elem.math.bar-graphs",
+      "to": "jp.elem.math.data-statistical-investigation",
+      "type": "recommended-prerequisite",
+      "rationale": "データを集めてグラフに表す経験が、目的を決めて調べ結論を検討する探究の土台になる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "グラフに表した経験が、調べて結論を考える助けになるよ。"
+    },
+    {
+      "id": "math-edge-237",
+      "from": "jp.elem.math.decimal-multiply-divide",
+      "to": "jp.elem.math.average",
+      "type": "recommended-prerequisite",
+      "rationale": "合計を個数でわる小数の除法が、平均を求める計算の土台になる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "小数のわり算が、平均を求める助けになるよ。"
+    },
+    {
+      "id": "math-edge-238",
+      "from": "jp.elem.math.multiplication-tables",
+      "to": "jp.elem.math.arrangements-combinations",
+      "type": "recommended-prerequisite",
+      "rationale": "九九のまとまりで数える考えが、並べ方・組み合わせ方を落ちなく数える土台になる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "かけ算で数えた考えが、並べ方や組み合わせの助けになるよ。"
     }
   ]
 }
