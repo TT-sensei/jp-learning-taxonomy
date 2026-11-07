@@ -16,8 +16,8 @@ function renderCounts(){const ts=activeTopics();$("count-all").textContent=ts.le
 function renderList(){
 const found=activeTopics().filter(matches);$("result-total").textContent=found.length+"項目";$("results-description").textContent=state.subject==="all"?"収録中の教科から、学習内容を見比べられます。":state.subject+"の学習内容を、分野ごとに見渡せます。";
 const root=$("results");root.replaceChildren();$("empty-state").hidden=found.length>0;const groups=new Map();
-found.forEach(t=>{const k=t.domain||"分野未整理";if(!groups.has(k))groups.set(k,[]);groups.get(k).push(t)});
-[...groups.entries()].sort((a,b)=>a[0].localeCompare(b[0],"ja")).forEach(([domain,topics])=>{const section=make("section","topic-group"),heading=make("h3","",domain);heading.append(make("span","",topics.length+"項目"));section.append(heading);const list=make("div","topic-list");
+found.forEach(t=>{const domain=t.domain||"分野未整理";const k=t.subject+"｜"+domain;if(!groups.has(k))groups.set(k,{subject:t.subject,domain,topics:[]});groups.get(k).topics.push(t)});
+[...groups.values()].sort((a,b)=>a.subject.localeCompare(b.subject,"ja")||a.domain.localeCompare(b.domain,"ja")).forEach(({subject,domain,topics})=>{const section=make("section","topic-group"),heading=make("h3","",subject+" ／ "+domain);heading.append(make("span","",topics.length+"項目"));section.append(heading);const list=make("div","topic-list");
 topics.sort((a,b)=>(gradesFor(a)[0]||9)-(gradesFor(b)[0]||9)||(a.name||"").localeCompare(b.name||"","ja"));
 topics.forEach(t=>{const b=make("button","topic-card");b.type="button";b.setAttribute("aria-label",(t.studentName||t.name)+"のつながりを見る");b.append(make("span","grade-tag",gradeLabel(t)));const copy=make("span","");copy.append(make("strong","",t.studentName||t.name),make("small","",t.studentDescription||t.description||""));b.append(copy,make("span","open-mark","›"));b.addEventListener("click",()=>openDetail(t.id));list.append(b)});section.append(list);root.append(section)});
 }
@@ -26,7 +26,7 @@ function fillConnections(id,relations,map){const root=$(id);root.replaceChildren
 function openDetail(id){
 const map=topicMap(),t=map.get(id);if(!t)return;state.activeId=id;
 const incoming=state.relations.filter(r=>r.to===id&&["prerequisite","recommended-prerequisite"].includes(r.type));
-const outgoing=state.relations.filter(r=>r.from===id&&["extension","application"].includes(r.type));
+const outgoing=state.relations.filter(r=>r.from===id&&["prerequisite","recommended-prerequisite","extension","application"].includes(r.type));
 const related=state.relations.filter(r=>(r.from===id||r.to===id)&&["related-learning","recurring-development"].includes(r.type));
 $("detail-meta").textContent=[t.subject,gradeLabel(t),t.domain,statusLabel(t.reviewStatus)].filter(Boolean).join(" ・ ");$("detail-title").textContent=t.studentName||t.name;$("detail-description").textContent=t.studentDescription||t.description||"説明は準備中です。";
 const goals=Array.isArray(t.learningGoals)?t.learningGoals:[];$("goal-panel").hidden=goals.length===0;$("goal-list").replaceChildren(...goals.map(g=>make("li","",g)));
