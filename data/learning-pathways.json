@@ -1,7 +1,7 @@
 {
   "schemaVersion": "0.1.0",
-  "title": "小学校算数の学びの道すじ",
-  "scope": "小学校1〜6年の算数。数と計算、図形、量と測定、数量関係、データ活用、数学的活動を横断して整理する。",
+  "title": "小学校の学びの道すじ",
+  "scope": "小学校1〜6年の各教科の学習内容を大きなまとまりで見渡す。学年表記は編集上の候補で、公式配当・必修順序ではない。",
   "status": "整理案",
   "designPrinciples": [
     "子どもや先生がまず見るのは、学びの大きなまとまり。",
@@ -352,6 +352,589 @@
           ]
         }
       ]
+    },
+    {
+      "subject": "国語",
+      "id": "japanese-language-tools",
+      "title": "言葉のしくみを知り、使う",
+      "question": "言葉や文のきまりを知ると、伝わり方はどう変わる？",
+      "summary": "文字・表記・語彙・文の組み立てを行き来しながら、場面や目的に合う言葉を選ぶ力を育てる。",
+      "stages": [
+        {
+          "label": "音・文字・書く基本",
+          "grades": "1〜2年ごろ",
+          "topicIds": [
+            "jp.elem.japanese.sounds-and-characters",
+            "jp.elem.japanese.hiragana-kanji-katakana",
+            "jp.elem.japanese.handwriting",
+            "jp.elem.japanese.punctuation-and-notation"
+          ]
+        },
+        {
+          "label": "漢字・語彙・文のしくみ",
+          "grades": "1〜6年ごろ",
+          "topicIds": [
+            "jp.elem.japanese.kanji-meaning-and-usage",
+            "jp.elem.japanese.word-meaning",
+            "jp.elem.japanese.dictionaries-and-reference",
+            "jp.elem.japanese.word-relationships",
+            "jp.elem.japanese.sentence-types-and-punctuation",
+            "jp.elem.japanese.sentence-structure",
+            "jp.elem.japanese.parts-of-speech"
+          ]
+        },
+        {
+          "label": "言葉を場面や表現に合わせる",
+          "grades": "3〜6年ごろ",
+          "topicIds": [
+            "jp.elem.japanese.onomatopoeia-and-sensory-words",
+            "jp.elem.japanese.idioms-proverbs-and-sayings",
+            "jp.elem.japanese.language-register-and-context",
+            "jp.elem.japanese.polite-language",
+            "jp.elem.japanese.manuscript-paper-and-layout"
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "国語",
+      "id": "japanese-reading",
+      "title": "文章を読み、考えを深める",
+      "question": "文章のどこを手がかりに、何を読み取る？",
+      "summary": "出来事や構成、叙述、筆者の考え、表現の工夫を捉え、複数の文章や資料を比べながら読みを深める。",
+      "stages": [
+        {
+          "label": "出来事・人物・中心を捉える",
+          "grades": "1〜2年ごろ",
+          "topicIds": [
+            "jp.elem.japanese.read-sequence-and-events",
+            "jp.elem.japanese.read-character-and-setting",
+            "jp.elem.japanese.read-main-idea",
+            "jp.elem.japanese.read-between-the-lines"
+          ]
+        },
+        {
+          "label": "構成・根拠・表現を捉える",
+          "grades": "3〜6年ごろ",
+          "topicIds": [
+            "jp.elem.japanese.read-structure-and-relationships",
+            "jp.elem.japanese.read-narrator-and-point-of-view",
+            "jp.elem.japanese.read-facts-and-opinions",
+            "jp.elem.japanese.quote-evidence",
+            "jp.elem.japanese.read-figurative-language-and-effects",
+            "jp.elem.japanese.read-author-claim-and-evidence"
+          ]
+        },
+        {
+          "label": "目的に応じて読み、交流する",
+          "grades": "1〜6年ごろ",
+          "topicIds": [
+            "jp.elem.japanese.read-text-type-and-purpose",
+            "jp.elem.japanese.choose-reading-strategy",
+            "jp.elem.japanese.compare-texts",
+            "jp.elem.japanese.read-and-reflect",
+            "jp.elem.japanese.reading-habits",
+            "jp.elem.japanese.library-and-book-selection",
+            "jp.elem.japanese.author-and-work",
+            "jp.elem.japanese.poetry-and-rhythm",
+            "jp.elem.japanese.traditional-language-culture",
+            "jp.elem.japanese.classical-language-and-old-forms",
+            "jp.elem.japanese.reading-aloud-expression"
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "国語",
+      "id": "japanese-writing",
+      "title": "考えを文章にまとめる",
+      "question": "伝えたいことを、どのように文章にする？",
+      "summary": "題材や情報を集めて整理し、目的に合う構成で書き、読み返して推敲し、読み手に伝える。",
+      "stages": [
+        {
+          "label": "題材を見つけ、情報を集める",
+          "grades": "1〜6年ごろ",
+          "topicIds": [
+            "jp.elem.japanese.choose-writing-topic",
+            "jp.elem.japanese.write-experiences-and-observations",
+            "jp.elem.japanese.collecting-and-recording-information",
+            "jp.elem.japanese.plan-research-and-report"
+          ]
+        },
+        {
+          "label": "内容を組み立て、表現する",
+          "grades": "1〜6年ごろ",
+          "topicIds": [
+            "jp.elem.japanese.organize-writing",
+            "jp.elem.japanese.write-for-purpose",
+            "jp.elem.japanese.write-letters-and-messages",
+            "jp.elem.japanese.paragraphs-and-connectors",
+            "jp.elem.japanese.facts-and-opinions-writing",
+            "jp.elem.japanese.write-opinion-and-argument",
+            "jp.elem.japanese.summarize-and-paraphrase"
+          ]
+        },
+        {
+          "label": "根拠を示し、推敲して伝える",
+          "grades": "3〜6年ごろ",
+          "topicIds": [
+            "jp.elem.japanese.use-quotes-and-sources-in-writing",
+            "jp.elem.japanese.revise-writing",
+            "jp.elem.japanese.share-writing"
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "国語",
+      "id": "japanese-speaking-listening",
+      "title": "聞き合い、考えを伝え合う",
+      "question": "相手の考えを受け止め、自分の考えをどう伝える？",
+      "summary": "話題や目的を決め、相手の話を聞いて確かめ、理由や資料を用いて伝え合い、話し合いで考えを深める。",
+      "stages": [
+        {
+          "label": "経験や大事なことを伝え合う",
+          "grades": "1〜2年ごろ",
+          "topicIds": [
+            "jp.elem.japanese.share-experience",
+            "jp.elem.japanese.listen-for-main-points",
+            "jp.elem.japanese.ask-and-clarify"
+          ]
+        },
+        {
+          "label": "聞き取って整理し、質問する",
+          "grades": "3〜6年ごろ",
+          "topicIds": [
+            "jp.elem.japanese.take-notes-while-listening",
+            "jp.elem.japanese.summarize-others-viewpoints",
+            "jp.elem.japanese.compare-viewpoints",
+            "jp.elem.japanese.interview-and-question-design"
+          ]
+        },
+        {
+          "label": "理由や資料をもとに伝え合う",
+          "grades": "3〜6年ごろ",
+          "topicIds": [
+            "jp.elem.japanese.prepare-and-organize-speech",
+            "jp.elem.japanese.support-opinion-with-examples",
+            "jp.elem.japanese.explain-opinion-or-reason",
+            "jp.elem.japanese.presentation",
+            "jp.elem.japanese.discussion-and-debate"
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "国語",
+      "id": "japanese-information-literacy",
+      "title": "情報を集め、比べ、確かめる",
+      "question": "情報をどう整理すると、確かな考えにつながる？",
+      "summary": "複数の情報を整理し、事実・意見・原因と結果を捉え、出典や表現方法を確かめて活用する。",
+      "stages": [
+        {
+          "label": "情報を集めて記録する",
+          "grades": "1〜6年ごろ",
+          "topicIds": [
+            "jp.elem.japanese.collecting-and-recording-information",
+            "jp.elem.japanese.dictionaries-and-reference",
+            "jp.elem.japanese.library-and-book-selection"
+          ]
+        },
+        {
+          "label": "情報の関係や違いを捉える",
+          "grades": "1〜6年ごろ",
+          "topicIds": [
+            "jp.elem.japanese.compare-and-classify-information",
+            "jp.elem.japanese.cause-and-effect",
+            "jp.elem.japanese.facts-opinions-and-interpretations",
+            "jp.elem.japanese.diagrams-and-tables"
+          ]
+        },
+        {
+          "label": "出典・複数の表現を確かめる",
+          "grades": "3〜6年ごろ",
+          "topicIds": [
+            "jp.elem.japanese.source-and-reliability",
+            "jp.elem.japanese.media-and-multimodal-information",
+            "jp.elem.japanese.read-facts-and-opinions",
+            "jp.elem.japanese.compare-texts",
+            "jp.elem.japanese.use-quotes-and-sources-in-writing"
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "社会",
+      "id": "social-local-community",
+      "title": "地域の様子とくらしを調べる",
+      "question": "地域の特徴や変化は、どのように調べる？",
+      "summary": "身近な地域を地図や現地調査で調べ、土地の様子・人々の仕事・地域の変化を資料を根拠に説明する。",
+      "stages": [
+        {
+          "label": "地域を見て、地図に表す",
+          "grades": "3年ごろ",
+          "topicIds": [
+            "jp.elem.social.local-area",
+            "jp.elem.social.local-map",
+            "jp.elem.social.maps-globes",
+            "jp.elem.social.fieldwork-interview"
+          ]
+        },
+        {
+          "label": "人々の仕事や地域の変化",
+          "grades": "3〜4年ごろ",
+          "topicIds": [
+            "jp.elem.social.municipality-work",
+            "jp.elem.social.municipality-change",
+            "jp.elem.social.community-predecessors",
+            "jp.elem.social.prefecture-culture"
+          ]
+        },
+        {
+          "label": "比べ、根拠をもとに説明する",
+          "grades": "3〜6年ごろ",
+          "topicIds": [
+            "jp.elem.social.compare-regions",
+            "jp.elem.social.statistics-graphs",
+            "jp.elem.social.evidence-explanation",
+            "jp.elem.social.decision-civic"
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "社会",
+      "id": "social-community-systems",
+      "title": "くらしを支える地域のしくみ",
+      "question": "安全で安心なくらしは、誰がどう支えている？",
+      "summary": "消防・警察・水や電気・ごみ処理・防災など、地域の機関や人々の働きを調べ、くらしとの関わりを考える。",
+      "stages": [
+        {
+          "label": "地域の安全を守る",
+          "grades": "3年ごろ",
+          "topicIds": [
+            "jp.elem.social.firefighting",
+            "jp.elem.social.police-safety"
+          ]
+        },
+        {
+          "label": "生活に必要なものを届ける",
+          "grades": "4年ごろ",
+          "topicIds": [
+            "jp.elem.social.water-supply",
+            "jp.elem.social.waste-management"
+          ]
+        },
+        {
+          "label": "災害に備え、地域を守る",
+          "grades": "4〜5年ごろ",
+          "topicIds": [
+            "jp.elem.social.disaster-prevention",
+            "jp.elem.social.national-disaster-prevention",
+            "jp.elem.social.environment-protection",
+            "jp.elem.social.decision-civic"
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "社会",
+      "id": "social-japan-land-industry",
+      "title": "日本の国土と産業のつながり",
+      "question": "自然条件や交通は、産業やくらしにどう関わる？",
+      "summary": "日本の位置・地形・気候を捉え、農林水産業・工業・物流・情報産業と人々のくらしの結び付きを考える。",
+      "stages": [
+        {
+          "label": "日本の位置と自然環境",
+          "grades": "5年ごろ",
+          "topicIds": [
+            "jp.elem.social.japan-location",
+            "jp.elem.social.japan-landforms-climate",
+            "jp.elem.social.natural-environment-life",
+            "jp.elem.social.prefecture-land"
+          ]
+        },
+        {
+          "label": "食料や資源を生み出す産業",
+          "grades": "5年ごろ",
+          "topicIds": [
+            "jp.elem.social.agriculture",
+            "jp.elem.social.forestry",
+            "jp.elem.social.fisheries",
+            "jp.elem.social.food-life"
+          ]
+        },
+        {
+          "label": "工業・交通・情報と環境",
+          "grades": "5年ごろ",
+          "topicIds": [
+            "jp.elem.social.industrial-production",
+            "jp.elem.social.transport-trade",
+            "jp.elem.social.information-industry",
+            "jp.elem.social.prefecture-industry",
+            "jp.elem.social.environment-protection",
+            "jp.elem.social.statistics-graphs",
+            "jp.elem.social.maps-globes"
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "社会",
+      "id": "social-history",
+      "title": "歴史の流れと文化をたどる",
+      "question": "人々のくらしや政治は、時代とともにどう変わった？",
+      "summary": "年表や歴史資料を手がかりに、政治や社会の変化、文化の特色を時代のつながりから捉える。",
+      "stages": [
+        {
+          "label": "地域の文化や日本の始まり",
+          "grades": "4〜6年ごろ",
+          "topicIds": [
+            "jp.elem.social.community-predecessors",
+            "jp.elem.social.prefecture-culture",
+            "jp.elem.social.ancient-japan",
+            "jp.elem.social.timeline-sources"
+          ]
+        },
+        {
+          "label": "武士の政治から江戸時代へ",
+          "grades": "6年ごろ",
+          "topicIds": [
+            "jp.elem.social.medieval-japan",
+            "jp.elem.social.unification",
+            "jp.elem.social.edo-society",
+            "jp.elem.social.compare-regions"
+          ]
+        },
+        {
+          "label": "近代から現代へ",
+          "grades": "6年ごろ",
+          "topicIds": [
+            "jp.elem.social.modernization",
+            "jp.elem.social.war-and-recovery",
+            "jp.elem.social.postwar-japan",
+            "jp.elem.social.timeline-sources",
+            "jp.elem.social.evidence-explanation"
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "社会",
+      "id": "social-government-world",
+      "title": "政治のしくみと世界とのつながり",
+      "question": "社会の決まりや政治は、くらしとどう結び付く？",
+      "summary": "日本国憲法を基礎に、国や地方の政治、国会・内閣・裁判所、選挙、国際協力について考える。",
+      "stages": [
+        {
+          "label": "政治の基本と憲法",
+          "grades": "6年ごろ",
+          "topicIds": [
+            "jp.elem.social.constitution",
+            "jp.elem.social.local-government"
+          ]
+        },
+        {
+          "label": "国の政治のしくみ",
+          "grades": "6年ごろ",
+          "topicIds": [
+            "jp.elem.social.diet",
+            "jp.elem.social.government-courts"
+          ]
+        },
+        {
+          "label": "世界の国々と日本",
+          "grades": "6年ごろ",
+          "topicIds": [
+            "jp.elem.social.international-relations",
+            "jp.elem.social.decision-civic",
+            "jp.elem.social.evidence-explanation"
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "理科",
+      "id": "science-inquiry",
+      "title": "疑問から考察・説明へ",
+      "question": "自然のきまりを、どのように調べて確かめる？",
+      "summary": "自然事象から問題を見いだし、予想・計画・観察や実験・記録・考察を行い、根拠を基に説明する。探究の過程は調べる内容に応じて行き来する。",
+      "stages": [
+        {
+          "label": "問題を見いだし、予想する",
+          "grades": "3〜6年ごろ",
+          "topicIds": [
+            "jp.elem.science.question",
+            "jp.elem.science.prediction",
+            "jp.elem.science.observe"
+          ]
+        },
+        {
+          "label": "調べ方を考え、条件をそろえる",
+          "grades": "3〜6年ごろ",
+          "topicIds": [
+            "jp.elem.science.experiment-plan",
+            "jp.elem.science.compare",
+            "jp.elem.science.relate",
+            "jp.elem.science.control-conditions"
+          ]
+        },
+        {
+          "label": "記録・考察・共有する",
+          "grades": "3〜6年ごろ",
+          "topicIds": [
+            "jp.elem.science.record-data",
+            "jp.elem.science.conclusion",
+            "jp.elem.science.communicate",
+            "jp.elem.science.multiple-perspectives"
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "理科",
+      "id": "science-matter",
+      "title": "物質の性質と変化",
+      "question": "ものは、温度や水に関わるとどう変わる？",
+      "summary": "ものの形・体積・重さ、空気や水、温度による状態の変化、溶け方や燃焼を比べて調べる。",
+      "stages": [
+        {
+          "label": "ものの形・体積・重さ",
+          "grades": "3〜4年ごろ",
+          "topicIds": [
+            "jp.elem.science.matter",
+            "jp.elem.science.air-properties"
+          ]
+        },
+        {
+          "label": "温度と状態の変化",
+          "grades": "4年ごろ",
+          "topicIds": [
+            "jp.elem.science.metal-water-air-temperature",
+            "jp.elem.science.water-state"
+          ]
+        },
+        {
+          "label": "溶け方や水溶液・燃焼",
+          "grades": "5〜6年ごろ",
+          "topicIds": [
+            "jp.elem.science.dissolving",
+            "jp.elem.science.solution-properties",
+            "jp.elem.science.combustion"
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "理科",
+      "id": "science-energy",
+      "title": "光・音・電気・力の働き",
+      "question": "目に見えない働きを、どのように確かめる？",
+      "summary": "光や音、磁石、電気、力や運動の働きを、条件を変えたり測ったりして調べ、共通する見方を育てる。",
+      "stages": [
+        {
+          "label": "光・音・磁石・電気の基本",
+          "grades": "3年ごろ",
+          "topicIds": [
+            "jp.elem.science.light",
+            "jp.elem.science.sound",
+            "jp.elem.science.magnet",
+            "jp.elem.science.electricity-circuit",
+            "jp.elem.science.force-motion"
+          ]
+        },
+        {
+          "label": "電気や磁力の働きを調べる",
+          "grades": "4〜5年ごろ",
+          "topicIds": [
+            "jp.elem.science.electricity-effects",
+            "jp.elem.science.electric-magnetic-force"
+          ]
+        },
+        {
+          "label": "運動・てこ・電気の利用",
+          "grades": "5〜6年ごろ",
+          "topicIds": [
+            "jp.elem.science.pendulum",
+            "jp.elem.science.lever",
+            "jp.elem.science.electric-energy-use"
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "理科",
+      "id": "science-life",
+      "title": "生物の成長と環境",
+      "question": "生き物は、何を取り入れ、どうつながって生きる？",
+      "summary": "植物や動物の成長、人の体の働き、生物どうしや環境との関わりを学年をまたいで結び付ける。",
+      "stages": [
+        {
+          "label": "身近な生物の体と育ち",
+          "grades": "3〜4年ごろ",
+          "topicIds": [
+            "jp.elem.science.plants-grow",
+            "jp.elem.science.animals",
+            "jp.elem.science.seasonal-change",
+            "jp.elem.science.human-body-movement"
+          ]
+        },
+        {
+          "label": "発芽・成長・誕生の条件",
+          "grades": "5年ごろ",
+          "topicIds": [
+            "jp.elem.science.plants-conditions",
+            "jp.elem.science.animal-birth"
+          ]
+        },
+        {
+          "label": "体の働きと生物どうしの関係",
+          "grades": "6年ごろ",
+          "topicIds": [
+            "jp.elem.science.plant-nutrition",
+            "jp.elem.science.human-body",
+            "jp.elem.science.ecosystem",
+            "jp.elem.science.organism-environment"
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "理科",
+      "id": "science-earth-space",
+      "title": "地球・天気・宇宙と土地",
+      "question": "地球や空の様子は、時間とともにどう変わる？",
+      "summary": "太陽・月・星や天気、水の動き、土地の変化を観察し、地球全体のしくみを関連づけて捉える。",
+      "stages": [
+        {
+          "label": "太陽・月・星と天気",
+          "grades": "3〜4年ごろ",
+          "topicIds": [
+            "jp.elem.science.sun-shadow",
+            "jp.elem.science.moon-stars",
+            "jp.elem.science.weather",
+            "jp.elem.science.weather-patterns",
+            "jp.elem.science.moon-sun"
+          ]
+        },
+        {
+          "label": "雨水・川・水の循環",
+          "grades": "4〜5年ごろ",
+          "topicIds": [
+            "jp.elem.science.rainwater-land-surface",
+            "jp.elem.science.water-cycle",
+            "jp.elem.science.river-land"
+          ]
+        },
+        {
+          "label": "土地の成り立ちと自然災害",
+          "grades": "4〜6年ごろ",
+          "topicIds": [
+            "jp.elem.science.land-formation",
+            "jp.elem.science.earth-disasters"
+          ]
+        }
+      ]
     }
   ],
   "connections": [
@@ -388,6 +971,7 @@
     "学習の道すじは授業や教材の配列を一つに固定するものではない。",
     "2026-10-19: 第4学年のわり算の筆算を独立項目として追加し、わり算の道すじから参照できるようにした。公式コードとの対応は未確認。",
     "2026-10-19: わり算の筆算と、多けたのひき算・整数の位取りとの関係を依存関係データにも追加。いずれもプロジェクト編集上の推奨関係で、公式コード照合は未完了。",
-    "2026-11-07: 算数の学びを、分数・小数、図形、量と測定、数量関係、データ活用の5つの道すじに拡張。既存の整数計算5道すじと合わせ、単元間のつながりを子ども・教員・AIが大きなまとまりからたどれる構成案とした。各学年は候補であり、公式配当や必修順序を意味しない。"
+    "2026-11-07: 算数の学びを、分数・小数、図形、量と測定、数量関係、データ活用の5つの道すじに拡張。既存の整数計算5道すじと合わせ、単元間のつながりを子ども・教員・AIが大きなまとまりからたどれる構成案とした。各学年は候補であり、公式配当や必修順序を意味しない。",
+    "2026-11-07: 国語・社会・理科の学習のまとまりを各5本の道すじとして追加。国語は言葉・読む・書く・話す聞く・情報活用の技能を重ねて育てる構成、社会は地域から日本・歴史・政治へ視野を広げる構成、理科は探究過程と内容領域を組み合わせる構成とした。各学年表記は候補であり、公式配当や一本道の順序を示さない。"
   ]
 }
