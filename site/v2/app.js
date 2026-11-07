@@ -27,10 +27,13 @@ const card=make("article","pathway-card");
 card.append(make("span","pathway-subject",p.subject||"教科未設定"),make("h3","",p.title),make("p","pathway-question",p.question||""),make("p","pathway-summary",p.summary||""));
 const stages=make("div","pathway-stages");
 p.stages.forEach(stage=>{
+const nums=(stage.grades||"").match(/\\d+/g)?.map(Number)||[];
+if(state.grade!=="all"&&nums.length){const g=Number(state.grade);const lo=Math.min(...nums),hi=Math.max(...nums);if(g<lo||g>hi)return;}
 const matched=(stage.topicIds||[]).map(id=>map.get(id)).filter(t=>t&& (state.grade==="all"||gradesFor(t).includes(Number(state.grade))));
 if(!matched.length)return;
 const block=make("section","pathway-stage");
 block.append(make("h4","",stage.label),make("small","",stage.grades||""));
+if(stage.description)block.append(make("p","pathway-stage-description",stage.description));
 const items=make("div","pathway-topics");
 matched.forEach(t=>{const b=make("button","pathway-topic",t.studentName||t.name);b.type="button";b.addEventListener("click",()=>openDetail(t.id));items.append(b)});
 block.append(items);stages.append(block);
