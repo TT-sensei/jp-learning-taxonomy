@@ -20,6 +20,7 @@
 | --- | --- |
 | data/topics.json | 学習項目。topics 配列を参照 |
 | data/dependencies.json | 学習項目間の関係。dependencies 配列を参照 |
+| data/learning-support.json | つまずきと復習支援。確認済みの supportCases のみ利用 |
 | data/learning-pathways.json | 学びのまとまりを説明する編集上の道すじ |
 | data/representation-models.json | 図・式・表などの表現モデル |
 | data/curriculum-standards.json | 公式資料・領域・出典 |
@@ -56,7 +57,7 @@ evidenceType と reviewStatus を必ず併読してください。editorial / ne
 2. reviewStatus と gradePlacement.status を確認する。
 3. 学習目標・説明・領域・表現モデルを取得する。
 4. 関係データから前提候補・関連・発展・活用を別々に取得する。
-5. つまずきと復習先を使う場合は、専用の学び直しデータが存在し、確認済みかを確かめる。
+5. つまずきと復習先を使う場合は、data/learning-support.json の supportCases を確認し、reviewStatus が reviewed または published のケースだけを根拠付きで利用する。空配列なら、診断・復習対応は未整備として扱う。
 6. 教科書・学習指導要領・授業の実態と照合する。
 7. アプリ独自の問題IDとタクソノミーIDの対応をアプリ側に保持する。
 
