@@ -1740,6 +1740,316 @@
       "evidenceType": "official-explicit",
       "reviewStatus": "needs-review",
       "studentRationale": "雨水の流れ方やしみこみ方を調べたことを、地層や土地のでき方、土地の変化を考えるときにもつなげよう。"
+    },
+    {
+      "id": "math-edge-179",
+      "from": "jp.elem.math.addition-properties",
+      "to": "jp.elem.math.multidigit-add-subtract",
+      "type": "recommended-prerequisite",
+      "rationale": "加法の交換法則・結合法則を使うと、複数の位にまたがる計算を分けたりまとめたりして考えやすい。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "計算のきまりを使って、けたの多い計算を工夫しよう。"
+    },
+    {
+      "id": "math-edge-180",
+      "from": "jp.elem.math.multiplication-properties",
+      "to": "jp.elem.math.multidigit-multiply-two-digit",
+      "type": "recommended-prerequisite",
+      "rationale": "乗法の交換法則や分配法則を使う見方が、2位数を分けて計算する方法を支える。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "かけ算のきまりを使って、2けたの数を分けて計算しよう。"
+    },
+    {
+      "id": "math-edge-181",
+      "from": "jp.elem.math.multiplication-tables",
+      "to": "jp.elem.math.division-remainders",
+      "type": "recommended-prerequisite",
+      "rationale": "九九の逆の関係を使うと、わり算の商やあまりを確かめやすい。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "九九を使って、わり算の商とあまりを確かめよう。"
+    },
+    {
+      "id": "math-edge-182",
+      "from": "jp.elem.math.numbers-and-place-value",
+      "to": "jp.elem.math.multidigit-multiply-two-digit",
+      "type": "recommended-prerequisite",
+      "rationale": "位取りの理解が、部分積の位の大きさや積の見当を捉えることを支える。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "位の大きさを考えながら、2けたの数をかけよう。"
+    },
+    {
+      "id": "math-edge-183",
+      "from": "jp.elem.math.factors-multiples",
+      "to": "jp.elem.math.fractions-unlike-denominators",
+      "type": "recommended-prerequisite",
+      "rationale": "公倍数を見つける見方が、異分母分数の通分で共通の分母を決めることを支える。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "公倍数を使って、分数の分母をそろえよう。"
+    },
+    {
+      "id": "math-edge-184",
+      "from": "jp.elem.math.decimal-place-value",
+      "to": "jp.elem.math.decimal-multiply-divide",
+      "type": "recommended-prerequisite",
+      "rationale": "小数の位取りと十進位取りの理解が、小数の乗法・除法で積や商の大きさを判断する手がかりになる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "小数の位取りを思い出して、積や商の大きさを考えよう。"
+    },
+    {
+      "id": "math-edge-185",
+      "from": "jp.elem.math.decimal-add-subtract",
+      "to": "jp.elem.math.estimate-check-calculation",
+      "type": "application",
+      "rationale": "小数の加法・減法の結果を概数や見積もりと比べることで、計算結果の妥当性を確かめられる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "小数の計算の答えを、見積もりと比べて確かめよう。"
+    },
+    {
+      "id": "math-edge-186",
+      "from": "jp.elem.math.rounding-estimation",
+      "to": "jp.elem.math.estimate-check-calculation",
+      "type": "recommended-prerequisite",
+      "rationale": "概数や四捨五入の考え方が、計算結果の見当をつけて確かめる活動を支える。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "概数を使って、計算の答えがだいたい合っているか確かめよう。"
+    },
+    {
+      "id": "math-edge-187",
+      "from": "jp.elem.math.addition-within-20",
+      "to": "jp.elem.math.addition-properties",
+      "type": "related-learning",
+      "rationale": "小さな数の計算で数を分けたりまとめたりした経験は、加法の交換法則・結合法則を具体的に捉えることと関連する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "数を分けたりまとめたりした経験から、たし算のきまりを見つけよう。"
+    },
+    {
+      "id": "math-edge-188",
+      "from": "jp.elem.math.subtraction-within-20",
+      "to": "jp.elem.math.unknown-number-box-expression",
+      "type": "related-learning",
+      "rationale": "ひき算を部分と全体の関係として捉える経験は、□を使って未知の数量を表す学習に生かせる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "ひき算の関係を思い出して、□に入る数を考えよう。"
+    },
+    {
+      "id": "math-edge-189",
+      "from": "jp.elem.math.number-sentences",
+      "to": "jp.elem.math.unknown-number-solve",
+      "type": "recommended-prerequisite",
+      "rationale": "等号を関係として捉え、式の左右の数量が等しいことを理解することが未知数を求める土台になる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "等号の意味を確かめて、式の分からない数を求めよう。"
+    },
+    {
+      "id": "math-edge-190",
+      "from": "jp.elem.math.multiplication-meaning",
+      "to": "jp.elem.math.distributive-property",
+      "type": "related-learning",
+      "rationale": "乗法を同じ数のまとまりとして捉えることは、数を分けて積を求める分配法則の理解と関連する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "かけ算のまとまりを分けて、計算のきまりを見つけよう。"
+    },
+    {
+      "id": "math-edge-191",
+      "from": "jp.elem.math.quadrilateral-properties",
+      "to": "jp.elem.math.congruent-figures",
+      "type": "related-learning",
+      "rationale": "四角形の辺や角の性質を調べる見方は、合同な図形の対応する辺や角を比べる学習にも生かせる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "図形の辺や角の性質を、合同な図形を調べるときにも使おう。"
+    },
+    {
+      "id": "math-edge-192",
+      "from": "jp.elem.math.geometric-construction",
+      "to": "jp.elem.math.congruent-figures",
+      "type": "application",
+      "rationale": "垂直・平行や作図の技能は、合同な図形をかいたり対応する辺・角を確かめたりする場面で活用できる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "作図の技能を使って、合同な図形をかいたり確かめたりしよう。"
+    },
+    {
+      "id": "math-edge-193",
+      "from": "jp.elem.math.congruent-figures",
+      "to": "jp.elem.math.symmetry",
+      "type": "related-learning",
+      "rationale": "合同な図形の対応関係を調べることと、対称な図形で対応する部分を見つけることは、形の対応に着目する点で関連する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "対応する辺や角を見つける見方を、対称な図形にも生かそう。"
+    },
+    {
+      "id": "math-edge-194",
+      "from": "jp.elem.math.area-rectangle-square",
+      "to": "jp.elem.math.area-units",
+      "type": "recommended-prerequisite",
+      "rationale": "長方形・正方形の面積を求める経験をもとに、面積の単位の意味や単位換算を理解する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "面積を求めた経験をもとに、平方センチメートルなどの単位を考えよう。"
+    },
+    {
+      "id": "math-edge-195",
+      "from": "jp.elem.math.area-units",
+      "to": "jp.elem.math.area-triangle-parallelogram-trapezoid",
+      "type": "recommended-prerequisite",
+      "rationale": "面積の単位を理解していることが、三角形や平行四辺形などの面積を適切な単位で表すことを支える。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "面積の単位を確かめて、いろいろな図形の面積を表そう。"
+    },
+    {
+      "id": "math-edge-196",
+      "from": "jp.elem.math.length-units-cm-mm-m",
+      "to": "jp.elem.math.mass-units",
+      "type": "related-learning",
+      "rationale": "長さの単位を使い分けた経験は、重さの単位を量の大きさに応じて選ぶことと関連する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "長さの単位を選んだときのように、重さに合う単位を考えよう。"
+    },
+    {
+      "id": "math-edge-197",
+      "from": "jp.elem.math.capacity-units",
+      "to": "jp.elem.math.unit-conversion-length-area-volume",
+      "type": "related-learning",
+      "rationale": "かさの単位の関係を捉えることは、長さ・面積・体積などの単位の仕組みを比べる活動と関連する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "かさの単位の関係を、ほかの量の単位と比べてみよう。"
+    },
+    {
+      "id": "math-edge-198",
+      "from": "jp.elem.math.boxes-and-faces",
+      "to": "jp.elem.math.volume-cuboid",
+      "type": "recommended-prerequisite",
+      "rationale": "立体の面・辺・頂点や直方体の構成を捉えることが、縦・横・高さを使って体積を求めることを支える。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "直方体の面や辺を調べて、体積を求めるための長さを見つけよう。"
+    },
+    {
+      "id": "math-edge-199",
+      "from": "jp.elem.math.direct-measurement",
+      "to": "jp.elem.math.capacity-units",
+      "type": "recommended-prerequisite",
+      "rationale": "量を直接比べる経験をもとに、共通の単位を使ってかさを測定する必要性を捉える。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "直接比べた経験をもとに、かさを単位で測ろう。"
+    },
+    {
+      "id": "math-edge-200",
+      "from": "jp.elem.math.tables-simple-graphs",
+      "to": "jp.elem.math.tables-multiple-viewpoints",
+      "type": "related-learning",
+      "rationale": "簡単な表に整理した経験を、二つの観点でデータを分類・整理する学習へ広げる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "表に整理した経験を生かして、二つの観点でデータを見よう。"
+    },
+    {
+      "id": "math-edge-201",
+      "from": "jp.elem.math.bar-graphs",
+      "to": "jp.elem.math.data-based-reasoning",
+      "type": "application",
+      "rationale": "棒グラフから数量の大小や差を読み取り、データを根拠に自分の考えを説明する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "棒グラフから分かったことを、数を根拠に説明しよう。"
+    },
+    {
+      "id": "math-edge-202",
+      "from": "jp.elem.math.line-graphs",
+      "to": "jp.elem.math.data-based-reasoning",
+      "type": "application",
+      "rationale": "折れ線グラフから変化の特徴を読み取り、データを根拠に説明する活動に活用する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "折れ線グラフの変化を読み取り、根拠を示して説明しよう。"
+    },
+    {
+      "id": "math-edge-203",
+      "from": "jp.elem.math.data-frequency-tables",
+      "to": "jp.elem.math.statistical-viewpoints",
+      "type": "recommended-prerequisite",
+      "rationale": "度数分布表などでデータの分布を整理することが、多面的に特徴を捉えることを支える。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "表に整理したデータから、全体の特徴をいろいろな見方で調べよう。"
+    },
+    {
+      "id": "math-edge-204",
+      "from": "jp.elem.math.changing-quantities-patterns",
+      "to": "jp.elem.math.proportionality",
+      "type": "recommended-prerequisite",
+      "rationale": "二つの数量の対応や変化を表・式・グラフで調べた経験が、比例の関係を捉える土台になる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "二つの数量の変わり方を調べた経験から、比例の関係を見つけよう。"
+    },
+    {
+      "id": "math-edge-205",
+      "from": "jp.elem.math.meaning-of-proportion",
+      "to": "jp.elem.math.inverse-proportionality",
+      "type": "related-learning",
+      "rationale": "比例の関係を表・式・グラフで捉えた経験は、反比例の変化の特徴と比べる際に役立つ。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "比例の表やグラフと比べながら、反比例の特徴を調べよう。"
+    },
+    {
+      "id": "math-edge-206",
+      "from": "jp.elem.math.proportionality",
+      "to": "jp.elem.math.scale-and-ratio",
+      "type": "related-learning",
+      "rationale": "比例関係の見方は、縮尺における図の長さと実際の長さの対応を考える際にも関連する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "比例の関係を考えたことを、縮尺の学習にもつなげよう。"
+    },
+    {
+      "id": "math-edge-207",
+      "from": "jp.elem.math.percentage",
+      "to": "jp.elem.math.unit-quantity",
+      "type": "related-learning",
+      "rationale": "基準量に対する割合と、単位量当たりの大きさは、二つの量の関係を基準に照らして捉える点で関連する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "割合と1あたりの大きさを比べて、二つの量の関係を考えよう。"
+    },
+    {
+      "id": "math-edge-208",
+      "from": "jp.elem.math.unit-quantity",
+      "to": "jp.elem.math.average",
+      "type": "related-learning",
+      "rationale": "単位量当たりの大きさと平均は、全体を単位や個数でならして捉える見方に共通点がある。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "1あたりの大きさと平均の考え方を比べてみよう。"
+    },
+    {
+      "id": "math-edge-209",
+      "from": "jp.elem.math.arrangements-combinations",
+      "to": "jp.elem.math.data-statistical-investigation",
+      "type": "related-learning",
+      "rationale": "場合を落ちや重なりなく整理する技能は、調査で条件を整理し、データを集める計画を立てる活動にも関連する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "場合を整理した経験を、調べる条件を整理するときにも生かそう。"
     }
   ]
 }
