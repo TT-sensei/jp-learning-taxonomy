@@ -15,16 +15,16 @@ function setSelected(root,key,value){root.querySelectorAll("button").forEach(b=>
 function renderCounts(){const ts=activeTopics();$("count-all").textContent=ts.length;["国語","算数","社会","理科"].forEach(s=>{$("count-"+s).textContent=ts.filter(t=>t.subject===s).length})}
 function renderPathways(){
 const section=$("pathways-section"),root=$("pathways-list");
-const visible=state.subject==="all"||state.subject==="算数";
+const visible=state.subject==="all"||state.pathways.some(p=>p.subject===state.subject);
 section.hidden=!visible;
 if(!visible)return;
 root.replaceChildren();
 const map=topicMap();
-const paths=state.pathways.filter(p=>p.stages?.some(stage=>stage.topicIds?.some(id=>map.has(id))));
+const paths=state.pathways.filter(p=>(state.subject==="all"||p.subject===state.subject)&&p.stages?.some(stage=>stage.topicIds?.some(id=>map.has(id))));
 if(!paths.length){root.append(make("p","connection-empty","道すじデータは準備中です。"));return}
 paths.forEach(p=>{
 const card=make("article","pathway-card");
-card.append(make("h3","",p.title),make("p","pathway-question",p.question||""),make("p","pathway-summary",p.summary||""));
+card.append(make("span","pathway-subject",p.subject||"教科未設定"),make("h3","",p.title),make("p","pathway-question",p.question||""),make("p","pathway-summary",p.summary||""));
 const stages=make("div","pathway-stages");
 p.stages.forEach(stage=>{
 const matched=(stage.topicIds||[]).map(id=>map.get(id)).filter(t=>t&& (state.grade==="all"||gradesFor(t).includes(Number(state.grade))));
