@@ -59,6 +59,17 @@ from は関係の起点、to は関係の到達先です。prerequisite と reco
 
 evidenceType と reviewStatus を必ず併読してください。editorial / needs-review の関係を公式に明記された関係として説明しないでください。
 
+## 公式コード対応の読み方
+
+`data/curriculum-code-mapping.json` は、topics.json の各レコードに対応する確認枠です。
+
+- `not-checked`：個別の公式コード照合をしていない。コードを推測して補完しない。
+- `candidate`：公式コード表でコードの存在や教科・学年帯を確認した候補。学習項目との意味的な一致が未確定の場合がある。
+- `verified`：公式コード表での存在と、学習項目との意味的な対応を確認したもの。
+- `no-direct-match`：個別項目に直接対応するコードがないと判断したもの。候補や確定コードを同時に登録しない。
+
+`curriculum-standards.json` の `project-subject-reference` や `project-domain-reference` は、データを整理するためのプロジェクト独自IDです。文部科学省の公式コードと同一視しないでください。コードの存在確認と、個別の学習内容との意味的な一致確認も分けて扱います。
+
 ## 教材開発での推奨手順
 
 1. 対象の学習項目を id で特定する。
