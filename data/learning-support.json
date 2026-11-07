@@ -1,6 +1,256 @@
 {
   "schemaVersion": "0.1.0",
-  "status": "not-started",
+  "status": "draft",
   "note": "つまずきと復習先の対応は、学習項目間の前提関係から自動生成しない。教員レビューと根拠を確認したケースのみ supportCases に追加する。",
-  "supportCases": []
+  "supportCases": [
+    {
+      "id": "math-support-001",
+      "topicId": "jp.elem.math.decimal-multiply-divide",
+      "difficulty": "小数の大きさ・位取りのイメージが持てない",
+      "description": "0.1のいくつ分という見方で小数を捉えられず、計算の手続きだけを覚えようとしてしまう。",
+      "signs": [
+        "4.8÷0.6 を 48÷6 に直す理由を説明できない",
+        "0.3×4 の答えが 1.2 か 12 か迷う"
+      ],
+      "reviewTargets": [
+        {
+          "topicId": "jp.elem.math.decimals-tenths",
+          "reason": "0.1のいくつ分という小数の意味を取り戻す"
+        },
+        {
+          "topicId": "jp.elem.math.decimal-place-value",
+          "reason": "10倍・1/10で位が移る仕組みを確認する"
+        }
+      ],
+      "supportSteps": [
+        "0.1のいくつ分で表す練習から始める",
+        "数直線に小数を置いて大きさを確認する",
+        "整数の計算に直せる理由を言葉で説明する"
+      ],
+      "studentPrompt": "小数が、どれくらいの大きさかイメージできないとき",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "evidence": []
+    },
+    {
+      "id": "math-support-002",
+      "topicId": "jp.elem.math.decimal-multiply-divide",
+      "difficulty": "商の小数点の位置を間違える",
+      "description": "筆算の手続きは追えるが、商の小数点をどこに打つかで迷い、位取りの理解と結びついていない。",
+      "signs": [
+        "7.2÷3 の商を 24 や 0.24 と書く",
+        "小数点を下ろし忘れて計算がずれる"
+      ],
+      "reviewTargets": [
+        {
+          "topicId": "jp.elem.math.decimal-place-value",
+          "reason": "位ごとの大きさと小数点の役割を確認する"
+        },
+        {
+          "topicId": "jp.elem.math.division-algorithm",
+          "reason": "整数の除法の筆算の流れを取り戻す"
+        }
+      ],
+      "supportSteps": [
+        "整数のわり算の筆算を先に確認する",
+        "わる数・わられる数を10倍する場面を図で見る",
+        "商の小数点は位をそろえることを言葉で確認する"
+      ],
+      "studentPrompt": "わり算の筆算で、小数点をどこに書くかわからなくなるとき",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "evidence": []
+    },
+    {
+      "id": "math-support-003",
+      "topicId": "jp.elem.math.decimal-multiply-divide",
+      "difficulty": "答えの見当がつかない",
+      "description": "計算結果が妥当かどうかを見積もる習慣がなく、小数点の位置の間違いに気づけない。",
+      "signs": [
+        "5.9÷2 の答えを 29.5 と書いても違和感を持たない",
+        "検算や見積もりをせずに終わる"
+      ],
+      "reviewTargets": [
+        {
+          "topicId": "jp.elem.math.rounding-estimation",
+          "reason": "概数でだいたいの大きさを捉える力を取り戻す"
+        }
+      ],
+      "supportSteps": [
+        "計算の前に、だいたいの答えを先に言う",
+        "6÷2＝3 に近いことを確認してから筆算する",
+        "答えと見当を比べて確かめる"
+      ],
+      "studentPrompt": "計算の答えが合っているか、自信が持てないとき",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "evidence": []
+    },
+    {
+      "id": "math-support-004",
+      "topicId": "jp.elem.math.decimal-multiply-divide",
+      "difficulty": "文章題で式が立てられない",
+      "description": "計算の方法は分かるが、場面が等分除か包含除か、どの数量がもとになるかを捉えられず式にできない。",
+      "signs": [
+        "わり算の問題で、わる数とわられる数を反対にする",
+        "図や言葉で場面を説明できないまま数字だけを拾う"
+      ],
+      "reviewTargets": [
+        {
+          "topicId": "jp.elem.math.division-meaning",
+          "reason": "等分除・包含除という除法の意味を取り戻す"
+        },
+        {
+          "topicId": "jp.elem.math.unknown-number-relationships",
+          "reason": "数量の関係を図と式で表す力を確認する"
+        }
+      ],
+      "supportSteps": [
+        "問題文を図（テープ図・数直線）に表す",
+        "何を何でわる場面かを言葉で言う",
+        "式の意味を場面に戻って説明する"
+      ],
+      "studentPrompt": "文章題で、どんな式になるかわからないとき",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "evidence": []
+    },
+    {
+      "id": "math-support-005",
+      "topicId": "jp.elem.math.fractions-unlike-denominators",
+      "difficulty": "分子同士・分母同士をそのまま足してしまう",
+      "description": "1/2＋1/3＝2/5 のように計算してしまう。分数の大きさの感覚と、単位をそろえる必要性が結びついていない。",
+      "signs": [
+        "1/2＋1/3 を 2/5 と答える",
+        "答えが 1/2 より小さくなることに気づかない"
+      ],
+      "reviewTargets": [
+        {
+          "topicId": "jp.elem.math.fractions-compare",
+          "reason": "等しい分数と大きさ比べの理解を取り戻す"
+        },
+        {
+          "topicId": "jp.elem.math.factors-multiples",
+          "reason": "分母をそろえるための公倍数の考えを確認する"
+        }
+      ],
+      "supportSteps": [
+        "図や数直線で 1/2 と 1/3 の大きさを確かめる",
+        "等しい分数で分母をそろえる意味を図で見る",
+        "計算の前に答えの見当を言う"
+      ],
+      "studentPrompt": "分数のたし算で、分母をどうするかわからなくなるとき",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "evidence": []
+    },
+    {
+      "id": "math-support-006",
+      "topicId": "jp.elem.math.fractions-unlike-denominators",
+      "difficulty": "通分・約分でつまずく",
+      "description": "分母をそろえる考えは分かるが、公倍数が見つからない、計算の途中で約分し忘れるなど、倍数・約数の力が不足している。",
+      "signs": [
+        "分母の組み合わせで公倍数がすぐに出てこない",
+        "答えを約分せずに終える、または約分の途中で数が合わなくなる"
+      ],
+      "reviewTargets": [
+        {
+          "topicId": "jp.elem.math.factors-multiples",
+          "reason": "公倍数・最大公約数の見つけ方を取り戻す"
+        }
+      ],
+      "supportSteps": [
+        "倍数を書き出して公倍数を見つける練習をする",
+        "かけ算九九の範囲で見つかる組から始める",
+        "答えは約分できるか最後に確かめる習慣をつける"
+      ],
+      "studentPrompt": "通分や約分のしかたがわからなくなるとき",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "evidence": []
+    },
+    {
+      "id": "math-support-007",
+      "topicId": "jp.elem.math.fractions-compare",
+      "difficulty": "分母の数字が大きいほうが大きいと思ってしまう",
+      "description": "1/4 と 1/3 では 4 のほうが大きいから 1/4 が大きい、と判断してしまう。単位分数の意味（等分した1つ分）が育っていない。",
+      "signs": [
+        "1/4 ＞ 1/3 と答える",
+        "同じ大きさのものを分ける場面で説明できない"
+      ],
+      "reviewTargets": [
+        {
+          "topicId": "jp.elem.math.unit-fractions",
+          "reason": "単位分数は、等分する数が増えるほど1つ分が小さくなることを取り戻す"
+        }
+      ],
+      "supportSteps": [
+        "同じ長さのテープを3等分・4等分して比べる",
+        "単位分数のいくつ分で他の分数を表す",
+        "数直線に置いて順序を確かめる"
+      ],
+      "studentPrompt": "分数の大きさ比べで、どちらが大きいか迷うとき",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "evidence": []
+    },
+    {
+      "id": "math-support-008",
+      "topicId": "jp.elem.math.percentage",
+      "difficulty": "もとにする量と比べる量を取り違える",
+      "description": "割合＝比べる量÷もとにする量 の関係で、どちらを何でわるかを取り違える。割合が1を基準にした大きさだという理解が弱い。",
+      "signs": [
+        "『20人のうち8人』で 20÷8 をしてしまう",
+        "割合が1より大きくなる場面で式を逆にする"
+      ],
+      "reviewTargets": [
+        {
+          "topicId": "jp.elem.math.unit-quantity",
+          "reason": "1あたりの量で考える土台を取り戻す"
+        },
+        {
+          "topicId": "jp.elem.math.decimal-multiply-divide",
+          "reason": "小数でわる計算と、割合を小数で表すつながりを確認する"
+        }
+      ],
+      "supportSteps": [
+        "何をもとにするかを先に言葉で決める",
+        "数直線や線分図に2つの量を置く",
+        "割合×もとにする量＝比べる量 の関係で確かめる"
+      ],
+      "studentPrompt": "割合で、どちらをどちらでわるのか迷うとき",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "evidence": []
+    },
+    {
+      "id": "math-support-009",
+      "topicId": "jp.elem.math.area-circle",
+      "difficulty": "円周と円の面積を混同する",
+      "description": "直径×3.14 で円の面積を求めてしまう。長さと面積の違い、面積は単位正方形のいくつ分だという理解が結びついていない。",
+      "signs": [
+        "円の面積を聞かれて 直径×3.14 と答える",
+        "答えの単位を cm のままにする"
+      ],
+      "reviewTargets": [
+        {
+          "topicId": "jp.elem.math.regular-polygons-circumference",
+          "reason": "円周はまわりの長さであることを確認する"
+        },
+        {
+          "topicId": "jp.elem.math.area-rectangle-square",
+          "reason": "面積は単位正方形のいくつ分という意味を取り戻す"
+        }
+      ],
+      "supportSteps": [
+        "円周はひもで測れる長さ、面積はぬれる広さだと区別する",
+        "円を方眼に重ねておよその面積を数える",
+        "半径×半径×3.14 の意味を、切り分けて長方形に近づける活動で見る"
+      ],
+      "studentPrompt": "円の面積と円周の、どちらの計算か迷うとき",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "evidence": []
+    }
+  ]
 }

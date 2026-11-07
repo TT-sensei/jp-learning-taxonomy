@@ -81,3 +81,17 @@
 .footer{font-size:12px;color:#7d8ea1}
 .footer a{color:#4a7fb5}
 @media(max-width:760px){.intro-copy{font-size:14px}.hero-art{margin:18px 0 2px}.hero-art img{border-radius:16px}}
+
+/* Support pilot (learning-support) */
+.support-panel{margin-top:14px;background:#fff;border:1px solid #ead9c2;border-radius:18px;padding:16px 18px}
+.support-panel h3{margin:0 0 4px;font-size:19px}
+.support-panel .panel-note{margin:0 0 12px;color:#7a6a58;font-size:13.5px}
+.support-list{display:grid;gap:10px}
+.support-case{border:1px solid #eee0cb;border-radius:14px;overflow:hidden;background:#fffaf2}
+.support-case-head{width:100%;text-align:left;background:#fdf3e3;border:0;padding:13px 15px;font-size:16px;font-weight:700;color:#6b543a;cursor:pointer;min-height:48px}
+.support-case-head::after{content:"›";float:right;font-size:20px;color:#c39a5b}
+.support-case-body{padding:12px 15px 15px}
+.support-lead{margin:10px 0 6px;font-weight:700;font-size:14px;color:#6b543a}
+.support-lead:first-child{margin-top:0}
+.support-targets{display:grid;gap:8px}
+.support-steps{margin:0;padding-left:22px;display:grid;gap:4px;font-size:15px}
