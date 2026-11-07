@@ -2532,7 +2532,7 @@
       "studentRationale": "資料の出どころを確かめながら、複数の文章を比べよう。"
     },
     {
-      "id": "social-edge-001",
+      "id": "social-path-edge-001",
       "from": "jp.elem.social.local-area",
       "to": "jp.elem.social.local-map",
       "type": "application",
@@ -2542,7 +2542,7 @@
       "studentRationale": "地域を調べたことを、方位や記号を使って地図に表そう。"
     },
     {
-      "id": "social-edge-002",
+      "id": "social-path-edge-002",
       "from": "jp.elem.social.local-area",
       "to": "jp.elem.social.municipality-change",
       "type": "related-learning",
@@ -2552,7 +2552,7 @@
       "studentRationale": "今の地域の様子と昔の様子を比べよう。"
     },
     {
-      "id": "social-edge-003",
+      "id": "social-path-edge-003",
       "from": "jp.elem.social.local-area",
       "to": "jp.elem.social.municipality-work",
       "type": "related-learning",
@@ -2562,7 +2562,7 @@
       "studentRationale": "地域の様子と、そこで働く人々の仕事を結び付けて考えよう。"
     },
     {
-      "id": "social-edge-004",
+      "id": "social-path-edge-004",
       "from": "jp.elem.social.fieldwork-interview",
       "to": "jp.elem.social.evidence-explanation",
       "type": "application",
@@ -2572,7 +2572,7 @@
       "studentRationale": "見たり聞いたりしたことを、根拠を示して説明しよう。"
     },
     {
-      "id": "social-edge-005",
+      "id": "social-path-edge-005",
       "from": "jp.elem.social.local-map",
       "to": "jp.elem.social.maps-globes",
       "type": "extension",
@@ -2582,7 +2582,7 @@
       "studentRationale": "地域の地図で身に付けた見方を、日本や世界の地図にも使おう。"
     },
     {
-      "id": "social-edge-006",
+      "id": "social-path-edge-006",
       "from": "jp.elem.social.municipality-work",
       "to": "jp.elem.social.prefecture-industry",
       "type": "extension",
@@ -2592,7 +2592,7 @@
       "studentRationale": "身近な仕事を調べたことを、県内の特色ある産業にもつなげよう。"
     },
     {
-      "id": "social-edge-007",
+      "id": "social-path-edge-007",
       "from": "jp.elem.social.community-predecessors",
       "to": "jp.elem.social.prefecture-culture",
       "type": "related-learning",
@@ -2602,7 +2602,7 @@
       "studentRationale": "地域の先人の働きと、受け継がれてきた文化を結び付けよう。"
     },
     {
-      "id": "social-edge-008",
+      "id": "social-path-edge-008",
       "from": "jp.elem.social.firefighting",
       "to": "jp.elem.social.disaster-prevention",
       "type": "related-learning",
@@ -2612,7 +2612,7 @@
       "studentRationale": "火災から守る働きと、自然災害への備えを比べよう。"
     },
     {
-      "id": "social-edge-009",
+      "id": "social-path-edge-009",
       "from": "jp.elem.social.waste-management",
       "to": "jp.elem.social.environment-protection",
       "type": "application",
@@ -2622,7 +2622,7 @@
       "studentRationale": "ごみの処理や再利用を、環境を守る取組につなげよう。"
     },
     {
-      "id": "social-edge-010",
+      "id": "social-path-edge-010",
       "from": "jp.elem.social.japan-location",
       "to": "jp.elem.social.japan-landforms-climate",
       "type": "recommended-prerequisite",
@@ -2632,7 +2632,7 @@
       "studentRationale": "日本の位置を確かめて、地形や気候の特色を調べよう。"
     },
     {
-      "id": "social-edge-011",
+      "id": "social-path-edge-011",
       "from": "jp.elem.social.natural-environment-life",
       "to": "jp.elem.social.agriculture",
       "type": "related-learning",
@@ -2642,7 +2642,7 @@
       "studentRationale": "自然環境と農業の工夫を結び付けて考えよう。"
     },
     {
-      "id": "social-edge-012",
+      "id": "social-path-edge-012",
       "from": "jp.elem.social.natural-environment-life",
       "to": "jp.elem.social.forestry",
       "type": "related-learning",
@@ -2652,7 +2652,7 @@
       "studentRationale": "森林の自然条件と林業の仕事を結び付けよう。"
     },
     {
-      "id": "social-edge-013",
+      "id": "social-path-edge-013",
       "from": "jp.elem.social.natural-environment-life",
       "to": "jp.elem.social.fisheries",
       "type": "related-learning",
@@ -2662,7 +2662,7 @@
       "studentRationale": "海や海流などの自然条件と水産業をつなげよう。"
     },
     {
-      "id": "social-edge-014",
+      "id": "social-path-edge-014",
       "from": "jp.elem.social.timeline-sources",
       "to": "jp.elem.social.ancient-japan",
       "type": "application",
@@ -2672,7 +2672,7 @@
       "studentRationale": "年表や資料を使って、日本の始まりを調べよう。"
     },
     {
-      "id": "social-edge-015",
+      "id": "social-path-edge-015",
       "from": "jp.elem.social.constitution",
       "to": "jp.elem.social.government-courts",
       "type": "recommended-prerequisite",
@@ -2682,7 +2682,7 @@
       "studentRationale": "憲法をもとに、内閣や裁判所の働きを考えよう。"
     },
     {
-      "id": "social-edge-016",
+      "id": "social-path-edge-016",
       "from": "jp.elem.social.local-government",
       "to": "jp.elem.social.diet",
       "type": "related-learning",
@@ -2692,7 +2692,7 @@
       "studentRationale": "地方の政治と国の政治を比べよう。"
     },
     {
-      "id": "social-edge-017",
+      "id": "social-path-edge-017",
       "from": "jp.elem.social.international-relations",
       "to": "jp.elem.social.decision-civic",
       "type": "application",
@@ -2702,7 +2702,7 @@
       "studentRationale": "世界とのつながりをもとに、社会の課題について考えよう。"
     },
     {
-      "id": "social-edge-018",
+      "id": "social-path-edge-018",
       "from": "jp.elem.social.statistics-graphs",
       "to": "jp.elem.social.evidence-explanation",
       "type": "application",
@@ -2712,7 +2712,7 @@
       "studentRationale": "グラフや統計の数字を根拠にして説明しよう。"
     },
     {
-      "id": "social-edge-019",
+      "id": "social-path-edge-019",
       "from": "jp.elem.social.fieldwork-interview",
       "to": "jp.elem.social.compare-regions",
       "type": "application",
