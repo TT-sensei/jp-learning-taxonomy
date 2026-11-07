@@ -12,16 +12,16 @@ function make(tag,cls,text){const n=document.createElement(tag);if(cls)n.classNa
 function topicMap(){return new Map(activeTopics().map(t=>[t.id,t]))}
 function matches(t){if(state.subject!=="all"&&t.subject!==state.subject)return false;if(state.grade!=="all"&&!gradesFor(t).includes(Number(state.grade)))return false;if(state.query){const q=state.query.toLocaleLowerCase("ja");const hay=[t.name,t.studentName,t.description,t.studentDescription,t.domain,t.cluster].join(" ").toLocaleLowerCase("ja");if(!hay.includes(q))return false}return true}
 function setSelected(root,key,value){root.querySelectorAll("button").forEach(b=>{const yes=b.dataset[key]===value;b.classList.toggle("is-selected",yes);b.setAttribute("aria-pressed",String(yes))})}
-function renderCounts(){const ts=activeTopics();$("count-all").textContent=ts.length;["国語","算数","社会","理科"].forEach(s=>{$("count-"+s).textContent=ts.filter(t=>t.subject===s).length})}
+function renderCounts(){const ts=activeTopics();document.querySelectorAll("#subject-filters .subject-card[data-subject]").forEach(button=>{const subject=button.dataset.subject;const target=$("count-"+subject);if(target)target.textContent=subject==="all"?ts.length:ts.filter(t=>t.subject===subject).length})}
 function renderPathways(){
 const section=$("pathways-section"),root=$("pathways-list");
-const visible=state.subject==="all"||state.pathways.some(p=>p.subject===state.subject);
+const visible=true;
 section.hidden=!visible;
 if(!visible)return;
 root.replaceChildren();
 const map=topicMap();
-const paths=state.pathways.filter(p=>(state.subject==="all"||p.subject===state.subject)&&p.stages?.some(stage=>stage.topicIds?.some(id=>map.has(id))));
-if(!paths.length){root.append(make("p","connection-empty","道すじデータは準備中です。"));return}
+const paths=state.pathways.filter(p=>state.subject!=="all"&&p.subject===state.subject&&p.stages?.some(stage=>stage.topicIds?.some(id=>map.has(id))));
+if(state.subject==="all"){root.append(make("p","connection-empty","教科を選ぶと、その教科の大きな道すじを見渡せます。"));return}if(!paths.length){root.append(make("p","connection-empty","この教科の道すじデータは準備中です。"));return}
 paths.forEach(p=>{
 const card=make("article","pathway-card");
 card.append(make("span","pathway-subject",p.subject||"教科未設定"),make("h3","",p.title),make("p","pathway-question",p.question||""),make("p","pathway-summary",p.summary||""));
