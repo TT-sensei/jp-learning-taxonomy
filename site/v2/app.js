@@ -63,7 +63,7 @@ function bind(){
 $("grade-filters").addEventListener("click",e=>{const b=e.target.closest("button[data-grade]");if(!b)return;state.grade=b.dataset.grade;setSelected($("grade-filters"),"grade",state.grade);renderPathways();renderList()});
 $("subject-filters").addEventListener("click",e=>{const b=e.target.closest("button[data-subject]");if(!b)return;state.subject=b.dataset.subject;setSelected($("subject-filters"),"subject",state.subject);renderPathways();renderList()});
 $("topic-search").addEventListener("input",e=>{state.query=e.target.value.trim();renderList()});
-$("reset-button").addEventListener("click",()=>{state.grade="all";state.subject="all";state.query="";$("topic-search").value="";setSelected($("grade-filters"),"grade","all");setSelected($("subject-filters"),"subject","all");renderList()});
+$("reset-button").addEventListener("click",()=>{state.grade="all";state.subject="all";state.query="";$("topic-search").value="";setSelected($("grade-filters"),"grade","all");setSelected($("subject-filters"),"subject","all");renderPathways();renderList()});
 $("close-detail").addEventListener("click",closeDetail);
 window.addEventListener("hashchange",()=>{const m=location.hash.match(/^#topic=(.+)$/);if(m)openDetail(decodeURIComponent(m[1]));else closeDetail()});
 }
