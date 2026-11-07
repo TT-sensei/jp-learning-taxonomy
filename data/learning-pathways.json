@@ -21,7 +21,9 @@
           "grades": "1年ごろ",
           "topicIds": [
             "jp.elem.math.number-counting",
-            "jp.elem.math.compose-decompose-to-10"
+            "jp.elem.math.compose-decompose-to-10",
+            "jp.elem.math.compare-order-numbers",
+            "jp.elem.math.number-sentences"
           ]
         },
         {
@@ -177,7 +179,8 @@
             "jp.elem.math.decimal-add-subtract",
             "jp.elem.math.fractions-unlike-denominators",
             "jp.elem.math.decimal-multiply-divide",
-            "jp.elem.math.fraction-multiply-divide"
+            "jp.elem.math.fraction-multiply-divide",
+            "jp.elem.math.factors-multiples"
           ]
         }
       ]
@@ -217,7 +220,8 @@
           "topicIds": [
             "jp.elem.math.congruent-figures",
             "jp.elem.math.symmetry",
-            "jp.elem.math.enlargement-reduction"
+            "jp.elem.math.enlargement-reduction",
+            "jp.elem.math.regular-polygons-circumference"
           ]
         }
       ]
@@ -299,7 +303,9 @@
             "jp.elem.math.scale-and-ratio",
             "jp.elem.math.meaning-of-proportion",
             "jp.elem.math.proportionality",
-            "jp.elem.math.inverse-proportionality"
+            "jp.elem.math.inverse-proportionality",
+            "jp.elem.math.letter-expressions",
+            "jp.elem.math.unknown-number-relationships"
           ]
         }
       ]
@@ -325,7 +331,9 @@
           "topicIds": [
             "jp.elem.math.line-graphs",
             "jp.elem.math.tables-multiple-viewpoints",
-            "jp.elem.math.data-based-reasoning"
+            "jp.elem.math.data-based-reasoning",
+            "jp.elem.math.find-patterns",
+            "jp.elem.math.represent-with-diagrams-tables"
           ]
         },
         {
@@ -337,7 +345,10 @@
             "jp.elem.math.percentage-graphs",
             "jp.elem.math.statistical-viewpoints",
             "jp.elem.math.data-statistical-investigation",
-            "jp.elem.math.arrangements-combinations"
+            "jp.elem.math.arrangements-combinations",
+            "jp.elem.math.explain-reasoning",
+            "jp.elem.math.math-in-daily-life",
+            "jp.elem.math.understand-problem-structure"
           ]
         }
       ]
