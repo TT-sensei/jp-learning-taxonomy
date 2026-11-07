@@ -55,10 +55,12 @@ function openDetail(id){
 const map=topicMap(),t=map.get(id);if(!t)return;state.activeId=id;
 const incoming=state.relations.filter(r=>r.to===id&&["prerequisite","recommended-prerequisite"].includes(r.type));
 const outgoing=state.relations.filter(r=>r.from===id&&["prerequisite","recommended-prerequisite","extension","application"].includes(r.type));
-const related=state.relations.filter(r=>(r.from===id||r.to===id)&&["related-learning","recurring-development"].includes(r.type));
+const related=state.relations.filter(r=>(r.from===id||r.to===id)&&["related-learning","recurring-development"].includes(r.type)&&map.get(r.from===id?r.to:r.from)?.subject===t.subject);
+const crossSubject=state.relations.filter(r=>(r.from===id||r.to===id)&&map.get(r.from===id?r.to:r.from)&&map.get(r.from===id?r.to:r.from).subject!==t.subject);
 $("detail-meta").textContent=[t.subject,gradeLabel(t),t.domain,statusLabel(t.reviewStatus)].filter(Boolean).join(" ・ ");$("detail-title").textContent=t.studentName||t.name;$("detail-description").textContent=t.studentDescription||t.description||"説明は準備中です。";
 const goals=Array.isArray(t.learningGoals)?t.learningGoals:[];$("goal-panel").hidden=goals.length===0;$("goal-list").replaceChildren(...goals.map(g=>make("li","",g)));
 fillConnections("before-list",incoming.map(r=>({...r,topicId:r.from})),map);fillConnections("after-list",outgoing.map(r=>({...r,topicId:r.to})),map);fillConnections("related-list",related.map(r=>({...r,topicId:r.from===id?r.to:r.from})),map);
+const crossPanel=$("cross-subject-panel"),crossList=$("cross-subject-list");crossList.replaceChildren();crossPanel.hidden=crossSubject.length===0;crossSubject.forEach(r=>{const topicId=r.from===id?r.to:r.from,other=map.get(topicId);if(!other)return;const b=make("button","connection-item cross-subject-item");b.type="button";b.append(make("strong","",other.studentName||other.name),make("small","",other.subject+" ・ "+relationLabel(r.type)+" ・ "+statusLabel(r.reviewStatus)));if(r.studentRationale||r.rationale)b.append(make("span","cross-subject-reason",r.studentRationale||r.rationale));b.addEventListener("click",()=>openDetail(other.id));crossList.append(b)});
 $("current-card").replaceChildren(make("strong","",t.studentName||t.name),make("p","",t.description||""));$("detail-section").hidden=false;$("detail-section").scrollIntoView({behavior:"smooth",block:"start"});if(history.replaceState)history.replaceState(null,"","#topic="+encodeURIComponent(id));
 }
 function closeDetail(){state.activeId=null;$("detail-section").hidden=true;if(history.replaceState)history.replaceState(null,"",location.pathname+location.search)}
