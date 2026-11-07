@@ -7542,6 +7542,996 @@
         ],
         "sourceUrl": "https://www.mext.go.jp/content/20230901-mxt_syoto01-000010374_27.csv"
       }
+    },
+    {
+      "topicId": "jp.elem.life.school-and-life",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-life-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.life.family-and-life",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-life-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.life.community-and-life",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-life-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.life.public-facilities-and-public-places",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-life-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.life.seasons-and-daily-life",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-life-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.life.play-with-nature-and-materials",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-life-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.life.care-and-grow-living-things",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-life-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.life.share-life-and-events",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-life-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.life.my-life-and-growth",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-life-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.music.singing-and-voice",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-music-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.music.song-mood-and-phrasing",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-music-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.music.instrument-playing",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-music-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.music.ensemble-and-part-playing",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-music-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.music.create-music-and-improvise",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-music-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.music.musical-elements-and-structure",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-music-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.music.listen-and-appreciate",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-music-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.music.japanese-and-world-music",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-music-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.music.music-recording-and-reflection",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-music-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.art.play-and-build-forms",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-art-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.art.imagine-and-plan-art",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-art-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.art.draw-and-paint",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-art-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.art.make-three-dimensional-works",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-art-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.art.craft-and-design",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-art-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.art.materials-tools-and-safety",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-art-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.art.shape-color-texture-and-image",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-art-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.art.appreciate-art-and-works",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-art-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.art.talk-about-art-and-process",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-art-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.art.art-in-life-and-culture",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-art-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.home.family-and-household-roles",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-home-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.home.household-work-and-time",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-home-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.home.family-community-cooperation",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-home-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.home.food-and-balanced-meals",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-home-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.home.cooking-basics-and-food-safety",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-home-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.home.clothing-and-care",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-home-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.home.simple-sewing-and-fabric",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-home-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.home.housing-functions-and-safety",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-home-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.home.organize-and-clean-living-space",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-home-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.home.money-and-purchasing",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-home-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.home.consumer-responsibility-and-environment",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-home-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.home.plan-practice-and-improve-life",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-home-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.pe.body-movement-and-fitness",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-pe-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.pe.apparatus-and-gymnastics",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-pe-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.pe.running-jumping-and-track",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-pe-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.pe.water-play-and-swimming",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-pe-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.pe.games-and-ball-sports",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-pe-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.pe.expressive-and-rhythmic-movement",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-pe-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.pe.movement-rules-safety-and-cooperation",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-pe-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.pe.healthy-daily-life",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-pe-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.pe.growth-and-development",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-pe-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.pe.mental-health-and-emotions",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-pe-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.pe.injury-prevention-and-safety",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-pe-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.pe.illness-prevention-and-health",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-pe-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.foreign-activity.sounds-and-rhythm",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-foreign-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.foreign-activity.listen-to-simple-expressions",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-foreign-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.foreign-activity.interact-with-simple-phrases",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-foreign-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.foreign-activity.share-about-self-and-familiar-things",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-foreign-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.foreign-activity.notice-language-and-culture",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-foreign-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.foreign.listen-and-understand",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-foreign-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.foreign.speak-and-interact",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-foreign-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.foreign.speak-and-present",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-foreign-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.foreign.read-familiar-words-and-sentences",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-foreign-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.foreign.write-familiar-words-and-sentences",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-foreign-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.foreign.letters-sounds-and-word-order",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-foreign-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.moral.content-self-judgment",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-moral-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.moral.content-honesty",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-moral-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.moral.content-moderation",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-moral-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.moral.content-individuality",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-moral-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.moral.content-hope-effort",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-moral-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.moral.content-truth-seeking",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-moral-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.moral.content-kindness",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-moral-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.moral.content-gratitude",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-moral-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.moral.content-manners",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-moral-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.moral.content-friendship",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-moral-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.moral.content-mutual-understanding",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-moral-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.moral.content-respect-rules",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-moral-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.moral.content-fairness",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-moral-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.moral.content-work-and-public-spirit",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-moral-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.moral.content-family-love",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-moral-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.moral.content-school-community",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-moral-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.moral.content-tradition-and-culture",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-moral-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.moral.content-international-friendship",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-moral-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.moral.content-respect-life",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-moral-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.moral.content-care-nature",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-moral-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.moral.content-awe-and-beauty",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-moral-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.moral.content-joy-of-living",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-moral-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.integrated.set-inquiry-question",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-integrated-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.integrated.collect-information-and-investigate",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-integrated-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.integrated.organize-and-analyze-information",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-integrated-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.integrated.summarize-and-communicate-findings",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-integrated-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.integrated.reflect-and-renew-inquiry",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-integrated-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.integrated.collaborate-and-use-thinking-tools",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-integrated-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.special.class-and-school-life-making",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-special-activities-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.special.class-organization-and-roles",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-special-activities-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.special.daily-life-adjustment-and-health-safety",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-special-activities-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.special.career-formation-and-self-realization",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-special-activities-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.special.student-council-planning-and-operation",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-special-activities-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.special.club-activities-and-interests",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-special-activities-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.special.school-events-and-cooperation",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-special-activities-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.special.reflect-on-activities-and-improve",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-checked",
+      "note": "新規追加項目。公式82V12コード表との個別コード照合および学習項目との意味的な対応確認は未実施。推測でコードを登録しない。",
+      "candidateCodes": [],
+      "verifiedCodes": [],
+      "sourceId": "mext-elementary-special-activities-guideline-2017"
     }
   ]
 }
