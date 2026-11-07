@@ -2050,6 +2050,76 @@
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
       "studentRationale": "場合を整理した経験を、調べる条件を整理するときにも生かそう。"
+    },
+    {
+      "id": "math-edge-210",
+      "from": "jp.elem.math.compare-order-numbers",
+      "to": "jp.elem.math.numbers-to-10000",
+      "type": "recommended-prerequisite",
+      "rationale": "数の大小や順序を比べる見方を、位取りを使った大きな数の比較へ広げる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "数の大小を比べる見方を使って、大きな数を比べよう。"
+    },
+    {
+      "id": "math-edge-211",
+      "from": "jp.elem.math.compose-decompose-shapes",
+      "to": "jp.elem.math.triangles-quadrilaterals",
+      "type": "related-learning",
+      "rationale": "形を分けたり組み合わせたりした経験を、三角形や四角形の構成要素に着目する学習と関連づける。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "形を分けたり組み合わせたりしたことを、三角形や四角形の学習につなげよう。"
+    },
+    {
+      "id": "math-edge-212",
+      "from": "jp.elem.math.familiar-shapes",
+      "to": "jp.elem.math.triangles-circles-spheres",
+      "type": "recommended-prerequisite",
+      "rationale": "身の回りの形を観察して特徴を見つける経験が、三角形・円・球の性質を捉えることを支える。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "身の回りの形を見つけた経験から、三角形・円・球の特徴を調べよう。"
+    },
+    {
+      "id": "math-edge-213",
+      "from": "jp.elem.math.decimal-fraction-equivalence",
+      "to": "jp.elem.math.fraction-multiply-divide",
+      "type": "related-learning",
+      "rationale": "小数と分数の等しい大きさを捉えることは、分数の乗法・除法で数量の大きさを見積もる際にも役立つ。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "小数と分数のつながりを、分数の計算でも生かそう。"
+    },
+    {
+      "id": "math-edge-214",
+      "from": "jp.elem.math.unknown-number-relationships",
+      "to": "jp.elem.math.letter-expressions",
+      "type": "recommended-prerequisite",
+      "rationale": "数量の関係を言葉や□を使って表した経験を、文字を用いた式で一般的に表す学習へつなげる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "□で表した数量の関係を、文字を使った式に広げよう。"
+    },
+    {
+      "id": "math-edge-215",
+      "from": "jp.elem.math.solve-multistep-number-problems",
+      "to": "jp.elem.math.choose-calculation-strategy",
+      "type": "application",
+      "rationale": "複数の計算が必要な問題で、数量関係に応じて計算方法や順序を選ぶ。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "いくつかの計算を使う問題で、目的に合う方法を選ぼう。"
+    },
+    {
+      "id": "math-edge-216",
+      "from": "jp.elem.math.solve-multistep-number-problems",
+      "to": "jp.elem.math.math-in-daily-life",
+      "type": "application",
+      "rationale": "複数の計算を組み合わせる力を、日常生活の数量を扱う問題解決に活用する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "いくつかの計算を組み合わせて、身近な問題を解決しよう。"
     }
   ]
 }
