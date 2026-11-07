@@ -3720,6 +3720,106 @@
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
       "studentRationale": "行事での協力や自分の役割を振り返り、次に生かそう。"
+    },
+    {
+      "id": "subject-expansion-edge-1000",
+      "from": "jp.elem.life.family-and-life",
+      "to": "jp.elem.life.community-and-life",
+      "type": "related-learning",
+      "rationale": "家庭での生活や家族との関わりを知ることは、地域の人々や場所との関係を考えることと関連する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "家庭での生活と、町の人や場所とのつながりを考えよう。"
+    },
+    {
+      "id": "subject-expansion-edge-1001",
+      "from": "jp.elem.home.family-and-household-roles",
+      "to": "jp.elem.home.family-community-cooperation",
+      "type": "application",
+      "rationale": "家庭内の役割や協力について学んだことを、地域の人々との協働やよりよい関係づくりに広げる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "家族と協力する経験を、地域の人との関わりにも生かそう。"
+    },
+    {
+      "id": "subject-expansion-edge-1002",
+      "from": "jp.elem.pe.expressive-and-rhythmic-movement",
+      "to": "jp.elem.pe.body-movement-and-fitness",
+      "type": "related-learning",
+      "rationale": "リズムや題材に合わせて体を動かす表現活動は、多様な動きをつくる運動や体の動かし方と関連する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "表現運動で見つけた動きを、体の動かし方にも生かそう。"
+    },
+    {
+      "id": "subject-expansion-edge-1003",
+      "from": "jp.elem.pe.expressive-and-rhythmic-movement",
+      "to": "jp.elem.pe.movement-rules-safety-and-cooperation",
+      "type": "application",
+      "rationale": "仲間と動きをつくり表現する活動を、安全や協力を意識した集団運動に生かす。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "友達と動きをつくるときも、安全や協力を大切にしよう。"
+    },
+    {
+      "id": "subject-expansion-edge-1004",
+      "from": "jp.elem.foreign-activity.sounds-and-rhythm",
+      "to": "jp.elem.foreign-activity.listen-to-simple-expressions",
+      "type": "related-learning",
+      "rationale": "外国語の音声やリズムに親しむことは、簡単な語句や表現を聞いて意味を捉える活動と関連する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "英語の音やリズムに親しみながら、身近な表現を聞き取ろう。"
+    },
+    {
+      "id": "subject-expansion-edge-1005",
+      "from": "jp.elem.foreign-activity.listen-to-simple-expressions",
+      "to": "jp.elem.foreign-activity.interact-with-simple-phrases",
+      "type": "application",
+      "rationale": "聞いて意味を捉えた表現を、相手に尋ねたり答えたりするやり取りに活用する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "聞いて分かった表現を使って、友達とやり取りしよう。"
+    },
+    {
+      "id": "subject-expansion-edge-1006",
+      "from": "jp.elem.foreign-activity.interact-with-simple-phrases",
+      "to": "jp.elem.foreign-activity.share-about-self-and-familiar-things",
+      "type": "related-learning",
+      "rationale": "簡単な質問と応答の経験は、自分や身近なことを相手に伝える活動と関連する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "質問したり答えたりした経験を、自分のことを伝える活動に生かそう。"
+    },
+    {
+      "id": "subject-expansion-edge-1007",
+      "from": "jp.elem.foreign-activity.notice-language-and-culture",
+      "to": "jp.elem.foreign-activity.sounds-and-rhythm",
+      "type": "related-learning",
+      "rationale": "言語や文化の違いに気付くことは、外国語の音声やリズムの特徴に気付く活動と関連する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "言葉や文化の違いに目を向けて、英語の音やリズムを聞こう。"
+    },
+    {
+      "id": "subject-expansion-edge-1008",
+      "from": "jp.elem.moral.content-truth-seeking",
+      "to": "jp.elem.moral.content-honesty",
+      "type": "related-learning",
+      "rationale": "真実を探究する態度と、正直・誠実に行動することは、事実を大切にする点で関連する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "本当のことを確かめる姿勢と、正直に行動することを考えよう。"
+    },
+    {
+      "id": "subject-expansion-edge-1009",
+      "from": "jp.elem.moral.content-hope-effort",
+      "to": "jp.elem.moral.content-joy-of-living",
+      "type": "related-learning",
+      "rationale": "希望や目標に向かって努力することは、弱さを乗り越えてよりよく生きようとすることと関連する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "目標に向かう努力と、よりよく生きる喜びを結び付けよう。"
     }
   ]
 }
