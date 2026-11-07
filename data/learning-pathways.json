@@ -34,7 +34,8 @@
             "jp.elem.math.numbers-and-place-value"
           ]
         }
-      ]
+      ],
+      "subject": "算数"
     },
     {
       "id": "addition-subtraction",
@@ -59,7 +60,8 @@
             "jp.elem.math.multidigit-add-subtract"
           ]
         }
-      ]
+      ],
+      "subject": "算数"
     },
     {
       "id": "multiplication",
@@ -83,7 +85,8 @@
             "jp.elem.math.multidigit-multiply-two-digit"
           ]
         }
-      ]
+      ],
+      "subject": "算数"
     },
     {
       "id": "division",
@@ -115,7 +118,8 @@
           ],
           "note": "numbers-and-place-value と multidigit-add-subtract は、わり算の筆算を支える学習として参照する。必修の一方向の順序を示すものではない。"
         }
-      ]
+      ],
+      "subject": "算数"
     },
     {
       "id": "use-and-check",
@@ -144,7 +148,8 @@
             "jp.elem.math.solve-multistep-number-problems"
           ]
         }
-      ]
+      ],
+      "subject": "算数"
     },
     {
       "id": "fractions-decimals",
@@ -183,7 +188,8 @@
             "jp.elem.math.factors-multiples"
           ]
         }
-      ]
+      ],
+      "subject": "算数"
     },
     {
       "id": "geometry-shapes",
@@ -224,7 +230,8 @@
             "jp.elem.math.regular-polygons-circumference"
           ]
         }
-      ]
+      ],
+      "subject": "算数"
     },
     {
       "id": "measurement-quantities",
@@ -268,7 +275,8 @@
             "jp.elem.math.measurement-choice"
           ]
         }
-      ]
+      ],
+      "subject": "算数"
     },
     {
       "id": "relationships-and-proportion",
@@ -308,7 +316,8 @@
             "jp.elem.math.unknown-number-relationships"
           ]
         }
-      ]
+      ],
+      "subject": "算数"
     },
     {
       "id": "data-and-reasoning",
@@ -351,7 +360,8 @@
             "jp.elem.math.understand-problem-structure"
           ]
         }
-      ]
+      ],
+      "subject": "算数"
     },
     {
       "subject": "国語",
