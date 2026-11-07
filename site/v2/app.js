@@ -1,7 +1,7 @@
 (() => {
 "use strict";
-const DATA={topics:"../../data/topics.json",relations:"../../data/dependencies.json"};
-const state={grade:"all",subject:"all",query:"",topics:[],relations:[],activeId:null};
+const DATA={topics:"../../data/topics.json",relations:"../../data/dependencies.json",pathways:"../../data/learning-pathways.json"};
+const state={grade:"all",subject:"all",query:"",topics:[],relations:[],pathways:[],activeId:null};
 const $=id=>document.getElementById(id);
 const activeTopics=()=>state.topics.filter(t=>t.topicLifecycle!=="superseded");
 const gradesFor=t=>{const p=t.gradePlacement||{};return [...new Set([p.candidateFirstIntroductionGrade,...(p.candidateContinuingGrades||[]),...(t.grades||[])].filter(n=>Number.isInteger(n)&&n>=1&&n<=6))].sort((a,b)=>a-b)};
@@ -13,6 +13,31 @@ function topicMap(){return new Map(activeTopics().map(t=>[t.id,t]))}
 function matches(t){if(state.subject!=="all"&&t.subject!==state.subject)return false;if(state.grade!=="all"&&!gradesFor(t).includes(Number(state.grade)))return false;if(state.query){const q=state.query.toLocaleLowerCase("ja");const hay=[t.name,t.studentName,t.description,t.studentDescription,t.domain,t.cluster].join(" ").toLocaleLowerCase("ja");if(!hay.includes(q))return false}return true}
 function setSelected(root,key,value){root.querySelectorAll("button").forEach(b=>{const yes=b.dataset[key]===value;b.classList.toggle("is-selected",yes);b.setAttribute("aria-pressed",String(yes))})}
 function renderCounts(){const ts=activeTopics();$("count-all").textContent=ts.length;["国語","算数","社会","理科"].forEach(s=>{$("count-"+s).textContent=ts.filter(t=>t.subject===s).length})}
+function renderPathways(){
+const section=$("pathways-section"),root=$("pathways-list");
+const visible=state.subject==="all"||state.subject==="算数";
+section.hidden=!visible;
+if(!visible)return;
+root.replaceChildren();
+const map=topicMap();
+const paths=state.pathways.filter(p=>p.stages?.some(stage=>stage.topicIds?.some(id=>map.has(id))));
+if(!paths.length){root.append(make("p","connection-empty","道すじデータは準備中です。"));return}
+paths.forEach(p=>{
+const card=make("article","pathway-card");
+card.append(make("h3","",p.title),make("p","pathway-question",p.question||""),make("p","pathway-summary",p.summary||""));
+const stages=make("div","pathway-stages");
+p.stages.forEach(stage=>{
+const matched=(stage.topicIds||[]).map(id=>map.get(id)).filter(t=>t&& (state.grade==="all"||gradesFor(t).includes(Number(state.grade))));
+if(!matched.length)return;
+const block=make("section","pathway-stage");
+block.append(make("h4","",stage.label),make("small","",stage.grades||""));
+const items=make("div","pathway-topics");
+matched.forEach(t=>{const b=make("button","pathway-topic",t.studentName||t.name);b.type="button";b.addEventListener("click",()=>openDetail(t.id));items.append(b)});
+block.append(items);stages.append(block);
+});
+card.append(stages);root.append(card);
+});
+}
 function renderList(){
 const found=activeTopics().filter(matches);$("result-total").textContent=found.length+"項目";$("results-description").textContent=state.subject==="all"?"収録中の教科から、学習内容を見比べられます。":state.subject+"の学習内容を、分野ごとに見渡せます。";
 const root=$("results");root.replaceChildren();$("empty-state").hidden=found.length>0;const groups=new Map();
@@ -35,13 +60,13 @@ $("current-card").replaceChildren(make("strong","",t.studentName||t.name),make("
 }
 function closeDetail(){state.activeId=null;$("detail-section").hidden=true;if(history.replaceState)history.replaceState(null,"",location.pathname+location.search)}
 function bind(){
-$("grade-filters").addEventListener("click",e=>{const b=e.target.closest("button[data-grade]");if(!b)return;state.grade=b.dataset.grade;setSelected($("grade-filters"),"grade",state.grade);renderList()});
-$("subject-filters").addEventListener("click",e=>{const b=e.target.closest("button[data-subject]");if(!b)return;state.subject=b.dataset.subject;setSelected($("subject-filters"),"subject",state.subject);renderList()});
+$("grade-filters").addEventListener("click",e=>{const b=e.target.closest("button[data-grade]");if(!b)return;state.grade=b.dataset.grade;setSelected($("grade-filters"),"grade",state.grade);renderPathways();renderList()});
+$("subject-filters").addEventListener("click",e=>{const b=e.target.closest("button[data-subject]");if(!b)return;state.subject=b.dataset.subject;setSelected($("subject-filters"),"subject",state.subject);renderPathways();renderList()});
 $("topic-search").addEventListener("input",e=>{state.query=e.target.value.trim();renderList()});
 $("reset-button").addEventListener("click",()=>{state.grade="all";state.subject="all";state.query="";$("topic-search").value="";setSelected($("grade-filters"),"grade","all");setSelected($("subject-filters"),"subject","all");renderList()});
 $("close-detail").addEventListener("click",closeDetail);
 window.addEventListener("hashchange",()=>{const m=location.hash.match(/^#topic=(.+)$/);if(m)openDetail(decodeURIComponent(m[1]));else closeDetail()});
 }
-async function init(){try{const [a,b]=await Promise.all([fetch(DATA.topics),fetch(DATA.relations)]);if(!a.ok||!b.ok)throw new Error("学習データを読み込めませんでした。");const [td,rd]=await Promise.all([a.json(),b.json()]);state.topics=Array.isArray(td.topics)?td.topics:[];state.relations=Array.isArray(rd.dependencies)?rd.dependencies:[];renderCounts();renderList();$("dataset-status").textContent="学習項目 "+activeTopics().length+"件 ・ つながり "+state.relations.length+"件";bind();const m=location.hash.match(/^#topic=(.+)$/);if(m)openDetail(decodeURIComponent(m[1]))}catch(err){$("dataset-status").textContent="データを読み込めません";$("results").replaceChildren(make("p","loading",err.message+" ページを再読み込みしてください。"));console.error(err)}}
+async function init(){try{const [a,b,c]=await Promise.all([fetch(DATA.topics),fetch(DATA.relations),fetch(DATA.pathways)]);if(!a.ok||!b.ok||!c.ok)throw new Error("学習データを読み込めませんでした。");const [td,rd,pd]=await Promise.all([a.json(),b.json(),c.json()]);state.topics=Array.isArray(td.topics)?td.topics:[];state.relations=Array.isArray(rd.dependencies)?rd.dependencies:[];state.pathways=Array.isArray(pd.pathways)?pd.pathways:[];renderCounts();renderPathways();renderList();$("dataset-status").textContent="学習項目 "+activeTopics().length+"件 ・ つながり "+state.relations.length+"件 ・ 道すじ "+state.pathways.length+"件";bind();const m=location.hash.match(/^#topic=(.+)$/);if(m)openDetail(decodeURIComponent(m[1]))}catch(err){$("dataset-status").textContent="データを読み込めません";$("results").replaceChildren(make("p","loading",err.message+" ページを再読み込みしてください。"));console.error(err)}}
 init();
 })();
