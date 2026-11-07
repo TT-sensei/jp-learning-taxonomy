@@ -2,91 +2,13 @@
 <html lang="ja">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="description" content="小学校1〜6年生の学習内容を、教科・学年・つながりから探せる学びの地図。">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="refresh" content="0; url=./v2/">
+  <link rel="canonical" href="./v2/">
   <title>学びの地図｜小学校1〜6年</title>
-  <link rel="stylesheet" href="./hub.css">
-  <script src="./hub.js" defer></script>
 </head>
 <body>
-  <header class="page-head wrap">
-    <a class="brand" href="./index.html" aria-label="学びの地図 トップ">
-      <span class="brand-mark" aria-hidden="true">学</span>
-      <span class="brand-text"><strong>小学校 学びの地図</strong><small>1〜6年生の学びをつなぐ</small></span>
-    </a>
-    <div class="subject-stripe" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
-    <p class="page-lead">今の学びから、前に学んだことや、この先につながる学びを見つけよう。</p>
-    <p class="review-note">学年や学びのつながりは確認中の目安です。カードでは「初出候補」と「継続候補」を分けて表示します。国語は1・2年、3・4年、5・6年のまとまりを参考にし、算数・社会・理科は各学年の内容と照らして見直しています。教科書や先生の説明もたしかめながら使ってね。</p>
-    <nav class="site-shortcuts" aria-label="ほかの見方">
-      <a href="./details.html">詳しい学びを探す</a>
-      <a href="./math-map.html">算数の見取り図</a>
-      <a href="./pathways.html">整数計算の道すじ</a>
-      <a href="./representations.html">算数の表し方</a>
-    </nav>
-  </header>
-
-  <section class="filter-bar" aria-label="学習内容をしぼりこむ">
-    <div class="wrap filter-inner">
-      <div class="filter-row">
-        <span class="filter-label">学年</span>
-        <div id="grade-filters" class="chip-row" role="group" aria-label="学年を選ぶ">
-          <button type="button" class="filter-chip is-active" data-grade-filter="" aria-pressed="true">全学年</button>
-          <button type="button" class="filter-chip" data-grade-filter="1" aria-pressed="false">1年</button>
-          <button type="button" class="filter-chip" data-grade-filter="2" aria-pressed="false">2年</button>
-          <button type="button" class="filter-chip" data-grade-filter="3" aria-pressed="false">3年</button>
-          <button type="button" class="filter-chip" data-grade-filter="4" aria-pressed="false">4年</button>
-          <button type="button" class="filter-chip" data-grade-filter="5" aria-pressed="false">5年</button>
-          <button type="button" class="filter-chip" data-grade-filter="6" aria-pressed="false">6年</button>
-        </div>
-      </div>
-      <div class="filter-row">
-        <span class="filter-label">教科</span>
-        <div id="subject-filters" class="chip-row" role="group" aria-label="教科を選ぶ">
-          <button type="button" class="filter-chip is-active" data-subject-filter="" aria-pressed="true">すべて <span class="chip-count" data-subject-count="すべて"></span></button>
-          <button type="button" class="filter-chip subject-japanese" data-subject-filter="国語" aria-pressed="false">国語 <span class="chip-count" data-subject-count="国語"></span></button>
-          <button type="button" class="filter-chip subject-math" data-subject-filter="算数" aria-pressed="false">算数 <span class="chip-count" data-subject-count="算数"></span></button>
-          <button type="button" class="filter-chip subject-social" data-subject-filter="社会" aria-pressed="false">社会 <span class="chip-count" data-subject-count="社会"></span></button>
-          <button type="button" class="filter-chip subject-science" data-subject-filter="理科" aria-pressed="false">理科 <span class="chip-count" data-subject-count="理科"></span></button>
-        </div>
-      </div>
-      <div class="search-row">
-        <label class="search-label" for="topic-search">言葉で探す</label>
-        <div class="search-input-wrap">
-          <span class="search-icon" aria-hidden="true">⌕</span>
-          <input id="topic-search" type="search" placeholder="例：分数、植物、地図、文章" autocomplete="off">
-          <button id="clear-filters" type="button" class="clear-button">リセット</button>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <main class="wrap">
-    <div class="relationship-key" aria-label="つながりの見方">
-      <span class="key-title">カードの見方</span>
-      <span class="key-before">← 前に学ぶ</span>
-      <span class="key-related">↔ 関係する</span>
-      <span class="key-next">この先 →</span>
-      <span class="key-note">項目名を押すと、説明とつながりを詳しく見られます。</span>
-    </div>
-
-    <section class="results-section" aria-labelledby="results-title">
-      <div class="results-toolbar">
-        <div>
-          <h1 id="results-title">学びの一覧</h1>
-          <p id="results-description">教科を開いて、学びのつながりを見てみよう。</p>
-        </div>
-        <span id="results-count" class="results-count" aria-live="polite">読み込み中…</span>
-      </div>
-      <div id="active-filters" class="active-filters" aria-live="polite" hidden></div>
-      <div id="results" class="results" aria-live="polite" aria-busy="true">
-        <div class="loading-state">学習内容を読み込んでいます…</div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <p>学年は学びを見渡すための目安です。実際の学習順序は、学校や教科書によって異なることがあります。</p>
-    <a href="../README.md">この学びの地図について</a>
-  </footer>
+  <p>新しい学びの地図へ移動します。</p>
+  <p><a href="./v2/">学びの地図を開く</a></p>
 </body>
 </html>

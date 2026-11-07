@@ -158,6 +158,216 @@
       "versionNote": "文部科学省の公式82V12そのものではなく、LOD上で確認できた82V11由来の構造化データ。公式コード候補の探索にのみ使用し、82V12との最終照合前にverifiedCodeへ移さない。",
       "usageNote": "国語・算数・理科・社会の公式内容区分コード候補の探索に使用。候補コードは親項目レベルを含み、プロジェクト項目との一対一対応を保証しない。82V12公式表との最終照合前にverifiedCodeへ移さない。",
       "reviewStatus": "needs-review"
+    },
+    {
+      "id": "mext-elementary-life-guideline-2017",
+      "title": "小学校学習指導要領（平成29年告示）解説 生活編",
+      "publisher": "文部科学省",
+      "url": "https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387017_006.pdf",
+      "sourceType": "official-reference",
+      "versionNote": "生活科の9内容の構造と、具体的な活動・体験を通した学びを参照。",
+      "reuseNote": "公式解説の内容構造・学習上の観点を参照する。原文・図表の大量転載は行わず、利用条件を確認する。",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "mext-elementary-music-guideline-2017",
+      "title": "小学校学習指導要領（平成29年告示）解説 音楽編",
+      "publisher": "文部科学省",
+      "url": "https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387017_007.pdf",
+      "sourceType": "official-reference",
+      "versionNote": "A表現（歌唱・器楽・音楽づくり）、B鑑賞、〔共通事項〕の構造を参照。",
+      "reuseNote": "公式解説の内容構造・学習上の観点を参照する。原文・図表の大量転載は行わず、利用条件を確認する。",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "mext-elementary-art-guideline-2017",
+      "title": "小学校学習指導要領（平成29年告示）解説 図画工作編",
+      "publisher": "文部科学省",
+      "url": "https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387017_008.pdf",
+      "sourceType": "official-reference",
+      "versionNote": "A表現（造形遊び、絵や立体・工作）、B鑑賞、〔共通事項〕の構造を参照。",
+      "reuseNote": "公式解説の内容構造・学習上の観点を参照する。原文・図表の大量転載は行わず、利用条件を確認する。",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "mext-elementary-home-guideline-2017",
+      "title": "小学校学習指導要領（平成29年告示）解説 家庭編",
+      "publisher": "文部科学省",
+      "url": "https://www.mext.go.jp/content/20240918-mxt_kyoiku01-100002607_02.pdf",
+      "sourceType": "official-reference",
+      "versionNote": "A家族・家庭生活、B衣食住の生活、C消費生活・環境と実践的な学習を参照。",
+      "reuseNote": "公式解説の内容構造・学習上の観点を参照する。原文・図表の大量転載は行わず、利用条件を確認する。",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "mext-elementary-pe-guideline-2017",
+      "title": "小学校学習指導要領（平成29年告示）解説 体育編",
+      "publisher": "文部科学省",
+      "url": "https://www.mext.go.jp/content/20240918-mxt_kyoiku01-100002607.pdf",
+      "sourceType": "official-reference",
+      "versionNote": "運動領域・保健領域と低・中・高学年の内容系統を参照。",
+      "reuseNote": "公式解説の内容構造・学習上の観点を参照する。原文・図表の大量転載は行わず、利用条件を確認する。",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "mext-elementary-foreign-guideline-2017",
+      "title": "小学校学習指導要領（平成29年告示）解説 外国語活動・外国語編",
+      "publisher": "文部科学省",
+      "url": "https://www.mext.go.jp/content/20220614-mxt_kyoiku02-100002607_11.pdf",
+      "sourceType": "official-reference",
+      "versionNote": "中学年の音声中心の外国語活動と、高学年外国語科の聞く・話す・読む・書くの5領域への展開を参照。",
+      "reuseNote": "公式解説の内容構造・学習上の観点を参照する。原文・図表の大量転載は行わず、利用条件を確認する。",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "mext-elementary-moral-guideline-2017",
+      "title": "小学校学習指導要領（平成29年告示）解説 特別の教科 道徳編",
+      "publisher": "文部科学省",
+      "url": "https://www.mext.go.jp/content/20260318-mxt_kyoiku01-100002607_12.pdf",
+      "sourceType": "official-reference",
+      "versionNote": "道徳科のA〜Dの4視点と学年段階ごとの内容項目を参照。",
+      "reuseNote": "公式解説の内容構造・学習上の観点を参照する。原文・図表の大量転載は行わず、利用条件を確認する。",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "mext-elementary-integrated-guideline-2017",
+      "title": "小学校学習指導要領（平成29年告示）解説 総合的な学習の時間編",
+      "publisher": "文部科学省",
+      "url": "https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387017_013_1.pdf",
+      "sourceType": "official-reference",
+      "versionNote": "課題設定・情報収集・整理分析・まとめ表現を往還する探究過程を参照。",
+      "reuseNote": "公式解説の内容構造・学習上の観点を参照する。原文・図表の大量転載は行わず、利用条件を確認する。",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "mext-elementary-special-activities-guideline-2017",
+      "title": "小学校学習指導要領（平成29年告示）解説 特別活動編",
+      "publisher": "文部科学省",
+      "url": "https://www.mext.go.jp/content/20221213-mxt_kyoiku02-100002607_014.pdf",
+      "sourceType": "official-reference",
+      "versionNote": "学級活動、児童会活動、クラブ活動、学校行事の内容と活動過程を参照。",
+      "reuseNote": "公式解説の内容構造・学習上の観点を参照する。原文・図表の大量転載は行わず、利用条件を確認する。",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "mitsumura-life-plan-2024",
+      "title": "令和6年度版 小学校生活 年間指導計画・評価計画資料",
+      "publisher": "光村図書出版",
+      "url": "https://www.mitsumura-tosho.co.jp/kyokasho/s-seikatsu/keikaku",
+      "sourceType": "publisher-reference",
+      "versionNote": "学校生活、町探検、自然・生き物、自分の成長等の年間計画・単元指導計画を照合する補助資料。",
+      "reuseNote": "公開された学習内容のまとまり・系統を複数資料で比較し独自に要約する。出版社の本文、図版、題材、楽曲、ワークシートは転載しない。",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "kyogei-music-plan-2024",
+      "title": "令和6年度版 小学生の音楽 年間指導計画作成資料",
+      "publisher": "教育芸術社",
+      "url": "https://www.kyogei.co.jp/textbook/es/document/",
+      "sourceType": "publisher-reference",
+      "versionNote": "学年別年間指導計画、題材と系統一覧、音楽づくりの6年間の流れを照合する。",
+      "reuseNote": "公開された学習内容のまとまり・系統を複数資料で比較し独自に要約する。出版社の本文、図版、題材、楽曲、ワークシートは転載しない。",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "kyoiku-shuppan-music-plan-2024",
+      "title": "令和6年度版 小学音楽 音楽のおくりもの 年間指導計画・評価計画",
+      "publisher": "教育出版",
+      "url": "https://www.kyoiku-shuppan.co.jp/textbook/shou/ongaku/document/ducu1/m-index.html",
+      "sourceType": "publisher-reference",
+      "versionNote": "別出版社の年間指導計画・評価計画を比較し、題材配列の違いも把握する。",
+      "reuseNote": "公開された学習内容のまとまり・系統を複数資料で比較し独自に要約する。出版社の本文、図版、題材、楽曲、ワークシートは転載しない。",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "nichibun-art-plan-2024",
+      "title": "令和6年度版 小学校図画工作 年間指導計画案・題材系統表",
+      "publisher": "日本文教出版",
+      "url": "https://www.nichibun-g.co.jp/textbooks/zuko/useful/",
+      "sourceType": "publisher-reference",
+      "versionNote": "題材系統表、年間指導計画、教科横断的展開資料を参照する。題材や図版は転載しない。",
+      "reuseNote": "公開された学習内容のまとまり・系統を複数資料で比較し独自に要約する。出版社の本文、図版、題材、楽曲、ワークシートは転載しない。",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "kairyudo-art-home-plan-2024",
+      "title": "令和6年度版 小学校教科書 年間指導計画作成資料（図画工作・家庭・英語）",
+      "publisher": "開隆堂出版",
+      "url": "https://www.kairyudo.co.jp/contents/04_shiryo/nenkei/sho/index.htm",
+      "sourceType": "publisher-reference",
+      "versionNote": "図画工作の題材・学年帯、家庭科5・6年、英語5・6年の年間計画・評価規準例を補助参照する。",
+      "reuseNote": "公開された学習内容のまとまり・系統を複数資料で比較し独自に要約する。出版社の本文、図版、題材、楽曲、ワークシートは転載しない。",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "tokyo-shoseki-home-plan-2024",
+      "title": "令和6年度用 新編 新しい家庭5・6 年間指導計画作成資料",
+      "publisher": "東京書籍",
+      "url": "https://ten.tokyo-shoseki.co.jp/detail/118697/",
+      "sourceType": "publisher-reference",
+      "versionNote": "家庭科教科書の年間指導計画作成資料を参照する。題材配列は出版社の一例として扱う。",
+      "reuseNote": "公開された学習内容のまとまり・系統を複数資料で比較し独自に要約する。出版社の本文、図版、題材、楽曲、ワークシートは転載しない。",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "gakken-pe-plan-2024",
+      "title": "令和6年度〜 改訂版みんなの体育 教授用資料",
+      "publisher": "学研",
+      "url": "https://gakkokyoiku.gakken.co.jp/support/siryo/",
+      "sourceType": "publisher-reference",
+      "versionNote": "年間指導計画例、内容のまとまりや単元ごとの学習計画・評価規準例を参照する。",
+      "reuseNote": "公開された学習内容のまとまり・系統を複数資料で比較し独自に要約する。出版社の本文、図版、題材、楽曲、ワークシートは転載しない。",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "tokyo-shoseki-english-plan-2024",
+      "title": "令和6年度版 NEW HORIZON Elementary English Course 年間指導計画・CAN-DOリスト",
+      "publisher": "東京書籍",
+      "url": "https://ten.tokyo-shoseki.co.jp/text/shou/eigo/keikaku/",
+      "sourceType": "publisher-reference",
+      "versionNote": "5・6年の単元一覧、年間指導計画、CAN-DOリストを参照する。単元の順序を全国共通とはみなさない。",
+      "reuseNote": "公開された学習内容のまとまり・系統を複数資料で比較し独自に要約する。出版社の本文、図版、題材、楽曲、ワークシートは転載しない。",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "mitsumura-english-can-do-2024",
+      "title": "令和6年度版 小学校英語 CAN-DOリスト形式の年間指導計画",
+      "publisher": "光村図書出版",
+      "url": "https://www.mitsumura-tosho.co.jp/kyokasho/s-eigo/keikaku",
+      "sourceType": "publisher-reference",
+      "versionNote": "5・6年のCAN-DOリスト形式の年間指導計画を参照し、到達像や領域別の段階を比較する。",
+      "reuseNote": "公開された学習内容のまとまり・系統を複数資料で比較し独自に要約する。出版社の本文、図版、題材、楽曲、ワークシートは転載しない。",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "mitsumura-moral-plan-2024",
+      "title": "令和6年度版 小学校道徳 年間指導計画・評価計画資料",
+      "publisher": "光村図書出版",
+      "url": "https://www.mitsumura-tosho.co.jp/kyokasho/s-dotoku/keikaku",
+      "sourceType": "publisher-reference",
+      "versionNote": "学年別教材と関連する内容項目・年間指導計画を参照する。教材内容や配列を唯一の順序として扱わない。",
+      "reuseNote": "公開された学習内容のまとまり・系統を複数資料で比較し独自に要約する。出版社の本文、図版、題材、楽曲、ワークシートは転載しない。",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "mitsumura-moral-items-2024",
+      "title": "令和6年度版 小学校道徳 内容項目別教材一覧表・教材配列表",
+      "publisher": "光村図書出版",
+      "url": "https://www.mitsumura-tosho.co.jp/kyokasho/s-dotoku/komoku",
+      "sourceType": "publisher-reference",
+      "versionNote": "内容項目別教材一覧と配列表を参照し、学年段階ごとの扱いを補助確認する。",
+      "reuseNote": "公開された学習内容のまとまり・系統を複数資料で比較し独自に要約する。出版社の本文、図版、題材、楽曲、ワークシートは転載しない。",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "kobun-moral-plan-2024",
+      "title": "令和6年度版 小学道徳 ゆたかな心 教師用指導資料",
+      "publisher": "光文書院",
+      "url": "https://www.kobun.co.jp/teaching-doutoku/",
+      "sourceType": "publisher-reference",
+      "versionNote": "年間指導計画例、内容項目別・時系列の全体計画例を参照する。",
+      "reuseNote": "公開された学習内容のまとまり・系統を複数資料で比較し独自に要約する。出版社の本文、図版、題材、楽曲、ワークシートは転載しない。",
+      "reviewStatus": "needs-review"
     }
   ],
   "standards": [
@@ -255,6 +465,158 @@
         6
       ],
       "note": "領域・横断分類に結び付けるためのプロジェクト独自ID。文部科学省の公式な学習指導要領コードではなく、具体的コードとの対応付けは今後の作業。",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "project-ref-life",
+      "title": "生活",
+      "sourceId": "mext-elementary-life-guideline-2017",
+      "standardKind": "project-subject-reference",
+      "officialCode": null,
+      "grades": [
+        1,
+        2
+      ],
+      "note": "生活科の9内容の構造を参照するプロジェクト独自ID。公式コードではない。",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "project-ref-music",
+      "title": "音楽",
+      "sourceId": "mext-elementary-music-guideline-2017",
+      "standardKind": "project-subject-reference",
+      "officialCode": null,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "note": "歌唱・器楽・音楽づくり・鑑賞・共通事項を参照するプロジェクト独自ID。",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "project-ref-art",
+      "title": "図画工作",
+      "sourceId": "mext-elementary-art-guideline-2017",
+      "standardKind": "project-subject-reference",
+      "officialCode": null,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "note": "造形遊び・絵や立体・工作・鑑賞・共通事項を参照するプロジェクト独自ID。",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "project-ref-home",
+      "title": "家庭",
+      "sourceId": "mext-elementary-home-guideline-2017",
+      "standardKind": "project-subject-reference",
+      "officialCode": null,
+      "grades": [
+        5,
+        6
+      ],
+      "note": "家族・家庭生活、衣食住、消費生活・環境を参照するプロジェクト独自ID。",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "project-ref-pe",
+      "title": "体育",
+      "sourceId": "mext-elementary-pe-guideline-2017",
+      "standardKind": "project-subject-reference",
+      "officialCode": null,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "note": "運動領域と保健領域を参照するプロジェクト独自ID。",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "project-ref-foreign-activity",
+      "title": "外国語活動",
+      "sourceId": "mext-elementary-foreign-guideline-2017",
+      "standardKind": "project-subject-reference",
+      "officialCode": null,
+      "grades": [
+        3,
+        4
+      ],
+      "note": "中学年の外国語活動の音声中心・体験的な内容を参照するプロジェクト独自ID。",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "project-ref-foreign",
+      "title": "外国語",
+      "sourceId": "mext-elementary-foreign-guideline-2017",
+      "standardKind": "project-subject-reference",
+      "officialCode": null,
+      "grades": [
+        5,
+        6
+      ],
+      "note": "高学年外国語科の5領域を参照するプロジェクト独自ID。",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "project-ref-moral",
+      "title": "道徳",
+      "sourceId": "mext-elementary-moral-guideline-2017",
+      "standardKind": "project-subject-reference",
+      "officialCode": null,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "note": "道徳科の4視点と学年段階別内容項目を参照するプロジェクト独自ID。",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "project-ref-integrated",
+      "title": "総合的な学習の時間",
+      "sourceId": "mext-elementary-integrated-guideline-2017",
+      "standardKind": "project-subject-reference",
+      "officialCode": null,
+      "grades": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "note": "各校が定める目標・内容の下で探究過程を扱うプロジェクト独自ID。",
+      "reviewStatus": "needs-review"
+    },
+    {
+      "id": "project-ref-special-activities",
+      "title": "特別活動",
+      "sourceId": "mext-elementary-special-activities-guideline-2017",
+      "standardKind": "project-subject-reference",
+      "officialCode": null,
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "note": "学級活動・児童会活動・クラブ活動・学校行事を参照するプロジェクト独自ID。",
       "reviewStatus": "needs-review"
     }
   ]

@@ -5,6 +5,7 @@ const root = process.cwd();
 const readJson = (relativePath) => JSON.parse(fs.readFileSync(path.join(root, relativePath), "utf8"));
 const topicsData = readJson("data/topics.json");
 const dependenciesData = readJson("data/dependencies.json");
+const pathwaysData = readJson("data/learning-pathways.json");
 const standardsData = readJson("data/curriculum-standards.json");
 const resourcesData = readJson("data/resources.json");
 const representationData = readJson("data/representation-models.json");
@@ -24,6 +25,7 @@ const uniqueMap = (items, key, label) => {
 
 const topics = topicsData.topics ?? [];
 const dependencies = dependenciesData.dependencies ?? [];
+const pathways = pathwaysData.pathways ?? [];
 const standards = standardsData.standards ?? [];
 const sources = standardsData.sources ?? [];
 const resources = resourcesData.resources ?? [];
@@ -83,6 +85,18 @@ for (const topic of topics) {
     if (!resourceById.has(resourceId)) errors.push(`${topic.id}: 未登録の resource ID ${resourceId}`);
   }
 }
+const pathwayIds = new Set();
+for (const pathway of pathways) {
+  if (!pathway.id || pathwayIds.has(pathway.id)) errors.push("重複または空の learning pathway ID: " + pathway.id);
+  pathwayIds.add(pathway.id);
+  if (!pathway.title || !Array.isArray(pathway.stages) || pathway.stages.length === 0) errors.push((pathway.id || "(unknown)") + ": pathway title / stages が不足しています。");
+  for (const stage of pathway.stages ?? []) {
+    if (!stage.label || !Array.isArray(stage.topicIds) || stage.topicIds.length === 0) errors.push(pathway.id + ": stage label / topicIds が不足しています。");
+    for (const topicId of stage.topicIds ?? []) {
+      if (!topicById.has(topicId)) errors.push(pathway.id + ": 未登録の topic ID " + topicId);
+    }
+  }
+}
 for (const edge of dependencies) {
   if (!edgeTypes.has(edge.type)) errors.push(`${edge.id}: 未定義の relation type ${edge.type}`);
   if (!topicById.has(edge.from)) errors.push(`${edge.id}: from に未登録の topic ID ${edge.from}`);
@@ -140,6 +154,7 @@ report.push(`学習項目: ${topics.length}`);
 report.push(`子ども向け表示名・説明: ${topics.filter(topic => topic.studentName?.trim() && topic.studentDescription?.trim()).length}/${topics.length}`);
 report.push(`子ども向けの関係説明: ${dependencies.filter(edge => edge.studentRationale?.trim()).length}/${dependencies.length}`);
 report.push(`関係: ${dependencies.length}`);
+report.push(`学びの道すじ: ${pathways.length}`);
 report.push(`出典: ${sources.length}`);
 report.push(`領域参照: ${standards.length}`);
 report.push(`表現モデル: ${representationModels.length}`);
@@ -151,6 +166,7 @@ report.push(`確定コード登録済み項目: ${codeMappings.filter(item => it
 report.push(`学年配当が候補状態の項目: ${topics.filter(topic => topic.gradePlacement?.status === "candidate").length}/${topics.length}`);
 if (manifestData.counts?.topics !== topics.length) errors.push("manifest.json の topics 件数が topics.json と一致しません。");
 if (manifestData.counts?.dependencies !== dependencies.length) errors.push("manifest.json の dependencies 件数が dependencies.json と一致しません。");
+if (manifestData.counts?.learningPathways !== pathways.length) errors.push("manifest.json の learningPathways 件数が learning-pathways.json と一致しません。");
 if (manifestData.counts?.representationModels !== representationModels.length) errors.push("manifest.json の representationModels 件数が実データと一致しません。");
 if (manifestData.counts?.sources !== sources.length) errors.push("manifest.json の sources 件数が実データと一致しません。");
 if (manifestData.counts?.curriculumStandards !== standards.length) errors.push("manifest.json の curriculumStandards 件数が実データと一致しません。");

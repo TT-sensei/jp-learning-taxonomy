@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tt-sensei.github.io/jp-learning-taxonomy/schema/learning-support.schema.json",
+  "title": "JP Learning Taxonomy Learning Support",
+  "type": "object",
+  "required": ["schemaVersion", "status", "note", "supportCases"],
+  "properties": {
+    "schemaVersion": {"type": "string"},
+    "status": {"enum": ["not-started", "draft", "reviewing", "reviewed"]},
+    "note": {"type": "string", "minLength": 1},
+    "supportCases": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "topicId", "title", "difficultySignals", "checkQuestion", "reviewTargets", "evidenceType", "reviewStatus", "evidence"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9.-]+$"},
+          "topicId": {"type": "string", "minLength": 1},
+          "title": {"type": "string", "minLength": 1},
+          "difficultySignals": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+          "studentPerspective": {"type": "string"},
+          "checkQuestion": {"type": "string", "minLength": 1},
+          "reviewTargets": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["topicId", "reason", "priority"],
+              "properties": {
+                "topicId": {"type": "string", "minLength": 1},
+                "reason": {"type": "string", "minLength": 1},
+                "priority": {"enum": ["first", "next", "optional"]}
+              },
+              "additionalProperties": false
+            }
+          },
+          "studentPrompt": {"type": "string"},
+          "evidenceType": {"enum": ["official-explicit", "editorial", "research", "teacher-review", "unknown"]},
+          "reviewStatus": {"enum": ["draft", "needs-review", "reviewed", "published"]},
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["sourceId", "note"],
+              "properties": {
+                "sourceId": {"type": "string"},
+                "note": {"type": "string"}
+              },
+              "additionalProperties": false
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

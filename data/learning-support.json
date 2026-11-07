@@ -1,0 +1,6 @@
+{
+  "schemaVersion": "0.1.0",
+  "status": "not-started",
+  "note": "つまずきと復習先の対応は、学習項目間の前提関係から自動生成しない。教員レビューと根拠を確認したケースのみ supportCases に追加する。",
+  "supportCases": []
+}
