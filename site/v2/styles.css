@@ -4,3 +4,80 @@
 .pathway-subject{display:inline-block;font-size:9px;letter-spacing:.05em;color:#4f7194;background:#eef4fa;border-radius:6px;padding:3px 7px;margin-bottom:7px}
 
 .cross-subject-panel{margin-top:14px;border:1px solid #dce6ef;border-radius:14px;padding:16px;background:#f8fafc}.cross-subject-heading h3{font-size:13px;margin:0}.cross-subject-heading p{font-size:10px;color:#8793a2;margin:4px 0 12px}.cross-subject-list{grid-template-columns:repeat(2,minmax(0,1fr))}.cross-subject-item{background:#fff}.cross-subject-reason{display:block;font-size:10px;line-height:1.55;color:#64748b;margin-top:6px}@media(max-width:760px){.cross-subject-list{grid-template-columns:1fr}}
+
+/* UI refresh A (2026-11-07): lighter palette, larger text, hero art */
+:root{--ink:#2e4055;--muted:#6d7c8c;--line:#e9e3d9;--canvas:#fbf8f3;--blue:#4a7fb5;--green:#3f8a68}
+.topbar{background:#fffdf9;border-bottom-color:#efe8dc}
+.brand-mark{background:#ffedbe;color:#a86e00}
+.brand small{font-size:10px;color:#93a5b8}
+.top-note{font-size:13px}
+.eyebrow{font-size:11px;letter-spacing:.08em;color:#8aa3bd}
+.intro-copy{font-size:16px;color:#4d5f73}
+.intro-meta{font-size:12px;color:#71808f}
+.hero-art{margin:24px 0 4px}
+.hero-art img{width:100%;height:auto;display:block;border-radius:20px;border:1px solid #f0e7d7;box-shadow:0 12px 30px rgba(150,110,40,.10)}
+.explorer,.results-section,.detail-section,.pathways-section{border-color:#eae3d7;box-shadow:0 8px 26px rgba(120,90,30,.05)}
+.quiet-button{font-size:13px;color:#47617c}
+.grade-chip{font-size:14px;color:#47617c;border-color:#e3ddd2}
+.grade-chip.is-selected{background:#d9e9fa;border-color:#a9c8ec;color:#2f5b8f;font-weight:700}
+.subject-card{border-radius:16px;border-color:#e9e3d9}
+.subject-card.is-selected{border-color:#a9c8ec;background:#f2f8fe;box-shadow:inset 0 0 0 1px #a9c8ec}
+.subject-card strong{font-size:15px}
+.subject-card small{font-size:12px}
+.subject-count{font-size:13px;color:#7d8ea1}
+.subject-symbol.life{background:#eef6e2;color:#64863f}
+.subject-symbol.music{background:#fdeef6;color:#b05a8c}
+.subject-symbol.art{background:#fdeee3;color:#c06836}
+.subject-symbol.home{background:#e7f5f1;color:#35806e}
+.subject-symbol.pe{background:#e9f7ec;color:#478f52}
+.subject-symbol.foreign{background:#eef0fd;color:#5d68b8}
+.subject-symbol.moral{background:#f6eefc;color:#8663b3}
+.subject-symbol.integrated{background:#e5f6f9;color:#35879c}
+.subject-symbol.special{background:#fdf6dd;color:#9c8327}
+.subject-symbol.japanese{background:#fbeef1}
+.subject-symbol.science{background:#e9f6ef}
+.scope-note{font-size:12px;color:#5f7185;border-color:#e0d9cc}
+.scope-note strong{color:#3d546e}
+.search-wrap label{font-size:13px}
+.search-wrap input{font-size:14px;border-color:#e0d9cc}
+.search-hint{font-size:12px;color:#8494a5}
+.section-description{font-size:13px}
+.result-total{font-size:13px;background:#fdf3e0;color:#8a6d1f}
+.topic-group h3{font-size:15px}
+.topic-group h3 span{font-size:11px}
+.topic-card{border-radius:16px;border-color:#e9e3d9}
+.topic-card .grade-tag{font-size:12px;padding:4px 8px;background:#eef5fd;color:#3d6390}
+.topic-card strong{font-size:14px}
+.topic-card small{font-size:12px;color:#66788c}
+.detail-meta{font-size:12px}
+.detail-description{font-size:15px;color:#43586d}
+.goal-panel h3{font-size:14px}
+.goal-panel ul{font-size:13px}
+.connection-panel{border-radius:16px;border-color:#e9e3d9}
+.connection-panel h3{font-size:14px}
+.connection-help{font-size:12px;color:#7d8ea1}
+.connection-item{border-radius:12px}
+.connection-item strong{font-size:13px}
+.connection-item small{font-size:11px;color:#75879a}
+.connection-empty{font-size:12px;color:#7d8ea1}
+.current-panel{background:#f2f9f4;border-color:#d8ecdf}
+.current-card strong{font-size:14px}
+.current-card p{font-size:12px}
+.cross-subject-panel{background:#fbfcfe;border-color:#e3e9f0}
+.cross-subject-heading h3{font-size:14px}
+.cross-subject-heading p{font-size:12px;color:#7d8ea1}
+.cross-subject-reason{font-size:12px}
+.relation-caveat{font-size:12px;color:#7d8ea1}
+.pathway-card{border-radius:16px;border-color:#e9e3d9}
+.pathway-card h3{font-size:16px}
+.pathway-question{font-size:12px}
+.pathway-summary{font-size:12px;color:#6d7c8c}
+.pathway-stage h4{font-size:12px}
+.pathway-stage>small{font-size:11px}
+.pathway-stage-description{font-size:12px}
+.pathway-subject{font-size:11px}
+.pathway-topic{font-size:12px;padding:8px 11px;border-radius:10px;background:#fbfaf7;border-color:#e6dfd2;color:#3d546e}
+.pathway-topic:hover,.pathway-topic:focus-visible{background:#f2f8fe;border-color:#a9c8ec}
+.footer{font-size:12px;color:#7d8ea1}
+.footer a{color:#4a7fb5}
+@media(max-width:760px){.intro-copy{font-size:14px}.hero-art{margin:18px 0 2px}.hero-art img{border-radius:16px}}
