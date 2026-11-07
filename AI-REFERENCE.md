@@ -21,6 +21,7 @@
 | data/topics.json | 学習項目。topics 配列を参照 |
 | data/dependencies.json | 学習項目間の関係。dependencies 配列を参照 |
 | data/learning-support.json | つまずきと復習支援。確認済みの supportCases のみ利用 |
+| data/learning-pathways.json | 学習項目を大きなまとまり・段階で見渡す道すじ |
 | data/learning-pathways.json | 学びのまとまりを説明する編集上の道すじ |
 | data/representation-models.json | 図・式・表などの表現モデル |
 | data/curriculum-standards.json | 公式資料・領域・出典 |
