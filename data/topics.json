@@ -12347,6 +12347,2196 @@
       },
       "studentName": "病気を予防する生活を考えよう",
       "studentDescription": "病気が起こる理由や予防の方法を知り、自分の生活でできることを考えよう。"
+    },
+    {
+      "id": "jp.elem.foreign-activity.sounds-and-rhythm",
+      "subject": "外国語活動",
+      "domain": "外国語によるコミュニケーション体験",
+      "cluster": "音声への気付き",
+      "name": "外国語の音声やリズムに慣れ親しむ",
+      "description": "英語の音声、リズム、イントネーションや日本語との違いに気付き、聞いたりまねしたりする活動を通して親しむ。",
+      "grades": [
+        3,
+        4
+      ],
+      "topicType": "experience",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-foreign-guideline-2017",
+          "note": "MEXT外国語活動編の中学年・音声中心の体験と出版社のR6年間計画を参照。読む・書くを外国語科と同等に扱わない。"
+        },
+        {
+          "sourceId": "tokyo-shoseki-english-plan-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-foreign-activity"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review",
+      "gradePlacement": {
+        "status": "needs-review",
+        "candidateFirstIntroductionGrade": 3,
+        "candidateContinuingGrades": [
+          4
+        ],
+        "basis": "MEXT外国語活動編の中学年・音声中心の体験と出版社のR6年間計画を参照。読む・書くを外国語科と同等に扱わない。",
+        "note": "学年は学習指導要領・出版社資料から見た編集上の候補。公式配当として確定していない。学校の教育課程や題材配列によって扱いは異なる。"
+      },
+      "studentName": "英語の音やリズムを楽しもう",
+      "studentDescription": "英語の音やリズムをよく聞き、まねして言いながら日本語との違いを見つけよう。"
+    },
+    {
+      "id": "jp.elem.foreign-activity.listen-to-simple-expressions",
+      "subject": "外国語活動",
+      "domain": "外国語によるコミュニケーション体験",
+      "cluster": "聞く活動",
+      "name": "簡単な語句や表現を聞いて分かる",
+      "description": "身近な題材について、ゆっくりはっきり話された簡単な語句や基本的な表現を聞き、絵や動作と結び付けて意味を捉える。",
+      "grades": [
+        3,
+        4
+      ],
+      "topicType": "practice",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-foreign-guideline-2017",
+          "note": "MEXT外国語活動編の中学年・音声中心の体験と出版社のR6年間計画を参照。読む・書くを外国語科と同等に扱わない。"
+        },
+        {
+          "sourceId": "tokyo-shoseki-english-plan-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-foreign-activity"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review",
+      "gradePlacement": {
+        "status": "needs-review",
+        "candidateFirstIntroductionGrade": 3,
+        "candidateContinuingGrades": [
+          4
+        ],
+        "basis": "MEXT外国語活動編の中学年・音声中心の体験と出版社のR6年間計画を参照。読む・書くを外国語科と同等に扱わない。",
+        "note": "学年は学習指導要領・出版社資料から見た編集上の候補。公式配当として確定していない。学校の教育課程や題材配列によって扱いは異なる。"
+      },
+      "studentName": "身近な英語を聞いて分かろう",
+      "studentDescription": "あいさつや好きなもの、身近なことを表す英語を聞き、絵や動作と結び付けよう。"
+    },
+    {
+      "id": "jp.elem.foreign-activity.interact-with-simple-phrases",
+      "subject": "外国語活動",
+      "domain": "外国語によるコミュニケーション体験",
+      "cluster": "話す・やり取り",
+      "name": "簡単な表現でやり取りする",
+      "description": "身近で簡単な事柄について、慣れ親しんだ語句や表現を使い、相手に尋ねたり答えたりするやり取りを体験する。",
+      "grades": [
+        3,
+        4
+      ],
+      "topicType": "practice",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-foreign-guideline-2017",
+          "note": "MEXT外国語活動編の中学年・音声中心の体験と出版社のR6年間計画を参照。読む・書くを外国語科と同等に扱わない。"
+        },
+        {
+          "sourceId": "tokyo-shoseki-english-plan-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-foreign-activity"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review",
+      "gradePlacement": {
+        "status": "needs-review",
+        "candidateFirstIntroductionGrade": 3,
+        "candidateContinuingGrades": [
+          4
+        ],
+        "basis": "MEXT外国語活動編の中学年・音声中心の体験と出版社のR6年間計画を参照。読む・書くを外国語科と同等に扱わない。",
+        "note": "学年は学習指導要領・出版社資料から見た編集上の候補。公式配当として確定していない。学校の教育課程や題材配列によって扱いは異なる。"
+      },
+      "studentName": "英語でたずねたり答えたりしよう",
+      "studentDescription": "好きなものや気持ちなどを、簡単な英語でたずねたり答えたりして伝え合おう。"
+    },
+    {
+      "id": "jp.elem.foreign-activity.share-about-self-and-familiar-things",
+      "subject": "外国語活動",
+      "domain": "外国語によるコミュニケーション体験",
+      "cluster": "話す・発表",
+      "name": "身近なことを伝え合う",
+      "description": "自分や身近な事柄について、実物・写真・絵などを用いながら、簡単な語句や表現で伝え合う。",
+      "grades": [
+        3,
+        4
+      ],
+      "topicType": "expression",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-foreign-guideline-2017",
+          "note": "MEXT外国語活動編の中学年・音声中心の体験と出版社のR6年間計画を参照。読む・書くを外国語科と同等に扱わない。"
+        },
+        {
+          "sourceId": "tokyo-shoseki-english-plan-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-foreign-activity"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review",
+      "gradePlacement": {
+        "status": "needs-review",
+        "candidateFirstIntroductionGrade": 3,
+        "candidateContinuingGrades": [
+          4
+        ],
+        "basis": "MEXT外国語活動編の中学年・音声中心の体験と出版社のR6年間計画を参照。読む・書くを外国語科と同等に扱わない。",
+        "note": "学年は学習指導要領・出版社資料から見た編集上の候補。公式配当として確定していない。学校の教育課程や題材配列によって扱いは異なる。"
+      },
+      "studentName": "自分のことを伝え合おう",
+      "studentDescription": "好きなものや身近なことを、絵や写真を見せながら英語で伝えよう。"
+    },
+    {
+      "id": "jp.elem.foreign-activity.notice-language-and-culture",
+      "subject": "外国語活動",
+      "domain": "外国語によるコミュニケーション体験",
+      "cluster": "言語・文化への理解",
+      "name": "言語や文化の違いに気付く",
+      "description": "外国語と日本語の音声・表現、文化や生活習慣の違いに触れ、多様な相手と伝え合うことへの関心をもつ。",
+      "grades": [
+        3,
+        4
+      ],
+      "topicType": "experience",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-foreign-guideline-2017",
+          "note": "MEXT外国語活動編の中学年・音声中心の体験と出版社のR6年間計画を参照。読む・書くを外国語科と同等に扱わない。"
+        },
+        {
+          "sourceId": "tokyo-shoseki-english-plan-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-foreign-activity"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review",
+      "gradePlacement": {
+        "status": "needs-review",
+        "candidateFirstIntroductionGrade": 3,
+        "candidateContinuingGrades": [
+          4
+        ],
+        "basis": "MEXT外国語活動編の中学年・音声中心の体験と出版社のR6年間計画を参照。読む・書くを外国語科と同等に扱わない。",
+        "note": "学年は学習指導要領・出版社資料から見た編集上の候補。公式配当として確定していない。学校の教育課程や題材配列によって扱いは異なる。"
+      },
+      "studentName": "言葉や文化の違いを見つけよう",
+      "studentDescription": "日本と外国の言葉や生活の違いに気付き、相手の文化を大切にしながら伝え合おう。"
+    },
+    {
+      "id": "jp.elem.foreign.listen-and-understand",
+      "subject": "外国語",
+      "domain": "外国語によるコミュニケーション",
+      "cluster": "聞くこと",
+      "name": "聞くこと",
+      "description": "自分や身近な人・物、日常生活に関する簡単な語句や基本的な表現を聞き取り、必要な情報や概要を捉える。",
+      "grades": [
+        5,
+        6
+      ],
+      "topicType": "skill",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-foreign-guideline-2017",
+          "note": "MEXT外国語科の5領域と複数社のR6 CAN-DO・年間計画を参照。読む・書くは慣れ親しんだ表現から段階的に扱う。"
+        },
+        {
+          "sourceId": "tokyo-shoseki-english-plan-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        },
+        {
+          "sourceId": "mitsumura-english-can-do-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-foreign"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review",
+      "gradePlacement": {
+        "status": "needs-review",
+        "candidateFirstIntroductionGrade": 5,
+        "candidateContinuingGrades": [
+          6
+        ],
+        "basis": "MEXT外国語科の5領域と複数社のR6 CAN-DO・年間計画を参照。読む・書くは慣れ親しんだ表現から段階的に扱う。",
+        "note": "学年は学習指導要領・出版社資料から見た編集上の候補。公式配当として確定していない。学校の教育課程や題材配列によって扱いは異なる。"
+      },
+      "studentName": "英語を聞いて必要な情報をつかもう",
+      "studentDescription": "自分や身近なことについて話された英語を聞き、必要なことや話の大まかな内容を捉えよう。"
+    },
+    {
+      "id": "jp.elem.foreign.speak-and-interact",
+      "subject": "外国語",
+      "domain": "外国語によるコミュニケーション",
+      "cluster": "話すこと",
+      "name": "話すこと［やり取り］",
+      "description": "身近で簡単な事柄について、相手の反応を受けながら質問したり答えたりし、伝え合う。",
+      "grades": [
+        5,
+        6
+      ],
+      "topicType": "skill",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-foreign-guideline-2017",
+          "note": "MEXT外国語科の5領域と複数社のR6 CAN-DO・年間計画を参照。読む・書くは慣れ親しんだ表現から段階的に扱う。"
+        },
+        {
+          "sourceId": "tokyo-shoseki-english-plan-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        },
+        {
+          "sourceId": "mitsumura-english-can-do-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-foreign"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review",
+      "gradePlacement": {
+        "status": "needs-review",
+        "candidateFirstIntroductionGrade": 5,
+        "candidateContinuingGrades": [
+          6
+        ],
+        "basis": "MEXT外国語科の5領域と複数社のR6 CAN-DO・年間計画を参照。読む・書くは慣れ親しんだ表現から段階的に扱う。",
+        "note": "学年は学習指導要領・出版社資料から見た編集上の候補。公式配当として確定していない。学校の教育課程や題材配列によって扱いは異なる。"
+      },
+      "studentName": "英語で質問し、やり取りを続けよう",
+      "studentDescription": "相手のことを聞いたり、自分のことを答えたりして、英語のやり取りを続けよう。"
+    },
+    {
+      "id": "jp.elem.foreign.speak-and-present",
+      "subject": "外国語",
+      "domain": "外国語によるコミュニケーション",
+      "cluster": "話すこと",
+      "name": "話すこと［発表］",
+      "description": "身近で簡単な事柄について、伝えたい内容を整理し、基本的な表現を用いて相手に分かるように話す。",
+      "grades": [
+        5,
+        6
+      ],
+      "topicType": "expression",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-foreign-guideline-2017",
+          "note": "MEXT外国語科の5領域と複数社のR6 CAN-DO・年間計画を参照。読む・書くは慣れ親しんだ表現から段階的に扱う。"
+        },
+        {
+          "sourceId": "tokyo-shoseki-english-plan-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        },
+        {
+          "sourceId": "mitsumura-english-can-do-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-foreign"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review",
+      "gradePlacement": {
+        "status": "needs-review",
+        "candidateFirstIntroductionGrade": 5,
+        "candidateContinuingGrades": [
+          6
+        ],
+        "basis": "MEXT外国語科の5領域と複数社のR6 CAN-DO・年間計画を参照。読む・書くは慣れ親しんだ表現から段階的に扱う。",
+        "note": "学年は学習指導要領・出版社資料から見た編集上の候補。公式配当として確定していない。学校の教育課程や題材配列によって扱いは異なる。"
+      },
+      "studentName": "伝えたいことを英語で発表しよう",
+      "studentDescription": "自分のことや身近なことを整理し、写真や絵なども使って英語で発表しよう。"
+    },
+    {
+      "id": "jp.elem.foreign.read-familiar-words-and-sentences",
+      "subject": "外国語",
+      "domain": "外国語によるコミュニケーション",
+      "cluster": "読むこと",
+      "name": "読むこと",
+      "description": "音声で十分に慣れ親しんだ簡単な語句や基本的な表現を、文字と音の関係に気付きながら読んで意味を捉える。",
+      "grades": [
+        5,
+        6
+      ],
+      "topicType": "skill",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-foreign-guideline-2017",
+          "note": "MEXT外国語科の5領域と複数社のR6 CAN-DO・年間計画を参照。読む・書くは慣れ親しんだ表現から段階的に扱う。"
+        },
+        {
+          "sourceId": "tokyo-shoseki-english-plan-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        },
+        {
+          "sourceId": "mitsumura-english-can-do-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-foreign"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review",
+      "gradePlacement": {
+        "status": "needs-review",
+        "candidateFirstIntroductionGrade": 5,
+        "candidateContinuingGrades": [
+          6
+        ],
+        "basis": "MEXT外国語科の5領域と複数社のR6 CAN-DO・年間計画を参照。読む・書くは慣れ親しんだ表現から段階的に扱う。",
+        "note": "学年は学習指導要領・出版社資料から見た編集上の候補。公式配当として確定していない。学校の教育課程や題材配列によって扱いは異なる。"
+      },
+      "studentName": "知っている英語の語句や文を読もう",
+      "studentDescription": "聞いたり話したりしてきた英語の語句や短い文を、文字と音を結び付けながら読もう。"
+    },
+    {
+      "id": "jp.elem.foreign.write-familiar-words-and-sentences",
+      "subject": "外国語",
+      "domain": "外国語によるコミュニケーション",
+      "cluster": "書くこと",
+      "name": "書くこと",
+      "description": "音声で十分に慣れ親しんだ簡単な語句や基本的な表現を書き写したり、例文を参考に自分のことなどを書いたりする。",
+      "grades": [
+        5,
+        6
+      ],
+      "topicType": "skill",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-foreign-guideline-2017",
+          "note": "MEXT外国語科の5領域と複数社のR6 CAN-DO・年間計画を参照。読む・書くは慣れ親しんだ表現から段階的に扱う。"
+        },
+        {
+          "sourceId": "tokyo-shoseki-english-plan-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        },
+        {
+          "sourceId": "mitsumura-english-can-do-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-foreign"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review",
+      "gradePlacement": {
+        "status": "needs-review",
+        "candidateFirstIntroductionGrade": 5,
+        "candidateContinuingGrades": [
+          6
+        ],
+        "basis": "MEXT外国語科の5領域と複数社のR6 CAN-DO・年間計画を参照。読む・書くは慣れ親しんだ表現から段階的に扱う。",
+        "note": "学年は学習指導要領・出版社資料から見た編集上の候補。公式配当として確定していない。学校の教育課程や題材配列によって扱いは異なる。"
+      },
+      "studentName": "知っている英語を書いて伝えよう",
+      "studentDescription": "慣れ親しんだ語句や短い表現を書き写したり、自分のことを例を参考に書いたりしよう。"
+    },
+    {
+      "id": "jp.elem.foreign.letters-sounds-and-word-order",
+      "subject": "外国語",
+      "domain": "外国語によるコミュニケーション",
+      "cluster": "言語の特徴・文字",
+      "name": "文字・音・語順など英語の特徴への気付き",
+      "description": "活字体の文字の名称や音、語と語の区切り、語順などに気付き、音声で親しんだ表現を文字と結び付ける。",
+      "grades": [
+        5,
+        6
+      ],
+      "topicType": "concept",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-foreign-guideline-2017",
+          "note": "MEXT外国語科の5領域と複数社のR6 CAN-DO・年間計画を参照。読む・書くは慣れ親しんだ表現から段階的に扱う。"
+        },
+        {
+          "sourceId": "tokyo-shoseki-english-plan-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        },
+        {
+          "sourceId": "mitsumura-english-can-do-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-foreign"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review",
+      "gradePlacement": {
+        "status": "needs-review",
+        "candidateFirstIntroductionGrade": 5,
+        "candidateContinuingGrades": [
+          6
+        ],
+        "basis": "MEXT外国語科の5領域と複数社のR6 CAN-DO・年間計画を参照。読む・書くは慣れ親しんだ表現から段階的に扱う。",
+        "note": "学年は学習指導要領・出版社資料から見た編集上の候補。公式配当として確定していない。学校の教育課程や題材配列によって扱いは異なる。"
+      },
+      "studentName": "英語の文字や語順の特徴に気付こう",
+      "studentDescription": "文字の名前や音、言葉の並び方を日本語と比べ、英語の特徴を見つけよう。"
+    },
+    {
+      "id": "jp.elem.moral.content-self-judgment",
+      "subject": "道徳",
+      "domain": "A 自分自身",
+      "cluster": "道徳科の内容項目",
+      "name": "善悪の判断、自律、自由と責任",
+      "description": "善悪を判断し、自分で考えて行動することや、その結果に責任をもつことについて考える。",
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicType": "attitude",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-moral-guideline-2017",
+          "note": "MEXTの4視点・学年段階別内容項目と出版社の内容項目別資料を参照。内容項目は一本道の順序にしない。"
+        },
+        {
+          "sourceId": "mitsumura-moral-plan-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        },
+        {
+          "sourceId": "mitsumura-moral-items-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-moral"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review",
+      "gradePlacement": {
+        "status": "needs-review",
+        "candidateFirstIntroductionGrade": 1,
+        "candidateContinuingGrades": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "basis": "MEXTの4視点・学年段階別内容項目と出版社の内容項目別資料を参照。内容項目は一本道の順序にしない。",
+        "note": "学年は学習指導要領・出版社資料から見た編集上の候補。公式配当として確定していない。学校の教育課程や題材配列によって扱いは異なる。"
+      },
+      "studentName": "自分で考えて行動し、責任をもとう",
+      "studentDescription": "何がよいかを考え、自分で決めたことや行動に責任をもつことを考えよう。"
+    },
+    {
+      "id": "jp.elem.moral.content-honesty",
+      "subject": "道徳",
+      "domain": "A 自分自身",
+      "cluster": "道徳科の内容項目",
+      "name": "正直、誠実",
+      "description": "うそやごまかしをせず、誠実に行動することの意味や、自分の弱さと向き合うことについて考える。",
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicType": "attitude",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-moral-guideline-2017",
+          "note": "MEXTの4視点・学年段階別内容項目と出版社の内容項目別資料を参照。内容項目は一本道の順序にしない。"
+        },
+        {
+          "sourceId": "mitsumura-moral-plan-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        },
+        {
+          "sourceId": "mitsumura-moral-items-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-moral"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review",
+      "gradePlacement": {
+        "status": "needs-review",
+        "candidateFirstIntroductionGrade": 1,
+        "candidateContinuingGrades": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "basis": "MEXTの4視点・学年段階別内容項目と出版社の内容項目別資料を参照。内容項目は一本道の順序にしない。",
+        "note": "学年は学習指導要領・出版社資料から見た編集上の候補。公式配当として確定していない。学校の教育課程や題材配列によって扱いは異なる。"
+      },
+      "studentName": "正直で誠実な行動を考えよう",
+      "studentDescription": "自分の気持ちに正直になり、まっすぐに行動することについて考えよう。"
+    },
+    {
+      "id": "jp.elem.moral.content-moderation",
+      "subject": "道徳",
+      "domain": "A 自分自身",
+      "cluster": "道徳科の内容項目",
+      "name": "節度、節制",
+      "description": "自分の生活を振り返り、節度ある生活や安全・健康に気を配ることについて考える。",
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicType": "attitude",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-moral-guideline-2017",
+          "note": "MEXTの4視点・学年段階別内容項目と出版社の内容項目別資料を参照。内容項目は一本道の順序にしない。"
+        },
+        {
+          "sourceId": "mitsumura-moral-plan-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        },
+        {
+          "sourceId": "mitsumura-moral-items-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-moral"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review",
+      "gradePlacement": {
+        "status": "needs-review",
+        "candidateFirstIntroductionGrade": 1,
+        "candidateContinuingGrades": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "basis": "MEXTの4視点・学年段階別内容項目と出版社の内容項目別資料を参照。内容項目は一本道の順序にしない。",
+        "note": "学年は学習指導要領・出版社資料から見た編集上の候補。公式配当として確定していない。学校の教育課程や題材配列によって扱いは異なる。"
+      },
+      "studentName": "自分の生活を整えよう",
+      "studentDescription": "生活を振り返り、やりすぎず、健康や安全に気を付けることを考えよう。"
+    },
+    {
+      "id": "jp.elem.moral.content-individuality",
+      "subject": "道徳",
+      "domain": "A 自分自身",
+      "cluster": "道徳科の内容項目",
+      "name": "個性の伸長",
+      "description": "自分の特徴やよさに気付き、他者との違いを大切にしながら自分らしさを伸ばすことを考える。",
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicType": "attitude",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-moral-guideline-2017",
+          "note": "MEXTの4視点・学年段階別内容項目と出版社の内容項目別資料を参照。内容項目は一本道の順序にしない。"
+        },
+        {
+          "sourceId": "mitsumura-moral-plan-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        },
+        {
+          "sourceId": "mitsumura-moral-items-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-moral"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review",
+      "gradePlacement": {
+        "status": "needs-review",
+        "candidateFirstIntroductionGrade": 1,
+        "candidateContinuingGrades": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "basis": "MEXTの4視点・学年段階別内容項目と出版社の内容項目別資料を参照。内容項目は一本道の順序にしない。",
+        "note": "学年は学習指導要領・出版社資料から見た編集上の候補。公式配当として確定していない。学校の教育課程や題材配列によって扱いは異なる。"
+      },
+      "studentName": "自分のよさや個性を大切にしよう",
+      "studentDescription": "自分のよさや得意なことに気付き、自分らしく成長することを考えよう。"
+    },
+    {
+      "id": "jp.elem.moral.content-hope-effort",
+      "subject": "道徳",
+      "domain": "A 自分自身",
+      "cluster": "道徳科の内容項目",
+      "name": "希望と勇気、努力と強い意志",
+      "description": "目標に向かって希望をもち、困難に向き合いながら努力を続けることについて考える。",
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicType": "attitude",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-moral-guideline-2017",
+          "note": "MEXTの4視点・学年段階別内容項目と出版社の内容項目別資料を参照。内容項目は一本道の順序にしない。"
+        },
+        {
+          "sourceId": "mitsumura-moral-plan-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        },
+        {
+          "sourceId": "mitsumura-moral-items-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-moral"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review",
+      "gradePlacement": {
+        "status": "needs-review",
+        "candidateFirstIntroductionGrade": 1,
+        "candidateContinuingGrades": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "basis": "MEXTの4視点・学年段階別内容項目と出版社の内容項目別資料を参照。内容項目は一本道の順序にしない。",
+        "note": "学年は学習指導要領・出版社資料から見た編集上の候補。公式配当として確定していない。学校の教育課程や題材配列によって扱いは異なる。"
+      },
+      "studentName": "目標に向かって努力しよう",
+      "studentDescription": "うまくいかないときも工夫しながら、目標に向かって努力することを考えよう。"
+    },
+    {
+      "id": "jp.elem.moral.content-truth-seeking",
+      "subject": "道徳",
+      "domain": "A 自分自身",
+      "cluster": "道徳科の内容項目",
+      "name": "真理の探究",
+      "description": "物事を多面的に見て、疑問を大切にし、真実を探究し続けることについて考える。",
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicType": "attitude",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-moral-guideline-2017",
+          "note": "MEXTの4視点・学年段階別内容項目と出版社の内容項目別資料を参照。内容項目は一本道の順序にしない。"
+        },
+        {
+          "sourceId": "mitsumura-moral-plan-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        },
+        {
+          "sourceId": "mitsumura-moral-items-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-moral"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review",
+      "gradePlacement": {
+        "status": "needs-review",
+        "candidateFirstIntroductionGrade": 1,
+        "candidateContinuingGrades": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "basis": "MEXTの4視点・学年段階別内容項目と出版社の内容項目別資料を参照。内容項目は一本道の順序にしない。",
+        "note": "学年は学習指導要領・出版社資料から見た編集上の候補。公式配当として確定していない。学校の教育課程や題材配列によって扱いは異なる。"
+      },
+      "studentName": "疑問をもち、確かめ続けよう",
+      "studentDescription": "分からないことをそのままにせず、いろいろな見方から確かめることを考えよう。"
+    },
+    {
+      "id": "jp.elem.moral.content-kindness",
+      "subject": "道徳",
+      "domain": "B 人との関わり",
+      "cluster": "道徳科の内容項目",
+      "name": "親切、思いやり",
+      "description": "相手の立場や気持ちを考え、思いやりをもって接することについて考える。",
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicType": "attitude",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-moral-guideline-2017",
+          "note": "MEXTの4視点・学年段階別内容項目と出版社の内容項目別資料を参照。内容項目は一本道の順序にしない。"
+        },
+        {
+          "sourceId": "mitsumura-moral-plan-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        },
+        {
+          "sourceId": "mitsumura-moral-items-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-moral"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review",
+      "gradePlacement": {
+        "status": "needs-review",
+        "candidateFirstIntroductionGrade": 1,
+        "candidateContinuingGrades": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "basis": "MEXTの4視点・学年段階別内容項目と出版社の内容項目別資料を参照。内容項目は一本道の順序にしない。",
+        "note": "学年は学習指導要領・出版社資料から見た編集上の候補。公式配当として確定していない。学校の教育課程や題材配列によって扱いは異なる。"
+      },
+      "studentName": "相手の立場で考えよう",
+      "studentDescription": "相手の気持ちや状況を考え、どんな言葉や行動がよいか考えよう。"
+    },
+    {
+      "id": "jp.elem.moral.content-gratitude",
+      "subject": "道徳",
+      "domain": "B 人との関わり",
+      "cluster": "道徳科の内容項目",
+      "name": "感謝",
+      "description": "自分の生活が多くの人の支えによって成り立っていることに気付き、感謝を表すことについて考える。",
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicType": "attitude",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-moral-guideline-2017",
+          "note": "MEXTの4視点・学年段階別内容項目と出版社の内容項目別資料を参照。内容項目は一本道の順序にしない。"
+        },
+        {
+          "sourceId": "mitsumura-moral-plan-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        },
+        {
+          "sourceId": "mitsumura-moral-items-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-moral"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review",
+      "gradePlacement": {
+        "status": "needs-review",
+        "candidateFirstIntroductionGrade": 1,
+        "candidateContinuingGrades": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "basis": "MEXTの4視点・学年段階別内容項目と出版社の内容項目別資料を参照。内容項目は一本道の順序にしない。",
+        "note": "学年は学習指導要領・出版社資料から見た編集上の候補。公式配当として確定していない。学校の教育課程や題材配列によって扱いは異なる。"
+      },
+      "studentName": "支えてくれる人に感謝しよう",
+      "studentDescription": "周りの人の働きや支えに気付き、感謝の気持ちを伝えることを考えよう。"
+    },
+    {
+      "id": "jp.elem.moral.content-manners",
+      "subject": "道徳",
+      "domain": "B 人との関わり",
+      "cluster": "道徳科の内容項目",
+      "name": "礼儀",
+      "description": "相手や場に応じた礼儀や言葉遣い、挨拶などを通して、相手を尊重することについて考える。",
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicType": "attitude",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-moral-guideline-2017",
+          "note": "MEXTの4視点・学年段階別内容項目と出版社の内容項目別資料を参照。内容項目は一本道の順序にしない。"
+        },
+        {
+          "sourceId": "mitsumura-moral-plan-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        },
+        {
+          "sourceId": "mitsumura-moral-items-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-moral"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review",
+      "gradePlacement": {
+        "status": "needs-review",
+        "candidateFirstIntroductionGrade": 1,
+        "candidateContinuingGrades": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "basis": "MEXTの4視点・学年段階別内容項目と出版社の内容項目別資料を参照。内容項目は一本道の順序にしない。",
+        "note": "学年は学習指導要領・出版社資料から見た編集上の候補。公式配当として確定していない。学校の教育課程や題材配列によって扱いは異なる。"
+      },
+      "studentName": "相手を大切にする礼儀を考えよう",
+      "studentDescription": "あいさつや言葉遣い、態度を通して、相手を尊重することを考えよう。"
+    },
+    {
+      "id": "jp.elem.moral.content-friendship",
+      "subject": "道徳",
+      "domain": "B 人との関わり",
+      "cluster": "道徳科の内容項目",
+      "name": "友情、信頼",
+      "description": "友達との関係を考え、互いを理解し、信頼し合いながらよりよい関係を築くことについて考える。",
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicType": "attitude",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-moral-guideline-2017",
+          "note": "MEXTの4視点・学年段階別内容項目と出版社の内容項目別資料を参照。内容項目は一本道の順序にしない。"
+        },
+        {
+          "sourceId": "mitsumura-moral-plan-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        },
+        {
+          "sourceId": "mitsumura-moral-items-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-moral"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review",
+      "gradePlacement": {
+        "status": "needs-review",
+        "candidateFirstIntroductionGrade": 1,
+        "candidateContinuingGrades": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "basis": "MEXTの4視点・学年段階別内容項目と出版社の内容項目別資料を参照。内容項目は一本道の順序にしない。",
+        "note": "学年は学習指導要領・出版社資料から見た編集上の候補。公式配当として確定していない。学校の教育課程や題材配列によって扱いは異なる。"
+      },
+      "studentName": "友情と信頼を大切にしよう",
+      "studentDescription": "友達と支え合い、信頼できる関係をつくるにはどうしたらよいか考えよう。"
+    },
+    {
+      "id": "jp.elem.moral.content-mutual-understanding",
+      "subject": "道徳",
+      "domain": "B 人との関わり",
+      "cluster": "道徳科の内容項目",
+      "name": "相互理解、寛容",
+      "description": "自分と異なる考えや立場を理解し、違いを認め合いながら寛容な態度で接することについて考える。",
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicType": "attitude",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-moral-guideline-2017",
+          "note": "MEXTの4視点・学年段階別内容項目と出版社の内容項目別資料を参照。内容項目は一本道の順序にしない。"
+        },
+        {
+          "sourceId": "mitsumura-moral-plan-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        },
+        {
+          "sourceId": "mitsumura-moral-items-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-moral"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review",
+      "gradePlacement": {
+        "status": "needs-review",
+        "candidateFirstIntroductionGrade": 1,
+        "candidateContinuingGrades": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "basis": "MEXTの4視点・学年段階別内容項目と出版社の内容項目別資料を参照。内容項目は一本道の順序にしない。",
+        "note": "学年は学習指導要領・出版社資料から見た編集上の候補。公式配当として確定していない。学校の教育課程や題材配列によって扱いは異なる。"
+      },
+      "studentName": "違いを認め合おう",
+      "studentDescription": "自分とは違う考え方や感じ方を知り、互いを認め合うことを考えよう。"
+    },
+    {
+      "id": "jp.elem.moral.content-respect-rules",
+      "subject": "道徳",
+      "domain": "C 集団や社会",
+      "cluster": "道徳科の内容項目",
+      "name": "規則の尊重",
+      "description": "法やきまりの意義を理解し、みんなが安心して生活するためにきまりを守ることについて考える。",
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicType": "attitude",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-moral-guideline-2017",
+          "note": "MEXTの4視点・学年段階別内容項目と出版社の内容項目別資料を参照。内容項目は一本道の順序にしない。"
+        },
+        {
+          "sourceId": "mitsumura-moral-plan-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        },
+        {
+          "sourceId": "mitsumura-moral-items-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-moral"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review",
+      "gradePlacement": {
+        "status": "needs-review",
+        "candidateFirstIntroductionGrade": 1,
+        "candidateContinuingGrades": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "basis": "MEXTの4視点・学年段階別内容項目と出版社の内容項目別資料を参照。内容項目は一本道の順序にしない。",
+        "note": "学年は学習指導要領・出版社資料から見た編集上の候補。公式配当として確定していない。学校の教育課程や題材配列によって扱いは異なる。"
+      },
+      "studentName": "みんなのためのきまりを考えよう",
+      "studentDescription": "きまりがある理由を考え、みんなが安心して過ごすためにできることを考えよう。"
+    },
+    {
+      "id": "jp.elem.moral.content-fairness",
+      "subject": "道徳",
+      "domain": "C 集団や社会",
+      "cluster": "道徳科の内容項目",
+      "name": "公正、公平、社会正義",
+      "description": "誰に対しても公平に接し、差別や偏見をなくし、正義と公正を大切にすることについて考える。",
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicType": "attitude",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-moral-guideline-2017",
+          "note": "MEXTの4視点・学年段階別内容項目と出版社の内容項目別資料を参照。内容項目は一本道の順序にしない。"
+        },
+        {
+          "sourceId": "mitsumura-moral-plan-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        },
+        {
+          "sourceId": "mitsumura-moral-items-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-moral"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review",
+      "gradePlacement": {
+        "status": "needs-review",
+        "candidateFirstIntroductionGrade": 1,
+        "candidateContinuingGrades": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "basis": "MEXTの4視点・学年段階別内容項目と出版社の内容項目別資料を参照。内容項目は一本道の順序にしない。",
+        "note": "学年は学習指導要領・出版社資料から見た編集上の候補。公式配当として確定していない。学校の教育課程や題材配列によって扱いは異なる。"
+      },
+      "studentName": "公平で公正な行動を考えよう",
+      "studentDescription": "立場の違いに関わらず、誰もが大切にされるために何ができるか考えよう。"
+    },
+    {
+      "id": "jp.elem.moral.content-work-and-public-spirit",
+      "subject": "道徳",
+      "domain": "C 集団や社会",
+      "cluster": "道徳科の内容項目",
+      "name": "勤労、公共の精神",
+      "description": "働くことの意義や喜び、社会や公共のために役割を果たすことについて考える。",
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicType": "attitude",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-moral-guideline-2017",
+          "note": "MEXTの4視点・学年段階別内容項目と出版社の内容項目別資料を参照。内容項目は一本道の順序にしない。"
+        },
+        {
+          "sourceId": "mitsumura-moral-plan-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        },
+        {
+          "sourceId": "mitsumura-moral-items-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-moral"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review",
+      "gradePlacement": {
+        "status": "needs-review",
+        "candidateFirstIntroductionGrade": 1,
+        "candidateContinuingGrades": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "basis": "MEXTの4視点・学年段階別内容項目と出版社の内容項目別資料を参照。内容項目は一本道の順序にしない。",
+        "note": "学年は学習指導要領・出版社資料から見た編集上の候補。公式配当として確定していない。学校の教育課程や題材配列によって扱いは異なる。"
+      },
+      "studentName": "働くことや公共のための行動を考えよう",
+      "studentDescription": "自分の役割を果たすことや、みんなのために働くことの意味を考えよう。"
+    },
+    {
+      "id": "jp.elem.moral.content-family-love",
+      "subject": "道徳",
+      "domain": "C 集団や社会",
+      "cluster": "道徳科の内容項目",
+      "name": "家族愛、家庭生活の充実",
+      "description": "家族の愛情や支えに気付き、家族の一員として協力して家庭生活をよりよくすることについて考える。",
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicType": "attitude",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-moral-guideline-2017",
+          "note": "MEXTの4視点・学年段階別内容項目と出版社の内容項目別資料を参照。内容項目は一本道の順序にしない。"
+        },
+        {
+          "sourceId": "mitsumura-moral-plan-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        },
+        {
+          "sourceId": "mitsumura-moral-items-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-moral"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review",
+      "gradePlacement": {
+        "status": "needs-review",
+        "candidateFirstIntroductionGrade": 1,
+        "candidateContinuingGrades": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "basis": "MEXTの4視点・学年段階別内容項目と出版社の内容項目別資料を参照。内容項目は一本道の順序にしない。",
+        "note": "学年は学習指導要領・出版社資料から見た編集上の候補。公式配当として確定していない。学校の教育課程や題材配列によって扱いは異なる。"
+      },
+      "studentName": "家族の一員としてできることを考えよう",
+      "studentDescription": "家族の思いや協力に気付き、よりよい家庭生活のためにできることを考えよう。"
+    },
+    {
+      "id": "jp.elem.moral.content-school-community",
+      "subject": "道徳",
+      "domain": "C 集団や社会",
+      "cluster": "道徳科の内容項目",
+      "name": "よりよい学校生活、集団生活の充実",
+      "description": "学校や学級の一員として役割を果たし、協力してよりよい集団生活をつくることについて考える。",
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicType": "attitude",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-moral-guideline-2017",
+          "note": "MEXTの4視点・学年段階別内容項目と出版社の内容項目別資料を参照。内容項目は一本道の順序にしない。"
+        },
+        {
+          "sourceId": "mitsumura-moral-plan-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        },
+        {
+          "sourceId": "mitsumura-moral-items-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-moral"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review",
+      "gradePlacement": {
+        "status": "needs-review",
+        "candidateFirstIntroductionGrade": 1,
+        "candidateContinuingGrades": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "basis": "MEXTの4視点・学年段階別内容項目と出版社の内容項目別資料を参照。内容項目は一本道の順序にしない。",
+        "note": "学年は学習指導要領・出版社資料から見た編集上の候補。公式配当として確定していない。学校の教育課程や題材配列によって扱いは異なる。"
+      },
+      "studentName": "よりよい学級や学校をつくろう",
+      "studentDescription": "仲間と協力し、自分の役割を果たして、よりよい集団生活をつくることを考えよう。"
+    },
+    {
+      "id": "jp.elem.moral.content-tradition-and-culture",
+      "subject": "道徳",
+      "domain": "C 集団や社会",
+      "cluster": "道徳科の内容項目",
+      "name": "伝統と文化の尊重、国や郷土を愛する態度",
+      "description": "郷土や日本の伝統・文化に親しみ、そのよさを受け止め、継承・発展させることについて考える。",
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicType": "attitude",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-moral-guideline-2017",
+          "note": "MEXTの4視点・学年段階別内容項目と出版社の内容項目別資料を参照。内容項目は一本道の順序にしない。"
+        },
+        {
+          "sourceId": "mitsumura-moral-plan-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        },
+        {
+          "sourceId": "mitsumura-moral-items-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-moral"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review",
+      "gradePlacement": {
+        "status": "needs-review",
+        "candidateFirstIntroductionGrade": 1,
+        "candidateContinuingGrades": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "basis": "MEXTの4視点・学年段階別内容項目と出版社の内容項目別資料を参照。内容項目は一本道の順序にしない。",
+        "note": "学年は学習指導要領・出版社資料から見た編集上の候補。公式配当として確定していない。学校の教育課程や題材配列によって扱いは異なる。"
+      },
+      "studentName": "郷土や日本の文化を大切にしよう",
+      "studentDescription": "地域や日本の伝統・文化のよさを知り、これからに受け継ぐことを考えよう。"
+    },
+    {
+      "id": "jp.elem.moral.content-international-friendship",
+      "subject": "道徳",
+      "domain": "C 集団や社会",
+      "cluster": "道徳科の内容項目",
+      "name": "国際理解、国際親善",
+      "description": "他国の人々や文化を理解・尊重し、世界の人々と友好を深めることについて考える。",
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicType": "attitude",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-moral-guideline-2017",
+          "note": "MEXTの4視点・学年段階別内容項目と出版社の内容項目別資料を参照。内容項目は一本道の順序にしない。"
+        },
+        {
+          "sourceId": "mitsumura-moral-plan-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        },
+        {
+          "sourceId": "mitsumura-moral-items-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-moral"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review",
+      "gradePlacement": {
+        "status": "needs-review",
+        "candidateFirstIntroductionGrade": 1,
+        "candidateContinuingGrades": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "basis": "MEXTの4視点・学年段階別内容項目と出版社の内容項目別資料を参照。内容項目は一本道の順序にしない。",
+        "note": "学年は学習指導要領・出版社資料から見た編集上の候補。公式配当として確定していない。学校の教育課程や題材配列によって扱いは異なる。"
+      },
+      "studentName": "世界の人々と理解し合おう",
+      "studentDescription": "国や文化の違いを知り、世界の人々と互いに理解し合うことを考えよう。"
+    },
+    {
+      "id": "jp.elem.moral.content-respect-life",
+      "subject": "道徳",
+      "domain": "D 生命・自然",
+      "cluster": "道徳科の内容項目",
+      "name": "生命の尊さ",
+      "description": "生命のかけがえのなさや尊さに気付き、自分や他者、生き物の生命を大切にすることについて考える。",
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicType": "attitude",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-moral-guideline-2017",
+          "note": "MEXTの4視点・学年段階別内容項目と出版社の内容項目別資料を参照。内容項目は一本道の順序にしない。"
+        },
+        {
+          "sourceId": "mitsumura-moral-plan-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        },
+        {
+          "sourceId": "mitsumura-moral-items-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-moral"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review",
+      "gradePlacement": {
+        "status": "needs-review",
+        "candidateFirstIntroductionGrade": 1,
+        "candidateContinuingGrades": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "basis": "MEXTの4視点・学年段階別内容項目と出版社の内容項目別資料を参照。内容項目は一本道の順序にしない。",
+        "note": "学年は学習指導要領・出版社資料から見た編集上の候補。公式配当として確定していない。学校の教育課程や題材配列によって扱いは異なる。"
+      },
+      "studentName": "生命を大切にしよう",
+      "studentDescription": "自分や周りの人、生き物の命がかけがえのないことについて考えよう。"
+    },
+    {
+      "id": "jp.elem.moral.content-care-nature",
+      "subject": "道徳",
+      "domain": "D 生命・自然",
+      "cluster": "道徳科の内容項目",
+      "name": "自然愛護",
+      "description": "自然の美しさや不思議さに触れ、自然や動植物を大切にし、環境を守ることについて考える。",
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicType": "attitude",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-moral-guideline-2017",
+          "note": "MEXTの4視点・学年段階別内容項目と出版社の内容項目別資料を参照。内容項目は一本道の順序にしない。"
+        },
+        {
+          "sourceId": "mitsumura-moral-plan-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        },
+        {
+          "sourceId": "mitsumura-moral-items-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-moral"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review",
+      "gradePlacement": {
+        "status": "needs-review",
+        "candidateFirstIntroductionGrade": 1,
+        "candidateContinuingGrades": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "basis": "MEXTの4視点・学年段階別内容項目と出版社の内容項目別資料を参照。内容項目は一本道の順序にしない。",
+        "note": "学年は学習指導要領・出版社資料から見た編集上の候補。公式配当として確定していない。学校の教育課程や題材配列によって扱いは異なる。"
+      },
+      "studentName": "自然や生き物を大切にしよう",
+      "studentDescription": "自然の恵みや生き物との関わりを考え、守るためにできることを見つけよう。"
+    },
+    {
+      "id": "jp.elem.moral.content-awe-and-beauty",
+      "subject": "道徳",
+      "domain": "D 生命・自然",
+      "cluster": "道徳科の内容項目",
+      "name": "感動、畏敬の念",
+      "description": "美しいものや気高いもの、自然や人間の力を超えたものに触れ、感動や畏敬の念をもつことについて考える。",
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicType": "attitude",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-moral-guideline-2017",
+          "note": "MEXTの4視点・学年段階別内容項目と出版社の内容項目別資料を参照。内容項目は一本道の順序にしない。"
+        },
+        {
+          "sourceId": "mitsumura-moral-plan-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        },
+        {
+          "sourceId": "mitsumura-moral-items-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-moral"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review",
+      "gradePlacement": {
+        "status": "needs-review",
+        "candidateFirstIntroductionGrade": 1,
+        "candidateContinuingGrades": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "basis": "MEXTの4視点・学年段階別内容項目と出版社の内容項目別資料を参照。内容項目は一本道の順序にしない。",
+        "note": "学年は学習指導要領・出版社資料から見た編集上の候補。公式配当として確定していない。学校の教育課程や題材配列によって扱いは異なる。"
+      },
+      "studentName": "美しさやすばらしさに心を動かそう",
+      "studentDescription": "自然や芸術、人の行いなどに触れ、心を動かされたことを考えよう。"
+    },
+    {
+      "id": "jp.elem.moral.content-joy-of-living",
+      "subject": "道徳",
+      "domain": "D 生命・自然",
+      "cluster": "道徳科の内容項目",
+      "name": "よりよく生きる喜び",
+      "description": "人としてよりよく生きようとする心や、弱さを乗り越えようとする生き方について考える。",
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicType": "attitude",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-moral-guideline-2017",
+          "note": "MEXTの4視点・学年段階別内容項目と出版社の内容項目別資料を参照。内容項目は一本道の順序にしない。"
+        },
+        {
+          "sourceId": "mitsumura-moral-plan-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        },
+        {
+          "sourceId": "mitsumura-moral-items-2024",
+          "note": "出版社の年間指導計画・内容系統・CAN-DO等を補助参照。単元配列は出版社や学校の一例として扱う。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-moral"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review",
+      "gradePlacement": {
+        "status": "needs-review",
+        "candidateFirstIntroductionGrade": 1,
+        "candidateContinuingGrades": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "basis": "MEXTの4視点・学年段階別内容項目と出版社の内容項目別資料を参照。内容項目は一本道の順序にしない。",
+        "note": "学年は学習指導要領・出版社資料から見た編集上の候補。公式配当として確定していない。学校の教育課程や題材配列によって扱いは異なる。"
+      },
+      "studentName": "よりよく生きることを考えよう",
+      "studentDescription": "自分の弱さや迷いと向き合い、よりよく生きるために大切なことを考えよう。"
+    },
+    {
+      "id": "jp.elem.integrated.set-inquiry-question",
+      "subject": "総合的な学習の時間",
+      "domain": "探究的な学習の過程",
+      "cluster": "課題設定",
+      "name": "課題を見いだし、問いを設定する",
+      "description": "実社会や実生活の複雑な問題から、自分たちが追究したい課題を見いだし、目的や見通しをもって問いを設定する。",
+      "grades": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicType": "inquiry",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-integrated-guideline-2017",
+          "note": "MEXT解説の探究的な学習過程を参照。具体的テーマ・内容は各学校が定め、固定しない。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-integrated"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review",
+      "gradePlacement": {
+        "status": "needs-review",
+        "candidateFirstIntroductionGrade": 3,
+        "candidateContinuingGrades": [
+          4,
+          5,
+          6
+        ],
+        "basis": "MEXT解説の探究的な学習過程を参照。具体的テーマ・内容は各学校が定め、固定しない。",
+        "note": "学年は学習指導要領・出版社資料から見た編集上の候補。公式配当として確定していない。学校の教育課程や題材配列によって扱いは異なる。"
+      },
+      "studentName": "自分たちの問いをつくろう",
+      "studentDescription": "身近な生活や社会の中から気になることを見つけ、何を明らかにしたいか問いをつくろう。"
+    },
+    {
+      "id": "jp.elem.integrated.collect-information-and-investigate",
+      "subject": "総合的な学習の時間",
+      "domain": "探究的な学習の過程",
+      "cluster": "情報収集",
+      "name": "情報を集め、調べる",
+      "description": "問いに応じて、観察・体験・聞き取り・資料・ICTなど複数の方法を選び、必要な情報を集める。",
+      "grades": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicType": "inquiry",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-integrated-guideline-2017",
+          "note": "MEXT解説の探究的な学習過程を参照。具体的テーマ・内容は各学校が定め、固定しない。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-integrated"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review",
+      "gradePlacement": {
+        "status": "needs-review",
+        "candidateFirstIntroductionGrade": 3,
+        "candidateContinuingGrades": [
+          4,
+          5,
+          6
+        ],
+        "basis": "MEXT解説の探究的な学習過程を参照。具体的テーマ・内容は各学校が定め、固定しない。",
+        "note": "学年は学習指導要領・出版社資料から見た編集上の候補。公式配当として確定していない。学校の教育課程や題材配列によって扱いは異なる。"
+      },
+      "studentName": "問いに合う方法で調べよう",
+      "studentDescription": "見たり聞いたり、資料を読んだりして、問いを解決するために必要な情報を集めよう。"
+    },
+    {
+      "id": "jp.elem.integrated.organize-and-analyze-information",
+      "subject": "総合的な学習の時間",
+      "domain": "探究的な学習の過程",
+      "cluster": "整理・分析",
+      "name": "情報を整理・分析する",
+      "description": "集めた情報を比較・分類・関連付け、根拠や多様な立場を検討しながら意味や傾向を見いだす。",
+      "grades": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicType": "inquiry",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-integrated-guideline-2017",
+          "note": "MEXT解説の探究的な学習過程を参照。具体的テーマ・内容は各学校が定め、固定しない。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-integrated"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review",
+      "gradePlacement": {
+        "status": "needs-review",
+        "candidateFirstIntroductionGrade": 3,
+        "candidateContinuingGrades": [
+          4,
+          5,
+          6
+        ],
+        "basis": "MEXT解説の探究的な学習過程を参照。具体的テーマ・内容は各学校が定め、固定しない。",
+        "note": "学年は学習指導要領・出版社資料から見た編集上の候補。公式配当として確定していない。学校の教育課程や題材配列によって扱いは異なる。"
+      },
+      "studentName": "情報を比べ、関係を見つけよう",
+      "studentDescription": "集めた情報を表や図に整理し、共通点や違い、原因や関係を考えよう。"
+    },
+    {
+      "id": "jp.elem.integrated.summarize-and-communicate-findings",
+      "subject": "総合的な学習の時間",
+      "domain": "探究的な学習の過程",
+      "cluster": "まとめ・表現",
+      "name": "まとめ、表現・発信する",
+      "description": "探究の結果や考えを、相手や目的に合わせて文章、発表、作品、提案などでまとめて伝える。",
+      "grades": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicType": "expression",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-integrated-guideline-2017",
+          "note": "MEXT解説の探究的な学習過程を参照。具体的テーマ・内容は各学校が定め、固定しない。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-integrated"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review",
+      "gradePlacement": {
+        "status": "needs-review",
+        "candidateFirstIntroductionGrade": 3,
+        "candidateContinuingGrades": [
+          4,
+          5,
+          6
+        ],
+        "basis": "MEXT解説の探究的な学習過程を参照。具体的テーマ・内容は各学校が定め、固定しない。",
+        "note": "学年は学習指導要領・出版社資料から見た編集上の候補。公式配当として確定していない。学校の教育課程や題材配列によって扱いは異なる。"
+      },
+      "studentName": "分かったことを相手に伝えよう",
+      "studentDescription": "調べて考えたことを、相手に伝わる方法を選んでまとめ、発表しよう。"
+    },
+    {
+      "id": "jp.elem.integrated.reflect-and-renew-inquiry",
+      "subject": "総合的な学習の時間",
+      "domain": "探究的な学習の過程",
+      "cluster": "振り返り・次の課題",
+      "name": "振り返り、次の問いへつなぐ",
+      "description": "探究の過程や成果を振り返り、学びの意味や自分の変化を捉え、次の課題や実生活での行動につなげる。",
+      "grades": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicType": "reflection",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-integrated-guideline-2017",
+          "note": "MEXT解説の探究的な学習過程を参照。具体的テーマ・内容は各学校が定め、固定しない。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-integrated"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review",
+      "gradePlacement": {
+        "status": "needs-review",
+        "candidateFirstIntroductionGrade": 3,
+        "candidateContinuingGrades": [
+          4,
+          5,
+          6
+        ],
+        "basis": "MEXT解説の探究的な学習過程を参照。具体的テーマ・内容は各学校が定め、固定しない。",
+        "note": "学年は学習指導要領・出版社資料から見た編集上の候補。公式配当として確定していない。学校の教育課程や題材配列によって扱いは異なる。"
+      },
+      "studentName": "学びを振り返り、次の問いを見つけよう",
+      "studentDescription": "調べ方や考え方を振り返り、もっと知りたいことや生活でできることを見つけよう。"
+    },
+    {
+      "id": "jp.elem.integrated.collaborate-and-use-thinking-tools",
+      "subject": "総合的な学習の時間",
+      "domain": "探究的な学習の過程",
+      "cluster": "協働・思考の方法",
+      "name": "協働し、考えるための方法を使う",
+      "description": "他者との対話や協働、情報の可視化、比較・分類・関係付けなどの思考方法を目的に応じて活用する。",
+      "grades": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicType": "practice",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-integrated-guideline-2017",
+          "note": "MEXT解説の探究的な学習過程を参照。具体的テーマ・内容は各学校が定め、固定しない。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-integrated"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review",
+      "gradePlacement": {
+        "status": "needs-review",
+        "candidateFirstIntroductionGrade": 3,
+        "candidateContinuingGrades": [
+          4,
+          5,
+          6
+        ],
+        "basis": "MEXT解説の探究的な学習過程を参照。具体的テーマ・内容は各学校が定め、固定しない。",
+        "note": "学年は学習指導要領・出版社資料から見た編集上の候補。公式配当として確定していない。学校の教育課程や題材配列によって扱いは異なる。"
+      },
+      "studentName": "仲間と考え、思考の方法を使おう",
+      "studentDescription": "友達や地域の人と考えを出し合い、表や図、比べる方法などを使って考えを深めよう。"
+    },
+    {
+      "id": "jp.elem.special.class-and-school-life-making",
+      "subject": "特別活動",
+      "domain": "学級活動",
+      "cluster": "生活づくりへの参画",
+      "name": "学級や学校の生活づくりへの参画",
+      "description": "学級や学校における生活上の課題を見いだし、話合いで合意形成を図り、よりよい生活に向けて実践する。",
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicType": "practice",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-special-activities-guideline-2017",
+          "note": "MEXT解説の学級活動・児童会活動・クラブ活動・学校行事の構成を参照。学校行事の種類・時期は各校で異なる。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-special-activities"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review",
+      "gradePlacement": {
+        "status": "needs-review",
+        "candidateFirstIntroductionGrade": 1,
+        "candidateContinuingGrades": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "basis": "MEXT解説の学級活動・児童会活動・クラブ活動・学校行事の構成を参照。学校行事の種類・時期は各校で異なる。",
+        "note": "学年は学習指導要領・出版社資料から見た編集上の候補。公式配当として確定していない。学校の教育課程や題材配列によって扱いは異なる。"
+      },
+      "studentName": "みんなで学級や学校をよりよくしよう",
+      "studentDescription": "生活の中の課題を見つけ、みんなで話し合い、決めたことを実践しよう。"
+    },
+    {
+      "id": "jp.elem.special.class-organization-and-roles",
+      "subject": "特別活動",
+      "domain": "学級活動",
+      "cluster": "組織づくり・役割",
+      "name": "学級内の組織づくりと役割の自覚",
+      "description": "学級生活の充実や向上のために組織をつくり、役割を分担し、責任をもって協力して活動する。",
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicType": "practice",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-special-activities-guideline-2017",
+          "note": "MEXT解説の学級活動・児童会活動・クラブ活動・学校行事の構成を参照。学校行事の種類・時期は各校で異なる。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-special-activities"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review",
+      "gradePlacement": {
+        "status": "needs-review",
+        "candidateFirstIntroductionGrade": 1,
+        "candidateContinuingGrades": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "basis": "MEXT解説の学級活動・児童会活動・クラブ活動・学校行事の構成を参照。学校行事の種類・時期は各校で異なる。",
+        "note": "学年は学習指導要領・出版社資料から見た編集上の候補。公式配当として確定していない。学校の教育課程や題材配列によって扱いは異なる。"
+      },
+      "studentName": "役割を分担して協力しよう",
+      "studentDescription": "学級の仕事や係などで自分の役割を考え、仲間と協力して取り組もう。"
+    },
+    {
+      "id": "jp.elem.special.daily-life-adjustment-and-health-safety",
+      "subject": "特別活動",
+      "domain": "学級活動",
+      "cluster": "日常生活への適応・健康安全",
+      "name": "日常生活や学習への適応と健康・安全",
+      "description": "基本的な生活習慣、学習習慣、人間関係、健康・安全などについて自分の課題を見いだし、解決方法を考えて実践する。",
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicType": "practice",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-special-activities-guideline-2017",
+          "note": "MEXT解説の学級活動・児童会活動・クラブ活動・学校行事の構成を参照。学校行事の種類・時期は各校で異なる。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-special-activities"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review",
+      "gradePlacement": {
+        "status": "needs-review",
+        "candidateFirstIntroductionGrade": 1,
+        "candidateContinuingGrades": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "basis": "MEXT解説の学級活動・児童会活動・クラブ活動・学校行事の構成を参照。学校行事の種類・時期は各校で異なる。",
+        "note": "学年は学習指導要領・出版社資料から見た編集上の候補。公式配当として確定していない。学校の教育課程や題材配列によって扱いは異なる。"
+      },
+      "studentName": "自分の生活や学びを整えよう",
+      "studentDescription": "生活や学習の様子を振り返り、自分に合う方法を考えて試してみよう。"
+    },
+    {
+      "id": "jp.elem.special.career-formation-and-self-realization",
+      "subject": "特別活動",
+      "domain": "学級活動",
+      "cluster": "キャリア形成・自己実現",
+      "name": "一人一人のキャリア形成と自己実現",
+      "description": "自分のよさや可能性、将来の生き方を考え、学習や生活の目標を立て、実践と振り返りを通して自己実現を図る。",
+      "grades": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicType": "reflection",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-special-activities-guideline-2017",
+          "note": "MEXT解説の学級活動・児童会活動・クラブ活動・学校行事の構成を参照。学校行事の種類・時期は各校で異なる。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-special-activities"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review",
+      "gradePlacement": {
+        "status": "needs-review",
+        "candidateFirstIntroductionGrade": 3,
+        "candidateContinuingGrades": [
+          4,
+          5,
+          6
+        ],
+        "basis": "MEXT解説の学級活動・児童会活動・クラブ活動・学校行事の構成を参照。学校行事の種類・時期は各校で異なる。",
+        "note": "学年は学習指導要領・出版社資料から見た編集上の候補。公式配当として確定していない。学校の教育課程や題材配列によって扱いは異なる。"
+      },
+      "studentName": "自分のよさや将来を考えよう",
+      "studentDescription": "自分のよさや興味を見つけ、これからの目標や挑戦したいことを考えよう。"
+    },
+    {
+      "id": "jp.elem.special.student-council-planning-and-operation",
+      "subject": "特別活動",
+      "domain": "児童会活動",
+      "cluster": "組織づくり・計画運営",
+      "name": "児童会の組織づくりと計画・運営",
+      "description": "児童会の組織をつくり、異年齢の児童が協力して学校生活の向上に向けた活動を計画・運営する。",
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicType": "practice",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-special-activities-guideline-2017",
+          "note": "MEXT解説の学級活動・児童会活動・クラブ活動・学校行事の構成を参照。学校行事の種類・時期は各校で異なる。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-special-activities"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review",
+      "gradePlacement": {
+        "status": "needs-review",
+        "candidateFirstIntroductionGrade": 1,
+        "candidateContinuingGrades": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "basis": "MEXT解説の学級活動・児童会活動・クラブ活動・学校行事の構成を参照。学校行事の種類・時期は各校で異なる。",
+        "note": "学年は学習指導要領・出版社資料から見た編集上の候補。公式配当として確定していない。学校の教育課程や題材配列によって扱いは異なる。"
+      },
+      "studentName": "児童会で学校をよりよくしよう",
+      "studentDescription": "学年をこえて意見を出し合い、学校生活をよくする活動を計画して進めよう。"
+    },
+    {
+      "id": "jp.elem.special.club-activities-and-interests",
+      "subject": "特別活動",
+      "domain": "クラブ活動",
+      "cluster": "興味・関心の追求",
+      "name": "クラブ活動と興味・関心の追求",
+      "description": "共通の興味・関心をもつ異年齢の児童が、計画や役割分担を話し合い、協力して活動を楽しみ、成果を共有する。",
+      "grades": [
+        4,
+        5,
+        6
+      ],
+      "topicType": "experience",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-special-activities-guideline-2017",
+          "note": "MEXT解説の学級活動・児童会活動・クラブ活動・学校行事の構成を参照。学校行事の種類・時期は各校で異なる。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-special-activities"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review",
+      "gradePlacement": {
+        "status": "needs-review",
+        "candidateFirstIntroductionGrade": 4,
+        "candidateContinuingGrades": [
+          5,
+          6
+        ],
+        "basis": "MEXT解説の学級活動・児童会活動・クラブ活動・学校行事の構成を参照。学校行事の種類・時期は各校で異なる。",
+        "note": "学年は学習指導要領・出版社資料から見た編集上の候補。公式配当として確定していない。学校の教育課程や題材配列によって扱いは異なる。"
+      },
+      "studentName": "共通の興味をもつ仲間と活動しよう",
+      "studentDescription": "好きなことや興味のあることを仲間と追究し、計画して活動しよう。"
+    },
+    {
+      "id": "jp.elem.special.school-events-and-cooperation",
+      "subject": "特別活動",
+      "domain": "学校行事",
+      "cluster": "集団活動・体験",
+      "name": "学校行事と集団での体験",
+      "description": "儀式的行事、文化的行事、健康安全・体育的行事、遠足・集団宿泊的行事、勤労生産・奉仕的行事などに協力して取り組む。",
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicType": "experience",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-special-activities-guideline-2017",
+          "note": "MEXT解説の学級活動・児童会活動・クラブ活動・学校行事の構成を参照。学校行事の種類・時期は各校で異なる。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-special-activities"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review",
+      "gradePlacement": {
+        "status": "needs-review",
+        "candidateFirstIntroductionGrade": 1,
+        "candidateContinuingGrades": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "basis": "MEXT解説の学級活動・児童会活動・クラブ活動・学校行事の構成を参照。学校行事の種類・時期は各校で異なる。",
+        "note": "学年は学習指導要領・出版社資料から見た編集上の候補。公式配当として確定していない。学校の教育課程や題材配列によって扱いは異なる。"
+      },
+      "studentName": "仲間と力を合わせて学校行事に取り組もう",
+      "studentDescription": "みんなで準備や役割を分担し、協力して行事をつくり、達成感を味わおう。"
+    },
+    {
+      "id": "jp.elem.special.reflect-on-activities-and-improve",
+      "subject": "特別活動",
+      "domain": "特別活動",
+      "cluster": "振り返り・改善",
+      "name": "活動を振り返り次の活動に生かす",
+      "description": "活動の過程や成果を振り返り、集団や自分の成長に気付き、次の活動の改善や新たな目標につなげる。",
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicType": "reflection",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-special-activities-guideline-2017",
+          "note": "MEXT解説の学級活動・児童会活動・クラブ活動・学校行事の構成を参照。学校行事の種類・時期は各校で異なる。"
+        }
+      ],
+      "curriculumStandards": [
+        "project-ref-special-activities"
+      ],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review",
+      "gradePlacement": {
+        "status": "needs-review",
+        "candidateFirstIntroductionGrade": 1,
+        "candidateContinuingGrades": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "basis": "MEXT解説の学級活動・児童会活動・クラブ活動・学校行事の構成を参照。学校行事の種類・時期は各校で異なる。",
+        "note": "学年は学習指導要領・出版社資料から見た編集上の候補。公式配当として確定していない。学校の教育課程や題材配列によって扱いは異なる。"
+      },
+      "studentName": "活動を振り返り、次に生かそう",
+      "studentDescription": "何ができたか、どんな協力ができたかを振り返り、次の活動に生かそう。"
     }
   ]
 }
