@@ -143,6 +143,204 @@
           ]
         }
       ]
+    },
+    {
+      "id": "fractions-decimals",
+      "title": "分数と小数をつなぐ",
+      "question": "同じ大きさを、分数や小数でどう表す？",
+      "summary": "分けた大きさを単位分数で捉え、小数と分数を数直線や位取りで結び付け、計算や割合へ広げる。",
+      "stages": [
+        {
+          "label": "分数の意味と大きさ",
+          "grades": "2〜4年ごろ",
+          "topicIds": [
+            "jp.elem.math.unit-fractions",
+            "jp.elem.math.fractions-compare",
+            "jp.elem.math.fractions-same-denominator"
+          ]
+        },
+        {
+          "label": "小数と分数を対応させる",
+          "grades": "3〜5年ごろ",
+          "topicIds": [
+            "jp.elem.math.decimals-tenths",
+            "jp.elem.math.decimal-fraction-tenths",
+            "jp.elem.math.decimal-fraction-numberline",
+            "jp.elem.math.decimal-fraction-equivalence",
+            "jp.elem.math.decimal-place-value"
+          ]
+        },
+        {
+          "label": "分数・小数の計算へ",
+          "grades": "4〜6年ごろ",
+          "topicIds": [
+            "jp.elem.math.decimal-add-subtract",
+            "jp.elem.math.fractions-unlike-denominators",
+            "jp.elem.math.decimal-multiply-divide",
+            "jp.elem.math.fraction-multiply-divide"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "geometry-shapes",
+      "title": "図形の特徴を見つける",
+      "question": "形をつくる要素や、図形どうしの関係は？",
+      "summary": "辺・頂点・角・面に着目し、分類・作図・合同・対称・拡大縮小へと見方を深める。",
+      "stages": [
+        {
+          "label": "形を見分け、構成する",
+          "grades": "1〜3年ごろ",
+          "topicIds": [
+            "jp.elem.math.familiar-shapes",
+            "jp.elem.math.compose-decompose-shapes",
+            "jp.elem.math.triangles-quadrilaterals",
+            "jp.elem.math.triangles-circles-spheres",
+            "jp.elem.math.boxes-and-faces"
+          ]
+        },
+        {
+          "label": "直線・角・四角形の性質",
+          "grades": "3〜5年ごろ",
+          "topicIds": [
+            "jp.elem.math.angles",
+            "jp.elem.math.angle-measurement",
+            "jp.elem.math.perpendicular-parallel",
+            "jp.elem.math.quadrilateral-properties",
+            "jp.elem.math.geometric-construction",
+            "jp.elem.math.angle-sums-in-polygons"
+          ]
+        },
+        {
+          "label": "図形の対応や変化を調べる",
+          "grades": "5〜6年ごろ",
+          "topicIds": [
+            "jp.elem.math.congruent-figures",
+            "jp.elem.math.symmetry",
+            "jp.elem.math.enlargement-reduction"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "measurement-quantities",
+      "title": "量を比べ、測り、求める",
+      "question": "長さ・重さ・面積・体積などをどう表す？",
+      "summary": "直接比べる経験から単位を使った測定へ進み、公式や単位換算、およその量の見積もりを活用する。",
+      "stages": [
+        {
+          "label": "直接比べて、単位を使う",
+          "grades": "1〜3年ごろ",
+          "topicIds": [
+            "jp.elem.math.direct-measurement",
+            "jp.elem.math.time-reading",
+            "jp.elem.math.length-units-cm-mm-m",
+            "jp.elem.math.capacity-units",
+            "jp.elem.math.elapsed-time",
+            "jp.elem.math.mass-units",
+            "jp.elem.math.distance-kilometer"
+          ]
+        },
+        {
+          "label": "面積や体積を求める",
+          "grades": "4〜5年ごろ",
+          "topicIds": [
+            "jp.elem.math.area-rectangle-square",
+            "jp.elem.math.area-units",
+            "jp.elem.math.area-triangle-parallelogram-trapezoid",
+            "jp.elem.math.volume-cuboid",
+            "jp.elem.math.volume-units",
+            "jp.elem.math.solids-nets"
+          ]
+        },
+        {
+          "label": "単位や量を横断して活用する",
+          "grades": "5〜6年ごろ",
+          "topicIds": [
+            "jp.elem.math.unit-conversion-length-area-volume",
+            "jp.elem.math.area-circle",
+            "jp.elem.math.volume-prisms-cylinders",
+            "jp.elem.math.approximate-area-volume",
+            "jp.elem.math.measurement-choice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "relationships-and-proportion",
+      "title": "数量の関係を表す",
+      "question": "二つの数量は、どのように対応し変わる？",
+      "summary": "一方を基準にした割合や単位量の見方から、比・比例・反比例を表・式・グラフで捉える。",
+      "stages": [
+        {
+          "label": "数量の関係を捉える",
+          "grades": "2〜4年ごろ",
+          "topicIds": [
+            "jp.elem.math.unknown-number-box-expression",
+            "jp.elem.math.unknown-number-solve",
+            "jp.elem.math.unknown-number-relationships",
+            "jp.elem.math.changing-quantities-patterns"
+          ]
+        },
+        {
+          "label": "割合や1あたりの大きさ",
+          "grades": "5年ごろ",
+          "topicIds": [
+            "jp.elem.math.unit-quantity",
+            "jp.elem.math.percentage",
+            "jp.elem.math.speed"
+          ]
+        },
+        {
+          "label": "比・比例・反比例",
+          "grades": "5〜6年ごろ",
+          "topicIds": [
+            "jp.elem.math.ratio",
+            "jp.elem.math.scale-and-ratio",
+            "jp.elem.math.meaning-of-proportion",
+            "jp.elem.math.proportionality",
+            "jp.elem.math.inverse-proportionality"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "data-and-reasoning",
+      "title": "データを整理し、判断する",
+      "question": "集めたデータから、何が分かる？",
+      "summary": "分類・表・グラフで情報を整理し、代表値や分布、割合を使って根拠をもって説明する。",
+      "stages": [
+        {
+          "label": "分類して表やグラフにする",
+          "grades": "1〜3年ごろ",
+          "topicIds": [
+            "jp.elem.math.classify-count-pictograph",
+            "jp.elem.math.tables-simple-graphs",
+            "jp.elem.math.bar-graphs"
+          ]
+        },
+        {
+          "label": "変化や複数の観点で見る",
+          "grades": "4〜5年ごろ",
+          "topicIds": [
+            "jp.elem.math.line-graphs",
+            "jp.elem.math.tables-multiple-viewpoints",
+            "jp.elem.math.data-based-reasoning"
+          ]
+        },
+        {
+          "label": "データを多面的に分析する",
+          "grades": "5〜6年ごろ",
+          "topicIds": [
+            "jp.elem.math.data-frequency-tables",
+            "jp.elem.math.average",
+            "jp.elem.math.percentage-graphs",
+            "jp.elem.math.statistical-viewpoints",
+            "jp.elem.math.data-statistical-investigation",
+            "jp.elem.math.arrangements-combinations"
+          ]
+        }
+      ]
     }
   ],
   "connections": [
@@ -178,6 +376,7 @@
     "既存の学習項目IDは削除・改名せず、この道すじの中から詳しい説明へ進むための参照として使う。",
     "学習の道すじは授業や教材の配列を一つに固定するものではない。",
     "2026-10-19: 第4学年のわり算の筆算を独立項目として追加し、わり算の道すじから参照できるようにした。公式コードとの対応は未確認。",
-    "2026-10-19: わり算の筆算と、多けたのひき算・整数の位取りとの関係を依存関係データにも追加。いずれもプロジェクト編集上の推奨関係で、公式コード照合は未完了。"
+    "2026-10-19: わり算の筆算と、多けたのひき算・整数の位取りとの関係を依存関係データにも追加。いずれもプロジェクト編集上の推奨関係で、公式コード照合は未完了。",
+    "2026-11-07: 算数の学びを、分数・小数、図形、量と測定、数量関係、データ活用の5つの道すじに拡張。既存の整数計算5道すじと合わせ、単元間のつながりを子ども・教員・AIが大きなまとまりからたどれる構成案とした。各学年は候補であり、公式配当や必修順序を意味しない。"
   ]
 }
