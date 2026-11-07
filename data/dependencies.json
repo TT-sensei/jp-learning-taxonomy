@@ -2120,6 +2120,886 @@
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
       "studentRationale": "いくつかの計算を組み合わせて、身近な問題を解決しよう。"
+    },
+    {
+      "id": "japanese-edge-001",
+      "from": "jp.elem.japanese.hiragana-kanji-katakana",
+      "to": "jp.elem.japanese.kanji-meaning-and-usage",
+      "type": "related-learning",
+      "rationale": "仮名や漢字を文や語句の中で使う経験は、漢字の読み・意味・用法を確かめる学習と結び付く。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "習った漢字を、言葉や文の中で意味を考えながら使おう。"
+    },
+    {
+      "id": "japanese-edge-002",
+      "from": "jp.elem.japanese.handwriting",
+      "to": "jp.elem.japanese.manuscript-paper-and-layout",
+      "type": "application",
+      "rationale": "整った文字を書く技能を、原稿用紙や文書の書式に沿って書く場面で生かす。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "読みやすく書く力を、原稿用紙や手紙を書くときにも生かそう。"
+    },
+    {
+      "id": "japanese-edge-003",
+      "from": "jp.elem.japanese.punctuation-and-notation",
+      "to": "jp.elem.japanese.sentence-types-and-punctuation",
+      "type": "related-learning",
+      "rationale": "句読点や表記のきまりと、文の種類・文末表現は、文意を正確に伝える点で関連する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "句読点や表記のきまりを、文末の表現と合わせて考えよう。"
+    },
+    {
+      "id": "japanese-edge-004",
+      "from": "jp.elem.japanese.sentence-types-and-punctuation",
+      "to": "jp.elem.japanese.sentence-structure",
+      "type": "related-learning",
+      "rationale": "文の種類や文末表現を捉えることは、文の組み立てや言葉のつながりを考える学習と関連する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "文末の表現に注目して、文の組み立ても考えよう。"
+    },
+    {
+      "id": "japanese-edge-005",
+      "from": "jp.elem.japanese.word-meaning",
+      "to": "jp.elem.japanese.dictionaries-and-reference",
+      "type": "application",
+      "rationale": "言葉の意味を確かめたいときに、辞書などを目的に応じて活用する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "言葉の意味を確かめるために、辞書を使おう。"
+    },
+    {
+      "id": "japanese-edge-006",
+      "from": "jp.elem.japanese.word-relationships",
+      "to": "jp.elem.japanese.parts-of-speech",
+      "type": "related-learning",
+      "rationale": "語句のまとまりや関係に着目することは、言葉の働きや活用を捉える学習と関連する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "言葉どうしの関係を見ながら、言葉の働きを考えよう。"
+    },
+    {
+      "id": "japanese-edge-007",
+      "from": "jp.elem.japanese.word-meaning",
+      "to": "jp.elem.japanese.idioms-proverbs-and-sayings",
+      "type": "extension",
+      "rationale": "語彙の意味を広げる学習を、慣用句・ことわざ・故事成語の意味や使い方へ広げる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "言葉の意味を広げて、慣用句やことわざを使おう。"
+    },
+    {
+      "id": "japanese-edge-008",
+      "from": "jp.elem.japanese.onomatopoeia-and-sensory-words",
+      "to": "jp.elem.japanese.poetry-and-rhythm",
+      "type": "related-learning",
+      "rationale": "音や様子を表す言葉の響きは、詩歌のリズムや表現を味わうことと関連する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "擬音語や擬態語の響きを、詩の表現を味わうときにも生かそう。"
+    },
+    {
+      "id": "japanese-edge-009",
+      "from": "jp.elem.japanese.language-register-and-context",
+      "to": "jp.elem.japanese.polite-language",
+      "type": "related-learning",
+      "rationale": "場面や相手に応じて言葉を選ぶ見方は、敬体・常体や敬語の使い分けと関連する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "相手や場面に合わせて、敬体・常体や敬語を選ぼう。"
+    },
+    {
+      "id": "japanese-edge-010",
+      "from": "jp.elem.japanese.sentence-structure",
+      "to": "jp.elem.japanese.paragraphs-and-connectors",
+      "type": "extension",
+      "rationale": "文の中の言葉のつながりを捉えることを、文と文・段落と段落のつながりへ広げる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "文のつながりを考えたことを、段落をつなぐときにも生かそう。"
+    },
+    {
+      "id": "japanese-edge-011",
+      "from": "jp.elem.japanese.read-sequence-and-events",
+      "to": "jp.elem.japanese.read-between-the-lines",
+      "type": "extension",
+      "rationale": "出来事や場面の順序を捉えたうえで、叙述を結び付けて書かれていないことを想像・推論する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "出来事の順序を手がかりに、文章に書かれていないことも考えよう。"
+    },
+    {
+      "id": "japanese-edge-012",
+      "from": "jp.elem.japanese.read-structure-and-relationships",
+      "to": "jp.elem.japanese.read-main-idea",
+      "type": "recommended-prerequisite",
+      "rationale": "段落や文章全体の構成を捉えることが、中心となる内容や要旨を整理する助けになる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "文章の組み立てを見て、中心となる内容を見つけよう。"
+    },
+    {
+      "id": "japanese-edge-013",
+      "from": "jp.elem.japanese.read-facts-and-opinions",
+      "to": "jp.elem.japanese.read-author-claim-and-evidence",
+      "type": "recommended-prerequisite",
+      "rationale": "事実と意見、理由と例を区別することが、筆者の主張と根拠を捉える土台になる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "事実と意見を分けて、筆者の主張と根拠を見つけよう。"
+    },
+    {
+      "id": "japanese-edge-014",
+      "from": "jp.elem.japanese.read-author-claim-and-evidence",
+      "to": "jp.elem.japanese.write-opinion-and-argument",
+      "type": "application",
+      "rationale": "文章から主張と根拠を読み取る経験を、自分の意見文で理由や根拠を示すことに活用する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "筆者の主張と根拠を読み取ったことを、自分の意見文に生かそう。"
+    },
+    {
+      "id": "japanese-edge-015",
+      "from": "jp.elem.japanese.choose-reading-strategy",
+      "to": "jp.elem.japanese.read-text-type-and-purpose",
+      "type": "related-learning",
+      "rationale": "目的に応じて読み方を選ぶことと、文章の種類や目的に着目することは相互に関係する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "文章の種類や目的に合わせて、読み方を選ぼう。"
+    },
+    {
+      "id": "japanese-edge-016",
+      "from": "jp.elem.japanese.read-and-reflect",
+      "to": "jp.elem.japanese.reading-habits",
+      "type": "application",
+      "rationale": "読んで考えたことを交流する経験を、読書生活を広げる活動に生かす。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "読んで考えたことを交流して、次に読みたい本を見つけよう。"
+    },
+    {
+      "id": "japanese-edge-017",
+      "from": "jp.elem.japanese.library-and-book-selection",
+      "to": "jp.elem.japanese.reading-habits",
+      "type": "application",
+      "rationale": "図書館や資料から目的に合う本を選ぶ技能を、継続した読書生活に生かす。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "図書館で本を選ぶ力を、ふだんの読書にも生かそう。"
+    },
+    {
+      "id": "japanese-edge-018",
+      "from": "jp.elem.japanese.traditional-language-culture",
+      "to": "jp.elem.japanese.classical-language-and-old-forms",
+      "type": "extension",
+      "rationale": "昔話や伝承などに親しむ経験を、古典に見られる言葉や表現への関心へ広げる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "昔話や伝承に親しんだことを、古典の言葉や表現にも広げよう。"
+    },
+    {
+      "id": "japanese-edge-019",
+      "from": "jp.elem.japanese.poetry-and-rhythm",
+      "to": "jp.elem.japanese.reading-aloud-expression",
+      "type": "application",
+      "rationale": "詩歌の言葉の響きやリズムを捉えたことを、声の大きさや間を工夫した朗読に生かす。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "詩の響きやリズムを感じながら、声や間を工夫して読もう。"
+    },
+    {
+      "id": "japanese-edge-020",
+      "from": "jp.elem.japanese.traditional-language-culture",
+      "to": "jp.elem.japanese.author-and-work",
+      "type": "related-learning",
+      "rationale": "伝統的な言語文化に親しむことは、作品や作者について知り、作品の背景を考えることと関連する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "作品が生まれた時代や作者にも目を向けよう。"
+    },
+    {
+      "id": "japanese-edge-021",
+      "from": "jp.elem.japanese.write-experiences-and-observations",
+      "to": "jp.elem.japanese.organize-writing",
+      "type": "related-learning",
+      "rationale": "経験や観察を記録することは、書く内容を整理し、伝える順序を考える活動と関連する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "見たり経験したりしたことを、伝わる順序に整理しよう。"
+    },
+    {
+      "id": "japanese-edge-022",
+      "from": "jp.elem.japanese.collecting-and-recording-information",
+      "to": "jp.elem.japanese.plan-research-and-report",
+      "type": "application",
+      "rationale": "集めた情報を記録する技能を、調べたことを報告する文章づくりに活用する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "集めて記録した情報を、報告文に使おう。"
+    },
+    {
+      "id": "japanese-edge-023",
+      "from": "jp.elem.japanese.compare-and-classify-information",
+      "to": "jp.elem.japanese.organize-writing",
+      "type": "application",
+      "rationale": "情報を比べたり分類したりした結果を、文章の内容や構成を整理するために使う。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "情報を比べて整理し、文章の組み立てに生かそう。"
+    },
+    {
+      "id": "japanese-edge-024",
+      "from": "jp.elem.japanese.organize-writing",
+      "to": "jp.elem.japanese.paragraphs-and-connectors",
+      "type": "extension",
+      "rationale": "内容のまとまりを整理することを、段落や接続語を使って文章全体をつなぐことへ広げる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "内容のまとまりを考えて、段落や接続語でつなごう。"
+    },
+    {
+      "id": "japanese-edge-025",
+      "from": "jp.elem.japanese.facts-and-opinions-writing",
+      "to": "jp.elem.japanese.write-opinion-and-argument",
+      "type": "extension",
+      "rationale": "事実と考えを区別して書く力を、理由や根拠を明確にした意見文へ広げる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "事実と自分の考えを分けて、意見文を書こう。"
+    },
+    {
+      "id": "japanese-edge-026",
+      "from": "jp.elem.japanese.write-for-purpose",
+      "to": "jp.elem.japanese.write-letters-and-messages",
+      "type": "application",
+      "rationale": "目的や相手に合わせて書く力を、手紙や依頼文の形式・表現選びに活用する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "相手や目的に合わせて、手紙や依頼文を書こう。"
+    },
+    {
+      "id": "japanese-edge-027",
+      "from": "jp.elem.japanese.plan-research-and-report",
+      "to": "jp.elem.japanese.summarize-and-paraphrase",
+      "type": "application",
+      "rationale": "調べた情報の要点をまとめ、自分の言葉に言い換えて報告文に用いる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "調べたことの要点を、自分の言葉でまとめよう。"
+    },
+    {
+      "id": "japanese-edge-028",
+      "from": "jp.elem.japanese.summarize-and-paraphrase",
+      "to": "jp.elem.japanese.revise-writing",
+      "type": "application",
+      "rationale": "要約や言い換えを見直し、伝えたい内容が正確に伝わるよう文章を推敲する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "自分の言葉でまとめた文を読み返して、伝わる表現に直そう。"
+    },
+    {
+      "id": "japanese-edge-029",
+      "from": "jp.elem.japanese.use-quotes-and-sources-in-writing",
+      "to": "jp.elem.japanese.source-and-reliability",
+      "type": "recommended-prerequisite",
+      "rationale": "引用や出典を明らかにするには、情報の出どころや信頼性を確かめることが必要になる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "引用するときは、情報の出どころを確かめよう。"
+    },
+    {
+      "id": "japanese-edge-030",
+      "from": "jp.elem.japanese.revise-writing",
+      "to": "jp.elem.japanese.share-writing",
+      "type": "application",
+      "rationale": "推敲して整えた文章を読み合い、よさや改善点を伝え合う活動に活用する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "読み返して整えた文章を友達と読み合おう。"
+    },
+    {
+      "id": "japanese-edge-031",
+      "from": "jp.elem.japanese.listen-for-main-points",
+      "to": "jp.elem.japanese.take-notes-while-listening",
+      "type": "extension",
+      "rationale": "大事なことを落とさずに聞く技能を、聞きながら要点をメモする活動へ広げる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "大事なことを聞き取り、必要な言葉をメモしよう。"
+    },
+    {
+      "id": "japanese-edge-032",
+      "from": "jp.elem.japanese.ask-and-clarify",
+      "to": "jp.elem.japanese.interview-and-question-design",
+      "type": "extension",
+      "rationale": "分からないことを質問して確かめる技能を、目的に応じて質問を準備し取材する活動へ広げる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "知りたいことをはっきりさせて、質問を考えよう。"
+    },
+    {
+      "id": "japanese-edge-033",
+      "from": "jp.elem.japanese.take-notes-while-listening",
+      "to": "jp.elem.japanese.summarize-others-viewpoints",
+      "type": "application",
+      "rationale": "聞きながら記録した要点を整理し、相手の考えをまとめて伝え返す。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "メモをもとに、相手の考えを整理して伝え返そう。"
+    },
+    {
+      "id": "japanese-edge-034",
+      "from": "jp.elem.japanese.compare-viewpoints",
+      "to": "jp.elem.japanese.discussion-and-debate",
+      "type": "application",
+      "rationale": "異なる意見を比べることを、話し合いで論点を整理し考えをまとめる場面に活用する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "違う意見を比べて、話し合いで考えを深めよう。"
+    },
+    {
+      "id": "japanese-edge-035",
+      "from": "jp.elem.japanese.support-opinion-with-examples",
+      "to": "jp.elem.japanese.explain-opinion-or-reason",
+      "type": "related-learning",
+      "rationale": "事例や資料を用いることは、理由や根拠を明確にして話すことを支える。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "事例や資料を使って、自分の理由をはっきり伝えよう。"
+    },
+    {
+      "id": "japanese-edge-036",
+      "from": "jp.elem.japanese.prepare-and-organize-speech",
+      "to": "jp.elem.japanese.presentation",
+      "type": "application",
+      "rationale": "話す内容を選び構成する力を、目的や相手に応じた発表に活用する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "話す内容を整理して、相手に伝わる発表をしよう。"
+    },
+    {
+      "id": "japanese-edge-037",
+      "from": "jp.elem.japanese.interview-and-question-design",
+      "to": "jp.elem.japanese.presentation",
+      "type": "application",
+      "rationale": "取材で集めた情報を整理し、相手や目的に合わせて発表する活動に活用する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "質問して集めた情報を、分かりやすく発表しよう。"
+    },
+    {
+      "id": "japanese-edge-038",
+      "from": "jp.elem.japanese.compare-and-classify-information",
+      "to": "jp.elem.japanese.cause-and-effect",
+      "type": "related-learning",
+      "rationale": "情報を比べ分類することは、原因と結果の関係を見つけて整理する活動と関連する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "情報を比べながら、原因と結果のつながりを見つけよう。"
+    },
+    {
+      "id": "japanese-edge-039",
+      "from": "jp.elem.japanese.cause-and-effect",
+      "to": "jp.elem.japanese.facts-opinions-and-interpretations",
+      "type": "related-learning",
+      "rationale": "原因と結果の関係を捉えることは、事実・意見・解釈を分けて読むことと関連する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "原因と結果を確かめて、事実と考えを分けよう。"
+    },
+    {
+      "id": "japanese-edge-040",
+      "from": "jp.elem.japanese.diagrams-and-tables",
+      "to": "jp.elem.japanese.media-and-multimodal-information",
+      "type": "extension",
+      "rationale": "図表で情報を示す技能を、文章・写真など複数の表現を関連付けることへ広げる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "図や表だけでなく、写真や文章も組み合わせて伝えよう。"
+    },
+    {
+      "id": "japanese-edge-041",
+      "from": "jp.elem.japanese.source-and-reliability",
+      "to": "jp.elem.japanese.compare-texts",
+      "type": "application",
+      "rationale": "情報の出どころや信頼性を確かめる見方を、複数の文章・資料を比べて読む場面に活用する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "資料の出どころを確かめながら、複数の文章を比べよう。"
+    },
+    {
+      "id": "social-edge-001",
+      "from": "jp.elem.social.local-area",
+      "to": "jp.elem.social.local-map",
+      "type": "application",
+      "rationale": "身近な地域を観察することを、方位や記号を使って地図に表す活動に生かす。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "地域を調べたことを、方位や記号を使って地図に表そう。"
+    },
+    {
+      "id": "social-edge-002",
+      "from": "jp.elem.social.local-area",
+      "to": "jp.elem.social.municipality-change",
+      "type": "related-learning",
+      "rationale": "現在の地域の様子を知ることは、市区町村の移り変わりを比べる手がかりになる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "今の地域の様子と昔の様子を比べよう。"
+    },
+    {
+      "id": "social-edge-003",
+      "from": "jp.elem.social.local-area",
+      "to": "jp.elem.social.municipality-work",
+      "type": "related-learning",
+      "rationale": "地域の様子を捉えることは、地域で働く人々の仕事や生産・販売を調べることと関連する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "地域の様子と、そこで働く人々の仕事を結び付けて考えよう。"
+    },
+    {
+      "id": "social-edge-004",
+      "from": "jp.elem.social.fieldwork-interview",
+      "to": "jp.elem.social.evidence-explanation",
+      "type": "application",
+      "rationale": "現地調査や聞き取りで得た情報を、資料や記録を根拠とした説明に活用する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "見たり聞いたりしたことを、根拠を示して説明しよう。"
+    },
+    {
+      "id": "social-edge-005",
+      "from": "jp.elem.social.local-map",
+      "to": "jp.elem.social.maps-globes",
+      "type": "extension",
+      "rationale": "身近な地域を表す地図の読み方を、より広い範囲の地図や地球儀の活用へ広げる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "地域の地図で身に付けた見方を、日本や世界の地図にも使おう。"
+    },
+    {
+      "id": "social-edge-006",
+      "from": "jp.elem.social.municipality-work",
+      "to": "jp.elem.social.prefecture-industry",
+      "type": "extension",
+      "rationale": "地域の生産・販売の様子を調べた経験を、県内の特色ある地域やまちづくりへ広げる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "身近な仕事を調べたことを、県内の特色ある産業にもつなげよう。"
+    },
+    {
+      "id": "social-edge-007",
+      "from": "jp.elem.social.community-predecessors",
+      "to": "jp.elem.social.prefecture-culture",
+      "type": "related-learning",
+      "rationale": "地域の発展に尽くした先人の働きは、地域に伝わる文化や行事の成り立ちを考える手がかりになる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "地域の先人の働きと、受け継がれてきた文化を結び付けよう。"
+    },
+    {
+      "id": "social-edge-008",
+      "from": "jp.elem.social.firefighting",
+      "to": "jp.elem.social.disaster-prevention",
+      "type": "related-learning",
+      "rationale": "火災への備えや対応を、地域全体の自然災害への備えと関連づけて考える。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "火災から守る働きと、自然災害への備えを比べよう。"
+    },
+    {
+      "id": "social-edge-009",
+      "from": "jp.elem.social.waste-management",
+      "to": "jp.elem.social.environment-protection",
+      "type": "application",
+      "rationale": "廃棄物の処理や再利用の学習を、環境を守る取組について考える場面に活用する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "ごみの処理や再利用を、環境を守る取組につなげよう。"
+    },
+    {
+      "id": "social-edge-010",
+      "from": "jp.elem.social.japan-location",
+      "to": "jp.elem.social.japan-landforms-climate",
+      "type": "recommended-prerequisite",
+      "rationale": "日本の位置や広がりを捉えることが、地形や気候の特色を調べる土台になる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "日本の位置を確かめて、地形や気候の特色を調べよう。"
+    },
+    {
+      "id": "social-edge-011",
+      "from": "jp.elem.social.natural-environment-life",
+      "to": "jp.elem.social.agriculture",
+      "type": "related-learning",
+      "rationale": "自然環境と人々のくらしの関わりを、農業の生産条件や工夫を考えることにつなげる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "自然環境と農業の工夫を結び付けて考えよう。"
+    },
+    {
+      "id": "social-edge-012",
+      "from": "jp.elem.social.natural-environment-life",
+      "to": "jp.elem.social.forestry",
+      "type": "related-learning",
+      "rationale": "自然環境と人々のくらしの関わりを、森林資源や林業の特色を考えることにつなげる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "森林の自然条件と林業の仕事を結び付けよう。"
+    },
+    {
+      "id": "social-edge-013",
+      "from": "jp.elem.social.natural-environment-life",
+      "to": "jp.elem.social.fisheries",
+      "type": "related-learning",
+      "rationale": "自然環境と人々のくらしの関わりを、水産業の生産条件や工夫と関連づける。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "海や海流などの自然条件と水産業をつなげよう。"
+    },
+    {
+      "id": "social-edge-014",
+      "from": "jp.elem.social.timeline-sources",
+      "to": "jp.elem.social.ancient-japan",
+      "type": "application",
+      "rationale": "年表や歴史資料を読み取る技能を、日本の国の形成や古代文化を調べる際に活用する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "年表や資料を使って、日本の始まりを調べよう。"
+    },
+    {
+      "id": "social-edge-015",
+      "from": "jp.elem.social.constitution",
+      "to": "jp.elem.social.government-courts",
+      "type": "recommended-prerequisite",
+      "rationale": "憲法に基づく政治の基本を踏まえ、内閣・裁判所と三権の関係を捉える。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "憲法をもとに、内閣や裁判所の働きを考えよう。"
+    },
+    {
+      "id": "social-edge-016",
+      "from": "jp.elem.social.local-government",
+      "to": "jp.elem.social.diet",
+      "type": "related-learning",
+      "rationale": "地方公共団体と国の政治の仕組みを比べ、住民のくらしと政治の関わりを捉える。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "地方の政治と国の政治を比べよう。"
+    },
+    {
+      "id": "social-edge-017",
+      "from": "jp.elem.social.international-relations",
+      "to": "jp.elem.social.decision-civic",
+      "type": "application",
+      "rationale": "世界の国々とのつながりや国際協力について学んだことを、社会の課題を考え判断する際に活用する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "世界とのつながりをもとに、社会の課題について考えよう。"
+    },
+    {
+      "id": "social-edge-018",
+      "from": "jp.elem.social.statistics-graphs",
+      "to": "jp.elem.social.evidence-explanation",
+      "type": "application",
+      "rationale": "統計やグラフから読み取った情報を、根拠を示した説明に活用する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "グラフや統計の数字を根拠にして説明しよう。"
+    },
+    {
+      "id": "social-edge-019",
+      "from": "jp.elem.social.fieldwork-interview",
+      "to": "jp.elem.social.compare-regions",
+      "type": "application",
+      "rationale": "現地調査や聞き取りで集めた情報を、地域どうしを比較する活動に活用する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "調べた記録を使って、地域の共通点や違いを見つけよう。"
+    },
+    {
+      "id": "science-edge-001",
+      "from": "jp.elem.science.experiment-plan",
+      "to": "jp.elem.science.control-conditions",
+      "type": "application",
+      "rationale": "調べ方を計画する際に、変える条件とそろえる条件を整理する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "実験を計画するとき、変える条件とそろえる条件を考えよう。"
+    },
+    {
+      "id": "science-edge-002",
+      "from": "jp.elem.science.observe",
+      "to": "jp.elem.science.record-data",
+      "type": "application",
+      "rationale": "観察で見つけたことを、比較や考察に使えるよう記録・整理する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "観察したことを、あとで比べられるように記録しよう。"
+    },
+    {
+      "id": "science-edge-003",
+      "from": "jp.elem.science.compare",
+      "to": "jp.elem.science.conclusion",
+      "type": "application",
+      "rationale": "複数の結果を比べ、共通点や違いを根拠に結論を導く。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "結果を比べて、分かったことをまとめよう。"
+    },
+    {
+      "id": "science-edge-004",
+      "from": "jp.elem.science.relate",
+      "to": "jp.elem.science.multiple-perspectives",
+      "type": "extension",
+      "rationale": "複数の事象や条件を関係付ける見方を、多面的に考察し説明する力へ広げる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "いくつかの条件を関係付けて、多面的に考えよう。"
+    },
+    {
+      "id": "science-edge-005",
+      "from": "jp.elem.science.conclusion",
+      "to": "jp.elem.science.communicate",
+      "type": "application",
+      "rationale": "導いた結論とその根拠を、他者に分かるように説明・共有する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "結果から考えたことを、根拠と一緒に伝えよう。"
+    },
+    {
+      "id": "science-edge-006",
+      "from": "jp.elem.science.observe",
+      "to": "jp.elem.science.compare",
+      "type": "related-learning",
+      "rationale": "観察で得た情報を比べることで、変化や特徴を見いだす。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "観察したものを比べて、変化や特徴を見つけよう。"
+    },
+    {
+      "id": "science-edge-007",
+      "from": "jp.elem.science.multiple-perspectives",
+      "to": "jp.elem.science.communicate",
+      "type": "application",
+      "rationale": "多面的に考えた結果を、根拠や複数の視点を示しながら説明する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "いろいろな視点で考えたことを、根拠と一緒に説明しよう。"
+    },
+    {
+      "id": "science-edge-008",
+      "from": "jp.elem.science.matter",
+      "to": "jp.elem.science.air-properties",
+      "type": "related-learning",
+      "rationale": "物の形・体積・重さを調べた経験を、空気や水の性質を比べる学習と関連づける。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "ものの形や重さを調べたことを、空気や水の性質にもつなげよう。"
+    },
+    {
+      "id": "science-edge-009",
+      "from": "jp.elem.science.air-properties",
+      "to": "jp.elem.science.metal-water-air-temperature",
+      "type": "extension",
+      "rationale": "空気や水の性質を調べる見方を、温度による金属・水・空気の変化へ広げる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "空気や水の性質を、温度を変えたときの変化と比べよう。"
+    },
+    {
+      "id": "science-edge-010",
+      "from": "jp.elem.science.metal-water-air-temperature",
+      "to": "jp.elem.science.water-state",
+      "type": "related-learning",
+      "rationale": "温度による物の変化を調べた経験を、水の状態変化と関連づける。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "温度と物の変化を調べたことを、水の状態変化にもつなげよう。"
+    },
+    {
+      "id": "science-edge-011",
+      "from": "jp.elem.science.dissolving",
+      "to": "jp.elem.science.solution-properties",
+      "type": "extension",
+      "rationale": "物が水に溶ける量や様子を調べる学習を、水溶液の性質を調べる学習へ広げる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "ものの溶け方を調べたことを、水溶液の性質にも広げよう。"
+    },
+    {
+      "id": "science-edge-012",
+      "from": "jp.elem.science.sound",
+      "to": "jp.elem.science.light",
+      "type": "related-learning",
+      "rationale": "音と光の伝わり方や性質を比べ、共通点と違いを考える。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "音と光の性質を比べて、共通点や違いを見つけよう。"
+    },
+    {
+      "id": "science-edge-013",
+      "from": "jp.elem.science.magnet",
+      "to": "jp.elem.science.electric-magnetic-force",
+      "type": "extension",
+      "rationale": "磁石の性質を調べた経験を、電流がつくる磁力の働きへ広げる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "磁石の性質をもとに、電流がつくる磁力を調べよう。"
+    },
+    {
+      "id": "science-edge-014",
+      "from": "jp.elem.science.electricity-effects",
+      "to": "jp.elem.science.electric-energy-use",
+      "type": "extension",
+      "rationale": "電気の働きを調べた経験を、電気エネルギーの利用や変換へ広げる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "電気の働きを、生活の中での利用や変換につなげよう。"
+    },
+    {
+      "id": "science-edge-015",
+      "from": "jp.elem.science.force-motion",
+      "to": "jp.elem.science.pendulum",
+      "type": "related-learning",
+      "rationale": "風やゴムの力で物が動く様子を調べた経験を、振り子の運動と比べる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "力で物が動く様子を、振り子の運動と比べよう。"
+    },
+    {
+      "id": "science-edge-016",
+      "from": "jp.elem.science.pendulum",
+      "to": "jp.elem.science.lever",
+      "type": "related-learning",
+      "rationale": "振り子の運動を条件を変えて調べる見方を、てこの規則性を調べるときにも生かす。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "条件を変えて調べた経験を、てこの規則性にも生かそう。"
+    },
+    {
+      "id": "science-edge-017",
+      "from": "jp.elem.science.plants-grow",
+      "to": "jp.elem.science.seasonal-change",
+      "type": "extension",
+      "rationale": "身近な植物の体のつくりや育ち方を、季節による生物全体の変化へ広げる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "植物の育ち方を、季節による生き物の変化と比べよう。"
+    },
+    {
+      "id": "science-edge-018",
+      "from": "jp.elem.science.seasonal-change",
+      "to": "jp.elem.science.plants-conditions",
+      "type": "related-learning",
+      "rationale": "季節と生物の変化を観察した経験を、植物の発芽・成長・結実に必要な条件を調べる学習と関連づける。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "季節による生物の変化を、植物の成長条件とつなげよう。"
+    },
+    {
+      "id": "science-edge-019",
+      "from": "jp.elem.science.animals",
+      "to": "jp.elem.science.animal-birth",
+      "type": "extension",
+      "rationale": "昆虫など身近な動物の体や育ち方を、動物の誕生や成長の学習へ広げる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "身近な動物の育ち方を、動物の誕生の学習につなげよう。"
+    },
+    {
+      "id": "science-edge-020",
+      "from": "jp.elem.science.animal-birth",
+      "to": "jp.elem.science.ecosystem",
+      "type": "related-learning",
+      "rationale": "動物の誕生や成長を学んだことを、生物どうしの食べ物を通した関係と関連づける。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "動物の成長を、生物どうしのつながりにも広げよう。"
+    },
+    {
+      "id": "science-edge-021",
+      "from": "jp.elem.science.plant-nutrition",
+      "to": "jp.elem.science.ecosystem",
+      "type": "related-learning",
+      "rationale": "植物が養分をつくる働きを、生物どうしの食べ物を通した関係と結び付ける。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "植物がつくる養分と、生物どうしの食べ物の関係を考えよう。"
+    },
+    {
+      "id": "science-edge-022",
+      "from": "jp.elem.science.ecosystem",
+      "to": "jp.elem.science.organism-environment",
+      "type": "extension",
+      "rationale": "生物どうしの食べ物を通した関係を、生物と環境全体の関わりへ広げる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "食べ物を通したつながりを、生物と環境全体の関係に広げよう。"
+    },
+    {
+      "id": "science-edge-023",
+      "from": "jp.elem.science.sun-shadow",
+      "to": "jp.elem.science.moon-stars",
+      "type": "related-learning",
+      "rationale": "太陽と地面の様子を観察した経験を、月や星の見え方を時間や方位と関連づけて考えることに生かす。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "太陽の動きを観察した経験を、月や星の見え方にも生かそう。"
+    },
+    {
+      "id": "science-edge-024",
+      "from": "jp.elem.science.moon-stars",
+      "to": "jp.elem.science.moon-sun",
+      "type": "extension",
+      "rationale": "月や星の見え方を観察した経験を、月の形と太陽の位置の関係へ広げる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "月や星の見え方を、月の形と太陽の位置にもつなげよう。"
+    },
+    {
+      "id": "science-edge-025",
+      "from": "jp.elem.science.water-cycle",
+      "to": "jp.elem.science.weather",
+      "type": "related-learning",
+      "rationale": "自然界の水の循環を捉えることは、天気や気温、水の状態を関連づけて考えることと結び付く。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "水の循環を、天気や気温の変化とつなげよう。"
+    },
+    {
+      "id": "science-edge-026",
+      "from": "jp.elem.science.earth-disasters",
+      "to": "jp.elem.science.land-formation",
+      "type": "related-learning",
+      "rationale": "自然災害と土地・気象を関連づけ、土地の成り立ちや変化を考える。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "自然災害と土地のつくりや変化を関連づけよう。"
+    },
+    {
+      "id": "science-edge-027",
+      "from": "jp.elem.science.weather-patterns",
+      "to": "jp.elem.science.earth-disasters",
+      "type": "application",
+      "rationale": "天気の変化や雲の様子を捉える見方を、気象に関わる自然災害を考える場面に活用する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "天気の変化を調べたことを、自然災害への備えにも生かそう。"
+    },
+    {
+      "id": "science-edge-028",
+      "from": "jp.elem.science.water-cycle",
+      "to": "jp.elem.science.earth-disasters",
+      "type": "related-learning",
+      "rationale": "水の循環と気象・土地の変化を結び付け、自然災害の要因や影響を多面的に考える。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "水の循環を、雨や川による災害と関連づけよう。"
     }
   ]
 }
