@@ -3000,6 +3000,46 @@
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
       "studentRationale": "水の循環を、雨や川による災害と関連づけよう。"
+    },
+    {
+      "id": "japanese-edge-042",
+      "from": "jp.elem.japanese.share-experience",
+      "to": "jp.elem.japanese.prepare-and-organize-speech",
+      "type": "related-learning",
+      "rationale": "経験や出来事を順序立てて話した経験を、話す内容を選び構成する学習と関連づける。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "経験を順序立てて話したことを、発表の組み立てにも生かそう。"
+    },
+    {
+      "id": "japanese-edge-043",
+      "from": "jp.elem.japanese.read-narrator-and-point-of-view",
+      "to": "jp.elem.japanese.read-character-and-setting",
+      "type": "related-learning",
+      "rationale": "語り手や視点に着目することは、登場人物や場面の捉え方を深める。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "誰の視点で語られているかを考えて、人物や場面を読み取ろう。"
+    },
+    {
+      "id": "japanese-edge-044",
+      "from": "jp.elem.japanese.read-figurative-language-and-effects",
+      "to": "jp.elem.japanese.poetry-and-rhythm",
+      "type": "related-learning",
+      "rationale": "比喩や反復などの表現の効果を考えることは、詩歌の言葉の響きやリズムを味わうことと関連する。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "表現の工夫や効果を、詩の響きやリズムを味わうときにも生かそう。"
+    },
+    {
+      "id": "science-edge-029",
+      "from": "jp.elem.science.air-properties",
+      "to": "jp.elem.science.combustion",
+      "type": "related-learning",
+      "rationale": "空気に含まれる気体やその性質を調べたことは、物が燃えるときに空気中の酸素が関わることを考える手がかりになる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "空気の性質を調べたことを、物が燃える仕組みにもつなげよう。"
     }
   ]
 }
