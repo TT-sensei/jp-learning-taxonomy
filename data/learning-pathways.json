@@ -1058,7 +1058,7 @@
         {
           "label": "歌詞や曲の気分を感じて歌う",
           "grades": "1〜2年（低学年）",
-          "description": "歌詞の情景や気持ち、曲の気分を感じ取り、範唱を聴いて歌ったり、友達や伴奏に合わせたりする。",
+          "description": "歌詞の情景や曲の気分を感じ取り、範唱を聴いて自然で無理のない声で歌う。友達や伴奏の音を聴きながら、拍やリズムを合わせる。",
           "topicIds": [
             "jp.elem.music.singing-and-voice"
           ]
@@ -1066,7 +1066,7 @@
         {
           "label": "歌詞・旋律・曲想に合う表現を工夫する",
           "grades": "3〜4年（中学年）",
-          "description": "呼吸や発音に気を付け、旋律や曲想に合う歌い方を考える。互いの声や副次的な旋律を聴いて簡単な合唱にも取り組む。",
+          "description": "呼吸や発音に気を付け、旋律の動きやフレーズ、強弱・速度などに気付いて歌い方を工夫する。互いの声や伴奏を聴き、声を合わせる。",
           "topicIds": [
             "jp.elem.music.singing-and-voice",
             "jp.elem.music.song-mood-and-phrasing"
@@ -1075,7 +1075,7 @@
         {
           "label": "思いや意図をもち、響きのある歌唱にする",
           "grades": "5〜6年（高学年）",
-          "description": "歌詞や曲想を生かして表現を工夫し、響きのある声や各声部の重なり、全体の響きを聴きながら歌う。",
+          "description": "歌詞や曲想を生かして表現の意図をもち、響きのある声や声部の重なり、全体の響きを聴きながら歌う。",
           "topicIds": [
             "jp.elem.music.singing-and-voice",
             "jp.elem.music.song-mood-and-phrasing"
@@ -1093,7 +1093,7 @@
         {
           "label": "身近な楽器で音やリズムを楽しむ",
           "grades": "1〜2年（低学年）",
-          "description": "身近な楽器に親しみ、音色に気を付けながら簡単なリズムや旋律を演奏し、互いの音を聴いて合わせる。",
+          "description": "身近な打楽器や鍵盤楽器などに親しみ、音の出し方や簡単なリズムを楽しむ。",
           "topicIds": [
             "jp.elem.music.instrument-playing"
           ]
@@ -1101,7 +1101,7 @@
         {
           "label": "旋律楽器・打楽器で表現を工夫する",
           "grades": "3〜4年（中学年）",
-          "description": "楽譜を見て演奏し、旋律楽器や打楽器の音色を生かす。伴奏や副次的な旋律を聴き、重奏・合奏で音を合わせる。",
+          "description": "リコーダーなどの旋律楽器を含む基本的な奏法を身に付け、音色や旋律を意識する。友達の音を聴いて合わせる。",
           "topicIds": [
             "jp.elem.music.instrument-playing",
             "jp.elem.music.ensemble-and-part-playing"
@@ -1110,7 +1110,7 @@
         {
           "label": "楽器の特徴と全体の響きを生かす",
           "grades": "5〜6年（高学年）",
-          "description": "楽器の特徴や曲想に合う表現を工夫し、各パートの音や全体の響き、伴奏を聴きながら合奏する。",
+          "description": "楽器の音色や各声部・伴奏の役割を捉え、全体の響きやバランスを聴きながら演奏を工夫する。",
           "topicIds": [
             "jp.elem.music.instrument-playing",
             "jp.elem.music.ensemble-and-part-playing"
@@ -1128,7 +1128,7 @@
         {
           "label": "声や身の回りの音で音遊びをする",
           "grades": "1〜2年（低学年）",
-          "description": "声や身近な音の面白さに気付き、音を選んだり、反復や問いと答えなどの簡単な仕組みを使ったりして音楽づくりを楽しむ。",
+          "description": "声や身近な音を使い、音の高さ・長さ・強さ・音色を試しながら、音を選んだりつないだりする。",
           "topicIds": [
             "jp.elem.music.create-music-and-improvise",
             "jp.elem.music.musical-elements-and-structure"
@@ -1137,7 +1137,7 @@
         {
           "label": "音の響きや組合せから即興・構成する",
           "grades": "3〜4年（中学年）",
-          "description": "いろいろな音の響きや組合せを試し、即興的に表現する。音を音楽に構成する過程を大切にし、思いや意図をもってつくる。",
+          "description": "音の特徴や組合せを手掛かりに即興的に表し、まとまりを考えて音楽を構成する。",
           "topicIds": [
             "jp.elem.music.create-music-and-improvise",
             "jp.elem.music.musical-elements-and-structure"
@@ -1146,7 +1146,7 @@
         {
           "label": "見通しをもって音楽を構成し、振り返る",
           "grades": "5〜6年（高学年）",
-          "description": "音楽の仕組みや表現方法を生かして見通しをもち、音楽を構成する。記録して聴き返し、表現を見直す活動にもつなげる。",
+          "description": "表したいイメージや意図をもち、音楽を形づくる要素を選んで構成し、記録や聴き返しを通して見直す。",
           "topicIds": [
             "jp.elem.music.create-music-and-improvise",
             "jp.elem.music.musical-elements-and-structure",
@@ -1165,7 +1165,7 @@
         {
           "label": "曲の気分や音の面白さを感じ取る",
           "grades": "1〜2年（低学年）",
-          "description": "曲の気分や音色、リズムなどに親しみ、聴いて想像したことや感じたことを自分の言葉や動きで表す。",
+          "description": "曲の気分や音の面白さを感じ取り、聴こえたことを動きや言葉で表す。",
           "topicIds": [
             "jp.elem.music.listen-and-appreciate",
             "jp.elem.music.musical-elements-and-structure"
@@ -1174,7 +1174,7 @@
         {
           "label": "音楽の要素の関わりや構造に気付く",
           "grades": "3〜4年（中学年）",
-          "description": "曲想の変化や音楽を形づくる要素の関わり、楽曲の構造に目を向け、特徴や演奏のよさを捉える。",
+          "description": "旋律・リズム・音色・強弱などに着目し、音楽の特徴や要素の関わりを捉える。",
           "topicIds": [
             "jp.elem.music.listen-and-appreciate",
             "jp.elem.music.musical-elements-and-structure",
@@ -1184,7 +1184,7 @@
         {
           "label": "構造や文化との関わりから味わう",
           "grades": "5〜6年（高学年）",
-          "description": "楽曲の構造や曲想の特徴を理解し、日本や世界の音楽文化、演奏形態や響きの違いにも目を向けて味わう。",
+          "description": "音楽の構造と曲想の関わり、表現の工夫や文化的背景にも目を向け、根拠をもって味わう。",
           "topicIds": [
             "jp.elem.music.listen-and-appreciate",
             "jp.elem.music.musical-elements-and-structure",
@@ -1203,7 +1203,7 @@
         {
           "label": "身近な材料や場所に体全体で関わる",
           "grades": "1〜2年（低学年）",
-          "description": "身近な材料や場所から思い付いて、並べる・つなぐ・積むなど、手や体全体の感覚を働かせて造形遊びを楽しむ。",
+          "description": "身近な材料や場所に触れ、並べる・つなぐ・積むなど体全体で造形遊びを楽しむ。",
           "topicIds": [
             "jp.elem.art.play-and-build-forms",
             "jp.elem.art.materials-tools-and-safety"
@@ -1212,7 +1212,7 @@
         {
           "label": "材料や場所の特徴を捉えて活動を広げる",
           "grades": "3〜4年（中学年）",
-          "description": "材料や場所の形・色・組合せなどから発想し、試したり組み合わせたりしながら活動の仕方を工夫する。",
+          "description": "材料や場所の形・色・組合せの特徴を捉え、試しながら活動を広げる。",
           "topicIds": [
             "jp.elem.art.play-and-build-forms",
             "jp.elem.art.materials-tools-and-safety",
@@ -1222,7 +1222,7 @@
         {
           "label": "環境や共同の活動を生かして構成する",
           "grades": "5〜6年（高学年）",
-          "description": "材料や場所、周囲の環境との関係を生かし、活動の目的や表したいことに合わせて構成や共同の活動を工夫する。",
+          "description": "材料や場所の特徴を生かし、友達と関わりながら空間や環境を構成する。",
           "topicIds": [
             "jp.elem.art.play-and-build-forms",
             "jp.elem.art.materials-tools-and-safety",
@@ -1241,7 +1241,7 @@
         {
           "label": "感じたことや想像したことを楽しく表す",
           "grades": "1〜2年（低学年）",
-          "description": "身近な経験や想像から表したいことを見付け、好きな形や色を選び、扱いやすい材料や用具で表す。",
+          "description": "感じたことや想像したことから表したいことを見付け、身近な材料や用具で楽しく表す。",
           "topicIds": [
             "jp.elem.art.imagine-and-plan-art",
             "jp.elem.art.draw-and-paint",
@@ -1253,7 +1253,7 @@
         {
           "label": "材料から発想し、表し方を工夫する",
           "grades": "3〜4年（中学年）",
-          "description": "材料や経験から豊かに発想し、手や体全体を働かせて、絵・立体・工作の表し方を試しながら工夫する。",
+          "description": "経験や材料から発想を広げ、形や色、組合せ、用具の使い方を試しながら表し方を考える。",
           "topicIds": [
             "jp.elem.art.imagine-and-plan-art",
             "jp.elem.art.draw-and-paint",
@@ -1265,7 +1265,7 @@
         {
           "label": "主題を見付け、方法や材料を選んで表す",
           "grades": "5〜6年（高学年）",
-          "description": "経験を生かして表したいことを見付け、目的や意図に応じて材料・用具・表現方法を選び、表し方を深める。",
+          "description": "自分の思いや願いから主題を見付け、表現の意図に応じて材料・用具・方法を選び構想を深める。",
           "topicIds": [
             "jp.elem.art.imagine-and-plan-art",
             "jp.elem.art.draw-and-paint",
@@ -1286,7 +1286,7 @@
         {
           "label": "身近な作品や材料の面白さに気付く",
           "grades": "1〜2年（低学年）",
-          "description": "自分や友達の作品、身近な材料などを楽しく見て、形や色、表し方の面白さや楽しさに気付く。",
+          "description": "自分や友達の作品、身近な材料を楽しく見て、形や色、手触りなどの面白さに気付く。",
           "topicIds": [
             "jp.elem.art.appreciate-art-and-works",
             "jp.elem.art.talk-about-art-and-process",
@@ -1296,7 +1296,7 @@
         {
           "label": "作品や制作過程のよさ・面白さを感じ取る",
           "grades": "3〜4年（中学年）",
-          "description": "身近な美術作品や制作の過程を見て、よさや面白さ、材料や表し方による感じの違いを捉え、友達と伝え合う。",
+          "description": "作品や制作過程を見て、表し方や材料による感じの違いを捉え、よさや面白さを伝え合う。",
           "topicIds": [
             "jp.elem.art.appreciate-art-and-works",
             "jp.elem.art.talk-about-art-and-process",
@@ -1306,7 +1306,7 @@
         {
           "label": "文化や背景にも目を向け、見方を深める",
           "grades": "5〜6年（高学年）",
-          "description": "我が国や諸外国の美術、暮らしや文化の中の造形にも目を向け、造形的なよさや美しさについて考え、自分の見方や感じ方を深める。",
+          "description": "作品の造形的な特徴や表現の意図、暮らしや文化との関わりに目を向け、多様な見方や感じ方を広げる。",
           "topicIds": [
             "jp.elem.art.appreciate-art-and-works",
             "jp.elem.art.talk-about-art-and-process",
@@ -1326,7 +1326,7 @@
         {
           "label": "つくりながら見て、感じたことを伝える",
           "grades": "1〜2年（低学年）",
-          "description": "表現する活動と身近な作品を見る活動を行き来し、自分や友達の作品の好きなところや面白さを伝える。",
+          "description": "つくる途中で見直し、感じたことや気付いたことを言葉や動きで伝え合う。",
           "topicIds": [
             "jp.elem.art.play-and-build-forms",
             "jp.elem.art.imagine-and-plan-art",
@@ -1342,7 +1342,7 @@
         {
           "label": "制作過程や表し方の違いを見合う",
           "grades": "3〜4年（中学年）",
-          "description": "つくる過程や材料・用具の使い方を見合い、表し方の違いや工夫について話し合い、次の表現に生かす。",
+          "description": "材料や表し方を比べ、制作過程で試したことや工夫を見合い、次の表現に生かす。",
           "topicIds": [
             "jp.elem.art.play-and-build-forms",
             "jp.elem.art.imagine-and-plan-art",
@@ -1358,7 +1358,7 @@
         {
           "label": "作品や文化を手掛かりに見方を深める",
           "grades": "5〜6年（高学年）",
-          "description": "作品の意図や造形的な特徴、文化との関わりにも目を向け、対話や振り返りを通して見方や感じ方を深める。",
+          "description": "作品の意図や造形的な工夫、文化との関わりを手掛かりに、表現と鑑賞を関連付けて振り返る。",
           "topicIds": [
             "jp.elem.art.imagine-and-plan-art",
             "jp.elem.art.draw-and-paint",
@@ -1487,9 +1487,9 @@
       "summary": "低学年の運動遊びから中・高学年の体つくり運動へ、基本的な動きや体力の高め方を広げる。",
       "stages": [
         {
-          "label": "体ほぐしと多様な動きの運動遊び",
+          "label": "体つくりの運動遊びで多様な動きを楽しむ",
           "grades": "1〜2年（低学年）",
-          "description": "体を動かす心地よさを味わいながら、体ほぐしの運動遊びや、多様な動きをつくる運動遊びに取り組む。",
+          "description": "体ほぐしや多様な動きをつくる運動遊びで、体を伸ばす・回る・跳ぶ・運ぶなどの基本的な動きを楽しむ。",
           "topicIds": [
             "jp.elem.pe.body-movement-and-fitness",
             "jp.elem.pe.movement-rules-safety-and-cooperation"
@@ -1498,7 +1498,7 @@
         {
           "label": "基本的な動きを組み合わせて高める",
           "grades": "3〜4年（中学年）",
-          "description": "体ほぐしの運動や、多様な動きをつくる運動を通して、動きの組合せや行い方を工夫する。",
+          "description": "体ほぐしの運動や多様な動きをつくる運動で、基本的な動きを組み合わせたり、動き方を工夫したりする。",
           "topicIds": [
             "jp.elem.pe.body-movement-and-fitness",
             "jp.elem.pe.movement-rules-safety-and-cooperation"
@@ -1507,7 +1507,7 @@
         {
           "label": "体の動きを高め、目的に応じて工夫する",
           "grades": "5〜6年（高学年）",
-          "description": "体ほぐしの運動や体の動きを高める運動に取り組み、体の柔らかさや巧みな動きなどを意識して工夫する。",
+          "description": "体ほぐしの運動や体の動きを高める運動で、ねらいに応じて動き方や運動の組合せを工夫する。",
           "topicIds": [
             "jp.elem.pe.body-movement-and-fitness",
             "jp.elem.pe.movement-rules-safety-and-cooperation"
@@ -1525,7 +1525,7 @@
         {
           "label": "器械・器具や走跳の運動遊び",
           "grades": "1〜2年（低学年）",
-          "description": "固定施設、マット、鉄棒、跳び箱などを使った運動遊びや、走る・跳ぶ運動遊びを楽しむ。",
+          "description": "器械・器具を使った易しい運動遊びや走・跳の運動遊びに親しみ、支持・ぶら下がり・走る・跳ぶなどの動きを試す。",
           "topicIds": [
             "jp.elem.pe.apparatus-and-gymnastics",
             "jp.elem.pe.running-jumping-and-track"
@@ -1534,7 +1534,7 @@
         {
           "label": "基本的な技や走跳の動きを身に付ける",
           "grades": "3〜4年（中学年）",
-          "description": "マット・鉄棒・跳び箱を使った器械運動や、かけっこ・リレー、小型ハードル走、幅跳び・高跳びなどに取り組む。",
+          "description": "マット・鉄棒・跳び箱などの基本的な技や、短距離走・リレー、幅跳び・高跳びなどの基本的な動きを身に付ける。",
           "topicIds": [
             "jp.elem.pe.apparatus-and-gymnastics",
             "jp.elem.pe.running-jumping-and-track"
@@ -1543,7 +1543,7 @@
         {
           "label": "技や記録に挑戦し、動きを工夫する",
           "grades": "5〜6年（高学年）",
-          "description": "器械運動の技を安定して行ったり、短距離走・リレー、ハードル走、走り幅跳び・走り高跳びなどで記録や動きを工夫したりする。",
+          "description": "器械運動の技の完成度や組合せ、陸上運動の記録に挑戦し、自分の課題に応じて動きや練習方法を工夫する。",
           "topicIds": [
             "jp.elem.pe.apparatus-and-gymnastics",
             "jp.elem.pe.running-jumping-and-track"
@@ -1561,7 +1561,7 @@
         {
           "label": "水遊びや簡単なゲームに親しむ",
           "grades": "1〜2年（低学年）",
-          "description": "水に慣れる遊びや水中での動き、簡単なボールゲームなどを通して、遊び方やきまりを身に付ける。",
+          "description": "水に慣れて歩く・もぐる・浮くなどの水遊びや、簡単な規則のゲームでボールを投げる・捕る・蹴る動きを楽しむ。",
           "topicIds": [
             "jp.elem.pe.water-play-and-swimming",
             "jp.elem.pe.games-and-ball-sports",
@@ -1571,7 +1571,7 @@
         {
           "label": "水泳運動やゲームの技能・協力を広げる",
           "grades": "3〜4年（中学年）",
-          "description": "浮く・泳ぐ運動やゲームに取り組み、ボールを持たないときの動きや仲間との協力、簡単な作戦を工夫する。",
+          "description": "浮く・泳ぐ運動でけ伸びや初歩的な泳ぎを身に付け、規則を工夫したゲームで基本的な技能や協力を学ぶ。",
           "topicIds": [
             "jp.elem.pe.water-play-and-swimming",
             "jp.elem.pe.games-and-ball-sports",
@@ -1581,7 +1581,7 @@
         {
           "label": "水泳運動・ボール運動の特性に応じて工夫する",
           "grades": "5〜6年（高学年）",
-          "description": "水泳運動の技能を高め、ゴール型・ネット型・ベースボール型などのボール運動で、状況に応じた動きやチームの作戦を工夫する。",
+          "description": "クロール・平泳ぎなどの泳法や安全につながる技能を身に付ける。ボール運動では特性に応じた技能、役割や連携を工夫する。",
           "topicIds": [
             "jp.elem.pe.water-play-and-swimming",
             "jp.elem.pe.games-and-ball-sports",
@@ -1600,7 +1600,7 @@
         {
           "label": "リズムや身近な題材を体で表す",
           "grades": "1〜2年（低学年）",
-          "description": "軽快なリズムに乗って踊ったり、身近な題材の特徴を捉えて全身で表したりする。",
+          "description": "身近な題材やリズムに合わせ、全身で踊ったりまねたりして表現する。",
           "topicIds": [
             "jp.elem.pe.expressive-and-rhythmic-movement",
             "jp.elem.pe.movement-rules-safety-and-cooperation"
@@ -1609,7 +1609,7 @@
         {
           "label": "動きの特徴を捉え、友達と表現する",
           "grades": "3〜4年（中学年）",
-          "description": "題材やリズムの特徴を捉え、動きを工夫して表現したり、友達と動きをつないだりする。",
+          "description": "表したい感じや動きの特徴を捉え、友達と動きをつなげたり組み合わせたりして表現する。",
           "topicIds": [
             "jp.elem.pe.expressive-and-rhythmic-movement",
             "jp.elem.pe.movement-rules-safety-and-cooperation"
@@ -1618,7 +1618,7 @@
         {
           "label": "動きを構成し、表現を深める",
           "grades": "5〜6年（高学年）",
-          "description": "表したい感じやテーマに合わせて動きを選び、組み合わせたり構成したりして、仲間と表現を深める。",
+          "description": "題材やリズムの特徴を生かし、動きの構成や変化を工夫して表現を深める。",
           "topicIds": [
             "jp.elem.pe.expressive-and-rhythmic-movement",
             "jp.elem.pe.movement-rules-safety-and-cooperation"
