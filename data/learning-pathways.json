@@ -1,7 +1,7 @@
 {
   "schemaVersion": "0.1.0",
   "title": "小学校の学びの道すじ",
-  "scope": "小学校1〜6年の各教科の学習内容を大きなまとまりで見渡す。学年表記は編集上の候補で、公式配当・必修順序ではない。",
+  "scope": "小学校の各教科等について、学習指導要領解説と出版社の年間指導計画・系統資料を照合しながら、大きな学びのまとまりと内容の関係を独自に整理する。道すじの順序・学年は候補であり、全国共通の単元配列や公式の必修順序を示さない。総合的な学習の時間は学校が定める内容を固定せず、探究過程を扱う。",
   "status": "整理案",
   "designPrinciples": [
     "子どもや先生がまず見るのは、学びの大きなまとまり。",
@@ -945,6 +945,837 @@
           ]
         }
       ]
+    },
+    {
+      "id": "life-school-home-community",
+      "subject": "生活",
+      "title": "学校・家庭・地域のくらし",
+      "question": "身近な人や場所と、自分の生活はどうつながっている？",
+      "summary": "学校・家庭・地域を自分との関わりで捉え、身近な人々の働きや生活の工夫に気付く。",
+      "stages": [
+        {
+          "label": "学校や家庭の生活に関わる",
+          "grades": "1〜2年ごろ",
+          "topicIds": [
+            "jp.elem.life.school-and-life",
+            "jp.elem.life.family-and-life"
+          ]
+        },
+        {
+          "label": "地域や公共の場所を調べる",
+          "grades": "1〜2年ごろ",
+          "topicIds": [
+            "jp.elem.life.community-and-life",
+            "jp.elem.life.public-facilities-and-public-places"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "life-nature-and-season",
+      "subject": "生活",
+      "title": "季節・自然・生き物",
+      "question": "自然の変化は、生活や生き物とどう関わっている？",
+      "summary": "季節の変化を観察し、自然物を使った遊びや動植物の世話を通して、身近な自然との関わりを広げる。",
+      "stages": [
+        {
+          "label": "季節の変化を観察する",
+          "grades": "1〜2年ごろ",
+          "topicIds": [
+            "jp.elem.life.seasons-and-daily-life"
+          ]
+        },
+        {
+          "label": "自然で遊び、生き物を育てる",
+          "grades": "1〜2年ごろ",
+          "topicIds": [
+            "jp.elem.life.play-with-nature-and-materials",
+            "jp.elem.life.care-and-grow-living-things"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "life-share-and-grow",
+      "subject": "生活",
+      "title": "発見を伝え、自分の成長を見つめる",
+      "question": "体験から何を発見し、自分はどう成長した？",
+      "summary": "活動や体験を表現・交流し、支えてくれた人々や自分自身の成長に気付いて次の生活につなげる。",
+      "stages": [
+        {
+          "label": "生活の出来事や発見を伝える",
+          "grades": "1〜2年ごろ",
+          "topicIds": [
+            "jp.elem.life.share-life-and-events"
+          ]
+        },
+        {
+          "label": "自分の成長を振り返る",
+          "grades": "1〜2年ごろ",
+          "topicIds": [
+            "jp.elem.life.my-life-and-growth"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "life-experience-cycle",
+      "subject": "生活",
+      "title": "思いや願いから活動・振り返りへ",
+      "question": "やってみたいことを、どのように試し、次の活動につなげる？",
+      "summary": "具体的な活動・体験、試行錯誤、伝え合い、振り返りを行き来しながら生活を豊かにする。",
+      "stages": [
+        {
+          "label": "思いや願いをもって活動する",
+          "grades": "1〜2年ごろ",
+          "topicIds": [
+            "jp.elem.life.school-and-life",
+            "jp.elem.life.family-and-life",
+            "jp.elem.life.community-and-life",
+            "jp.elem.life.public-facilities-and-public-places",
+            "jp.elem.life.seasons-and-daily-life",
+            "jp.elem.life.play-with-nature-and-materials",
+            "jp.elem.life.care-and-grow-living-things"
+          ]
+        },
+        {
+          "label": "伝え合い、振り返る",
+          "grades": "1〜2年ごろ",
+          "topicIds": [
+            "jp.elem.life.share-life-and-events",
+            "jp.elem.life.my-life-and-growth"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "music-sing-and-express",
+      "subject": "音楽",
+      "title": "歌唱で表現する",
+      "question": "歌詞や曲の感じを、声や歌い方でどう表す？",
+      "summary": "声の出し方、歌詞、旋律、曲想を手掛かりに、思いや意図に合う歌唱表現を工夫する。",
+      "stages": [
+        {
+          "label": "声や歌い方に親しむ",
+          "grades": "1〜2年ごろ",
+          "topicIds": [
+            "jp.elem.music.singing-and-voice",
+            "jp.elem.music.song-mood-and-phrasing"
+          ]
+        },
+        {
+          "label": "曲想やフレーズを表現する",
+          "grades": "3〜6年ごろ",
+          "topicIds": [
+            "jp.elem.music.singing-and-voice",
+            "jp.elem.music.song-mood-and-phrasing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "music-instrument-and-ensemble",
+      "subject": "音楽",
+      "title": "器楽・合奏で表現する",
+      "question": "楽器の特徴や友達の音を聴き、どう演奏を工夫する？",
+      "summary": "楽器の奏法を身に付け、互いの音を聴き合いながら合奏の表現を深める。",
+      "stages": [
+        {
+          "label": "楽器の音色や奏法に親しむ",
+          "grades": "1〜3年ごろ",
+          "topicIds": [
+            "jp.elem.music.instrument-playing"
+          ]
+        },
+        {
+          "label": "役割や音の重なりを考えて演奏する",
+          "grades": "3〜6年ごろ",
+          "topicIds": [
+            "jp.elem.music.ensemble-and-part-playing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "music-create-sounds",
+      "subject": "音楽",
+      "title": "音やリズムを組み合わせてつくる",
+      "question": "どんな音を選び、どうつなげると表したい音楽になる？",
+      "summary": "音遊び・即興から構成や記録へと広げ、条件を基に音楽をつくる活動を見渡す。",
+      "stages": [
+        {
+          "label": "音を見つけ、選んでつなぐ",
+          "grades": "1〜2年ごろ",
+          "topicIds": [
+            "jp.elem.music.create-music-and-improvise",
+            "jp.elem.music.musical-elements-and-structure"
+          ]
+        },
+        {
+          "label": "構成を考え、記録して聴き返す",
+          "grades": "3〜6年ごろ",
+          "topicIds": [
+            "jp.elem.music.create-music-and-improvise",
+            "jp.elem.music.music-recording-and-reflection"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "music-listen-and-understand",
+      "subject": "音楽",
+      "title": "音楽を聴いて味わう",
+      "question": "音楽のどこに注目すると、よさや面白さが見えてくる？",
+      "summary": "音色・リズム・旋律・構成と曲想の関わりを聴き取り、日本や世界の多様な音楽文化へ関心を広げる。",
+      "stages": [
+        {
+          "label": "音色やリズム、曲の感じを聴く",
+          "grades": "1〜3年ごろ",
+          "topicIds": [
+            "jp.elem.music.musical-elements-and-structure",
+            "jp.elem.music.listen-and-appreciate"
+          ]
+        },
+        {
+          "label": "音楽の構造や文化的な背景にも目を向ける",
+          "grades": "4〜6年ごろ",
+          "topicIds": [
+            "jp.elem.music.listen-and-appreciate",
+            "jp.elem.music.japanese-and-world-music"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "art-explore-and-create",
+      "subject": "図画工作",
+      "title": "材料や場所から造形遊びを広げる",
+      "question": "材料や場所に関わると、どんな形や活動が生まれる？",
+      "summary": "材料や場所との関わりから発想し、試したり組み合わせたりしながら活動を工夫する。",
+      "stages": [
+        {
+          "label": "材料・場所に関わり、形をつくる",
+          "grades": "1〜2年ごろ",
+          "topicIds": [
+            "jp.elem.art.play-and-build-forms",
+            "jp.elem.art.materials-tools-and-safety"
+          ]
+        },
+        {
+          "label": "活動の仕方や組合せを工夫する",
+          "grades": "3〜6年ごろ",
+          "topicIds": [
+            "jp.elem.art.play-and-build-forms",
+            "jp.elem.art.shape-color-texture-and-image"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "art-express-ideas",
+      "subject": "図画工作",
+      "title": "思いを絵・立体・工作に表す",
+      "question": "表したいことに合わせて、どんな材料や方法を選ぶ？",
+      "summary": "発想・構想と材料・用具の技能を関連付け、絵・立体・工作へ表現を広げる。",
+      "stages": [
+        {
+          "label": "思い付いたことを構想する",
+          "grades": "1〜6年ごろ",
+          "topicIds": [
+            "jp.elem.art.imagine-and-plan-art",
+            "jp.elem.art.shape-color-texture-and-image"
+          ]
+        },
+        {
+          "label": "絵・立体・工作に表す",
+          "grades": "1〜6年ごろ",
+          "topicIds": [
+            "jp.elem.art.draw-and-paint",
+            "jp.elem.art.make-three-dimensional-works",
+            "jp.elem.art.craft-and-design",
+            "jp.elem.art.materials-tools-and-safety"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "art-look-and-talk",
+      "subject": "図画工作",
+      "title": "作品を見て、感じ方を広げる",
+      "question": "形や色、材料の特徴から、どんなよさや意図が見える？",
+      "summary": "自他の作品や生活の中の造形を鑑賞し、対話を通して見方や感じ方を深める。",
+      "stages": [
+        {
+          "label": "形・色・イメージに気付く",
+          "grades": "1〜6年ごろ",
+          "topicIds": [
+            "jp.elem.art.shape-color-texture-and-image"
+          ]
+        },
+        {
+          "label": "作品を鑑賞し、感じたことを伝え合う",
+          "grades": "1〜6年ごろ",
+          "topicIds": [
+            "jp.elem.art.appreciate-art-and-works",
+            "jp.elem.art.talk-about-art-and-process",
+            "jp.elem.art.art-in-life-and-culture"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "art-create-and-reflect",
+      "subject": "図画工作",
+      "title": "つくる・見る・振り返る",
+      "question": "つくったものを見直すと、次の表現はどう変わる？",
+      "summary": "表現と鑑賞、共通事項を切り離さず、つくる過程と作品を見直す活動を往還させる。",
+      "stages": [
+        {
+          "label": "材料や用具を試し、表現する",
+          "grades": "1〜6年ごろ",
+          "topicIds": [
+            "jp.elem.art.play-and-build-forms",
+            "jp.elem.art.imagine-and-plan-art",
+            "jp.elem.art.draw-and-paint",
+            "jp.elem.art.make-three-dimensional-works",
+            "jp.elem.art.craft-and-design",
+            "jp.elem.art.materials-tools-and-safety",
+            "jp.elem.art.shape-color-texture-and-image"
+          ]
+        },
+        {
+          "label": "見合い、感じ方や工夫を確かめる",
+          "grades": "1〜6年ごろ",
+          "topicIds": [
+            "jp.elem.art.appreciate-art-and-works",
+            "jp.elem.art.talk-about-art-and-process",
+            "jp.elem.art.art-in-life-and-culture"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home-family-and-daily-life",
+      "subject": "家庭",
+      "title": "家族・家庭生活を見つめる",
+      "question": "家庭の生活を支える仕事や役割は、どのようにつながっている？",
+      "summary": "自分の成長、家族の役割、家庭の仕事や地域との協働を捉え、よりよい生活を考える。",
+      "stages": [
+        {
+          "label": "自分の成長と家族の役割",
+          "grades": "5〜6年ごろ",
+          "topicIds": [
+            "jp.elem.home.family-and-household-roles"
+          ]
+        },
+        {
+          "label": "家庭の仕事や地域との協力",
+          "grades": "5〜6年ごろ",
+          "topicIds": [
+            "jp.elem.home.household-work-and-time",
+            "jp.elem.home.family-community-cooperation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home-food-clothing-housing",
+      "subject": "家庭",
+      "title": "衣食住の生活を工夫する",
+      "question": "健康・快適・安全な生活のために、何をどう選び工夫する？",
+      "summary": "食事・調理、衣服、住まいを捉え、生活に合う工夫へ結び付ける。",
+      "stages": [
+        {
+          "label": "食事の役割と調理",
+          "grades": "5〜6年ごろ",
+          "topicIds": [
+            "jp.elem.home.food-and-balanced-meals",
+            "jp.elem.home.cooking-basics-and-food-safety"
+          ]
+        },
+        {
+          "label": "衣服や住まいを整える",
+          "grades": "5〜6年ごろ",
+          "topicIds": [
+            "jp.elem.home.clothing-and-care",
+            "jp.elem.home.simple-sewing-and-fabric",
+            "jp.elem.home.housing-functions-and-safety",
+            "jp.elem.home.organize-and-clean-living-space"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home-consumption-and-environment",
+      "subject": "家庭",
+      "title": "消費生活と環境を考える",
+      "question": "物やお金をどう使うと、生活や環境をよりよくできる？",
+      "summary": "購入や金銭管理、環境への影響を考え、持続可能な消費行動を工夫する。",
+      "stages": [
+        {
+          "label": "物や金銭の使い方を考える",
+          "grades": "5〜6年ごろ",
+          "topicIds": [
+            "jp.elem.home.money-and-purchasing"
+          ]
+        },
+        {
+          "label": "環境に配慮して生活を工夫する",
+          "grades": "5〜6年ごろ",
+          "topicIds": [
+            "jp.elem.home.consumer-responsibility-and-environment"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home-inquiry-practice",
+      "subject": "家庭",
+      "title": "生活の課題を見つけ、実践する",
+      "question": "学んだことを家庭の生活でどのように試せる？",
+      "summary": "家族・衣食住・消費の学習を生活課題の発見、計画、実践、振り返りへつなげる。",
+      "stages": [
+        {
+          "label": "生活の中から課題を見つける",
+          "grades": "5〜6年ごろ",
+          "topicIds": [
+            "jp.elem.home.family-and-household-roles",
+            "jp.elem.home.household-work-and-time",
+            "jp.elem.home.family-community-cooperation",
+            "jp.elem.home.food-and-balanced-meals",
+            "jp.elem.home.cooking-basics-and-food-safety",
+            "jp.elem.home.clothing-and-care",
+            "jp.elem.home.simple-sewing-and-fabric",
+            "jp.elem.home.housing-functions-and-safety",
+            "jp.elem.home.organize-and-clean-living-space",
+            "jp.elem.home.money-and-purchasing",
+            "jp.elem.home.consumer-responsibility-and-environment"
+          ]
+        },
+        {
+          "label": "計画して実践し、改善する",
+          "grades": "5〜6年ごろ",
+          "topicIds": [
+            "jp.elem.home.plan-practice-and-improve-life"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pe-movement-and-fitness",
+      "subject": "体育",
+      "title": "体を動かす楽しさと体力",
+      "question": "体の動きを広げ、心地よく運動するには？",
+      "summary": "低学年の運動遊びから中・高学年の体つくり運動へ、基本的な動きや体力の高め方を広げる。",
+      "stages": [
+        {
+          "label": "体ほぐしと基本的な動き",
+          "grades": "1〜2年ごろ",
+          "topicIds": [
+            "jp.elem.pe.body-movement-and-fitness"
+          ]
+        },
+        {
+          "label": "動きを広げ、体の動きを高める",
+          "grades": "3〜6年ごろ",
+          "topicIds": [
+            "jp.elem.pe.body-movement-and-fitness",
+            "jp.elem.pe.movement-rules-safety-and-cooperation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pe-apparatus-and-track",
+      "subject": "体育",
+      "title": "器械運動・走跳運動",
+      "question": "自分の動きをどのように工夫し、できることを増やす？",
+      "summary": "器械運動や陸上運動で基本的な動きを身に付け、技や記録を段階に応じて工夫する。",
+      "stages": [
+        {
+          "label": "器械・器具や走跳の運動遊び",
+          "grades": "1〜2年ごろ",
+          "topicIds": [
+            "jp.elem.pe.apparatus-and-gymnastics",
+            "jp.elem.pe.running-jumping-and-track"
+          ]
+        },
+        {
+          "label": "器械運動・陸上運動へ広げる",
+          "grades": "3〜6年ごろ",
+          "topicIds": [
+            "jp.elem.pe.apparatus-and-gymnastics",
+            "jp.elem.pe.running-jumping-and-track"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pe-water-and-ball-games",
+      "subject": "体育",
+      "title": "水泳・ゲーム・ボール運動",
+      "question": "水やボールの特徴に応じて、どんな動きや協力が必要？",
+      "summary": "水泳運動やゲームの特性に応じて技能やルール、仲間との協力を発達段階に合わせて高める。",
+      "stages": [
+        {
+          "label": "水遊び・ゲームに親しむ",
+          "grades": "1〜2年ごろ",
+          "topicIds": [
+            "jp.elem.pe.water-play-and-swimming",
+            "jp.elem.pe.games-and-ball-sports"
+          ]
+        },
+        {
+          "label": "水泳運動・ボール運動へ広げる",
+          "grades": "3〜6年ごろ",
+          "topicIds": [
+            "jp.elem.pe.water-play-and-swimming",
+            "jp.elem.pe.games-and-ball-sports"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pe-expression-and-cooperation",
+      "subject": "体育",
+      "title": "表現運動と仲間との協力",
+      "question": "動きやリズムを通して、どのように自分や仲間を表現する？",
+      "summary": "表現リズム遊びから表現運動へ広げ、動きの特徴や友達との関わりを工夫する。",
+      "stages": [
+        {
+          "label": "リズムや題材を体で表す",
+          "grades": "1〜2年ごろ",
+          "topicIds": [
+            "jp.elem.pe.expressive-and-rhythmic-movement",
+            "jp.elem.pe.movement-rules-safety-and-cooperation"
+          ]
+        },
+        {
+          "label": "動きをつなぎ、協力して表現する",
+          "grades": "3〜6年ごろ",
+          "topicIds": [
+            "jp.elem.pe.expressive-and-rhythmic-movement",
+            "jp.elem.pe.movement-rules-safety-and-cooperation",
+            "jp.elem.pe.healthy-daily-life"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pe-health-and-safety",
+      "subject": "体育",
+      "title": "健康・安全な生活をつくる",
+      "question": "健康や安全を守るために、どんな知識と行動が必要？",
+      "summary": "健康な生活、発育・発達、心の健康、けがの防止、病気の予防を学年段階に応じて捉える。",
+      "stages": [
+        {
+          "label": "健康な生活と体の成長",
+          "grades": "3〜4年ごろ",
+          "topicIds": [
+            "jp.elem.pe.healthy-daily-life",
+            "jp.elem.pe.growth-and-development"
+          ]
+        },
+        {
+          "label": "心の健康・けがの防止・病気の予防",
+          "grades": "5〜6年ごろ",
+          "topicIds": [
+            "jp.elem.pe.mental-health-and-emotions",
+            "jp.elem.pe.injury-prevention-and-safety",
+            "jp.elem.pe.illness-prevention-and-health"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "foreign-activity-communicate",
+      "subject": "外国語活動",
+      "title": "外国語の音声や表現に慣れ親しむ",
+      "question": "外国語を使って伝え合う楽しさを、どう体験する？",
+      "summary": "音声や基本表現を中心に、聞く・話す体験や言語文化への気付きを通して外国語に親しむ。",
+      "stages": [
+        {
+          "label": "音声・リズム・簡単な表現に親しむ",
+          "grades": "3〜4年ごろ",
+          "topicIds": [
+            "jp.elem.foreign-activity.sounds-and-rhythm",
+            "jp.elem.foreign-activity.listen-to-simple-expressions"
+          ]
+        },
+        {
+          "label": "やり取り・発表・文化への気付きを広げる",
+          "grades": "3〜4年ごろ",
+          "topicIds": [
+            "jp.elem.foreign-activity.interact-with-simple-phrases",
+            "jp.elem.foreign-activity.share-about-self-and-familiar-things",
+            "jp.elem.foreign-activity.notice-language-and-culture"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "foreign-listen-speak",
+      "subject": "外国語",
+      "title": "聞いて、話して伝え合う",
+      "question": "相手や目的に応じて、どのように英語で伝え合う？",
+      "summary": "音声中心の経験を基に、聞く・やり取り・発表の技能を高学年で深める。",
+      "stages": [
+        {
+          "label": "聞いて内容を捉える",
+          "grades": "5〜6年ごろ",
+          "topicIds": [
+            "jp.elem.foreign.listen-and-understand"
+          ]
+        },
+        {
+          "label": "やり取りや発表で伝える",
+          "grades": "5〜6年ごろ",
+          "topicIds": [
+            "jp.elem.foreign.speak-and-interact",
+            "jp.elem.foreign.speak-and-present"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "foreign-read-write",
+      "subject": "外国語",
+      "title": "文字や語句を読み書きして活用する",
+      "question": "音声で慣れ親しんだ表現を、文字とどうつなげる？",
+      "summary": "聞く・話す経験を土台に、慣れ親しんだ語句や基本表現を読み書きし、英語の音・文字・語順への気付きを育てる。",
+      "stages": [
+        {
+          "label": "文字・音・語順に気付く",
+          "grades": "5〜6年ごろ",
+          "topicIds": [
+            "jp.elem.foreign.letters-sounds-and-word-order"
+          ]
+        },
+        {
+          "label": "身近な語句や表現を読む・書く",
+          "grades": "5〜6年ごろ",
+          "topicIds": [
+            "jp.elem.foreign.read-familiar-words-and-sentences",
+            "jp.elem.foreign.write-familiar-words-and-sentences"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "moral-self-and-growth",
+      "subject": "道徳",
+      "title": "自分自身を見つめる",
+      "question": "自分らしく、よりよく生きるために何を大切にする？",
+      "summary": "Aの視点に含まれる自律、正直、節度、個性、努力、真理の探究などから、自分の生き方を考える。",
+      "stages": [
+        {
+          "label": "自分の判断や生活を見つめる",
+          "grades": "1〜6年ごろ",
+          "topicIds": [
+            "jp.elem.moral.content-self-judgment",
+            "jp.elem.moral.content-honesty",
+            "jp.elem.moral.content-moderation",
+            "jp.elem.moral.content-individuality"
+          ]
+        },
+        {
+          "label": "目標や真理を追究する",
+          "grades": "1〜6年ごろ",
+          "topicIds": [
+            "jp.elem.moral.content-hope-effort",
+            "jp.elem.moral.content-truth-seeking"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "moral-understand-others",
+      "subject": "道徳",
+      "title": "人との関わりを考える",
+      "question": "相手の気持ちや考えを理解し、よりよい関係をつくるには？",
+      "summary": "Bの視点に含まれる思いやり、感謝、礼儀、友情、相互理解などから他者との関わりを考える。",
+      "stages": [
+        {
+          "label": "相手を尊重し、思いやる",
+          "grades": "1〜6年ごろ",
+          "topicIds": [
+            "jp.elem.moral.content-kindness",
+            "jp.elem.moral.content-gratitude",
+            "jp.elem.moral.content-manners"
+          ]
+        },
+        {
+          "label": "友情や違いの理解を深める",
+          "grades": "1〜6年ごろ",
+          "topicIds": [
+            "jp.elem.moral.content-friendship",
+            "jp.elem.moral.content-mutual-understanding"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "moral-community-and-society",
+      "subject": "道徳",
+      "title": "集団や社会との関わりを考える",
+      "question": "みんながよりよく生活するために、どんな社会の一員でありたい？",
+      "summary": "Cの視点に含まれる規則、公正、勤労、家族、学校、伝統、国際理解から社会との関わりを考える。",
+      "stages": [
+        {
+          "label": "集団の中で役割と責任を考える",
+          "grades": "1〜6年ごろ",
+          "topicIds": [
+            "jp.elem.moral.content-respect-rules",
+            "jp.elem.moral.content-fairness",
+            "jp.elem.moral.content-work-and-public-spirit",
+            "jp.elem.moral.content-family-love"
+          ]
+        },
+        {
+          "label": "学校・地域・世界との関わりを考える",
+          "grades": "1〜6年ごろ",
+          "topicIds": [
+            "jp.elem.moral.content-school-community",
+            "jp.elem.moral.content-tradition-and-culture",
+            "jp.elem.moral.content-international-friendship"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "moral-life-nature-and-beauty",
+      "subject": "道徳",
+      "title": "生命・自然・美しいものと関わる",
+      "question": "生命や自然の尊さに気付き、どう生きたい？",
+      "summary": "Dの視点に含まれる生命の尊さ、自然愛護、感動・畏敬、よりよく生きる喜びから考えを深める。",
+      "stages": [
+        {
+          "label": "生命や自然を大切にする",
+          "grades": "1〜6年ごろ",
+          "topicIds": [
+            "jp.elem.moral.content-respect-life",
+            "jp.elem.moral.content-care-nature"
+          ]
+        },
+        {
+          "label": "感動やよりよく生きる喜びを考える",
+          "grades": "1〜6年ごろ",
+          "topicIds": [
+            "jp.elem.moral.content-awe-and-beauty",
+            "jp.elem.moral.content-joy-of-living"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "integrated-inquiry-cycle",
+      "subject": "総合的な学習の時間",
+      "title": "問いを立て、調べ、考え、伝え、次へつなぐ",
+      "question": "自分たちの問いを、どのように探究して深める？",
+      "summary": "課題設定・情報収集・整理分析・まとめ表現を往還し、振り返りから次の問いや実生活の行動へつなぐ。具体的な学習テーマは各校が定める。",
+      "stages": [
+        {
+          "label": "課題を設定し、見通しをもつ",
+          "grades": "3〜6年ごろ",
+          "topicIds": [
+            "jp.elem.integrated.set-inquiry-question"
+          ]
+        },
+        {
+          "label": "情報を集め、整理・分析する",
+          "grades": "3〜6年ごろ",
+          "topicIds": [
+            "jp.elem.integrated.collect-information-and-investigate",
+            "jp.elem.integrated.organize-and-analyze-information"
+          ]
+        },
+        {
+          "label": "まとめ・表現し、振り返る",
+          "grades": "3〜6年ごろ",
+          "topicIds": [
+            "jp.elem.integrated.summarize-and-communicate-findings",
+            "jp.elem.integrated.reflect-and-renew-inquiry"
+          ]
+        },
+        {
+          "label": "協働し、次の問いへつなぐ",
+          "grades": "3〜6年ごろ",
+          "topicIds": [
+            "jp.elem.integrated.collaborate-and-use-thinking-tools"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "special-class-activities",
+      "subject": "特別活動",
+      "title": "学級生活をつくり、自分を成長させる",
+      "question": "学級の課題をみんなで解決し、自分の生活や成長にどう生かす？",
+      "summary": "学級活動の生活づくり、役割、日常への適応、健康安全、キャリア形成をつなぐ。",
+      "stages": [
+        {
+          "label": "学級の生活づくりと役割",
+          "grades": "1〜6年ごろ",
+          "topicIds": [
+            "jp.elem.special.class-and-school-life-making",
+            "jp.elem.special.class-organization-and-roles"
+          ]
+        },
+        {
+          "label": "日常生活・健康安全・キャリア",
+          "grades": "1〜6年ごろ",
+          "topicIds": [
+            "jp.elem.special.daily-life-adjustment-and-health-safety",
+            "jp.elem.special.career-formation-and-self-realization"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "special-school-groups",
+      "subject": "特別活動",
+      "title": "学校の集団活動に参画する",
+      "question": "学級をこえた仲間と、学校生活をどう豊かにする？",
+      "summary": "児童会活動・クラブ活動で、異年齢の仲間と計画・運営・協力して活動する。",
+      "stages": [
+        {
+          "label": "児童会で計画・運営する",
+          "grades": "1〜6年ごろ",
+          "topicIds": [
+            "jp.elem.special.student-council-planning-and-operation"
+          ]
+        },
+        {
+          "label": "クラブで興味・関心を追究する",
+          "grades": "4〜6年ごろ",
+          "topicIds": [
+            "jp.elem.special.club-activities-and-interests"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "special-school-events",
+      "subject": "特別活動",
+      "title": "学校行事を協力してつくる",
+      "question": "行事を通して、集団や自分の成長をどう実感する？",
+      "summary": "多様な学校行事に役割をもって参加し、準備・実践・振り返りを通して学校生活を豊かにする。",
+      "stages": [
+        {
+          "label": "仲間と計画し、行事に取り組む",
+          "grades": "1〜6年ごろ",
+          "topicIds": [
+            "jp.elem.special.school-events-and-cooperation"
+          ]
+        },
+        {
+          "label": "成果と自分の役割を振り返る",
+          "grades": "1〜6年ごろ",
+          "topicIds": [
+            "jp.elem.special.reflect-on-activities-and-improve"
+          ]
+        }
+      ]
     }
   ],
   "connections": [
@@ -983,6 +1814,7 @@
     "2026-10-19: わり算の筆算と、多けたのひき算・整数の位取りとの関係を依存関係データにも追加。いずれもプロジェクト編集上の推奨関係で、公式コード照合は未完了。",
     "2026-11-07: 算数の学びを、分数・小数、図形、量と測定、数量関係、データ活用の5つの道すじに拡張。既存の整数計算5道すじと合わせ、単元間のつながりを子ども・教員・AIが大きなまとまりからたどれる構成案とした。各学年は候補であり、公式配当や必修順序を意味しない。",
     "2026-11-07: 国語・社会・理科の学習のまとまりを各5本の道すじとして追加。国語は言葉・読む・書く・話す聞く・情報活用の技能を重ねて育てる構成、社会は地域から日本・歴史・政治へ視野を広げる構成、理科は探究過程と内容領域を組み合わせる構成とした。各学年表記は候補であり、公式配当や一本道の順序を示さない。",
-    "2026-11-07: 国語・社会・理科の学びの道すじと学習関係候補を追加。国語は読解・表現・言葉の技能が行き来する関係、社会は地域・産業・歴史・政治の関連、理科は探究過程と内容概念のつながりを編集上の候補として整理。すべて教員レビュー待ち。"
+    "2026-11-07: 国語・社会・理科の学びの道すじと学習関係候補を追加。国語は読解・表現・言葉の技能が行き来する関係、社会は地域・産業・歴史・政治の関連、理科は探究過程と内容概念のつながりを編集上の候補として整理。すべて教員レビュー待ち。",
+    "2026-11-07: 未収録だった生活・音楽・図画工作・家庭・体育・外国語活動・外国語・道徳・総合的な学習の時間・特別活動の学びの道すじを追加。MEXT現行解説と出版社年間指導計画・系統資料に基づく独自の整理。学年・順序は候補で、必修順序ではない。"
   ]
 }
