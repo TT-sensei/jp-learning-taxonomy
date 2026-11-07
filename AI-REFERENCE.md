@@ -21,8 +21,7 @@
 | data/topics.json | 学習項目。topics 配列を参照 |
 | data/dependencies.json | 学習項目間の関係。dependencies 配列を参照 |
 | data/learning-support.json | つまずきと復習支援。確認済みの supportCases のみ利用 |
-| data/learning-pathways.json | 学習項目を大きなまとまり・段階で見渡す道すじ |
-| data/learning-pathways.json | 学びのまとまりを説明する編集上の道すじ |
+| data/learning-pathways.json | 教科別に大きな学びのまとまり・段階を見渡す編集上の道すじ |
 | data/representation-models.json | 図・式・表などの表現モデル |
 | data/curriculum-standards.json | 公式資料・領域・出典 |
 | data/curriculum-code-mapping.json | 公式コード候補と確認状況 |
@@ -38,6 +37,14 @@
 - gradePlacement：初出候補・継続候補・根拠・確認状態。
 - reviewStatus：学習項目自体の確認状態。
 - topicLifecycle：superseded の項目は通常の一覧から除外し、後継IDをたどる。
+
+## 学びの道すじの読み方
+
+- pathways は教科ごとの大きな学びのまとまりを表す。subject / id / title / question / summary を確認する。
+- stages は道すじの段階。topicIds は topics.json の安定IDを参照する。
+- 1つの学習項目が複数の道すじに含まれることがある。道すじは唯一の順序や授業配列ではない。
+- grades の表示は目安・候補であり、公式の学年配当ではない。
+- 現在の収録対象は国語・算数・社会・理科。ほかの教科等は今後、固有の学習構造を設計してから追加する。
 
 ## 学習関係の読み方
 
