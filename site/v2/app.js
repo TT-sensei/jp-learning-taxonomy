@@ -5,8 +5,13 @@ const state={grade:"all",subject:"all",query:"",topics:[],relations:[],pathways:
 const $=id=>document.getElementById(id);
 const activeTopics=()=>state.topics.filter(t=>t.topicLifecycle!=="superseded");
 const gradesFor=t=>{const p=t.gradePlacement||{};return [...new Set([p.candidateFirstIntroductionGrade,...(p.candidateContinuingGrades||[]),...(t.grades||[])].filter(n=>Number.isInteger(n)&&n>=1&&n<=6))].sort((a,b)=>a-b)};
-const gradeLabel=t=>{if(Array.isArray(t.gradeBandProgression)&&t.gradeBandProgression.length)return [...new Set(t.gradeBandProgression.map(x=>x.label).filter(Boolean))].join("・");const p=t.gradePlacement||{};if(p.candidateFirstIntroductionGrade)return p.candidateFirstIntroductionGrade+"年ごろ";const gs=gradesFor(t);return gs.length?gs.join("・")+"年":"学年未整理"};
-const gradeRangeLabel=t=>{if(Array.isArray(t.gradeBandProgression)&&t.gradeBandProgression.length)return [...new Set(t.gradeBandProgression.map(x=>x.label).filter(Boolean))].join("・");const gs=gradesFor(t);if(!gs.length)return"学年未整理";if(gs.length===1)return gs[0]+"年ごろ";return gs[0]+"〜"+gs[gs.length-1]+"年"};
+const gradeLabel=t=>{if(t.subject==="国語")return gradeBandLabel(t);if(Array.isArray(t.gradeBandProgression)&&t.gradeBandProgression.length)return [...new Set(t.gradeBandProgression.map(x=>x.label).filter(Boolean))].join("・");const p=t.gradePlacement||{};if(p.candidateFirstIntroductionGrade)return p.candidateFirstIntroductionGrade+"年ごろ";const gs=gradesFor(t);return gs.length?gs.join("・")+"年":"学年未整理"};
+const gradeRangeLabel=t=>{if(t.subject==="国語")return gradeBandLabel(t);if(Array.isArray(t.gradeBandProgression)&&t.gradeBandProgression.length)return [...new Set(t.gradeBandProgression.map(x=>x.label).filter(Boolean))].join("・");const gs=gradesFor(t);if(!gs.length)return"学年未整理";if(gs.length===1)return gs[0]+"年ごろ";return gs[0]+"〜"+gs[gs.length-1]+"年"};
+function gradeBandLabel(t){
+const gs=new Set((t.grades||[]).filter(g=>Number.isInteger(g)&&g>=1&&g<=6));
+const bands=[{label:"低学年",grades:[1,2]},{label:"中学年",grades:[3,4]},{label:"高学年",grades:[5,6]}];
+return bands.filter(b=>b.grades.some(g=>gs.has(g))).map(b=>b.label).join("・")||"学年帯未整理";
+}
 function compactGradeList(values){
 const nums=[...new Set((values||[]).filter(n=>Number.isInteger(n)&&n>=1&&n<=6))].sort((a,b)=>a-b);
 if(!nums.length)return"";
@@ -16,6 +21,7 @@ ranges.push(start===end?String(start):start+"〜"+end);
 return ranges.join("・")+"年";
 }
 function gradePlacementSummary(t){
+if(t.subject==="国語")return "学年帯の目安 "+gradeBandLabel(t);
 if(Array.isArray(t.gradeBandProgression)&&t.gradeBandProgression.length){
 const labels=[...new Set(t.gradeBandProgression.map(x=>x.label).filter(Boolean))];
 return "発展の目安 "+labels.join(" → ");
@@ -113,7 +119,8 @@ const related=state.relations.filter(r=>(r.from===id||r.to===id)&&["related-lear
 const crossSubject=state.relations.filter(r=>(r.from===id||r.to===id)&&map.get(r.from===id?r.to:r.from)&&map.get(r.from===id?r.to:r.from).subject!==t.subject);
 $("detail-meta").textContent=[t.subject,gradeLabel(t),t.domain].filter(Boolean).join(" ・ ");$("detail-title").textContent=t.studentName||t.name;$("detail-description").textContent=t.studentDescription||t.description||"説明は準備中です。";
 const hasBandProgression=Array.isArray(t.gradeBandProgression)&&t.gradeBandProgression.length>0;
-$("detail-grade-note").textContent=hasBandProgression?"学年ごとの一律配当ではなく、学年段階に応じた学びの深まりを示しています。題材や学校の計画によって扱いは異なります。":"初出・継続学年は学びを見渡すための候補です。公式の一律配当や、必ずこの順番で学ぶことを示すものではありません。";
+const isJapaneseGradeBand=t.subject==="国語";
+$("detail-grade-note").textContent=hasBandProgression?"学年ごとの一律配当ではなく、学年段階に応じた学びの深まりを示しています。題材や学校の計画によって扱いは異なります。":isJapaneseGradeBand?"国語は1・2年、3・4年、5・6年の学年帯で内容が示されています。この表示は学年帯の目安で、個別の学年や年間の配当を確定するものではありません。":"初出・継続学年は学びを見渡すための候補です。公式の一律配当や、必ずこの順番で学ぶことを示すものではありません。";
 const progressionPanel=$("grade-progression"),progressionList=$("grade-progression-list");
 progressionList.replaceChildren();
 const progression=hasBandProgression?t.gradeBandProgression:[];
