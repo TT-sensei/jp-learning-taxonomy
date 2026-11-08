@@ -473,7 +473,8 @@
             "jp.elem.japanese.read-figurative-language-and-effects",
             "jp.elem.japanese.read-between-the-lines",
             "jp.elem.japanese.read-and-reflect",
-            "jp.elem.japanese.quote-evidence"
+            "jp.elem.japanese.quote-evidence",
+            "jp.elem.japanese.media-and-multimodal-information"
           ]
         },
         {
@@ -606,7 +607,6 @@
           "grades": "3〜6年ごろ",
           "topicIds": [
             "jp.elem.japanese.source-and-reliability",
-            "jp.elem.japanese.media-and-multimodal-information",
             "jp.elem.japanese.read-facts-and-opinions",
             "jp.elem.japanese.compare-texts",
             "jp.elem.japanese.use-quotes-and-sources-in-writing",
