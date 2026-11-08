@@ -190,6 +190,12 @@ for (let grade = 1; grade <= 6; grade += 1) {
 }
 compareCounts(manifestData.counts?.byGrade, allByGrade, "byGrade");
 compareCounts(manifestData.counts?.activeByGrade, activeByGrade, "activeByGrade");
+const byArea = {};
+for (const topic of activeTopics) {
+  byArea[topic.domain] = (byArea[topic.domain] ?? 0) + 1;
+}
+compareCounts(manifestData.counts?.byArea, byArea, "byArea");
+
 const bySubject = {};
 const bySubjectGrade = {};
 for (const topic of activeTopics) {
