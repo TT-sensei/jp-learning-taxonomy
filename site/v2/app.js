@@ -1,7 +1,7 @@
 (() => {
 "use strict";
 const DATA={topics:"../../data/topics.json",relations:"../../data/dependencies.json",pathways:"../../data/learning-pathways.json",support:"../../data/learning-support.json"};
-const state={grade:"all",subject:"all",query:"",topics:[],relations:[],pathways:[],supportCases:[],activeId:null};
+const state={grade:"all",subject:"all",query:"",topics:[],relations:[],pathways:[],supportCases:[],activeId:null,openPathwaySubjects:new Set()};
 const $=id=>document.getElementById(id);
 const activeTopics=()=>state.topics.filter(t=>t.topicLifecycle!=="superseded");
 const gradesFor=t=>{const p=t.gradePlacement||{};return [...new Set([p.candidateFirstIntroductionGrade,...(p.candidateContinuingGrades||[]),...(t.grades||[])].filter(n=>Number.isInteger(n)&&n>=1&&n<=6))].sort((a,b)=>a-b)};
@@ -25,7 +25,7 @@ const relationLabel=type=>({"prerequisite":"学習の前提候補","recommended-
 const statusLabel=status=>({"published":"公開確認済み","reviewed":"内容確認済み","needs-review":"確認中","draft":"下書き"})[status]||"状態未設定";
 function make(tag,cls,text){const n=document.createElement(tag);if(cls)n.className=cls;if(text!==undefined)n.textContent=String(text??"");return n}
 function topicMap(){return new Map(activeTopics().map(t=>[t.id,t]))}
-function matches(t){if(state.subject!=="all"&&t.subject!==state.subject)return false;if(state.grade!=="all"&&!gradesFor(t).includes(Number(state.grade)))return false;if(state.query){const q=state.query.toLocaleLowerCase("ja");const hay=[t.name,t.studentName,t.description,t.studentDescription,t.domain,t.cluster].join(" ").toLocaleLowerCase("ja");if(!hay.includes(q))return false}return true}
+function matches(t){if(state.subject!=="all"&&t.subject!==state.subject)return false;if(state.grade!=="all"&&!gradesFor(t).includes(Number(state.grade)))return false;if(state.query){const q=state.query.toLocaleLowerCase("ja");const hay=[t.subject,t.name,t.studentName,t.description,t.studentDescription,t.domain,t.cluster].join(" ").toLocaleLowerCase("ja");if(!hay.includes(q))return false}return true}
 function setSelected(root,key,value){root.querySelectorAll("button").forEach(b=>{const yes=b.dataset[key]===value;b.classList.toggle("is-selected",yes);b.setAttribute("aria-pressed",String(yes))})}
 function renderCounts(){const ts=activeTopics();document.querySelectorAll("#subject-filters .subject-card[data-subject]").forEach(button=>{const subject=button.dataset.subject;const target=$("count-"+subject);if(target)target.textContent=subject==="all"?ts.length:ts.filter(t=>t.subject===subject).length})}
 function renderPathways(){
@@ -77,6 +77,8 @@ const groups=new Map();
 paths.forEach(p=>{const key=p.subject||"その他";if(!groups.has(key))groups.set(key,[]);groups.get(key).push(p)});
 [...groups.entries()].sort((a,b)=>a[0].localeCompare(b[0],"ja")).forEach(([subject,items])=>{
 const details=make("details","pathway-subject-group");
+details.open=state.openPathwaySubjects.has(subject);
+details.addEventListener("toggle",()=>{if(details.open)state.openPathwaySubjects.add(subject);else state.openPathwaySubjects.delete(subject)});
 const summary=make("summary","pathway-subject-summary");
 summary.append(make("strong","pathway-subject-title",subject),make("span","pathway-subject-count",items.length+"本の道すじ"));
 details.append(summary);
