@@ -4480,6 +4480,16 @@
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
       "studentRationale": "予想を立てる力が、条件をそろえて調べる助けになるよ。"
+    },
+    {
+      "id": "grade-link-449",
+      "from": "jp.elem.japanese.sounds-and-characters",
+      "to": "jp.elem.japanese.romaji-reading-and-writing",
+      "type": "recommended-prerequisite",
+      "rationale": "音節と文字の関係や日本語の音の特徴への気付きが、ローマ字で日本語の語句を読み書きする際の土台になる。",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "studentRationale": "日本語の音と文字の関係を知っていると、ローマ字で言葉を読んだり書いたりしやすくなるよ。"
     }
   ]
 }
