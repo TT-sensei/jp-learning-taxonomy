@@ -513,6 +513,480 @@
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
       "evidence": []
+    },
+    {
+      "id": "math-support-020",
+      "topicId": "jp.elem.math.multiplication-tables",
+      "difficulty": "九九の答えを段ごとに取り違える",
+      "description": "九九を丸暗記だけで覚えようとして、数のまとまりとしての意味と結び付いていない。",
+      "signs": [
+        "7の段と8の段の答えを混同する",
+        "6×7のような問題で答えが出てくるまで時間がかかる"
+      ],
+      "reviewTargets": [
+        {
+          "topicId": "jp.elem.math.multiplication-meaning",
+          "reason": "同じ数のまとまりがいくつ分という乗法の意味を取り戻す"
+        }
+      ],
+      "supportSteps": [
+        "アレイ（点の並び）で、かけ算を面積のイメージで捉える",
+        "5の段・2の段など確かな段から、×2や＋1つ分で広げる",
+        "間違えやすい段だけを重点的に練習する"
+      ],
+      "studentPrompt": "九九の答えが、まざって思い出せないとき",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "evidence": []
+    },
+    {
+      "id": "math-support-021",
+      "topicId": "jp.elem.math.multidigit-multiply-two-digit",
+      "difficulty": "筆算で部分積の位がずれる",
+      "description": "×10の部分を書く位置の意味が分かっておらず、手順としてだけ筆算をしている。",
+      "signs": [
+        "24×32 で 24×2 と 24×30 の結果を同じ位に書いてしまう",
+        "答えの桁数がおかしくても気付かない"
+      ],
+      "reviewTargets": [
+        {
+          "topicId": "jp.elem.math.multidigit-multiply-one-digit",
+          "reason": "1位数のかけ算の筆算の仕組みを確認する"
+        },
+        {
+          "topicId": "jp.elem.math.distributive-property",
+          "reason": "数を分けてかける考え方を取り戻す"
+        }
+      ],
+      "supportSteps": [
+        "24×30 は 24×3 の10倍であることを確認する",
+        "部分積を色分けして、位をそろえて書く",
+        "見積もりで答えの桁数を先に確かめる"
+      ],
+      "studentPrompt": "かけ算の筆算で、位がずれてしまうとき",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "evidence": []
+    },
+    {
+      "id": "math-support-022",
+      "topicId": "jp.elem.math.fractions-same-denominator",
+      "difficulty": "同分母分数でも分母同士を足してしまう",
+      "description": "分数を2つの整数の組として見てしまい、単位分数のいくつ分という見方ができていない。",
+      "signs": [
+        "2/5＋1/5 を 3/10 と答える",
+        "帯分数と仮分数の変換でつまずく"
+      ],
+      "reviewTargets": [
+        {
+          "topicId": "jp.elem.math.unit-fractions",
+          "reason": "単位分数のいくつ分という分数の見方を取り戻す"
+        }
+      ],
+      "supportSteps": [
+        "数直線や円図で、5等分した1つ分を確認する",
+        "『分母はピースの大きさ、分子は個数』と声に出して計算する",
+        "同分母のたし算から再開する"
+      ],
+      "studentPrompt": "分数のたし算で、分母も足してしまうとき",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "evidence": []
+    },
+    {
+      "id": "math-support-023",
+      "topicId": "jp.elem.math.fraction-multiply-divide",
+      "difficulty": "わり算で逆数にしてかける理由が分からない",
+      "description": "分数のわり算の手順だけを覚えていて、数量の関係として捉えられていない。",
+      "signs": [
+        "÷3/4 を ×4/3 にする理由を説明できない",
+        "かけ算とわり算のどちらを使うか、文章題で判断できない"
+      ],
+      "reviewTargets": [
+        {
+          "topicId": "jp.elem.math.unit-fractions",
+          "reason": "単位分数のいくつ分という見方を取り戻す"
+        },
+        {
+          "topicId": "jp.elem.math.division-meaning",
+          "reason": "わり算が『いくつ分』を求める計算であることを確認する"
+        }
+      ],
+      "supportSteps": [
+        "数直線で、答えが何個分かを図で確かめる",
+        "÷1/4 のような単純な場合から、4倍になることを見る",
+        "整数のわり算に戻って、逆数の関係を確認する"
+      ],
+      "studentPrompt": "分数のわり算で、ひっくり返してかける理由が分からないとき",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "evidence": []
+    },
+    {
+      "id": "math-support-024",
+      "topicId": "jp.elem.math.factors-multiples",
+      "difficulty": "倍数と約数を取り違える",
+      "description": "わり算の商と余りの関係として捉えられず、言葉の意味だけで判断している。",
+      "signs": [
+        "12の約数を聞かれて 24, 36 と答える",
+        "最小公倍数と最大公約数を逆に使う"
+      ],
+      "reviewTargets": [
+        {
+          "topicId": "jp.elem.math.multiplication-tables",
+          "reason": "九九の範囲で、数のまとまりを確認する"
+        },
+        {
+          "topicId": "jp.elem.math.division-meaning",
+          "reason": "わり切れる関係をわり算で確かめる見方を取り戻す"
+        }
+      ],
+      "supportSteps": [
+        "12個の物を分けられる人数を実際に確かめる（約数）",
+        "12を何回も足していく数を確認する（倍数）",
+        "言葉の定義を、具体例とセットで言い直す"
+      ],
+      "studentPrompt": "倍数と約数が、反対になってしまうとき",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "evidence": []
+    },
+    {
+      "id": "math-support-025",
+      "topicId": "jp.elem.math.unit-quantity",
+      "difficulty": "単位量当たりで、どちらをどちらでわるか分からない",
+      "description": "『1当たり』を求める意味が捉えられず、大きい数を小さい数でわる手順に頼っている。",
+      "signs": [
+        "混み具合の比較で、面積でわるか人数でわるか迷う",
+        "答えの単位が何を表すか説明できない"
+      ],
+      "reviewTargets": [
+        {
+          "topicId": "jp.elem.math.division-meaning",
+          "reason": "1当たりを求めるわり算の意味を確認する"
+        },
+        {
+          "topicId": "jp.elem.math.average",
+          "reason": "平均で1当たりを求めた経験と結び付ける"
+        }
+      ],
+      "supportSteps": [
+        "表にして、そろえたい量を1にそろえる操作を確認する",
+        "『〜当たり』という言葉で答えを言い直す",
+        "人数・面積のどちらを1にするか、問題文の言葉から見つける"
+      ],
+      "studentPrompt": "単位量当たりで、わる方向が分からないとき",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "evidence": []
+    },
+    {
+      "id": "math-support-026",
+      "topicId": "jp.elem.math.ratio",
+      "difficulty": "比の値と割合を混同する",
+      "description": "比を2つの量の関係としてではなく、1つの数として扱おうとしている。",
+      "signs": [
+        "2:3 の比の値を 2/3 と 3/2 で迷う",
+        "等しい比で、内側どうしを比べてしまう"
+      ],
+      "reviewTargets": [
+        {
+          "topicId": "jp.elem.math.percentage",
+          "reason": "割合が『もとにする量の何倍か』であることを確認する"
+        }
+      ],
+      "supportSteps": [
+        "ジュースの味の濃さなど、具体例で比べる",
+        "比を『a が b の何倍か』と言い換える",
+        "等しい比は、両方を同じ数でわる・かけることを図で確かめる"
+      ],
+      "studentPrompt": "比の値や等しい比で、迷ってしまうとき",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "evidence": []
+    },
+    {
+      "id": "math-support-027",
+      "topicId": "jp.elem.math.proportionality",
+      "difficulty": "比例の表から式が作れない",
+      "description": "xとyの対応を1組ずつ見てしまい、決まった数（比例定数）に目が向いていない。",
+      "signs": [
+        "y÷x の値がそろっていることに気付かない",
+        "グラフが原点を通る直線になる理由を説明できない"
+      ],
+      "reviewTargets": [
+        {
+          "topicId": "jp.elem.math.changing-quantities-patterns",
+          "reason": "2つの量の変わり方を表で捉える学びに戻る"
+        }
+      ],
+      "supportSteps": [
+        "表の縦の関係（y÷x）を計算して、決まった数を見つける",
+        "xが2倍・3倍になるとyも2倍・3倍になることを確かめる",
+        "式・表・グラフを行き来して同じ関係を表す"
+      ],
+      "studentPrompt": "比例の表から、式が作れないとき",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "evidence": []
+    },
+    {
+      "id": "math-support-028",
+      "topicId": "jp.elem.math.letter-expressions",
+      "difficulty": "文字の式で、xの値によって答えが変わることが分からない",
+      "description": "xを『分からない1つの数』として固定してしまい、いろいろな値を表す文字として捉えられていない。",
+      "signs": [
+        "x＋5 の式で、xに数を入れ替えると答えが変わることに戸惑う",
+        "式と答えを1対1で覚えようとする"
+      ],
+      "reviewTargets": [
+        {
+          "topicId": "jp.elem.math.unknown-number-box-expression",
+          "reason": "□に数を入れて関係を表した経験と結び付ける"
+        }
+      ],
+      "supportSteps": [
+        "□の式に戻り、□にいろいろな数を入れてみる",
+        "表にして、xと式の値の対応を並べる",
+        "『xは場面によって変わる数』と自分の言葉で言い直す"
+      ],
+      "studentPrompt": "文字の式で、答えが1つに決まらないことに戸惑うとき",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "evidence": []
+    },
+    {
+      "id": "math-support-029",
+      "topicId": "jp.elem.math.area-triangle-parallelogram-trapezoid",
+      "difficulty": "面積の公式で高さを斜めの辺と取り違える",
+      "description": "高さが『底辺に垂直な長さ』であることの意味が捉えられていない。",
+      "signs": [
+        "平行四辺形で、斜めの辺を高さとして計算する",
+        "三角形の面積で÷2を忘れる"
+      ],
+      "reviewTargets": [
+        {
+          "topicId": "jp.elem.math.area-rectangle-square",
+          "reason": "長方形の面積が、縦×横である理由を確認する"
+        }
+      ],
+      "supportSteps": [
+        "平行四辺形を切って長方形に変形し、高さの意味を確かめる",
+        "底辺から垂直に引いた線を、実際に図に描く",
+        "三角形は平行四辺形の半分であることを、重ねて確かめる"
+      ],
+      "studentPrompt": "面積の公式で、高さを間違えてしまうとき",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "evidence": []
+    },
+    {
+      "id": "math-support-030",
+      "topicId": "jp.elem.math.elapsed-time",
+      "difficulty": "経過時間の計算で60進法を10進法で計算してしまう",
+      "description": "時刻と時間の違いや、1時間＝60分の関係が計算に結び付いていない。",
+      "signs": [
+        "9時50分から10時20分までを、70分と答える",
+        "時間のひき算で、分の位から繰り下げられない"
+      ],
+      "reviewTargets": [
+        {
+          "topicId": "jp.elem.math.time-reading",
+          "reason": "時計の読み方と、長針の動きを確認する"
+        }
+      ],
+      "supportSteps": [
+        "数直線（タイムライン）に時刻を置いて、区間を数える",
+        "10時ちょうどを区切りにして、前後を分けて考える",
+        "時計の模型で長針を実際に動かして確かめる"
+      ],
+      "studentPrompt": "時刻の計算で、60分を100として計算してしまうとき",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "evidence": []
+    },
+    {
+      "id": "math-support-031",
+      "topicId": "jp.elem.math.area-units",
+      "difficulty": "面積の単位換算で倍率を取り違える",
+      "description": "1m²＝10000cm² のような関係を、長さの換算（100倍）と同じに考えてしまう。",
+      "signs": [
+        "3m² を 300cm² と答える",
+        "a（アール）とha（ヘクタール）の関係で迷う"
+      ],
+      "reviewTargets": [
+        {
+          "topicId": "jp.elem.math.area-rectangle-square",
+          "reason": "1m²が100cm×100cmの正方形であることを確認する"
+        },
+        {
+          "topicId": "jp.elem.math.length-units-cm-mm-m",
+          "reason": "長さの単位換算との違いを比べる"
+        }
+      ],
+      "supportSteps": [
+        "1m²の正方形を、1cm²のますで敷き詰める図を描く",
+        "長さは100倍、面積は100×100倍と対比して整理する",
+        "単位換算の前に、図で大きさの見当をつける"
+      ],
+      "studentPrompt": "面積の単位を変えるとき、倍率を間違えるとき",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "evidence": []
+    },
+    {
+      "id": "japanese-support-001",
+      "topicId": "jp.elem.japanese.read-character-and-setting",
+      "difficulty": "登場人物の心情が読み取れない",
+      "description": "叙述から気持ちを読み取るのではなく、自分の経験だけで判断してしまう。",
+      "signs": [
+        "『なぜ泣いたのか』に、本文にない理由を答える",
+        "気持ちを表す言葉（表情・行動の叙述）を見落とす"
+      ],
+      "reviewTargets": [
+        {
+          "topicId": "jp.elem.japanese.read-sequence-and-events",
+          "reason": "出来事の順序を捉え直し、心情が変化する場面を確認する"
+        }
+      ],
+      "supportSteps": [
+        "行動や会話の叙述に線を引いて、気持ちの手掛かりにする",
+        "場面ごとに、人物の気持ちを表に整理する",
+        "気持ちが変わったきっかけの出来事を確認する"
+      ],
+      "studentPrompt": "物語で、登場人物の気持ちが分からないとき",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "evidence": []
+    },
+    {
+      "id": "japanese-support-002",
+      "topicId": "jp.elem.japanese.read-main-idea",
+      "difficulty": "要旨や中心となる内容が捉えられない",
+      "description": "細部と中心の区別がつかず、印象に残った部分だけをまとめようとしてしまう。",
+      "signs": [
+        "あらすじと要旨の違いが分からない",
+        "段落ごとに何が書いてあるか言えない"
+      ],
+      "reviewTargets": [
+        {
+          "topicId": "jp.elem.japanese.read-structure-and-relationships",
+          "reason": "段落の役割と文章全体の構成を確認する"
+        }
+      ],
+      "supportSteps": [
+        "段落ごとに小見出しを付ける",
+        "繰り返し出てくる言葉や、まとめの文を探す",
+        "『筆者は〜と述べている』の形で言い直す"
+      ],
+      "studentPrompt": "説明文で、大事なことがまとめられないとき",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "evidence": []
+    },
+    {
+      "id": "japanese-support-003",
+      "topicId": "jp.elem.japanese.organize-writing",
+      "difficulty": "書きたいことがあるのに、文章の構成が作れない",
+      "description": "内容を並べる順序や、段落に分ける見通しが持てていない。",
+      "signs": [
+        "思い付いた順に書いて、話が前後してしまう",
+        "初め・中・終わりの区切りが付けられない"
+      ],
+      "reviewTargets": [
+        {
+          "topicId": "jp.elem.japanese.choose-writing-topic",
+          "reason": "書くことを集めて、材料をそろえる段階に戻る"
+        }
+      ],
+      "supportSteps": [
+        "集めた材料をカードにして並べ替える",
+        "構成メモ（初め・中・終わり）を作ってから書く",
+        "短い文章で構成の型を練習する"
+      ],
+      "studentPrompt": "作文で、何をどの順に書くか決められないとき",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "evidence": []
+    },
+    {
+      "id": "japanese-support-004",
+      "topicId": "jp.elem.japanese.facts-opinions-and-interpretations",
+      "difficulty": "事実と意見を区別できない",
+      "description": "文末の表現や、確かめられるかどうかに目が向いていない。",
+      "signs": [
+        "『〜と思う』のある文も事実として挙げてしまう",
+        "広告や記事の意見を、そのまま事実として受け取る"
+      ],
+      "reviewTargets": [
+        {
+          "topicId": "jp.elem.japanese.read-facts-and-opinions",
+          "reason": "読む学習で、事実と意見を見分けた経験と結び付ける"
+        }
+      ],
+      "supportSteps": [
+        "『確かめられるか』を基準に、文を仕分ける",
+        "意見を表す文末表現（と思う・だろう・はずだ）を探す",
+        "同じ出来事を、事実だけ／意見入りで書き分ける"
+      ],
+      "studentPrompt": "事実と意見が、区別できないとき",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "evidence": []
+    },
+    {
+      "id": "japanese-support-005",
+      "topicId": "jp.elem.japanese.kanji-meaning-and-usage",
+      "difficulty": "漢字の読みは覚えたのに、文の中で使えない",
+      "description": "漢字を単体の読みだけで覚えていて、意味や熟語と結び付いていない。",
+      "signs": [
+        "音読みと訓読みの使い分けができない",
+        "同音異義語を文脈で選べない"
+      ],
+      "reviewTargets": [
+        {
+          "topicId": "jp.elem.japanese.dictionaries-and-reference",
+          "reason": "漢字辞典で意味や熟語を調べる方法を確認する"
+        }
+      ],
+      "supportSteps": [
+        "熟語にして意味を確かめてから覚える",
+        "短い文の中で使う練習をする",
+        "部首や成り立ちから、意味の見当をつける"
+      ],
+      "studentPrompt": "漢字を覚えたのに、文の中で使えないとき",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "evidence": []
+    },
+    {
+      "id": "japanese-support-006",
+      "topicId": "jp.elem.japanese.discussion-and-debate",
+      "difficulty": "話し合いで自分の考えを言えない・まとめられない",
+      "description": "聞くことと話すことが別々になっており、友達の意見と自分の意見を結び付けられていない。",
+      "signs": [
+        "友達の意見を受けずに、自分の意見だけを言う",
+        "話し合いの結論が何だったか言えない"
+      ],
+      "reviewTargets": [
+        {
+          "topicId": "jp.elem.japanese.listen-for-main-points",
+          "reason": "大事なことを落とさず聞く学びに戻る"
+        },
+        {
+          "topicId": "jp.elem.japanese.summarize-others-viewpoints",
+          "reason": "相手の考えを整理して伝え返す練習と結び付ける"
+        }
+      ],
+      "supportSteps": [
+        "『〜さんの意見は…、わたしは…』の型で発言する",
+        "司会・記録などの役割を決めて話し合う",
+        "話し合いの終わりに、決まったことを全員で言い直す"
+      ],
+      "studentPrompt": "話し合いで、考えを言ったりまとめたりできないとき",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "evidence": []
     }
   ]
 }
