@@ -1,9 +1,9 @@
 {
   "dataset": "JP Learning Taxonomy",
-  "version": "0.9.0-draft",
+  "version": "0.9.1-draft",
   "schemaVersion": "0.2.0",
   "status": "prototype",
-  "updatedAt": "2026-11-07",
+  "updatedAt": "2026-11-08",
   "counts": {
     "topics": 375,
     "dependencies": 448,
@@ -65,7 +65,7 @@
       "3": 195,
       "4": 208,
       "5": 231,
-      "6": 231
+      "6": 230
     },
     "representationModels": 19,
     "activeTopics": 363,
@@ -101,7 +101,7 @@
         "3": 32,
         "4": 41,
         "5": 43,
-        "6": 39
+        "6": 38
       },
       "社会": {
         "3": 13,
@@ -186,7 +186,7 @@
       "3": 186,
       "4": 199,
       "5": 221,
-      "6": 220
+      "6": 219
     }
   },
   "notes": [
