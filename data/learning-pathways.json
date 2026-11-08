@@ -539,36 +539,51 @@
       "id": "japanese-speaking-listening",
       "title": "聞き合い、考えを伝え合う",
       "question": "相手の考えを受け止め、自分の考えをどう伝える？",
-      "summary": "話題や目的を決め、相手の話を聞いて確かめ、理由や資料を用いて伝え合い、話し合いで考えを深める。",
+      "summary": "話題を決めて必要な材料を選び、目的や相手に応じて話す。相手の話を聞いて理解し、質問や記録を通して考えをもち、話合いで互いの考えを広げたりまとめたりする。学年帯の公式事項と言語活動を支える補助項目を区別して示す。",
       "stages": [
         {
-          "label": "経験や大事なことを伝え合う",
+          "label": "話題を決め、経験や考えを伝え合う",
           "grades": "1〜2年ごろ",
+          "description": "身近なことや経験から話題を決め、必要な事柄を選ぶ。経験や行動の順序を考えて話し、相手の話を集中して聞き、発言を受けて話をつなぐ。",
           "topicIds": [
+            "jp.elem.japanese.select-topic-and-materials",
             "jp.elem.japanese.share-experience",
+            "jp.elem.japanese.presentation",
             "jp.elem.japanese.listen-for-main-points",
+            "jp.elem.japanese.discussion-and-debate",
             "jp.elem.japanese.ask-and-clarify"
           ]
         },
         {
-          "label": "聞き取って整理し、質問する",
-          "grades": "3〜6年ごろ",
+          "label": "目的を意識し、理由や事例を使って伝える",
+          "grades": "3〜4年ごろ",
+          "description": "材料を比較・分類して必要な内容を選び、理由や事例を挙げて話の中心を明確にする。抑揚や間を工夫し、必要なことを記録・質問しながら聞き、司会などの役割を果たして話し合う。",
           "topicIds": [
+            "jp.elem.japanese.select-topic-and-materials",
+            "jp.elem.japanese.prepare-and-organize-speech",
+            "jp.elem.japanese.support-opinion-with-examples",
+            "jp.elem.japanese.presentation",
             "jp.elem.japanese.take-notes-while-listening",
             "jp.elem.japanese.summarize-others-viewpoints",
-            "jp.elem.japanese.compare-viewpoints",
-            "jp.elem.japanese.interview-and-question-design"
+            "jp.elem.japanese.interview-and-question-design",
+            "jp.elem.japanese.discussion-and-debate",
+            "jp.elem.japanese.ask-and-clarify"
           ]
         },
         {
-          "label": "理由や資料をもとに伝え合う",
-          "grades": "3〜6年ごろ",
+          "label": "目的や意図に応じて構成し、考えを広げたりまとめたりする",
+          "grades": "5〜6年ごろ",
+          "description": "材料を分類・関連付け、事実と感想・意見を区別して話を構成する。資料を活用して表現を工夫し、話し手の考えと比較しながら聞き、互いの立場や意図を明確にして計画的に話し合う。",
           "topicIds": [
+            "jp.elem.japanese.select-topic-and-materials",
             "jp.elem.japanese.prepare-and-organize-speech",
-            "jp.elem.japanese.support-opinion-with-examples",
             "jp.elem.japanese.explain-opinion-or-reason",
             "jp.elem.japanese.presentation",
-            "jp.elem.japanese.discussion-and-debate"
+            "jp.elem.japanese.compare-viewpoints",
+            "jp.elem.japanese.interview-and-question-design",
+            "jp.elem.japanese.discussion-and-debate",
+            "jp.elem.japanese.ask-and-clarify",
+            "jp.elem.japanese.summarize-others-viewpoints"
           ]
         }
       ]
