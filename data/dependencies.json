@@ -533,13 +533,13 @@
     },
     {
       "id": "math-edge-055",
-      "from": "jp.elem.math.meaning-of-proportion",
-      "to": "jp.elem.math.proportionality",
-      "type": "recommended-prerequisite",
-      "rationale": "第5学年で扱う簡単な場合の比例の関係を基に、第6学年で比例の意味や性質を整理し、表・式・グラフを用いた問題解決へ広げる。",
+      "from": "jp.elem.math.proportionality",
+      "to": "jp.elem.math.meaning-of-proportion",
+      "type": "related-learning",
+      "rationale": "比例の関係を複数の表現で捉える。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "5年生で見つけた比例のきまりを使って、6年生では性質や活用をくわしく考えるよ。"
+      "studentRationale": "比例の関係を表・式・グラフで表すと、同じ関係をいろいろな方法で見られるよ。"
     },
     {
       "id": "math-edge-057",
@@ -2235,7 +2235,7 @@
       "id": "japanese-edge-012",
       "from": "jp.elem.japanese.read-structure-and-relationships",
       "to": "jp.elem.japanese.read-main-idea",
-      "type": "recommended-prerequisite",
+      "type": "related-learning",
       "rationale": "段落や文章全体の構成を捉えることが、中心となる内容や要旨を整理する助けになる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
@@ -4165,7 +4165,7 @@
       "id": "japanese-edge-057",
       "from": "jp.elem.japanese.summarize-others-viewpoints",
       "to": "jp.elem.japanese.discussion-and-debate",
-      "type": "recommended-prerequisite",
+      "type": "related-learning",
       "rationale": "相手の考えを整理して伝え返す力が、話し合いを深める土台になる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
@@ -4345,7 +4345,7 @@
       "id": "japanese-edge-075",
       "from": "jp.elem.japanese.interview-and-question-design",
       "to": "jp.elem.japanese.collecting-and-recording-information",
-      "type": "recommended-prerequisite",
+      "type": "related-learning",
       "rationale": "目的に応じて質問・取材する力が、情報を集めて記録する学びを支える。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
@@ -4480,16 +4480,6 @@
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
       "studentRationale": "予想を立てる力が、条件をそろえて調べる助けになるよ。"
-    },
-    {
-      "id": "grade-link-449",
-      "from": "jp.elem.japanese.sounds-and-characters",
-      "to": "jp.elem.japanese.romaji-reading-and-writing",
-      "type": "recommended-prerequisite",
-      "rationale": "音節と文字の関係や日本語の音の特徴への気付きが、ローマ字で日本語の語句を読み書きする際の土台になる。",
-      "evidenceType": "editorial",
-      "reviewStatus": "needs-review",
-      "studentRationale": "日本語の音と文字の関係を知っていると、ローマ字で言葉を読んだり書いたりしやすくなるよ。"
     }
   ]
 }
