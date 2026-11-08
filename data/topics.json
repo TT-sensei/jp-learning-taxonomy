@@ -658,15 +658,13 @@
     {
       "id": "jp.elem.japanese.dictionaries-and-reference",
       "subject": "国語",
-      "domain": "言葉の特徴や使い方に関する事項",
-      "cluster": "音・文字・語彙",
-      "name": "辞書などを使って言葉を調べる",
-      "description": "辞書などを使って、表現や理解に必要な文字・語句の意味や用法を調べる。中学年で辞書の使い方を理解し、調べる習慣を身に付け、その後は目的に応じて辞書や語句集を活用して語彙を広げ、表現に生かす。",
+      "domain": "情報の扱い方に関する事項",
+      "cluster": "情報の整理",
+      "name": "辞書や事典を使って情報を調べる",
+      "description": "国語辞典や漢字辞典、事典などの使い方を理解し、目的に応じて必要な言葉や情報を調べる。目次や索引を利用して情報を得たり、調べる学習や他教科・日常生活で活用したりする。",
       "grades": [
         3,
-        4,
-        5,
-        6
+        4
       ],
       "topicType": "concept",
       "evidence": [
@@ -683,18 +681,16 @@
         "status": "needs-review",
         "candidateFirstIntroductionGrade": 3,
         "candidateContinuingGrades": [
-          4,
-          5,
-          6
+          4
         ],
-        "basis": "mext-japanese-guideline-2017-language-features-review-2026-11-08",
-        "note": "第3・4学年で辞書を利用して調べる方法を理解し、調べる習慣を付ける。その後も目的に応じた活用を続ける。学年段階は文部科学省解説の第1・2学年、第3・4学年、第5・6学年を参照した編集上の候補であり、個別学年の公式配当を断定しない。"
+        "basis": "mext-japanese-guideline-2017-information-handling-review-2026-11-08",
+        "note": "第3・4学年の「辞書や事典の使い方を理解し使うこと」に対応。以降の活用は他教科や日常生活で継続するが、公式の学年帯は第3・4学年として整理。"
       },
       "studentName": "辞書を使って言葉を調べよう",
       "studentDescription": "辞書や言葉の資料を使って、意味や使い方を調べよう。",
       "learningGoals": [
-        "辞書の使い方を理解し、必要な言葉を調べることができる",
-        "調べた言葉の意味や用法を確かめ、自分の表現に生かすことができる"
+        "国語辞典や漢字辞典などの使い方を理解し、必要な言葉を調べることができる",
+        "目的に応じて事典の種類を選び、目次や索引を使って情報を得ることができる"
       ]
     },
     {
@@ -1151,8 +1147,8 @@
       "subject": "国語",
       "domain": "情報の扱い方に関する事項",
       "cluster": "情報の整理と関係付け",
-      "name": "情報を集め、記録する",
-      "description": "観察、インタビュー、書籍、ウェブ資料などから目的に合う情報を集め、必要な形で記録する。",
+      "name": "目的に合う情報を集め、活用する",
+      "description": "観察、インタビュー、書籍、ウェブ資料など、目的に合う方法や媒体から情報を集め、話す・書く・読む活動に生かす。これは情報の扱い方に関する独立した公式事項名ではなく、各領域の言語活動を支える横断的な補助項目として扱う。必要な語句を書き留める技能は別項目で扱う。",
       "grades": [
         1,
         2,
@@ -1182,14 +1178,14 @@
           5,
           6
         ],
-        "basis": "mext-japanese-grade-band-provisional-review-2026-10-24",
-        "note": "文部科学省「小学校学習指導要領解説 国語編」の第1・2学年の内容を起点にした暫定候補。個別の学年配当を公式に確定したものではなく、基礎的な文字・言語活動を主な手掛かりに設定。継続学年は学習の発展・活用を含む編集上の候補。"
+        "basis": "mext-japanese-guideline-2017-information-handling-review-2026-11-08",
+        "note": "全学年の言語活動で用いる補助的な学習項目。公式の独立した指導事項の学年配当を示すものではない。学年段階は文部科学省解説の第1・2、第3・4、第5・6学年のまとまりを参照した編集上の候補であり、個別学年の公式配当を断定しない。"
       },
       "studentName": "必要な情報を集めて記録しよう",
       "studentDescription": "観察やインタビュー、本、ウェブ資料から必要な情報を集め、後で使えるように記録しよう。",
       "learningGoals": [
-        "目的に合う情報を、観察・インタビュー・資料などから集めることができる",
-        "集めた情報を、必要な形で記録できる"
+        "目的に応じて、観察・インタビュー・資料などから情報を集めることができる",
+        "集めた情報を、話したり書いたり読んだりする活動に生かすことができる"
       ]
     },
     {
@@ -1197,15 +1193,11 @@
       "subject": "国語",
       "domain": "情報の扱い方に関する事項",
       "cluster": "情報の整理と関係付け",
-      "name": "情報を比べ、整理する",
-      "description": "情報の共通点や相違点、順序、分類、まとまりを捉え、目的に応じて比較・分類・整理する。情報を順序立てたり、仲間分けしたり、階層やまとまりが分かる形に構造化したりする活動も含む。整理した情報を、考えを深めたり相手に分かりやすく伝えたりすることに生かす。",
+      "name": "情報を比較・分類して整理する",
+      "description": "複数の情報を観点を明確にして比べたり、共通する性質に基づいて分類したりする。第3・4学年で情報を整理する方法として理解し、話や文章の理解・表現に使う。",
       "grades": [
-        1,
-        2,
         3,
-        4,
-        5,
-        6
+        4
       ],
       "topicType": "concept",
       "evidence": [
@@ -1220,22 +1212,18 @@
       "reviewStatus": "needs-review",
       "gradePlacement": {
         "status": "needs-review",
-        "candidateFirstIntroductionGrade": 1,
+        "candidateFirstIntroductionGrade": 3,
         "candidateContinuingGrades": [
-          2,
-          3,
-          4,
-          5,
-          6
+          4
         ],
-        "basis": "merged-japanese-topic-candidate-review-2026-10-24",
-        "note": "関連する学習内容の重複を減らすため、統合元項目の内容を含めた編集上の統合候補。学年配当と公式記述への対応は引き続き確認中。"
+        "basis": "mext-japanese-guideline-2017-information-handling-review-2026-11-08",
+        "note": "第3・4学年の「比較や分類の仕方を理解し使うこと」に対応。"
       },
       "studentName": "情報を比べて、分けたり順序よく整理したりしよう",
       "studentDescription": "同じところやちがうところを見つけ、情報を比べたり仲間分けしたりしよう。",
       "learningGoals": [
-        "情報の共通点や相違点を捉え、比べて整理できる",
-        "目的に応じて、情報を分類したり順序立てたりできる"
+        "複数の情報を観点を明確にして比較できる",
+        "共通する性質に基づいて情報を分類し、整理できる"
       ]
     },
     {
@@ -2247,11 +2235,9 @@
       "subject": "国語",
       "domain": "情報の扱い方に関する事項",
       "cluster": "情報の整理と関係付け",
-      "name": "原因と結果などの関係",
-      "description": "原因と結果、事実と意見など、情報どうしの関係を捉える。",
+      "name": "原因と結果の関係を捉える",
+      "description": "話や文章に含まれる情報について、何が原因でどのような結果が生じたのかという関係を捉える。原因と結果のつながりを、文章や資料の内容に即して理解する。",
       "grades": [
-        3,
-        4,
         5,
         6
       ],
@@ -2268,20 +2254,18 @@
       "reviewStatus": "needs-review",
       "gradePlacement": {
         "status": "needs-review",
-        "candidateFirstIntroductionGrade": 3,
+        "candidateFirstIntroductionGrade": 5,
         "candidateContinuingGrades": [
-          4,
-          5,
           6
         ],
-        "basis": "mext-japanese-grade-band-provisional-review-2026-10-24",
-        "note": "文部科学省「小学校学習指導要領解説 国語編」の第3・4学年の内容を起点にした暫定候補。個別の学年配当を公式に確定したものではなく、語句・文章構成・情報活用などの発展を主な手掛かりに設定。継続学年は学習の発展・活用を含む編集上の候補。"
+        "basis": "mext-japanese-guideline-2017-information-handling-review-2026-11-08",
+        "note": "第5・6学年の「原因と結果など情報と情報との関係について理解すること」に対応。"
       },
       "studentName": "原因と結果などのつながりを見つけよう",
       "studentDescription": "「何が原因で、何が起きたのか」など、出来事や情報どうしのつながりを考えよう。",
       "learningGoals": [
-        "原因と結果、事実と意見など、情報どうしの関係を捉えることができる",
-        "関係を図や言葉で示すことができる"
+        "情報の中から原因と結果に当たる事柄を見つけることができる",
+        "原因と結果のつながりを捉え、言葉や図で説明できる"
       ]
     },
     {
@@ -2289,8 +2273,8 @@
       "subject": "国語",
       "domain": "情報の扱い方に関する事項",
       "cluster": "情報の整理と関係付け",
-      "name": "事実・意見・解釈を区別する",
-      "description": "情報が事実、意見、解釈のどれに当たるかを考え、混同せずに扱う。",
+      "name": "事実・意見・解釈を区別して読む",
+      "description": "資料や文章に示された事実、書き手や話し手の意見、自分の解釈を区別して扱う。これは小学校学習指導要領の情報の扱い方に独立した事項として明記されたものではなく、情報を吟味するための発展的・補助的な学習項目として位置付ける。中学年以降の考えと理由・事例の関係や高学年の原因と結果の理解と関連付ける。",
       "grades": [
         3,
         4,
@@ -2316,14 +2300,14 @@
           5,
           6
         ],
-        "basis": "mext-japanese-grade-band-provisional-review-2026-10-24",
-        "note": "文部科学省「小学校学習指導要領解説 国語編」の第3・4学年の内容を起点にした暫定候補。個別の学年配当を公式に確定したものではなく、語句・文章構成・情報活用などの発展を主な手掛かりに設定。継続学年は学習の発展・活用を含む編集上の候補。"
+        "basis": "mext-japanese-guideline-2017-information-handling-review-2026-11-08",
+        "note": "公式の独立事項ではなく、情報の関係を捉える学習を支える発展的な補助項目。個別学年の公式配当を示さない。"
       },
       "studentName": "事実・意見・自分の読み取りを分けよう",
       "studentDescription": "資料に書かれた事実、だれかの意見、自分の読み取りを分けて考えよう。",
       "learningGoals": [
-        "情報が事実・意見・解釈のどれに当たるかを考えることができる",
-        "混同せずに、情報を扱うことができる"
+        "文章や資料に示された事実と、書き手や話し手の意見を区別できる",
+        "事実や意見を基にした自分の解釈を、元の情報と混同せずに説明できる"
       ]
     },
     {
@@ -2373,8 +2357,8 @@
       "subject": "国語",
       "domain": "情報の扱い方に関する事項",
       "cluster": "情報の整理と関係付け",
-      "name": "情報の出どころを確かめる",
-      "description": "情報の出典や発信者、複数資料との照合に着目し、情報を吟味する。",
+      "name": "情報の出典と確かさを吟味する",
+      "description": "情報の出典、発信者、発信時期、根拠となる資料などを確かめ、必要に応じて複数の情報と照らし合わせる。引用元を示す技能とは区別し、情報の信頼性を吟味する発展的な学習項目として扱う。信頼性の吟味そのものは小学校学習指導要領の情報の扱い方に独立した事項として明記されていない。",
       "grades": [
         5,
         6
@@ -2396,14 +2380,14 @@
         "candidateContinuingGrades": [
           6
         ],
-        "basis": "mext-japanese-grade-band-provisional-review-2026-10-24",
-        "note": "文部科学省「小学校学習指導要領解説 国語編」の第5・6学年の内容を起点にした暫定候補。個別の学年配当を公式に確定したものではなく、複数資料の照合・根拠の吟味・論証などの高度化を主な手掛かりに設定。継続学年は学習の発展・活用を含む編集上の候補。"
+        "basis": "mext-japanese-guideline-2017-information-handling-review-2026-11-08",
+        "note": "公式の独立事項ではなく、高学年の原因と結果・情報の関係付けや中学年の出典表示を土台にした発展的な補助項目。"
       },
       "studentName": "情報がどこから来たか、確かめよう",
       "studentDescription": "だれが、いつ、何をもとに発信した情報かを確かめ、別の資料とも比べてみよう。",
       "learningGoals": [
-        "情報の出どころや発信者を確かめることができる",
-        "複数の資料と照らし合わせて、情報を吟味できる"
+        "情報の出典や発信者、発信時期を確かめることができる",
+        "複数の情報を照らし合わせ、情報の確かさを考えることができる"
       ]
     },
     {
@@ -2411,13 +2395,11 @@
       "subject": "国語",
       "domain": "情報の扱い方に関する事項",
       "cluster": "情報の整理と関係付け",
-      "name": "図表や引用を使って情報を示す",
-      "description": "目的に応じて図表などを用い、引用元を明らかにして情報を示す。",
+      "name": "引用の仕方と出典の示し方",
+      "description": "本や文章の一節・文・語句、図表や写真などを引用するときは、引用部分を明確にし、引用元の書名・著者・発行年など、読み手が元の情報を確かめられるように出典を示す。引用と出典表示を、情報を整理して活用する技能として扱う。",
       "grades": [
         3,
-        4,
-        5,
-        6
+        4
       ],
       "topicType": "concept",
       "evidence": [
@@ -2434,18 +2416,16 @@
         "status": "needs-review",
         "candidateFirstIntroductionGrade": 3,
         "candidateContinuingGrades": [
-          4,
-          5,
-          6
+          4
         ],
-        "basis": "mext-japanese-grade-band-provisional-review-2026-10-24",
-        "note": "文部科学省「小学校学習指導要領解説 国語編」の第3・4学年の内容を起点にした暫定候補。個別の学年配当を公式に確定したものではなく、語句・文章構成・情報活用などの発展を主な手掛かりに設定。継続学年は学習の発展・活用を含む編集上の候補。"
+        "basis": "mext-japanese-guideline-2017-information-handling-review-2026-11-08",
+        "note": "第3・4学年の「引用の仕方や出典の示し方を理解し使うこと」に対応。"
       },
       "studentName": "図や表、引用を使って伝えよう",
       "studentDescription": "図や表を使い、引用した資料の出どころを示して伝えよう。",
       "learningGoals": [
-        "目的に応じて図表などを使い、情報を示すことができる",
-        "引用元を明らかにして、情報を伝えることができる"
+        "引用する部分と自分の文章を区別して示すことができる",
+        "引用元を確かめられるように、必要な出典を示すことができる"
       ]
     },
     {
@@ -2453,8 +2433,8 @@
       "subject": "国語",
       "domain": "情報の扱い方に関する事項",
       "cluster": "情報の整理と関係付け",
-      "name": "文章・図表・写真などを関連付ける",
-      "description": "文章と図表、写真、見出しなどを関連付け、複数の表現形式から情報を読み取る。",
+      "name": "文章・図表・写真などを関連付けて読み取る",
+      "description": "文章と図表、写真、見出しなど複数の表現形式を関連付けて情報を読み取る。情報の扱い方に関する独立した公式事項をそのまま示す項目ではなく、「読むこと」などの言語活動と横断して扱う補助的な学習項目とする。高学年の情報どうしの関係付けや図による表し方とも関連する。",
       "grades": [
         3,
         4,
@@ -2480,14 +2460,14 @@
           5,
           6
         ],
-        "basis": "mext-japanese-grade-band-provisional-review-2026-10-24",
-        "note": "文部科学省「小学校学習指導要領解説 国語編」の第3・4学年の内容を起点にした暫定候補。個別の学年配当を公式に確定したものではなく、語句・文章構成・情報活用などの発展を主な手掛かりに設定。継続学年は学習の発展・活用を含む編集上の候補。"
+        "basis": "mext-japanese-guideline-2017-information-handling-review-2026-11-08",
+        "note": "複数の表現形式を扱う横断的な補助項目。高学年の情報の関係付けと関連付けるが、公式の独立した学年配当とはしない。"
       },
       "studentName": "文章・図・写真を組み合わせて読み取ろう",
       "studentDescription": "文章・図表・写真を見比べ、同じ情報やちがう情報をつなげて読み取ろう。",
       "learningGoals": [
-        "文章と図表・写真・見出しを関連付けて、情報を読み取ることができる",
-        "複数の表現形式を組み合わせて、情報を伝えることができる"
+        "文章と図表・写真・見出しを関連付けて情報を読み取ることができる",
+        "複数の表現形式から得た情報を結び付けて説明できる"
       ]
     },
     {
@@ -16616,6 +16596,158 @@
         ],
         "basis": "mext-japanese-guideline-2017-language-features-review-2026-11-08",
         "note": "第5・6学年の「言葉には，相手の行動を促す働きがあること」に対応する。"
+      }
+    },
+    {
+      "subject": "国語",
+      "domain": "情報の扱い方に関する事項",
+      "cluster": "情報と情報との関係",
+      "topicType": "concept",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-japanese-guideline-2017",
+          "note": "文部科学省「小学校学習指導要領解説 国語編」第3章の情報の扱い方に関する事項を参照した独自の学習項目候補。学年段階は第1・2、第3・4、第5・6学年の記述に対応。"
+        }
+      ],
+      "curriculumStandards": [],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review",
+      "id": "jp.elem.japanese.information-relations-common-difference-order",
+      "name": "共通点・相違点・順序の関係",
+      "grades": [
+        1,
+        2
+      ],
+      "description": "話や文章に含まれる情報について、共通するところ、違うところ、事柄の順序など、情報と情報との関係を理解する。比べる観点を見つけたり、出来事を順序に沿って捉えたりして、話や文章の理解や表現に生かす。",
+      "studentName": "同じところ・ちがうところ・順序を見つけよう",
+      "studentDescription": "情報の同じところやちがうところ、出来事の順序に注目しよう。",
+      "learningGoals": [
+        "情報の共通点や相違点を見つけることができる",
+        "事柄の順序に着目して、情報どうしの関係を捉えることができる"
+      ],
+      "gradePlacement": {
+        "status": "needs-review",
+        "candidateFirstIntroductionGrade": 1,
+        "candidateContinuingGrades": [
+          2
+        ],
+        "basis": "mext-japanese-guideline-2017-information-handling-review-2026-11-08",
+        "note": "第1・2学年の「共通、相違、事柄の順序など情報と情報との関係について理解すること」に対応。"
+      }
+    },
+    {
+      "subject": "国語",
+      "domain": "情報の扱い方に関する事項",
+      "cluster": "情報と情報との関係",
+      "topicType": "concept",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-japanese-guideline-2017",
+          "note": "文部科学省「小学校学習指導要領解説 国語編」第3章の情報の扱い方に関する事項を参照した独自の学習項目候補。学年段階は第1・2、第3・4、第5・6学年の記述に対応。"
+        }
+      ],
+      "curriculumStandards": [],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review",
+      "id": "jp.elem.japanese.ideas-reasons-examples-whole-center",
+      "name": "考えと理由・事例、全体と中心の関係",
+      "grades": [
+        3,
+        4
+      ],
+      "description": "話や文章に含まれる考えが、どのような理由や事例によって支えられているかを捉える。また、話や文章全体を大づかみに捉え、中心となる部分との関係を理解する。",
+      "studentName": "考えと理由・事例、全体と中心をつなげよう",
+      "studentDescription": "考えを支える理由や事例、文章全体と中心のつながりを見つけよう。",
+      "learningGoals": [
+        "考えと、それを支える理由や事例との関係を捉えることができる",
+        "話や文章の全体と中心となる部分との関係を捉えることができる"
+      ],
+      "gradePlacement": {
+        "status": "needs-review",
+        "candidateFirstIntroductionGrade": 3,
+        "candidateContinuingGrades": [
+          4
+        ],
+        "basis": "mext-japanese-guideline-2017-information-handling-review-2026-11-08",
+        "note": "第3・4学年の「考えとそれを支える理由や事例、全体と中心など情報と情報との関係について理解すること」に対応。"
+      }
+    },
+    {
+      "subject": "国語",
+      "domain": "情報の扱い方に関する事項",
+      "cluster": "情報の整理",
+      "topicType": "concept",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-japanese-guideline-2017",
+          "note": "文部科学省「小学校学習指導要領解説 国語編」第3章の情報の扱い方に関する事項を参照した独自の学習項目候補。学年段階は第1・2、第3・4、第5・6学年の記述に対応。"
+        }
+      ],
+      "curriculumStandards": [],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review",
+      "id": "jp.elem.japanese.recording-key-information",
+      "name": "必要な語句を書き留める",
+      "grades": [
+        3,
+        4
+      ],
+      "description": "情報を集めたり発信したりする目的を意識し、落としてはいけない必要な語句を判断して書き留める。内容をすべて書き写すのではなく、目的に照らして必要な情報を選ぶ。",
+      "studentName": "大切な語句を選んでメモしよう",
+      "studentDescription": "目的に合わせて、必要な言葉を選んで書き留めよう。",
+      "learningGoals": [
+        "目的に応じて、必要な語句を判断できる",
+        "必要な語句を落とさず、後で使えるように書き留めることができる"
+      ],
+      "gradePlacement": {
+        "status": "needs-review",
+        "candidateFirstIntroductionGrade": 3,
+        "candidateContinuingGrades": [
+          4
+        ],
+        "basis": "mext-japanese-guideline-2017-information-handling-review-2026-11-08",
+        "note": "第3・4学年の「必要な語句などの書き留め方を理解し使うこと」に対応。"
+      }
+    },
+    {
+      "subject": "国語",
+      "domain": "情報の扱い方に関する事項",
+      "cluster": "情報の整理",
+      "topicType": "concept",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-japanese-guideline-2017",
+          "note": "文部科学省「小学校学習指導要領解説 国語編」第3章の情報の扱い方に関する事項を参照した独自の学習項目候補。学年段階は第1・2、第3・4、第5・6学年の記述に対応。"
+        }
+      ],
+      "curriculumStandards": [],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review",
+      "id": "jp.elem.japanese.linking-information-and-diagrams",
+      "name": "情報どうしを関連付け、図で表す",
+      "grades": [
+        5,
+        6
+      ],
+      "description": "複数の情報をどのように関連付けるかを考え、語句と語句との関係を図などで表す。情報を並べるだけでなく、関係が分かるように結び付けて整理し、理解や表現に使う。",
+      "studentName": "情報どうしをつなげて、図で表そう",
+      "studentDescription": "言葉と言葉の関係を考え、図などを使って分かりやすく表そう。",
+      "learningGoals": [
+        "複数の情報を目的に応じて関連付けることができる",
+        "語句と語句との関係を図などで表し、情報を整理できる"
+      ],
+      "gradePlacement": {
+        "status": "needs-review",
+        "candidateFirstIntroductionGrade": 5,
+        "candidateContinuingGrades": [
+          6
+        ],
+        "basis": "mext-japanese-guideline-2017-information-handling-review-2026-11-08",
+        "note": "第5・6学年の「情報と情報との関係付けの仕方、図などによる語句と語句との関係の表し方を理解し使うこと」に対応。"
       }
     }
   ]
