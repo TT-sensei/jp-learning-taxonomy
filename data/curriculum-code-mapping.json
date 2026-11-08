@@ -326,28 +326,14 @@
     {
       "topicId": "jp.elem.japanese.dictionaries-and-reference",
       "officialCodes": [],
-      "matchStatus": "candidate",
-      "matchType": "parent-section-candidate",
-      "note": "82V12公式CSVでコードの存在、教科・学年帯との整合を確認済み。情報の扱い方の第3・4学年「情報の整理」の事項に移動。個別の公式記述との意味的な対応は引き続き確認中。",
-      "candidateCode": "82102A3110000000",
+      "matchStatus": "not-checked",
+      "matchType": "not-yet-reviewed",
+      "note": "情報の扱い方に関する第3・4学年の「情報の整理」に対応する候補として領域を移動。公式コードとの意味的対応は未照合のため、既存の言葉の特徴領域に由来するコード候補を解除し、推測でコードを登録しない。",
+      "candidateCode": null,
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
-      "candidateCodes": [
-        "82102A3110000000"
-      ],
-      "relatedParentCodes": [
-        "82102A3110000000"
-      ],
-      "officialAudit": {
-        "officialVersion": "82V12",
-        "checkedAt": "2026-10-21",
-        "codeExistence": "confirmed",
-        "subjectGradeCheck": "passed",
-        "semanticStatus": "needs-semantic-review",
-        "relatedParentCodes": [
-          "82102A3110000000"
-        ]
-      }
+      "candidateCodes": [],
+      "relatedParentCodes": []
     },
     {
       "topicId": "jp.elem.japanese.discussion-and-debate",
