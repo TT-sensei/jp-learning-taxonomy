@@ -558,13 +558,13 @@
     {
       "subject": "国語",
       "id": "japanese-information-literacy",
-      "title": "情報を集め、比べ、確かめる",
+      "title": "情報を集め、関係付け、整理する",
       "question": "情報をどう整理すると、確かな考えにつながる？",
-      "summary": "複数の情報を整理し、事実・意見・原因と結果を捉え、出典や表現方法を確かめて活用する。",
+      "summary": "情報を集める活動を土台に、学年段階に応じて情報どうしの関係を捉え、比較・分類・記録・引用・図示などの方法で整理する。出典や情報の確かさを吟味する発展的な学びにもつなげる。",
       "stages": [
         {
           "label": "情報を集めて記録する",
-          "grades": "1〜6年ごろ",
+          "grades": "1〜4年ごろ",
           "topicIds": [
             "jp.elem.japanese.collecting-and-recording-information",
             "jp.elem.japanese.dictionaries-and-reference",
@@ -577,7 +577,6 @@
           "topicIds": [
             "jp.elem.japanese.compare-and-classify-information",
             "jp.elem.japanese.cause-and-effect",
-            "jp.elem.japanese.facts-opinions-and-interpretations",
             "jp.elem.japanese.diagrams-and-tables",
             "jp.elem.japanese.information-relations-common-difference-order",
             "jp.elem.japanese.ideas-reasons-examples-whole-center",
@@ -594,7 +593,8 @@
             "jp.elem.japanese.read-facts-and-opinions",
             "jp.elem.japanese.compare-texts",
             "jp.elem.japanese.use-quotes-and-sources-in-writing",
-            "jp.elem.japanese.facts-opinions-and-interpretations"
+            "jp.elem.japanese.facts-opinions-and-interpretations",
+            "jp.elem.japanese.diagrams-and-tables"
           ]
         }
       ]
