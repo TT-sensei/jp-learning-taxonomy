@@ -496,40 +496,42 @@
     {
       "subject": "国語",
       "id": "japanese-writing",
-      "title": "考えを文章にまとめる",
-      "question": "伝えたいことを、どのように文章にする？",
-      "summary": "題材や情報を集めて整理し、目的に合う構成で書き、読み返して推敲し、読み手に伝える。",
+      "title": "題材を決め、考えを文章にして伝える",
+      "question": "伝えたいことを、読み手に分かる文章にするには？",
+      "summary": "題材を決めて材料を集め、伝えたいことが明確になるように構成し、目的や意図に応じて記述する。読み返して推敲し、文章を読み合ってよさを共有する。学年段階に応じた発展を示す道すじであり、固定した授業順序ではない。",
       "stages": [
         {
-          "label": "題材を見つけ、情報を集める",
-          "grades": "1〜6年ごろ",
+          "label": "題材を決め、書く材料を集める",
+          "grades": "1〜2年ごろから",
           "topicIds": [
             "jp.elem.japanese.choose-writing-topic",
             "jp.elem.japanese.write-experiences-and-observations",
-            "jp.elem.japanese.collecting-and-recording-information",
-            "jp.elem.japanese.plan-research-and-report"
+            "jp.elem.japanese.collecting-and-recording-information"
           ]
         },
         {
-          "label": "内容を組み立て、表現する",
-          "grades": "1〜6年ごろ",
+          "label": "伝えたいことを整理し、構成して書く",
+          "grades": "3〜4年ごろ",
           "topicIds": [
             "jp.elem.japanese.organize-writing",
+            "jp.elem.japanese.paragraphs-and-connectors",
             "jp.elem.japanese.write-for-purpose",
             "jp.elem.japanese.write-letters-and-messages",
-            "jp.elem.japanese.paragraphs-and-connectors",
-            "jp.elem.japanese.facts-and-opinions-writing",
-            "jp.elem.japanese.write-opinion-and-argument",
-            "jp.elem.japanese.summarize-and-paraphrase"
+            "jp.elem.japanese.plan-research-and-report",
+            "jp.elem.japanese.facts-and-opinions-writing"
           ]
         },
         {
-          "label": "根拠を示し、推敲して伝える",
-          "grades": "3〜6年ごろ",
+          "label": "目的や意図に応じて表現し、推敲・共有する",
+          "grades": "5〜6年ごろ",
           "topicIds": [
+            "jp.elem.japanese.facts-and-opinions-writing",
+            "jp.elem.japanese.write-opinion-and-argument",
             "jp.elem.japanese.use-quotes-and-sources-in-writing",
+            "jp.elem.japanese.summarize-and-paraphrase",
             "jp.elem.japanese.revise-writing",
-            "jp.elem.japanese.share-writing"
+            "jp.elem.japanese.share-writing",
+            "jp.elem.japanese.manuscript-paper-and-layout"
           ]
         }
       ]
