@@ -533,13 +533,13 @@
     },
     {
       "id": "math-edge-055",
-      "from": "jp.elem.math.proportionality",
-      "to": "jp.elem.math.meaning-of-proportion",
-      "type": "related-learning",
-      "rationale": "比例の関係を複数の表現で捉える。",
+      "from": "jp.elem.math.meaning-of-proportion",
+      "to": "jp.elem.math.proportionality",
+      "type": "recommended-prerequisite",
+      "rationale": "第5学年で扱う簡単な場合の比例の関係を基に、第6学年で比例の意味や性質を整理し、表・式・グラフを用いた問題解決へ広げる。",
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
-      "studentRationale": "比例の関係を表・式・グラフで表すと、同じ関係をいろいろな方法で見られるよ。"
+      "studentRationale": "5年生で見つけた比例のきまりを使って、6年生では性質や活用をくわしく考えるよ。"
     },
     {
       "id": "math-edge-057",
