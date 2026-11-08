@@ -34,31 +34,14 @@
     {
       "topicId": "jp.elem.japanese.author-and-work",
       "officialCodes": [],
-      "matchStatus": "candidate",
-      "matchType": "parent-section-candidate",
-      "note": "82V12公式CSVでコードの存在、教科・学年帯との整合を確認済み。学習項目と個別の公式記述との意味的な対応は未確定のため、候補として保持する。元の候補：82102C3130000000, 82102D3130000000.",
-      "candidateCode": "82102C3130000000",
+      "matchStatus": "not-checked",
+      "matchType": "not-yet-reviewed",
+      "note": "発展的・補助的な読書活動／読みの観点として整理。学習指導要領に独立した必須指導事項として列挙された項目ではないため、特定の公式コードを割り当てない。",
+      "candidateCode": null,
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
-      "candidateCodes": [
-        "82102C3130000000",
-        "82102D3130000000"
-      ],
-      "relatedParentCodes": [
-        "82102C3130000000",
-        "82102D3130000000"
-      ],
-      "officialAudit": {
-        "officialVersion": "82V12",
-        "checkedAt": "2026-10-21",
-        "codeExistence": "confirmed",
-        "subjectGradeCheck": "passed",
-        "semanticStatus": "needs-semantic-review",
-        "relatedParentCodes": [
-          "82102C3130000000",
-          "82102D3130000000"
-        ]
-      }
+      "candidateCodes": [],
+      "relatedParentCodes": []
     },
     {
       "topicId": "jp.elem.japanese.cause-and-effect",
@@ -92,28 +75,14 @@
     {
       "topicId": "jp.elem.japanese.choose-reading-strategy",
       "officialCodes": [],
-      "matchStatus": "candidate",
-      "matchType": "parent-section-candidate",
-      "note": "82V12公式CSVでコードの存在、教科・学年帯との整合を確認済み。学習項目と個別の公式記述との意味的な対応は未確定のため、候補として保持する。元の候補：82102A3230000000.",
-      "candidateCode": "82102A3230000000",
+      "matchStatus": "not-checked",
+      "matchType": "not-yet-reviewed",
+      "note": "発展的・補助的な読書活動／読みの観点として整理。学習指導要領に独立した必須指導事項として列挙された項目ではないため、特定の公式コードを割り当てない。",
+      "candidateCode": null,
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
-      "candidateCodes": [
-        "82102A3230000000"
-      ],
-      "relatedParentCodes": [
-        "82102A3230000000"
-      ],
-      "officialAudit": {
-        "officialVersion": "82V12",
-        "checkedAt": "2026-10-21",
-        "codeExistence": "confirmed",
-        "subjectGradeCheck": "passed",
-        "semanticStatus": "needs-semantic-review",
-        "relatedParentCodes": [
-          "82102A3230000000"
-        ]
-      }
+      "candidateCodes": [],
+      "relatedParentCodes": []
     },
     {
       "topicId": "jp.elem.japanese.choose-writing-topic",
@@ -232,31 +201,14 @@
     {
       "topicId": "jp.elem.japanese.compare-texts",
       "officialCodes": [],
-      "matchStatus": "candidate",
-      "matchType": "parent-section-candidate",
-      "note": "82V12公式CSVでコードの存在、教科・学年帯との整合を確認済み。学習項目と個別の公式記述との意味的な対応は未確定のため、候補として保持する。元の候補：82102C3230000000, 82102D3230000000.",
-      "candidateCode": "82102C3230000000",
+      "matchStatus": "not-checked",
+      "matchType": "not-yet-reviewed",
+      "note": "発展的・補助的な読書活動／読みの観点として整理。学習指導要領に独立した必須指導事項として列挙された項目ではないため、特定の公式コードを割り当てない。",
+      "candidateCode": null,
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
-      "candidateCodes": [
-        "82102C3230000000",
-        "82102D3230000000"
-      ],
-      "relatedParentCodes": [
-        "82102C3230000000",
-        "82102D3230000000"
-      ],
-      "officialAudit": {
-        "officialVersion": "82V12",
-        "checkedAt": "2026-10-21",
-        "codeExistence": "confirmed",
-        "subjectGradeCheck": "passed",
-        "semanticStatus": "needs-semantic-review",
-        "relatedParentCodes": [
-          "82102C3230000000",
-          "82102D3230000000"
-        ]
-      }
+      "candidateCodes": [],
+      "relatedParentCodes": []
     },
     {
       "topicId": "jp.elem.japanese.compare-viewpoints",
@@ -1016,31 +968,14 @@
     {
       "topicId": "jp.elem.japanese.quote-evidence",
       "officialCodes": [],
-      "matchStatus": "candidate",
-      "matchType": "parent-section-candidate",
-      "note": "82V12公式CSVでコードの存在、教科・学年帯との整合を確認済み。学習項目と個別の公式記述との意味的な対応は未確定のため、候補として保持する。元の候補：82102C3230000000, 82102D3230000000.",
-      "candidateCode": "82102C3230000000",
+      "matchStatus": "not-checked",
+      "matchType": "not-yet-reviewed",
+      "note": "発展的・補助的な読書活動／読みの観点として整理。学習指導要領に独立した必須指導事項として列挙された項目ではないため、特定の公式コードを割り当てない。",
+      "candidateCode": null,
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
-      "candidateCodes": [
-        "82102C3230000000",
-        "82102D3230000000"
-      ],
-      "relatedParentCodes": [
-        "82102C3230000000",
-        "82102D3230000000"
-      ],
-      "officialAudit": {
-        "officialVersion": "82V12",
-        "checkedAt": "2026-10-21",
-        "codeExistence": "confirmed",
-        "subjectGradeCheck": "passed",
-        "semanticStatus": "needs-semantic-review",
-        "relatedParentCodes": [
-          "82102C3230000000",
-          "82102D3230000000"
-        ]
-      }
+      "candidateCodes": [],
+      "relatedParentCodes": []
     },
     {
       "topicId": "jp.elem.japanese.read-and-reflect",
@@ -1236,31 +1171,14 @@
     {
       "topicId": "jp.elem.japanese.read-narrator-and-point-of-view",
       "officialCodes": [],
-      "matchStatus": "candidate",
-      "matchType": "parent-section-candidate",
-      "note": "82V12公式CSVでコードの存在、教科・学年帯との整合を確認済み。学習項目と個別の公式記述との意味的な対応は未確定のため、候補として保持する。元の候補：82102C3230000000, 82102D3230000000.",
-      "candidateCode": "82102C3230000000",
+      "matchStatus": "not-checked",
+      "matchType": "not-yet-reviewed",
+      "note": "発展的・補助的な読書活動／読みの観点として整理。学習指導要領に独立した必須指導事項として列挙された項目ではないため、特定の公式コードを割り当てない。",
+      "candidateCode": null,
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
-      "candidateCodes": [
-        "82102C3230000000",
-        "82102D3230000000"
-      ],
-      "relatedParentCodes": [
-        "82102C3230000000",
-        "82102D3230000000"
-      ],
-      "officialAudit": {
-        "officialVersion": "82V12",
-        "checkedAt": "2026-10-21",
-        "codeExistence": "confirmed",
-        "subjectGradeCheck": "passed",
-        "semanticStatus": "needs-semantic-review",
-        "relatedParentCodes": [
-          "82102C3230000000",
-          "82102D3230000000"
-        ]
-      }
+      "candidateCodes": [],
+      "relatedParentCodes": []
     },
     {
       "topicId": "jp.elem.japanese.read-sequence-and-events",
@@ -1320,31 +1238,14 @@
     {
       "topicId": "jp.elem.japanese.read-text-type-and-purpose",
       "officialCodes": [],
-      "matchStatus": "candidate",
-      "matchType": "parent-section-candidate",
-      "note": "82V12公式CSVでコードの存在、教科・学年帯との整合を確認済み。学習項目と個別の公式記述との意味的な対応は未確定のため、候補として保持する。元の候補：82102C3230000000, 82102D3230000000.",
-      "candidateCode": "82102C3230000000",
+      "matchStatus": "not-checked",
+      "matchType": "not-yet-reviewed",
+      "note": "発展的・補助的な読書活動／読みの観点として整理。学習指導要領に独立した必須指導事項として列挙された項目ではないため、特定の公式コードを割り当てない。",
+      "candidateCode": null,
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
-      "candidateCodes": [
-        "82102C3230000000",
-        "82102D3230000000"
-      ],
-      "relatedParentCodes": [
-        "82102C3230000000",
-        "82102D3230000000"
-      ],
-      "officialAudit": {
-        "officialVersion": "82V12",
-        "checkedAt": "2026-10-21",
-        "codeExistence": "confirmed",
-        "subjectGradeCheck": "passed",
-        "semanticStatus": "needs-semantic-review",
-        "relatedParentCodes": [
-          "82102C3230000000",
-          "82102D3230000000"
-        ]
-      }
+      "candidateCodes": [],
+      "relatedParentCodes": []
     },
     {
       "topicId": "jp.elem.japanese.reading-aloud-expression",
