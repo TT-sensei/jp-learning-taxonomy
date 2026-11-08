@@ -2431,13 +2431,11 @@
     {
       "id": "jp.elem.japanese.media-and-multimodal-information",
       "subject": "国語",
-      "domain": "情報の扱い方に関する事項",
-      "cluster": "情報の整理と関係付け",
-      "name": "文章・図表・写真などを関連付けて読み取る",
-      "description": "文章と図表、写真、見出しなど複数の表現形式を関連付けて情報を読み取る。情報の扱い方に関する独立した公式事項をそのまま示す項目ではなく、「読むこと」などの言語活動と横断して扱う補助的な学習項目とする。高学年の情報どうしの関係付けや図による表し方とも関連する。",
+      "domain": "読むこと",
+      "cluster": "精査・解釈（説明的な文章）",
+      "name": "文章と図表を関連付けて必要な情報を見つける",
+      "description": "高学年の説明的な文章を読む際に、本文と図表などを結び付けて必要な情報を見付ける。図表を本文の説明と照らし合わせ、どの情報を補ったり具体化したりしているかを考える。情報を整理するために自分で図を作る学習とは区別する。",
       "grades": [
-        3,
-        4,
         5,
         6
       ],
@@ -2445,7 +2443,7 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-japanese-guideline-2017",
-          "note": "文部科学省の国語編解説を参照した独自の学習項目候補。学年帯による暫定整理であり、個別の学年配当との照合は継続中。"
+          "note": "文部科学省「小学校学習指導要領解説 国語編」第3章第3節「読むこと」ウ（第5・6学年）の記述に対応。個別学年の公式配当を断定しない。"
         }
       ],
       "curriculumStandards": [],
@@ -2454,20 +2452,18 @@
       "reviewStatus": "needs-review",
       "gradePlacement": {
         "status": "needs-review",
-        "candidateFirstIntroductionGrade": 3,
+        "candidateFirstIntroductionGrade": 5,
         "candidateContinuingGrades": [
-          4,
-          5,
           6
         ],
-        "basis": "mext-japanese-guideline-2017-information-handling-review-2026-11-08",
-        "note": "複数の表現形式を扱う横断的な補助項目。高学年の情報の関係付けと関連付けるが、公式の独立した学年配当とはしない。"
+        "basis": "mext-japanese-reading-5-6-explanatory-text-and-figures-review-2026-11-08",
+        "note": "第5・6学年「読むこと」ウの『文章と図表などを結び付けるなどして必要な情報を見付ける』に対応する学年帯候補。情報の関係を図に表す「情報の扱い方」とは区別する。"
       },
-      "studentName": "文章・図・写真を組み合わせて読み取ろう",
-      "studentDescription": "文章・図表・写真を見比べ、同じ情報やちがう情報をつなげて読み取ろう。",
+      "studentName": "文章と図表をつなげて読み取ろう",
+      "studentDescription": "本文と図表を行き来しながら、必要な情報を見つけよう。図表が本文のどの説明とつながっているかも考えよう。",
       "learningGoals": [
-        "文章と図表・写真・見出しを関連付けて情報を読み取ることができる",
-        "複数の表現形式から得た情報を結び付けて説明できる"
+        "本文と図表などを結び付けて、目的に応じた必要な情報を見つけることができる",
+        "図表が本文の内容をどのように補ったり具体化したりしているかを考えることができる"
       ]
     },
     {
