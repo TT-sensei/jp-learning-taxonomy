@@ -664,31 +664,14 @@
     {
       "topicId": "jp.elem.japanese.media-and-multimodal-information",
       "officialCodes": [],
-      "matchStatus": "candidate",
-      "matchType": "parent-section-candidate",
-      "note": "82V12公式CSVでコードの存在、教科・学年帯との整合を確認済み。学習項目と個別の公式記述との意味的な対応は未確定のため、候補として保持する。元の候補：82102C3120000000, 82102D3120000000.",
-      "candidateCode": "82102C3120000000",
+      "matchStatus": "not-checked",
+      "matchType": "not-yet-reviewed",
+      "note": "第5・6学年「読むこと」ウの内容と対応する項目として分類を修正。個別コードとの意味的な照合は未実施のため、公式コードは推測で割り当てない。",
+      "candidateCode": null,
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
-      "candidateCodes": [
-        "82102C3120000000",
-        "82102D3120000000"
-      ],
-      "relatedParentCodes": [
-        "82102C3120000000",
-        "82102D3120000000"
-      ],
-      "officialAudit": {
-        "officialVersion": "82V12",
-        "checkedAt": "2026-10-21",
-        "codeExistence": "confirmed",
-        "subjectGradeCheck": "passed",
-        "semanticStatus": "needs-semantic-review",
-        "relatedParentCodes": [
-          "82102C3120000000",
-          "82102D3120000000"
-        ]
-      }
+      "candidateCodes": [],
+      "relatedParentCodes": []
     },
     {
       "topicId": "jp.elem.japanese.onomatopoeia-and-sensory-words",
