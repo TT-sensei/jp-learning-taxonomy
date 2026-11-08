@@ -141,3 +141,13 @@ html:focus-within{scroll-behavior:auto}
 .grade-progression-list{grid-template-columns:1fr}
 .grade-progression-step{padding:11px 12px}
 }
+
+
+/* Teacher and family detail: optional curriculum-level explanation */
+.teacher-note{margin:10px 0 16px;border:1px solid #e5e9ee;border-radius:12px;background:#f8fafc;color:#526477;overflow:hidden}
+.teacher-note summary{padding:10px 13px;cursor:pointer;font-size:12px;font-weight:700;color:#4b6682;list-style:none}
+.teacher-note summary::-webkit-details-marker{display:none}
+.teacher-note summary::after{content:"＋";float:right;color:#7b91a8}
+.teacher-note[open] summary::after{content:"−"}
+.teacher-note p{margin:0;padding:0 13px 12px;font-size:12px;line-height:1.75;color:#5c6d7d}
+.teacher-note summary:focus-visible{outline:3px solid #b7d3ef;outline-offset:-3px}
