@@ -432,45 +432,62 @@
       "id": "japanese-reading",
       "title": "文章を読み、考えを深める",
       "question": "文章のどこを手がかりに、何を読み取る？",
-      "summary": "出来事や構成、叙述、筆者の考え、表現の工夫を捉え、複数の文章や資料を比べながら読みを深める。",
+      "summary": "説明的な文章と文学的な文章の構造・内容を捉え、叙述を根拠に精査・解釈し、自分の考えを形成して共有する。学年段階に沿った学びと、目的に応じた発展的な読書活動を区別して示す。",
       "stages": [
         {
-          "label": "出来事・人物・中心を捉える",
+          "label": "順序や場面を手掛かりに内容を捉える",
           "grades": "1〜2年ごろ",
+          "description": "時間や事柄の順序、場面や登場人物の行動を手掛かりに、文章の大体を捉え、体験と結び付けて感想をもつ。",
           "topicIds": [
             "jp.elem.japanese.read-sequence-and-events",
             "jp.elem.japanese.read-character-and-setting",
             "jp.elem.japanese.read-main-idea",
-            "jp.elem.japanese.read-between-the-lines"
+            "jp.elem.japanese.read-between-the-lines",
+            "jp.elem.japanese.read-and-reflect"
           ]
         },
         {
-          "label": "構成・根拠・表現を捉える",
-          "grades": "3〜6年ごろ",
+          "label": "段落・理由・事例や叙述を基に読む",
+          "grades": "3〜4年ごろ",
+          "description": "段落相互の関係、考えと理由・事例、中心となる語や文に着目し、要約したり、叙述を基に気持ちや情景を具体的に想像したりする。",
           "topicIds": [
-            "jp.elem.japanese.read-structure-and-relationships",
-            "jp.elem.japanese.read-narrator-and-point-of-view",
+            "jp.elem.japanese.read-main-idea",
+            "jp.elem.japanese.read-character-and-setting",
             "jp.elem.japanese.read-facts-and-opinions",
+            "jp.elem.japanese.read-structure-and-relationships",
+            "jp.elem.japanese.read-between-the-lines",
             "jp.elem.japanese.quote-evidence",
-            "jp.elem.japanese.read-figurative-language-and-effects",
-            "jp.elem.japanese.read-author-claim-and-evidence"
+            "jp.elem.japanese.read-and-reflect"
           ]
         },
         {
-          "label": "目的に応じて読み、交流する",
-          "grades": "1〜6年ごろ",
+          "label": "文章全体の構成や表現を吟味し、考えをまとめる",
+          "grades": "5〜6年ごろ",
+          "description": "事実と感想・意見の関係、文章全体の構成、図表と本文の関係、人物像や物語の全体像、表現の効果を考え、考えをまとめて共有する。",
           "topicIds": [
-            "jp.elem.japanese.read-text-type-and-purpose",
+            "jp.elem.japanese.read-main-idea",
+            "jp.elem.japanese.read-character-and-setting",
+            "jp.elem.japanese.read-facts-and-opinions",
+            "jp.elem.japanese.read-structure-and-relationships",
+            "jp.elem.japanese.read-author-claim-and-evidence",
+            "jp.elem.japanese.read-figurative-language-and-effects",
+            "jp.elem.japanese.read-between-the-lines",
+            "jp.elem.japanese.read-and-reflect",
+            "jp.elem.japanese.quote-evidence"
+          ]
+        },
+        {
+          "label": "目的に応じて読書や資料活用を広げる",
+          "grades": "1〜6年ごろ（発展・活用）",
+          "description": "読む目的に応じて本や資料を選び、読み方を工夫する。複数文章の比較や作者・作品への関心など、言語活動・読書活動を広げる補助的な学びも含む。",
+          "topicIds": [
+            "jp.elem.japanese.library-and-book-selection",
             "jp.elem.japanese.choose-reading-strategy",
             "jp.elem.japanese.compare-texts",
-            "jp.elem.japanese.read-and-reflect",
-            "jp.elem.japanese.reading-habits",
-            "jp.elem.japanese.library-and-book-selection",
+            "jp.elem.japanese.read-text-type-and-purpose",
+            "jp.elem.japanese.read-narrator-and-point-of-view",
             "jp.elem.japanese.author-and-work",
-            "jp.elem.japanese.poetry-and-rhythm",
-            "jp.elem.japanese.traditional-language-culture",
-            "jp.elem.japanese.classical-language-and-old-forms",
-            "jp.elem.japanese.reading-aloud-expression"
+            "jp.elem.japanese.reading-habits"
           ]
         }
       ]
