@@ -146,16 +146,14 @@
       "officialCodes": [],
       "matchStatus": "candidate",
       "matchType": "parent-section-candidate",
-      "note": "82V12公式CSVでコードの存在、教科・学年帯との整合を確認済み。学習項目と個別の公式記述との意味的な対応は未確定のため、候補として保持する。元の候補：82102C3130000000, 82102D3130000000.",
-      "candidateCode": "82102C3130000000",
+      "note": "82V12公式CSVでコードの存在と第5・6学年帯との整合を確認済み。学習項目と個別の公式記述との意味的な対応は未確定のため、親区分候補として保持する。",
+      "candidateCode": "82102D3130000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
       "candidateCodes": [
-        "82102C3130000000",
         "82102D3130000000"
       ],
       "relatedParentCodes": [
-        "82102C3130000000",
         "82102D3130000000"
       ],
       "officialAudit": {
@@ -165,7 +163,6 @@
         "subjectGradeCheck": "passed",
         "semanticStatus": "needs-semantic-review",
         "relatedParentCodes": [
-          "82102C3130000000",
           "82102D3130000000"
         ]
       }
