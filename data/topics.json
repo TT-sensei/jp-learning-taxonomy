@@ -7252,9 +7252,9 @@
     {
       "id": "jp.elem.math.scale-and-ratio",
       "subject": "算数",
-      "domain": "C 変化と関係（第4〜6学年を中心とする）",
-      "name": "縮図の縮尺と実際の長さ",
-      "description": "縮図上の長さと実際の長さの比を用いて、距離や長さを求める。",
+      "domain": "B 図形",
+      "name": "縮尺を使って実際の長さを求める",
+      "description": "縮図や地図の縮尺を、図と実際の長さの対応として捉え、縮図上の長さから実際の距離や長さを求める。",
       "grades": [
         6
       ],
@@ -7262,11 +7262,11 @@
       "evidence": [
         {
           "sourceId": "mext-elementary-math-guideline-2017",
-          "note": "文部科学省の小学校学習指導要領解説の領域構成を参照し、プロジェクト独自の表現で項目化した草案。具体的な学習指導要領コードとの対応は未確認。"
+          "note": "第6学年B(1)「縮図や拡大図、対称な図形」。縮図・拡大図の性質を日常生活に生かす例として、地図の縮尺から実際の長さを求める活動が記載されている（解説 pp.291–293）。"
         }
       ],
       "curriculumStandards": [
-        "project-ref-math-area-C-change"
+        "project-ref-math-area-B"
       ],
       "prerequisiteIds": [],
       "resourceIds": [],
@@ -7275,16 +7275,17 @@
         "status": "candidate",
         "candidateFirstIntroductionGrade": 6,
         "candidateContinuingGrades": [],
-        "basis": "current-draft-grades",
-        "note": "現行の候補学年から機械的に分けた仮案。初出学年・継続学年とも未照合であり、公式配当を示さない。公式コード表と複数社の系統資料を照合して更新する。"
+        "basis": "mext-math-scale-as-geometry-grade-review-2026-11-08",
+        "note": "文部科学省「小学校学習指導要領（平成29年告示）解説 算数編」第6学年B(1)「縮図や拡大図、対称な図形」で、縮図・拡大図の活用例として地図の縮尺から実際の長さを求める活動が示されている。図形領域の学習内容として整理し、比の内容とは項目・領域を分けて関連付ける。"
       },
-      "studentName": "縮図の縮尺から実際の長さを求めよう",
-      "studentDescription": "縮図上の長さと実際の長さの比を用いて、距離や長さを求める。",
+      "studentName": "縮尺を使って実際の長さを求めよう",
+      "studentDescription": "地図や縮図の縮尺を使って、実際の長さや距離を求めよう。",
       "learningGoals": [
         "縮尺の意味を理解し、縮図上の長さから実際の長さを求めることができる",
         "実際の長さから、縮図上の長さを求めることができる",
         "地図や縮図を読んで、実際の距離を見積もることができる"
-      ]
+      ],
+      "cluster": "拡大図・縮図の活用"
     },
     {
       "id": "jp.elem.math.inverse-proportionality",
