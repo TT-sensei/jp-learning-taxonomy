@@ -987,6 +987,384 @@
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
       "evidence": []
+    },
+    {
+      "id": "science-support-001",
+      "topicId": "jp.elem.science.dissolving",
+      "difficulty": "溶け残りがあるのに『全部溶けた』と判断してしまう",
+      "description": "溶ける量に限りがあることや、溶けた物が見えなくなることが捉えられていない。",
+      "signs": [
+        "水をかき混ぜても残る食塩を、まだ溶けている最中だと思い込む",
+        "温度を上げると溶ける量がどうなるか予想できない"
+      ],
+      "reviewTargets": [
+        {
+          "topicId": "jp.elem.science.control-conditions",
+          "reason": "水の量や温度など、条件をそろえて調べる見方を取り戻す"
+        },
+        {
+          "topicId": "jp.elem.science.record-data",
+          "reason": "溶けた量を記録して比べる学びを確認する"
+        }
+      ],
+      "supportSteps": [
+        "溶ける前と後の重さを量って、物が消えていないことを確かめる",
+        "水の量を決めて、溶ける量の限りを実際に量る",
+        "温度だけを変えた実験と比べる"
+      ],
+      "studentPrompt": "物が水に溶ける量で、迷ってしまうとき",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "evidence": []
+    },
+    {
+      "id": "science-support-002",
+      "topicId": "jp.elem.science.pendulum",
+      "difficulty": "おもりの重さで振り子の周期が変わると思ってしまう",
+      "description": "日常の『重い物は速い／遅い』という感覚で判断し、条件を制御して確かめていない。",
+      "signs": [
+        "重いおもりのほうが速く往復すると予想する",
+        "長さも重さも一度に変えて実験してしまう"
+      ],
+      "reviewTargets": [
+        {
+          "topicId": "jp.elem.science.control-conditions",
+          "reason": "変える条件と同条件を区別する学びに戻る"
+        }
+      ],
+      "supportSteps": [
+        "重さだけを変えて、長さをそろえて計る",
+        "ストップウォッチで10往復を計り、1往復に直す",
+        "長さだけを変えた結果と並べて比べる"
+      ],
+      "studentPrompt": "振り子の速さが、何で決まるか分からないとき",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "evidence": []
+    },
+    {
+      "id": "science-support-003",
+      "topicId": "jp.elem.science.lever",
+      "difficulty": "支点から遠いほど小さい力で済むことが逆に感じられる",
+      "description": "てこの働きを、力点・支点・作用点の位置関係ではなく、力の強さだけで捉えている。",
+      "signs": [
+        "支点の近くを持つほうが楽だと思ってしまう",
+        "実験用てこの傾きと、重さの関係が読めない"
+      ],
+      "reviewTargets": [
+        {
+          "topicId": "jp.elem.science.force-motion",
+          "reason": "力の大きさと物の動きの関係を確認する"
+        }
+      ],
+      "supportSteps": [
+        "実験用てこで、つり合う位置と重さを記録する",
+        "バールで釘を抜くなど、生活の道具で確かめる",
+        "支点からの距離を数値で比べて言い直す"
+      ],
+      "studentPrompt": "てこで、どこを持つと楽か分からないとき",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "evidence": []
+    },
+    {
+      "id": "science-support-004",
+      "topicId": "jp.elem.science.plants-conditions",
+      "difficulty": "発芽の条件を調べるとき、条件を一度に全部変えてしまう",
+      "description": "何が原因で結果が変わったのかが分かる実験の仕組み（条件制御）が身に付いていない。",
+      "signs": [
+        "水・光・空気の全部を変えた鉢と比べてしまう",
+        "発芽しなかった理由を1つに決めつけられない"
+      ],
+      "reviewTargets": [
+        {
+          "topicId": "jp.elem.science.prediction",
+          "reason": "予想と確かめる方法を結び付ける学びに戻る"
+        },
+        {
+          "topicId": "jp.elem.science.control-conditions",
+          "reason": "条件を制御する考え方を取り戻す"
+        }
+      ],
+      "supportSteps": [
+        "比べる2つの鉢で、変える条件は1つだけにする",
+        "条件の一覧表を作って、違いに印を付ける",
+        "結果から言えることと言えないことを分ける"
+      ],
+      "studentPrompt": "発芽の実験で、何が原因か分からなくなるとき",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "evidence": []
+    },
+    {
+      "id": "science-support-005",
+      "topicId": "jp.elem.science.water-state",
+      "difficulty": "湯気を水蒸気そのものだと思ってしまう",
+      "description": "目に見える湯気は冷えて水滴に戻ったもので、水蒸気自体は見えないことが捉えられていない。",
+      "signs": [
+        "沸騰したやかんの口元にも湯気があると思い込む",
+        "氷になると重くなると思ってしまう"
+      ],
+      "reviewTargets": [
+        {
+          "topicId": "jp.elem.science.metal-water-air-temperature",
+          "reason": "温度による変化を調べた学びと結び付ける"
+        }
+      ],
+      "supportSteps": [
+        "やかんの口元（見えない部分）と、少し離れた湯気を観察する",
+        "凍らせた水の体積と重さを量って確かめる",
+        "水→水蒸気→水の変化を図で整理する"
+      ],
+      "studentPrompt": "水蒸気や湯気の見え方で、迷ってしまうとき",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "evidence": []
+    },
+    {
+      "id": "science-support-006",
+      "topicId": "jp.elem.science.moon-sun",
+      "difficulty": "月の形が変わるのは地球の影のせいだと思ってしまう",
+      "description": "月・太陽・地球の位置関係を立体的に捉えられず、月食と混同している。",
+      "signs": [
+        "三日月を『地球の影が欠けている』と説明する",
+        "月が見える方位と太陽の位置を結び付けられない"
+      ],
+      "reviewTargets": [
+        {
+          "topicId": "jp.elem.science.sun-shadow",
+          "reason": "太陽の位置と影のでき方を確認する"
+        },
+        {
+          "topicId": "jp.elem.science.moon-stars",
+          "reason": "月の観察記録を振り返る"
+        }
+      ],
+      "supportSteps": [
+        "ボールとライトで、光の当たる部分を確かめる",
+        "同じ時刻の月と太陽の方角を記録する",
+        "満月・三日月で、太陽の位置がどう違うか図にする"
+      ],
+      "studentPrompt": "月の形が変わる理由が、分からないとき",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "evidence": []
+    },
+    {
+      "id": "science-support-007",
+      "topicId": "jp.elem.science.river-land",
+      "difficulty": "流れる水の3つのはたらき（けずる・運ぶ・積もらせる）を使い分けられない",
+      "description": "水の量や速さと、土地の変化の関係が結び付いていない。",
+      "signs": [
+        "急なところでも土が積もると答える",
+        "上流と下流の石の形の違いを説明できない"
+      ],
+      "reviewTargets": [
+        {
+          "topicId": "jp.elem.science.rainwater-land-surface",
+          "reason": "雨水の流れ方やしみ込み方を調べた学びに戻る"
+        }
+      ],
+      "supportSteps": [
+        "流水実験で、傾きや水の量を変えて土の動きを観察する",
+        "川の上流・中流・下流の写真を並べて比べる",
+        "はたらきを場所（速い・ゆるやか）とセットで整理する"
+      ],
+      "studentPrompt": "流れる水のはたらきが、場所でどう違うか分からないとき",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "evidence": []
+    },
+    {
+      "id": "science-support-008",
+      "topicId": "jp.elem.science.electric-magnetic-force",
+      "difficulty": "電磁石の強さが何で決まるか、条件が混ざってしまう",
+      "description": "巻数と電流の大きさの両方を同時に変えてしまい、比べる実験になっていない。",
+      "signs": [
+        "巻数を増やし電池も増やした結果だけで判断する",
+        "電磁石に極があることを、磁石と別物だと思い込む"
+      ],
+      "reviewTargets": [
+        {
+          "topicId": "jp.elem.science.electricity-effects",
+          "reason": "電池のつなぎ方と電流の働きを確認する"
+        },
+        {
+          "topicId": "jp.elem.science.control-conditions",
+          "reason": "条件を1つずつ変える学びに戻る"
+        }
+      ],
+      "supportSteps": [
+        "巻数だけを変えた実験と、電池の数だけを変えた実験を分ける",
+        "引き付けたクリップの数を記録して比べる",
+        "極の変化を、電池の向きと結び付けて確かめる"
+      ],
+      "studentPrompt": "電磁石の強さが、何で決まるか分からないとき",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "evidence": []
+    },
+    {
+      "id": "social-support-001",
+      "topicId": "jp.elem.social.local-map",
+      "difficulty": "地図では上向きが北だと思い込んでしまう",
+      "description": "方位記号で北を確認する習慣がなく、地図記号も形だけで覚えている。",
+      "signs": [
+        "方位記号のない地図で、上が北でないと混乱する",
+        "地図記号の意味を、形から思い出せない"
+      ],
+      "reviewTargets": [
+        {
+          "topicId": "jp.elem.social.maps-globes",
+          "reason": "地図の方位・記号・縮尺の読み方を確認する"
+        }
+      ],
+      "supportSteps": [
+        "まず方位記号を探して、北を確かめる習慣をつける",
+        "学校のまわりの地図で、実際の景色と見比べる",
+        "記号の由来（形の意味）から覚え直す"
+      ],
+      "studentPrompt": "地図の方位や記号で、迷ってしまうとき",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "evidence": []
+    },
+    {
+      "id": "social-support-002",
+      "topicId": "jp.elem.social.prefecture-land",
+      "difficulty": "都道府県の名前と位置が結び付かない",
+      "description": "県の形や位置を手掛かりにせず、名前だけを丸暗記しようとしている。",
+      "signs": [
+        "似た名前の県（福島・福井・福岡など）を取り違える",
+        "自分の県のまわりの県が言えない"
+      ],
+      "reviewTargets": [
+        {
+          "topicId": "jp.elem.social.local-map",
+          "reason": "身近な地域の地図から広げる見方を取り戻す"
+        }
+      ],
+      "supportSteps": [
+        "自分の県から、隣の県へ順に広げて覚える",
+        "県の形を、身近な物に見立てて覚える",
+        "白地図に書き込む練習を少しずつ行う"
+      ],
+      "studentPrompt": "都道府県の位置が、覚えられないとき",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "evidence": []
+    },
+    {
+      "id": "social-support-003",
+      "topicId": "jp.elem.social.agriculture",
+      "difficulty": "農産物の生産量と、地形や気候を結び付けられない",
+      "description": "資料を別々に読み取っており、条件と工夫を関連付けて考えることができていない。",
+      "signs": [
+        "グラフの1位の県を覚えるだけで終わってしまう",
+        "なぜその地域で盛んなのかを説明できない"
+      ],
+      "reviewTargets": [
+        {
+          "topicId": "jp.elem.social.statistics-graphs",
+          "reason": "統計やグラフの読み方を確認する"
+        },
+        {
+          "topicId": "jp.elem.social.japan-landforms-climate",
+          "reason": "日本の地形と気候の特徴に戻る"
+        }
+      ],
+      "supportSteps": [
+        "地図の上に地形・気候の資料を重ねて見る",
+        "『条件→工夫→生産』の順で説明する練習をする",
+        "2つの産地を比べて、違いの理由を考える"
+      ],
+      "studentPrompt": "農業の学習で、地域で盛んな理由が説明できないとき",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "evidence": []
+    },
+    {
+      "id": "social-support-004",
+      "topicId": "jp.elem.social.edo-society",
+      "difficulty": "江戸時代までの出来事の順序が混ざってしまう",
+      "description": "人物や出来事を点で覚えており、時代の流れとして捉えられていない。",
+      "signs": [
+        "織田・豊臣・徳川の順序を取り違える",
+        "参勤交代と鎖国を別の時代のことだと思ってしまう"
+      ],
+      "reviewTargets": [
+        {
+          "topicId": "jp.elem.social.timeline-sources",
+          "reason": "年表で順序や時期を確かめる学びに戻る"
+        }
+      ],
+      "supportSteps": [
+        "年表に人物と出来事を並べて、流れを確認する",
+        "『だれが・何のために』の因果で出来事をつなぐ",
+        "前の時代（戦国の統一）と続けて整理する"
+      ],
+      "studentPrompt": "歴史の出来事の順序が、混ざってしまうとき",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "evidence": []
+    },
+    {
+      "id": "social-support-005",
+      "topicId": "jp.elem.social.government-courts",
+      "difficulty": "国会・内閣・裁判所の役割を取り違える",
+      "description": "三権の名前は覚えたが、働き（決める・行う・判断する）が結び付いていない。",
+      "signs": [
+        "法律を作るのは内閣だと思ってしまう",
+        "選挙で選ばれるのはだれか（国会議員）が曖昧になる"
+      ],
+      "reviewTargets": [
+        {
+          "topicId": "jp.elem.social.constitution",
+          "reason": "三権分立の考え方の土台を確認する"
+        },
+        {
+          "topicId": "jp.elem.social.diet",
+          "reason": "国会の働きを先に捉え直す"
+        }
+      ],
+      "supportSteps": [
+        "1つの事例（法律ができるまで）で3つの機関を追う",
+        "『決める・行う・確かめる』と言葉で言い換える",
+        "互いにチェックする関係を図に描く"
+      ],
+      "studentPrompt": "三権の役割が、取り違えてしまうとき",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "evidence": []
+    },
+    {
+      "id": "social-support-006",
+      "topicId": "jp.elem.social.food-life",
+      "difficulty": "食料を輸入に頼る理由が、生産の面から考えられない",
+      "description": "自分の食生活と生産・輸入・輸送のつながりが見えていない。",
+      "signs": [
+        "『日本で作ればよい』で考えが止まってしまう",
+        "食料自給率の数字の意味が分からない"
+      ],
+      "reviewTargets": [
+        {
+          "topicId": "jp.elem.social.agriculture",
+          "reason": "日本の農業の現状と課題を確認する"
+        },
+        {
+          "topicId": "jp.elem.social.transport-trade",
+          "reason": "輸送や貿易が生産を支える関係に戻る"
+        }
+      ],
+      "supportSteps": [
+        "1日の食事を書き出し、産地を調べる",
+        "国土や気候の条件から、作れる物と作れない物を分ける",
+        "生産者・消費者・運ぶ人の立場で考える"
+      ],
+      "studentPrompt": "食料の輸入について、理由が考えられないとき",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "evidence": []
     }
   ]
 }

@@ -222,6 +222,174 @@
       "reviewStatus": "needs-review",
       "studentName": "樹形図や表で場合を整理する",
       "studentPurpose": "場合を順番に整理して、ぬけや重なりがないように並べ方や組み合わせを数えよう。"
+    },
+    {
+      "id": "japanese-rep-paragraph-map",
+      "name": "段落マップ・構成図",
+      "purpose": "段落どうしのつながりや文章全体の構成を、図にして捉える",
+      "grades": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicIds": [
+        "jp.elem.japanese.read-structure-and-relationships",
+        "jp.elem.japanese.organize-writing",
+        "jp.elem.japanese.read-main-idea"
+      ],
+      "reviewStatus": "needs-review",
+      "studentName": "段落のつながりを図にする",
+      "studentPurpose": "段落ごとに何が書いてあるかを図にすると、文章全体の組み立てが見えてくるよ。"
+    },
+    {
+      "id": "japanese-rep-story-map",
+      "name": "物語マップ",
+      "purpose": "登場人物・場面・出来事・心情の変化を整理して、物語の流れを捉える",
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicIds": [
+        "jp.elem.japanese.read-character-and-setting",
+        "jp.elem.japanese.read-sequence-and-events"
+      ],
+      "reviewStatus": "needs-review",
+      "studentName": "物語の地図をかく",
+      "studentPurpose": "だれが、どこで、どう感じたかを整理すると、物語の流れがつかめるよ。"
+    },
+    {
+      "id": "japanese-rep-compare-table",
+      "name": "比べる表",
+      "purpose": "事実と意見、複数の文章や立場を、観点をそろえて表で比べる",
+      "grades": [
+        4,
+        5,
+        6
+      ],
+      "topicIds": [
+        "jp.elem.japanese.facts-opinions-and-interpretations",
+        "jp.elem.japanese.compare-texts",
+        "jp.elem.japanese.read-facts-and-opinions"
+      ],
+      "reviewStatus": "needs-review",
+      "studentName": "観点をそろえて比べる表",
+      "studentPurpose": "同じ観点で並べて書くと、同じところと違うところが見えてくるよ。"
+    },
+    {
+      "id": "science-rep-experiment-record",
+      "name": "実験の記録表",
+      "purpose": "予想・方法・結果・考察を分けて記録し、探究の流れを確かめる",
+      "grades": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicIds": [
+        "jp.elem.science.experiment-plan",
+        "jp.elem.science.record-data",
+        "jp.elem.science.conclusion"
+      ],
+      "reviewStatus": "needs-review",
+      "studentName": "予想・方法・結果・考えを分けて書く",
+      "studentPurpose": "分けて記録すると、結果から何が言えるかがはっきりするよ。"
+    },
+    {
+      "id": "science-rep-result-graph",
+      "name": "結果の表とグラフ",
+      "purpose": "観察・実験の数値を表やグラフに表し、変化や傾向を読み取る",
+      "grades": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicIds": [
+        "jp.elem.science.record-data",
+        "jp.elem.science.weather",
+        "jp.elem.science.pendulum"
+      ],
+      "reviewStatus": "needs-review",
+      "studentName": "数値をグラフに表す",
+      "studentPurpose": "グラフにすると、変わり方やきまりが目で見て分かるよ。"
+    },
+    {
+      "id": "science-rep-relationship-diagram",
+      "name": "つながりを表す図",
+      "purpose": "生物どうしや、水の循環などの関係を、矢印や図で表す",
+      "grades": [
+        5,
+        6
+      ],
+      "topicIds": [
+        "jp.elem.science.ecosystem",
+        "jp.elem.science.water-cycle",
+        "jp.elem.science.plant-nutrition"
+      ],
+      "reviewStatus": "needs-review",
+      "studentName": "つながりを矢印でつなぐ",
+      "studentPurpose": "矢印でつなぐと、食べる・食べられるや水のめぐりが見えてくるよ。"
+    },
+    {
+      "id": "social-rep-timeline",
+      "name": "年表",
+      "purpose": "出来事を時間の軸に並べ、順序や時期、時代の流れを捉える",
+      "grades": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicIds": [
+        "jp.elem.social.timeline-sources",
+        "jp.elem.social.ancient-japan",
+        "jp.elem.social.postwar-japan"
+      ],
+      "reviewStatus": "needs-review",
+      "studentName": "出来事を年表に並べる",
+      "studentPurpose": "時間の軸に並べると、出来事の順序や時代の流れが分かるよ。"
+    },
+    {
+      "id": "social-rep-map-distribution",
+      "name": "白地図・分布図",
+      "purpose": "地形・産業・交通などを地図に表し、分布の特徴を読み取る",
+      "grades": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "topicIds": [
+        "jp.elem.social.maps-globes",
+        "jp.elem.social.prefecture-land",
+        "jp.elem.social.japan-landforms-climate"
+      ],
+      "reviewStatus": "needs-review",
+      "studentName": "地図に書き込んで読み取る",
+      "studentPurpose": "地図に色や記号で表すと、地域の特徴が浮かび上がるよ。"
+    },
+    {
+      "id": "social-rep-comparison-chart",
+      "name": "比較表・相関図",
+      "purpose": "地域や条件を観点をそろえて比べ、関係を図で表す",
+      "grades": [
+        4,
+        5,
+        6
+      ],
+      "topicIds": [
+        "jp.elem.social.compare-regions",
+        "jp.elem.social.statistics-graphs",
+        "jp.elem.social.natural-environment-life"
+      ],
+      "reviewStatus": "needs-review",
+      "studentName": "地域を比べて表にまとめる",
+      "studentPurpose": "観点をそろえて比べると、暮らしの違いとその理由が見えてくるよ。"
     }
   ]
 }
