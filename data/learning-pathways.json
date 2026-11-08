@@ -286,7 +286,7 @@
       "stages": [
         {
           "label": "数量の関係を捉える",
-          "grades": "2〜4年ごろ",
+          "grades": "2〜5年ごろ",
           "topicIds": [
             "jp.elem.math.unknown-number-box-expression",
             "jp.elem.math.unknown-number-solve",
@@ -296,7 +296,7 @@
         },
         {
           "label": "割合や1あたりの大きさ",
-          "grades": "5年ごろ",
+          "grades": "5〜6年ごろ",
           "topicIds": [
             "jp.elem.math.unit-quantity",
             "jp.elem.math.percentage",
@@ -304,16 +304,37 @@
           ]
         },
         {
-          "label": "比・比例・反比例",
-          "grades": "5〜6年ごろ",
+          "label": "簡単な場合の比例",
+          "grades": "5年ごろ",
+          "description": "表や式を使って、伴って変わる二つの数量の変化や対応の特徴を調べる。",
+          "topicIds": [
+            "jp.elem.math.meaning-of-proportion"
+          ]
+        },
+        {
+          "label": "比例の意味・性質と活用、反比例",
+          "grades": "6年ごろ",
+          "description": "比例の意味や性質を整理し、表・式・グラフを使った問題解決や反比例との比較へ広げる。",
+          "topicIds": [
+            "jp.elem.math.proportionality",
+            "jp.elem.math.inverse-proportionality"
+          ]
+        },
+        {
+          "label": "比と縮尺",
+          "grades": "6年ごろ",
+          "description": "二つの数量の関係を比で表し、縮図の縮尺などの場面で活用する。",
           "topicIds": [
             "jp.elem.math.ratio",
-            "jp.elem.math.scale-and-ratio",
-            "jp.elem.math.meaning-of-proportion",
-            "jp.elem.math.proportionality",
-            "jp.elem.math.inverse-proportionality",
-            "jp.elem.math.letter-expressions",
-            "jp.elem.math.unknown-number-relationships"
+            "jp.elem.math.scale-and-ratio"
+          ]
+        },
+        {
+          "label": "文字を使って数量の関係を表す",
+          "grades": "6年ごろ",
+          "description": "文字を数や量の代わりに使い、数量の関係を式で表す。",
+          "topicIds": [
+            "jp.elem.math.letter-expressions"
           ]
         }
       ],
