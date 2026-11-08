@@ -328,7 +328,7 @@
       "officialCodes": [],
       "matchStatus": "candidate",
       "matchType": "parent-section-candidate",
-      "note": "82V12公式CSVでコードの存在、教科・学年帯との整合を確認済み。学習項目と個別の公式記述との意味的な対応は未確定のため、候補として保持する。元の候補：82102A3110000000.",
+      "note": "82V12公式CSVでコードの存在、教科・学年帯との整合を確認済み。情報の扱い方の第3・4学年「情報の整理」の事項に移動。個別の公式記述との意味的な対応は引き続き確認中。",
       "candidateCode": "82102A3110000000",
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
@@ -8580,6 +8580,34 @@
       "matchStatus": "not-checked",
       "matchType": "not-yet-reviewed",
       "note": "新規追加項目。公式コードの存在・教科・学年帯および個別の公式記述との意味的対応は未照合。コードを推測して登録しない。"
+    },
+    {
+      "topicId": "jp.elem.japanese.information-relations-common-difference-order",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-yet-reviewed",
+      "note": "今回追加した項目。公式コードの存在・教科・学年帯および個別の公式記述との意味的対応は未照合。コードを推測して登録しない。"
+    },
+    {
+      "topicId": "jp.elem.japanese.ideas-reasons-examples-whole-center",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-yet-reviewed",
+      "note": "今回追加した項目。公式コードの存在・教科・学年帯および個別の公式記述との意味的対応は未照合。コードを推測して登録しない。"
+    },
+    {
+      "topicId": "jp.elem.japanese.recording-key-information",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-yet-reviewed",
+      "note": "今回追加した項目。公式コードの存在・教科・学年帯および個別の公式記述との意味的対応は未照合。コードを推測して登録しない。"
+    },
+    {
+      "topicId": "jp.elem.japanese.linking-information-and-diagrams",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-yet-reviewed",
+      "note": "今回追加した項目。公式コードの存在・教科・学年帯および個別の公式記述との意味的対応は未照合。コードを推測して登録しない。"
     }
   ]
 }
