@@ -30,18 +30,18 @@
 <button class="subject-card" data-subject="特別活動" aria-pressed="false"><span class="subject-symbol special">活</span><span><strong>特別活動</strong><small>学級・児童会・クラブ・学校行事</small></span><span class="subject-count" id="count-特別活動">—</span></button>
 <div class="scope-note"><strong>学びの地図の見方</strong><span>学年やつながりは目安です。学習指導要領の解説などをもとに整理した候補で、必ずこの順番で学ぶという意味ではありません。総合的な学習の時間の課題は、各学校で決まります。</span></div>
 </div>
-<div class="search-wrap"><label for="topic-search">学習内容を検索</label><input id="topic-search" type="search" placeholder="例：分数、植物、歴史、説明文" autocomplete="off"><span class="search-hint">名前・説明・分野から探せます</span></div>
+<div class="search-wrap"><label for="topic-search">学習内容を検索</label><input id="topic-search" type="search" placeholder="例：分数、植物、歴史、説明文" autocomplete="off"><span class="search-hint">項目名・説明・道すじから探せます</span></div>
 </section>
-<section class="pathways-section" id="pathways-section" aria-labelledby="pathways-title"><div class="section-heading"><div><p class="eyebrow">道すじ</p><h2 id="pathways-title">大きな学びの道すじ</h2><p class="section-description">学習内容をまとまりで見渡し、気になる項目から前後のつながりをたどれます。</p></div></div><div id="pathways-list" class="pathway-grid"><p class="loading">学びの道すじを読み込んでいます…</p></div></section>
+<section class="pathways-section" id="pathways-section" aria-labelledby="pathways-title"><div class="section-heading"><div><p class="eyebrow">道すじ</p><h2 id="pathways-title">大きな学びの道すじ</h2><p class="section-description">教科ごとに大きな流れをまとめています。教科を開いて、気になる項目から前後のつながりをたどれます。</p></div></div><div id="pathways-list" class="pathway-grid"><p class="loading">学びの道すじを読み込んでいます…</p></div></section>
 <section class="results-section" aria-labelledby="results-title"><div class="section-heading results-heading"><div><p class="eyebrow">一覧</p><h2 id="results-title">学習内容の一覧</h2><p id="results-description" class="section-description">教科や学年を選ぶと、学びのまとまりが表示されます。</p></div><span class="result-total" id="result-total" aria-live="polite">—</span></div><div id="results" class="topic-groups" aria-live="polite"><div class="loading">学習データを読み込んでいます…</div></div><p id="empty-state" class="empty-state" hidden>条件に合う学習内容が見つかりません。学年や検索語を変えてみてください。</p></section>
 <section class="detail-section" id="detail-section" hidden aria-labelledby="detail-title">
 <div class="detail-head"><div><p class="eyebrow">つながり</p><p id="detail-meta" class="detail-meta"></p><h2 id="detail-title"></h2></div><button id="close-detail" class="quiet-button" type="button">一覧に戻る</button></div>
 <p id="detail-description" class="detail-description"></p>
+<p id="detail-grade-note" class="detail-grade-note"></p>
 <div class="goal-panel" id="goal-panel" hidden><h3>この学びで目指すこと</h3><ul id="goal-list"></ul></div>
 <div class="support-panel" id="support-panel" hidden><h3>ここが難しいときは？</h3><p class="panel-note">あてはまるものを選ぶと、戻るとよい学びと、学び直しのじゅんばんが出るよ。</p><div id="support-list" class="support-list"></div></div>
 <div class="connection-grid">
 <section class="connection-panel"><h3><span class="connection-dot before"></span>前に学んだこと</h3><p class="connection-help">今の学びを支える可能性のある内容</p><div id="before-list" class="connection-list"></div></section>
-<section class="connection-panel current-panel"><h3><span class="connection-dot current"></span>今の学び</h3><div id="current-card" class="current-card"></div></section>
 <section class="connection-panel"><h3><span class="connection-dot after"></span>この先につながること</h3><p class="connection-help">この学びを生かしたり、広げたりする内容</p><div id="after-list" class="connection-list"></div></section>
 <section class="connection-panel"><h3><span class="connection-dot related"></span>関連する学び</h3><p class="connection-help">考え方や技能がつながる内容</p><div id="related-list" class="connection-list"></div></section>
 </div><section class="cross-subject-panel" id="cross-subject-panel" hidden><div class="cross-subject-heading"><h3>他教科とのつながり</h3><p>今の学びが、別の教科の学習とどう結び付くかを見てみよう。</p></div><div id="cross-subject-list" class="connection-list cross-subject-list"></div></section><p class="relation-caveat">つながりは、学びを考えるための候補です。必ずこの順番で学ぶという意味ではありません。</p>
