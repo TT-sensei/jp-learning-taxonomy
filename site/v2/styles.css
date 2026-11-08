@@ -95,3 +95,35 @@
 .support-lead:first-child{margin-top:0}
 .support-targets{display:grid;gap:8px}
 .support-steps{margin:0;padding-left:22px;display:grid;gap:4px;font-size:15px}
+
+/* V2 refinement: clearer pathways, grade placement and detail hierarchy */
+#dataset-status.is-warning{color:#9b6427;font-weight:700}
+.grade-placement-mini{display:block;margin-top:5px;color:#8a7658!important;font-size:11px!important;line-height:1.45}
+.topic-card-copy{display:block;min-width:0;flex:1}
+.detail-grade-note{margin:-10px 0 18px;color:#8a7658;font-size:12px;line-height:1.6}
+.goal-panel{border-left:4px solid #7ca6ce;background:#f4f8fc}
+.support-panel{margin-top:16px}
+.pathway-subject-group{min-width:0;border:1px solid #e8e1d5;border-radius:15px;background:#fff;overflow:hidden}
+.pathway-subject-summary{list-style:none;display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:58px;padding:14px 16px;cursor:pointer;color:#31465c;background:#fffdf9}
+.pathway-subject-summary::-webkit-details-marker{display:none}
+.pathway-subject-summary::after{content:"＋";flex:none;color:#6684a3;font-size:18px;font-weight:500}
+.pathway-subject-group[open]>.pathway-subject-summary::after{content:"−"}
+.pathway-subject-group[open]>.pathway-subject-summary{background:#f7f9fb;border-bottom:1px solid #ece6dc}
+.pathway-subject-summary:focus-visible{outline:3px solid #b7d3ef;outline-offset:-3px}
+.pathway-subject-title{font-size:15px}
+.pathway-subject-count{margin-left:auto;color:#7b8a99;font-size:12px;white-space:nowrap}
+.pathway-subject-content{grid-template-columns:1fr;padding:12px}
+.pathway-subject-content .pathway-card{background:#fffefa}
+.pathway-subject-content .pathway-card h3{font-size:14px}
+.pathway-subject-content .pathway-summary{margin-bottom:10px}
+.pathway-topic{min-height:38px}
+.topic-card:focus-visible,.grade-chip:focus-visible,.subject-card:focus-visible,.quiet-button:focus-visible,.connection-item:focus-visible,.support-case-head:focus-visible{outline:3px solid #b7d3ef;outline-offset:2px}
+@media(max-width:760px){
+.pathway-subject-summary{min-height:54px;padding:12px 14px}
+.pathway-subject-title{font-size:14px}
+.grade-placement-mini{font-size:10px!important}
+.detail-grade-note{font-size:11px}
+}
+@media(prefers-reduced-motion:reduce){
+html:focus-within{scroll-behavior:auto}
+}
