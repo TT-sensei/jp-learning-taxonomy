@@ -607,28 +607,14 @@
     {
       "topicId": "jp.elem.japanese.manuscript-paper-and-layout",
       "officialCodes": [],
-      "matchStatus": "candidate",
-      "matchType": "parent-section-candidate",
-      "note": "82V12公式CSVでコードの存在、教科・学年帯との整合を確認済み。学習項目と個別の公式記述との意味的な対応は未確定のため、候補として保持する。元の候補：82102A3130000000.",
-      "candidateCode": "82102A3130000000",
+      "matchStatus": "not-checked",
+      "matchType": "not-yet-reviewed",
+      "note": "書く活動を支える言語活動・補助技能、または他領域と関連する項目。小学校学習指導要領「B 書くこと」の独立した指導事項ではないため、公式コードは割り当てない。",
+      "candidateCode": null,
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
-      "candidateCodes": [
-        "82102A3130000000"
-      ],
-      "relatedParentCodes": [
-        "82102A3130000000"
-      ],
-      "officialAudit": {
-        "officialVersion": "82V12",
-        "checkedAt": "2026-10-21",
-        "codeExistence": "confirmed",
-        "subjectGradeCheck": "passed",
-        "semanticStatus": "needs-semantic-review",
-        "relatedParentCodes": [
-          "82102A3130000000"
-        ]
-      }
+      "candidateCodes": [],
+      "relatedParentCodes": []
     },
     {
       "topicId": "jp.elem.japanese.media-and-multimodal-information",
@@ -755,31 +741,14 @@
     {
       "topicId": "jp.elem.japanese.plan-research-and-report",
       "officialCodes": [],
-      "matchStatus": "candidate",
-      "matchType": "parent-section-candidate",
-      "note": "82V12公式CSVでコードの存在、教科・学年帯との整合を確認済み。学習項目と個別の公式記述との意味的な対応は未確定のため、候補として保持する。元の候補：82102C3220000000, 82102D3220000000.",
-      "candidateCode": "82102C3220000000",
+      "matchStatus": "not-checked",
+      "matchType": "not-yet-reviewed",
+      "note": "書く活動を支える言語活動・補助技能、または他領域と関連する項目。小学校学習指導要領「B 書くこと」の独立した指導事項ではないため、公式コードは割り当てない。",
+      "candidateCode": null,
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
-      "candidateCodes": [
-        "82102C3220000000",
-        "82102D3220000000"
-      ],
-      "relatedParentCodes": [
-        "82102C3220000000",
-        "82102D3220000000"
-      ],
-      "officialAudit": {
-        "officialVersion": "82V12",
-        "checkedAt": "2026-10-21",
-        "codeExistence": "confirmed",
-        "subjectGradeCheck": "passed",
-        "semanticStatus": "needs-semantic-review",
-        "relatedParentCodes": [
-          "82102C3220000000",
-          "82102D3220000000"
-        ]
-      }
+      "candidateCodes": [],
+      "relatedParentCodes": []
     },
     {
       "topicId": "jp.elem.japanese.poetry-and-rhythm",
@@ -1442,31 +1411,14 @@
     {
       "topicId": "jp.elem.japanese.summarize-and-paraphrase",
       "officialCodes": [],
-      "matchStatus": "candidate",
-      "matchType": "parent-section-candidate",
-      "note": "82V12公式CSVでコードの存在、教科・学年帯との整合を確認済み。学習項目と個別の公式記述との意味的な対応は未確定のため、候補として保持する。元の候補：82102C3220000000, 82102D3220000000.",
-      "candidateCode": "82102C3220000000",
+      "matchStatus": "not-checked",
+      "matchType": "not-yet-reviewed",
+      "note": "書く活動を支える言語活動・補助技能、または他領域と関連する項目。小学校学習指導要領「B 書くこと」の独立した指導事項ではないため、公式コードは割り当てない。",
+      "candidateCode": null,
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
-      "candidateCodes": [
-        "82102C3220000000",
-        "82102D3220000000"
-      ],
-      "relatedParentCodes": [
-        "82102C3220000000",
-        "82102D3220000000"
-      ],
-      "officialAudit": {
-        "officialVersion": "82V12",
-        "checkedAt": "2026-10-21",
-        "codeExistence": "confirmed",
-        "subjectGradeCheck": "passed",
-        "semanticStatus": "needs-semantic-review",
-        "relatedParentCodes": [
-          "82102C3220000000",
-          "82102D3220000000"
-        ]
-      }
+      "candidateCodes": [],
+      "relatedParentCodes": []
     },
     {
       "topicId": "jp.elem.japanese.summarize-others-viewpoints",
@@ -1567,31 +1519,14 @@
     {
       "topicId": "jp.elem.japanese.use-quotes-and-sources-in-writing",
       "officialCodes": [],
-      "matchStatus": "candidate",
-      "matchType": "parent-section-candidate",
-      "note": "82V12公式CSVでコードの存在、教科・学年帯との整合を確認済み。学習項目と個別の公式記述との意味的な対応は未確定のため、候補として保持する。元の候補：82102C3220000000, 82102D3220000000.",
-      "candidateCode": "82102C3220000000",
+      "matchStatus": "not-checked",
+      "matchType": "not-yet-reviewed",
+      "note": "書く活動を支える言語活動・補助技能、または他領域と関連する項目。小学校学習指導要領「B 書くこと」の独立した指導事項ではないため、公式コードは割り当てない。",
+      "candidateCode": null,
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
-      "candidateCodes": [
-        "82102C3220000000",
-        "82102D3220000000"
-      ],
-      "relatedParentCodes": [
-        "82102C3220000000",
-        "82102D3220000000"
-      ],
-      "officialAudit": {
-        "officialVersion": "82V12",
-        "checkedAt": "2026-10-21",
-        "codeExistence": "confirmed",
-        "subjectGradeCheck": "passed",
-        "semanticStatus": "needs-semantic-review",
-        "relatedParentCodes": [
-          "82102C3220000000",
-          "82102D3220000000"
-        ]
-      }
+      "candidateCodes": [],
+      "relatedParentCodes": []
     },
     {
       "topicId": "jp.elem.japanese.vocabulary-expansion",
@@ -1658,109 +1593,50 @@
     {
       "topicId": "jp.elem.japanese.write-experiences-and-observations",
       "officialCodes": [],
-      "matchStatus": "candidate",
-      "matchType": "parent-section-candidate",
-      "note": "82V12公式CSVでコードの存在、教科・学年帯との整合を確認済み。学習項目と個別の公式記述との意味的な対応は未確定のため、候補として保持する。元の候補：82102A3220000000.",
-      "candidateCode": "82102A3220000000",
+      "matchStatus": "not-checked",
+      "matchType": "not-yet-reviewed",
+      "note": "書く活動を支える言語活動・補助技能、または他領域と関連する項目。小学校学習指導要領「B 書くこと」の独立した指導事項ではないため、公式コードは割り当てない。",
+      "candidateCode": null,
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
-      "candidateCodes": [
-        "82102A3220000000"
-      ],
-      "relatedParentCodes": [
-        "82102A3220000000"
-      ],
-      "officialAudit": {
-        "officialVersion": "82V12",
-        "checkedAt": "2026-10-21",
-        "codeExistence": "confirmed",
-        "subjectGradeCheck": "passed",
-        "semanticStatus": "needs-semantic-review",
-        "relatedParentCodes": [
-          "82102A3220000000"
-        ]
-      }
+      "candidateCodes": [],
+      "relatedParentCodes": []
     },
     {
       "topicId": "jp.elem.japanese.write-for-purpose",
       "officialCodes": [],
-      "matchStatus": "candidate",
-      "matchType": "parent-section-candidate",
-      "note": "82V12公式CSVでコードの存在、教科・学年帯との整合を確認済み。学習項目と個別の公式記述との意味的な対応は未確定のため、候補として保持する。元の候補：82102A3220000000.",
-      "candidateCode": "82102A3220000000",
+      "matchStatus": "not-checked",
+      "matchType": "not-yet-reviewed",
+      "note": "書く活動を支える言語活動・補助技能、または他領域と関連する項目。小学校学習指導要領「B 書くこと」の独立した指導事項ではないため、公式コードは割り当てない。",
+      "candidateCode": null,
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
-      "candidateCodes": [
-        "82102A3220000000"
-      ],
-      "relatedParentCodes": [
-        "82102A3220000000"
-      ],
-      "officialAudit": {
-        "officialVersion": "82V12",
-        "checkedAt": "2026-10-21",
-        "codeExistence": "confirmed",
-        "subjectGradeCheck": "passed",
-        "semanticStatus": "needs-semantic-review",
-        "relatedParentCodes": [
-          "82102A3220000000"
-        ]
-      }
+      "candidateCodes": [],
+      "relatedParentCodes": []
     },
     {
       "topicId": "jp.elem.japanese.write-letters-and-messages",
       "officialCodes": [],
-      "matchStatus": "candidate",
-      "matchType": "parent-section-candidate",
-      "note": "82V12公式CSVでコードの存在、教科・学年帯との整合を確認済み。学習項目と個別の公式記述との意味的な対応は未確定のため、候補として保持する。元の候補：82102A3220000000.",
-      "candidateCode": "82102A3220000000",
+      "matchStatus": "not-checked",
+      "matchType": "not-yet-reviewed",
+      "note": "書く活動を支える言語活動・補助技能、または他領域と関連する項目。小学校学習指導要領「B 書くこと」の独立した指導事項ではないため、公式コードは割り当てない。",
+      "candidateCode": null,
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
-      "candidateCodes": [
-        "82102A3220000000"
-      ],
-      "relatedParentCodes": [
-        "82102A3220000000"
-      ],
-      "officialAudit": {
-        "officialVersion": "82V12",
-        "checkedAt": "2026-10-21",
-        "codeExistence": "confirmed",
-        "subjectGradeCheck": "passed",
-        "semanticStatus": "needs-semantic-review",
-        "relatedParentCodes": [
-          "82102A3220000000"
-        ]
-      }
+      "candidateCodes": [],
+      "relatedParentCodes": []
     },
     {
       "topicId": "jp.elem.japanese.write-opinion-and-argument",
       "officialCodes": [],
-      "matchStatus": "candidate",
-      "matchType": "parent-section-candidate",
-      "note": "82V12公式CSVでコードの存在、教科・学年帯との整合を確認済み。学習項目と個別の公式記述との意味的な対応は未確定のため、候補として保持する。元の候補：82102C3220000000, 82102D3220000000.",
-      "candidateCode": "82102C3220000000",
+      "matchStatus": "not-checked",
+      "matchType": "not-yet-reviewed",
+      "note": "書く活動を支える言語活動・補助技能、または他領域と関連する項目。小学校学習指導要領「B 書くこと」の独立した指導事項ではないため、公式コードは割り当てない。",
+      "candidateCode": null,
       "verifiedCode": null,
       "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
-      "candidateCodes": [
-        "82102C3220000000",
-        "82102D3220000000"
-      ],
-      "relatedParentCodes": [
-        "82102C3220000000",
-        "82102D3220000000"
-      ],
-      "officialAudit": {
-        "officialVersion": "82V12",
-        "checkedAt": "2026-10-21",
-        "codeExistence": "confirmed",
-        "subjectGradeCheck": "passed",
-        "semanticStatus": "needs-semantic-review",
-        "relatedParentCodes": [
-          "82102C3220000000",
-          "82102D3220000000"
-        ]
-      }
+      "candidateCodes": [],
+      "relatedParentCodes": []
     },
     {
       "topicId": "jp.elem.math.addition-meaning",
