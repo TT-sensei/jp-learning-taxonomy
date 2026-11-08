@@ -368,6 +368,16 @@
       "versionNote": "年間指導計画例、内容項目別・時系列の全体計画例を参照する。",
       "reuseNote": "公開された学習内容のまとまり・系統を複数資料で比較し独自に要約する。出版社の本文、図版、題材、楽曲、ワークシートは転載しない。",
       "reviewStatus": "needs-review"
+    },
+    {
+      "id": "mext-romanization-update-2026",
+      "title": "「ローマ字のつづり方」改定に伴う小学校学習指導要領解説の更新案内",
+      "publisher": "文部科学省",
+      "url": "https://www.mext.go.jp/magazine/backnumber/1422844_00193.htm",
+      "sourceType": "official-reference",
+      "versionNote": "令和7年12月の内閣告示改定を受け、小学校学習指導要領解説（国語編・外国語活動・外国語編）が一部更新されたことを案内する文部科学省資料。令和8年7月24日配信。",
+      "reuseNote": "改定・更新の事実と参照先の確認に使用。記事本文・図表の転載は行わない。",
+      "reviewStatus": "needs-review"
     }
   ],
   "standards": [
