@@ -127,3 +127,17 @@
 @media(prefers-reduced-motion:reduce){
 html:focus-within{scroll-behavior:auto}
 }
+
+/* Grade-band progression: show the intended development, not a misleading 1-6 badge */
+.grade-progression{margin:14px 0 20px;padding:16px;border:1px solid #e6e2d9;border-radius:15px;background:#fffefa}
+.grade-progression>h3{margin:0 0 11px;font-size:14px;color:#425970}
+.grade-progression-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px}
+.grade-progression-step{min-width:0;padding:12px;border:1px solid #e9e4da;border-radius:12px;background:#fff}
+.grade-progression-label{display:block;font-size:13px;font-weight:700;color:#3f607d}
+.grade-progression-year{display:block;margin-top:2px;color:#8794a2;font-size:11px}
+.grade-progression-description{margin:7px 0 0;font-size:12px;line-height:1.65;color:#586b7d}
+@media(max-width:760px){
+.grade-progression{padding:13px}
+.grade-progression-list{grid-template-columns:1fr}
+.grade-progression-step{padding:11px 12px}
+}
