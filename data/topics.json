@@ -16453,6 +16453,41 @@
         "活動の過程や成果を振り返り、集団や自分の成長に気付くことができる",
         "次の活動の改善や、新たな目標につなげることができる"
       ]
+    },
+    {
+      "id": "jp.elem.japanese.romaji-reading-and-writing",
+      "subject": "国語",
+      "domain": "言葉の特徴や使い方に関する事項",
+      "cluster": "音・文字・語彙",
+      "name": "ローマ字で読み書きする",
+      "description": "日常生活で見かける簡単な語句や地名・人名などを、ローマ字で読んだり書いたりする。第3学年で扱う文字に関する学習として位置付け、つづり方は現行の内閣告示と文部科学省の更新された解説を踏まえる。",
+      "grades": [
+        3
+      ],
+      "topicType": "concept",
+      "evidence": [
+        {
+          "sourceId": "mext-elementary-japanese-guideline-2017",
+          "note": "第3学年で日常使われている簡単な単語をローマ字で読み書きする内容を確認。令和7年12月の「ローマ字のつづり方」改定を受けた文部科学省の解説更新も参照。具体的なつづり方の指導は現行告示に合わせる。"
+        }
+      ],
+      "curriculumStandards": [],
+      "prerequisiteIds": [],
+      "resourceIds": [],
+      "reviewStatus": "needs-review",
+      "gradePlacement": {
+        "status": "needs-review",
+        "candidateFirstIntroductionGrade": 3,
+        "candidateContinuingGrades": [],
+        "basis": "mext-japanese-grade-3-romaji-2026-11-08",
+        "note": "文部科学省「小学校学習指導要領解説 国語編」は、第3学年で日常使われている簡単な単語のローマ字読み書きを扱うとしている。学年は公式記述に基づくが、項目全体の教員レビューは未完了。"
+      },
+      "studentName": "ローマ字で読み書きしよう",
+      "studentDescription": "身近な言葉や地名、人の名前などを、ローマ字で読んだり書いたりしよう。",
+      "learningGoals": [
+        "身近な簡単な語句や地名・人名などをローマ字で読むことができる",
+        "身近な簡単な語句や地名・人名などをローマ字で書くことができる"
+      ]
     }
   ]
 }
