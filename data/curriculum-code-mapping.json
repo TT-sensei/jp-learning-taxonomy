@@ -8552,6 +8552,34 @@
         "semanticStatus": "not-checked",
         "relatedParentCodes": []
       }
+    },
+    {
+      "topicId": "jp.elem.japanese.spoken-and-written-language",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-yet-reviewed",
+      "note": "新規追加項目。公式コードの存在・教科・学年帯および個別の公式記述との意味的対応は未照合。コードを推測して登録しない。"
+    },
+    {
+      "topicId": "jp.elem.japanese.language-change-and-generations",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-yet-reviewed",
+      "note": "新規追加項目。公式コードの存在・教科・学年帯および個別の公式記述との意味的対応は未照合。コードを推測して登録しない。"
+    },
+    {
+      "topicId": "jp.elem.japanese.figurative-and-repetitive-expression",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-yet-reviewed",
+      "note": "新規追加項目。公式コードの存在・教科・学年帯および個別の公式記述との意味的対応は未照合。コードを推測して登録しない。"
+    },
+    {
+      "topicId": "jp.elem.japanese.language-functions",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "not-yet-reviewed",
+      "note": "新規追加項目。公式コードの存在・教科・学年帯および個別の公式記述との意味的対応は未照合。コードを推測して登録しない。"
     }
   ]
 }
