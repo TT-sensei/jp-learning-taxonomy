@@ -392,13 +392,14 @@
       "summary": "文字・表記・語彙・文の組み立てを行き来しながら、場面や目的に合う言葉を選ぶ力を育てる。",
       "stages": [
         {
-          "label": "音・文字・書く基本",
-          "grades": "1〜2年ごろ",
+          "label": "音・文字・表記の基本",
+          "grades": "1〜3年ごろ",
           "topicIds": [
             "jp.elem.japanese.sounds-and-characters",
             "jp.elem.japanese.hiragana-kanji-katakana",
             "jp.elem.japanese.handwriting",
-            "jp.elem.japanese.punctuation-and-notation"
+            "jp.elem.japanese.punctuation-and-notation",
+            "jp.elem.japanese.romaji-reading-and-writing"
           ]
         },
         {
