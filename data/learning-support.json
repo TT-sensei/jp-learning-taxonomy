@@ -251,6 +251,268 @@
       "evidenceType": "editorial",
       "reviewStatus": "needs-review",
       "evidence": []
+    },
+    {
+      "id": "math-support-010",
+      "topicId": "jp.elem.math.division-algorithm",
+      "difficulty": "筆算で商を立てる位置が分からない",
+      "description": "商をどの位から立てるかが分からず、0を立てるべき位を飛ばしてしまう。除法の仕組みと位取りが結びついていない。",
+      "signs": [
+        "96÷4 を 24 ではなく 204 のように書く",
+        "商に0が入る問題で位がずれる"
+      ],
+      "reviewTargets": [
+        {
+          "topicId": "jp.elem.math.division-meaning",
+          "reason": "わり算が何を求める計算かを取り戻す"
+        },
+        {
+          "topicId": "jp.elem.math.multiplication-tables",
+          "reason": "商の見当をつける九九の力を確認する"
+        }
+      ],
+      "supportSteps": [
+        "何の位まで割れるかを先に言う",
+        "商の見当を九九でつける",
+        "商×わる数＋あまりで確かめる"
+      ],
+      "studentPrompt": "わり算の筆算で、商をどこから書くかわからなくなるとき",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "evidence": []
+    },
+    {
+      "id": "math-support-011",
+      "topicId": "jp.elem.math.division-remainders",
+      "difficulty": "あまりをどう扱うか判断できない",
+      "description": "計算はできるが、場面に応じてあまりを切り上げるか切り捨てるかの判断ができない。",
+      "signs": [
+        "『17人を4人ずつ分けると何グループできるか』であまった1人を入れてしまう、または逆に必要な場面で切り捨てる",
+        "答えに『あまり』と書いて終わりにする"
+      ],
+      "reviewTargets": [
+        {
+          "topicId": "jp.elem.math.division-meaning",
+          "reason": "等分除・包含除の場面の意味を取り戻す"
+        }
+      ],
+      "supportSteps": [
+        "場面を図に表して、あまった分がどうなるか考える",
+        "答えが増える場面か、切り捨てる場面かを言葉で言う",
+        "場面に戻って答えの確かめをする"
+      ],
+      "studentPrompt": "あまりのあるわり算で、あまった数をどうするか迷うとき",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "evidence": []
+    },
+    {
+      "id": "math-support-012",
+      "topicId": "jp.elem.math.decimal-add-subtract",
+      "difficulty": "小数を末尾でそろえて計算してしまう",
+      "description": "0.5＋1.25 を、位をそろえず右端をそろえて計算してしまう。整数の筆算の習慣が先行し、位取りの理解が弱い。",
+      "signs": [
+        "0.5＋1.25 の答えを 1.30 とする",
+        "小数点の位置をそろえずに筆算を書く"
+      ],
+      "reviewTargets": [
+        {
+          "topicId": "jp.elem.math.decimal-place-value",
+          "reason": "位ごとの大きさと小数点の役割を確認する"
+        },
+        {
+          "topicId": "jp.elem.math.decimals-tenths",
+          "reason": "0.1のいくつ分という小数の意味を取り戻す"
+        }
+      ],
+      "supportSteps": [
+        "小数点をそろえて筆算を書く",
+        "0.1のいくつ分に直して考える",
+        "答えの見当（0.5＋1.25 は約1.8）と比べる"
+      ],
+      "studentPrompt": "小数のたし算・ひき算で、位をそろえる場所がわからなくなるとき",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "evidence": []
+    },
+    {
+      "id": "math-support-013",
+      "topicId": "jp.elem.math.regular-polygons-circumference",
+      "difficulty": "直径と半径を取り違える",
+      "description": "円周を求める場面で、半径をそのまま直径として使ってしまう。円の中心・半径・直径の関係が定着していない。",
+      "signs": [
+        "半径5cmの円周を 5×3.14 と計算する",
+        "図で直径と半径を指し示せない"
+      ],
+      "reviewTargets": [
+        {
+          "topicId": "jp.elem.math.triangles-circles-spheres",
+          "reason": "円の中心・半径・直径の関係を取り戻す"
+        }
+      ],
+      "supportSteps": [
+        "図に中心と半径・直径をかき入れる",
+        "直径は半径の2倍であることを確認する",
+        "円周の公式に当てはめる前に、直径の長さを言葉で言う"
+      ],
+      "studentPrompt": "円の問題で、半径と直径のどちらを使うか迷うとき",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "evidence": []
+    },
+    {
+      "id": "math-support-014",
+      "topicId": "jp.elem.math.volume-cuboid",
+      "difficulty": "体積と表面の広さを混同する",
+      "description": "体積を求める場面で、面の面積を合計したり、辺の長さをすべて足したりしてしまう。体積は単位立方体のいくつ分かという理解が弱い。",
+      "signs": [
+        "直方体の体積を、6つの面の面積の合計で答える",
+        "答えの単位を平方センチメートルにする"
+      ],
+      "reviewTargets": [
+        {
+          "topicId": "jp.elem.math.volume-units",
+          "reason": "体積の単位と、単位立方体の見方を確認する"
+        },
+        {
+          "topicId": "jp.elem.math.area-rectangle-square",
+          "reason": "面積との違いを、単位正方形と単位立方体で比べる"
+        }
+      ],
+      "supportSteps": [
+        "1㎤の立方体を何個並べるかを図で考える",
+        "たて×横の段が何段あるかで数える",
+        "単位が㎤になっているか確かめる"
+      ],
+      "studentPrompt": "体積の問題で、どの長さをかけるのか迷うとき",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "evidence": []
+    },
+    {
+      "id": "math-support-015",
+      "topicId": "jp.elem.math.speed",
+      "difficulty": "速さの公式に当てはめる向きを間違える",
+      "description": "道のり÷時間とすべきところを逆にしたり、時間の単位（分と時）がそろっていないまま計算したりする。",
+      "signs": [
+        "速さを求めるのに 時間÷道のり をしてしまう",
+        "『40分で6km』をそのまま 6÷40 として単位をそろえない"
+      ],
+      "reviewTargets": [
+        {
+          "topicId": "jp.elem.math.unit-quantity",
+          "reason": "1あたりの量で考える土台を取り戻す"
+        }
+      ],
+      "supportSteps": [
+        "1時間あたり・1分あたりのどちらで表すかを決める",
+        "数直線に道のりと時間を置いて関係を見る",
+        "答えの単位（km/時 など）で確かめる"
+      ],
+      "studentPrompt": "速さの問題で、どちらをどちらでわるのか迷うとき",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "evidence": []
+    },
+    {
+      "id": "math-support-016",
+      "topicId": "jp.elem.math.average",
+      "difficulty": "平均の求め方で、合計や個数を取り違える",
+      "description": "合計を個数でわる関係が曖昧で、0のデータがある場面で個数に入れ忘れるなどの誤りが出る。",
+      "signs": [
+        "0点のデータがあるのに、個数から除いて平均を求める",
+        "合計ではなくデータの一部だけを合計する"
+      ],
+      "reviewTargets": [
+        {
+          "topicId": "jp.elem.math.division-algorithm",
+          "reason": "合計÷個数の計算の土台を確認する"
+        }
+      ],
+      "supportSteps": [
+        "データをすべて並べて、合計と個数を数える",
+        "『均す』イメージを図で確認する",
+        "平均が最大値と最小値の間にあるか確かめる"
+      ],
+      "studentPrompt": "平均の求め方で、合計や個数をどうするか迷うとき",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "evidence": []
+    },
+    {
+      "id": "math-support-017",
+      "topicId": "jp.elem.math.enlargement-reduction",
+      "difficulty": "拡大・縮小で角も変わると思ってしまう",
+      "description": "辺の長さが倍になると、角の大きさも倍になると考えてしまう。対応する角は等しいことへの理解が弱い。",
+      "signs": [
+        "2倍の拡大図で、角も2倍の大きさにかいてしまう",
+        "対応する辺を取り違えて長さを決める"
+      ],
+      "reviewTargets": [
+        {
+          "topicId": "jp.elem.math.congruent-figures",
+          "reason": "合同（倍率1）とのつながりで、対応の考えを取り戻す"
+        }
+      ],
+      "supportSteps": [
+        "もとの図形と拡大図を重ねて、角の大きさを比べる",
+        "対応する頂点に印をつけてから辺の長さを決める",
+        "角はそのまま、辺だけが倍になることを言葉で言う"
+      ],
+      "studentPrompt": "拡大図・縮図で、角や辺がどう変わるか迷うとき",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "evidence": []
+    },
+    {
+      "id": "math-support-018",
+      "topicId": "jp.elem.math.rounding-estimation",
+      "difficulty": "四捨五入する位を取り違える",
+      "description": "『千の位まで』『上から2桁』などの指定で、どの位を四捨五入するかを取り違える。",
+      "signs": [
+        "千の位までの概数で、百の位ではなく十の位を四捨五入する",
+        "四捨五入したあとの位の数がずれる"
+      ],
+      "reviewTargets": [
+        {
+          "topicId": "jp.elem.math.numbers-and-place-value",
+          "reason": "位の並びと相対的な大きさを取り戻す"
+        }
+      ],
+      "supportSteps": [
+        "残したい位に印をつける",
+        "四捨五入するのは、その1つ下の位だと言葉で言う",
+        "概数にしたあと、もとの数と大きさを比べる"
+      ],
+      "studentPrompt": "がい数で、どこの位を四捨五入するか迷うとき",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "evidence": []
+    },
+    {
+      "id": "math-support-019",
+      "topicId": "jp.elem.math.angle-measurement",
+      "difficulty": "分度器の目盛りを読み間違える",
+      "description": "分度器の内側と外側の目盛りのうち、反対側を読んでしまう。0の合わせ方と角の開きの向きが結びついていない。",
+      "signs": [
+        "60°の角を120°と読む",
+        "鋭角を鈍角として読むなど、見た目の大きさと合わない"
+      ],
+      "reviewTargets": [
+        {
+          "topicId": "jp.elem.math.angles",
+          "reason": "角の大きさの感覚（鋭角・鈍角）を取り戻す"
+        }
+      ],
+      "supportSteps": [
+        "測る前に、鋭角か鈍角かを見当づける",
+        "0の線を合わせた側の目盛りを読む",
+        "見当と読み取った大きさを比べる"
+      ],
+      "studentPrompt": "分度器で、どちらの目盛りを読むか迷うとき",
+      "evidenceType": "editorial",
+      "reviewStatus": "needs-review",
+      "evidence": []
     }
   ]
 }
