@@ -115,6 +115,7 @@ for (const model of representationModels) {
   if (typeof model.studentName !== "string" || !model.studentName.trim() || typeof model.studentPurpose !== "string" || !model.studentPurpose.trim()) errors.push(`${model.id}: 子ども向け表示 studentName / studentPurpose が不足しています。`);
   for (const topicId of model.topicIds ?? []) {
     if (!topicById.has(topicId)) errors.push(`${model.id}: 未登録の topic ID ${topicId}`);
+    else if (topicById.get(topicId).topicLifecycle === "superseded") errors.push(`${model.id}: 置換済みの topic ID ${topicId} を参照しています。replacementTopicIds の後継項目に付け替えてください。`);
   }
 }
 
