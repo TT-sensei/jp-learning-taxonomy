@@ -408,7 +408,6 @@
           "topicIds": [
             "jp.elem.japanese.kanji-meaning-and-usage",
             "jp.elem.japanese.word-meaning",
-            "jp.elem.japanese.dictionaries-and-reference",
             "jp.elem.japanese.word-relationships",
             "jp.elem.japanese.sentence-types-and-punctuation",
             "jp.elem.japanese.sentence-structure",
@@ -579,7 +578,11 @@
             "jp.elem.japanese.compare-and-classify-information",
             "jp.elem.japanese.cause-and-effect",
             "jp.elem.japanese.facts-opinions-and-interpretations",
-            "jp.elem.japanese.diagrams-and-tables"
+            "jp.elem.japanese.diagrams-and-tables",
+            "jp.elem.japanese.information-relations-common-difference-order",
+            "jp.elem.japanese.ideas-reasons-examples-whole-center",
+            "jp.elem.japanese.recording-key-information",
+            "jp.elem.japanese.linking-information-and-diagrams"
           ]
         },
         {
@@ -590,7 +593,8 @@
             "jp.elem.japanese.media-and-multimodal-information",
             "jp.elem.japanese.read-facts-and-opinions",
             "jp.elem.japanese.compare-texts",
-            "jp.elem.japanese.use-quotes-and-sources-in-writing"
+            "jp.elem.japanese.use-quotes-and-sources-in-writing",
+            "jp.elem.japanese.facts-opinions-and-interpretations"
           ]
         }
       ]
