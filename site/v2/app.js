@@ -5,8 +5,8 @@ const state={grade:"all",subject:"all",query:"",topics:[],relations:[],pathways:
 const $=id=>document.getElementById(id);
 const activeTopics=()=>state.topics.filter(t=>t.topicLifecycle!=="superseded");
 const gradesFor=t=>{const p=t.gradePlacement||{};return [...new Set([p.candidateFirstIntroductionGrade,...(p.candidateContinuingGrades||[]),...(t.grades||[])].filter(n=>Number.isInteger(n)&&n>=1&&n<=6))].sort((a,b)=>a-b)};
-const gradeLabel=t=>{const p=t.gradePlacement||{};if(p.candidateFirstIntroductionGrade)return p.candidateFirstIntroductionGrade+"年ごろ";const gs=gradesFor(t);return gs.length?gs.join("・")+"年":"学年未整理"};
-const gradeRangeLabel=t=>{const gs=gradesFor(t);if(!gs.length)return"学年未整理";if(gs.length===1)return gs[0]+"年ごろ";return gs[0]+"〜"+gs[gs.length-1]+"年"};
+const gradeLabel=t=>{if(Array.isArray(t.gradeBandProgression)&&t.gradeBandProgression.length)return [...new Set(t.gradeBandProgression.map(x=>x.label).filter(Boolean))].join("・");const p=t.gradePlacement||{};if(p.candidateFirstIntroductionGrade)return p.candidateFirstIntroductionGrade+"年ごろ";const gs=gradesFor(t);return gs.length?gs.join("・")+"年":"学年未整理"};
+const gradeRangeLabel=t=>{if(Array.isArray(t.gradeBandProgression)&&t.gradeBandProgression.length)return [...new Set(t.gradeBandProgression.map(x=>x.label).filter(Boolean))].join("・");const gs=gradesFor(t);if(!gs.length)return"学年未整理";if(gs.length===1)return gs[0]+"年ごろ";return gs[0]+"〜"+gs[gs.length-1]+"年"};
 function compactGradeList(values){
 const nums=[...new Set((values||[]).filter(n=>Number.isInteger(n)&&n>=1&&n<=6))].sort((a,b)=>a-b);
 if(!nums.length)return"";
@@ -16,6 +16,10 @@ ranges.push(start===end?String(start):start+"〜"+end);
 return ranges.join("・")+"年";
 }
 function gradePlacementSummary(t){
+if(Array.isArray(t.gradeBandProgression)&&t.gradeBandProgression.length){
+const labels=[...new Set(t.gradeBandProgression.map(x=>x.label).filter(Boolean))];
+return "発展の目安 "+labels.join(" → ");
+}
 const p=t.gradePlacement||{},first=p.candidateFirstIntroductionGrade;
 const continuing=compactGradeList(p.candidateContinuingGrades||[]);
 if(Number.isInteger(first))return "初出候補 "+first+"年"+(continuing?" ／ 継続候補 "+continuing:"");
@@ -107,7 +111,19 @@ const incoming=state.relations.filter(r=>r.to===id&&["prerequisite","recommended
 const outgoing=state.relations.filter(r=>r.from===id&&["prerequisite","recommended-prerequisite","extension","application"].includes(r.type));
 const related=state.relations.filter(r=>(r.from===id||r.to===id)&&["related-learning","recurring-development"].includes(r.type)&&map.get(r.from===id?r.to:r.from)?.subject===t.subject);
 const crossSubject=state.relations.filter(r=>(r.from===id||r.to===id)&&map.get(r.from===id?r.to:r.from)&&map.get(r.from===id?r.to:r.from).subject!==t.subject);
-$("detail-meta").textContent=[t.subject,gradeLabel(t),t.domain].filter(Boolean).join(" ・ ");$("detail-title").textContent=t.studentName||t.name;$("detail-description").textContent=t.studentDescription||t.description||"説明は準備中です。";$("detail-grade-note").textContent=gradePlacementSummary(t)+"。学年や継続時期は、学びを見渡すための検討中の目安です。";
+$("detail-meta").textContent=[t.subject,gradeLabel(t),t.domain].filter(Boolean).join(" ・ ");$("detail-title").textContent=t.studentName||t.name;$("detail-description").textContent=t.studentDescription||t.description||"説明は準備中です。";
+const hasBandProgression=Array.isArray(t.gradeBandProgression)&&t.gradeBandProgression.length>0;
+$("detail-grade-note").textContent=hasBandProgression?"学年ごとの一律配当ではなく、学年段階に応じた学びの深まりを示しています。題材や学校の計画によって扱いは異なります。":"初出・継続学年は学びを見渡すための候補です。公式の一律配当や、必ずこの順番で学ぶことを示すものではありません。";
+const progressionPanel=$("grade-progression"),progressionList=$("grade-progression-list");
+progressionList.replaceChildren();
+const progression=hasBandProgression?t.gradeBandProgression:[];
+progressionPanel.hidden=progression.length===0;
+progression.forEach(stage=>{
+const card=make("article","grade-progression-step");
+const yearLabel=String(stage.gradeBand||"").replace("-","〜")+"年";
+card.append(make("span","grade-progression-label",stage.label||yearLabel),make("small","grade-progression-year",yearLabel),make("p","grade-progression-description",stage.description||""));
+progressionList.append(card);
+});
 const goals=Array.isArray(t.learningGoals)?t.learningGoals:[];$("goal-panel").hidden=goals.length===0;$("goal-list").replaceChildren(...goals.map(g=>make("li","",g)));
 const cases=state.supportCases.filter(c=>c.topicId===id);$("support-panel").hidden=cases.length===0;const supportList=$("support-list");supportList.replaceChildren();cases.forEach(c=>{const card=make("article","support-case");const head=make("button","support-case-head",c.studentPrompt||c.difficulty);head.type="button";head.setAttribute("aria-expanded","false");const body=make("div","support-case-body");body.hidden=true;head.addEventListener("click",()=>{body.hidden=!body.hidden;head.setAttribute("aria-expanded",String(!body.hidden))});body.append(make("p","support-lead","戻るとよい学び"));const tg=make("div","support-targets");(c.reviewTargets||[]).forEach(rt=>{const tt=map.get(rt.topicId);if(!tt)return;const b=make("button","connection-item");b.type="button";b.append(make("strong","",tt.studentName||tt.name),make("small","",gradeRangeLabel(tt)));if(rt.reason)b.append(make("span","cross-subject-reason",rt.reason));b.addEventListener("click",()=>openDetail(tt.id));tg.append(b)});body.append(tg);if(Array.isArray(c.supportSteps)&&c.supportSteps.length){body.append(make("p","support-lead","学び直しのじゅんばん"));const ol=make("ol","support-steps");c.supportSteps.forEach(s=>ol.append(make("li","",s)));body.append(ol)}card.append(head,body);supportList.append(card)});
 fillConnections("before-list",incoming.map(r=>({...r,topicId:r.from})),map,"この学びより前に決まった学びは、まだありません。関連する学びも見てみよう。");fillConnections("after-list",outgoing.map(r=>({...r,topicId:r.to})),map,"この先は、関連する学びや道すじで広げてみよう。");fillConnections("related-list",related.map(r=>({...r,topicId:r.from===id?r.to:r.from})),map);
