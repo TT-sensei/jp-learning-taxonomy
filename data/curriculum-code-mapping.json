@@ -8532,6 +8532,26 @@
       "candidateCodes": [],
       "verifiedCodes": [],
       "sourceId": "mext-elementary-special-activities-guideline-2017"
+    },
+    {
+      "topicId": "jp.elem.japanese.romaji-reading-and-writing",
+      "officialCodes": [],
+      "matchStatus": "not-checked",
+      "matchType": "none",
+      "note": "ローマ字の読み書きは第3学年の公式内容として確認。対応する細目コードの意味照合は未実施のため、コードを推測せず未照合とする。",
+      "candidateCode": null,
+      "verifiedCode": null,
+      "sourceId": "jp-cos-elementary-curriculum-lod-82v11",
+      "candidateCodes": [],
+      "relatedParentCodes": [],
+      "officialAudit": {
+        "officialVersion": "82V12",
+        "checkedAt": null,
+        "codeExistence": "not-checked",
+        "subjectGradeCheck": "not-checked",
+        "semanticStatus": "not-checked",
+        "relatedParentCodes": []
+      }
     }
   ]
 }
