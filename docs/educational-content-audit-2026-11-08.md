@@ -159,8 +159,8 @@
 | 関係の種類 | 件数 |
 | --- | ---: |
 | prerequisite（前提） | 6 |
-| recommended-prerequisite（学ぶと役立つ） | 190 |
-| related-learning（関連） | 126 |
+| recommended-prerequisite（学ぶと役立つ） | 191 |
+| related-learning（関連） | 125 |
 | application（活用） | 87 |
 | extension（発展） | 39 |
 
