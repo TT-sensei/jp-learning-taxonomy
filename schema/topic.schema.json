@@ -184,6 +184,46 @@
       "additionalProperties": false,
       "description": "Candidate placement and its evidence status; this is not automatically an official grade assignment."
     },
+    "learningGoals": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 2,
+      "maxItems": 3,
+      "uniqueItems": true,
+      "description": "Learning goals for this topic, written in the form 〜できる (2-3 per topic). Editorial candidates while reviewStatus is needs-review. Superseded topics may omit this field."
+    },
+    "gradeBandProgression": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "gradeBand",
+          "label",
+          "description"
+        ],
+        "properties": {
+          "gradeBand": {
+            "type": "string",
+            "minLength": 1,
+            "description": "A single grade (e.g. 3) or a grade band (e.g. 1-2, 3-4, 5-6)."
+          },
+          "label": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": false
+      },
+      "minItems": 1,
+      "description": "How the learning deepens across grade bands, for topics where a single grade-by-grade placement does not fit the subject. Editorial arrangement based on the curriculum's stage divisions; it does not prescribe a fixed order for every school."
+    },
     "conceptualPillarCandidates": {
       "type": "array",
       "items": {
