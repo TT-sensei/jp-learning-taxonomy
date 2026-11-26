@@ -12,28 +12,28 @@
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["id", "topicId", "title", "difficultySignals", "checkQuestion", "reviewTargets", "evidenceType", "reviewStatus", "evidence"],
+        "required": ["id", "topicId", "difficulty", "description", "signs", "reviewTargets", "supportSteps", "studentPrompt", "evidenceType", "reviewStatus", "evidence"],
         "properties": {
           "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9.-]+$"},
           "topicId": {"type": "string", "minLength": 1},
-          "title": {"type": "string", "minLength": 1},
-          "difficultySignals": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
-          "studentPerspective": {"type": "string"},
-          "checkQuestion": {"type": "string", "minLength": 1},
+          "difficulty": {"type": "string", "minLength": 1},
+          "description": {"type": "string", "minLength": 1},
+          "signs": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
           "reviewTargets": {
             "type": "array",
+            "minItems": 1,
             "items": {
               "type": "object",
-              "required": ["topicId", "reason", "priority"],
+              "required": ["topicId", "reason"],
               "properties": {
                 "topicId": {"type": "string", "minLength": 1},
-                "reason": {"type": "string", "minLength": 1},
-                "priority": {"enum": ["first", "next", "optional"]}
+                "reason": {"type": "string", "minLength": 1}
               },
               "additionalProperties": false
             }
           },
-          "studentPrompt": {"type": "string"},
+          "supportSteps": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+          "studentPrompt": {"type": "string", "minLength": 1},
           "evidenceType": {"enum": ["official-explicit", "editorial", "research", "teacher-review", "unknown"]},
           "reviewStatus": {"enum": ["draft", "needs-review", "reviewed", "published"]},
           "evidence": {
