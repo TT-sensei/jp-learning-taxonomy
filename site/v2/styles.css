@@ -151,3 +151,28 @@ html:focus-within{scroll-behavior:auto}
 .teacher-note[open] summary::after{content:"−"}
 .teacher-note p{margin:0;padding:0 13px 12px;font-size:12px;line-height:1.75;color:#5c6d7d}
 .teacher-note summary:focus-visible{outline:3px solid #b7d3ef;outline-offset:-3px}
+
+/* Deepening panel: same strand, deepening grade by grade (2026-11-26) */
+.deepening-panel{margin-top:16px;background:#fbfdff;border:1px solid #d9e6f2;border-radius:18px;padding:16px 18px}
+.deepening-panel h3{margin:0 0 4px;font-size:19px}
+.deepening-panel .panel-note{margin:0 0 6px;color:#5f7185;font-size:13.5px}
+.deepening-path{margin-top:14px;border-top:1px solid #e3ecf4;padding-top:12px}
+.deepening-path-head h4{display:inline;font-size:15px;margin:0 10px 0 0;color:#33506e}
+.deepening-question{display:inline;font-size:12px;color:#71879c;margin:0}
+.deepening-stages{margin-top:8px}
+.deepening-stage{display:grid;grid-template-columns:170px minmax(0,1fr);gap:6px 14px;padding:10px 8px;border-top:1px solid #edf2f7;border-radius:10px}
+.deepening-stage:first-child{border-top:0}
+.deepening-stage.has-current{background:#f1f8f2}
+.deepening-side{min-width:0}
+.deepening-grades{display:inline-block;font-size:11px;font-weight:700;color:#3d6390;background:#eef5fd;border-radius:7px;padding:3px 8px}
+.deepening-stage.has-current .deepening-grades{background:#dcefe2;color:#256b47}
+.deepening-stage-label{display:block;font-size:13px;font-weight:700;color:#3c5872;margin-top:5px;line-height:1.5}
+.deepening-stage-desc{display:block;font-size:11px;line-height:1.6;color:#71879c;margin-top:3px}
+.deepening-topics{display:flex;gap:6px;flex-wrap:wrap;align-content:flex-start}
+.deepening-topic{min-height:38px}
+.deepening-topic.is-current{background:#e7f3ec;border-color:#7fb894;color:#256b47;font-weight:700}
+.here-tag{display:inline-block;margin-left:7px;font-size:10px;font-weight:700;color:#fff;background:#3f8a68;border-radius:999px;padding:2px 7px;vertical-align:1px}
+@media(max-width:760px){
+.deepening-panel{padding:13px}
+.deepening-stage{grid-template-columns:1fr;gap:7px}
+}

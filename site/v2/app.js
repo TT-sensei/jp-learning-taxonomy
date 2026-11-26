@@ -139,6 +139,28 @@ card.append(make("span","grade-progression-label",stage.label||yearLabel),make("
 progressionList.append(card);
 });
 const goals=Array.isArray(t.learningGoals)?t.learningGoals:[];$("goal-panel").hidden=goals.length===0;$("goal-list").replaceChildren(...goals.map(g=>make("li","",g)));
+const deepPanel=$("deepening-panel"),deepList=$("deepening-list");deepList.replaceChildren();
+const myPaths=state.pathways.filter(p=>(p.stages||[]).some(s=>(s.topicIds||[]).includes(id))).sort((a,b)=>((b.subject===t.subject)?1:0)-((a.subject===t.subject)?1:0)||String(a.title).localeCompare(String(b.title),"ja"));
+deepPanel.hidden=myPaths.length===0;
+myPaths.forEach(p=>{
+const block=make("section","deepening-path");
+const head=make("div","deepening-path-head");
+head.append(make("h4","",p.title));
+if(p.question)head.append(make("p","deepening-question",p.question));
+block.append(head);
+const stages=make("div","deepening-stages");
+(p.stages||[]).forEach(stage=>{
+const row=make("div","deepening-stage");
+if((stage.topicIds||[]).includes(id))row.classList.add("has-current");
+const side=make("div","deepening-side");
+side.append(make("span","deepening-grades",stage.grades||""),make("span","deepening-stage-label",stage.label||""));
+if(stage.description)side.append(make("small","deepening-stage-desc",stage.description));
+const chips=make("div","deepening-topics");
+(stage.topicIds||[]).forEach(tid=>{const tt=map.get(tid);if(!tt)return;const b=make("button","pathway-topic deepening-topic");b.type="button";b.textContent=tt.studentName||tt.name;if(tid===id){b.classList.add("is-current");const tag=make("span","here-tag","今ここ");b.append(tag)}b.addEventListener("click",()=>openDetail(tid));chips.append(b)});
+row.append(side,chips);stages.append(row);
+});
+block.append(stages);deepList.append(block);
+});
 const cases=state.supportCases.filter(c=>c.topicId===id);$("support-panel").hidden=cases.length===0;const supportList=$("support-list");supportList.replaceChildren();cases.forEach(c=>{const card=make("article","support-case");const head=make("button","support-case-head",c.studentPrompt||c.difficulty);head.type="button";head.setAttribute("aria-expanded","false");const body=make("div","support-case-body");body.hidden=true;head.addEventListener("click",()=>{body.hidden=!body.hidden;head.setAttribute("aria-expanded",String(!body.hidden))});body.append(make("p","support-lead","戻るとよい学び"));const tg=make("div","support-targets");(c.reviewTargets||[]).forEach(rt=>{const tt=map.get(rt.topicId);if(!tt)return;const b=make("button","connection-item");b.type="button";b.append(make("strong","",tt.studentName||tt.name),make("small","",gradeRangeLabel(tt)));if(rt.reason)b.append(make("span","cross-subject-reason",rt.reason));b.addEventListener("click",()=>openDetail(tt.id));tg.append(b)});body.append(tg);if(Array.isArray(c.supportSteps)&&c.supportSteps.length){body.append(make("p","support-lead","学び直しのじゅんばん"));const ol=make("ol","support-steps");c.supportSteps.forEach(s=>ol.append(make("li","",s)));body.append(ol)}card.append(head,body);supportList.append(card)});
 fillConnections("before-list",incoming.map(r=>({...r,topicId:r.from})),map,"この学びより前に決まった学びは、まだありません。関連する学びも見てみよう。");fillConnections("after-list",outgoing.map(r=>({...r,topicId:r.to})),map,"この先は、関連する学びや道すじで広げてみよう。");fillConnections("related-list",related.map(r=>({...r,topicId:r.from===id?r.to:r.from})),map);
 const crossPanel=$("cross-subject-panel"),crossList=$("cross-subject-list");crossList.replaceChildren();crossPanel.hidden=crossSubject.length===0;crossSubject.forEach(r=>{const topicId=r.from===id?r.to:r.from,other=map.get(topicId);if(!other)return;const b=make("button","connection-item cross-subject-item");b.type="button";b.append(make("strong","",other.studentName||other.name),make("small","",other.subject+" ・ "+relationLabel(r.type)));if(r.studentRationale||r.rationale)b.append(make("span","cross-subject-reason",r.studentRationale||r.rationale));b.addEventListener("click",()=>openDetail(other.id));crossList.append(b)});
